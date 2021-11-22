@@ -19,10 +19,11 @@
 ],
 "modules": [
 {
-    "title": "Welcome to IHTS (1)",
+    "title": "History: Dawn of Electronic Computing",
     "anchor": "week1",
     "icon" : "fa-globe",
-    "description": "We get started in the course",
+    "description": "We look at how computing, networks, and information evilved in the 1940's and 1950's.",
+    "slides": "{apphome}/lectures/IHTS-Internet-History-PowerPoint.pptx",
     "discussions" : [
         {
         "title" : "Introduce Yourself",
@@ -30,10 +31,31 @@
         "resource_link_id": "ihts_01_intro"
         }
     ],
-    "videos" : [
+    "lectures" : [
         {
-            "title" : "Welcome to Class",
-            "youtube" : "r27xkb2O"
+            "title" : "Welcome to the Class",
+            "youtube" : "e0TYBIHwe-4",
+            "camtasia": "AA-01-First-Day"
+        },
+        {
+            "title" : "High Stakes Research in Computing and Communication",
+            "youtube" : "Im4RZP_leK",
+            "camtasia": "BB-01-03-Bletchley-TTY33"
+        },
+        {
+            "title" : "IEEE: Alan Turing at Bletchley Park",
+            "youtube" : "5nK_ft0Lf1s",
+            "media": "./2012/2012-06-Bletchley-IEEE.mov"
+        }
+    ],
+    "references" : [
+        {
+            "title" : "Office Hours - Manila, Philippines",
+            "href" : "https://www.youtube.com/watch?v=R6zlQZcM72o&list=PLlRFEj9H3Oj4qyq0OLZ76cMtUUgqUNtmz"
+        },
+        {
+            "title" : "Office Hours - Portland, Oregon, USA",
+            "href" : "https://www.youtube.com/watch?v=lqlbDxdZWZQ&list=PLlRFEj9H3Oj4qyq0OLZ76cMtUUgqUNtmz"
         }
     ]
 },
