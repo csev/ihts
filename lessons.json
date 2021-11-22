@@ -23,7 +23,10 @@
     "anchor": "week1",
     "icon" : "fa-globe",
     "description": "We look at how computing, networks, and information evilved in the 1940's and 1950's.",
-    "slides": "{apphome}/lectures/IHTS-Internet-History-PowerPoint.pptx",
+    "slides": [
+        "{apphome}/lectures/IHTS-Internet-History-PowerPoint.pptx",
+        "{apphome}/lectures/IHTS-Internet-History-PowerPoint-Print.pdf"
+    ],
     "discussions" : [
         {
         "title" : "Introduce Yourself",
@@ -87,7 +90,10 @@
     "anchor": "week2",
     "icon" : "fa-globe",
     "description": "NSFNet.",
-    "slides": "{apphome}/lectures/IHTS-Internet-History-PowerPoint.pptx",
+    "slides": [
+        "{apphome}/lectures/IHTS-Internet-History-PowerPoint.pptx",
+        "{apphome}/lectures/IHTS-Internet-History-PowerPoint-Print.pdf"
+    ],
     "discussions" : [
         {
         "title" : "The First Internet - NSFNet",
@@ -105,7 +111,10 @@
     "anchor": "week3",
     "icon" : "fa-globe",
     "description": "Web.",
-    "slides": "{apphome}/lectures/IHTS-Internet-History-PowerPoint.pptx",
+    "slides": [
+        "{apphome}/lectures/IHTS-Internet-History-PowerPoint.pptx",
+        "{apphome}/lectures/IHTS-Internet-History-PowerPoint-Print.pdf"
+    ],
     "discussions" : [
         {
         "title" : "The impact of the Web",
