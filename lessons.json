@@ -1,0 +1,212 @@
+{
+"title": "Internet History, Security, and  Technology (IHTS)",
+"description" : "Hello and welcome to my site where we take a look at how the Internet came to be and how it works.",
+"count": true,
+"required_modules": [
+    "https://github.com/tsugitools/gift",
+    "https://github.com/tsugitools/youtube",
+    "https://github.com/tsugitools/peer-grade",
+    "https://github.com/tsugitools/tdiscus"
+],
+"badges": [
+],
+"discussions" : [
+    {
+    "title" : "Welcome to Internet History, Technology, and Security",
+    "launch" : "mod/tdiscus/",
+    "resource_link_id": "ihts_discussion_welcome"
+    }
+],
+"modules": [
+{
+    "title": "Welcome to IHTS (1)",
+    "anchor": "week1",
+    "icon" : "fa-globe",
+    "description": "We get started in the course",
+    "discussions" : [
+        {
+        "title" : "Introduce Yourself",
+        "launch" : "mod/tdiscus/",
+        "resource_link_id": "ihts_01_intro"
+        }
+    ],
+    "videos" : [
+        {
+            "title" : "Welcome to Class",
+            "youtube" : "r27xkb2O"
+        }
+    ]
+},
+{
+    "title": "History: The First Internet - NSFNet (2)",
+    "anchor": "week2",
+    "icon" : "fa-globe",
+    "description": "NSFNet.",
+    "slides": "{apphome}/lectures/IHTS-Internet-History-PowerPoint.pptx",
+    "discussions" : [
+        {
+        "title" : "The First Internet - NSFNet",
+        "launch" : "mod/tdiscus/",
+        "resource_link_id": "history_02_nsfnet"
+        }
+    ],
+    "videos" : [
+    ],
+    "references" : [
+    ]
+},
+{
+    "title": "History: The Web Makes it Easy to Use (3)",
+    "anchor": "week3",
+    "icon" : "fa-globe",
+    "description": "Web.",
+    "slides": "{apphome}/lectures/IHTS-Internet-History-PowerPoint.pptx",
+    "discussions" : [
+        {
+        "title" : "The impact of the Web",
+        "launch" : "mod/tdiscus/",
+        "resource_link_id": "ihts_03_web"
+        }
+    ],
+    "videos" : [
+    ],
+    "references" : [
+    ]
+},
+{
+    "title": "History: Commercialization and Growth (4)",
+    "anchor": "week4",
+    "icon" : "fa-globe",
+    "description": "Internet growth in the later 1990's.",
+    "slides": "{apphome}/lectures/IHTS-Internet-History-PowerPoint.pptx",
+    "discussions" : [
+        {
+        "title" : "Commercialization and Growth",
+        "launch" : "mod/tdiscus/",
+        "resource_link_id": "ihts_04_growth"
+        }
+    ],
+    "videos" : [
+    ],
+    "references" : [
+    ],
+    "lti" : [
+    ]
+},
+{
+    "title": "Technology: Internets and Packets (5)",
+    "anchor": "week5",
+    "icon" : "fa-globe",
+    "description": "The low-level basics of the how data moves across the Internet.",
+    "slides": "{apphome}/lectures/IHTS-Internet-Technology-PowerPoint.pptx",
+    "discussions" : [
+        {
+        "title" : "Internets and Packets",
+        "launch" : "mod/tdiscus/",
+        "resource_link_id": "ihts_05_packets"
+        }
+    ],
+    "references" : [
+    ],
+    "lti" : [
+    ]
+},
+{
+    "title": "Technology: Transport Control Protocol (TCP) (6)",
+    "anchor": "week6",
+    "icon" : "fa-globe",
+    "description": "How data is moved reliably across an unreliable underlying network.",
+    "slides": "{apphome}/lectures/IHTS-Internet-Technology-PowerPoint.pptx",
+    "discussions" : [
+        {
+        "title" : "Transport Control Protocol",
+        "launch" : "mod/tdiscus/",
+        "resource_link_id": "discuss_06_tcp"
+        }
+    ],
+    "videos" : [
+    ],
+    "references" : [
+    ],
+    "lti" : [
+    ]
+},
+{
+    "title": "Technology: Application Protocols (7)",
+    "anchor": "week7",
+    "icon" : "fa-globe",
+    "description": "Once we can move data reliably, what different kinds of data do we move.",
+    "slides": "{apphome}/lectures/IHTS-Internet-Technology-PowerPoint.pptx",
+    "discussions" : [
+        {
+        "title" : "Application Protocols",
+        "launch" : "mod/tdiscus/",
+        "resource_link_id": "ihts_08_application"
+        }
+    ],
+    "videos" : [
+    ],
+    "references" : [
+    ],
+    "lti" : [
+    ]
+},
+{
+    "title": "Security: Encrypting and Signing (8)",
+    "anchor": "week8",
+    "icon" : "fa-globe",
+    "description": "How we sign and verify data digitally.",
+    "slides": "{apphome}/lectures/IHTS-Internet-Security-PowerPoint.pptx",
+    "discussions" : [
+        {
+        "title" : "Encrypting and Signing",
+        "launch" : "mod/tdiscus/",
+        "resource_link_id": "ihts_08_encrypt"
+        }
+    ],
+    "videos" : [
+    ],
+    "references" : [
+    ]
+},
+{
+    "title": "Security: Web Security (9)",
+    "anchor": "week9",
+    "icon" : "fa-globe",
+    "description": "Web Security.",
+    "slides": "{apphome}/lectures/IHTS-Internet-Security-PowerPoint.pptx",
+    "discussions" : [
+        {
+        "title" : "Web Security",
+        "launch" : "mod/tdiscus/",
+        "resource_link_id": "ihts_09_certificates"
+        }
+    ],
+    "videos" : [
+    ],
+    "references" : [
+    ]
+},
+{
+    "title": "Final Exam and Graduation (10)",
+    "anchor": "week01",
+    "icon" : "fa-globe",
+    "description": "Final exam and graduation.",
+    "slides": [
+        "{apphome}/lectures/07-Elastic.pptx"
+    ],
+    "discussions" : [
+        {
+        "title" : "Elastic Search",
+        "launch" : "mod/tdiscus/",
+        "resource_link_id": "ihts_10_graduation"
+        }
+    ],
+    "videos" : [
+    ],
+    "references" : [
+    ]
+}
+
+]
+}
