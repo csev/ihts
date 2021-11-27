@@ -83,6 +83,13 @@
             "title" : "Bonus: Barcelona IHTS Coursera Office Hours",
             "href" : "https://www.youtube.com/watch?v=JzNHvmSv8TI&list=PLlRFEj9H3Oj4qyq0OLZ76cMtUUgqUNtmz"
         }
+    ],
+    "lti" : [
+        {
+            "title" : "Quiz: Early History",
+            "launch" : "mod/gift/?quiz=week1.txt",
+            "resource_link_id" : "ihts_01_quiz"
+        }
     ]
 },
 {

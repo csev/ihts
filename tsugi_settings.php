@@ -16,7 +16,6 @@ $CFG->providekeys = true;  // true
 
 $CFG->context_title = "IHTS Online";
 $CFG->lessons = $CFG->dirroot.'/../lessons.json';
-$CFG->giftquizzes = $CFG->dirroot.'/../ihts-solutions/quiz';
 $CFG->tdiscus = $CFG->apphome . '/mod/tdiscus/';
 
 $CFG->launcherror = $CFG->apphome . "/launcherror";
