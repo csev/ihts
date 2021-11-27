@@ -64,6 +64,10 @@
             "title" : "Wrap Up and Reflection",
             "youtube" : "XMp__YIBexI",
             "camtasia": "BB-Smarr-99"
+        },
+        {
+            "title" : "IEEE: Len Kleinrock: The First Two Packets on the Internet",
+            "youtube" : "uY7dUJT7Os"
         }
     ],
     "references" : [
@@ -108,9 +112,41 @@
         "resource_link_id": "history_02_nsfnet"
         }
     ],
-    "videos" : [
+    "lectures" : [
+        {
+            "title" : "History through Supercomputers",
+            "youtube" : "Z3mEN4A9Mzc"
+        },
+        {
+            "title" : "IEEE: Larry Smarr",
+            "youtube" : "X3X6fV3GbC"
+        },
+        {
+            "title" : "History through NSFNet",
+            "youtube" : "0TApMS3XUVA"
+        },
+        {
+            "title" : "IEEE: Doug Van Houweling - Building the NSFNet",
+            "youtube" : "eThPe_obLIc"
+        },
+        {
+            "title" : "Reflection on NSFNet",
+            "youtube" : "KKk0nsOugU0"
+        }
     ],
     "references" : [
+        {
+            "title" : "Bonus: IEEE: Katie Hafner on the history of the ARPANET project",
+            "href" : "https://www.youtube.com/watch?v=pJ51RMAjLGI"
+        },
+        {
+            "title" : "Bonus: Nii Quaynor: Bringing the Internet to Africa",
+            "href" : "https://www.youtube.com/watch?v=5LXvSs_zugk"
+        },
+        {
+            "title" : "Bonus: Office Hours in Washington DC",
+            "href" : "https://www.youtube.com/watch?v=kinaN5n1tOw&list=PLlRFEj9H3Oj4qyq0OLZ76cMtUUgqUNtmz"
+        }
     ]
 },
 {
