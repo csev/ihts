@@ -97,7 +97,7 @@
     ]
 },
 {
-    "title": "History: The First Internet - NSFNet (2)",
+    "title": "History: The First Internet - NSFNet",
     "anchor": "week2",
     "icon" : "fa-globe",
     "description": "NSFNet.",
@@ -140,7 +140,7 @@
             "href" : "https://www.youtube.com/watch?v=pJ51RMAjLGI"
         },
         {
-            "title" : "Bonus: Nii Quaynor: Bringing the Internet to Africa",
+            "title" : "Bonus: IEEE: Nii Quaynor: Bringing the Internet to Africa",
             "href" : "https://www.youtube.com/watch?v=5LXvSs_zugk"
         },
         {
@@ -150,7 +150,7 @@
     ]
 },
 {
-    "title": "History: The Web Makes it Easy to Use (3)",
+    "title": "History: The Web Makes it Easy to Use",
     "anchor": "week3",
     "icon" : "fa-globe",
     "description": "Web.",
@@ -165,9 +165,37 @@
         "resource_link_id": "ihts_03_web"
         }
     ],
-    "videos" : [
+    "lectures" : [
+        {
+            "title" : "Getting to the Web",
+            "youtube" : "rHLVMt17Za4"
+        },
+        {
+            "title" : "Inventing the Web: Robert Cailliau",
+            "youtube" : "x2GylLq59rI"
+        },
+        {
+            "title" : "The Web Becomes Content",
+            "youtube" : "Z2WttIXdYzw"
+        },
+        {
+            "title" : "Building Mosaic",
+            "youtube" : "wVbID86IZ2A"
+        },
+        {
+            "title" : "IEEE: Joseph Hardin: NCSA Mosaic",
+            "youtube" : "-c8iWUh3Sv4"
+        },
+        {
+            "title" : "Reflecting on Mosaic",
+            "youtube" : "xxArDkgwegk"
+        }
     ],
     "references" : [
+        {
+            "title" : "Bonus: Office Hours Mexico City, Mexico",
+            "href" : "https://www.youtube.com/watch?v=j7fhF-GQi1E"
+        }
     ]
 },
 {
@@ -183,7 +211,7 @@
         "resource_link_id": "ihts_04_growth"
         }
     ],
-    "videos" : [
+    "lectures" : [
     ],
     "references" : [
     ],
@@ -221,7 +249,7 @@
         "resource_link_id": "discuss_06_tcp"
         }
     ],
-    "videos" : [
+    "lectures" : [
     ],
     "references" : [
     ],
@@ -241,7 +269,7 @@
         "resource_link_id": "ihts_08_application"
         }
     ],
-    "videos" : [
+    "lectures" : [
     ],
     "references" : [
     ],
@@ -261,7 +289,7 @@
         "resource_link_id": "ihts_08_encrypt"
         }
     ],
-    "videos" : [
+    "lectures" : [
     ],
     "references" : [
     ]
@@ -279,7 +307,7 @@
         "resource_link_id": "ihts_09_certificates"
         }
     ],
-    "videos" : [
+    "lectures" : [
     ],
     "references" : [
     ]
@@ -299,7 +327,7 @@
         "resource_link_id": "ihts_10_graduation"
         }
     ],
-    "videos" : [
+    "lectures" : [
     ],
     "references" : [
     ]
