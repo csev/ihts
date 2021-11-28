@@ -147,6 +147,13 @@
             "title" : "Bonus: Office Hours in Washington DC",
             "href" : "https://www.youtube.com/watch?v=kinaN5n1tOw&list=PLlRFEj9H3Oj4qyq0OLZ76cMtUUgqUNtmz"
         }
+    ],
+    "lti" : [
+        {
+            "title" : "Quiz: NSFNet - The First Internet",
+            "launch" : "mod/gift/?quiz=week2.txt",
+            "resource_link_id" : "ihts_02_quiz"
+        }
     ]
 },
 {
@@ -195,6 +202,13 @@
         {
             "title" : "Bonus: Office Hours Mexico City, Mexico",
             "href" : "https://www.youtube.com/watch?v=j7fhF-GQi1E"
+        }
+    ],
+    "lti" : [
+        {
+            "title" : "Quiz: The Web",
+            "launch" : "mod/gift/?quiz=week3.txt",
+            "resource_link_id" : "ihts_03_quiz"
         }
     ]
 },
@@ -251,6 +265,11 @@
         }
     ],
     "lti" : [
+        {
+            "title" : "Quiz: The Modern Internet",
+            "launch" : "mod/gift/?quiz=week4.txt",
+            "resource_link_id" : "ihts_04_quiz"
+        }
     ]
 },
 {
@@ -294,10 +313,15 @@
         }
     ],
     "lti" : [
+        {
+            "title" : "Quiz: Internet and Packets",
+            "launch" : "mod/gift/?quiz=week5.txt",
+            "resource_link_id" : "ihts_05_quiz"
+        }
     ]
 },
 {
-    "title": "Technology: Transport Control Protocol (TCP) (6)",
+    "title": "Technology: Transport Control Protocol (TCP)",
     "anchor": "week6",
     "icon" : "fa-globe",
     "description": "How data is moved reliably across an unreliable underlying network.",
@@ -337,6 +361,11 @@
         }
     ],
     "lti" : [
+        {
+            "title" : "Quiz: TCP",
+            "launch" : "mod/gift/?quiz=week6.txt",
+            "resource_link_id" : "ihts_06_quiz"
+        }
     ]
 },
 {
@@ -372,6 +401,11 @@
         }
     ],
     "lti" : [
+        {
+            "title" : "Quiz: Application Layer",
+            "launch" : "mod/gift/?quiz=week7.txt",
+            "resource_link_id" : "ihts_07_quiz"
+        }
     ]
 },
 {
@@ -408,6 +442,13 @@
         {
             "title" : "IEEE: Bruce Schneier - The Security Mindset",
             "href" : "https://www.youtube.com/watch?v=eZNzMKS7zjo"
+        }
+    ],
+    "lti" : [
+        {
+            "title" : "Quiz: Encryption and Signing",
+            "launch" : "mod/gift/?quiz=week8.txt",
+            "resource_link_id" : "ihts_08_quiz"
         }
     ]
 },
@@ -446,11 +487,18 @@
             "title" : "IEEE: Bruce Schneier - Building Cryptographic Systems",
             "href" : "https://www.youtube.com/watch?v=opT6pIfyGUs"
         }
+    ],
+    "lti" : [
+        {
+            "title" : "Quiz: Web Security",
+            "launch" : "mod/gift/?quiz=week9.txt",
+            "resource_link_id" : "ihts_09_quiz"
+        }
     ]
 },
 {
     "title": "Final Exam and Graduation",
-    "anchor": "week01",
+    "anchor": "week10",
     "icon" : "fa-globe",
     "description": "Final exam and graduation.",
     "discussions" : [
@@ -464,6 +512,13 @@
         {
             "title" : "Graduation Ceremony with Curt Bonk",
             "youtube" : "SfQYA0JQWkA"
+        }
+    ],
+    "lti" : [
+        {
+            "title" : "Final Exam",
+            "launch" : "mod/gift/?quiz=final.txt",
+            "resource_link_id" : "ihts_final"
         }
     ]
 }
