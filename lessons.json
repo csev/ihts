@@ -265,14 +265,26 @@
     ],
     "lectures" : [
         {
-            "title" : "Generic Lecture",
-            "youtube" : "3JnrVDXJ2AE"
+            "title" : "Introduction: Link Layer",
+            "youtube" : "xuFT4XzAYmo"
+        },
+        {
+            "title" : "IEEE: Bob Metcalfe on the First Ethernet LAN",
+            "youtube" : "m_agCPNGOzU"
+        },
+        {
+            "title" : "The InterNetwork Protocol (IP)",
+            "youtube" : "Lo7LMxIeAJw"
+        },
+        {
+            "title" : "IEEE: Vint Cerf on the History of Packets",
+            "youtube" : "jZJzNWOY0QI"
         }
     ],
     "references" : [
         {
-            "title" : "Generic Reference",
-            "href" : "https://www.youtube.com/watch?v=GD9RSoVDKkw"
+            "title" : "Bonus: Office Hours - Palo Alto",
+            "href" : "https://www.youtube.com/watch?v=HXw98e41I7I"
         }
     ],
     "lti" : [
