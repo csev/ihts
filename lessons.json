@@ -305,14 +305,26 @@
     ],
     "lectures" : [
         {
-            "title" : "Generic Lecture",
-            "youtube" : "3JnrVDXJ2AE"
+            "title" : "Transport Layer",
+            "youtube" : "CgX9LwnonOU"
+        },
+        {
+            "title" : "IEEE: Van Jacobson - The Slow Start Algorithm",
+            "youtube" : "QP4A6L7CEqA"
+        },
+        {
+            "title" : "DNS - The Somain Name System",
+            "youtube" : "FUBhb2kvRlU"
+        },
+        {
+            "title" : "TCP Wrap Up",
+            "youtube" : "HJRW9s-hNyQ"
         }
     ],
     "references" : [
         {
-            "title" : "Generic Reference",
-            "href" : "https://www.youtube.com/watch?v=GD9RSoVDKkw"
+            "title" : "Bonus: Ann Arbor Office Hours",
+            "href" : "https://www.youtube.com/watch?v=I9rPidDyfVE"
         }
     ],
     "lti" : [
