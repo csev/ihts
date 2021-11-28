@@ -375,7 +375,7 @@
     ]
 },
 {
-    "title": "Security: Encrypting and Signing (8)",
+    "title": "Security: Encrypting and Signing",
     "anchor": "week8",
     "icon" : "fa-globe",
     "description": "How we sign and verify data digitally.",
@@ -412,7 +412,7 @@
     ]
 },
 {
-    "title": "Security: Web Security (9)",
+    "title": "Security: Web Security",
     "anchor": "week9",
     "icon" : "fa-globe",
     "description": "Web Security.",
@@ -429,14 +429,22 @@
     ],
     "lectures" : [
         {
-            "title" : "Generic Lecture",
-            "youtube" : "3JnrVDXJ2AE"
+            "title" : "Security Public/Private Key - Secure Sockets",
+            "youtube" : "EMjJZ92aj7w"
+        },
+        {
+            "title" : "Diffie Hellman Merkle US Inventors Hall of Fame",
+            "youtube" : "ROCray7RTqM"
+        },
+        {
+            "title" : "Security - Integrity and Certificate Authorities",
+            "youtube" : "_y8yS1LrIrw"
         }
     ],
     "references" : [
         {
-            "title" : "Generic Reference",
-            "href" : "https://www.youtube.com/watch?v=GD9RSoVDKkw"
+            "title" : "IEEE: Bruce Schneier - Building Cryptographic Systems",
+            "href" : "https://www.youtube.com/watch?v=opT6pIfyGUs"
         }
     ]
 },
