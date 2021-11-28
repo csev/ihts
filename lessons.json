@@ -251,7 +251,7 @@
     ]
 },
 {
-    "title": "Technology: Internets and Packets (5)",
+    "title": "Technology: Internets and Packets",
     "anchor": "week5",
     "icon" : "fa-globe",
     "description": "The low-level basics of the how data moves across the Internet.",
@@ -263,7 +263,17 @@
         "resource_link_id": "ihts_05_packets"
         }
     ],
+    "lectures" : [
+        {
+            "title" : "Generic Lecture",
+            "youtube" : "3JnrVDXJ2AE"
+        }
+    ],
     "references" : [
+        {
+            "title" : "Generic Reference",
+            "href" : "https://www.youtube.com/watch?v=GD9RSoVDKkw"
+        }
     ],
     "lti" : [
     ]
@@ -282,8 +292,16 @@
         }
     ],
     "lectures" : [
+        {
+            "title" : "Generic Lecture",
+            "youtube" : "3JnrVDXJ2AE"
+        }
     ],
     "references" : [
+        {
+            "title" : "Generic Reference",
+            "href" : "https://www.youtube.com/watch?v=GD9RSoVDKkw"
+        }
     ],
     "lti" : [
     ]
@@ -302,8 +320,16 @@
         }
     ],
     "lectures" : [
+        {
+            "title" : "Generic Lecture",
+            "youtube" : "3JnrVDXJ2AE"
+        }
     ],
     "references" : [
+        {
+            "title" : "Generic Reference",
+            "href" : "https://www.youtube.com/watch?v=GD9RSoVDKkw"
+        }
     ],
     "lti" : [
     ]
@@ -322,8 +348,16 @@
         }
     ],
     "lectures" : [
+        {
+            "title" : "Generic Lecture",
+            "youtube" : "3JnrVDXJ2AE"
+        }
     ],
     "references" : [
+        {
+            "title" : "Generic Reference",
+            "href" : "https://www.youtube.com/watch?v=GD9RSoVDKkw"
+        }
     ]
 },
 {
@@ -340,8 +374,16 @@
         }
     ],
     "lectures" : [
+        {
+            "title" : "Generic Lecture",
+            "youtube" : "3JnrVDXJ2AE"
+        }
     ],
     "references" : [
+        {
+            "title" : "Generic Reference",
+            "href" : "https://www.youtube.com/watch?v=GD9RSoVDKkw"
+        }
     ]
 },
 {
@@ -360,8 +402,16 @@
         }
     ],
     "lectures" : [
+        {
+            "title" : "Generic Lecture",
+            "youtube" : "3JnrVDXJ2AE"
+        }
     ],
     "references" : [
+        {
+            "title" : "Generic Reference",
+            "href" : "https://www.youtube.com/watch?v=GD9RSoVDKkw"
+        }
     ]
 }
 
