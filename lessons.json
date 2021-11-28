@@ -449,31 +449,21 @@
     ]
 },
 {
-    "title": "Final Exam and Graduation (10)",
+    "title": "Final Exam and Graduation",
     "anchor": "week01",
     "icon" : "fa-globe",
     "description": "Final exam and graduation.",
-    "slides": [
-        "{apphome}/lectures/IHTS-Internet-Security-PowerPoint.pptx",
-        "{apphome}/lectures/IHTS-Internet-Security-PowerPoint-Print.pdf"
-    ],
     "discussions" : [
         {
-        "title" : "Elastic Search",
+        "title" : "Final Exam and Graduation",
         "launch" : "mod/tdiscus/",
         "resource_link_id": "ihts_10_graduation"
         }
     ],
     "lectures" : [
         {
-            "title" : "Generic Lecture",
-            "youtube" : "3JnrVDXJ2AE"
-        }
-    ],
-    "references" : [
-        {
-            "title" : "Generic Reference",
-            "href" : "https://www.youtube.com/watch?v=GD9RSoVDKkw"
+            "title" : "Graduation Ceremony with Curt Bonk",
+            "youtube" : "SfQYA0JQWkA"
         }
     ]
 }
