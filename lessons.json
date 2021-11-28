@@ -203,7 +203,10 @@
     "anchor": "week4",
     "icon" : "fa-globe",
     "description": "Internet growth in the later 1990's.",
-    "slides": "{apphome}/lectures/IHTS-Internet-History-PowerPoint.pptx",
+    "slides": [
+        "{apphome}/lectures/IHTS-Internet-History-PowerPoint.pptx",
+        "{apphome}/lectures/IHTS-Internet-History-PowerPoint-Print.pdf"
+    ],
     "discussions" : [
         {
         "title" : "Commercialization and Growth",
@@ -255,7 +258,10 @@
     "anchor": "week5",
     "icon" : "fa-globe",
     "description": "The low-level basics of the how data moves across the Internet.",
-    "slides": "{apphome}/lectures/IHTS-Internet-Technology-PowerPoint.pptx",
+    "slides": [
+        "{apphome}/lectures/IHTS-Internet-Technology-PowerPoint.pptx",
+        "{apphome}/lectures/IHTS-Internet-Technology-PowerPoint-Print.pdf"
+    ],
     "discussions" : [
         {
         "title" : "Internets and Packets",
@@ -295,7 +301,10 @@
     "anchor": "week6",
     "icon" : "fa-globe",
     "description": "How data is moved reliably across an unreliable underlying network.",
-    "slides": "{apphome}/lectures/IHTS-Internet-Technology-PowerPoint.pptx",
+    "slides": [
+        "{apphome}/lectures/IHTS-Internet-Technology-PowerPoint.pptx",
+        "{apphome}/lectures/IHTS-Internet-Technology-PowerPoint-Print.pdf"
+    ],
     "discussions" : [
         {
         "title" : "Transport Control Protocol",
@@ -335,7 +344,10 @@
     "anchor": "week7",
     "icon" : "fa-globe",
     "description": "Once we can move data reliably, what different kinds of data do we move.",
-    "slides": "{apphome}/lectures/IHTS-Internet-Technology-PowerPoint.pptx",
+    "slides": [
+        "{apphome}/lectures/IHTS-Internet-Technology-PowerPoint.pptx",
+        "{apphome}/lectures/IHTS-Internet-Technology-PowerPoint-Print.pdf"
+    ],
     "discussions" : [
         {
         "title" : "Application Protocols",
@@ -367,7 +379,10 @@
     "anchor": "week8",
     "icon" : "fa-globe",
     "description": "How we sign and verify data digitally.",
-    "slides": "{apphome}/lectures/IHTS-Internet-Security-PowerPoint.pptx",
+    "slides": [
+        "{apphome}/lectures/IHTS-Internet-Security-PowerPoint.pptx",
+        "{apphome}/lectures/IHTS-Internet-Security-PowerPoint-Print.pdf"
+    ],
     "discussions" : [
         {
         "title" : "Encrypting and Signing",
@@ -377,14 +392,22 @@
     ],
     "lectures" : [
         {
-            "title" : "Generic Lecture",
-            "youtube" : "3JnrVDXJ2AE"
+            "title" : "Security Introduction",
+            "youtube" : "3DuF2gs8Q0c"
+        },
+        {
+            "title" : "Enryption and Confidentiality",
+            "youtube" : "TJY5aFfGFrI"
+        },
+        {
+            "title" : "Integrity and Signatures",
+            "youtube" : "zhf21HUzT08"
         }
     ],
     "references" : [
         {
-            "title" : "Generic Reference",
-            "href" : "https://www.youtube.com/watch?v=GD9RSoVDKkw"
+            "title" : "IEEE: Bruce Schneier - The Security Mindset",
+            "href" : "https://www.youtube.com/watch?v=eZNzMKS7zjo"
         }
     ]
 },
@@ -393,7 +416,10 @@
     "anchor": "week9",
     "icon" : "fa-globe",
     "description": "Web Security.",
-    "slides": "{apphome}/lectures/IHTS-Internet-Security-PowerPoint.pptx",
+    "slides": [
+        "{apphome}/lectures/IHTS-Internet-Security-PowerPoint.pptx",
+        "{apphome}/lectures/IHTS-Internet-Security-PowerPoint-Print.pdf"
+    ],
     "discussions" : [
         {
         "title" : "Web Security",
@@ -420,7 +446,8 @@
     "icon" : "fa-globe",
     "description": "Final exam and graduation.",
     "slides": [
-        "{apphome}/lectures/07-Elastic.pptx"
+        "{apphome}/lectures/IHTS-Internet-Security-PowerPoint.pptx",
+        "{apphome}/lectures/IHTS-Internet-Security-PowerPoint-Print.pdf"
     ],
     "discussions" : [
         {
