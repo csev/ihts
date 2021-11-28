@@ -331,7 +331,7 @@
     ]
 },
 {
-    "title": "Technology: Application Protocols (7)",
+    "title": "Technology: Application Protocols",
     "anchor": "week7",
     "icon" : "fa-globe",
     "description": "Once we can move data reliably, what different kinds of data do we move.",
@@ -345,14 +345,18 @@
     ],
     "lectures" : [
         {
-            "title" : "Generic Lecture",
-            "youtube" : "3JnrVDXJ2AE"
+            "title" : "Application Layer",
+            "youtube" : "ITdOXGVCowc"
+        },
+        {
+            "title" : "IEEE: Van Jacobson - Content Centric Networking",
+            "youtube" : "Bc-4PJPxfVQ"
         }
     ],
     "references" : [
         {
-            "title" : "Generic Reference",
-            "href" : "https://www.youtube.com/watch?v=GD9RSoVDKkw"
+            "title" : "Bonus: Office Hours San Diego, CA",
+            "href" : "https://www.youtube.com/watch?v=irKI5zE0ZVu4"
         }
     ],
     "lti" : [
