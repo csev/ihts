@@ -3,8 +3,11 @@ https://ihts.pr4e.com/ref/bletchley
 https://ihts.pr4e.com/ref/monash
 https://ihts.pr4e.com/ref/nash
 https://ihts.pr4e.com/ref/behold
+https://ihts.pr4e.com/ref/katie
+https://ihts.pr4e.com/ref/theory
 https://ihts.pr4e.com/ref/smarr
 https://ihts.pr4e.com/ref/nsfnet
+https://ihts.pr4e.com/ref/africa
 https://ihts.pr4e.com/ref/jobs
 https://ihts.pr4e.com/ref/cernettes
     https://www.youtube.com/user/cernettes
@@ -20,4 +23,17 @@ https://ihts.pr4e.com/ref/baker
 https://ihts.pr4e.com/ref/gpl
 https://ihts.pr4e.com/ref/apache
 https://ihts.pr4e.com/ref/php
+
+Technology
+
+https://ihts.pr4e.com/ref/ethernet
+https://ihts.pr4e.com/ref/cerf
+https://ihts.pr4e.com/ref/van
+
+Security
+
+https://ihts.pr4e.com/ref/mindset
+https://ihts.pr4e.com/ref/hash
+https://ihts.pr4e.com/ref/public
+
 
