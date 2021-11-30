@@ -8,11 +8,9 @@ require "nav.php";
 
 ?>
 <div id="container">
-<!--
 <div style="margin-left: 10px; float:right">
-<iframe width="400" height="225" src="https://www.youtube.com/embed/flRUuodVPq0?rel=0" frameborder="0" allowfullscreen></iframe>
+<iframe width="400" height="225" src="https://www.youtube.com/embed/onEh_zuvql4?rel=0" frameborder="0" allowfullscreen></iframe>
 </div>
--->
 <h1><?= $CFG->servicedesc ?></h1>
 <p>
 This web site provides free / OER materials to help you learn the history and inner workings of the Internet.
