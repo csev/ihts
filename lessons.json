@@ -38,12 +38,13 @@
         {
             "title" : "Welcome to the Class",
             "youtube" : "onEh_zuvql4",
-            "fcpx": " 2021-11-28-New-Intro-1080.m4v"
+            "fcpx": "2021-11-28-New-Intro-1080.m4v"
         },
         {
             "title" : "High Stakes Research in Computing and Communication",
-            "youtube" : "Im4RZP_leK",
-            "camtasia": "BB-01-03-Bletchley-TTY33"
+            "youtube" : "Kkcx8u8ggxU",
+            "camtasia": "BB-01-03-Bletchley-TTY33",
+            "output": "003-BB-01-03-Bletchley-TTY33.mp4"
         },
         {
             "title" : "IEEE: Alan Turing at Bletchley Park",
