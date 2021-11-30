@@ -52,16 +52,22 @@
             "media": "./2012/2012-06-Bletchley-IEEE.mov"
         },
         {
-            "title" : "Post-War Communication and Communication with Phone Lines",
-            "youtube" : "_ntHctIGwq8",
-            "camtasia": "BB-03-TTY33-05-Smarr"
+            "title" : "The 'First' Electronic Computers Around the World",
+            "youtube" : "h0-yRBB-Xrs",
+            "camtasia": "005-BB-03-TTY33-05-Smarr"
         },
         {
-            "title" : "Dial-Up Access by Using the Michigan Terminal System (watch only the first six minutes)",
-            "youtube" : "cO6asQjQmPM",
-            "media": "UMich"
+            "title" : "IEEE: Monash Museum of Computing History",
+            "youtube" : "o7_dQbKPG_Q",
+            "media": "./2012/2012-03-Monash-IEEE.mov"
         },
         {
+            "title" : "Post-War Computing and Communication",
+            "youtube" : "d2oNNonKn8U ",
+            "camtasia": "007-BB-03-TTY33-05-Smarr"
+        },
+        {
+            "todo" : "UP NEXT",
             "title" : "Wrap Up and Reflection",
             "youtube" : "XMp__YIBexI",
             "camtasia": "BB-Smarr-99"
