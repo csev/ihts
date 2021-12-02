@@ -30,6 +30,9 @@ $CFG->theme = array(
     "font-size" => "14px", // This is the base font size used for body copy. Headers,etc. are scaled off this value
 );
 
+$CFG->privacy_url = $CFG->apphome . '/privacy';
+$CFG->sla_url = $CFG->apphome . '/service';
+
 $buildmenu = $CFG->dirroot.'/../buildmenu.php';
 if ( file_exists($buildmenu) ) {
     require_once $buildmenu;
