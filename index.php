@@ -17,7 +17,12 @@ This web site provides free / OER materials to help you learn the history and in
 You can take this course and receive a certificate at:
 <ul>
 <li><a href="https://www.coursera.org/learn/internet-history" target="_blank">Coursera: <?= $CFG->servicedesc ?></a> </li>
+<li><a href="https://online.umich.edu/courses/internet-history-technology-and-security/" target="_blank">Free certificates for University of Michgan students and staff</a></li>
 </ul>
+</p>
+<p>
+If you 
+<a href="tsugi/login.php">log in</a> to this site you have joined a free, global open and online course. You have a grade book, autograded assignments and discussion forums.
 </p>
 <h2>Technology</h2>
 <p>
