@@ -44,6 +44,8 @@
             "title" : "High Stakes Research in Computing and Communication",
             "youtube" : "Kkcx8u8ggxU",
             "camtasia": "BB-01-03-Bletchley-TTY33",
+            "ref": "bletchley",
+            "length": "7:23",
             "output": "003-BB-01-03-Bletchley-TTY33.mp4"
         },
         {
@@ -54,6 +56,8 @@
         {
             "title" : "The 'First' Electronic Computers Around the World",
             "youtube" : "h0-yRBB-Xrs",
+            "length": "2:51",
+            "ref": "monash",
             "camtasia": "005-BB-03-TTY33-05-Smarr"
         },
         {
@@ -64,11 +68,14 @@
         {
             "title" : "Post-War Computing and Communication",
             "youtube" : "d2oNNonKn8U",
+            "length": "11:56",
             "camtasia": "007-BB-03-TTY33-05-Smarr"
         },
         {
             "title" : "Early Academic Networking Research",
             "youtube" : "hoza7jv2Efc",
+            "length": "15:36",
+            "ref": "behold",
             "camtasia": "008-BB-02-TTY33-Smarr.mp4"
         },
         {
@@ -115,61 +122,86 @@
     ]
 },
 {
-    "title": "History: The First Internet - NSFNet",
+    "title": "History: Research and Design of Packet Networks",
     "anchor": "week2",
     "icon" : "fa-globe",
-    "description": "NSFNet.",
+    "description": "NSFNet",
     "slides": [
         "{apphome}/lectures/IHTS-Internet-History-PowerPoint.pptx",
         "{apphome}/lectures/IHTS-Internet-History-PowerPoint-Print.pdf"
     ],
     "discussions" : [
         {
-        "title" : "The First Internet - NSFNet",
+        "title" : "Research and Design of Packet Networks",
         "launch" : "mod/tdiscus/",
-        "resource_link_id": "history_02_nsfnet"
+        "resource_link_id": "history_02_packets"
         }
     ],
     "lectures" : [
         {
-            "title" : "History through Supercomputers",
+            "title" : "Packet Switched Networks",
             "youtube" : "AH_N9-30Ju0",
+            "length" : "5:43",
+            "ref" : "theory",
             "camtasia": "010-BB-02-TTY33-Smarr.mp4"
+        },
+        {
+            "title" : "IEEE: Kleinrock - Packet Theory",
+            "youtube" : "qsgrtrwydjw"
+        },
+        {
+            "title" : "Packet Switching and the ARPANET",
+            "youtube" : "4XXUzABvBcM",
+            "length" : "1:19",
+            "ref" : "katie",
+            "camtasia": "012-BB-02-TTY33-Smarr.mp4"
+        },
+        {
+            "title" : "IEEE: Katie Hafner - The History of the APANET",
+            "youtube" : "pJ51RMAjLGI"
+        },
+        {
+            "title" : "Supercomputers as Technology Drivers",
+            "youtube" : "8v92r7BU0_4",
+            "length" : "3:44",
+            "ref" : "smarr",
+            "camtasia": "014-BB-02-TTY33-Smarr.mp4"
         },
         {
             "title" : "IEEE: Larry Smarr",
             "youtube" : "gJ16VinDPY4"
         },
         {
-            "todo": "UP NEXT",
             "title" : "From Super Computers to NSFNet",
-            "youtube" : "0TApMS3XUVA"
+            "youtube" : "fClkJXJtzUU",
+            "length": "3:21",
+            "ref" : "nsfnet",
+            "camtasia": "016-BB-03-Smarr-99.mp4"
         },
         {
             "title" : "IEEE: Doug Van Houweling - Building the NSFNet",
             "youtube" : "eThPe_obLIc"
         },
         {
-            "title" : "Reflection on NSFNet",
-            "youtube" : "KKk0nsOugU0"
+            "title" : "Expanding NSFNet Around the World",
+            "youtube" : "4ubtil0goWU",
+            "length": "2:29",
+            "ref" : "africa",
+            "camtasia": "018-BB-03-Smarr-99.mp4"
+        },
+        {
+            "title" : "IEEE: Nii Quaynor: Bringing the Internet to Africa",
+            "youtube" : "5LXvSs_zugk"
         }
     ],
     "references" : [
-        {
-            "title" : "Bonus: IEEE: Katie Hafner on the history of the ARPANET project",
-            "href" : "https://www.youtube.com/watch?v=pJ51RMAjLGI"
-        },
-        {
-            "title" : "Bonus: IEEE: Nii Quaynor: Bringing the Internet to Africa",
-            "href" : "https://www.youtube.com/watch?v=5LXvSs_zugk"
-        },
         {
             "title" : "Bonus: Office Hours in Washington DC",
             "href" : "https://www.youtube.com/watch?v=kinaN5n1tOw&list=PLlRFEj9H3Oj4qyq0OLZ76cMtUUgqUNtmz"
         },
         {
-            "title" : "Bonus: Larry Smarr - Unedited Footage",
-            "youtube" : "X3X6fV3GbC"
+            "title" : "Bonus: Larry Smarr - SI502 - Unedited Footage",
+            "href" : "https://www.youtube.com/watch?v=X3X6fV3GbCI"
         }
     ],
     "lti" : [
