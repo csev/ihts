@@ -22,7 +22,7 @@
     "title": "History: Dawn of Electronic Computing",
     "anchor": "week1",
     "icon" : "fa-globe",
-    "description": "We look at how computing, networks, and information evilved in the 1940's and 1950's.",
+    "description": "We look at how computing, networks, and information evolved in the 1940's and 1950's.",
     "slides": [
         "{apphome}/lectures/IHTS-Internet-History-PowerPoint.pptx",
         "{apphome}/lectures/IHTS-Internet-History-PowerPoint-Print.pdf"
@@ -133,14 +133,16 @@
     "lectures" : [
         {
             "title" : "History through Supercomputers",
-            "youtube" : "Z3mEN4A9Mzc"
+            "youtube" : "AH_N9-30Ju0",
+            "camtasia": "010-BB-02-TTY33-Smarr.mp4"
         },
         {
             "title" : "IEEE: Larry Smarr",
-            "youtube" : "X3X6fV3GbC"
+            "youtube" : "gJ16VinDPY4"
         },
         {
-            "title" : "History through NSFNet",
+            "todo": "UP NEXT",
+            "title" : "From Super Computers to NSFNet",
             "youtube" : "0TApMS3XUVA"
         },
         {
@@ -164,6 +166,10 @@
         {
             "title" : "Bonus: Office Hours in Washington DC",
             "href" : "https://www.youtube.com/watch?v=kinaN5n1tOw&list=PLlRFEj9H3Oj4qyq0OLZ76cMtUUgqUNtmz"
+        },
+        {
+            "title" : "Bonus: Larry Smarr - Unedited Footage",
+            "youtube" : "X3X6fV3GbC"
         }
     ],
     "lti" : [
