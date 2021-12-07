@@ -63,21 +63,32 @@
         },
         {
             "title" : "Post-War Computing and Communication",
-            "youtube" : "d2oNNonKn8U ",
+            "youtube" : "d2oNNonKn8U",
             "camtasia": "007-BB-03-TTY33-05-Smarr"
         },
         {
-            "todo" : "UP NEXT",
-            "title" : "Wrap Up and Reflection",
-            "youtube" : "XMp__YIBexI",
-            "camtasia": "BB-Smarr-99"
+            "title" : "Early Academic Networking Research",
+            "youtube" : "hoza7jv2Efc",
+            "camtasia": "008-BB-02-TTY33-Smarr.mp4"
         },
         {
             "title" : "IEEE: Len Kleinrock: The First Two Packets on the Internet",
-            "youtube" : "uY7dUJT7Os"
+            "youtube" : "uY7dUJT7OsU"
         }
     ],
     "references" : [
+        {
+            "title" : "Paper: IEEE - Alan Turing at Bletchley Park",
+            "href" : "{apphome}/columns/2012-06-Bletchley-Turing-Copyright-IEEE.pdf"
+        },
+        {
+            "title" : "Paper: IEEE - Monash Museum of Computing History",
+            "href" : "{apphome}/columns/2012-03-Monash-Copyright-IEEE.pdf"
+        },
+        {
+            "title" : "Paper: IEEE - Len Kleinrock: The First Two Packets on the Internet",
+            "href" : "{apphome}/columns/2014-03-Kleinrock-Lo-And-Behold-Copyright-IEEE.pdf"
+        },
         {
             "title" : "Bonus: Office Hours - Manila, Philippines",
             "href" : "https://www.youtube.com/watch?v=R6zlQZcM72o&list=PLlRFEj9H3Oj4qyq0OLZ76cMtUUgqUNtmz"
