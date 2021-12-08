@@ -303,37 +303,38 @@
     "lectures" : [
         {
             "title" : "The Year of the web (1994)",
-            "youtube" : "TBD",
+            "youtube" : "M76fsYsp4u0",
             "length": "3:57",
             "ref" : "eich / baker",
             "camtasia": "024B-BB-03-Smarr-99.mp4"
-        },
-        {
-            "title" : "IEEE: Brendan Eich - Creating JavaScript",
-            "youtube" : "IPxQ9kEaF8c"
         },
         {
             "title" : "IEEE: Mitchell Baker - Mozilla Foundation",
             "youtube" : "M-CYRO0PwQs"
         },
         {
-            "title" : "Assume the Web",
-            "youtube" : "twYugbJ4byU"
+            "title" : "IEEE: Brendan Eich - Creating JavaScript",
+            "youtube" : "IPxQ9kEaF8c"
         },
         {
-            "title" : "Jeff Bezos - Amazon",
-            "youtube" : "rWRbTnE1PEM"
+            "title" : "The Web, the World, and the Economy",
+            "youtube" : "UJ_P0tCZdBk",
+            "length": "18:36",
+            "ref" : "apache",
+            "camtasia": "027-BB-03-Smarr-99.mp4"
         },
         {
-            "title" : "The Modern Internet",
-            "youtube" : "3JnrVDXJ2AE"
+            "title" : "IEEE: Brian Behlendorf on the Apache Software Foundation",
+            "youtube" : "6kRMlfIBMCY"
+        },
+        {
+            "title" : "Wrap Up",
+            "youtube" : "CiLATM0RH3o",
+            "length": "0:26",
+            "camtasia": "029-BB-03-Smarr-99.mp4"
         }
     ],
     "references" : [
-        {
-            "title" : "Bonus: Tim Berners-Lee",
-            "href" : "https://www.youtube.com/watch?v=VqJDH0zAZrE"
-        },
         {
             "title" : "Bonus: Office Hours Melbourne",
             "href" : "https://www.youtube.com/watch?v=GD9RSoVDKkw"
