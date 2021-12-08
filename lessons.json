@@ -367,7 +367,10 @@
     "lectures" : [
         {
             "title" : "Introduction: Link Layer",
-            "youtube" : "xuFT4XzAYmo"
+            "camtasia": "030-CC-01-Link.mp4",
+            "length": "26:07",
+            "ref" : "ethernet",
+            "youtube" : "LBigxrdgKtY"
         },
         {
             "title" : "IEEE: Bob Metcalfe on the First Ethernet LAN",
@@ -375,11 +378,21 @@
         },
         {
             "title" : "The InterNetwork Protocol (IP)",
-            "youtube" : "Lo7LMxIeAJw"
+            "camtasia": "032-CC-02-Link.mp4",
+            "length": "35:34",
+            "ref" : "cerf",
+            "youtube" : "k1yggqTgw6Q"
         },
         {
             "title" : "IEEE: Vint Cerf on the History of Packets",
             "youtube" : "jZJzNWOY0QI"
+        },
+        {
+            "title" : "DNS - The Domain Name System",
+            "camtasia": "034-CC-03-DNS.mp4",
+            "length": "7:44",
+            "ref" : "finis",
+            "youtube" : "4wCtinJrBLw"
         }
     ],
     "references" : [
@@ -415,15 +428,14 @@
     "lectures" : [
         {
             "title" : "Transport Layer",
-            "youtube" : "CgX9LwnonOU"
+            "camtasia": "035-CC-04-TCP.mp4",
+            "length": "9:30",
+            "ref" : "van",
+            "youtube" : "23qXaHxkqL4"
         },
         {
             "title" : "IEEE: Van Jacobson - The Slow Start Algorithm",
             "youtube" : "QP4A6L7CEqA"
-        },
-        {
-            "title" : "DNS - The Somain Name System",
-            "youtube" : "FUBhb2kvRlU"
         },
         {
             "title" : "TCP Wrap Up",
