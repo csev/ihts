@@ -223,35 +223,56 @@
     ],
     "discussions" : [
         {
-        "title" : "The impact of the Web",
+        "title" : "The Impact of the Web",
         "launch" : "mod/tdiscus/",
         "resource_link_id": "ihts_03_web"
         }
     ],
     "lectures" : [
         {
-            "title" : "Getting to the Web",
-            "youtube" : "rHLVMt17Za4"
+            "title" : "The World-Wide-Web Emerges at CERN",
+            "youtube" : "1GOEhGBCn24",
+            "length": "3:46",
+            "ref" : "cernettes",
+            "camtasia": "020A-BB-03-Smarr-99.mp4"
         },
         {
-            "title" : "Inventing the Web: Robert Cailliau",
-            "youtube" : "x2GylLq59rI"
+            "title" : "Cernettes: Collider",
+            "youtube" : "1e1eLe1ihT0"
         },
         {
-            "title" : "The Web Becomes Content",
-            "youtube" : "Z2WttIXdYzw"
+            "title" : "Building the Web Around the World",
+            "youtube" : "iRFKw9Wt22E",
+            "length": "Really LONG",
+            "ref" : "jobs",
+            "topics": "Blues, Cailliau, Gopher, AT&T, SLAC/Kunz,Gopher, AT&T",
+            "camtasia": "020B-BB-03-Smarr-99.mp4"
         },
         {
-            "title" : "Building Mosaic",
-            "youtube" : "wVbID86IZ2A"
+            "title" : "IEEE: The Second Order Effects of Steve Jobs",
+            "youtube" : "ia1bi1T4FY0"
+        },
+        {
+            "title" : "The Browser for the Rest of Us - Mosaic At NCSA",
+            "youtube" : "TBD",
+            "length": "4:01",
+            "ref" : "hardin",
+            "camtasia": "022-BB-03-Smarr-99.mp4"
         },
         {
             "title" : "IEEE: Joseph Hardin: NCSA Mosaic",
             "youtube" : "-c8iWUh3Sv4"
         },
         {
-            "title" : "Reflecting on Mosaic",
-            "youtube" : "xxArDkgwegk"
+            "title" : "From Mosaic to Netscape to FireFox",
+            "youtube" : "TBD",
+            "length": "4:11",
+            "ref" : "eich / baker",
+            "camtasia": "024-BB-03-Smarr-99.mp4"
+        },
+        {
+            "title" : "IEEE: The Second Order Effects of Steve Jobs",
+            "youtube" : "ia1bi1T4FY0"
         }
     ],
     "references" : [
