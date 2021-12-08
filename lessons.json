@@ -253,8 +253,8 @@
             "youtube" : "ia1bi1T4FY0"
         },
         {
-            "title" : "The Browser for the Rest of Us - Mosaic At NCSA",
-            "youtube" : "TBD",
+            "title" : "Mosaic at NCSA - The Browser for Everybody",
+            "youtube" : "nha6lj1obHA",
             "length": "4:01",
             "ref" : "hardin",
             "camtasia": "022-BB-03-Smarr-99.mp4"
@@ -264,15 +264,10 @@
             "youtube" : "-c8iWUh3Sv4"
         },
         {
-            "title" : "From Mosaic to Netscape to FireFox",
-            "youtube" : "TBD",
-            "length": "4:11",
-            "ref" : "eich / baker",
-            "camtasia": "024-BB-03-Smarr-99.mp4"
-        },
-        {
-            "title" : "IEEE: The Second Order Effects of Steve Jobs",
-            "youtube" : "ia1bi1T4FY0"
+            "title" : "Reflecting on Mosaic",
+            "youtube" : "c0G99okQOCc",
+            "length": "0:13",
+            "camtasia": "024A-BB-03-Smarr-99.mp4"
         }
     ],
     "references" : [
@@ -307,8 +302,11 @@
     ],
     "lectures" : [
         {
-            "title" : "The Year of the Web",
-            "youtube" : "w63m4lAMdfw"
+            "title" : "The Year of the web (1994)",
+            "youtube" : "TBD",
+            "length": "3:57",
+            "ref" : "eich / baker",
+            "camtasia": "024B-BB-03-Smarr-99.mp4"
         },
         {
             "title" : "IEEE: Brendan Eich - Creating JavaScript",
