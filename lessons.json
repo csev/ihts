@@ -439,7 +439,10 @@
         },
         {
             "title" : "TCP Wrap Up",
-            "youtube" : "HJRW9s-hNyQ"
+            "camtasia": "037-CC-05-TCP.mp4",
+            "length": "2:07",
+            "ref" : "finis",
+            "youtube" : "fC6UTSi5Eck"
         }
     ],
     "references" : [
@@ -475,7 +478,10 @@
     "lectures" : [
         {
             "title" : "Application Layer",
-            "youtube" : "ITdOXGVCowc"
+            "camtasia": "037A-CC-06-App.mp4",
+            "length": "25:22",
+            "ref" : "ccn",
+            "youtube" : "sPOiY5MtQqs"
         },
         {
             "title" : "IEEE: Van Jacobson - Content Centric Networking",
@@ -515,22 +521,49 @@
     "lectures" : [
         {
             "title" : "Security Introduction",
-            "youtube" : "3DuF2gs8Q0c"
+            "camtasia": "038-DD-01-Security-Intro-No-CC.mp4",
+            "length": "2:24",
+            "ref" : "mindset",
+            "youtube" : "YcX2r5MWkx0"
         },
         {
-            "title" : "Enryption and Confidentiality",
-            "youtube" : "TJY5aFfGFrI"
+            "title" : "IEEE: Bruce Schneier - The Security Mindset",
+            "youtube" : "eZNzMKS7zjo"
         },
         {
-            "title" : "Integrity and Signatures",
-            "youtube" : "zhf21HUzT08"
+            "title" : "Understanding Security",
+            "camtasia": "040-DD-01-Security-Intro-No-CC.mp4",
+            "length": "9:14",
+            "ref" : "finis",
+            "youtube" : "hWv8X4lQK30"
+        },
+        {
+            "title" : "Encryption and Confidentiality",
+            "camtasia": "041-DD-02-Security-Caesar.mp4",
+            "length": "20:50",
+            "ref" : "finis",
+            "youtube" : "_mlmuArWXH8"
+        },
+        {
+            "title" : "Cryptographic Hashes and Integrity",
+            "camtasia": "042-DD-03-Security-Digest.mp4",
+            "length": "8:52",
+            "ref" : "hash",
+            "youtube" : "_mlmuArWXH8"
+        },
+        {
+            "title" : "IEEE: Bruce Schneier - Building Cryptographic Systems",
+            "youtube" : "opT6pIfyGUs"
+        },
+        {
+            "title" : "Hashing and Digital Signatures",
+            "camtasia": "044-DD-03-Security-Digest.mp4",
+            "length": "21:49",
+            "ref" : "finis",
+            "youtube" : "-dglSvgyCF8"
         }
     ],
     "references" : [
-        {
-            "title" : "IEEE: Bruce Schneier - The Security Mindset",
-            "href" : "https://www.youtube.com/watch?v=eZNzMKS7zjo"
-        }
     ],
     "lti" : [
         {
@@ -571,10 +604,6 @@
         }
     ],
     "references" : [
-        {
-            "title" : "IEEE: Bruce Schneier - Building Cryptographic Systems",
-            "href" : "https://www.youtube.com/watch?v=opT6pIfyGUs"
-        }
     ],
     "lti" : [
         {
