@@ -146,7 +146,7 @@
             "camtasia": "010-BB-02-TTY33-Smarr.mp4"
         },
         {
-            "title" : "IEEE: Kleinrock - Packet Theory",
+            "title" : "IEEE: Len Kleinrock: The Theory of Packets",
             "youtube" : "qsgrtrwydjw"
         },
         {
@@ -195,6 +195,26 @@
         }
     ],
     "references" : [
+        {
+            "title" : "Paper: IEEE - Len Kleinrock: The Theory of Packets",
+            "href" : "{apphome}/columns/2013-08-Klienrock-Packets-Copyright-IEEE.pdf"
+        },
+        {
+            "title" : "Paper: IEEE - Katie Hafner: The Origins of the Internet",
+            "href" : "{apphome}/columns/2013-06-Katie-Hafner-Copyright-IEEE.pdf"
+        },
+        {
+            "title" : "Paper: IEEE - Larry Smarr: Building Mosaic",
+            "href" : "{apphome}/columns/2013-04-Larry-Smarr-Copyright-IEEE.pdf"
+        },
+        {
+            "title" : "Paper: IEEE - Doug Van Houweling: Building the NSFNet",
+            "href" : "{apphome}/columns/2014-04-DVH-NSFNet-Copyright-IEEE.pdf"
+        },
+        {
+            "title" : "Paper: IEEE - Nii Quaynor: Bringing the Internet to Africa",
+            "href" : "{apphome}/columns/2014-09-Nii-Quaynor-Copyright-IEEE.pdf"
+        },
         {
             "title" : "Bonus: Office Hours in Washington DC",
             "href" : "https://www.youtube.com/watch?v=kinaN5n1tOw&list=PLlRFEj9H3Oj4qyq0OLZ76cMtUUgqUNtmz"
@@ -272,6 +292,14 @@
     ],
     "references" : [
         {
+            "title" : "Paper: IEEE - The Second-Order Effects of Steve Jobs",
+            "href" : "{apphome}/columns/2012-01-Steve-Jobs-Copyright-IEEE.pdf"
+        },
+        {
+            "title" : "Paper: IEEE - Joseph Hardin: NCSA Mosaic",
+            "href" : "{apphome}/columns/2014-04-Hardin-Copyright-IEEE.pdf"
+        },
+        {
             "title" : "Bonus: Office Hours Mexico City, Mexico",
             "href" : "https://www.youtube.com/watch?v=j7fhF-GQi1E"
         }
@@ -336,6 +364,18 @@
     ],
     "references" : [
         {
+            "title" : "Paper: IEEE - Mitchell Baker: The Mozilla Foundation",
+            "href" : "{apphome}/columns/2013-01-Mitchell-Copyright-IEEE.pdf"
+        },
+        {
+            "title" : "Paper: IEEE - JavaScript: Designing a Language in 10 Days",
+            "href" : "{apphome}/columns/2012-02-Brendan-Eich-Copyright-IEEE.pdf"
+        },
+        {
+            "title" : "Paper: IEEE - The Apache Software Foundation: Brian Behlendorf",
+            "href" : "{apphome}/columns/2012-10-Brian-Behlendorf-Copyright-IEEE.pdf"
+        },
+        {
             "title" : "Bonus: Office Hours Melbourne",
             "href" : "https://www.youtube.com/watch?v=GD9RSoVDKkw"
         }
@@ -373,7 +413,7 @@
             "youtube" : "LBigxrdgKtY"
         },
         {
-            "title" : "IEEE: Bob Metcalfe on the First Ethernet LAN",
+            "title" : "IEEE: Bob Metcalfe: Ethernet at Forty (years old)",
             "youtube" : "m_agCPNGOzU"
         },
         {
@@ -396,6 +436,14 @@
         }
     ],
     "references" : [
+        {
+            "title" : "Paper: IEEE - Bob Metcalfe: Ethernet at Forty (years old)",
+            "href" : "{apphome}/columns/2013-04-Metcalfe-Copyright-IEEE.pdf"
+        },
+        {
+            "title" : "Paper: IEEE - Vint Cerf: A Brief History of Packets",
+            "href" : "{apphome}/columns/2012-12-Vint-Cerf-Copyright-IEEE.pdf"
+        },
         {
             "title" : "Bonus: Office Hours - Palo Alto",
             "href" : "https://www.youtube.com/watch?v=HXw98e41I7I"
@@ -447,6 +495,10 @@
     ],
     "references" : [
         {
+            "title" : "Paper: IEEE -  Van Jacobson: Getting NSFNet off the Ground",
+            "href" : "{apphome}/columns/2012-05-Van-Jacobson-Copyright-IEEE.pdf"
+        },
+        {
             "title" : "Bonus: Ann Arbor Office Hours",
             "href" : "https://www.youtube.com/watch?v=I9rPidDyfVE"
         }
@@ -489,6 +541,10 @@
         }
     ],
     "references" : [
+        {
+            "title" : "Paper: IEEE - Van Jacobson: Content-Centric Networking",
+            "href" : "{apphome}/columns/2013-01-Van-CCN-Copyright-IEEE.pdf"
+        },
         {
             "title" : "Bonus: Office Hours San Diego, CA",
             "href" : "https://www.youtube.com/watch?v=irKI5zE0ZVu4"
@@ -564,6 +620,14 @@
         }
     ],
     "references" : [
+        {
+            "title" : "Paper: IEEE - Bruce Schneier: The Security Mindset",
+            "href" : "{apphome}/columns/2015-12-Schneier-Mindset-Copyright-IEEE.pdf"
+        },
+        {
+            "title" : "Paper: IEEE - Bruce Schneier: Building Cryptographic Systems",
+            "href" : "{apphome}/columns/2016-03-Schneier-NIST-Copyright-IEEE.pdf"
+        }
     ],
     "lti" : [
         {
