@@ -1,5 +1,6 @@
 <?php
 function check_cookie($title, $redirect="index.php") {
+    global $CFG;
 if ( isset($_POST['secret']) && ($_POST['secret'] == '42' || $_POST['secret'] == ':wq') ) {
     setCookie('secret', '42', time() + 15 * 3600 * 24);
     header("Location: ".$redirect);
@@ -35,11 +36,13 @@ a fun break and look at some cool pictures of
 It is pretty awesome and he races in a series called
 <a href="https://www.24hoursoflemons.com" target="_blank">24 Hours of Lemons</a>.
 </p>
+<?php if ( isset($CFG->privacy_url) ) { ?>
 <p>
 You can view the
-<a href="privacy" target="_new">Privacy policies</a> for this web site before you enter.
+<a href="<?= $CFG->privacy_url ?>" target="_new">Privacy policies</a> for this web site before you enter.
 We take your privacy seriously.
 </p>
+<?php } ?>
 </form>
     <script language="javascript">
     console.log('The code is a number that is central to the book "Hitchhiker\'s Guide to the Galaxy');
