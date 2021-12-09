@@ -57,12 +57,12 @@ We will limit our analysis of PII data to reports requested by the customer or r
 <p>
 It is often said that if you are not paying for a service, then you are the product. For this service, you are not the product and your data/activity is not the product. We retain only as much of your data as is needed to accomplish your teaching and learning goals and for no other purpose. Wherever possible, we give you direct control over the retention of your data and respect your wishes with respect to the retention of your data.
 </p><p>
-Our goal is to comply both with the letter and spirit or privacy laws like the The Family Educational Rights and Privacy Act (FERPA) and EU General Data Protection Regulation (GDPR) regulations. We aspire to a company that far exceeds the minimum requirements of these laws.
+Our goal is to comply both with the letter and spirit or privacy laws like the The Family Educational Rights and Privacy Act (FERPA) and EU General Data Protection Regulation (GDPR) regulations. We aspire to be a company that far exceeds the minimum requirements of these laws and serves as a positive example in protecting learners private information.
 </p><p>
 Much of the software used in this company is open source so you can examine/audit what we are doing with respect to privacy and potentially help us improve our approaches to this very important topic.
 </p>
 <p><strong>Notifications</strong> </p>
-<p>In order to be in line with Fair Information Practices we will take the following responsive action, should a data breach occur: We will notify you via email</p>
+<p>In order to be in line with Fair Information Practices we will notify you by email, should a data breach occur.</p>
 <p>If there are any questions regarding this privacy policy, you may contact us using the information below.<br></p>
 <pre><code>Programming for Everybody (pr4e.com)
 1537 Holbrook Drive
