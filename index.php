@@ -23,6 +23,8 @@ You can take this course and receive a certificate at:
 <p>
 If you 
 <a href="tsugi/login.php">log in</a> to this site you have joined a free, global open and online course. You have a grade book, autograded assignments and discussion forums.
+Since this site is used by learners, we take your 
+<a href="privacy">privacy</a> very seriously.
 </p>
 <h2>Technology</h2>
 <p>
