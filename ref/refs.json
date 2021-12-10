@@ -3,16 +3,20 @@
         "title" : "Bletchley Park",
         "links": [
             {
-                "title": "Video: Alan Turing at Bletchley Park (from IEEE)",
-                "href": "https://www.youtube.com/watch?v=5nK_ft0Lf1s"
-            },
-            {
                  "title" : "Paper: IEEE - Alan Turing at Bletchley Park",
                  "href" : "{apphome}/columns/2012-06-Bletchley-Turing-Copyright-IEEE.pdf"
             },
             {
+                 "title" : "Video: IEEE - Alan Turing at Bletchley Park",
+                 "href" : "https://www.youtube.com/watch?v=5nK_ft0Lf1s"
+            },
+            {
                  "title" : "Audio: IEEE - Computing Conversations podcast: Alan Turing at Bletchley Park",
                  "href" : "https://www.youtube.com/watch?v=SrmGejzDvTA"
+            },
+            {
+                "title": "Web site: Bletchley Park - Milton Keynes (UK)",
+                "href": "https://bletchleypark.org.uk/"
             }
         ]
     },
@@ -37,8 +41,12 @@
         "title" : "A Beautiful Mind / Nash Equilibrium",
         "links": [
             {
-                 "title" : "Video: Nash Equilibrium excerpt for A Beautiful Mind",
+                 "title" : "Video: Nash Equilibrium excerpt from A Beautiful Mind",
                  "href" : "https://www.youtube.com/watch?v=2d_dtTZQyUM"
+            },
+            {
+                 "title" : "Blu-Ray: A Beautiful Mind",
+                 "href" : "https://amzn.to/3rTsT5K"
             }
         ]
     },
@@ -46,12 +54,12 @@
         "title" : "Len Kleinrock: The First Two Packets on the Internet",
         "links": [
             {
-                 "title" : "Video: Len Kleinrock: The First Two Packets on the Internet",
-                 "href" : "https://www.youtube.com/watch?v=uY7dUJT7OsU"
-            },
-            {
                  "title" : "Paper: Len Kleinrock: The First Two Packets on the Internet",
                  "href" : "{apphome}/columns/2014-03-Kleinrock-Lo-And-Behold-Copyright-IEEE.pdf"
+            },
+            {
+                 "title" : "Video: Len Kleinrock: The First Two Packets on the Internet",
+                 "href" : "https://www.youtube.com/watch?v=uY7dUJT7OsU"
             },
             {
                  "title" : "Audio: Len Kleinrock: The First Two Packets on the Internet",
@@ -59,121 +67,165 @@
             }
         ]
     },
-    "zap": {
-        "title" : "",
+    "katie": {
+        "title" : "Katie Hafner: Where Wizards Stay Up Late: The Origins Of The Internet",
         "links": [
             {
-                 "title" : "Park",
-                 "href" : "pdf"
+                 "title" : "Book: Where Wizards Stay Up Late: The Origins Of The Internet",
+                 "href" : "https://amzn.to/3rQaiYb"
+            },
+            {
+                 "title" : "Paper: Katie Hafner - The History of the APANET",
+                 "href" : "{apphome}/columns/2013-06-Katie-Hafner-Copyright-IEEE.pdf"
+            },
+            {
+                 "title" : "Video: Katie Hafner - The History of the APANET",
+                 "href" : "https://www.youtube.com/watch?v=pJ51RMAjLGI"
+            },
+            {
+                 "title" : "Audio: Katie Hafner - The History of the APANET",
+                 "href" : "https://www.youtube.com/watch?v=IUk2KyqrmF8"
             }
         ]
     },
-    "zap": {
-        "title" : "",
+    "theory": {
+        "title" : "Len Kleinrock: The Theory of Packets",
         "links": [
-            {
-                 "title" : "Park",
-                 "href" : "pdf"
-            }
+             {
+                "title" : "Paper: IEEE - Len Kleinrock: The Theory of Packets",
+                "href" : "{apphome}/columns/2013-08-Klienrock-Packets-Copyright-IEEE.pdf"
+             },
+             {
+                "title" : "Video: Len Kleinrock: The Theory of Packets",
+                "href" : "https://www.youtube.com/watch?v=qsgrtrwydjw"
+             },
+             {
+                "title" : "Audio: Len Kleinrock: The Theory of Packets",
+                "href" : "https://www.youtube.com/watch?v=Tb3sbXOyxWI"
+             },
+             {
+                 "title" : "Len Kleinrock's PhD. Thesis (Free download)",
+                 "href" : "https://dspace.mit.edu/handle/1721.1/11562"
+             }
         ]
     },
-    "zap": {
-        "title" : "",
+    "smarr": {
+        "title" : "Larry Smarr - Supercomputers and Technology",
         "links": [
-            {
-                 "title" : "Park",
-                 "href" : "pdf"
-            }
+             {
+                "title" : "Paper: IEEE - Larry Smarr on Building Mosaic",
+                "href" : "{apphome}/columns/2013-04-Larry-Smarr-Copyright-IEEE.pdf"
+             },
+             {
+                "title" : "Video: Larry Smarr on Building Mosaic",
+                "href" : "https://www.youtube.com/watch?v=gJ16VinDPY4"
+             },
+             {
+                "title" : "Audio: Larry Smarr on Building Mosaic",
+                "href" : "https://www.youtube.com/watch?v=3FEx-Eg4S2s"
+             },
+             {
+                 "title" : "Video: Larry Smarr Unedited Video Footage",
+                 "href" : "https://www.youtube.com/watch?v=X3X6fV3GbCI"
+             }
         ]
     },
-    "zap": {
-        "title" : "",
+    "nsfnet": {
+        "title" : "Doug Van Houweling: Building the NSFNet",
         "links": [
-            {
-                 "title" : "Park",
-                 "href" : "pdf"
-            }
+             {
+                "title" : "Paper: IEEE - Doug Van Houweling: Building the NSFNet",
+                "href" : "{apphome}/columns/2014-04-DVH-NSFNet-Copyright-IEEE.pdf"
+             },
+             {
+                "title" : "Video: Doug Van Houweling: Building the NSFNet",
+                "href" : "https://www.youtube.com/watch?v=eThPe_obLIc"
+             },
+             {
+                "title" : "Audio: Doug Van Houweling: Building the NSFNet",
+                "href" : "https://www.youtube.com/watch?v=hgmSyjQwhG4"
+             }
         ]
     },
-    "zap": {
-        "title" : "",
+    "africa": {
+        "title" : "Nii Quaynor: Bringing the Internet to Africa",
         "links": [
-            {
-                 "title" : "Park",
-                 "href" : "pdf"
-            }
+             {
+                "title" : "Paper: IEEE - Nii Quaynor: Bringing the Internet to Africa",
+                "href" : "{apphome}/columns/2014-09-Nii-Quaynor-Copyright-IEEE.pdf"
+             },
+             {
+                "title" : "Video: Nii Quaynor: Bringing the Internet to Africa",
+                "href" : "https://www.youtube.com/watch?v=5LXvSs_zugk"
+             },
+             {
+                "title" : "Audio: Nii Quaynor: Bringing the Internet to Africa",
+                "href" : "https://www.youtube.com/watch?v=lnq6gsjrnWA&t=5"
+             },
+             {
+                "title" : "African Network Information Centre (AFRNIC)",
+                "href" : "https://afrinic.net/"
+             }
         ]
     },
-    "zap": {
-        "title" : "",
+    "jobs": {
+        "title" : "The Second Order Effects of Steve Jobs",
         "links": [
-            {
-                 "title" : "Park",
-                 "href" : "pdf"
-            }
+             {
+                "title" : "Paper: The Second Order Effects of Steve Jobs",
+                "href" : "{apphome}/columns/2012-01-Steve-Jobs-Copyright-IEEE.pdf"
+             },
+             {
+                "title" : "Video: The Second Order Effects of Steve Jobs",
+                "href" : "https://www.youtube.com/watch?v=ia1bi1T4FY0"
+             },
+             {
+                "title" : "NeXT Computers",
+                "href" : "https://en.wikipedia.org/wiki/NeXT"
+             }
         ]
     },
-    "zap": {
-        "title" : "",
+    "cernettes": {
+        "title" : "The Cernettes",
         "links": [
-            {
-                 "title" : "Park",
-                 "href" : "pdf"
-            }
+             {
+                "title" : "Music Video: Collider",
+                "href" : "https://www.youtube.com/watch?v=1e1eLe1ihT0"
+             },
+             {
+                "title" : "The Cernettes YouTube Channel",
+                "href" : "https://www.youtube.com/user/cernettes"
+             }
         ]
     },
-    "zap": {
-        "title" : "",
+    "canettes": {
+        "title" : "The Canettes Blues Band",
         "links": [
-            {
-                 "title" : "Park",
-                 "href" : "pdf"
-            }
+             {
+                "title" : "Canettes Web Site",
+                "href" : "https://canettes.web.cern.ch/"
+             },
+             {
+                "title" : "Music Video: I Got My Mojo Working with Dr. Chuck",
+                "href" : "https://www.youtube.com/watch?v=f90ysF9BenI"
+             }
         ]
     },
-    "zap": {
-        "title" : "",
+    "hardin": {
+        "title" : "Joseph Hardin: NCSA Mosaic",
         "links": [
-            {
-                 "title" : "Park",
-                 "href" : "pdf"
-            }
-        ]
-    },
-    "zap": {
-        "title" : "",
-        "links": [
-            {
-                 "title" : "Park",
-                 "href" : "pdf"
-            }
-        ]
-    },
-    "zap": {
-        "title" : "",
-        "links": [
-            {
-                 "title" : "Park",
-                 "href" : "pdf"
-            }
-        ]
-    },
-    "zap": {
-        "title" : "",
-        "links": [
-            {
-                 "title" : "Park",
-                 "href" : "pdf"
-            }
-        ]
-    },
-    "zap": {
-        "title" : "",
-        "links": [
-            {
-                 "title" : "Park",
-                 "href" : "pdf"
-            }
+             {
+                "title" : "Paper: Joseph Hardin: NCSA Mosaic",
+                "href" : "{apphome}/columns/2014-04-Hardin-Copyright-IEEE.pdf"
+             },
+             {
+                "title" : "Video: Joseph Hardin: NCSA Mosaic",
+                "href" : "https://www.youtube.com/watch?v=-c8iWUh3Sv4"
+             },
+             {
+                "title" : "Audio: Joseph Hardin: NCSA Mosaic",
+                "href" : "https://www.youtube.com/watch?v=3F4PZ_7EFWs&t=5"
+             }
         ]
     },
     "zap": {

@@ -54,6 +54,7 @@ $array = (array) $json;
 echo("<p>IHTS References</p>\n");
 echo('<ul id="ZUL">'."\n");
 foreach ($array as $key => $value) {
+    if ( !isset($value->title) || strlen($value->title) < 1 ) continue;
     if ( !is_array($value->links) || count($value->links) < 1 ) continue;
     echo('<li><span class="caret">'.$value->title."</span></a>\n");
     echo('<ul class="nested">'."\n");
