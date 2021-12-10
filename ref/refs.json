@@ -228,6 +228,83 @@
              }
         ]
     },
+    "baker": {
+        "title" : "Mitchell Baker: The Mozilla Foundation",
+        "links": [
+             {
+                "title" : "Paper: Mitchell Baker: The Mozilla Foundation",
+                "href" : "{apphome}/columns/2013-01-Mitchell-Copyright-IEEE.pdf"
+             },
+             {
+                "title" : "Video: Mitchell Baker: The Mozilla Foundation",
+                "href" : "https://www.youtube.com/watch?v=M-CYRO0PwQs"
+             },
+             {
+                "title" : "Audio: The Mozilla Foundation, with Mitchell Baker",
+                "href" : "https://www.youtube.com/watch?v=FQPjRwahrGw&t=10"
+             }
+        ]
+    },
+    "eich": {
+        "title" : "JavaScript: Designing a Language in 10 Days",
+        "links": [
+             {
+                "title" : "Paper: JavaScript: Designing a Language in 10 Days",
+                "href" : "{apphome}/columns/2012-02-Brendan-Eich-Copyright-IEEE.pdf"
+             },
+             {
+                "title" : "Video: Computing Conversations with Brendan Eich",
+                "href" : "https://www.youtube.com/watch?v=IPxQ9kEaF8c"
+             },
+             {
+                "title" : "Audio: JavaScript: Designing a Language in 10 Days",
+                "href" : "https://www.youtube.com/watch?v=VLHfU_K_FHg"
+             }
+        ]
+    },
+    "gpl": {
+        "title" : "Richard Stallman - GNU Software and the GPL Licence",
+        "links": [
+             {
+                "title" : "Video: Web Pioneers: Richard Stallman",
+                "href" : "https://www.youtube.com/watch?v=ihxGJueWb-I"
+             }
+        ]
+    },
+    "apache": {
+        "title" : "Brian Behlendorf on the Apache Software Foundation",
+        "links": [
+             {
+                "title" : "Paper: Brian Behlendorf on the Apache Software Foundation",
+                "href" : "{apphome}/columns/2012-10-Brian-Behlendorf-Copyright-IEEE.pdf"
+             },
+             {
+                "title" : "Video: Brian Behlendorf on the Apache Software Foundation",
+                "href" : "https://www.youtube.com/watch?v=6kRMlfIBMCY"
+             },
+             {
+                "title" : "Audio: Brian Behlendorf on the Apache Software Foundation",
+                "href" : "https://www.youtube.com/watch?v=hy7gktf2FbI&t=10"
+             }
+        ]
+    },
+    "php": {
+        "title" : "Rasmus Lerdorf - Inventing PHP",
+        "links": [
+             {
+                "title" : "Paper: Rasmus Lerdorf - Inventing PHP",
+                "href" : "{apphome}/columns/2012-11-Rasmus-Lerdorf-Copyright-IEEE.pdf"
+             },
+             {
+                "title" : "Video: Rasmus Lerdorf - Inventing PHP",
+                "href" : "https://www.youtube.com/watch?v=YIGRXEzjE6c"
+             },
+             {
+                "title" : "Audio: Rasmus Lerdorf - Inventing PHP",
+                "href" : "https://www.youtube.com/watch?v=YIGRXEzjE6c&t=10"
+             }
+        ]
+    },
     "zap": {
         "title" : "",
         "links": [
