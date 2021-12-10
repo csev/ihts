@@ -33,7 +33,7 @@
             },
             {
                  "title" : "Audio: Monash Museum of Computing History",
-                 "href" : "https://www.youtube.com/watch?v=l4O710kogn8"
+                 "href" : "https://www.youtube.com/watch?v=l4O710kogn8&t=0"
             }
         ]
     },
@@ -63,7 +63,7 @@
             },
             {
                  "title" : "Audio: Len Kleinrock: The First Two Packets on the Internet",
-                 "href" : "https://www.youtube.com/watch?v=r6nCrbitq0U"
+                 "href" : "https://www.youtube.com/watch?v=r6nCrbitq0U&t=5"
             }
         ]
     },
@@ -84,7 +84,7 @@
             },
             {
                  "title" : "Audio: Katie Hafner - The History of the APANET",
-                 "href" : "https://www.youtube.com/watch?v=IUk2KyqrmF8"
+                 "href" : "https://www.youtube.com/watch?v=IUk2KyqrmF8&t=17"
             }
         ]
     },
@@ -101,7 +101,7 @@
              },
              {
                 "title" : "Audio: Len Kleinrock: The Theory of Packets",
-                "href" : "https://www.youtube.com/watch?v=Tb3sbXOyxWI"
+                "href" : "https://www.youtube.com/watch?v=Tb3sbXOyxWI&t=17"
              },
              {
                  "title" : "Len Kleinrock's PhD. Thesis (Free download)",
@@ -122,7 +122,7 @@
              },
              {
                 "title" : "Audio: Larry Smarr on Building Mosaic",
-                "href" : "https://www.youtube.com/watch?v=3FEx-Eg4S2s"
+                "href" : "https://www.youtube.com/watch?v=3FEx-Eg4S2s&t=10"
              },
              {
                  "title" : "Video: Larry Smarr Unedited Video Footage",
@@ -143,7 +143,7 @@
              },
              {
                 "title" : "Audio: Doug Van Houweling: Building the NSFNet",
-                "href" : "https://www.youtube.com/watch?v=hgmSyjQwhG4"
+                "href" : "https://www.youtube.com/watch?v=hgmSyjQwhG4&t=5"
              }
         ]
     },
@@ -258,7 +258,7 @@
              },
              {
                 "title" : "Audio: JavaScript: Designing a Language in 10 Days",
-                "href" : "https://www.youtube.com/watch?v=VLHfU_K_FHg"
+                "href" : "https://www.youtube.com/watch?v=VLHfU_K_FHg&t=0"
              }
         ]
     },
