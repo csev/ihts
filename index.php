@@ -21,6 +21,10 @@ You can take this course and receive a certificate at:
 </ul>
 </p>
 <p>
+If you are watching the videos on a television, you might find our 
+<a href="ref" target="_blank">quick reference</a> useful on your phone or computer.
+</p>
+<p>
 If you 
 <a href="tsugi/login.php">log in</a> to this site you have joined a free, global open and online course. You have a grade book, autograded assignments and discussion forums.
 Since this site is used by learners, we take your 
