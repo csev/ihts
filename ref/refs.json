@@ -305,13 +305,107 @@
              }
         ]
     },
-    "zap": {
-        "title" : "",
+    "ethernet": {
+        "title" : "Bob Metcalfe - Ethernet Networking",
         "links": [
-            {
-                 "title" : "Park",
-                 "href" : "pdf"
-            }
+             {
+                "title" : "Paper: Bob Metcalfe: Ethernet at Forty (years old)",
+                "href" : "{apphome}/columns/2013-04-Metcalfe-Copyright-IEEE.pdf"
+             },
+             {
+                "title" : "Video: Bob Metcalfe: Ethernet at Forty (years old)",
+                "href" : "https://www.youtube.com/watch?v=m_agCPNGOzU"
+             },
+             {
+                "title" : "Audio: Bob Metcalfe: Ethernet at Forty (years old)",
+                "href" : "https://www.youtube.com/watch?v=rLhoFp2YIgU&t=17"
+             }
+        ]
+    },
+    "cerf": {
+        "title" : "Vint Cerf - The History of Packets",
+        "links": [
+             {
+                "title" : "Paper: Vint Cerf - The History of Packets",
+                "href" : "{apphome}/columns/2012-12-Vint-Cerf-Copyright-IEEE.pdf"
+             },
+             {
+                "title" : "Video: Vint Cerf - The History of Packets",
+                "href" : "https://www.youtube.com/watch?v=jZJzNWOY0QI"
+             },
+             {
+                "title" : "Audio: Vint Cerf - The History of Packets",
+                "href" : "https://www.youtube.com/watch?v=awOa4Pk82Kg&t=10"
+             }
+        ]
+    },
+    "van": {
+        "title" : "Van Jacobson - The Slow Start Algorithm",
+        "links": [
+             {
+                "title" : "Paper: Van Jacobson - Getting NSFNet off the Ground",
+                "href" : "{apphome}/columns/2012-05-Van-Jacobson-Copyright-IEEE.pdf"
+             },
+             {
+                "title" : "Video: Van Jacobson - The Slow Start Algorithm",
+                "href" : "https://www.youtube.com/watch?v=QP4A6L7CEqA"
+             },
+             {
+                "title" : "Audio: Van Jacobson - The Slow Start Algorithm",
+                "href" : "https://www.youtube.com/watch?v=9xQSPjIpF3w&t=0"
+             }
+        ]
+    },
+    "ccn": {
+        "title" : "Van Jacobson - Content Centric Networking",
+        "links": [
+             {
+                "title" : "Paper: Van Jacobson - Content Centric Networking",
+                "href" : "{apphome}/columns/2012-05-Van-Jacobson-Copyright-IEEE.pdf"
+             },
+             {
+                "title" : "Video: Van Jacobson - Content Centric Networking",
+                "href" : "https://www.youtube.com/watch?v=Bc-4PJPxfVQ"
+             },
+             {
+                "title" : "Audio: Van Jacobson - The Slow Start Algorithm",
+                "href" : "https://www.youtube.com/watch?v=Gyt7DFOYt-w&t=10"
+             }
+        ]
+    },
+    "mindset": {
+        "title" : "Bruce Schneier - The Security Mindset",
+        "links": [
+             {
+                "title" : "Paper: Bruce Schneier - The Security Mindset",
+                "href" : "{apphome}/columns/2015-12-Schneier-Mindset-Copyright-IEEE.pdf"
+             },
+             {
+                "title" : "Video: Bruce Schneier - The Security Mindset",
+                "href" : "https://www.youtube.com/watch?v=eZNzMKS7zjo"
+             }
+        ]
+    },
+    "hash": {
+        "title" : "Bruce Schneier - Building Cryptographic Systems",
+        "links": [
+             {
+                "title" : "Paper: Bruce Schneier - Building Cryptographic Systems",
+                "href" : "{apphome}/columns/2016-03-Schneier-NIST-Copyright-IEEE.pdf"
+             },
+             {
+                "title" : "Video: Bruce Schneier - Building Cryptographic Systems",
+                "href" : "https://www.youtube.com/watch?v=opT6pIfyGUs"
+             }
+        ]
+    },
+    "public": {
+        "title" : "Public / Private Key Technology",
+        "links": [
+             {
+                "title" : "Video: Diffie Hellman Merkle US Inventors Hall of Fame",
+                "href" : "https://www.youtube.com/watch?v=ROCray7RTqM"
+             }
         ]
     }
 }

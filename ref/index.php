@@ -3,6 +3,10 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
+body {
+    font-family: sans-serif;
+}
+
 ul, #ZUL {
   list-style-type: none;
 }
@@ -51,7 +55,7 @@ $contents = file_get_contents("refs.json");
 $json = json_decode($contents);
 $array = (array) $json;
 
-echo("<p>IHTS References</p>\n");
+echo("<p>IHTS Quick Reference</p>\n");
 echo('<ul id="ZUL">'."\n");
 foreach ($array as $key => $value) {
     if ( !isset($value->title) || strlen($value->title) < 1 ) continue;
