@@ -51,17 +51,27 @@ ul, #ZUL {
 
 require_once("../tsugi/config.php");
 
+use \Tsugi\Util\U;
+
 $contents = file_get_contents("refs.json");
 $json = json_decode($contents);
 $array = (array) $json;
 
-echo("<p>IHTS Quick Reference</p>\n");
+$ref = U::get_request_document();
+
+echo("<p>");
+echo('<a href="'.$CFG->apphome.'">'.$CFG->servicename.'</a>');
+echo(" Quick Reference</p>\n");
 echo('<ul id="ZUL">'."\n");
 foreach ($array as $key => $value) {
     if ( !isset($value->title) || strlen($value->title) < 1 ) continue;
     if ( !is_array($value->links) || count($value->links) < 1 ) continue;
-    echo('<li><span class="caret">'.$value->title."</span></a>\n");
-    echo('<ul class="nested">'."\n");
+    $down = "";
+    if ( $key == $ref ) $down = " caret-down";
+    $active = "";
+    if ( $key == $ref ) $active = " active";
+    echo('<li><span class="caret'.$down.'">'.$value->title."</span></a>\n");
+    echo('<ul class="nested'.$active.'">'."\n");
     foreach ($value->links as $link) {
         $href = str_replace("{apphome}", $CFG->apphome, $link->href);
         echo('<li><a href="'.$href.'" target="_blank">'.$link->title.'</a></li>'."\n");
@@ -85,4 +95,3 @@ for (i = 0; i < toggler.length; i++) {
 
 </body>
 </html>
-
