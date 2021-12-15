@@ -7,7 +7,7 @@
  */
 
 $CFG->servicename = 'IHTS';
-$CFG->servicedesc = 'Internet History, Techonlogy, and Security';
+$CFG->servicedesc = 'Internet History, Technology, and Security';
 
 // Information on the owner of this system
 $CFG->ownername = 'Charles Severance';
