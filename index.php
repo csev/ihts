@@ -18,6 +18,7 @@ You can take this course and receive a certificate at:
 <ul>
 <li><a href="https://www.coursera.org/learn/internet-history" target="_blank">Coursera: <?= $CFG->servicedesc ?></a> </li>
 <li><a href="https://online.umich.edu/courses/internet-history-technology-and-security/" target="_blank">Free certificates for University of Michgan students and staff</a></li>
+<li>Free Code Camp</li>
 </ul>
 </p>
 <p>
