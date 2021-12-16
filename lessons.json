@@ -168,12 +168,12 @@
             "camtasia": "014-BB-02-TTY33-Smarr.mp4"
         },
         {
-            "title" : "IEEE: Larry Smarr",
-            "youtube" : "gJ16VinDPY4"
+            "title" : "Larry Smarr: A Network 'Just for Supercomputers'",
+            "youtube" : "IvSppInW8uA"
         },
         {
             "title" : "From Super Computers to NSFNet",
-            "youtube" : "fClkJXJtzUU",
+            "youtube" : "_ZoblDYCcyM",
             "length": "3:21",
             "ref" : "nsfnet",
             "camtasia": "016-BB-03-Smarr-99.mp4"
@@ -184,7 +184,7 @@
         },
         {
             "title" : "Expanding NSFNet Around the World",
-            "youtube" : "4ubtil0goWU",
+            "youtube" : "qVHztKqRtCU",
             "length": "2:29",
             "ref" : "africa",
             "camtasia": "018-BB-03-Smarr-99.mp4"
@@ -202,10 +202,6 @@
         {
             "title" : "Paper: IEEE - Katie Hafner: The Origins of the Internet",
             "href" : "{apphome}/columns/2013-06-Katie-Hafner-Copyright-IEEE.pdf"
-        },
-        {
-            "title" : "Paper: IEEE - Larry Smarr: Building Mosaic",
-            "href" : "{apphome}/columns/2013-04-Larry-Smarr-Copyright-IEEE.pdf"
         },
         {
             "title" : "Paper: IEEE - Doug Van Houweling: Building the NSFNet",
@@ -298,6 +294,14 @@
         {
             "title" : "Paper: IEEE - Joseph Hardin: NCSA Mosaic",
             "href" : "{apphome}/columns/2014-04-Hardin-Copyright-IEEE.pdf"
+        },
+        {
+            "title" : "IEEE Interview: Larry Smarr: Building Mosaic",
+            "href" : "https://www.youtube.com/watch?v=gJ16VinDPY4"
+        },
+        {
+            "title" : "Paper: IEEE - Larry Smarr: Building Mosaic",
+            "href" : "{apphome}/columns/2013-04-Larry-Smarr-Copyright-IEEE.pdf"
         },
         {
             "title" : "Bonus: Office Hours Mexico City, Mexico",
