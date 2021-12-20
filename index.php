@@ -19,9 +19,9 @@ You can take this course and receive a certificate at:
 <li><a href="https://www.coursera.org/learn/internet-history" target="_blank">Coursera: <?= $CFG->servicedesc ?></a> </li>
 <li><a href="https://online.umich.edu/courses/internet-history-technology-and-security/" target="_blank">Free certificates for University of Michgan students and staff</a></li>
 <li>
-<a href="https://www.youtube.com/watch?v=47NRaBVxgVM" target="_blank">Free Code Camp</a>
+<a href="https://www.freecodecamp.org/news/learn-the-history-of-the-internet-in-dr-chucks/" target="_blank">Free Code Camp</a>
 provides this material for free in a single video so you can sit back
-and binge-watch the 9+ hours of material.
+and binge-watch it all without interruption.
 </ul>.
 </p>
 <p>
