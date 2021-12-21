@@ -13,8 +13,6 @@ function buildMenu() {
         if ( isset($CFG->tdiscus) && $CFG->tdiscus  ) $set->addLeft('Discussions', $R.'discussions');
         if ( isset($_SESSION['id']) ) {
             $set->addLeft('My Progress', $R.'assignments');
-        } else {
-            $set->addLeft('Assignments', $R.'assn');
         }
     }
 
@@ -60,7 +58,7 @@ function buildMenu() {
             $set->addRight('Login', $T.'login.php');
         }
     }
-    $set->addRight('Instructor', 'https://online.dr-chuck.com');
+    $set->addRight('Instructor', 'https://www.pr4e.com');
 
     return $set;
 }

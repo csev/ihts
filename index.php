@@ -20,9 +20,10 @@ You can take this course and receive a certificate at:
 <li><a href="https://online.umich.edu/courses/internet-history-technology-and-security/" target="_blank">Free certificates for University of Michgan students and staff</a></li>
 <li>
 <a href="https://www.freecodecamp.org/news/learn-the-history-of-the-internet-in-dr-chucks/" target="_blank">Free Code Camp</a>
-provides this material for free in a single video so you can sit back
+provides this material in a single video so you can sit back
 and binge-watch it all without interruption.
-</ul>.
+</li>
+</ul>
 </p>
 <p>
 If you are watching the videos on a television, you might find our
