@@ -24,7 +24,7 @@ if ( ! file_exists('tsugi/config.php') ) {
           </p><p>
           Please copy tsugi/config-dist.php to tsugi/config.php and edit 
           config.php according to the installation instructions.
-          See http://www.tsugi.org/ for complete installation instructions.
+          See https://www.tsugi.org/ for complete installation instructions.
           </p><p>
           Since you are embedding Tsugi into this web site, 
           make sure to set several *additional* configuration parameters:\n");

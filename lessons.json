@@ -25,7 +25,7 @@
     "description": "We look at how computing, networks, and information evolved in the 1940's and 1950's.",
     "slides": [
         "{apphome}/lectures/IHTS-Internet-History-PowerPoint.pptx",
-        "{apphome}/lectures/IHTS-Internet-History-PowerPoint-Print.pdf"
+        "{apphome}/lectures/IHTS-Internet-History-Print.pdf"
     ],
     "discussions" : [
         {
@@ -128,7 +128,7 @@
     "description": "NSFNet",
     "slides": [
         "{apphome}/lectures/IHTS-Internet-History-PowerPoint.pptx",
-        "{apphome}/lectures/IHTS-Internet-History-PowerPoint-Print.pdf"
+        "{apphome}/lectures/IHTS-Internet-History-Print.pdf"
     ],
     "discussions" : [
         {
@@ -235,7 +235,7 @@
     "description": "Web.",
     "slides": [
         "{apphome}/lectures/IHTS-Internet-History-PowerPoint.pptx",
-        "{apphome}/lectures/IHTS-Internet-History-PowerPoint-Print.pdf"
+        "{apphome}/lectures/IHTS-Internet-History-Print.pdf"
     ],
     "discussions" : [
         {
@@ -323,7 +323,7 @@
     "description": "Internet growth in the later 1990's.",
     "slides": [
         "{apphome}/lectures/IHTS-Internet-History-PowerPoint.pptx",
-        "{apphome}/lectures/IHTS-Internet-History-PowerPoint-Print.pdf"
+        "{apphome}/lectures/IHTS-Internet-History-Print.pdf"
     ],
     "discussions" : [
         {
@@ -399,7 +399,7 @@
     "description": "The low-level basics of the how data moves across the Internet.",
     "slides": [
         "{apphome}/lectures/IHTS-Internet-Technology-PowerPoint.pptx",
-        "{apphome}/lectures/IHTS-Internet-Technology-PowerPoint-Print.pdf"
+        "{apphome}/lectures/IHTS-Internet-Technology-Print.pdf"
     ],
     "discussions" : [
         {
@@ -468,7 +468,7 @@
     "description": "How data is moved reliably across an unreliable underlying network.",
     "slides": [
         "{apphome}/lectures/IHTS-Internet-Technology-PowerPoint.pptx",
-        "{apphome}/lectures/IHTS-Internet-Technology-PowerPoint-Print.pdf"
+        "{apphome}/lectures/IHTS-Internet-Technology-Print.pdf"
     ],
     "discussions" : [
         {
@@ -522,7 +522,7 @@
     "description": "Once we can move data reliably, what different kinds of data do we move.",
     "slides": [
         "{apphome}/lectures/IHTS-Internet-Technology-PowerPoint.pptx",
-        "{apphome}/lectures/IHTS-Internet-Technology-PowerPoint-Print.pdf"
+        "{apphome}/lectures/IHTS-Internet-Technology-Print.pdf"
     ],
     "discussions" : [
         {
@@ -551,7 +551,7 @@
         },
         {
             "title" : "Bonus: Office Hours San Diego, CA",
-            "href" : "https://www.youtube.com/watch?v=irKI5zE0ZVu4"
+            "href" : "https://www.youtube.com/watch?v=rKI5zE0ZVu4"
         }
     ],
     "lti" : [
@@ -569,7 +569,7 @@
     "description": "How we sign and verify data digitally.",
     "slides": [
         "{apphome}/lectures/IHTS-Internet-Security-PowerPoint.pptx",
-        "{apphome}/lectures/IHTS-Internet-Security-PowerPoint-Print.pdf"
+        "{apphome}/lectures/IHTS-Internet-Security-Print.pdf"
     ],
     "discussions" : [
         {
@@ -648,7 +648,7 @@
     "description": "Web Security.",
     "slides": [
         "{apphome}/lectures/IHTS-Internet-Security-PowerPoint.pptx",
-        "{apphome}/lectures/IHTS-Internet-Security-PowerPoint-Print.pdf"
+        "{apphome}/lectures/IHTS-Internet-Security-Print.pdf"
     ],
     "discussions" : [
         {
@@ -676,8 +676,6 @@
             "ref" : "finis",
             "youtube" : "Dv_WjzBLrzU"
         }
-    ],
-    "references" : [
     ],
     "lti" : [
         {
