@@ -1,0 +1,651 @@
+{
+    "title": "Internet History, Security, and  Technology (IHTS)",
+    "description": "Hello and welcome to my site where we take a look at how the Internet came to be and how it works.",
+    "count": true,
+    "required_modules": [
+        "https://github.com/tsugitools/gift",
+        "https://github.com/tsugitools/youtube",
+        "https://github.com/tsugitools/peer-grade",
+        "https://github.com/tsugitools/tdiscus"
+    ],
+    "badges": [],
+    "discussions": [
+        {
+            "title": "Welcome to Internet History, Technology, and Security",
+            "launch": "mod/tdiscus/",
+            "resource_link_id": "ihts_discussion_welcome"
+        }
+    ],
+    "modules": [
+        {
+            "title": "History: Dawn of Electronic Computing",
+            "anchor": "week1",
+            "icon": "fa-globe",
+            "description": "We look at how computing, networks, and information evolved in the 1940's and 1950's.",
+            "items": [
+                {
+                    "type": "header",
+                    "text": "Slides",
+                    "level": 2
+                },
+                {
+                    "type": "slide",
+                    "title": "IHTS-Internet-History-PowerPoint.pptx",
+                    "href": "{apphome}/lectures/IHTS-Internet-History-PowerPoint.pptx"
+                },
+                {
+                    "type": "slide",
+                    "title": "IHTS-Internet-History-Print.pdf",
+                    "href": "{apphome}/lectures/IHTS-Internet-History-Print.pdf"
+                },
+                {
+                    "type": "header",
+                    "text": "References",
+                    "level": 2
+                },
+                {
+                    "type": "reference",
+                    "title": "Paper: IEEE - Alan Turing at Bletchley Park",
+                    "href": "{apphome}/columns/2012-06-Bletchley-Turing-Copyright-IEEE.pdf"
+                },
+                {
+                    "type": "reference",
+                    "title": "Paper: IEEE - Monash Museum of Computing History",
+                    "href": "{apphome}/columns/2012-03-Monash-Copyright-IEEE.pdf"
+                },
+                {
+                    "type": "reference",
+                    "title": "Paper: IEEE - Len Kleinrock: The First Two Packets on the Internet",
+                    "href": "{apphome}/columns/2014-03-Kleinrock-Lo-And-Behold-Copyright-IEEE.pdf"
+                },
+                {
+                    "type": "reference",
+                    "title": "Bonus: Office Hours - Manila, Philippines",
+                    "href": "https://www.youtube.com/watch?v=R6zlQZcM72o&list=PLlRFEj9H3Oj4qyq0OLZ76cMtUUgqUNtmz"
+                },
+                {
+                    "type": "reference",
+                    "title": "Bonus: Office Hours - Portland, Oregon, USA",
+                    "href": "https://www.youtube.com/watch?v=lqlbDxdZWZQ&list=PLlRFEj9H3Oj4qyq0OLZ76cMtUUgqUNtmz"
+                },
+                {
+                    "type": "reference",
+                    "title": "Bonus: Class Reunion at Bletchley Park",
+                    "href": "https://www.youtube.com/watch?v=06Joh-jiTEE&list=PLlRFEj9H3Oj4qyq0OLZ76cMtUUgqUNtmz"
+                },
+                {
+                    "type": "reference",
+                    "title": "Bonus: Barcelona IHTS Coursera Office Hours",
+                    "href": "https://www.youtube.com/watch?v=JzNHvmSv8TI&list=PLlRFEj9H3Oj4qyq0OLZ76cMtUUgqUNtmz"
+                },
+                {
+                    "type": "header",
+                    "text": "Discussions",
+                    "level": 2
+                },
+                {
+                    "type": "discussion",
+                    "title": "Introduce Yourself",
+                    "launch": "mod/tdiscus/",
+                    "resource_link_id": "ihts_01_intro"
+                },
+                {
+                    "type": "header",
+                    "text": "Tools",
+                    "level": 2
+                },
+                {
+                    "type": "lti",
+                    "title": "Quiz: Early History",
+                    "launch": "mod/gift/?quiz=week1.txt",
+                    "resource_link_id": "ihts_01_quiz"
+                }
+            ]
+        },
+        {
+            "title": "History: Research and Design of Packet Networks",
+            "anchor": "week2",
+            "icon": "fa-globe",
+            "description": "NSFNet",
+            "items": [
+                {
+                    "type": "header",
+                    "text": "Slides",
+                    "level": 2
+                },
+                {
+                    "type": "slide",
+                    "title": "IHTS-Internet-History-PowerPoint.pptx",
+                    "href": "{apphome}/lectures/IHTS-Internet-History-PowerPoint.pptx"
+                },
+                {
+                    "type": "slide",
+                    "title": "IHTS-Internet-History-Print.pdf",
+                    "href": "{apphome}/lectures/IHTS-Internet-History-Print.pdf"
+                },
+                {
+                    "type": "header",
+                    "text": "References",
+                    "level": 2
+                },
+                {
+                    "type": "reference",
+                    "title": "Paper: IEEE - Len Kleinrock: The Theory of Packets",
+                    "href": "{apphome}/columns/2013-08-Klienrock-Packets-Copyright-IEEE.pdf"
+                },
+                {
+                    "type": "reference",
+                    "title": "Paper: IEEE - Katie Hafner: The Origins of the Internet",
+                    "href": "{apphome}/columns/2013-06-Katie-Hafner-Copyright-IEEE.pdf"
+                },
+                {
+                    "type": "reference",
+                    "title": "Paper: IEEE - Doug Van Houweling: Building the NSFNet",
+                    "href": "{apphome}/columns/2014-04-DVH-NSFNet-Copyright-IEEE.pdf"
+                },
+                {
+                    "type": "reference",
+                    "title": "Paper: IEEE - Nii Quaynor: Bringing the Internet to Africa",
+                    "href": "{apphome}/columns/2014-09-Nii-Quaynor-Copyright-IEEE.pdf"
+                },
+                {
+                    "type": "reference",
+                    "title": "Bonus: Office Hours in Washington DC",
+                    "href": "https://www.youtube.com/watch?v=kinaN5n1tOw&list=PLlRFEj9H3Oj4qyq0OLZ76cMtUUgqUNtmz"
+                },
+                {
+                    "type": "reference",
+                    "title": "Bonus: Larry Smarr - SI502 - Unedited Footage",
+                    "href": "https://www.youtube.com/watch?v=X3X6fV3GbCI"
+                },
+                {
+                    "type": "header",
+                    "text": "Discussions",
+                    "level": 2
+                },
+                {
+                    "type": "discussion",
+                    "title": "Research and Design of Packet Networks",
+                    "launch": "mod/tdiscus/",
+                    "resource_link_id": "history_02_packets"
+                },
+                {
+                    "type": "header",
+                    "text": "Tools",
+                    "level": 2
+                },
+                {
+                    "type": "lti",
+                    "title": "Quiz: NSFNet - The First Internet",
+                    "launch": "mod/gift/?quiz=week2.txt",
+                    "resource_link_id": "ihts_02_quiz"
+                }
+            ]
+        },
+        {
+            "title": "History: The Web Makes it Easy to Use",
+            "anchor": "week3",
+            "icon": "fa-globe",
+            "description": "Web.",
+            "items": [
+                {
+                    "type": "header",
+                    "text": "Slides",
+                    "level": 2
+                },
+                {
+                    "type": "slide",
+                    "title": "IHTS-Internet-History-PowerPoint.pptx",
+                    "href": "{apphome}/lectures/IHTS-Internet-History-PowerPoint.pptx"
+                },
+                {
+                    "type": "slide",
+                    "title": "IHTS-Internet-History-Print.pdf",
+                    "href": "{apphome}/lectures/IHTS-Internet-History-Print.pdf"
+                },
+                {
+                    "type": "header",
+                    "text": "References",
+                    "level": 2
+                },
+                {
+                    "type": "reference",
+                    "title": "Paper: IEEE - The Second-Order Effects of Steve Jobs",
+                    "href": "{apphome}/columns/2012-01-Steve-Jobs-Copyright-IEEE.pdf"
+                },
+                {
+                    "type": "reference",
+                    "title": "Paper: IEEE - Joseph Hardin: NCSA Mosaic",
+                    "href": "{apphome}/columns/2014-04-Hardin-Copyright-IEEE.pdf"
+                },
+                {
+                    "type": "reference",
+                    "title": "IEEE Interview: Larry Smarr: Building Mosaic",
+                    "href": "https://www.youtube.com/watch?v=gJ16VinDPY4"
+                },
+                {
+                    "type": "reference",
+                    "title": "Paper: IEEE - Larry Smarr: Building Mosaic",
+                    "href": "{apphome}/columns/2013-04-Larry-Smarr-Copyright-IEEE.pdf"
+                },
+                {
+                    "type": "reference",
+                    "title": "Bonus: Office Hours Mexico City, Mexico",
+                    "href": "https://www.youtube.com/watch?v=j7fhF-GQi1E"
+                },
+                {
+                    "type": "header",
+                    "text": "Discussions",
+                    "level": 2
+                },
+                {
+                    "type": "discussion",
+                    "title": "The Impact of the Web",
+                    "launch": "mod/tdiscus/",
+                    "resource_link_id": "ihts_03_web"
+                },
+                {
+                    "type": "header",
+                    "text": "Tools",
+                    "level": 2
+                },
+                {
+                    "type": "lti",
+                    "title": "Quiz: The Web",
+                    "launch": "mod/gift/?quiz=week3.txt",
+                    "resource_link_id": "ihts_03_quiz"
+                }
+            ]
+        },
+        {
+            "title": "History: Commercialization and Growth",
+            "anchor": "week4",
+            "icon": "fa-globe",
+            "description": "Internet growth in the later 1990's.",
+            "items": [
+                {
+                    "type": "header",
+                    "text": "Slides",
+                    "level": 2
+                },
+                {
+                    "type": "slide",
+                    "title": "IHTS-Internet-History-PowerPoint.pptx",
+                    "href": "{apphome}/lectures/IHTS-Internet-History-PowerPoint.pptx"
+                },
+                {
+                    "type": "slide",
+                    "title": "IHTS-Internet-History-Print.pdf",
+                    "href": "{apphome}/lectures/IHTS-Internet-History-Print.pdf"
+                },
+                {
+                    "type": "header",
+                    "text": "References",
+                    "level": 2
+                },
+                {
+                    "type": "reference",
+                    "title": "Paper: IEEE - Mitchell Baker: The Mozilla Foundation",
+                    "href": "{apphome}/columns/2013-01-Mitchell-Copyright-IEEE.pdf"
+                },
+                {
+                    "type": "reference",
+                    "title": "Paper: IEEE - JavaScript: Designing a Language in 10 Days",
+                    "href": "{apphome}/columns/2012-02-Brendan-Eich-Copyright-IEEE.pdf"
+                },
+                {
+                    "type": "reference",
+                    "title": "Paper: IEEE - The Apache Software Foundation: Brian Behlendorf",
+                    "href": "{apphome}/columns/2012-10-Brian-Behlendorf-Copyright-IEEE.pdf"
+                },
+                {
+                    "type": "reference",
+                    "title": "Bonus: Office Hours Melbourne",
+                    "href": "https://www.youtube.com/watch?v=GD9RSoVDKkw"
+                },
+                {
+                    "type": "header",
+                    "text": "Discussions",
+                    "level": 2
+                },
+                {
+                    "type": "discussion",
+                    "title": "Commercialization and Growth",
+                    "launch": "mod/tdiscus/",
+                    "resource_link_id": "ihts_04_growth"
+                },
+                {
+                    "type": "header",
+                    "text": "Tools",
+                    "level": 2
+                },
+                {
+                    "type": "lti",
+                    "title": "Quiz: The Modern Internet",
+                    "launch": "mod/gift/?quiz=week4.txt",
+                    "resource_link_id": "ihts_04_quiz"
+                }
+            ]
+        },
+        {
+            "title": "Technology: Internets and Packets",
+            "anchor": "week5",
+            "icon": "fa-globe",
+            "description": "The low-level basics of the how data moves across the Internet.",
+            "items": [
+                {
+                    "type": "header",
+                    "text": "Slides",
+                    "level": 2
+                },
+                {
+                    "type": "slide",
+                    "title": "IHTS-Internet-Technology-PowerPoint.pptx",
+                    "href": "{apphome}/lectures/IHTS-Internet-Technology-PowerPoint.pptx"
+                },
+                {
+                    "type": "slide",
+                    "title": "IHTS-Internet-Technology-Print.pdf",
+                    "href": "{apphome}/lectures/IHTS-Internet-Technology-Print.pdf"
+                },
+                {
+                    "type": "header",
+                    "text": "References",
+                    "level": 2
+                },
+                {
+                    "type": "reference",
+                    "title": "Paper: IEEE - Bob Metcalfe: Ethernet at Forty (years old)",
+                    "href": "{apphome}/columns/2013-04-Metcalfe-Copyright-IEEE.pdf"
+                },
+                {
+                    "type": "reference",
+                    "title": "Paper: IEEE - Vint Cerf: A Brief History of Packets",
+                    "href": "{apphome}/columns/2012-12-Vint-Cerf-Copyright-IEEE.pdf"
+                },
+                {
+                    "type": "reference",
+                    "title": "Bonus: Office Hours - Palo Alto",
+                    "href": "https://www.youtube.com/watch?v=HXw98e41I7I"
+                },
+                {
+                    "type": "header",
+                    "text": "Discussions",
+                    "level": 2
+                },
+                {
+                    "type": "discussion",
+                    "title": "Internets and Packets",
+                    "launch": "mod/tdiscus/",
+                    "resource_link_id": "ihts_05_packets"
+                },
+                {
+                    "type": "header",
+                    "text": "Tools",
+                    "level": 2
+                },
+                {
+                    "type": "lti",
+                    "title": "Quiz: Internet and Packets",
+                    "launch": "mod/gift/?quiz=week5.txt",
+                    "resource_link_id": "ihts_05_quiz"
+                }
+            ]
+        },
+        {
+            "title": "Technology: Transport Control Protocol (TCP)",
+            "anchor": "week6",
+            "icon": "fa-globe",
+            "description": "How data is moved reliably across an unreliable underlying network.",
+            "items": [
+                {
+                    "type": "header",
+                    "text": "Slides",
+                    "level": 2
+                },
+                {
+                    "type": "slide",
+                    "title": "IHTS-Internet-Technology-PowerPoint.pptx",
+                    "href": "{apphome}/lectures/IHTS-Internet-Technology-PowerPoint.pptx"
+                },
+                {
+                    "type": "slide",
+                    "title": "IHTS-Internet-Technology-Print.pdf",
+                    "href": "{apphome}/lectures/IHTS-Internet-Technology-Print.pdf"
+                },
+                {
+                    "type": "header",
+                    "text": "References",
+                    "level": 2
+                },
+                {
+                    "type": "reference",
+                    "title": "Paper: IEEE -  Van Jacobson: Getting NSFNet off the Ground",
+                    "href": "{apphome}/columns/2012-05-Van-Jacobson-Copyright-IEEE.pdf"
+                },
+                {
+                    "type": "reference",
+                    "title": "Bonus: Ann Arbor Office Hours",
+                    "href": "https://www.youtube.com/watch?v=I9rPidDyfVE"
+                },
+                {
+                    "type": "header",
+                    "text": "Discussions",
+                    "level": 2
+                },
+                {
+                    "type": "discussion",
+                    "title": "Transport Control Protocol",
+                    "launch": "mod/tdiscus/",
+                    "resource_link_id": "discuss_06_tcp"
+                },
+                {
+                    "type": "header",
+                    "text": "Tools",
+                    "level": 2
+                },
+                {
+                    "type": "lti",
+                    "title": "Quiz: TCP",
+                    "launch": "mod/gift/?quiz=week6.txt",
+                    "resource_link_id": "ihts_06_quiz"
+                }
+            ]
+        },
+        {
+            "title": "Technology: Application Protocols",
+            "anchor": "week7",
+            "icon": "fa-globe",
+            "description": "Once we can move data reliably, what different kinds of data do we move.",
+            "items": [
+                {
+                    "type": "header",
+                    "text": "Slides",
+                    "level": 2
+                },
+                {
+                    "type": "slide",
+                    "title": "IHTS-Internet-Technology-PowerPoint.pptx",
+                    "href": "{apphome}/lectures/IHTS-Internet-Technology-PowerPoint.pptx"
+                },
+                {
+                    "type": "slide",
+                    "title": "IHTS-Internet-Technology-Print.pdf",
+                    "href": "{apphome}/lectures/IHTS-Internet-Technology-Print.pdf"
+                },
+                {
+                    "type": "header",
+                    "text": "References",
+                    "level": 2
+                },
+                {
+                    "type": "reference",
+                    "title": "Paper: IEEE - Van Jacobson: Content-Centric Networking",
+                    "href": "{apphome}/columns/2013-01-Van-CCN-Copyright-IEEE.pdf"
+                },
+                {
+                    "type": "reference",
+                    "title": "Bonus: Office Hours San Diego, CA",
+                    "href": "https://www.youtube.com/watch?v=irKI5zE0ZVu4"
+                },
+                {
+                    "type": "header",
+                    "text": "Discussions",
+                    "level": 2
+                },
+                {
+                    "type": "discussion",
+                    "title": "Application Protocols",
+                    "launch": "mod/tdiscus/",
+                    "resource_link_id": "ihts_08_application"
+                },
+                {
+                    "type": "header",
+                    "text": "Tools",
+                    "level": 2
+                },
+                {
+                    "type": "lti",
+                    "title": "Quiz: Application Layer",
+                    "launch": "mod/gift/?quiz=week7.txt",
+                    "resource_link_id": "ihts_07_quiz"
+                }
+            ]
+        },
+        {
+            "title": "Security: Encrypting and Signing",
+            "anchor": "week8",
+            "icon": "fa-globe",
+            "description": "How we sign and verify data digitally.",
+            "items": [
+                {
+                    "type": "header",
+                    "text": "Slides",
+                    "level": 2
+                },
+                {
+                    "type": "slide",
+                    "title": "IHTS-Internet-Security-PowerPoint.pptx",
+                    "href": "{apphome}/lectures/IHTS-Internet-Security-PowerPoint.pptx"
+                },
+                {
+                    "type": "slide",
+                    "title": "IHTS-Internet-Security-Print.pdf",
+                    "href": "{apphome}/lectures/IHTS-Internet-Security-Print.pdf"
+                },
+                {
+                    "type": "header",
+                    "text": "References",
+                    "level": 2
+                },
+                {
+                    "type": "reference",
+                    "title": "Paper: IEEE - Bruce Schneier: The Security Mindset",
+                    "href": "{apphome}/columns/2015-12-Schneier-Mindset-Copyright-IEEE.pdf"
+                },
+                {
+                    "type": "reference",
+                    "title": "Paper: IEEE - Bruce Schneier: Building Cryptographic Systems",
+                    "href": "{apphome}/columns/2016-03-Schneier-NIST-Copyright-IEEE.pdf"
+                },
+                {
+                    "type": "header",
+                    "text": "Discussions",
+                    "level": 2
+                },
+                {
+                    "type": "discussion",
+                    "title": "Encrypting and Signing",
+                    "launch": "mod/tdiscus/",
+                    "resource_link_id": "ihts_08_encrypt"
+                },
+                {
+                    "type": "header",
+                    "text": "Tools",
+                    "level": 2
+                },
+                {
+                    "type": "lti",
+                    "title": "Quiz: Encryption and Signing",
+                    "launch": "mod/gift/?quiz=week8.txt",
+                    "resource_link_id": "ihts_08_quiz"
+                }
+            ]
+        },
+        {
+            "title": "Security: Web Security",
+            "anchor": "week9",
+            "icon": "fa-globe",
+            "description": "Web Security.",
+            "items": [
+                {
+                    "type": "header",
+                    "text": "Slides",
+                    "level": 2
+                },
+                {
+                    "type": "slide",
+                    "title": "IHTS-Internet-Security-PowerPoint.pptx",
+                    "href": "{apphome}/lectures/IHTS-Internet-Security-PowerPoint.pptx"
+                },
+                {
+                    "type": "slide",
+                    "title": "IHTS-Internet-Security-Print.pdf",
+                    "href": "{apphome}/lectures/IHTS-Internet-Security-Print.pdf"
+                },
+                {
+                    "type": "header",
+                    "text": "Discussions",
+                    "level": 2
+                },
+                {
+                    "type": "discussion",
+                    "title": "Web Security",
+                    "launch": "mod/tdiscus/",
+                    "resource_link_id": "ihts_09_certificates"
+                },
+                {
+                    "type": "header",
+                    "text": "Tools",
+                    "level": 2
+                },
+                {
+                    "type": "lti",
+                    "title": "Quiz: Web Security",
+                    "launch": "mod/gift/?quiz=week9.txt",
+                    "resource_link_id": "ihts_09_quiz"
+                }
+            ]
+        },
+        {
+            "title": "Final Exam and Graduation",
+            "anchor": "week10",
+            "icon": "fa-globe",
+            "description": "Final exam and graduation.",
+            "items": [
+                {
+                    "type": "header",
+                    "text": "Discussions",
+                    "level": 2
+                },
+                {
+                    "type": "discussion",
+                    "title": "Final Exam and Graduation",
+                    "launch": "mod/tdiscus/",
+                    "resource_link_id": "ihts_10_graduation"
+                },
+                {
+                    "type": "header",
+                    "text": "Tools",
+                    "level": 2
+                },
+                {
+                    "type": "lti",
+                    "title": "Final Exam",
+                    "launch": "mod/gift/?quiz=final.txt",
+                    "resource_link_id": "ihts_final"
+                }
+            ]
+        }
+    ]
+}

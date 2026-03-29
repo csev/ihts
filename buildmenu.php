@@ -55,7 +55,7 @@ function buildMenu() {
     } else {
         // $set->addLeft('Autograder', $T.'store');
         if ( isset($CFG->google_client_id) && $CFG->google_client_id ) {
-            $set->addRight('Login', $T.'login.php');
+            $set->addRight('Login', $R.'login');
         }
     }
     $set->addRight('Instructor', 'https://www.pr4e.com');

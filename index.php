@@ -31,7 +31,7 @@ If you are watching the videos on a television, you might find our
 </p>
 <p>
 If you
-<a href="tsugi/login.php">log in</a> to this site you have joined a free, global open and online course. You have a grade book, autograded assignments and discussion forums.
+<a href="login">log in</a> to this site you have joined a free, global open and online course. You have a grade book, autograded assignments and discussion forums.
 Since this site is used by learners, we take your
 <a href="privacy">privacy</a> very seriously.
 </p>

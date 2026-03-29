@@ -15,7 +15,7 @@ $CFG->owneremail = 'csev@umich.edu';
 $CFG->providekeys = true;  // true
 
 $CFG->context_title = "IHTS Online";
-$CFG->lessons = $CFG->dirroot.'/../lessons.json';
+$CFG->lessons = $CFG->dirroot.'/../lessons-items.json';
 $CFG->youtube_playlist = 'PLlRFEj9H3Oj6-srSAgLb-ZGVNGlo3v14X';
 
 $CFG->tdiscus = $CFG->apphome . '/mod/tdiscus/';
