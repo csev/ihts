@@ -58,7 +58,7 @@ function buildMenu() {
             $set->addRight('Login', $R.'login');
         }
     }
-    $set->addRight('Instructor', 'https://www.pr4e.com');
+    $set->addRight('Courses', 'https://www.pr4e.com');
 
     return $set;
 }
