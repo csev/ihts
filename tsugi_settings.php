@@ -33,10 +33,4 @@ $CFG->theme = array(
 $CFG->privacy_url = $CFG->apphome . '/privacy';
 $CFG->sla_url = $CFG->apphome . '/service';
 
-$buildmenu = $CFG->dirroot.'/../buildmenu.php';
-if ( file_exists($buildmenu) ) {
-    require_once $buildmenu;
-    $CFG->defaultmenu = buildMenu();
-}
-
 
