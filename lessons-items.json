@@ -40,6 +40,66 @@
                 },
                 {
                     "type": "header",
+                    "text": "Videos",
+                    "level": 2
+                },
+                {
+                    "type": "video",
+                    "title": "Welcome to the Class",
+                    "youtube": "onEh_zuvql4",
+                    "fcpx": "2021-11-28-New-Intro-1080.m4v"
+                },
+                {
+                    "type": "video",
+                    "title": "High Stakes Research in Computing and Communication",
+                    "youtube": "Kkcx8u8ggxU",
+                    "camtasia": "BB-01-03-Bletchley-TTY33",
+                    "ref": "bletchley",
+                    "length": "7:23",
+                    "output": "003-BB-01-03-Bletchley-TTY33.mp4"
+                },
+                {
+                    "type": "video",
+                    "title": "IEEE: Alan Turing at Bletchley Park",
+                    "youtube": "5nK_ft0Lf1s",
+                    "media": "./2012/2012-06-Bletchley-IEEE.mov"
+                },
+                {
+                    "type": "video",
+                    "title": "The 'First' Electronic Computers Around the World",
+                    "youtube": "h0-yRBB-Xrs",
+                    "length": "2:51",
+                    "ref": "monash",
+                    "camtasia": "005-BB-03-TTY33-05-Smarr"
+                },
+                {
+                    "type": "video",
+                    "title": "IEEE: Monash Museum of Computing History",
+                    "youtube": "o7_dQbKPG_Q",
+                    "media": "./2012/2012-03-Monash-IEEE.mov"
+                },
+                {
+                    "type": "video",
+                    "title": "Post-War Computing and Communication",
+                    "youtube": "d2oNNonKn8U",
+                    "length": "11:56",
+                    "camtasia": "007-BB-03-TTY33-05-Smarr"
+                },
+                {
+                    "type": "video",
+                    "title": "Early Academic Networking Research",
+                    "youtube": "hoza7jv2Efc",
+                    "length": "15:36",
+                    "ref": "behold",
+                    "camtasia": "008-BB-02-TTY33-Smarr.mp4"
+                },
+                {
+                    "type": "video",
+                    "title": "IEEE: Len Kleinrock: The First Two Packets on the Internet",
+                    "youtube": "uY7dUJT7OsU"
+                },
+                {
+                    "type": "header",
                     "text": "References",
                     "level": 2
                 },
@@ -125,6 +185,76 @@
                 },
                 {
                     "type": "header",
+                    "text": "Videos",
+                    "level": 2
+                },
+                {
+                    "type": "video",
+                    "title": "Packet Switched Networks",
+                    "youtube": "AH_N9-30Ju0",
+                    "length": "5:43",
+                    "ref": "theory",
+                    "camtasia": "010-BB-02-TTY33-Smarr.mp4"
+                },
+                {
+                    "type": "video",
+                    "title": "IEEE: Len Kleinrock: The Theory of Packets",
+                    "youtube": "qsgrtrwydjw"
+                },
+                {
+                    "type": "video",
+                    "title": "Packet Switching and the ARPANET",
+                    "youtube": "4XXUzABvBcM",
+                    "length": "1:19",
+                    "ref": "katie",
+                    "camtasia": "012-BB-02-TTY33-Smarr.mp4"
+                },
+                {
+                    "type": "video",
+                    "title": "IEEE: Katie Hafner - The History of the APANET",
+                    "youtube": "pJ51RMAjLGI"
+                },
+                {
+                    "type": "video",
+                    "title": "Supercomputers as Technology Drivers",
+                    "youtube": "8v92r7BU0_4",
+                    "length": "3:44",
+                    "ref": "smarr",
+                    "camtasia": "014-BB-02-TTY33-Smarr.mp4"
+                },
+                {
+                    "type": "video",
+                    "title": "Larry Smarr: A Network 'Just for Supercomputers'",
+                    "youtube": "IvSppInW8uA"
+                },
+                {
+                    "type": "video",
+                    "title": "From Super Computers to NSFNet",
+                    "youtube": "_ZoblDYCcyM",
+                    "length": "3:21",
+                    "ref": "nsfnet",
+                    "camtasia": "016-BB-03-Smarr-99.mp4"
+                },
+                {
+                    "type": "video",
+                    "title": "IEEE: Doug Van Houweling - Building the NSFNet",
+                    "youtube": "eThPe_obLIc"
+                },
+                {
+                    "type": "video",
+                    "title": "Expanding NSFNet Around the World",
+                    "youtube": "qVHztKqRtCU",
+                    "length": "2:29",
+                    "ref": "africa",
+                    "camtasia": "018-BB-03-Smarr-99.mp4"
+                },
+                {
+                    "type": "video",
+                    "title": "IEEE: Nii Quaynor: Bringing the Internet to Africa",
+                    "youtube": "5LXvSs_zugk"
+                },
+                {
+                    "type": "header",
                     "text": "References",
                     "level": 2
                 },
@@ -205,6 +335,58 @@
                 },
                 {
                     "type": "header",
+                    "text": "Videos",
+                    "level": 2
+                },
+                {
+                    "type": "video",
+                    "title": "The World-Wide-Web Emerges at CERN",
+                    "youtube": "1GOEhGBCn24",
+                    "length": "3:46",
+                    "ref": "cernettes",
+                    "camtasia": "020A-BB-03-Smarr-99.mp4"
+                },
+                {
+                    "type": "video",
+                    "title": "Cernettes: Collider",
+                    "youtube": "1e1eLe1ihT0"
+                },
+                {
+                    "type": "video",
+                    "title": "Building the Web Around the World",
+                    "youtube": "iRFKw9Wt22E",
+                    "length": "Really LONG",
+                    "ref": "jobs",
+                    "topics": "Blues, Cailliau, Gopher, AT&T, SLAC/Kunz,Gopher, AT&T",
+                    "camtasia": "020B-BB-03-Smarr-99.mp4"
+                },
+                {
+                    "type": "video",
+                    "title": "IEEE: The Second Order Effects of Steve Jobs",
+                    "youtube": "ia1bi1T4FY0"
+                },
+                {
+                    "type": "video",
+                    "title": "Mosaic at NCSA - The Browser for Everybody",
+                    "youtube": "nha6lj1obHA",
+                    "length": "4:01",
+                    "ref": "hardin",
+                    "camtasia": "022-BB-03-Smarr-99.mp4"
+                },
+                {
+                    "type": "video",
+                    "title": "IEEE: Joseph Hardin: NCSA Mosaic",
+                    "youtube": "-c8iWUh3Sv4"
+                },
+                {
+                    "type": "video",
+                    "title": "Reflecting on Mosaic",
+                    "youtube": "c0G99okQOCc",
+                    "length": "0:13",
+                    "camtasia": "024A-BB-03-Smarr-99.mp4"
+                },
+                {
+                    "type": "header",
                     "text": "References",
                     "level": 2
                 },
@@ -280,6 +462,49 @@
                 },
                 {
                     "type": "header",
+                    "text": "Videos",
+                    "level": 2
+                },
+                {
+                    "type": "video",
+                    "title": "The Year of the web (1994)",
+                    "youtube": "M76fsYsp4u0",
+                    "length": "3:57",
+                    "ref": "eich / baker",
+                    "camtasia": "024B-BB-03-Smarr-99.mp4"
+                },
+                {
+                    "type": "video",
+                    "title": "IEEE: Mitchell Baker - Mozilla Foundation",
+                    "youtube": "M-CYRO0PwQs"
+                },
+                {
+                    "type": "video",
+                    "title": "IEEE: Brendan Eich - Creating JavaScript",
+                    "youtube": "IPxQ9kEaF8c"
+                },
+                {
+                    "type": "video",
+                    "title": "The Web, the World, and the Economy",
+                    "youtube": "UJ_P0tCZdBk",
+                    "length": "18:36",
+                    "ref": "apache",
+                    "camtasia": "027-BB-03-Smarr-99.mp4"
+                },
+                {
+                    "type": "video",
+                    "title": "IEEE: Brian Behlendorf on the Apache Software Foundation",
+                    "youtube": "6kRMlfIBMCY"
+                },
+                {
+                    "type": "video",
+                    "title": "Wrap Up",
+                    "youtube": "CiLATM0RH3o",
+                    "length": "0:26",
+                    "camtasia": "029-BB-03-Smarr-99.mp4"
+                },
+                {
+                    "type": "header",
                     "text": "References",
                     "level": 2
                 },
@@ -350,6 +575,45 @@
                 },
                 {
                     "type": "header",
+                    "text": "Videos",
+                    "level": 2
+                },
+                {
+                    "type": "video",
+                    "title": "Introduction: Link Layer",
+                    "camtasia": "030-CC-01-Link.mp4",
+                    "length": "26:07",
+                    "ref": "ethernet",
+                    "youtube": "LBigxrdgKtY"
+                },
+                {
+                    "type": "video",
+                    "title": "IEEE: Bob Metcalfe: Ethernet at Forty (years old)",
+                    "youtube": "m_agCPNGOzU"
+                },
+                {
+                    "type": "video",
+                    "title": "The InterNetwork Protocol (IP)",
+                    "camtasia": "032-CC-02-Link.mp4",
+                    "length": "35:34",
+                    "ref": "cerf",
+                    "youtube": "k1yggqTgw6Q"
+                },
+                {
+                    "type": "video",
+                    "title": "IEEE: Vint Cerf on the History of Packets",
+                    "youtube": "jZJzNWOY0QI"
+                },
+                {
+                    "type": "video",
+                    "title": "DNS - The Domain Name System",
+                    "camtasia": "034-CC-03-DNS.mp4",
+                    "length": "7:44",
+                    "ref": "finis",
+                    "youtube": "4wCtinJrBLw"
+                },
+                {
+                    "type": "header",
                     "text": "References",
                     "level": 2
                 },
@@ -415,6 +679,32 @@
                 },
                 {
                     "type": "header",
+                    "text": "Videos",
+                    "level": 2
+                },
+                {
+                    "type": "video",
+                    "title": "Transport Layer",
+                    "camtasia": "035-CC-04-TCP.mp4",
+                    "length": "9:30",
+                    "ref": "van",
+                    "youtube": "23qXaHxkqL4"
+                },
+                {
+                    "type": "video",
+                    "title": "IEEE: Van Jacobson - The Slow Start Algorithm",
+                    "youtube": "QP4A6L7CEqA"
+                },
+                {
+                    "type": "video",
+                    "title": "TCP Wrap Up",
+                    "camtasia": "037-CC-05-TCP.mp4",
+                    "length": "2:07",
+                    "ref": "finis",
+                    "youtube": "fC6UTSi5Eck"
+                },
+                {
+                    "type": "header",
                     "text": "References",
                     "level": 2
                 },
@@ -472,6 +762,24 @@
                     "type": "slide",
                     "title": "IHTS-Internet-Technology-Print.pdf",
                     "href": "{apphome}/lectures/IHTS-Internet-Technology-Print.pdf"
+                },
+                {
+                    "type": "header",
+                    "text": "Videos",
+                    "level": 2
+                },
+                {
+                    "type": "video",
+                    "title": "Application Layer",
+                    "camtasia": "037A-CC-06-App.mp4",
+                    "length": "25:22",
+                    "ref": "ccn",
+                    "youtube": "sPOiY5MtQqs"
+                },
+                {
+                    "type": "video",
+                    "title": "IEEE: Van Jacobson - Content Centric Networking",
+                    "youtube": "Bc-4PJPxfVQ"
                 },
                 {
                     "type": "header",
@@ -535,6 +843,61 @@
                 },
                 {
                     "type": "header",
+                    "text": "Videos",
+                    "level": 2
+                },
+                {
+                    "type": "video",
+                    "title": "Security Introduction",
+                    "camtasia": "038-DD-01-Security-Intro-No-CC.mp4",
+                    "length": "2:24",
+                    "ref": "mindset",
+                    "youtube": "YcX2r5MWkx0"
+                },
+                {
+                    "type": "video",
+                    "title": "IEEE: Bruce Schneier - The Security Mindset",
+                    "youtube": "eZNzMKS7zjo"
+                },
+                {
+                    "type": "video",
+                    "title": "Understanding Security",
+                    "camtasia": "040-DD-01-Security-Intro-No-CC.mp4",
+                    "length": "9:14",
+                    "ref": "finis",
+                    "youtube": "hWv8X4lQK30"
+                },
+                {
+                    "type": "video",
+                    "title": "Encryption and Confidentiality",
+                    "camtasia": "041-DD-02-Security-Caesar.mp4",
+                    "length": "20:50",
+                    "ref": "finis",
+                    "youtube": "fO4mvWnri-g"
+                },
+                {
+                    "type": "video",
+                    "title": "Cryptographic Hashes and Integrity",
+                    "camtasia": "042-DD-03-Security-Digest.mp4",
+                    "length": "8:52",
+                    "ref": "hash",
+                    "youtube": "_mlmuArWXH8"
+                },
+                {
+                    "type": "video",
+                    "title": "IEEE: Bruce Schneier - Building Cryptographic Systems",
+                    "youtube": "opT6pIfyGUs"
+                },
+                {
+                    "type": "video",
+                    "title": "Hashing and Digital Signatures",
+                    "camtasia": "044-DD-03-Security-Digest.mp4",
+                    "length": "21:49",
+                    "ref": "finis",
+                    "youtube": "-dglSvgyCF8"
+                },
+                {
+                    "type": "header",
                     "text": "References",
                     "level": 2
                 },
@@ -595,6 +958,32 @@
                 },
                 {
                     "type": "header",
+                    "text": "Videos",
+                    "level": 2
+                },
+                {
+                    "type": "video",
+                    "title": "Security Public/Private Key - Secure Sockets",
+                    "camtasia": "045-DD-03-Security-SSL.mp4",
+                    "length": "19:31",
+                    "ref": "finis",
+                    "youtube": "D4U2D3xaOwI"
+                },
+                {
+                    "type": "video",
+                    "title": "Diffie Hellman Merkle US Inventors Hall of Fame",
+                    "youtube": "ROCray7RTqM"
+                },
+                {
+                    "type": "video",
+                    "title": "Security - Integrity and Certificate Authorities",
+                    "camtasia": "046-DD-03-Security-SSL.mp4",
+                    "length": "19:05",
+                    "ref": "finis",
+                    "youtube": "Dv_WjzBLrzU"
+                },
+                {
+                    "type": "header",
                     "text": "Discussions",
                     "level": 2
                 },
@@ -623,6 +1012,16 @@
             "icon": "fa-globe",
             "description": "Final exam and graduation.",
             "items": [
+                {
+                    "type": "header",
+                    "text": "Videos",
+                    "level": 2
+                },
+                {
+                    "type": "video",
+                    "title": "Graduation Ceremony with Curt Bonk",
+                    "youtube": "SfQYA0JQWkA"
+                },
                 {
                     "type": "header",
                     "text": "Discussions",
