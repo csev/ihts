@@ -10,7 +10,6 @@ function buildMenu() {
 
     if ( isset($CFG->lessons) ) {
         $set->addLeft('Lessons', $R.'lessons');
-        if ( isset($CFG->tdiscus) && $CFG->tdiscus  ) $set->addLeft('Discussions', $R.'discussions');
         if ( isset($_SESSION['id']) ) {
             $set->addLeft('My Progress', $R.'assignments');
         }
@@ -59,6 +58,17 @@ function buildMenu() {
         }
     }
     $set->addRight('Courses', $R.'coursesredirect.php');
+
+    if ( isset($_SESSION['id']) ) {
+        if ( isset($CFG->tdiscus) && $CFG->tdiscus ) {
+            $set->addRight(
+                '<tsugi-discussions api-url="'. htmlspecialchars($R . 'discussions/json') . '" discussions-url="'. htmlspecialchars($R . 'discussions') . '"></tsugi-discussions>',
+                false,
+                true,
+                'hidden-xs tsugi-wc-nav-item'
+            );
+        }
+    }
 
     return $set;
 }
