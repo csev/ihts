@@ -14,6 +14,7 @@ function buildMenu() {
             $set->addLeft('My Progress', $R.'assignments');
         }
     }
+    $set->addLeft('Courses', $R.'coursesredirect.php');
 
     if ( isset($_SESSION['id']) ) {
         $submenu = new \Tsugi\UI\Menu();
@@ -57,8 +58,6 @@ function buildMenu() {
             $set->addRight('Login', $R.'login');
         }
     }
-    $set->addRight('Courses', $R.'coursesredirect.php');
-
     if ( isset($_SESSION['id']) ) {
         if ( isset($CFG->tdiscus) && $CFG->tdiscus ) {
             $set->addRight(
