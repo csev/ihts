@@ -33,4 +33,7 @@ $CFG->theme = array(
 $CFG->privacy_url = $CFG->apphome . '/privacy';
 $CFG->sla_url = $CFG->apphome . '/service';
 
+$CFG->tool_folders = array("admin", "../tools", "../mod", "tool");
+
+
 
