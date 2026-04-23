@@ -3,16 +3,13 @@
     "description": "Hello and welcome to my site where we take a look at how the Internet came to be and how it works.",
     "count": true,
     "required_modules": [
-        "https://github.com/tsugitools/gift",
-        "https://github.com/tsugitools/youtube",
-        "https://github.com/tsugitools/peer-grade",
-        "https://github.com/tsugitools/tdiscus"
+        "https://github.com/tsugitools/youtube"
     ],
     "badges": [],
     "discussions": [
         {
             "title": "Welcome to Internet History, Technology, and Security",
-            "launch": "mod/tdiscus/",
+            "launch": "tsugi/tool/tdiscus/",
             "resource_link_id": "ihts_discussion_welcome"
         }
     ],
@@ -146,7 +143,7 @@
                 {
                     "type": "discussion",
                     "title": "Introduce Yourself",
-                    "launch": "mod/tdiscus/",
+                    "launch": "tsugi/tool/tdiscus/",
                     "resource_link_id": "ihts_01_intro"
                 },
                 {
@@ -157,7 +154,7 @@
                 {
                     "type": "lti",
                     "title": "Quiz: Early History",
-                    "launch": "mod/gift/?quiz=week1.txt",
+                    "launch": "tsugi/tool/gift/?quiz=week1.txt",
                     "resource_link_id": "ihts_01_quiz"
                 }
             ]
@@ -296,7 +293,7 @@
                 {
                     "type": "discussion",
                     "title": "Research and Design of Packet Networks",
-                    "launch": "mod/tdiscus/",
+                    "launch": "tsugi/tool/tdiscus/",
                     "resource_link_id": "history_02_packets"
                 },
                 {
@@ -307,7 +304,7 @@
                 {
                     "type": "lti",
                     "title": "Quiz: NSFNet - The First Internet",
-                    "launch": "mod/gift/?quiz=week2.txt",
+                    "launch": "tsugi/tool/gift/?quiz=week2.txt",
                     "resource_link_id": "ihts_02_quiz"
                 }
             ]
@@ -423,7 +420,7 @@
                 {
                     "type": "discussion",
                     "title": "The Impact of the Web",
-                    "launch": "mod/tdiscus/",
+                    "launch": "tsugi/tool/tdiscus/",
                     "resource_link_id": "ihts_03_web"
                 },
                 {
@@ -434,7 +431,7 @@
                 {
                     "type": "lti",
                     "title": "Quiz: The Web",
-                    "launch": "mod/gift/?quiz=week3.txt",
+                    "launch": "tsugi/tool/gift/?quiz=week3.txt",
                     "resource_link_id": "ihts_03_quiz"
                 }
             ]
@@ -536,7 +533,7 @@
                 {
                     "type": "discussion",
                     "title": "Commercialization and Growth",
-                    "launch": "mod/tdiscus/",
+                    "launch": "tsugi/tool/tdiscus/",
                     "resource_link_id": "ihts_04_growth"
                 },
                 {
@@ -547,7 +544,7 @@
                 {
                     "type": "lti",
                     "title": "Quiz: The Modern Internet",
-                    "launch": "mod/gift/?quiz=week4.txt",
+                    "launch": "tsugi/tool/gift/?quiz=week4.txt",
                     "resource_link_id": "ihts_04_quiz"
                 }
             ]
@@ -640,7 +637,7 @@
                 {
                     "type": "discussion",
                     "title": "Internets and Packets",
-                    "launch": "mod/tdiscus/",
+                    "launch": "tsugi/tool/tdiscus/",
                     "resource_link_id": "ihts_05_packets"
                 },
                 {
@@ -651,7 +648,7 @@
                 {
                     "type": "lti",
                     "title": "Quiz: Internet and Packets",
-                    "launch": "mod/gift/?quiz=week5.txt",
+                    "launch": "tsugi/tool/gift/?quiz=week5.txt",
                     "resource_link_id": "ihts_05_quiz"
                 }
             ]
@@ -726,7 +723,7 @@
                 {
                     "type": "discussion",
                     "title": "Transport Control Protocol",
-                    "launch": "mod/tdiscus/",
+                    "launch": "tsugi/tool/tdiscus/",
                     "resource_link_id": "discuss_06_tcp"
                 },
                 {
@@ -737,7 +734,7 @@
                 {
                     "type": "lti",
                     "title": "Quiz: TCP",
-                    "launch": "mod/gift/?quiz=week6.txt",
+                    "launch": "tsugi/tool/gift/?quiz=week6.txt",
                     "resource_link_id": "ihts_06_quiz"
                 }
             ]
@@ -804,7 +801,7 @@
                 {
                     "type": "discussion",
                     "title": "Application Protocols",
-                    "launch": "mod/tdiscus/",
+                    "launch": "tsugi/tool/tdiscus/",
                     "resource_link_id": "ihts_08_application"
                 },
                 {
@@ -815,7 +812,7 @@
                 {
                     "type": "lti",
                     "title": "Quiz: Application Layer",
-                    "launch": "mod/gift/?quiz=week7.txt",
+                    "launch": "tsugi/tool/gift/?quiz=week7.txt",
                     "resource_link_id": "ihts_07_quiz"
                 }
             ]
@@ -919,7 +916,7 @@
                 {
                     "type": "discussion",
                     "title": "Encrypting and Signing",
-                    "launch": "mod/tdiscus/",
+                    "launch": "tsugi/tool/tdiscus/",
                     "resource_link_id": "ihts_08_encrypt"
                 },
                 {
@@ -930,7 +927,7 @@
                 {
                     "type": "lti",
                     "title": "Quiz: Encryption and Signing",
-                    "launch": "mod/gift/?quiz=week8.txt",
+                    "launch": "tsugi/tool/gift/?quiz=week8.txt",
                     "resource_link_id": "ihts_08_quiz"
                 }
             ]
@@ -990,7 +987,7 @@
                 {
                     "type": "discussion",
                     "title": "Web Security",
-                    "launch": "mod/tdiscus/",
+                    "launch": "tsugi/tool/tdiscus/",
                     "resource_link_id": "ihts_09_certificates"
                 },
                 {
@@ -1001,7 +998,7 @@
                 {
                     "type": "lti",
                     "title": "Quiz: Web Security",
-                    "launch": "mod/gift/?quiz=week9.txt",
+                    "launch": "tsugi/tool/gift/?quiz=week9.txt",
                     "resource_link_id": "ihts_09_quiz"
                 }
             ]
@@ -1030,7 +1027,7 @@
                 {
                     "type": "discussion",
                     "title": "Final Exam and Graduation",
-                    "launch": "mod/tdiscus/",
+                    "launch": "tsugi/tool/tdiscus/",
                     "resource_link_id": "ihts_10_graduation"
                 },
                 {
@@ -1041,7 +1038,7 @@
                 {
                     "type": "lti",
                     "title": "Final Exam",
-                    "launch": "mod/gift/?quiz=final.txt",
+                    "launch": "tsugi/tool/gift/?quiz=final.txt",
                     "resource_link_id": "ihts_final"
                 }
             ]

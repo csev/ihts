@@ -18,7 +18,7 @@ $CFG->context_title = "IHTS Online";
 $CFG->lessons = $CFG->dirroot.'/../lessons-items.json';
 $CFG->youtube_playlist = 'PLlRFEj9H3Oj6-srSAgLb-ZGVNGlo3v14X';
 
-$CFG->tdiscus = $CFG->apphome . '/mod/tdiscus/';
+$CFG->tdiscus = $CFG->wwwroot . '/tool/tdiscus/';
 
 $CFG->theme = array(
     "primary" => "#336791", //default color for nav background, splash background, buttons, text of tool menu
