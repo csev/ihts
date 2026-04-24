@@ -18,9 +18,6 @@ function buildMenu() {
         if ( isset($_SESSION['id']) ) {
             $set->addLeft('Assignments', $R.'assignments');
         }
-        $set->addLeft('Courses', $R.'coursesredirect.php');
-    } else {
-        $set->addLeft('Courses', $R.'coursesredirect.php');
     }
 
     if ( isset($_SESSION['id']) ) {
@@ -38,6 +35,7 @@ function buildMenu() {
         if ( file_exists('privacy.php') ) {
             $submenu->addLink('Privacy', $R.'privacy');
         }
+        $submenu->addLink('Courses', $R.'coursesredirect.php');
         if ( $CFG->providekeys ) {
             $submenu->addLink('LMS Integration', $T . 'settings');
         }
@@ -64,6 +62,7 @@ function buildMenu() {
         if ( isset($CFG->google_client_id) && $CFG->google_client_id ) {
             $set->addRight('Login', $R.'login');
         }
+        $set->addRight('Courses', $R.'coursesredirect.php');
     }
     if ( isset($_SESSION['id']) ) {
         if ( $showCalendarDueUi ) {
