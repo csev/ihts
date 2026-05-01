@@ -6,3 +6,129 @@ What made NCSA Mosaic a turning point for the Web?
 ~It replaced the need for servers
 ~It eliminated competition from other technologies
 }
+
+::Q2_RightTimeUsability::
+Why did Mosaic succeed where earlier Web tools did not?
+{
+=It combined improving hardware, networks, and usability at the right moment
+~It was technically perfect from the beginning
+~It required more expertise than earlier tools
+~It was the only browser available
+}
+
+::Q3_CrossPlatformInsight::
+Why was supporting Mac, Windows, and Unix so important?
+{
+=It allowed the Web to reach a much broader audience
+~It reduced the need for networking
+~It made computers faster
+~It eliminated the need for standards
+}
+
+::Q4_OpenDistribution::
+How did making Mosaic freely available affect its adoption?
+{
+=It allowed rapid spread and experimentation by many users
+~It prevented commercial use of the Web
+~It limited access to academic users only
+~It reduced interest in browser development
+}
+
+::Q5_CommercialShift::
+What changed in the Web ecosystem around 1994?
+{
+=Money and commercial competition began driving rapid development
+~The Web stopped growing
+~Academic institutions abandoned networking
+~Standards became unnecessary
+}
+
+::Q6_NetscapeStrategy::
+What was Netscape’s initial strategy for the Web?
+{
+=To build proprietary tools and dominate the browser and server market
+~To eliminate browsers entirely
+~To restrict access to academic users
+~To replace TCP/IP with a new protocol
+}
+
+::Q7_MicrosoftImpact::
+How did Microsoft’s entry into the browser market affect the Web?
+{
+=It forced browsers to become free and accelerated widespread adoption
+~It reduced competition in the market
+~It slowed down Web development
+~It eliminated the need for standards
+}
+
+::Q8_OpenVsProprietaryOutcome::
+What was the long-term effect of the Netscape vs Microsoft competition?
+{
+=It helped prevent the Web from becoming fully proprietary
+~It ended browser innovation
+~It centralized control of the Web
+~It eliminated open source software
+}
+
+::Q9_StandardsRole::
+Why was the creation of the World Wide Web Consortium (W3C) important?
+{
+=It helped ensure interoperability and openness across the Web
+~It replaced all browser development
+~It controlled all web content
+~It eliminated competition between companies
+}
+
+::Q10_RightIdeaPattern_Final::
+Which pattern best explains the Web’s explosive growth in the mid-1990s?
+{
+=The right ideas met improving technology and usable tools at the right time
+~The best technical design always wins immediately
+~Government planning ensured success
+~Users preferred complex systems over simple ones
+}
+
+::Q11_StallmanHighLevel::
+What is Richard Stallman’s core argument about software?
+{
+=Software should respect users’ freedom to use, modify, and share it
+~Software should always be sold for profit
+~Only experts should be allowed to modify software
+~Software should be controlled by governments
+}
+
+::Q12_BehlendorfHighLevel::
+What made the Apache web server project successful?
+{
+=Collaborative development where contributors shared and improved code together
+~A single company controlling all development
+~Strict top-down management of contributors
+~Limiting access to a small group of developers
+}
+
+::Q13_RasmusHighLevel::
+What was Rasmus Lerdorf’s original motivation for creating PHP?
+{
+=To make building web applications faster and easier for himself
+~To replace all programming languages
+~To create a proprietary web platform
+~To eliminate the need for servers
+}
+
+::Q14_OpenSourceInsight::
+What is a key advantage of open source development in the context of the Web?
+{
+=It allows many contributors to improve and adapt software rapidly
+~It prevents collaboration between developers
+~It limits innovation to a few organizations
+~It guarantees financial profit for contributors
+}
+
+::Q15_FinalArc::
+Looking across the entire history presented, what best explains how the modern Web emerged?
+{
+=Multiple innovations, communities, and competing ideas converged over time
+~A single invention created the Web fully formed
+~Commercial companies alone drove all progress
+~The Web developed without any failures or competing ideas
+}
