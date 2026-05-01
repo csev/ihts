@@ -1,0 +1,135 @@
+::Q1_ARPANETMotivation::
+What was the *primary* motivation behind the creation of ARPANET?
+{
+=Improving how people used and shared expensive computing resources
+~Preparing for total communication collapse after nuclear war
+~Replacing telephone systems with faster alternatives
+~Creating a commercial global network for businesses
+}
+
+::Q2_HumanCenteredDesign::
+What does ARPANET’s original goal suggest about early network design priorities?
+{
+=Networks were designed to help people collaborate more effectively
+~Networks were designed mainly for automation without human interaction
+~Networks were designed primarily for entertainment
+~Networks were designed to replace all physical travel
+}
+
+::Q3_ReliabilityInsight::
+Why was redundancy an important design goal in ARPANET?
+{
+=To allow communication to continue even if parts of the network failed
+~To reduce the cost of building the network
+~To simplify routing decisions
+~To eliminate the need for encryption
+}
+
+::Q4_StoreAndForwardLimitation::
+What is a key limitation of store-and-forward networking compared to packet switching?
+{
+=Large messages can block smaller messages from being transmitted quickly
+~It cannot transmit messages over long distances
+~It requires more hardware than packet switching
+~It cannot detect errors in messages
+}
+
+::Q5_PacketSwitchingBenefit::
+Why does packet switching allow shorter messages to move quickly through a busy network?
+{
+=They can interleave with parts of longer messages instead of waiting for them to finish
+~They are automatically prioritized by routers
+~They travel on faster physical connections
+~They are compressed into smaller sizes
+}
+
+::Q6_PostcardAnalogy::
+In the postcard analogy, what is the purpose of sequence numbers?
+{
+=To allow the receiver to reassemble messages in the correct order
+~To speed up delivery through the network
+~To prevent packets from being lost
+~To encrypt the message contents
+}
+
+::Q7_DistributedRouting::
+What is the key idea behind how routers make decisions in a packet-switched network?
+{
+=Each step moves the packet closer to its destination without needing full knowledge of the path
+~Routers always know the exact final destination path
+~Packets follow a fixed, predetermined route
+~Routing decisions are made only at the source computer
+}
+
+::Q8_MultiplePaths::
+Why is it beneficial that packets can take different paths through the network?
+{
+=The network can adapt to congestion or failures dynamically
+~It guarantees packets arrive in order
+~It reduces the need for addressing information
+~It eliminates the need for routers
+}
+
+::Q9_OutOfOrderDelivery::
+What does packet switching require the receiving system to handle?
+{
+=Reassembling packets that may arrive out of order
+~Encrypting all incoming messages
+~Assigning IP addresses to packets
+~Maintaining a constant connection to the sender
+}
+
+::Q10_LoopProblem::
+What problem occurs when routing decisions are incorrect in a network?
+{
+=Packets can circulate endlessly in loops
+~Packets are automatically deleted by routers
+~Messages are permanently stored in routers
+~The network shuts down completely
+}
+
+::Q11_EngineeringReality::
+What does the existence of routing loops suggest about real-world networks?
+{
+=They must be designed to handle imperfect decisions and failures
+~They always operate perfectly if designed correctly
+~They do not require testing before deployment
+~They eliminate the need for redundancy
+}
+
+::Q12_SharedResourceInsight::
+Why was circuit-switched telephone technology a poor fit for computer communication?
+{
+=Computers communicate in bursts rather than continuous streams
+~Computers require constant connections at all times
+~Telephone networks were too fast for computers
+~Telephone systems could not transmit digital signals
+}
+
+::Q13_TimeSharingToNetworking::
+How did time-sharing influence the development of packet switching?
+{
+=It showed how multiple users could efficiently share a limited resource
+~It demonstrated the need for faster processors
+~It eliminated the need for communication networks
+~It required each user to have a dedicated connection
+}
+
+::Q14_InnovationResistance::
+Why did organizations like AT&T initially reject packet switching ideas?
+{
+=They were invested in existing models and could not see the new use case
+~They lacked the technical ability to implement it
+~They believed communication networks were unnecessary
+~They preferred slower technologies for reliability
+}
+
+::Q15_HistoricalPattern_Block2::
+What broader pattern does the development of packet switching illustrate?
+{
+=Important innovations are often ignored until a real need makes them unavoidable
+~New technologies are always immediately adopted
+~Government research rarely influences real-world systems
+~Commercial companies always lead foundational innovation
+}
+

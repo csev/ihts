@@ -1,0 +1,135 @@
+::Q1_ScalingProblem::
+By the late 1970s, what was the main limitation of the early Internet (ARPANET)?
+{
+=It was powerful but limited to a small, exclusive group of users
+~It could not transmit data reliably
+~It lacked packet switching technology
+~It was too slow to be useful
+}
+
+::Q2_NSFInsight::
+Why did the National Science Foundation change its approach from buying many supercomputers to building a network?
+{
+=Sharing a few powerful computers via a network was more efficient than buying many separate ones
+~Supercomputers became inexpensive and widely available
+~Scientists no longer needed computing power
+~Networking was cheaper than research
+}
+
+::Q3_ScarcityModel::
+What underlying problem did NSFNet solve for researchers?
+{
+=Limited access to expensive computing resources
+~Lack of interest in computing among scientists
+~Inability to store data locally
+~Lack of programming languages
+}
+
+::Q4_SmarrInsight::
+What key realization drove Larry Smarr’s push for supercomputer centers?
+{
+=Many researchers knew what to do but lacked access to computing resources
+~Scientists preferred manual calculations over computers
+~Supercomputers were already widely available
+~Only military research required high-performance computing
+}
+
+::Q5_PolicyConstraint::
+Why didn’t the government simply build a nationwide general-purpose network from the start?
+{
+=Political and industry resistance limited what the government could directly fund
+~The technology for networking did not exist
+~Universities refused to participate
+~There was no demand for networking
+}
+
+::Q6_StrategyWorkaround::
+How did NSFNet succeed despite opposition from telecom companies?
+{
+=It framed the network as a limited research backbone rather than a general-purpose system
+~It replaced telephone infrastructure entirely
+~It operated outside government funding
+~It ignored industry concerns completely
+}
+
+::Q7_BackboneConcept::
+What was the role of the NSFNet “backbone”?
+{
+=To connect major centers and enable other networks to attach and grow outward
+~To store all data centrally for the network
+~To replace local campus networks
+~To eliminate the need for routers
+}
+
+::Q8_ForcingFunction::
+How did NSFNet influence universities beyond just connecting them?
+{
+=It pushed campuses to upgrade their own internal networks
+~It eliminated the need for local computing resources
+~It centralized all computing at NSF facilities
+~It reduced demand for network access
+}
+
+::Q9_LocalVsResearch::
+Why did some universities initially ignore ARPANET?
+{
+=They already had functional local networks and did not see ARPANET as essential
+~They lacked the technical expertise to connect
+~ARPANET was too expensive to use
+~ARPANET did not support email
+}
+
+::Q10_InnovationPattern::
+What does the NSFNet story suggest about how large systems often emerge?
+{
+=They grow from smaller, constrained efforts that gradually expand
+~They are designed fully formed from the beginning
+~They are always driven by private companies first
+~They require no collaboration between organizations
+}
+
+::Q11_CollaborationModel::
+What made the NSFNet project technically feasible?
+{
+=Partnerships between universities, companies, and government
+~A single organization controlling all aspects of the network
+~Complete reliance on academic research alone
+~Elimination of private sector involvement
+}
+
+::Q12_UnintendedConsequences::
+What was an unintended effect of building a high-speed research network?
+{
+=It stimulated widespread demand for networking beyond the original scope
+~It reduced interest in computing
+~It limited network growth to a few institutions
+~It made supercomputers unnecessary
+}
+
+::Q13_ExponentialGrowth::
+Why did network growth accelerate rapidly once NSFNet was established?
+{
+=Each new connection increased the value and demand for additional connections
+~Networks became cheaper than computers
+~Users no longer needed training
+~Routers eliminated all technical challenges
+}
+
+::Q14_CommercialTransition::
+Why was NSFNet eventually decommissioned in the 1990s?
+{
+=The network had matured to the point where commercial providers could take over
+~It was no longer technically functional
+~Universities stopped using it
+~The government lost interest in networking
+}
+
+::Q15_GlobalVariation::
+What does the development of networking in places like Africa suggest about how networks spread globally?
+{
+=They can emerge through a mix of grassroots, academic, and private efforts depending on context
+~They require identical approaches in every country
+~They must always be led by governments
+~They only succeed with large initial funding
+}
+

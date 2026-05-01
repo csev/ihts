@@ -1,0 +1,8 @@
+::Q1_MosaicBreakthrough::
+What made NCSA Mosaic a turning point for the Web?
+{
+=It made the Web accessible across multiple platforms for everyday users
+~It introduced the first networking protocols
+~It replaced the need for servers
+~It eliminated competition from other technologies
+}

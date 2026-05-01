@@ -1,0 +1,134 @@
+::Q1_WarInnovationTradeoff::
+Why did World War II accelerate advances in computing and communications?
+{
+=Governments invested heavily in research due to existential threats, leading to rapid innovation
+~Scientists suddenly became more intelligent during wartime
+~Computers were already mature technologies before the war began
+~Commercial companies drove most of the innovation during the war
+}
+
+::Q2_WirelessSecurityProblem::
+What fundamental problem did wireless communication introduce during wartime?
+{
+=Signals could be intercepted by anyone with a receiver, requiring encryption
+~Wireless signals were too weak to travel long distances
+~Wireless systems could not transmit text data
+~Encryption made communication slower but not necessary
+}
+
+::Q3_EncryptionPurpose::
+What was the main purpose of machines like the German Enigma?
+{
+=To make intercepted communications unintelligible without the key
+~To speed up radio transmission
+~To compress messages to save bandwidth
+~To eliminate the need for radio operators
+}
+
+::Q4_MechanicalToElectronicShift::
+Why did Bletchley Park move from mechanical machines like the Bombe to electronic computers like Colossus?
+{
+=Mechanical approaches were too slow for increasingly complex encryption
+~Mechanical machines were too expensive to maintain
+~Electronic machines were easier to transport in wartime
+~Mechanical machines could not be powered reliably
+}
+
+::Q5_InterdisciplinaryInsight::
+What does the diversity of people at Bletchley Park (mathematicians, engineers, linguists) suggest about solving complex problems?
+{
+=Breakthroughs often require collaboration across multiple disciplines
+~Only mathematicians contributed meaningfully to codebreaking
+~Engineering problems can be solved without communication experts
+~Large teams are inefficient and unnecessary for innovation
+}
+
+::Q6_SecrecyImpact::
+How did secrecy around Bletchley Park affect the historical understanding of computing?
+{
+=It delayed recognition of early electronic computers in historical accounts
+~It caused the technology to be lost permanently
+~It prevented further development of computers after the war
+~It made mechanical computers more popular
+}
+
+::Q7_PostWarDiffusion::
+After World War II, what happened to the knowledge gained at Bletchley Park?
+{
+=It spread into academia and influenced rapid development of new computers
+~It remained completely unused due to secrecy
+~It was only used for military purposes
+~It was transferred exclusively to private corporations
+}
+
+::Q8_ElectronicAdvantage::
+Why was electronic computation such a breakthrough compared to mechanical computation?
+{
+=It allowed much faster manipulation of data using electrical signals
+~It required less mathematical knowledge to operate
+~It eliminated the need for programming
+~It made computers physically smaller immediately
+}
+
+::Q9_GovernmentFunding::
+Why did governments invest heavily in science and education after World War II?
+{
+=They believed national security depended on having highly educated scientists
+~They wanted to reduce the cost of consumer electronics
+~They aimed to eliminate universities
+~They believed research had no military applications
+}
+
+::Q10_TimeSharingConcept::
+What problem did time-sharing systems in the 1960s solve?
+{
+=They allowed multiple users to share access to a single expensive computer
+~They made computers portable
+~They eliminated the need for programming knowledge
+~They replaced all telephone systems
+}
+
+::Q11_TerminalModel::
+Why were terminals and dial-up connections necessary in early computing?
+{
+=Computers were centralized and too expensive for individuals to own
+~Computers could only operate at night
+~Terminals were more powerful than computers
+~Dial-up connections were faster than local processing
+}
+
+::Q12_LeasedLineTradeoff::
+Why were leased lines used despite being expensive?
+{
+=They provided continuous, dedicated connections for critical data transfer
+~They were faster than all other communication methods
+~They were required by law for all communications
+~They eliminated the need for encryption
+}
+
+::Q13_HumanExperience::
+What does the lecture suggest about user experience in early computing?
+{
+=Even with limited technology, users found computing engaging and meaningful
+~Early computing was frustrating and rarely used
+~Only experts could interact with computers at all
+~There was no communication between users
+}
+
+::Q14_CommunicationImportance::
+What key idea about computing emerged as early as the 1960s?
+{
+=Communication between people was as important as computation itself
+~Computation replaced all forms of communication
+~Networks were unnecessary for computing
+~Computers were mainly used for entertainment
+}
+
+::Q15_HistoricalArc::
+What is the broader historical pattern from Bletchley Park to early networking?
+{
+=Technologies developed for specialized wartime use evolved into general-purpose, widely shared systems
+~Computing became less important after the war
+~Networking existed before computing
+~Commercialization happened before academic use
+}

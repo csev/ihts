@@ -1,0 +1,135 @@
+::Q1_AccessProblem_Web::
+Before the Web, what was the main barrier to accessing information on networked systems?
+{
+=Users had to know specific machines and commands to retrieve information
+~Networks could not transmit large files
+~Computers were not connected globally
+~There was no way to store digital information
+}
+
+::Q2_WebAbstraction::
+What key idea made the World Wide Web easier to use than previous systems?
+{
+=It hid the complexity of underlying systems behind simple links
+~It eliminated the need for networks
+~It required more technical knowledge from users
+~It stored all data in one central location
+}
+
+::Q3_StandardizationInsight::
+Why was having a common format (like HTML) important for the Web?
+{
+=It allowed different systems to share and display information consistently
+~It made computers faster
+~It reduced the need for servers
+~It eliminated the need for databases
+}
+
+::Q4_ContentCatalyst::
+Why was putting the physics paper database on the Web such a turning point?
+{
+=It demonstrated a clear, valuable use case for real users
+~It made the Web faster than other systems
+~It reduced the size of the Internet
+~It eliminated the need for programming
+}
+
+::Q5_NetworkEffectGrowth::
+What explains the rapid growth of Web adoption after early demonstrations?
+{
+=Each new user exposed many more users to its usefulness
+~The Web was immediately superior in performance
+~It required no infrastructure to operate
+~It replaced all competing technologies instantly
+}
+
+::Q6_GopherVsWeb::
+Why did Gopher initially outperform the Web?
+{
+=It was simpler and worked better on slower networks
+~It had more advanced graphics capabilities
+~It was more flexible than the Web
+~It required less server infrastructure
+}
+
+::Q7_BetterVsSimpler::
+What broader lesson does the Gopher vs Web competition illustrate?
+{
+=Simpler technologies can win early even if more powerful alternatives exist
+~The best technology always wins immediately
+~Complex systems are always preferred by users
+~Performance is the only factor in adoption
+}
+
+::Q8_InterfaceEvolution::
+Why did early Web designers avoid embedding images directly in pages?
+{
+=Network and computer performance made that impractical at the time
+~Images were not supported by computers
+~Users did not want visual content
+~Storage systems could not handle images
+}
+
+::Q9_DesignRelativity::
+What does the evolution of Web design suggest about “good design”?
+{
+=Design choices depend on the constraints of the time
+~Good design is fixed and does not change
+~Users always prefer complex interfaces
+~Technology has no impact on design decisions
+}
+
+::Q10_UnexpectedImpact::
+What does the origin of the Web at CERN suggest about innovation?
+{
+=Solutions to specialized problems can become broadly transformative
+~Only commercial companies create impactful technologies
+~Scientific research rarely affects society
+~Innovation requires predicting all future uses
+}
+
+::Q11_OpenVsProprietary::
+Why was the Web’s “horizontal” model important compared to proprietary systems?
+{
+=It allowed interoperability across different systems and organizations
+~It limited access to trusted users only
+~It increased dependence on single vendors
+~It prevented scaling across networks
+}
+
+::Q12_TurningPointMoment::
+Why was the live demo of querying the physics database so impactful?
+{
+=It transformed an abstract idea into a visible, practical tool
+~It improved network speed significantly
+~It introduced new hardware capabilities
+~It reduced the cost of computing
+}
+
+::Q13_SteveJobsInfluence::
+How might Steve Jobs’ Next computer have influenced the early Web?
+{
+=It provided advanced tools that made rapid development and experimentation possible
+~It directly invented the Web protocols
+~It replaced all other computing platforms
+~It eliminated the need for networking
+}
+
+::Q14_SecondOrderEffects::
+What does the “Steve Jobs effect” in this context illustrate?
+{
+=Technology can shape innovation indirectly by enabling new ways of thinking
+~Only direct inventions matter in technological progress
+~Hardware has no influence on software development
+~Innovation happens independently of tools
+}
+
+::Q15_InevitabilityQuestion::
+Which statement best reflects the nature of the Web’s success?
+{
+=It was not inevitable; timing, usability, and context all played key roles
+~It was guaranteed to succeed from the beginning
+~It succeeded purely because it was technically superior
+~It replaced all alternatives immediately upon release
+}
+

@@ -1,0 +1,43 @@
+The Internet did not appear overnight—and it was not inevitable.
+
+It was built step by step by researchers, engineers, and curious people trying to solve real problems, often under pressure, with limited resources, and without any clear idea of what the end result would become.
+
+In this course, you will follow that story from its earliest moments to the modern world.
+
+We begin at Bletchley Park during World War II, where the urgent need to decode encrypted communications led to the development of some of the first electronic computing machines. From there, we move into the post-war research environment, where universities began connecting computers using dial-up lines, time-sharing systems, and eventually the first experimental networks.
+
+You will see how:
+
+Early networking was slow, fragile, and expensive
+Simple ideas like packet switching changed everything
+ARPANET proved that large-scale networking could actually work
+NSFNet expanded access beyond a small group of researchers
+The Internet quietly became infrastructure before most people noticed
+
+Then comes a turning point.
+
+At CERN, a practical problem—how to share information among scientists—led to the invention of the World Wide Web. What made the Web powerful was not just the technology, but its simplicity. Hyperlinks, open standards, and a lightweight design allowed it to spread rapidly and connect people in ways that earlier systems could not.
+
+From there, the course explores how the Web moved from a research tool to a global platform:
+
+The rise of browsers like Mosaic and Netscape
+The role of competition in accelerating innovation
+The creation of JavaScript and the shift to interactive applications
+The importance of open source projects like Apache and PHP
+The role of standards organizations in keeping the Web interoperable
+
+Along the way, you will meet the people behind these developments—not as distant historical figures, but as individuals working in teams, making trade-offs, and solving problems in real time.
+
+This is not a course about memorizing dates or acronyms.
+
+Instead, it focuses on understanding:
+
+Why key decisions were made
+How different technologies fit together
+What forces shaped the Internet as it grew
+And how those decisions still affect the systems we use today
+
+By the end of this course, you will have a clear mental model of how the Internet and the Web evolved—from experimental systems to essential global infrastructure.
+
+More importantly, you will understand the patterns behind that evolution—patterns that continue to shape new technologies today.
+
