@@ -1,0 +1,74 @@
+When we started this course,
+the Internet was just an idea.
+
+A small network,
+a few experiments,
+and a big question:
+
+Could we connect computers across distance?
+
+We followed that journey—
+from ARPANET
+to NSFNET,
+to the global Internet we rely on today.
+
+We saw how the Web made it usable,
+how open standards made it scalable,
+and how communities made it thrive.
+
+But here’s the thing.
+
+This course focused on what happened.
+
+The next question is:
+
+How does it actually work?
+
+When you click a link,
+what really happens?
+
+How does data move across networks?
+How do browsers and servers communicate?
+Why do some systems scale
+while others fail?
+
+And maybe most importantly:
+
+Where are the weak points?
+
+Because the same openness
+that made the Internet powerful
+also makes it vulnerable.
+
+That’s where the next course comes in:
+
+Internet Technology and Security.
+
+In that course,
+we go under the hood.
+
+We look at protocols like HTTP, DNS, and TCP/IP.
+We explore how systems are built—
+and how they break.
+
+We talk about security—
+not as fear,
+but as understanding.
+
+Because once you understand how things work,
+you start to see:
+
+Why attacks succeed.
+How systems defend themselves.
+And how to think like an engineer
+instead of just a user.
+
+If this course gave you the story,
+the next course gives you the x-ray vision.
+
+So if you’re ready to go deeper,
+I’ll see you in
+Internet Technology and Security.
+
+Thanks for being part of this journey.
+

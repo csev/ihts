@@ -1,0 +1,184 @@
+Welcome to Internet History Course
+
+My name is Charles Severance,
+and I’m a faculty member
+at the University of Michigan
+School of Information.
+
+I’ve been working on this material,
+in one form or another,
+for nearly 30 years.
+
+For me, it really goes back
+to the mid-1990s—
+
+when the Internet
+was just getting started.
+
+At that time,
+I had the good fortune
+to work with some friends—
+
+John Liskey,
+Amy Leahy,
+and Richard Wiggins—
+
+and we produced a television show
+about the Internet.
+
+We didn’t know
+what it was going to become.
+
+So we went around filming people,
+capturing ideas,
+
+and building what turned into
+an informal oral history
+of the early Internet.
+
+Around that same time,
+I was also building technology
+for teaching on the Internet.
+
+In fact,
+I was one of the first people
+to stream an entire semester online.
+
+So early
+that I couldn’t even stream video—
+
+just audio,
+and slides that flipped
+every few minutes.
+
+And a somewhat unsettling
+still image of me
+in the corner.
+
+In 1999,
+I moved to the University of Michigan
+
+and built a more advanced
+lecture capture system—
+
+something that could record video,
+screens,
+and annotations.
+
+Back then,
+everything had “2000” in the name,
+
+so I called it
+Clipboard 2000.
+
+Later,
+around 2010,
+
+I began traveling
+with a small camera kit—
+
+often adding a few days
+to business trips—
+
+to interview people
+who had played key roles
+in the development of the Internet.
+
+Those interviews helped complete
+a collection of voices and stories
+
+from across the history
+of computing and networking.
+
+All of that came together
+in the original version
+of this course—
+
+which I created
+to share both the history
+and the technology
+of the Internet.
+
+This version of the course
+is an updated
+and refined version
+of that work.
+
+The idea behind this course
+is simple:
+
+You can’t really understand technology
+without understanding its history.
+
+Technology doesn’t exist
+in a vacuum.
+
+It evolves over time,
+
+shaped by people,
+constraints,
+and decisions—
+
+that often seemed small
+at the time—
+
+but turned out
+to matter a lot.
+
+So this course is designed
+to give you a way in—
+
+especially if you come
+from a non-technical background.
+
+This material originally grew
+out of a course I taught
+
+between 2009 and 2017.
+
+At the time,
+it was part of a larger
+programming course.
+
+Right after the midterm,
+
+I would give students
+a break from Python—
+
+and teach a couple of weeks
+of Internet history
+and technology.
+
+This course is that
+“break from Python”—
+
+expanded
+and refined.
+
+One practical note:
+
+This course can have
+a large number of students,
+
+so I’m not always able
+to respond
+to every question directly.
+
+But I do pay attention.
+
+If something is broken,
+I want to know.
+
+Let me know in the question
+and answer section
+of the course.
+
+So that’s a bit
+of the backstory.
+
+Now let’s get started.
+
+And we’ll begin
+at the beginning—
+
+at Bletchley Park.
