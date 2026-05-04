@@ -1,0 +1,113 @@
+ Back in the mid-80s, the National Science Foundation decided to establish supercomputing
+ centers and the University of Michigan was one of the organizations that made a proposal
+ for a national supercomputing center.
+ The Michigan proposal had as its primary hardware artifact, a machine that was built in Japan.
+ And I explained to my colleagues, my new colleagues, the University of Michigan having just arrived
+ that it was highly unlikely that the proposal would be funded.
+ A short while later, I was visiting the National Science Foundation and I had gotten to know,
+ not well, but had gotten to know Eric Block, who was then director of the National Science
+ Foundation.
+ And Eric and I had a conversation about Michigan's proposal.
+ And it was clear to me from my conversation with Eric that there was no prospect that
+ the Michigan proposal would be funded.
+ I said to Eric, I said, "Well, it occurs to me that what might be even better for the
+ University of Michigan than having a supercomputing center is to run the network that connects
+ all of the supercomputing centers."
+ At any rate, I had an old friend who worked for IBM Research by the name of Al Weiss,
+ who's in charge of all of IBM Research's computing facilities.
+ And I called Al and I said, "Al, this is a great opportunity, but IBM is not going
+ to be successful here and I need your help."
+ And so Al sort of rallied some folks from IBM Research, where there actually was work
+ going on in TCP/IP protocols.
+ We got tentatively an agreement from IBM that they would contribute the hardware and the
+ software to create the routing structure for the network.
+ But we still needed the communications facilities.
+ And at that time, the CFO at IBM was a gentleman, I think I remember the name correctly, his
+ last name was Crowe.
+ And so through IBM, we went to him and he had contacts with a former IBM employee who
+ was now the Chief Technical Officer and essentially the Chief Network Operations Officer for MCI.
+ His name was Dick Liebhaber.
+ And so IBM approached Dick Liebhaber and asked him if MCI would be interested in providing
+ the communications facilities for this network.
+ Well, as you may recall, at that time, MCI was this fledgling organization.
+ Some people had described it really as a law office trying to create an environment where
+ they could actually offer telecommunication services up against AT&T's lobbying efforts.
+ They had just been successful in that.
+ They were establishing facilities across the United States.
+ And Dick Liebhaber saw this as an opportunity to sort of move MCI into the big time to be
+ part of this NSFNET proposal.
+ And so we wound up with an agreement that we would file a joint proposal with Merit
+ as the principal organization in partnership with IBM who would build all the routing hardware
+ and software and with MCI who would provide the nationwide communications facilities.
+ And while we were--and then we got Governor Blanchard to commit a million dollars a year
+ from state funds in addition.
+ So we wound up being able to submit a proposal to the National Science Foundation I think
+ for something like $14.7 million because we knew the ceiling was 15.
+ But in fact, by including all this in kind activity, it was actually more like a $55
+ million proposal.
+ It was designed to start at T1 or 1.5 megabits with planned upgrades over the period of the
+ network's life.
+ We subsequently learned that the proposal was received with considerable skepticism
+ by the reviewers of the National Science Foundation.
+ People really wondered about our technical ability to pull this off.
+ But that review was conducted without reference to the actual funding pattern.
+ And then when the wraps got pulled off of the amount of resource that was being committed
+ by the partners to this proposal, it immediately went to the top of the list at the NSF.
+ And a short period later, we received informal word that they wanted to negotiate with us
+ about sort of working this all out.
+ But we had to do a lot of innovation.
+ The border gateway protocols had to be developed to allow multiple networks to interact with
+ one another.
+ And we had to build increasingly more capable routing and communications facilities.
+ When we started the network, we had T1 circuits, but there were no cards for computers that
+ would go at 1.5 megabits.
+ We used the T1 circuits we subdivided and built a mesh network among all of the routers
+ that we put in place.
+ It wasn't for about a year, IBM was actually to build prototype cards that would go at
+ 1.5 megabits.
+ When we put those cards in our test network, we discovered they worked just fine.
+ We put them in the production network, the network started failing on us.
+ And we discovered after a very tough period that the folks who had built the T1 hardware
+ for MCI had planned on using certain bit patterns to do diagnosis on the network and had never
+ anticipated the notion that anybody would ever use a full 1.5 megabits as a single channel.
+ They had always thought that it would be broken up into a set of voice circuits at 64 kilobits
+ each.
+ And so they didn't have any worry about these patterns ever appearing on their network.
+ Well, it turned out that that happened with some frequency on the NSF net and it took
+ the communications line down when it did.
+ So they had to re-engineer their hardware to undertake this.
+ We actually had for a short period of time put some translation circuits in our routers
+ that actually looked for these bit patterns, took them out and replaced them with something
+ else and then reinserted them at the other end to make it work over these T1 circuits.
+ So we had a lot of adventure.
+ Finally in, I think it was around 1990, this network was growing so fast that it was clear
+ that these T1 circuits were not going to enable what we needed to do.
+ So we had to go to the next step which was DS3 or from 1.5 megabits to 45 megabits which
+ was a very large step, a 30-fold increase in capacity.
+ And in order to do that we wound up creating another not-for-profit organization called
+ Advanced Network and Services.
+ Merit was still the principal investigator on the grant but it subcontracted the development
+ of this new network, this 45 megabit network to Advanced Network and Services which was
+ headquartered in Armonk.
+ And IBM, MCI and Nortel all contributed $3 million to the founding of this new organization
+ so it had the staff and the facilities to do the innovation that required us to go up
+ to 45 megabits.
+ That did accommodate our capacity needs over the life of the NSFnet.
+ The NSFnet was the fastest internet network to the end.
+ It finally was decommissioned in 1995 when the Congress decided that the federal government
+ should not be in the business of supporting something that by that time in their view
+ should have become a commercial facility.
+ I'll not ever forget sitting in a house hearing room in the Capitol and next to Mitch
+ Kapoor and some small internet company startup CEOs who were complaining to the Congress
+ that it was inappropriate for the NSFnet to be funded by the National Science Foundation
+ when they could provide this service as a commercial service.
+ At the very same time they were making that complaint, they were using NSFnet as their
+ backup network to carry traffic when their much less reliable networks failed on a national
+ scale.
+ MCI of course turned out to be a major internet service provider also using the same technology.
+ In a classic innovator's curse moment, IBM who was at that time the leader in routing
+ technology for internet backbones, managed to decide that they should kill all of the
+ work they had done in developing these routers because it would threaten their proprietary
+ network efforts.
+ It's probably almost single handedly responsible for the fact that Cisco became the dominant
+ router company in the United States rather than IBM.

@@ -1,0 +1,653 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:11.900
+ When you walk into the back entrance of Bolter Hall on the UCLA campus, you may notice a
+
+00:00:11.900 --> 00:00:16.260
+ seemingly random pattern of floor tiles in the entrance.
+
+00:00:16.260 --> 00:00:20.580
+ If you spend a little time looking at the pattern, it might dawn on you that the tiles
+
+00:00:20.580 --> 00:00:23.100
+ represent zeros and ones.
+
+00:00:23.100 --> 00:00:28.500
+ And then you might even figure out that the tiles represent ASCII characters.
+
+00:00:28.500 --> 00:00:35.060
+ The characters in the floor tiles spell out "lo" and "behold" to commemorate the building
+
+00:00:35.060 --> 00:00:41.580
+ where the "L" and the "O" were the first two packets ever sent on the ARPANET from
+
+00:00:41.580 --> 00:00:47.460
+ UCLA to Stanford Research Institute on October 29, 1969.
+
+00:00:47.460 --> 00:00:53.840
+ ARPA wanted a network so that they could share the large computing resources they had given
+
+00:00:53.840 --> 00:00:57.880
+ to their researchers across the country.
+
+00:00:57.880 --> 00:01:00.380
+ University of Utah had a terrific graphics operating system.
+
+00:01:00.380 --> 00:01:06.940
+ SRI had database, we had simulation, University of Illinois had high performance computing.
+
+00:01:06.940 --> 00:01:11.700
+ And every time ARPA brought on a new researcher, they'd offer to buy them a computer, fine,
+
+00:01:11.700 --> 00:01:15.500
+ but the researcher would say, "I want the same capability all those other guys have.
+
+00:01:15.500 --> 00:01:17.980
+ I want the graphics, the database, and all the rest."
+
+00:01:17.980 --> 00:01:19.980
+ And ARPA said, "We can't afford that."
+
+00:01:19.980 --> 00:01:24.780
+ If you want to do graphics, you log on to the machine at Utah through a network that
+
+00:01:24.780 --> 00:01:26.700
+ we think we're going to make.
+
+00:01:26.700 --> 00:01:30.980
+ So the need for the network was to do resource sharing and not to protect the United States
+
+00:01:30.980 --> 00:01:33.780
+ against a nuclear holocaust.
+
+00:01:33.780 --> 00:01:38.460
+ When Bob Taylor came in as a neck director, and he recognized his need for sharing resources,
+
+00:01:38.460 --> 00:01:43.660
+ by the way, notice the phrase I'm using, "sharing resources" is exactly what I built into the
+
+00:01:43.660 --> 00:01:44.900
+ network design.
+
+00:01:44.900 --> 00:01:47.380
+ Now they wanted to share the external resources.
+
+00:01:47.380 --> 00:01:48.620
+ Same idea.
+
+00:01:48.620 --> 00:01:51.820
+ You have it, you're not using it as somebody else should be able to.
+
+00:01:51.820 --> 00:01:56.180
+ So they brought in Larry Roberts, another classmate of mine, in fact, an officer mate
+
+00:01:56.180 --> 00:01:59.580
+ of mine at MIT, to manage this project.
+
+00:01:59.580 --> 00:02:01.380
+ He came to me because he knew my work.
+
+00:02:01.380 --> 00:02:02.380
+ He watched me do the simulation.
+
+00:02:02.380 --> 00:02:08.740
+ In fact, I used his compiler on the TX-2 computer and said, "Len, we need to know if this thing
+
+00:02:08.740 --> 00:02:10.500
+ is going to work."
+
+00:02:10.500 --> 00:02:13.580
+ He knew that I had the theory, so I could show it to him it's going to work.
+
+00:02:13.580 --> 00:02:18.740
+ In fact, he even says he would never have decided to spend millions of dollars of the
+
+00:02:18.740 --> 00:02:23.340
+ U.S. government's money if he wasn't sure this thing would work.
+
+00:02:23.340 --> 00:02:28.000
+ So the design began to be laid out by a few of us in 1967.
+
+00:02:28.000 --> 00:02:31.040
+ In '68, they sent out a request for a proposal.
+
+00:02:31.040 --> 00:02:36.700
+ The end of '68, both Berenick and Newman, a Cambridge, Massachusetts firm, won the contract
+
+00:02:36.700 --> 00:02:40.580
+ to produce the first switch of the opener.
+
+00:02:40.580 --> 00:02:44.660
+ And we became the network measurement center early on so we could test it out.
+
+00:02:44.660 --> 00:02:49.660
+ During the design phase, some great people were there throwing their ideas out.
+
+00:02:49.660 --> 00:02:53.300
+ Herb Baskin was there, a time human expert.
+
+00:02:53.300 --> 00:02:58.880
+ And he said, "If this network can't deliver short messages within a half a second, I can't
+
+00:02:58.880 --> 00:02:59.880
+ use it for time sharing."
+
+00:02:59.880 --> 00:03:04.120
+ Specification, half a second.
+
+00:03:04.120 --> 00:03:08.620
+ By the way, we've got 200 milliseconds.
+
+00:03:08.620 --> 00:03:14.860
+ And Wes Clark said, "Circuit computer for communications."
+
+00:03:14.860 --> 00:03:18.300
+ I said, "Look, if this is going to be an experiment," and I was also interested in the research
+
+00:03:18.300 --> 00:03:23.500
+ and experimentation, "we have to build software in so we can run experiments.
+
+00:03:23.500 --> 00:03:27.900
+ Artificial traffic generators, measurement hooks, a place where the measurements can
+
+00:03:27.900 --> 00:03:30.300
+ be evaluated, put the software in."
+
+00:03:30.300 --> 00:03:35.940
+ So Howie Frank began to talk about network reliability.
+
+00:03:35.940 --> 00:03:40.540
+ He said, "If anything fails, the network shouldn't collapse."
+
+00:03:40.540 --> 00:03:45.300
+ So we didn't say there should be five nines of uptime.
+
+00:03:45.300 --> 00:03:49.700
+ We went much more pragmatic, we said, "If any single thing fails, everybody else can
+
+00:03:49.700 --> 00:03:51.220
+ still talk."
+
+00:03:51.220 --> 00:03:54.500
+ So to do that, you need something called a two-connected topology, two independent pairs
+
+00:03:54.500 --> 00:03:58.340
+ between every pair of nodes, built in it.
+
+00:03:58.340 --> 00:04:00.260
+ So all those specs went to BBN.
+
+00:04:00.260 --> 00:04:01.660
+ They built the darn thing.
+
+00:04:01.660 --> 00:04:05.620
+ They delivered the switch here at UCLA on schedule.
+
+00:04:05.620 --> 00:04:10.500
+ Eight months after they got the contract, they were to deliver this new technology,
+
+00:04:10.500 --> 00:04:13.580
+ new applications, new device.
+
+00:04:13.580 --> 00:04:20.180
+ They did it on time, on budget, came here, we plugged it in, and bits began to move back
+
+00:04:20.180 --> 00:04:25.140
+ and forth between our timeshare machine and that switch on the day after Labor Day, September
+
+00:04:25.140 --> 00:04:28.660
+ 2, 1969.
+
+00:04:28.660 --> 00:04:31.340
+ But that was just a one-node network.
+
+00:04:31.340 --> 00:04:35.740
+ The schedule was that another one of these switches would be delivered at Stanford Research
+
+00:04:35.740 --> 00:04:41.580
+ Institute, 400 miles to the north, and they would connect that to their machine.
+
+00:04:41.580 --> 00:04:43.780
+ And that happened in October.
+
+00:04:43.780 --> 00:04:47.060
+ So in October, we had a two-node network.
+
+00:04:47.060 --> 00:04:54.700
+ My machine, my switch, another switch, 400 miles away, and the SRI host.
+
+00:04:54.700 --> 00:04:59.980
+ And it wasn't one single line, it was a gang of 4.8 kilobit per second lines.
+
+00:04:59.980 --> 00:05:00.980
+ So now what do you do?
+
+00:05:00.980 --> 00:05:01.980
+ You have a two-node network.
+
+00:05:01.980 --> 00:05:03.500
+ Well, now you can do something.
+
+00:05:03.500 --> 00:05:10.940
+ So we decided one night, one night late in October, programmer Charlie Klein and I were
+
+00:05:10.940 --> 00:05:15.660
+ in the room and said, "Look, let's communicate between these two machines."
+
+00:05:15.660 --> 00:05:20.740
+ So we got a hold of Bill Duvall, their programmer over there, and we said, "Let's simply log
+
+00:05:20.740 --> 00:05:25.260
+ in from a terminal connected to our host to that machine."
+
+00:05:25.260 --> 00:05:28.340
+ The idea is these are both timesharing systems.
+
+00:05:28.340 --> 00:05:33.020
+ They expect terminals to connect in and use the services of the machine.
+
+00:05:33.020 --> 00:05:37.020
+ The big thing was sit at a terminal here, log onto your machine here, and through this
+
+00:05:37.020 --> 00:05:42.700
+ wonderful network, log on here as if you're a local user.
+
+00:05:42.700 --> 00:05:44.380
+ That's easy enough.
+
+00:05:44.380 --> 00:05:50.180
+ So we got all set, got Charlie down at the terminal over here.
+
+00:05:50.180 --> 00:05:53.460
+ And just to be sure this worked, we had a telephone handset.
+
+00:05:53.460 --> 00:05:57.780
+ In fact, I actually think I've got the, here it is, I'm just happy to have it.
+
+00:05:57.780 --> 00:05:58.940
+ That was a telephone set.
+
+00:05:58.940 --> 00:05:59.940
+ That's the telephone.
+
+00:05:59.940 --> 00:06:00.940
+ That was the telephone.
+
+00:06:00.940 --> 00:06:01.940
+ We plugged it in.
+
+00:06:01.940 --> 00:06:02.940
+ We derived a...
+
+00:06:02.940 --> 00:06:03.940
+ You weren't using Skype.
+
+00:06:03.940 --> 00:06:04.940
+ Very nice.
+
+00:06:04.940 --> 00:06:12.340
+ Plugged it in, we used a piece of the high-speed line for the phone connection.
+
+00:06:12.340 --> 00:06:18.820
+ But the interesting thing is we were using the defunct circuit switching technology to
+
+00:06:18.820 --> 00:06:23.740
+ prove out the new packet switching technology, and it really helped us so we could understand
+
+00:06:23.740 --> 00:06:24.740
+ what's going on.
+
+00:06:24.740 --> 00:06:27.540
+ So Charlie tapped the L and we said, "You get the L?"
+
+00:06:27.540 --> 00:06:28.820
+ Bill said, "Yep, got the L."
+
+00:06:28.820 --> 00:06:31.120
+ Tapped the L, "You get the O?"
+
+00:06:31.120 --> 00:06:33.340
+ We're trying to do LOG for login.
+
+00:06:33.340 --> 00:06:34.980
+ Got the O, got the O.
+
+00:06:34.980 --> 00:06:37.580
+ Tapped the G, get the G, crash.
+
+00:06:37.580 --> 00:06:45.540
+ So the first message ever on the network was LO, as in lo and behold.
+
+00:06:45.540 --> 00:06:49.540
+ Now that's especially interesting because if you go outside this hallway here down under
+
+00:06:49.540 --> 00:06:55.260
+ the alley and come into another entrance to this building, and I just discovered this about
+
+00:06:55.260 --> 00:07:03.860
+ a week ago, you walk on a platform and there's a mosaic of tiles down there, and they're
+
+00:07:03.860 --> 00:07:05.940
+ a strange pattern.
+
+00:07:05.940 --> 00:07:10.220
+ It turns out it's the ASCII code for lo and behold.
+
+00:07:10.220 --> 00:07:12.880
+ I have no idea who did that.
+
+00:07:12.880 --> 00:07:14.620
+ It's about a year and a half now.
+
+00:07:14.620 --> 00:07:16.740
+ Some very clever person put that in.
+
+00:07:16.740 --> 00:07:17.740
+ That was the first message.
+
+00:07:17.740 --> 00:07:25.140
+ October 29th, 1969, the 1030th night.
+
+00:07:25.140 --> 00:07:27.780
+ You're entering 1969 right now.
+
+00:07:27.780 --> 00:07:35.180
+ We reproduced this room to look as it did and smell and feel like it did some 40-odd
+
+00:07:35.180 --> 00:07:38.180
+ years ago.
+
+00:07:38.180 --> 00:07:46.060
+ If you look over here, you're looking at the first piece of equipment ever on the internet.
+
+00:07:46.060 --> 00:07:55.220
+ This is that first interface message processor, imp number one at UCLA, a Honeywell minicomputer
+
+00:07:55.220 --> 00:08:01.660
+ adapted by both Baranek and Newman, BBNN, to operate as a switch which handles all this
+
+00:08:01.660 --> 00:08:03.700
+ functionality.
+
+00:08:03.700 --> 00:08:11.980
+ This is the same physical four square feet where it served as the opening note of the
+
+00:08:11.980 --> 00:08:12.980
+ internet.
+
+00:08:12.980 --> 00:08:15.620
+ It's the first piece of equipment ever on the internet.
+
+00:08:15.620 --> 00:08:16.940
+ That's the actual one.
+
+00:08:16.940 --> 00:08:17.940
+ That's it.
+
+00:08:17.940 --> 00:08:18.940
+ I kept it for years.
+
+00:08:18.940 --> 00:08:20.820
+ They tried to throw it away many times.
+
+00:08:20.820 --> 00:08:23.040
+ Most of the people who had imps have tossed them.
+
+00:08:23.040 --> 00:08:26.140
+ This is the one or two left of our coral, but this is number one.
+
+00:08:26.140 --> 00:08:27.140
+ This is the first piece.
+
+00:08:27.140 --> 00:08:34.580
+ If you open this machine, you'll be privileged to smell it.
+
+00:08:34.580 --> 00:08:38.060
+ It's got an unusual odor and just brings you right back.
+
+00:08:38.060 --> 00:08:39.860
+ Emotionally, it's great.
+
+00:08:39.860 --> 00:08:41.340
+ You can't smell it.
+
+00:08:41.340 --> 00:08:44.140
+ This is a military-hardened machine.
+
+00:08:44.140 --> 00:08:51.260
+ This machine was essentially a state-of-the-art minicomputer which was adapted by BBNN.
+
+00:08:51.260 --> 00:08:57.420
+ I first saw it in 1968 at one of the joint computer conference shows.
+
+00:08:57.420 --> 00:09:00.260
+ Thousands of people on the big exhibit floor.
+
+00:09:00.260 --> 00:09:02.260
+ You see these skyhooks up here?
+
+00:09:02.260 --> 00:09:08.900
+ They had one of these machines hanging from the ceiling, swinging in the air, running.
+
+00:09:08.900 --> 00:09:15.940
+ There was a guy, big guy, stripped to the waist, oiled skin with a sledgehammer, and
+
+00:09:15.940 --> 00:09:22.460
+ he was going, "Whack, whack," to show that it was a military, and it was.
+
+00:09:22.460 --> 00:09:29.220
+ The most important document of the internet, the most important document of the entire
+
+00:09:29.220 --> 00:09:32.500
+ internet is right here.
+
+00:09:32.500 --> 00:09:34.420
+ You took out who was working with me.
+
+00:09:34.420 --> 00:09:37.300
+ Well, one of my software programmers was John Postel.
+
+00:09:37.300 --> 00:09:45.820
+ In fact, here's his picture, and he was not a hippie, even though he appears to be.
+
+00:09:45.820 --> 00:09:51.100
+ He was the one who basically disciplined my staff to do things properly, keep records.
+
+00:09:51.100 --> 00:09:54.260
+ He said, "We have to keep a record of what's going on."
+
+00:09:54.260 --> 00:09:59.140
+ So beginning in October, basically a month after the imp arrived, we started keeping
+
+00:09:59.140 --> 00:10:00.140
+ an imp log.
+
+00:10:00.140 --> 00:10:01.580
+ You know, this is an engineer's log.
+
+00:10:01.580 --> 00:10:07.380
+ This is not, you know, Madison Avenue piece of data, just scribble, we use an old STS
+
+00:10:07.380 --> 00:10:08.380
+ log.
+
+00:10:08.380 --> 00:10:13.060
+ In here, we kept a record of what's going on, and the most important entry happened
+
+00:10:13.060 --> 00:10:15.740
+ to be right here.
+
+00:10:15.740 --> 00:10:22.460
+ On October 29, 1969, at 10.30 at night, Charlie Klein, the programmer who was in the room
+
+00:10:22.460 --> 00:10:27.740
+ with me, made this entry, "Talk to SRI, host to host."
+
+00:10:27.740 --> 00:10:35.260
+ This is the only record of the very first message ever on the internet, right here.
+
+00:10:35.260 --> 00:10:36.900
+ You know, we had the technology.
+
+00:10:36.900 --> 00:10:37.900
+ We started making measurements.
+
+00:10:37.900 --> 00:10:40.420
+ We were the first experimental node.
+
+00:10:40.420 --> 00:10:42.060
+ So we saw things happening.
+
+00:10:42.060 --> 00:10:45.460
+ How come we have a 50 kilobit per second line?
+
+00:10:45.460 --> 00:10:48.980
+ The routing procedure either goes one way or the other, one at a time.
+
+00:10:48.980 --> 00:10:54.300
+ So how can you get more than 50 kilobits per second between two nodes if there's only one
+
+00:10:54.300 --> 00:10:55.300
+ path at any time?
+
+00:10:55.300 --> 00:10:58.460
+ And we say, "Oh, it's obvious."
+
+00:10:58.460 --> 00:10:59.820
+ That path is on now.
+
+00:10:59.820 --> 00:11:02.220
+ When it gets backed up, you change paths.
+
+00:11:02.220 --> 00:11:05.500
+ So this guy's empty and it's backed up while you're sending this way.
+
+00:11:05.500 --> 00:11:08.900
+ They go close to 100 kilobits per second, right, too.
+
+00:11:08.900 --> 00:11:10.700
+ But we could break it as well, as I said.
+
+00:11:10.700 --> 00:11:14.980
+ Every time we did, we would call BBN and say, "Fix it.
+
+00:11:14.980 --> 00:11:15.980
+ We did this.
+
+00:11:15.980 --> 00:11:16.980
+ Fix it."
+
+00:11:16.980 --> 00:11:18.420
+ Because they wouldn't give us the code.
+
+00:11:18.420 --> 00:11:21.100
+ They kept it proprietary until opposite.
+
+00:11:21.100 --> 00:11:22.220
+ We paid for that code.
+
+00:11:22.220 --> 00:11:23.500
+ You have to open it.
+
+00:11:23.500 --> 00:11:24.500
+ They did.
+
+00:11:24.500 --> 00:11:25.500
+ They saw it.
+
+00:11:25.500 --> 00:11:26.500
+ Every time we got it...
+
+00:11:26.500 --> 00:11:29.380
+ And it would take them six months to fix anything.
+
+00:11:29.380 --> 00:11:31.400
+ We'd discover a fault this time we had the code.
+
+00:11:31.400 --> 00:11:33.540
+ We'd show them how to fix it.
+
+00:11:33.540 --> 00:11:35.740
+ Still took six months.
+
+00:11:35.740 --> 00:11:39.460
+ One of the things I was very much interested in with design was distributed control.
+
+00:11:39.460 --> 00:11:40.460
+ Why?
+
+00:11:40.460 --> 00:11:45.340
+ When I was a student at Shannon, and Shannon's great work came when you had a lot of things
+
+00:11:45.340 --> 00:11:46.340
+ interacting.
+
+00:11:46.340 --> 00:11:48.420
+ Long code words, for example.
+
+00:11:48.420 --> 00:11:51.140
+ That's when these emerging properties arise.
+
+00:11:51.140 --> 00:11:54.300
+ So I said, "I want to design large networks.
+
+00:11:54.300 --> 00:11:55.300
+ Not a large network.
+
+00:11:55.300 --> 00:11:56.900
+ You can't have a single point of control.
+
+00:11:56.900 --> 00:11:58.260
+ You have to distribute it."
+
+00:11:58.260 --> 00:11:59.260
+ Right?
+
+00:11:59.260 --> 00:12:01.180
+ So what does it mean to distribute control?
+
+00:12:01.180 --> 00:12:05.820
+ You're delegating authority to all the peers.
+
+00:12:05.820 --> 00:12:09.820
+ When ARPA started funding the principal investigators, they had the same philosophy.
+
+00:12:09.820 --> 00:12:12.620
+ They said, "Look, you're a smart guy.
+
+00:12:12.620 --> 00:12:13.620
+ Here's some money.
+
+00:12:13.620 --> 00:12:14.620
+ Go do the thing you do best.
+
+00:12:14.620 --> 00:12:16.700
+ We're not going to sit on top of you.
+
+00:12:16.700 --> 00:12:17.700
+ Make good things happen."
+
+00:12:17.700 --> 00:12:20.920
+ So here we are, I'm a recipient of that kind of money.
+
+00:12:20.920 --> 00:12:21.920
+ What do I do with it?
+
+00:12:21.920 --> 00:12:24.820
+ I've got my graduate students, they're building kids.
+
+00:12:24.820 --> 00:12:26.540
+ Look, we need a host-host protocol.
+
+00:12:26.540 --> 00:12:27.540
+ Here.
+
+00:12:27.540 --> 00:12:31.140
+ I'm not going to sit on top of you, I'm going to run with it.
+
+00:12:31.140 --> 00:12:34.220
+ That is not a product mentality.
+
+00:12:34.220 --> 00:12:37.420
+ That is a research, a development, a creative desire, and it worked so well.
+

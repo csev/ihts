@@ -1,0 +1,152 @@
+1
+00:00:00,000 --> 00:00:10,000
+ Hello everybody, this is Dr. Chuck. We are in New York City. We are at the largest ever office hours on like 7th street and 38th, right?
+
+2
+00:00:10,000 --> 00:00:13,000
+ Oh yeah, you can take a picture. That's okay, you can take a picture too.
+
+3
+00:00:13,000 --> 00:00:17,000
+ Oh, that's right, I keep thinking I should have you guys film it yourselves.
+
+4
+00:00:17,000 --> 00:00:21,000
+ We need a camera people, but okay, here we go. So, so we'll just say hi.
+
+5
+00:00:21,000 --> 00:00:26,000
+ Hi, I'm Dustin. It's my first Coursera course and I'm here to just learn something new.
+
+6
+00:00:26,000 --> 00:00:31,000
+ Cool. Hi, I'm Carmen. It's my first Coursera course and I'm here to learn the program.
+
+7
+00:00:31,000 --> 00:00:37,000
+ Okay. Hi, I'm Katie. I'm taking a couple Coursera classes and thrilled to be here.
+
+8
+00:00:37,000 --> 00:00:41,000
+ Hi, I'm Mark and this is the first one that I really hope to complete.
+
+9
+00:00:41,000 --> 00:00:43,000
+ Good, I hope you complete as well.
+
+10
+00:00:43,000 --> 00:00:47,000
+ Right, and I do look forward to working with Chuck and collaborating with my colleagues.
+
+11
+00:00:47,000 --> 00:00:54,000
+ Cool. Hi, I'm Benesha. I've lost count of how many Coursera classes I've taken, but it's been fun to have the instructor here.
+
+12
+00:00:54,000 --> 00:01:00,000
+ Cool. Hi, my name is Anna. Hello from Russia and thanks Dr. Chuck for everything.
+
+13
+00:01:00,000 --> 00:01:06,000
+ We've had many people from Russia in the course. Hi, I'm Hamid. I will be a future Coursera student.
+
+14
+00:01:06,000 --> 00:01:09,000
+ Okay, welcome to the class in the future. Good luck.
+
+15
+00:01:09,000 --> 00:01:14,000
+ Hi, I'm Rodney. This is my first Coursera course. I'm trying to master in Python.
+
+16
+00:01:14,000 --> 00:01:18,000
+ Okay. Hi, I'm Shannon. It's also my first Coursera course and I'm excited to start it.
+
+17
+00:01:18,000 --> 00:01:22,000
+ Okay. Hi, I'm Brian. I just want to learn some coding.
+
+18
+00:01:22,000 --> 00:01:24,000
+ Okay, Brian, welcome to the class.
+
+19
+00:01:24,000 --> 00:01:27,000
+ Hi, I'm Alitra and I've been with Coursera for two years.
+
+20
+00:01:27,000 --> 00:01:30,000
+ Yeah, yeah, you were in my very first class.
+
+21
+00:01:30,000 --> 00:01:31,000
+ Yes.
+
+22
+00:01:31,000 --> 00:01:32,000
+ Yeah, well welcome.
+
+23
+00:01:32,000 --> 00:01:39,000
+ Yes, I am Michael. It's my first Coursera course and I hope that this is going to be a lot of fun.
+
+24
+00:01:39,000 --> 00:01:40,000
+ But you're also a teacher, right?
+
+25
+00:01:40,000 --> 00:01:41,000
+ I'm a teacher.
+
+26
+00:01:41,000 --> 00:01:42,000
+ What do you teach?
+
+27
+00:01:42,000 --> 00:01:43,000
+ I teach biology.
+
+28
+00:01:43,000 --> 00:01:44,000
+ Teach biology, like high school?
+
+29
+00:01:44,000 --> 00:01:46,000
+ High school, middle school.
+
+30
+00:01:46,000 --> 00:01:51,000
+ Okay, so you've got to find like the football coach and get your football coach to teach Python.
+
+31
+00:01:51,000 --> 00:01:52,000
+ Right.
+
+32
+00:01:52,000 --> 00:01:53,000
+ Of course.
+
+33
+00:01:53,000 --> 00:01:56,000
+ Hi, I'm Chris. This is my 14th or 15th MOOC.
+
+34
+00:01:56,000 --> 00:01:57,000
+ Holy mackerel.
+
+35
+00:01:57,000 --> 00:02:00,000
+ I just wanted to do a meetup because the professor is so cool.
+
+36
+00:02:00,000 --> 00:02:01,000
+ Thanks.
+
+37
+00:02:01,000 --> 00:02:13,000
+ Hi, I'm Shem. This is my first Coursera course. I work in IT and after speaking with all these beautiful people here, I am so excited. Here I come programming.
+
+38
+00:02:13,000 --> 00:02:26,000
+ Okay, so thanks everybody. Okay, well we'll see everybody online. Next week we'll be in Miami, Miami Beach, Florida. So we'll see you in Miami.
+

@@ -1,0 +1,720 @@
+1
+00:00:00,000 --> 00:00:20,000
+ I was extraordinarily lucky, and happened to be at the Xerox research, Xerox Palo Alto
+
+2
+00:00:20,000 --> 00:00:26,100
+ Research Center, when a problem evolved that had never before occurred. The problem had
+
+3
+00:00:26,100 --> 00:00:32,200
+ never occurred, and that was the problem of having a building full of personal computers.
+
+4
+00:00:32,200 --> 00:00:37,640
+ I was the networking guy, so they turned to me and said, "Network these puppies." Now,
+
+5
+00:00:37,640 --> 00:00:43,480
+ we had just finished starting the internet, it was then called the ARPANET, which was
+
+6
+00:00:43,480 --> 00:00:49,680
+ packet switching, and it was pretty clear we wanted this network to connect to the wasn't
+
+7
+00:00:49,680 --> 00:00:55,080
+ yet called internet thing, so it would be packet switched, we were pretty sure. At the
+
+8
+00:00:55,080 --> 00:01:00,160
+ same time, we were building arguably, I don't want to get into that argument, the first
+
+9
+00:01:00,160 --> 00:01:06,240
+ laser printer, which in our case, the first one, whose name was EARS, that's a whole
+
+10
+00:01:06,240 --> 00:01:11,720
+ other story. It was a page per second, 500 dots per inch, and if you do the math, that's
+
+11
+00:01:11,720 --> 00:01:19,560
+ about 20 megabits per second. So the existing methods of interconnection had a lot of problems.
+
+12
+00:01:19,560 --> 00:01:23,680
+ One is they were all home run, so all these wires, one from every desk, would all come
+
+13
+00:01:23,680 --> 00:01:28,300
+ to this one place in the building and put a big rat's nest, we called it a rat's nest
+
+14
+00:01:28,300 --> 00:01:35,520
+ by the way. Two is they generally ran at 300 bits per second, or if you really rev them
+
+15
+00:01:35,520 --> 00:01:41,360
+ up, they go to 14 for kilobits per second, and that wasn't even close to 20 megabits
+
+16
+00:01:41,360 --> 00:01:45,400
+ per second, so we wanted to be able to keep the printer busy by sending documents from
+
+17
+00:01:45,400 --> 00:01:51,680
+ all these PCs, which hadn't been built yet, except, well, they hadn't been built even
+
+18
+00:01:51,680 --> 00:01:56,480
+ at PARC at that point. So we were building the printer and we were building the PCs all
+
+19
+00:01:56,480 --> 00:02:05,720
+ at the same time. So I started to work on this, and there was an effort before mine
+
+20
+00:02:05,720 --> 00:02:13,200
+ called SIGNET at PARC, and it was being done by Charles Simony, my friend, but he wasn't
+
+21
+00:02:13,200 --> 00:02:18,560
+ a networking guy, so they sent me in to pick up SIGNET from Charles, and he was going to
+
+22
+00:02:18,560 --> 00:02:22,880
+ off and do something else, and by the way, the other thing he did is he wrote a text
+
+23
+00:02:22,880 --> 00:02:33,160
+ editor, a word processor called BRAVO, which then became Microsoft Office. So Charles is
+
+24
+00:02:33,160 --> 00:02:39,000
+ a billionaire, and he's been to the space station twice, the International Space Station.
+
+25
+00:02:39,000 --> 00:02:43,760
+ So maybe I shouldn't have kicked him off SIGNET, maybe I should have done BRAVO, I don't know.
+
+26
+00:02:43,760 --> 00:02:51,240
+ Anyway, so I immediately decided that SIGNET, by the way, SIGNET stands for Simony's Infinitely
+
+27
+00:02:51,240 --> 00:03:00,540
+ Glorious Network, was in fact infinitely glorious and had too many moving parts to be a LAN.
+
+28
+00:03:00,540 --> 00:03:07,200
+ By the way, the word LAN wasn't invented until 1990, and this is still 1973, so the word
+
+29
+00:03:07,200 --> 00:03:12,840
+ LAN was way in the future, so that's an anachronism. Anyway, the SIGNET had too many moving parts
+
+30
+00:03:12,840 --> 00:03:21,240
+ for a LAN, and it was in the course of investigating how to organize this LAN that I ran into quite
+
+31
+00:03:21,240 --> 00:03:26,400
+ by accident by a packet radio network at the University of Hawaii. It was called the Aloha
+
+32
+00:03:26,400 --> 00:03:33,200
+ Net, and what was beautiful about the Aloha Network is it solved a distributed problem.
+
+33
+00:03:33,200 --> 00:03:40,200
+ That is, how would we share a radio channel back to the mainframe in Hawaii at the university
+
+34
+00:03:40,200 --> 00:03:45,400
+ if we were just a bunch of terminals scattered among the Hawaiian islands and they couldn't
+
+35
+00:03:45,400 --> 00:03:51,360
+ really easily talk to each other to get coordinated? How would they coordinate their sharing of
+
+36
+00:03:51,360 --> 00:03:54,200
+ this inbound radio channel?
+
+37
+00:03:54,200 --> 00:03:58,040
+ And Norm Abramson there at the University of Hawaii devised this very simple randomized
+
+38
+00:03:58,040 --> 00:04:03,680
+ retransmission procedure where a person would type, by the way, what they would type was
+
+39
+00:04:03,680 --> 00:04:11,520
+ a card image. It was 80 columns wide back from the days of card batch processing. So
+
+40
+00:04:11,520 --> 00:04:18,000
+ you would type in your card image and hit send, and then your terminal would send it
+
+41
+00:04:18,000 --> 00:04:23,360
+ in toward the mainframe and then would wait a short time to see if there was an acknowledgement
+
+42
+00:04:23,360 --> 00:04:28,320
+ returned on the outbound channel. And if there was, everything was hunky dory, but if there
+
+43
+00:04:28,320 --> 00:04:35,040
+ wasn't, that probably meant the two terminals had decided to send at the same time. So then
+
+44
+00:04:35,040 --> 00:04:42,080
+ as many terminals as participated in that collision of transmissions would then randomize
+
+45
+00:04:42,080 --> 00:04:46,880
+ and then retransmit at a random time in the future. Thereby, if they overlapped here,
+
+46
+00:04:46,880 --> 00:04:50,920
+ they very likely would not overlap again in the future because they would choose different
+
+47
+00:04:50,920 --> 00:04:57,840
+ random numbers to count down. So that's randomized retransmission multiple access.
+
+48
+00:04:57,840 --> 00:05:02,400
+ Well, since I was trying to avoid this big rat's nest of wires and only wanted to have
+
+49
+00:05:02,400 --> 00:05:11,000
+ one wire, just one wire, not 16 or 32 or whatever the alternatives were, just one, I wanted
+
+50
+00:05:11,000 --> 00:05:17,560
+ a distributed solution to how to share this cable and the ALOHA network produce that using
+
+51
+00:05:17,560 --> 00:05:24,520
+ randomized retransmissions. So then I actually, you know, there's sort of two stories here.
+
+52
+00:05:24,520 --> 00:05:29,440
+ One is a hardware story, there's a hardware story and there's a software story. And the
+
+53
+00:05:29,440 --> 00:05:35,120
+ hardware story is not that interesting, but it's there. So one of the first things I did
+
+54
+00:05:35,120 --> 00:05:40,760
+ was to buy a kilometer of cable, or maybe a mile, I don't know if I'd gone metric yet.
+
+55
+00:05:40,760 --> 00:05:49,140
+ So a spool of coax cable about this big with the two ends sticking up. So I got a pulse
+
+56
+00:05:49,140 --> 00:05:53,600
+ generator and I hooked it up to one end and hooked it around back into the oscilloscope
+
+57
+00:05:53,600 --> 00:05:58,760
+ and started launching square waves down the cable and watching what came out. I thought
+
+58
+00:05:58,760 --> 00:06:03,000
+ that would be good preparation for building a network. And what came out the other side
+
+59
+00:06:03,000 --> 00:06:10,400
+ wasn't a square wave. It was sort of lazy rise times and lazy fall times. But if you
+
+60
+00:06:10,400 --> 00:06:17,120
+ put a digital gate, you could recover the square wave. That is, you just set, use the
+
+61
+00:06:17,120 --> 00:06:21,680
+ digital threshold and so out of this gate came a square wave. So you could recover at
+
+62
+00:06:21,680 --> 00:06:27,840
+ the end of a mile of cable this square wave. So I kind of knew, I kind of had some confidence
+
+63
+00:06:27,840 --> 00:06:33,920
+ then that we, that various stations connected to this cable could inject their square waves
+
+64
+00:06:33,920 --> 00:06:44,740
+ and the other guys could recover them. So that hardware wasn't that hard. It was a straightforward.
+
+65
+00:06:44,740 --> 00:06:47,640
+ So the first hardware was kind of relatively straightforward.
+
+66
+00:06:47,640 --> 00:06:52,400
+ And the square wave, by the way, was called Manchester. What we'd do is we'd take the
+
+67
+00:06:52,400 --> 00:06:58,320
+ bit, we'd make a packet of bits. And then we'd send them one at a time down this cable
+
+68
+00:06:58,320 --> 00:07:02,400
+ and we would encode them. And the encoding was also simple. It was Manchester coding
+
+69
+00:07:02,400 --> 00:07:08,880
+ meaning for each bit, the first half of the bit would be the complement of the bit and
+
+70
+00:07:08,880 --> 00:07:12,920
+ the second half of the bit would be the bit. So you would have a transition in the middle
+
+71
+00:07:12,920 --> 00:07:19,340
+ of each bit cell, which is a very simple modulation scheme. So as you're sending the packet, the
+
+72
+00:07:19,340 --> 00:07:23,240
+ cable's wiggling and you can recover the signal at the other end and clock those bits into
+
+73
+00:07:23,240 --> 00:07:27,920
+ a shift register and then clock the shift register into the memory and collect the packet
+
+74
+00:07:27,920 --> 00:07:28,920
+ that way.
+
+75
+00:07:28,920 --> 00:07:33,000
+ And that all took just some soldering to make that all happen basically.
+
+76
+00:07:33,000 --> 00:07:37,760
+ Well I don't want to. It got a little bit complicated when you wanted to put 255 of
+
+77
+00:07:37,760 --> 00:07:42,720
+ them on a mile of cable. You had to be a little bit careful about the impedance of the taps
+
+78
+00:07:42,720 --> 00:07:48,120
+ because a square wave coming by a tap might generate reflections that would then interfere.
+
+79
+00:07:48,120 --> 00:07:52,000
+ But the beauty of Manchester encoding was that while you were sending a packet, there
+
+80
+00:07:52,000 --> 00:07:57,880
+ were constant transitions. So if you listened, you could tell whether a packet was going
+
+81
+00:07:57,880 --> 00:08:03,320
+ by and you didn't have to listen for long. You only had to listen for about a bit time
+
+82
+00:08:03,320 --> 00:08:07,920
+ which turned out to be 340 nanoseconds. So you could wait that long and tell whether
+
+83
+00:08:07,920 --> 00:08:13,280
+ there was a packet going by. So one of the first differences between the Ethernet and
+
+84
+00:08:13,280 --> 00:08:19,940
+ the ALOHA network, there are a lot of differences, but one of the first ones was carrier sense.
+
+85
+00:08:19,940 --> 00:08:23,880
+ In the ALOHA network, you couldn't tell if somebody else was transmitting at the same
+
+86
+00:08:23,880 --> 00:08:27,840
+ time as you, but on the Ethernet you could. And the advantage of that was you might as
+
+87
+00:08:27,840 --> 00:08:31,120
+ well, if you're sending and somebody else is sending at the same time, you might as
+
+88
+00:08:31,120 --> 00:08:35,720
+ well give up because you've destroyed each other's packets or punt. Then that recovers
+
+89
+00:08:35,720 --> 00:08:42,280
+ that bandwidth that would otherwise be lost to just continuing to transmit a damaged packet.
+
+90
+00:08:42,280 --> 00:08:48,280
+ And the other thing was this Manchester code meant that the cable was on half the time
+
+91
+00:08:48,280 --> 00:08:53,520
+ and off half the time. That is, the driver, sort of an open, what we used to call an open
+
+92
+00:08:53,520 --> 00:08:59,420
+ collector driver, would either yank the cable up to 3 or 4 or 5 volts, I even forget the
+
+93
+00:08:59,420 --> 00:09:06,200
+ voltage now. But it was under 5, I'm sure of that. I had a rule, I never went above 5 volts.
+
+94
+00:09:06,200 --> 00:09:10,440
+ You would yank the cable up and then during the other half the bit, when you weren't yanking,
+
+95
+00:09:10,440 --> 00:09:17,260
+ you let go. So for example, in each bit cell, you got to look to see if anyone else was
+
+96
+00:09:17,260 --> 00:09:20,920
+ transmitting when you had stopped. And if there was somebody else, then you had a collision.
+
+97
+00:09:20,920 --> 00:09:22,400
+ So that was the second feature.
+
+98
+00:09:22,400 --> 00:09:26,300
+ So it was really a digital signal. It was really a digital signal. It wasn't a modulated
+
+99
+00:09:26,300 --> 00:09:27,920
+ signal in any way, right?
+
+100
+00:09:27,920 --> 00:09:29,560
+ No. Well, it was...
+
+101
+00:09:29,560 --> 00:09:32,040
+ Best you could send a digital signal over coaxing.
+
+102
+00:09:32,040 --> 00:09:37,800
+ On off with the Manchester encoding. So the Manchester encoding is akin to a modulation
+
+103
+00:09:37,800 --> 00:09:39,800
+ scheme, but it's the simplest one you can think of.
+
+104
+00:09:39,800 --> 00:09:40,800
+ It's very baseband.
+
+105
+00:09:40,800 --> 00:09:45,720
+ Yeah, it is very baseband, but it's a sort of modulation scheme that a computer scientist
+
+106
+00:09:45,720 --> 00:09:48,720
+ would come up with as opposed to one of those fancy...
+
+107
+00:09:48,720 --> 00:09:49,720
+ Radio people.
+
+108
+00:09:49,720 --> 00:09:50,720
+ Radio people.
+
+109
+00:09:50,720 --> 00:09:51,720
+ Right.
+
+110
+00:09:51,720 --> 00:09:54,480
+ And by the way, I took a lot of gas from all those radio people. Why did you use such a
+
+111
+00:09:54,480 --> 00:09:59,240
+ simple scheme? You wasted... You would have wasted all that band. You wasted all that
+
+112
+00:09:59,240 --> 00:10:03,920
+ band with that capable... That cable was capable of carrying hundreds of megabits per second
+
+113
+00:10:03,920 --> 00:10:07,600
+ and you only carried 2.94. What a waste of the cable.
+
+114
+00:10:07,600 --> 00:10:08,600
+ Exactly.
+
+115
+00:10:08,600 --> 00:10:15,120
+ Well, there was plenty of cable to waste. So we've talked about carrier sense and collision
+
+116
+00:10:15,120 --> 00:10:21,760
+ detection and the scheme would be that each packet would carry two addresses, the address
+
+117
+00:10:21,760 --> 00:10:27,560
+ of the destination and the address of the source. And each of these would be eight bits.
+
+118
+00:10:27,560 --> 00:10:33,800
+ And so on the back plane of the little personal computers with wire app, you would wire up
+
+119
+00:10:33,800 --> 00:10:38,840
+ in a code between zero and 255 and that would be the serial number of the machine. And then
+
+120
+00:10:38,840 --> 00:10:43,740
+ you'd read that off the back plane and put it in the packet. So each packet had two addresses.
+
+121
+00:10:43,740 --> 00:10:48,120
+ This is different from the alone incidentally, which had one address because the channel
+
+122
+00:10:48,120 --> 00:10:56,280
+ was only going through two channels. So two addresses. And we added cyclic redundancy
+
+123
+00:10:56,280 --> 00:11:03,480
+ checksum on the end of the packet, which we implemented in hardware so that you, in addition...
+
+124
+00:11:03,480 --> 00:11:09,400
+ So you could tell if the packet had been damaged. So if there was a collision and the terminal,
+
+125
+00:11:09,400 --> 00:11:13,920
+ the contending stations backed off, there would be a hunk of garbage on the cable zipping
+
+126
+00:11:13,920 --> 00:11:17,800
+ around. But when it was received, the checksum wouldn't add up and you'd just throw that chunk
+
+127
+00:11:17,800 --> 00:11:21,480
+ of garbage away. The day that I was launching pulses down this
+
+128
+00:11:21,480 --> 00:11:29,800
+ spool of cable, I was doing some soldering and I was doing some knife work to get the
+
+129
+00:11:29,800 --> 00:11:36,800
+ insulation off the copper. And across the room was a young grad student who was doing
+
+130
+00:11:36,800 --> 00:11:42,960
+ something else and he noticed me not being good at this. And it turns out he was very
+
+131
+00:11:42,960 --> 00:11:47,160
+ good at it because he had worked in a television studio and he had worked in cable television.
+
+132
+00:11:47,160 --> 00:11:52,000
+ So he knew all about skinning wires and coaxes. So he came over to help me. And his name was
+
+133
+00:11:52,000 --> 00:11:58,280
+ David Boggs. And then we started working together and invented
+
+134
+00:11:58,280 --> 00:12:06,760
+ Ethernet together. And he was slightly more hardware and I was slightly more software.
+
+135
+00:12:06,760 --> 00:12:12,120
+ But there was then a third guy who was even more hardware than David, who was the PicoFarad
+
+136
+00:12:12,120 --> 00:12:18,480
+ guy, the guy who had put those last few passive components on the end just to be sure that
+
+137
+00:12:18,480 --> 00:12:26,640
+ connection to the coaxial cable would be clean for transmissions. Every time you tapped into
+
+138
+00:12:26,640 --> 00:12:28,720
+ it, you didn't put a big lump of impedance on it.
+
+139
+00:12:28,720 --> 00:12:33,960
+ The tapping seems like a counterintuitive thing to me. I mean, everyone would think
+
+140
+00:12:33,960 --> 00:12:38,400
+ that a star is the right thing, but you were going to tap into that, just tap into it.
+
+141
+00:12:38,400 --> 00:12:42,320
+ One of the problems we decided to solve was the rat's nest problem. We did not want a
+
+142
+00:12:42,320 --> 00:12:46,340
+ rat's nest. And every time we installed a new PC, we didn't have to home run a cable
+
+143
+00:12:46,340 --> 00:12:50,920
+ back to the rat's nest. So we wanted to put one cable down the middle of the corridor.
+
+144
+00:12:50,920 --> 00:12:54,800
+ And then every time you want to put a PC, you just run up and tap into it. And we didn't
+
+145
+00:12:54,800 --> 00:12:59,760
+ want the network to go down while you were tapping into it because we wanted 24x7 access
+
+146
+00:12:59,760 --> 00:13:05,040
+ to the network. So there had to be a way to tap into the network without bringing it down.
+
+147
+00:13:05,040 --> 00:13:12,240
+ So that led to a device we found in the cable TV industry. It was called a Gerald tap. It
+
+148
+00:13:12,240 --> 00:13:20,080
+ was basically a vampire tap. You'd drill a little hole in the outer casing of the coax
+
+149
+00:13:20,080 --> 00:13:24,640
+ and then you would screw in this tap that would puncture the insulation and go right
+
+150
+00:13:24,640 --> 00:13:29,600
+ to the copper and tap in. And you notice in that operation, you're not breaking the copper.
+
+151
+00:13:29,600 --> 00:13:33,600
+ So the network continues sending. You tap in and you're now part of the network.
+
+152
+00:13:33,600 --> 00:13:38,300
+ So that came from the cable industry. It did. So a guy named David Liddell, who had done
+
+153
+00:13:38,300 --> 00:13:45,680
+ cable TV installations when he was in grad school in Toledo, suggested that we use the
+
+154
+00:13:45,680 --> 00:13:49,360
+ Gerald tap since it was already being made in volume and worked just fine, as far as
+
+155
+00:13:49,360 --> 00:13:54,440
+ he was concerned. And it allowed us to solve the rat's nest, what we perceive to be an
+
+156
+00:13:54,440 --> 00:14:00,120
+ important problem, the rat's nest problem. The ALOHA network ran in the kilobit per second
+
+157
+00:14:00,120 --> 00:14:09,720
+ range like 4800 or kilobits per second. Ethernet then started at 2.94 megabit. And in those
+
+158
+00:14:09,720 --> 00:14:19,520
+ days, by the way, T1 was 1.544 megabits per second. So in 1973, Ethernet was already twice
+
+159
+00:14:19,520 --> 00:14:29,800
+ as fast as T1. Of course, T1 is still around, oddly. But then we went from 2.94, we briefly
+
+160
+00:14:29,800 --> 00:14:37,040
+ went to 20 megabits per second inside of Xerox. And then when we bumped into DEC and Intel
+
+161
+00:14:37,040 --> 00:14:42,760
+ for the standardization process in 802, we decided on 10. We came down from 20 to 10
+
+162
+00:14:42,760 --> 00:14:48,680
+ so the chips would work. And then we went from 10 and later I helped found a company
+
+163
+00:14:48,680 --> 00:14:54,040
+ called Grand Junction Networks that introduced the 100 meg Ethernet. And I remember being
+
+164
+00:14:54,040 --> 00:15:01,000
+ at my coffee table in Palo Alto, I think it was, I forget the year, no, maybe it was in
+
+165
+00:15:01,000 --> 00:15:08,720
+ Woodside. But we were trying to think of how we would make a faster Ethernet. And there
+
+166
+00:15:08,720 --> 00:15:15,000
+ is some math that shows that as you go faster, the efficiency depends on the diameter of
+
+167
+00:15:15,000 --> 00:15:20,440
+ the network. And as you go faster and faster, the efficiency goes down, the diameter of
+
+168
+00:15:20,440 --> 00:15:26,240
+ the network in bits. And we were trying to go up a factor of 10 and then, I don't know
+
+169
+00:15:26,240 --> 00:15:31,920
+ who it was, one of us observed that, "Wait a minute, we've been assuming that Ethernet
+
+170
+00:15:31,920 --> 00:15:38,420
+ is a kilometer in diameter, but we're all going to hubs now so that we only need a hundred
+
+171
+00:15:38,420 --> 00:15:42,640
+ meters, not a thousand meters." And that was the factor of 10 right there. So by changing
+
+172
+00:15:42,640 --> 00:15:51,880
+ the collision interval, you maintain the same theoretical efficiencies by just assuming
+
+173
+00:15:51,880 --> 00:15:55,520
+ you're going 100 meters instead of a kilometer. So that got us to 100 megabits per second
+
+174
+00:15:55,520 --> 00:16:00,920
+ and now gigabit, 10 gigabit, which I guess is the mainstream now, and then 100 gigabit
+
+175
+00:16:00,920 --> 00:16:08,480
+ is now beginning to run, 100 gigabits per second. You can't be a computer scientist
+
+176
+00:16:08,480 --> 00:16:12,600
+ and build that kind of digital now. You have to actually be a hardware engineer to run
+
+177
+00:16:12,600 --> 00:16:13,600
+ that.
+
+178
+00:16:13,600 --> 00:16:19,080
+ I think at that point you're pretty much a radio person.
+
+179
+00:16:19,080 --> 00:16:23,720
+ But then after 100 gigabits comes terabit. So I've already begun giving talks on terabit
+
+180
+00:16:23,720 --> 00:16:24,240
+ Ethernet.
+

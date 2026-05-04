@@ -1,0 +1,360 @@
+1
+00:00:00,000 --> 00:00:06,000
+ So now we just finished talking about basic confidentiality using simple Caesar cipher.
+
+2
+00:00:06,000 --> 00:00:11,000
+ And we'll get better before we'll be more sophisticated than that because Caesar ciphers are trivially breakable, obviously.
+
+3
+00:00:11,000 --> 00:00:15,000
+ But now we're going to switch from confidentiality to integrity.
+
+4
+00:00:15,000 --> 00:00:23,000
+ And we're worried about the message, just to review, that confidentiality means we're hiding information.
+
+5
+00:00:23,000 --> 00:00:28,000
+ We just don't want Eve to see it because Eve sees the ciphertext.
+
+6
+00:00:28,000 --> 00:00:32,000
+ And we want her to never be able to extract the plain text.
+
+7
+00:00:32,000 --> 00:00:37,000
+ And as we saw in the last lecture, you, if I'm just using a Caesar cipher,
+
+8
+00:00:37,000 --> 00:00:40,000
+ I mean, there was little or nothing I could do to stop you from doing it.
+
+9
+00:00:40,000 --> 00:00:45,000
+ All you'd do is enough work and you would figure out the shift and then you'd have everything.
+
+10
+00:00:45,000 --> 00:00:48,000
+ So it would take you, you know, you'd write a program.
+
+11
+00:00:48,000 --> 00:00:53,000
+ It would take you like a thousandth of a second to check all possible things and you're done.
+
+12
+00:00:53,000 --> 00:00:57,000
+ So that's confidentiality. Now we're going to talk about integrity, right?
+
+13
+00:00:57,000 --> 00:01:02,000
+ And we're going to kind of assume confidentiality or perhaps assume it's not necessary
+
+14
+00:01:02,000 --> 00:01:05,000
+ because we're transporting it in a locked box or in a whatever.
+
+15
+00:01:05,000 --> 00:01:11,000
+ But let's just say I had some piece of paper, right?
+
+16
+00:01:11,000 --> 00:01:16,000
+ And you'd want it to know if this piece of paper really came from you.
+
+17
+00:01:16,000 --> 00:01:20,000
+ Well, we would use things like a signature, right?
+
+18
+00:01:20,000 --> 00:01:28,000
+ Or we would use a bit of wax where we would push the, our seal on it and the seal only belonged to us.
+
+19
+00:01:28,000 --> 00:01:31,000
+ But, but really did signatures can be forged.
+
+20
+00:01:31,000 --> 00:01:35,000
+ You know, people can steal the wax imprint thing.
+
+21
+00:01:35,000 --> 00:01:39,000
+ I mean, in Roman times they would wear it around their neck to make sure that no one stole it.
+
+22
+00:01:39,000 --> 00:01:43,000
+ But you could also just create a fake one so you could seal your letter with the wax.
+
+23
+00:01:43,000 --> 00:01:50,000
+ But, and you break the wax seal. But in the computer world, we need something, right?
+
+24
+00:01:50,000 --> 00:01:57,000
+ We need a situation where, where perhaps, I mean, my wife had to get a prescription
+
+25
+00:01:57,000 --> 00:02:01,000
+ and they sent her an email with a prescription in it.
+
+26
+00:02:01,000 --> 00:02:04,000
+ And this prescription had on the end of it a digital signature.
+
+27
+00:02:04,000 --> 00:02:10,000
+ It was just a bunch of numbers. And you think to yourself, wow, you know, here's this prescription.
+
+28
+00:02:10,000 --> 00:02:14,000
+ And at the end it just has a bunch of numbers and that's the digital signature from the doctor.
+
+29
+00:02:14,000 --> 00:02:19,000
+ And how does that work? Well, it, it works surprisingly well.
+
+30
+00:02:19,000 --> 00:02:23,000
+ And, and that message can be forwarded. She can print it out.
+
+31
+00:02:23,000 --> 00:02:28,000
+ She can scan it. She can send it to a pharmacist via email.
+
+32
+00:02:28,000 --> 00:02:34,000
+ And as long as that signature's in there, we can know that the data originally came from the doctor.
+
+33
+00:02:34,000 --> 00:02:38,000
+ And that, that you didn't, no one modified it to be a different kind of prescription.
+
+34
+00:02:38,000 --> 00:02:41,000
+ Like a different amount or a different drug.
+
+35
+00:02:41,000 --> 00:02:45,000
+ And, and then that would invalidate the signature. And how exactly is that done?
+
+36
+00:02:45,000 --> 00:02:50,000
+ Well, it's done using a technique called cryptographic hashing.
+
+37
+00:02:50,000 --> 00:02:57,000
+ And it is a bit of computer software, a bit of code that takes a large amount of text
+
+38
+00:02:57,000 --> 00:03:06,000
+ and reduces it down to some small set of numbers, a large block of data to a fixed length set of numbers.
+
+39
+00:03:06,000 --> 00:03:12,000
+ And, and the message is the big thing and the digest is the little thing.
+
+40
+00:03:12,000 --> 00:03:16,000
+ It's sort of, it's like it digests it and sort of gives you this little tiny thing.
+
+41
+00:03:16,000 --> 00:03:24,000
+ Now the key is there are many different techniques to, to map from a message to the hash or the digest.
+
+42
+00:03:24,000 --> 00:03:26,000
+ And some are better than others.
+
+43
+00:03:26,000 --> 00:03:32,000
+ And it turns out that there is a long-term whole field of mathematics and computer science
+
+44
+00:03:32,000 --> 00:03:37,000
+ that is dedicated to understanding what a good cryptographic hash might be.
+
+45
+00:03:37,000 --> 00:03:43,000
+ And so there, there are these well-known cryptographic hashes that you may have heard of, like SHA-1 or MD5.
+
+46
+00:03:43,000 --> 00:03:51,000
+ Each of those is the result of many, many years of research of thinking through what a good cryptographic hash is.
+
+47
+00:03:51,000 --> 00:03:58,000
+ So, for example, one cryptographic hash might be, I sign it with a number of characters in the message.
+
+48
+00:03:58,000 --> 00:04:03,000
+ That would be something that says, like, well, at least they didn't expand or contract the number of characters in the message.
+
+49
+00:04:03,000 --> 00:04:08,000
+ But then at some point that would be such an obvious thing that you would change the signature as well.
+
+50
+00:04:08,000 --> 00:04:14,000
+ So you want to make it so you can't change the message and change the signature because then you're sort of properly forging a signature.
+
+51
+00:04:14,000 --> 00:04:18,000
+ So the hash function that takes the message to create the digest,
+
+52
+00:04:18,000 --> 00:04:25,000
+ that's something that is a scientific mathematical research effort to get the thing right.
+
+53
+00:04:25,000 --> 00:04:31,000
+ Okay. So here is an example of a hash function.
+
+54
+00:04:31,000 --> 00:04:36,000
+ Now, this hash function takes as message input on one side, right?
+
+55
+00:04:36,000 --> 00:04:41,000
+ It takes message input of, and this can be short, medium, or extremely long messages.
+
+56
+00:04:41,000 --> 00:04:46,000
+ And the digest is always a fixed size. It's always a fixed size, right?
+
+57
+00:04:46,000 --> 00:04:53,000
+ Some get longer than others. Different message hashing functions give different length, but they're all fixed.
+
+58
+00:04:53,000 --> 00:04:59,000
+ And they're fixed even if the input is megabytes. It can be megabytes, hundreds of megabytes.
+
+59
+00:04:59,000 --> 00:05:04,000
+ And you can still run all that through the hash function and get a digest.
+
+60
+00:05:04,000 --> 00:05:14,000
+ And so the key thing is to make it so that for any change in the input, the digest also changes.
+
+61
+00:05:14,000 --> 00:05:21,000
+ And so here we have the red fox jumps over the blue dog, right? And that's the hash that comes out.
+
+62
+00:05:21,000 --> 00:05:27,000
+ And if we change one letter, you know, the V to a U, the hash changes dramatically.
+
+63
+00:05:27,000 --> 00:05:32,000
+ So this hash changes dramatically. So this suggests this is a good cryptographic hash function, right?
+
+64
+00:05:32,000 --> 00:05:40,000
+ The length didn't change. All the characters are the same, but one character changed and the hash function changes completely, okay?
+
+65
+00:05:40,000 --> 00:05:52,000
+ And here is another flipping of characters, right, where from here to here, excuse me, better color here. Which color is that?
+
+66
+00:05:52,000 --> 00:06:00,000
+ From here to here, the V and the E were just toggled. And yet from here to here, the hash function is completely different.
+
+67
+00:06:00,000 --> 00:06:06,000
+ And so the hash function needs to generate quite different hashes, even with tiny perturbations of the input.
+
+68
+00:06:06,000 --> 00:06:10,000
+ You're not even allowed to change one character or add or remove character.
+
+69
+00:06:10,000 --> 00:06:19,000
+ And they know when a cryptographic hash function is bad, if they can take two different messages and send it through and get the same digest.
+
+70
+00:06:19,000 --> 00:06:23,000
+ And so there's a lot of research to try to, as soon as they come up with one of these things,
+
+71
+00:06:23,000 --> 00:06:28,000
+ there is a massive amount of research to try to disprove it, to say that's a bad one.
+
+72
+00:06:28,000 --> 00:06:33,000
+ And the bad one is if two different messages come in and they come out with the same hash function,
+
+73
+00:06:33,000 --> 00:06:44,000
+ then that's bad because it means that it's provable, provably that the signature could use, the same signature could be used to sign two different input messages.
+
+74
+00:06:44,000 --> 00:06:50,000
+ Okay, so this hash function, function is a bit of computer code, right?
+
+75
+00:06:50,000 --> 00:06:59,000
+ And, you know, SHA1, you can go look on Wikipedia for SHA1 or MD5. These are kind of classic hash functions.
+
+76
+00:06:59,000 --> 00:07:07,000
+ And when you read the SHA1 or MD5 Wikipedia, they'll talk about the fact that it's been decided it's kind of flawed.
+
+77
+00:07:07,000 --> 00:07:10,000
+ And so there's like SHA1, don't use it. It's not cool.
+
+78
+00:07:10,000 --> 00:07:14,000
+ Now you can use it for less critical things. You just have to be aware of what its limitations are.
+
+79
+00:07:14,000 --> 00:07:18,000
+ So like SHA256 is better than SHA1.
+
+80
+00:07:18,000 --> 00:07:24,000
+ So what happens is there's continuous research and there's continuous improvement in the mathematics of these hashing functions.
+
+81
+00:07:24,000 --> 00:07:31,000
+ And they're getting really good at it because we've been using these things for a very, very, very long time.
+
+82
+00:07:31,000 --> 00:07:34,000
+ Now, if you want to play, let me clear this up.
+
+83
+00:07:34,000 --> 00:07:42,000
+ So I've got a simple SHA1 calculator and you'll be using this in the homework.
+
+84
+00:07:42,000 --> 00:07:52,000
+ The SHA1 calculator takes as input some kind of a plain text and it produces output when you hit the thing.
+
+85
+00:07:52,000 --> 00:08:00,000
+ So you can put in Pony or Fluffy or whatever, or even a whole bunch of stuff, and it produces a SHA1.
+
+86
+00:08:00,000 --> 00:08:08,000
+ So basically, get ready to use this because the next upcoming exercises are going to use this.
+
+87
+00:08:08,000 --> 00:08:17,000
+ And you can read SHA1 about SHA1 on Wikipedia and you can find out like, yeah, it's seen as less than perfect and you should use SHA256 or whatever.
+
+88
+00:08:17,000 --> 00:08:29,000
+ But actually, lots of applications in less than critical situations know that for short and reasonably length strings, the flaws are mathematically found, but they're not commonly run into.
+
+89
+00:08:29,000 --> 00:08:34,000
+ So SHA1 is not horrible. It's just been proven sort of less than ideal.
+
+90
+00:08:34,000 --> 00:08:46,000
+ And so for highly sensitive information, you would never use SHA1, but for simple things, SHA1 and even things like MD5 are commonly used, like for hashing passwords.
+

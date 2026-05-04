@@ -1,0 +1,848 @@
+1
+00:00:00,000 --> 00:00:03,900
+ I think you can see that Tim Berners-Lee is a real bright guy with a real strong vision
+
+2
+00:00:03,900 --> 00:00:11,060
+ of the future and a real deep commitment to the web and the Internet being an agent of
+
+3
+00:00:11,060 --> 00:00:14,140
+ change in the world.
+
+4
+00:00:14,140 --> 00:00:20,440
+ And I think that it's going to continue to be that unless proprietary companies can get
+
+5
+00:00:20,440 --> 00:00:21,440
+ an upper hand.
+
+6
+00:00:21,440 --> 00:00:26,940
+ And so it's really incumbent on all of us to protect the freedom of the Internet.
+
+7
+00:00:26,940 --> 00:00:32,020
+ And believe me, there are organizations that think they should run the Internet and the
+
+8
+00:00:32,020 --> 00:00:33,020
+ web.
+
+9
+00:00:33,020 --> 00:00:34,020
+ They just are.
+
+10
+00:00:34,020 --> 00:00:36,420
+ They never have stopped.
+
+11
+00:00:36,420 --> 00:00:40,960
+ So we're at the point where the web is all here.
+
+12
+00:00:40,960 --> 00:00:42,580
+ It's quite amazing.
+
+13
+00:00:42,580 --> 00:00:46,660
+ And before we move on, I want to characterize just a little bit about the people you've
+
+14
+00:00:46,660 --> 00:00:54,740
+ met so far and talk about some of the common things that they have between them.
+
+15
+00:00:54,740 --> 00:01:01,100
+ And in a way, I've got the book The Wisdom of Crowds here, one of my favorite books.
+
+16
+00:01:01,100 --> 00:01:04,260
+ Each one of these people, when you listen to them talk, they would quite often talk
+
+17
+00:01:04,260 --> 00:01:07,540
+ about all the other people doing all the other work.
+
+18
+00:01:07,540 --> 00:01:10,460
+ And they rarely consider themselves in any way heroes.
+
+19
+00:01:10,460 --> 00:01:13,460
+ They rarely consider themselves as the great innovators.
+
+20
+00:01:13,460 --> 00:01:17,340
+ They always see themselves as part of a collective curiosity.
+
+21
+00:01:17,340 --> 00:01:22,340
+ And there were many things that I haven't told you about that were curious explorations
+
+22
+00:01:22,340 --> 00:01:25,460
+ that helped inform it.
+
+23
+00:01:25,460 --> 00:01:29,060
+ And this was really research until sort of the late '90s.
+
+24
+00:01:29,060 --> 00:01:32,020
+ It was just a question of how to do it.
+
+25
+00:01:32,020 --> 00:01:38,700
+ And at some point after the late '90s, it switched to what to do with it.
+
+26
+00:01:38,700 --> 00:01:44,300
+ And at that point, we have a whole different group of people that start really entering
+
+27
+00:01:44,300 --> 00:01:46,840
+ the world.
+
+28
+00:01:46,840 --> 00:01:52,420
+ And one that's one of the earlier ones and has benefited greatly from it is Jeff Bezos.
+
+29
+00:01:52,420 --> 00:01:55,380
+ He's the founder of Amazon.com.
+
+30
+00:01:55,380 --> 00:01:59,380
+ And if you listen to Jeff, you will hear that he talks very differently.
+
+31
+00:01:59,380 --> 00:02:02,220
+ He comes at it from a business perspective.
+
+32
+00:02:02,220 --> 00:02:04,300
+ He's not necessarily trying to make the world a worse place.
+
+33
+00:02:04,300 --> 00:02:05,540
+ He's trying to make the world a better place.
+
+34
+00:02:05,540 --> 00:02:11,060
+ The fact that you can get all these books like The Next Morning, that's kind of cool.
+
+35
+00:02:11,060 --> 00:02:13,440
+ So what Amazon does is really wonderful.
+
+36
+00:02:13,440 --> 00:02:17,300
+ It's more efficient for society, it's economically beneficial.
+
+37
+00:02:17,300 --> 00:02:18,700
+ But he has a profit in mind.
+
+38
+00:02:18,700 --> 00:02:23,580
+ He is saying this web exists, browsers exist, protocols exist.
+
+39
+00:02:23,580 --> 00:02:26,580
+ How can I take best advantage of it?
+
+40
+00:02:26,580 --> 00:02:31,580
+ Richard Wiggins caught up with Jeff in 1997.
+
+41
+00:02:31,580 --> 00:02:38,180
+ So just look at how smart this guy was in 1997.
+
+42
+00:02:38,180 --> 00:02:42,060
+ Everyone else figured this out much later, but Jeff Bezos is a really, really bright
+
+43
+00:02:42,060 --> 00:02:43,060
+ person.
+
+44
+00:02:43,060 --> 00:02:44,060
+ Here's Jeff Bezos.
+
+45
+00:02:44,060 --> 00:02:45,060
+ Hi there.
+
+46
+00:02:45,060 --> 00:02:46,060
+ Who are you?
+
+47
+00:02:46,060 --> 00:02:47,060
+ I'm Jeff Bezos.
+
+48
+00:02:47,060 --> 00:02:50,060
+ What is your claim to fame?
+
+49
+00:02:50,060 --> 00:02:52,060
+ I'm the founder of Amazon.com.
+
+50
+00:02:52,060 --> 00:02:55,060
+ Where did you get an idea for Amazon.com?
+
+51
+00:02:55,060 --> 00:03:00,060
+ Well, three years ago I was in New York City working for a quantitative hedge fund when
+
+52
+00:03:00,060 --> 00:03:05,060
+ it came across the startling statistic that web usage was growing at 2300% a year.
+
+53
+00:03:05,060 --> 00:03:10,060
+ So I decided I would try and find a business plan that made sense in the context of that
+
+54
+00:03:10,060 --> 00:03:11,060
+ growth.
+
+55
+00:03:11,060 --> 00:03:15,060
+ So I picked books as the first best product to sell online for making a list of like 20
+
+56
+00:03:15,060 --> 00:03:17,780
+ different products that you might be able to sell.
+
+57
+00:03:17,780 --> 00:03:22,940
+ Books were great as the first best because books are incredibly unusual in one respect.
+
+58
+00:03:22,940 --> 00:03:27,260
+ That is that there are more items in the book category than there are items in any other
+
+59
+00:03:27,260 --> 00:03:29,100
+ category by far.
+
+60
+00:03:29,100 --> 00:03:30,100
+ Music is number two.
+
+61
+00:03:30,100 --> 00:03:32,900
+ There are about 200,000 active music CDs at any given time.
+
+62
+00:03:32,900 --> 00:03:37,700
+ But in the book space, there are more than three million different books worldwide active
+
+63
+00:03:37,700 --> 00:03:40,500
+ and in print at any given time across all languages.
+
+64
+00:03:40,500 --> 00:03:43,380
+ More than one and a half million in English alone.
+
+65
+00:03:43,380 --> 00:03:49,100
+ So when you have that many items you can literally build a store online that couldn't exist any
+
+66
+00:03:49,100 --> 00:03:50,100
+ other way.
+
+67
+00:03:50,100 --> 00:03:53,740
+ And that's important right now because the web is still an infant technology.
+
+68
+00:03:53,740 --> 00:03:57,860
+ Basically right now if you can do things using a more traditional method, you probably should
+
+69
+00:03:57,860 --> 00:04:00,940
+ do them using the more traditional method.
+
+70
+00:04:00,940 --> 00:04:03,120
+ What kind of inventory do you keep?
+
+71
+00:04:03,120 --> 00:04:06,620
+ We inventory the best selling books at any given time.
+
+72
+00:04:06,620 --> 00:04:11,100
+ We're inventorying in our own warehouse only a couple of thousand titles.
+
+73
+00:04:11,100 --> 00:04:15,740
+ And then we have, we do almost in time inventory for another 400,000 titles or so.
+
+74
+00:04:15,740 --> 00:04:20,620
+ We get those from a network of electronic, we order electronically from a network of
+
+75
+00:04:20,620 --> 00:04:22,480
+ wholesalers and distributors.
+
+76
+00:04:22,480 --> 00:04:23,980
+ We order those today.
+
+77
+00:04:23,980 --> 00:04:26,700
+ They're on our loading dock the next morning.
+
+78
+00:04:26,700 --> 00:04:33,020
+ Then for another 1.1 million titles we get those directly from 20,000 different publishers
+
+79
+00:04:33,020 --> 00:04:35,620
+ and those can take a couple of weeks to get.
+
+80
+00:04:35,620 --> 00:04:40,140
+ And then there are a million out of print books in our catalog.
+
+81
+00:04:40,140 --> 00:04:43,100
+ We have a catalog of two and a half million books altogether.
+
+82
+00:04:43,100 --> 00:04:46,420
+ Those million out of print books, some of them we can get and some of them we can't.
+
+83
+00:04:46,420 --> 00:04:50,300
+ But we find them if we can and then we ship them to our customers.
+
+84
+00:04:50,300 --> 00:04:53,300
+ We do kind of a search on those.
+
+85
+00:04:53,300 --> 00:04:55,380
+ What's almost in time inventory?
+
+86
+00:04:55,380 --> 00:04:59,820
+ Almost in time inventory is the phrase we use to describe a whole selection of books
+
+87
+00:04:59,820 --> 00:05:00,820
+ that we offer.
+
+88
+00:05:00,820 --> 00:05:07,240
+ Particularly the things that are below the 2,000th best selling book up to the 400,000th
+
+89
+00:05:07,240 --> 00:05:08,500
+ best selling book.
+
+90
+00:05:08,500 --> 00:05:12,340
+ Those are titles that we can get from a network of more than a dozen different wholesalers.
+
+91
+00:05:12,340 --> 00:05:16,980
+ So if a customer orders a book from us today, we order that book from our wholesalers today
+
+92
+00:05:16,980 --> 00:05:21,400
+ and that book shows up on our loading dock the next morning.
+
+93
+00:05:21,400 --> 00:05:23,580
+ And then we can ship it to the customer.
+
+94
+00:05:23,580 --> 00:05:27,180
+ They say one of the toughest things to do on the internet is to capture mind share.
+
+95
+00:05:27,180 --> 00:05:28,180
+ What was your secret?
+
+96
+00:05:28,180 --> 00:05:29,180
+ How did you do that?
+
+97
+00:05:29,180 --> 00:05:34,020
+ Well yeah, even more generally, I agree with you that capturing mind share on the internet
+
+98
+00:05:34,020 --> 00:05:35,260
+ is extremely difficult.
+
+99
+00:05:35,260 --> 00:05:39,700
+ Even more generally, it's the late 20th century, not just the internet.
+
+100
+00:05:39,700 --> 00:05:45,420
+ Capturing attention, attention is the scarce commodity of the late 20th century and one
+
+101
+00:05:45,420 --> 00:05:48,940
+ of the ways that you can do that and it's the way that we did it was by doing something
+
+102
+00:05:48,940 --> 00:05:54,800
+ new and innovative for the first time that actually has real value for the customer.
+
+103
+00:05:54,800 --> 00:05:59,260
+ It's a hard thing to do, but if you do do that, then newspapers will write about you,
+
+104
+00:05:59,260 --> 00:06:00,260
+ what you're doing.
+
+105
+00:06:00,260 --> 00:06:05,420
+ Customers will tell other customers and you'll get a huge word of mouth fan out and that
+
+106
+00:06:05,420 --> 00:06:08,580
+ can really drive and accelerate businesses and that's what happened with us.
+
+107
+00:06:08,580 --> 00:06:13,780
+ In the first year of opening amazon.com to the public, we didn't do any paid advertising
+
+108
+00:06:13,780 --> 00:06:18,700
+ and all of our growth was fueled by word of mouth and media exposure.
+
+109
+00:06:18,700 --> 00:06:21,900
+ I saw little ads at the bottom of the column of the New York Times.
+
+110
+00:06:21,900 --> 00:06:24,580
+ That was our very first advertising.
+
+111
+00:06:24,580 --> 00:06:29,540
+ We don't do that anymore, but at the very beginning, we did little tiny ads at the bottom
+
+112
+00:06:29,540 --> 00:06:31,980
+ of the front page of the New York Times.
+
+113
+00:06:31,980 --> 00:06:32,980
+ I thought that was very clever.
+
+114
+00:06:32,980 --> 00:06:36,900
+ It's sort of using a URL as a macro because I read that it expands.
+
+115
+00:06:36,900 --> 00:06:38,380
+ We're a bookstore.
+
+116
+00:06:38,380 --> 00:06:39,380
+ Click here.
+
+117
+00:06:39,380 --> 00:06:40,380
+ Right.
+
+118
+00:06:40,380 --> 00:06:41,380
+ That's a great way to think of it.
+
+119
+00:06:41,380 --> 00:06:43,420
+ And it worked very well apparently.
+
+120
+00:06:43,420 --> 00:06:47,580
+ I don't know, you know, the problem with that kind of advertising is it's extremely difficult
+
+121
+00:06:47,580 --> 00:06:48,580
+ to track.
+
+122
+00:06:48,580 --> 00:06:52,700
+ Put a different URL for every...
+
+123
+00:06:52,700 --> 00:06:55,660
+ That's the problem is that you want people to start to learn your URL so you don't want
+
+124
+00:06:55,660 --> 00:06:57,580
+ to actually use a different one.
+
+125
+00:06:57,580 --> 00:07:00,260
+ And it's very easy.
+
+126
+00:07:00,260 --> 00:07:07,380
+ One of the great things about online ads, we do advertising today in maybe 40 different
+
+127
+00:07:07,380 --> 00:07:08,380
+ websites.
+
+128
+00:07:08,380 --> 00:07:09,380
+ We do banner ads.
+
+129
+00:07:09,380 --> 00:07:14,380
+ And that advertising is very easy to track in terms of knowing how effective it is.
+
+130
+00:07:14,380 --> 00:07:19,500
+ So we know for each piece of creative in each venue, not only how many click throughs we
+
+131
+00:07:19,500 --> 00:07:25,420
+ get but how many sell throughs we get, how many dollars of revenue it generates per ad
+
+132
+00:07:25,420 --> 00:07:28,140
+ dollar spent on that creative in that venue.
+
+133
+00:07:28,140 --> 00:07:34,060
+ And that is sort of a marketer's nirvana in a certain sense.
+
+134
+00:07:34,060 --> 00:07:36,460
+ Well it's an exciting place to be on the web right now.
+
+135
+00:07:36,460 --> 00:07:37,700
+ Oh, it absolutely is.
+
+136
+00:07:37,700 --> 00:07:39,740
+ I mean it's just incredible.
+
+137
+00:07:39,740 --> 00:07:42,780
+ What's really incredible about this is that this is day one.
+
+138
+00:07:42,780 --> 00:07:43,860
+ This is the very beginning.
+
+139
+00:07:43,860 --> 00:07:47,060
+ This is the Kitty Hawk stage of electronic commerce.
+
+140
+00:07:47,060 --> 00:07:50,580
+ We're moving forward in so many different areas and lots of different companies are
+
+141
+00:07:50,580 --> 00:07:51,580
+ as well.
+
+142
+00:07:51,580 --> 00:07:55,660
+ And the late 20th century is just a great time to be alive.
+
+143
+00:07:55,660 --> 00:07:59,740
+ We're going to find out that I think a millennia from now people are going to look back and
+
+144
+00:07:59,740 --> 00:08:06,460
+ say wow, the late 20th century was really a great time to be alive on this planet.
+
+145
+00:08:06,460 --> 00:08:11,500
+ So if you're a stockholder of Amazon, I think you're in good shape because he's a bright
+
+146
+00:08:11,500 --> 00:08:17,140
+ fellow and he's always looking for how to really do the right thing and give us products
+
+147
+00:08:17,140 --> 00:08:18,900
+ that we really like.
+
+148
+00:08:18,900 --> 00:08:22,940
+ Now in this we sort of evolve the modern internet.
+
+149
+00:08:22,940 --> 00:08:28,220
+ And much like Jeff, Jeff said that investment was growing at 3,000% a year or something
+
+150
+00:08:28,220 --> 00:08:30,160
+ like that.
+
+151
+00:08:30,160 --> 00:08:35,700
+ There was this mania in '96, '97, '98 where people just bought and bought and bought and
+
+152
+00:08:35,700 --> 00:08:41,280
+ the notion that communications was going to be so valuable led to in a sense an overbuilding
+
+153
+00:08:41,280 --> 00:08:43,100
+ of the fiber optic plan.
+
+154
+00:08:43,100 --> 00:08:48,940
+ We have a massive amount of fiber optic in the ground right now and our ability to send
+
+155
+00:08:48,940 --> 00:08:53,340
+ more data through the existing fibers by just upgrading the equipment at the two ends, that's
+
+156
+00:08:53,340 --> 00:08:55,540
+ growing very rapidly as well.
+
+157
+00:08:55,540 --> 00:09:01,020
+ And so we're in this really weird world now where a fiber optic between Ann Arbor and
+
+158
+00:09:01,020 --> 00:09:11,300
+ Chicago, 180 miles, is not that much more expensive than a piece of copper wire that goes 30 miles
+
+159
+00:09:11,300 --> 00:09:13,140
+ in 1960.
+
+160
+00:09:13,140 --> 00:09:18,820
+ And so distance is less and less important in the internet.
+
+161
+00:09:18,820 --> 00:09:22,540
+ It's why long distance phone calls don't cost any money anymore because long distance and
+
+162
+00:09:22,540 --> 00:09:26,180
+ local are not that different because there's so much fiber in the ground.
+
+163
+00:09:26,180 --> 00:09:33,420
+ But just one thing I want you to think about and wonder about is will we run out?
+
+164
+00:09:33,420 --> 00:09:38,300
+ We're living off of the overbuilding that happened in the late '90s when they put so
+
+165
+00:09:38,300 --> 00:09:42,020
+ much in and they've been able to upgrade so effectively.
+
+166
+00:09:42,020 --> 00:09:46,460
+ But we might run out and where will the money come from to dig the next set of trenches
+
+167
+00:09:46,460 --> 00:09:50,780
+ to put the next round of fiber in, we'll have to see.
+
+168
+00:09:50,780 --> 00:09:57,380
+ So if we take a quick look at-- this is a graph of the growth of the servers on the
+
+169
+00:09:57,380 --> 00:09:59,100
+ World Wide Web.
+
+170
+00:09:59,100 --> 00:10:06,920
+ And if you take a look, we start in 1990 with one web server, December 1990, with Tim Berners-Lee
+
+171
+00:10:06,920 --> 00:10:08,800
+ having one web server.
+
+172
+00:10:08,800 --> 00:10:10,220
+ And then it sort of doesn't grow.
+
+173
+00:10:10,220 --> 00:10:14,580
+ And then you sort of see kind of like this takeoff in the last two years, last late two
+
+174
+00:10:14,580 --> 00:10:23,500
+ years of the 1990s, where you go up to about 20 to 30 million from what, I don't know,
+
+175
+00:10:23,500 --> 00:10:28,980
+ 1996 is less than a quarter of a million dollars and less than a quarter of a million hosts.
+
+176
+00:10:28,980 --> 00:10:34,820
+ You see kind of the crash, the boom, and the crash where it wasn't growing.
+
+177
+00:10:34,820 --> 00:10:39,720
+ And then you sort of see another new graph, which is really-- this is when everybody had
+
+178
+00:10:39,720 --> 00:10:40,900
+ to be on the internet.
+
+179
+00:10:40,900 --> 00:10:43,460
+ Every little store started being on the internet.
+
+180
+00:10:43,460 --> 00:10:45,460
+ Every one had to have a web server.
+
+181
+00:10:45,460 --> 00:10:47,540
+ This was kind of the big ones coming on.
+
+182
+00:10:47,540 --> 00:10:52,820
+ And this was sort of like the flame out of the exuberant growth of the late '90s.
+
+183
+00:10:52,820 --> 00:10:58,540
+ And this exuberant growth gets so exuberant that it really changes the stock market in
+
+184
+00:10:58,540 --> 00:11:03,500
+ the United States and the rest of the world to the point where, you know, from the early
+
+185
+00:11:03,500 --> 00:11:08,060
+ '90s to 2000 was the longest period of expansion.
+
+186
+00:11:08,060 --> 00:11:10,420
+ And there's a lot of factors for this.
+
+187
+00:11:10,420 --> 00:11:15,700
+ But one of the factors is, as we began to use communication and computation to make
+
+188
+00:11:15,700 --> 00:11:21,540
+ commerce more efficient, that triggered a great deal of growth.
+
+189
+00:11:21,540 --> 00:11:24,540
+ It also triggered over-speculation, right?
+
+190
+00:11:24,540 --> 00:11:32,380
+ And so the kind of-- this part here, the crash, the dot com crash, was a bit of the over-speculation
+
+191
+00:11:32,380 --> 00:11:34,020
+ working its way out.
+
+192
+00:11:34,020 --> 00:11:37,420
+ Probably if, you know, if they hadn't over-speculated, it would go like this instead.
+
+193
+00:11:37,420 --> 00:11:38,540
+ But it can't be like that.
+
+194
+00:11:38,540 --> 00:11:42,760
+ You go crazy, crazy, crazy, crazy, crazy, oops, oops, oops, oops, oops.
+
+195
+00:11:42,760 --> 00:11:46,020
+ And then we sort of had a crappy economy for a while after that.
+
+196
+00:11:46,020 --> 00:11:51,540
+ But again, the web, the internet, and all the technology that I just talked about really
+
+197
+00:11:51,540 --> 00:11:57,380
+ put a stamp on the entire world's economy in the 1990s.
+
+198
+00:11:57,380 --> 00:12:02,760
+ So I could go on and on and on and on about this stuff.
+
+199
+00:12:02,760 --> 00:12:05,380
+ Open source is a big part of this.
+
+200
+00:12:05,380 --> 00:12:10,220
+ I will put links up for these videos that I've got.
+
+201
+00:12:10,220 --> 00:12:13,880
+ These are three open source luminaries that I've interviewed.
+
+202
+00:12:13,880 --> 00:12:21,460
+ Richard Stallman is the Free Software Foundation, the GNU, which is-- much of Unix's utilities
+
+203
+00:12:21,460 --> 00:12:22,460
+ are written this way.
+
+204
+00:12:22,460 --> 00:12:24,780
+ The compilers are written this way.
+
+205
+00:12:24,780 --> 00:12:29,700
+ He is a tremendous advocate for open source software.
+
+206
+00:12:29,700 --> 00:12:33,220
+ Also we meet Brian Bellendorf from the Apache Foundation.
+
+207
+00:12:33,220 --> 00:12:39,740
+ The Apache Foundation was formed based on the web server that was created at NCSA, became
+
+208
+00:12:39,740 --> 00:12:42,460
+ the first web server that was the Apache web server.
+
+209
+00:12:42,460 --> 00:12:46,660
+ So that lineage goes all the way back to Joseph Harden and the team at NCSA.
+
+210
+00:12:46,660 --> 00:12:51,980
+ And then Rasmus Lierdorf is the inventor of PHP and one of the many very popular web programming
+
+211
+00:12:51,980 --> 00:12:54,100
+ languages for building websites.
+
+212
+00:12:54,100 --> 00:12:57,220
+ And so I'll put the links up for these, and you can take a look at them.
+

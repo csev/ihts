@@ -1,0 +1,72 @@
+ So again, I think Paul really created for us the first search engine and showed that the web could be a mostly consumed environment and be extremely useful.
+ When you think about it, if there was no web and there was no content, how would you know that the web is a great way to view content?
+ So Paul Coons had the advantage that he had a lot of content, and it was content that at least the physicists found extremely valuable, and then people go, "Oh, I can see."
+ As a matter of fact, I remember when I first saw the web, I was like, "Okay, fine. It's got pictures. Who cares?"
+ Because other things like Gopher were just as good.
+ And then I saw the ability to go to Federal Express and track a package, and I go, "Now that's a cool idea."
+ Gopher couldn't do that.
+ As a matter of fact, in 1993, sort of three years after the web was created, the web was actually not all that popular.
+ 1991 was the Paul Coons, but that was mostly physicists and a few nerds, myself included.
+ But in 1993, Gopher was a much better product, and it was a much more beloved product.
+ And the problem, again, came down to the fact that the network was so slow that simple text-based things worked better than highly graphical things.
+ There's an apocryphal story that happened in March of 1993 where there was a meeting of the Internet Engineering Task Force that does standards for all these things.
+ And they had a bird-of-a-feather session for Gopher and a bird-of-a-feather session for the World Wide Web.
+ And the Gopher session was full of people, and they couldn't have enough in the room, and they were sitting on the floor and peeking in the door.
+ And then later, I wasn't at this meeting, by the way.
+ Rich Wiggins, my co-host on the television show, was at this meeting.
+ And what he tells me is, at the bird-of-a-feather meeting, there was almost nobody there.
+ And Turnburner's Lee was like, "I've been working on this thing for three years, and it's better than Gopher, but nobody wants to use it."
+ And the people in the room at that point told him, they said, "It's just too complex. It's too hard to get working."
+ So this was a long time ago, and the Web was not assured to be a success at that point. It just wasn't really clear.
+ The university was getting the idea that we had to spend a lot of money on a campus-wide network
+ and that maybe we should use it for something besides connecting to the mainframe.
+ So most of the top of the computer center was saying maybe we should do something with publishing information.
+ That'd be an interesting sort of use of the network that more people could use than just the people who wanted to talk to the mainframe.
+ Were you surprised at how fast Gopher took off?
+ Yeah, absolutely shocked, because we basically wrote something that we thought would be good enough for our campus
+ and hoped that a few other places would use it because then if somebody at a different institution used it,
+ we'd have some credibility locally that, "Hey, we're not just saying it's good. Somebody else is saying it's good."
+ So that it was accepted is probably more a sign that it just happened to be the right thing at the right time.
+ The environment was ripe for something like that, and we had an okay product at the right time.
+ Basically, we put it up for anonymous FTP and sent out a couple announcements on Newsnet saying,
+ "Hey, here's a thing that does kind of a campus-wide information system."
+ The fashion back then was to say, "Everybody needs to have a CWIS, a campus-wide information system."
+ So Gopher, we thought, made a pretty good one because he didn't have to centralize publishing on one machine.
+ You could let individual departments publish off their own machines and control their own content.
+ That model turned out to be a pretty good one, so lots of other places started using it.
+ So we had kind of the right idea at the point where this particular issue, campus-wide information system,
+ was something that all of the university computer centers were saying, "I've got to have one of these."
+ The technology we built Gopher to work with were fairly slow machines with limited graphics and slow modems.
+ That was our design point because that's what people had six, seven years ago.
+ And while we added graphics and movies and those sorts of things,
+ Gopher wasn't designed to be hypertext and really media-rich documents.
+ It was aimed more at run fast over limited bandwidth on slow machines.
+ So 1993 was kind of like, it was a real, there was a lot of things that could have been very different in 1993.
+ And I want to show you a commercial, and there's a couple of these out there,
+ from 1993 that one of the large telecommunications vendors put out as a national ad campaign.
+ And this is what the telecommunications industry was thinking about.
+ They saw it all happening. They saw this all happening. They knew it was going to be big.
+ They knew it was going to allow interactions in many ways. They knew it. They weren't dumb.
+ It was like, "Whoa, what's going on?" No, not at all. They absolutely knew.
+ So this really wonderful series of commercials is just quite amazing.
+ So take a look. At the end you'll see actually what the large telecommunications company's name is.
+ So take a quick look.
+ So again, sort of looking back at this and looking at things that might not have been,
+ there's nobody that really makes the connection that Steve Jobs might have had some impact on the World Wide Web.
+ But in a way, he was actually quite influential.
+ Steve Jobs, of course, founded Apple and then was kicked out of Apple after the Macintosh.
+ And he started a new company called Next.
+ And if you listen closely to what Robert Caillou says, and you listen closely to what Paul Kuhn says,
+ and the computer that was on my desk during this entire period of the 1990s to '93 were Next computers.
+ Next was a bold, Unix-based, highly networked, high-definition display, high-performance computer
+ that Steve Jobs built when he formed the company Next after he got fired from Apple.
+ Of course, he eventually came back to Apple, and the Next technology is Macintosh.
+ That's the Macintosh operating system.
+ And so if you make a mistake in Macintosh, you might see an error message that starts "NS something."
+ That's called NextStep, which is the operating system on these Next computers.
+ For the first three years of the Web, it was pretty much only on the Next computer.
+ People would, even the server was on the Next computer, and the browser was on the Next computer.
+ And so the Next computer really kind of did that.
+ I wrote an article a couple months after Steve Jobs died for IEEE Computer Magazine's January 2012 issue
+ that really sort of tried to, at least from a historical perspective,
+ point out how important Steve Jobs may have been in helping the Internet get formed.

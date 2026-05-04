@@ -1,0 +1,1200 @@
+1
+00:00:00,000 --> 00:00:02,580
+ (upbeat music)
+
+2
+00:00:30,000 --> 00:00:33,000
+ (upbeat music)
+
+3
+00:00:33,000 --> 00:00:35,700
+ - Hello everybody, it's our second almost annual
+
+4
+00:00:35,700 --> 00:00:37,380
+ class reunion at Bletchley Park
+
+5
+00:00:37,380 --> 00:00:39,940
+ and we have a wonderful group of people
+
+6
+00:00:39,940 --> 00:00:41,740
+ and we'll just go around and do the standard thing
+
+7
+00:00:41,740 --> 00:00:44,180
+ and let everyone say hi and say their name
+
+8
+00:00:44,180 --> 00:00:45,620
+ or whatever they wanna say, okay?
+
+9
+00:00:45,620 --> 00:00:46,460
+ So here we go.
+
+10
+00:00:46,460 --> 00:00:49,340
+ - Hi. - Hi.
+
+11
+00:00:49,340 --> 00:00:52,100
+ Hi, this is Özgür from London.
+
+12
+00:00:52,100 --> 00:00:57,100
+ I took Dr. Chuck's pilot courses all the way to Capstone.
+
+13
+00:00:57,100 --> 00:00:59,220
+ - Congratulations, thank you.
+
+14
+00:00:59,220 --> 00:01:00,340
+ - Thank you.
+
+15
+00:01:00,340 --> 00:01:02,180
+ - Hi, my name is Lotte.
+
+16
+00:01:02,180 --> 00:01:06,460
+ I'm from Sweden and I've been doing Python for everybody.
+
+17
+00:01:06,460 --> 00:01:08,100
+ - Did you come from Sweden?
+
+18
+00:01:08,100 --> 00:01:09,660
+ - No, today I came from London, I live in London.
+
+19
+00:01:09,660 --> 00:01:11,140
+ - Oh, okay, okay.
+
+20
+00:01:11,140 --> 00:01:12,660
+ We had a person come from Paris last year.
+
+21
+00:01:12,660 --> 00:01:14,060
+ - Okay. - Hi, I'm Steve.
+
+22
+00:01:14,060 --> 00:01:16,500
+ I'm doing the Python course several times
+
+23
+00:01:16,500 --> 00:01:18,060
+ and I'm one of your mentors.
+
+24
+00:01:18,060 --> 00:01:23,060
+ - Right, so we sent Steven a sweet shirt.
+
+25
+00:01:23,060 --> 00:01:24,940
+ Congratulations, you're a volunteer
+
+26
+00:01:24,940 --> 00:01:26,860
+ and you've been working for me for how long?
+
+27
+00:01:26,860 --> 00:01:27,920
+ - Couple years now.
+
+28
+00:01:27,920 --> 00:01:29,360
+ - And you got a shirt.
+
+29
+00:01:29,360 --> 00:01:30,200
+ - Uh-huh.
+
+30
+00:01:30,200 --> 00:01:31,040
+ (laughing)
+
+31
+00:01:31,040 --> 00:01:33,580
+ - Woo, and a nice trip out here.
+
+32
+00:01:33,580 --> 00:01:34,500
+ - Oh yeah, of course.
+
+33
+00:01:34,500 --> 00:01:37,860
+ So let's give a round of applause to Steven.
+
+34
+00:01:37,860 --> 00:01:40,280
+ (applauding)
+
+35
+00:01:40,280 --> 00:01:47,660
+ So, Steven is famous, yeah, sure, yeah.
+
+36
+00:01:47,660 --> 00:01:52,820
+ So Steven is famous for telling everybody
+
+37
+00:01:52,820 --> 00:01:55,660
+ to quit putting code in the forums.
+
+38
+00:01:55,660 --> 00:01:56,480
+ (laughing)
+
+39
+00:01:56,480 --> 00:01:58,220
+ - Yeah, he probably does that 20 times a day
+
+40
+00:01:58,220 --> 00:02:00,740
+ to say quit putting code in the forums.
+
+41
+00:02:00,740 --> 00:02:02,540
+ So, thanks.
+
+42
+00:02:02,540 --> 00:02:04,660
+ Okay, continue on.
+
+43
+00:02:04,660 --> 00:02:05,740
+ Hello, what's your name?
+
+44
+00:02:05,740 --> 00:02:07,820
+ - Hi, I'm Caroline and I'm from London
+
+45
+00:02:07,820 --> 00:02:12,100
+ and I've really enjoyed doing your courses, all of them.
+
+46
+00:02:12,100 --> 00:02:13,840
+ I haven't done the capstone project yet,
+
+47
+00:02:13,840 --> 00:02:16,180
+ but I'm hoping to go back and do that.
+
+48
+00:02:16,180 --> 00:02:17,340
+ - But you took the history course.
+
+49
+00:02:17,340 --> 00:02:18,180
+ - Yes, I did.
+
+50
+00:02:18,180 --> 00:02:19,000
+ - Is this your first time at Leslie Park?
+
+51
+00:02:19,000 --> 00:02:19,840
+ - It is, yes.
+
+52
+00:02:19,840 --> 00:02:21,100
+ - Okay, so we got you to come to Leslie Park.
+
+53
+00:02:21,100 --> 00:02:22,580
+ - Yes, and I've really enjoyed it.
+
+54
+00:02:22,580 --> 00:02:23,740
+ - Cool, hi.
+
+55
+00:02:23,740 --> 00:02:25,980
+ - Hi, I'm Lena, I'm from Ukraine.
+
+56
+00:02:25,980 --> 00:02:27,780
+ It's my first steps in studying programming.
+
+57
+00:02:27,780 --> 00:02:28,620
+ - Did you come from Ukraine?
+
+58
+00:02:28,620 --> 00:02:29,460
+ - No, I live in London.
+
+59
+00:02:29,460 --> 00:02:30,300
+ - Okay.
+
+60
+00:02:30,300 --> 00:02:32,660
+ - And I want to thank you, Dr. Chuck,
+
+61
+00:02:32,660 --> 00:02:35,340
+ for interesting lectures, for inspiration you give.
+
+62
+00:02:35,340 --> 00:02:36,180
+ You're awesome, thank you.
+
+63
+00:02:36,180 --> 00:02:38,700
+ - Oh, thank you, I really enjoy doing it.
+
+64
+00:02:38,700 --> 00:02:40,020
+ It's really an honor.
+
+65
+00:02:40,020 --> 00:02:41,580
+ I mean, the pleasure is all mine.
+
+66
+00:02:41,580 --> 00:02:43,920
+ - Hi, my name is Dima, Ukrainian as well.
+
+67
+00:02:43,920 --> 00:02:47,340
+ I'm here to support my beloved wife, Lena.
+
+68
+00:02:47,340 --> 00:02:49,540
+ Originally, I'm just a software developer,
+
+69
+00:02:49,540 --> 00:02:50,740
+ professional one, so.
+
+70
+00:02:50,740 --> 00:02:51,580
+ - Ah, okay.
+
+71
+00:02:51,580 --> 00:02:52,420
+ - Yeah, it's starting.
+
+72
+00:02:52,420 --> 00:02:53,620
+ - You know Python already?
+
+73
+00:02:53,620 --> 00:02:54,460
+ - Yeah.
+
+74
+00:02:54,460 --> 00:02:56,300
+ - The people could find your course
+
+75
+00:02:56,300 --> 00:02:58,980
+ and just advise me to study.
+
+76
+00:02:58,980 --> 00:03:00,380
+ - I'm sure dinner's different now.
+
+77
+00:03:00,380 --> 00:03:01,220
+ (laughing)
+
+78
+00:03:01,220 --> 00:03:02,820
+ So you can talk Python at dinner.
+
+79
+00:03:02,820 --> 00:03:04,340
+ - It's a bit colder, yeah, that's true.
+
+80
+00:03:04,340 --> 00:03:06,580
+ (laughing)
+
+81
+00:03:06,580 --> 00:03:08,500
+ Hi, I'm Brian from Richmond, Virginia,
+
+82
+00:03:08,500 --> 00:03:09,820
+ here following your course,
+
+83
+00:03:09,820 --> 00:03:12,340
+ and thought I'd check out the meal out.
+
+84
+00:03:12,340 --> 00:03:13,440
+ - Are you on vacation?
+
+85
+00:03:13,440 --> 00:03:15,040
+ - Yes, basically.
+
+86
+00:03:15,040 --> 00:03:16,900
+ - When I went to Las Vegas,
+
+87
+00:03:16,900 --> 00:03:18,340
+ I had officers with four people,
+
+88
+00:03:18,340 --> 00:03:19,820
+ none of them were from Vegas.
+
+89
+00:03:19,820 --> 00:03:20,900
+ Everyone is--
+
+90
+00:03:20,900 --> 00:03:23,180
+ - Hi, I'm Jason from Wallingford in Oxfordshire.
+
+91
+00:03:23,180 --> 00:03:24,740
+ I've done the internet history course.
+
+92
+00:03:24,740 --> 00:03:25,580
+ - Great.
+
+93
+00:03:25,580 --> 00:03:27,020
+ - And I'm now doing a chemistry course,
+
+94
+00:03:27,020 --> 00:03:29,000
+ and I realize how much better your courses are.
+
+95
+00:03:29,000 --> 00:03:31,660
+ (laughing)
+
+96
+00:03:31,660 --> 00:03:33,140
+ - Oh, I might have to take that one out.
+
+97
+00:03:33,140 --> 00:03:35,000
+ No, I won't take that out.
+
+98
+00:03:35,000 --> 00:03:38,820
+ No, it's really fun.
+
+99
+00:03:38,820 --> 00:03:40,620
+ It's really an honor to teach you all,
+
+100
+00:03:40,620 --> 00:03:43,400
+ and to be in your homes,
+
+101
+00:03:43,400 --> 00:03:44,980
+ and be on your phones, and all that stuff.
+
+102
+00:03:44,980 --> 00:03:46,180
+ It just is an honor.
+
+103
+00:03:46,180 --> 00:03:47,020
+ Hi.
+
+104
+00:03:47,020 --> 00:03:47,840
+ - Hi, my name is Yu.
+
+105
+00:03:47,840 --> 00:03:51,220
+ I'm a Japanese, and I live in London.
+
+106
+00:03:51,220 --> 00:03:54,460
+ And I'm taking Python specialization now.
+
+107
+00:03:54,460 --> 00:03:55,300
+ - Okay.
+
+108
+00:03:55,300 --> 00:03:56,820
+ - And it's always fun, yeah.
+
+109
+00:03:56,820 --> 00:03:57,660
+ - Hi.
+
+110
+00:03:57,660 --> 00:03:59,180
+ - Hi, I'm Irena.
+
+111
+00:03:59,180 --> 00:04:01,300
+ I'm from Poland, but I live in London.
+
+112
+00:04:01,300 --> 00:04:05,460
+ And I graduated from linguistics, basically,
+
+113
+00:04:05,460 --> 00:04:07,500
+ but I really fell in love in Python.
+
+114
+00:04:07,500 --> 00:04:08,340
+ Thanks to you.
+
+115
+00:04:08,340 --> 00:04:10,660
+ - So did you find out about the Polish connection
+
+116
+00:04:10,660 --> 00:04:12,300
+ here at Bletchley Park?
+
+117
+00:04:12,300 --> 00:04:14,400
+ - Yes, I actually watched the last year, yeah.
+
+118
+00:04:14,400 --> 00:04:15,660
+ - You watched the video about the Polish folks?
+
+119
+00:04:15,660 --> 00:04:16,500
+ - Yeah, yeah. - Cool.
+
+120
+00:04:16,500 --> 00:04:17,400
+ - Yeah, yeah, yeah.
+
+121
+00:04:17,400 --> 00:04:19,420
+ - Is anyone here for the second time?
+
+122
+00:04:19,420 --> 00:04:20,660
+ From like a year and a half ago?
+
+123
+00:04:20,660 --> 00:04:21,500
+ - Yeah.
+
+124
+00:04:21,500 --> 00:04:22,620
+ - Oh, so you were here a year and a half ago?
+
+125
+00:04:22,620 --> 00:04:24,660
+ - No, no, I came here three years ago.
+
+126
+00:04:24,660 --> 00:04:27,900
+ - Oh, no, I'm talking about like the office hours.
+
+127
+00:04:27,900 --> 00:04:28,740
+ - No, no, no.
+
+128
+00:04:28,740 --> 00:04:29,580
+ - Okay, okay.
+
+129
+00:04:29,580 --> 00:04:30,400
+ Hi.
+
+130
+00:04:30,400 --> 00:04:31,940
+ - Hi, I'm Jeff.
+
+131
+00:04:31,940 --> 00:04:34,300
+ I teach computer science, but I didn't study it.
+
+132
+00:04:34,300 --> 00:04:38,420
+ So I had to study your courses,
+
+133
+00:04:38,420 --> 00:04:41,340
+ and what you taught me about internet history three years ago
+
+134
+00:04:41,340 --> 00:04:42,720
+ still forms the basis.
+
+135
+00:04:42,720 --> 00:04:45,480
+ I still steal some of your slides from my lessons,
+
+136
+00:04:45,480 --> 00:04:49,800
+ and I often get my students to sign up for your courses.
+
+137
+00:04:49,800 --> 00:04:50,640
+ - Good.
+
+138
+00:04:50,640 --> 00:04:51,480
+ I usually do, you know.
+
+139
+00:04:51,480 --> 00:04:53,500
+ - But you, what level of school do you teach?
+
+140
+00:04:53,500 --> 00:04:56,460
+ - Oh, I teach middle school, upper school,
+
+141
+00:04:56,460 --> 00:04:59,020
+ what we call here GCSE and A level, so.
+
+142
+00:04:59,020 --> 00:04:59,860
+ - Cool.
+
+143
+00:04:59,860 --> 00:05:00,860
+ We gotta get more of that.
+
+144
+00:05:00,860 --> 00:05:02,300
+ We just gotta get that right.
+
+145
+00:05:02,300 --> 00:05:05,580
+ - Get them thinking the way computers work.
+
+146
+00:05:05,580 --> 00:05:06,420
+ - Yep.
+
+147
+00:05:06,420 --> 00:05:07,420
+ Mike, you wanna talk?
+
+148
+00:05:07,420 --> 00:05:09,260
+ - I'm Mike.
+
+149
+00:05:09,260 --> 00:05:12,060
+ I did the original version of the Python.
+
+150
+00:05:12,060 --> 00:05:14,460
+ - The first one, the 10 week, the long one, yeah.
+
+151
+00:05:14,460 --> 00:05:15,300
+ - Yeah.
+
+152
+00:05:15,300 --> 00:05:16,120
+ - Well, cool.
+
+153
+00:05:16,120 --> 00:05:16,960
+ Welcome.
+
+154
+00:05:16,960 --> 00:05:18,100
+ - Yeah, they do very much.
+
+155
+00:05:18,100 --> 00:05:19,100
+ - Yeah.
+
+156
+00:05:19,100 --> 00:05:20,260
+ You're normal.
+
+157
+00:05:20,260 --> 00:05:21,100
+ Hi.
+
+158
+00:05:21,100 --> 00:05:21,940
+ - Hi, I'm Sarah.
+
+159
+00:05:21,940 --> 00:05:23,460
+ I'm here from Oxford.
+
+160
+00:05:23,460 --> 00:05:26,620
+ I took the original Python for everyone course a while ago
+
+161
+00:05:26,620 --> 00:05:28,460
+ and programming finally clicked,
+
+162
+00:05:28,460 --> 00:05:32,420
+ so now I teach kids to code at workshops and stuff.
+
+163
+00:05:32,420 --> 00:05:33,300
+ - I don't know if you noticed,
+
+164
+00:05:33,300 --> 00:05:36,300
+ but I use the word Sarah in a lot of my examples.
+
+165
+00:05:36,300 --> 00:05:39,020
+ So now I have a Sarah that's the real person.
+
+166
+00:05:39,020 --> 00:05:41,420
+ So there's Sally and Glenn and all these people,
+
+167
+00:05:41,420 --> 00:05:43,020
+ but there's always Sarah for some reason,
+
+168
+00:05:43,020 --> 00:05:45,340
+ but you're apparently the Sarah.
+
+169
+00:05:45,340 --> 00:05:46,180
+ So welcome.
+
+170
+00:05:46,180 --> 00:05:48,460
+ - Hi, I'm Robin.
+
+171
+00:05:48,460 --> 00:05:51,300
+ I'm from Hemel Hempstead and I really enjoy your courses.
+
+172
+00:05:51,300 --> 00:05:52,780
+ I love in Python.
+
+173
+00:05:52,780 --> 00:05:53,620
+ - Well, welcome.
+
+174
+00:05:53,620 --> 00:05:54,440
+ Welcome.
+
+175
+00:05:54,440 --> 00:05:55,280
+ - Hi, I'm Karolina.
+
+176
+00:05:55,280 --> 00:05:57,260
+ I'm originally from Poland, but living in London.
+
+177
+00:05:57,260 --> 00:05:59,940
+ So I found one Polish friend here already, so it's nice.
+
+178
+00:05:59,940 --> 00:06:03,980
+ I've been doing Python course currently on level three.
+
+179
+00:06:03,980 --> 00:06:04,820
+ - Good.
+
+180
+00:06:04,820 --> 00:06:05,640
+ - So I hope to make it to the capstone.
+
+181
+00:06:05,640 --> 00:06:06,480
+ - Level three gets harder.
+
+182
+00:06:06,480 --> 00:06:07,320
+ - Thank you so much.
+
+183
+00:06:07,320 --> 00:06:08,140
+ Oh, yes.
+
+184
+00:06:08,140 --> 00:06:08,980
+ It's getting harder, but exciting.
+
+185
+00:06:08,980 --> 00:06:09,820
+ - Yep.
+
+186
+00:06:09,820 --> 00:06:10,640
+ Good.
+
+187
+00:06:10,640 --> 00:06:11,480
+ Hi.
+
+188
+00:06:11,480 --> 00:06:12,320
+ - Hi, I'm Richard.
+
+189
+00:06:12,320 --> 00:06:13,160
+ I'm doing programming for everyone.
+
+190
+00:06:13,160 --> 00:06:13,980
+ I'm learning Python.
+
+191
+00:06:13,980 --> 00:06:14,820
+ It's nice to learn something
+
+192
+00:06:14,820 --> 00:06:16,020
+ other than hello world in our language.
+
+193
+00:06:16,020 --> 00:06:16,860
+ Just doing it for interesting.
+
+194
+00:06:16,860 --> 00:06:18,520
+ - Yeah, exactly.
+
+195
+00:06:18,520 --> 00:06:19,360
+ Hi.
+
+196
+00:06:19,360 --> 00:06:21,360
+ - Hi, I'm Claire from Devon.
+
+197
+00:06:21,360 --> 00:06:23,700
+ I've only done the first Python course,
+
+198
+00:06:23,700 --> 00:06:24,540
+ but it's really fun
+
+199
+00:06:24,540 --> 00:06:26,100
+ and I think you're a really good lecturer.
+
+200
+00:06:26,100 --> 00:06:26,940
+ - Well, thank you.
+
+201
+00:06:26,940 --> 00:06:27,760
+ Thank you.
+
+202
+00:06:27,760 --> 00:06:29,980
+ I'm part of the whole idea is to get you in.
+
+203
+00:06:29,980 --> 00:06:30,820
+ - Yeah.
+
+204
+00:06:30,820 --> 00:06:32,820
+ - And get you curious and so that your curiosity drives you
+
+205
+00:06:32,820 --> 00:06:35,140
+ where you're gonna go rather than scaring you.
+
+206
+00:06:35,140 --> 00:06:36,300
+ - I wanna do the rest if I can.
+
+207
+00:06:36,300 --> 00:06:37,220
+ - Yeah.
+
+208
+00:06:37,220 --> 00:06:38,060
+ Thanks.
+
+209
+00:06:38,060 --> 00:06:38,900
+ - Hi, I'm Bim.
+
+210
+00:06:38,900 --> 00:06:41,100
+ I'm from Essex, Thorac, Essex.
+
+211
+00:06:41,100 --> 00:06:43,340
+ And I took the history of the internet.
+
+212
+00:06:43,340 --> 00:06:44,540
+ - Okay.
+
+213
+00:06:44,540 --> 00:06:45,380
+ Do you wanna talk?
+
+214
+00:06:45,380 --> 00:06:46,200
+ - That's my son.
+
+215
+00:06:46,200 --> 00:06:47,780
+ Just accompanied me today.
+
+216
+00:06:47,780 --> 00:06:48,620
+ Thank you.
+
+217
+00:06:48,620 --> 00:06:55,060
+ - Okay, that's it.
+
+218
+00:06:55,060 --> 00:06:55,900
+ - Okay.
+
+219
+00:06:55,900 --> 00:06:56,720
+ We're fine.
+
+220
+00:06:56,720 --> 00:06:57,560
+ - Hi, I'm Anne.
+
+221
+00:06:57,560 --> 00:06:58,400
+ I've just finished your Python
+
+222
+00:06:58,400 --> 00:06:59,580
+ for everybody specialization.
+
+223
+00:06:59,580 --> 00:07:00,700
+ It's fantastic.
+
+224
+00:07:00,700 --> 00:07:01,540
+ - Cool.
+
+225
+00:07:01,540 --> 00:07:02,360
+ - Yeah.
+
+226
+00:07:02,360 --> 00:07:05,180
+ - You said that the capstone was a little too easy.
+
+227
+00:07:05,180 --> 00:07:08,300
+ - Yeah, but it's the concepts behind it are good
+
+228
+00:07:08,300 --> 00:07:09,780
+ and we'll be good to work out.
+
+229
+00:07:09,780 --> 00:07:11,900
+ - See, I consider that a success.
+
+230
+00:07:11,900 --> 00:07:12,740
+ - Yeah.
+
+231
+00:07:12,740 --> 00:07:13,580
+ - If all the rest of the course made
+
+232
+00:07:13,580 --> 00:07:14,420
+ the last part seem easy,
+
+233
+00:07:14,420 --> 00:07:16,820
+ then ha, ha, I win.
+
+234
+00:07:16,820 --> 00:07:17,660
+ - Fantastic.
+
+235
+00:07:17,660 --> 00:07:19,060
+ (laughing)
+
+236
+00:07:19,060 --> 00:07:19,980
+ - Hello, I'm Peter.
+
+237
+00:07:19,980 --> 00:07:22,100
+ I'm on the second course of the Python,
+
+238
+00:07:22,100 --> 00:07:22,940
+ learning to Python.
+
+239
+00:07:22,940 --> 00:07:24,140
+ And it's very good.
+
+240
+00:07:24,140 --> 00:07:24,980
+ I'm enjoying it.
+
+241
+00:07:24,980 --> 00:07:26,940
+ So yeah, I like it.
+
+242
+00:07:26,940 --> 00:07:27,780
+ - Well, cool.
+
+243
+00:07:27,780 --> 00:07:28,600
+ The third one gets a little harder.
+
+244
+00:07:28,600 --> 00:07:29,440
+ (laughing)
+
+245
+00:07:29,440 --> 00:07:30,460
+ The third one gets a little harder.
+
+246
+00:07:30,460 --> 00:07:31,280
+ Hi, Matt.
+
+247
+00:07:31,280 --> 00:07:32,120
+ - Hi there, I'm Matt.
+
+248
+00:07:32,120 --> 00:07:33,900
+ I'm an archivist working for a museum in London
+
+249
+00:07:33,900 --> 00:07:35,460
+ and I've reached a capstone
+
+250
+00:07:35,460 --> 00:07:36,940
+ of the Python for Everyone course.
+
+251
+00:07:36,940 --> 00:07:40,780
+ It's the most useful thing I've done in quite a few years.
+
+252
+00:07:40,780 --> 00:07:42,900
+ I work a lot with museum collection data
+
+253
+00:07:42,900 --> 00:07:44,020
+ and archive collection data.
+
+254
+00:07:44,020 --> 00:07:45,820
+ And I'm now, after knowing nothing
+
+255
+00:07:45,820 --> 00:07:47,020
+ about coding two months ago,
+
+256
+00:07:47,020 --> 00:07:49,500
+ writing programs that can tear apart
+
+257
+00:07:49,500 --> 00:07:51,700
+ my museum's entire catalog database
+
+258
+00:07:51,700 --> 00:07:53,380
+ and do really useful things
+
+259
+00:07:53,380 --> 00:07:55,380
+ that we've wanted to do for a long time
+
+260
+00:07:55,380 --> 00:07:56,660
+ and do them in seconds.
+
+261
+00:07:56,660 --> 00:07:58,980
+ So looking forward to building on what I've learned.
+
+262
+00:07:58,980 --> 00:08:00,020
+ Thanks ever so much.
+
+263
+00:08:00,020 --> 00:08:02,140
+ - You do know that I work at a place
+
+264
+00:08:02,140 --> 00:08:03,980
+ that has a master's degree in archiving
+
+265
+00:08:03,980 --> 00:08:05,340
+ that does technology, you know.
+
+266
+00:08:05,340 --> 00:08:06,580
+ - I did not know that.
+
+267
+00:08:06,580 --> 00:08:07,400
+ - You didn't know that?
+
+268
+00:08:07,400 --> 00:08:08,240
+ - No.
+
+269
+00:08:08,240 --> 00:08:09,220
+ - No, I work at a school of information.
+
+270
+00:08:09,220 --> 00:08:10,060
+ - Ah.
+
+271
+00:08:10,060 --> 00:08:13,020
+ - It does library science, archiving, nerdy stuff.
+
+272
+00:08:13,020 --> 00:08:15,100
+ - Oh, I better get myself a US visa then, haven't I?
+
+273
+00:08:15,100 --> 00:08:15,940
+ - Yeah.
+
+274
+00:08:15,940 --> 00:08:16,760
+ (laughing)
+
+275
+00:08:16,760 --> 00:08:17,600
+ - Better hurry.
+
+276
+00:08:17,600 --> 00:08:18,740
+ (laughing)
+
+277
+00:08:18,740 --> 00:08:19,660
+ - Yeah.
+
+278
+00:08:19,660 --> 00:08:20,500
+ - Hi.
+
+279
+00:08:20,500 --> 00:08:21,340
+ - Hi, my name's Pete.
+
+280
+00:08:21,340 --> 00:08:22,500
+ So I work in the local government in IT
+
+281
+00:08:22,500 --> 00:08:24,900
+ and I help out in a coded dojo at weekends.
+
+282
+00:08:24,900 --> 00:08:27,260
+ But I don't like Python, so I need to do the course.
+
+283
+00:08:27,260 --> 00:08:28,740
+ - Cool, welcome.
+
+284
+00:08:28,740 --> 00:08:29,820
+ - Hi, my name's Luke.
+
+285
+00:08:29,820 --> 00:08:31,980
+ I'm doing the third Python course
+
+286
+00:08:31,980 --> 00:08:33,100
+ and I'm enjoying it very much.
+
+287
+00:08:33,100 --> 00:08:34,660
+ - Great.
+
+288
+00:08:34,660 --> 00:08:35,580
+ - Hi, my name is Roger.
+
+289
+00:08:35,580 --> 00:08:37,940
+ I'm doing the history of the internet.
+
+290
+00:08:37,940 --> 00:08:38,780
+ We are basically part.
+
+291
+00:08:38,780 --> 00:08:40,100
+ So that's where everything starts.
+
+292
+00:08:40,100 --> 00:08:42,340
+ From there to what we do with these ones now.
+
+293
+00:08:42,340 --> 00:08:43,180
+ - Thank you so much.
+
+294
+00:08:43,180 --> 00:08:44,260
+ - Thank you.
+
+295
+00:08:44,260 --> 00:08:46,300
+ Okay, well there we go.
+
+296
+00:08:46,300 --> 00:08:49,140
+ That's our office hours.
+
+297
+00:08:49,140 --> 00:08:51,300
+ We'll do a big scan of everybody
+
+298
+00:08:51,300 --> 00:08:54,500
+ and let's have one more round of applause for Stephen
+
+299
+00:08:54,500 --> 00:08:56,100
+ and how awesome Stephen is.
+
+300
+00:08:56,100 --> 00:08:59,260
+ (audience applauding)
+

@@ -1,0 +1,164 @@
+1
+00:00:00,000 --> 00:00:05,740
+ Hello everybody, we are here in Cape Town, South Africa with yet another wonderful office
+
+2
+00:00:05,740 --> 00:00:12,460
+ hours just down the hill from UCT, University of Cape Town and as usual I'd like to introduce
+
+3
+00:00:12,460 --> 00:00:17,780
+ you to your fellow students, let them say hi and a little message, whatever. So here
+
+4
+00:00:17,780 --> 00:00:18,780
+ we go.
+
+5
+00:00:18,780 --> 00:00:19,780
+ So, yeah, you'll be first.
+
+6
+00:00:19,780 --> 00:00:24,780
+ Hi, I'm Christy, I'm doing a PhD in bioinformatics and the course is really helpful to me.
+
+7
+00:00:24,780 --> 00:00:25,780
+ Thanks.
+
+8
+00:00:25,780 --> 00:00:32,140
+ Hi, my name is Kabongo, I did this course last year, now I'm doing machine learning.
+
+9
+00:00:32,140 --> 00:00:34,420
+ Machine learning, great.
+
+10
+00:00:34,420 --> 00:00:41,340
+ I am Rian and I did the course last year, it's my first programming and I can't stop.
+
+11
+00:00:41,340 --> 00:00:42,340
+ Great, great.
+
+12
+00:00:42,340 --> 00:00:48,060
+ Hi, it's Jeff here. Yeah, I did most of the Python courses last year and I've just been
+
+13
+00:00:48,060 --> 00:00:53,620
+ enjoying all the MOOC ideas and yeah, just keep programming and do your thing.
+
+14
+00:00:53,620 --> 00:00:54,620
+ Cool.
+
+15
+00:00:54,620 --> 00:00:59,140
+ Hi, I'm Steven Marquardt from UCT and my email address features in the Python MOOC.
+
+16
+00:00:59,140 --> 00:01:06,180
+ Yeah, yeah, so Steven is famous in the Python MOOC. He's the, in chapter 6 we parse his
+
+17
+00:01:06,180 --> 00:01:14,580
+ email name to find @UCTACZA. So, Steven, famous email address. I'll put something over top
+
+18
+00:01:14,580 --> 00:01:17,620
+ of you that says something about your famous email address.
+
+19
+00:01:17,620 --> 00:01:24,500
+ Hi everyone, I'm Joseph. I did the Internet History course and I found it very helpful.
+
+20
+00:01:24,500 --> 00:01:27,780
+ I'm also doing the Python for everyone.
+
+21
+00:01:27,780 --> 00:01:28,780
+ Great, thanks.
+
+22
+00:01:28,780 --> 00:01:35,820
+ Hello, my name is Darry. I started with the Internet History course. I have a telecom
+
+23
+00:01:35,820 --> 00:01:38,620
+ computer background but now I work as a web developer.
+
+24
+00:01:38,620 --> 00:01:40,020
+ You work as a web developer?
+
+25
+00:01:40,020 --> 00:01:41,020
+ Yeah.
+
+26
+00:01:41,020 --> 00:01:43,020
+ You weren't a web developer before?
+
+27
+00:01:43,020 --> 00:01:46,020
+ No, mixing the two.
+
+28
+00:01:46,020 --> 00:01:48,420
+ Cool, cool.
+
+29
+00:01:48,420 --> 00:01:52,620
+ Hi, my name is Joey and I finally met Dr. Chuck. Thank you for the course.
+
+30
+00:01:52,620 --> 00:01:53,620
+ And I finally met Joey.
+
+31
+00:01:53,620 --> 00:01:54,620
+ Cool.
+
+32
+00:01:54,620 --> 00:01:56,620
+ And had to come all the way to South Africa to meet Joey.
+
+33
+00:01:56,620 --> 00:01:57,620
+ Cool.
+
+34
+00:01:57,620 --> 00:02:02,620
+ Hi, I'm John and I'm an engineer and I use the Python I learnt every day at work.
+
+35
+00:02:02,620 --> 00:02:03,620
+ Cool.
+
+36
+00:02:03,620 --> 00:02:08,620
+ Hi, I'm Kat and I'm also an engineer and I really enjoyed all of Dr. Chuck's courses
+
+37
+00:02:08,620 --> 00:02:11,620
+ and I hope that there are going to be a few more coming out in the future.
+
+38
+00:02:11,620 --> 00:02:16,620
+ Yes, indeed. Okay, so could you point it back at me again?
+
+39
+00:02:16,620 --> 00:02:21,320
+ Okay, so there you have it. Yet another successful office hours. It was really, we had a great
+
+40
+00:02:21,320 --> 00:02:26,520
+ time. We almost got kicked out of the coffee shop but we didn't. I think the next office
+
+41
+00:02:26,520 --> 00:02:31,020
+ hours might be in Denver. So if you see this, maybe we'll see you in Denver. Cheers.
+

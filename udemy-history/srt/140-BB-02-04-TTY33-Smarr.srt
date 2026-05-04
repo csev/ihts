@@ -1,0 +1,148 @@
+1
+00:00:00,000 --> 00:00:05,180
+ By the end of the 1970s, there was quite a sophisticated network. Like I said, they'd
+
+2
+00:00:05,180 --> 00:00:10,340
+ rewritten it four times. It had gotten to be very sophisticated. There'd been good investment.
+
+3
+00:00:10,340 --> 00:00:15,600
+ They had been careful about understanding how to improve it each time they rebuilt it.
+
+4
+00:00:15,600 --> 00:00:21,040
+ And so it was a really fine working piece of software. And the people who used it at
+
+5
+00:00:21,040 --> 00:00:29,340
+ these research universities and at the military, it was kind of like a futuristic world, right?
+
+6
+00:00:29,340 --> 00:00:33,780
+ You could send email and a second later it would appear, right? It was really quick and
+
+7
+00:00:33,780 --> 00:00:37,420
+ everything was nice. And you could even have instant message-like interactions where it
+
+8
+00:00:37,420 --> 00:00:43,460
+ went right then. And the problem was, is this was a small group of people. This is maybe
+
+9
+00:00:43,460 --> 00:00:49,020
+ looks like 60 or so. That was all the computers on the entire Internet, right? I mean, now
+
+10
+00:00:49,020 --> 00:00:56,340
+ we have our cell phones and we have billions of them, right? But this is like 60. And so
+
+11
+00:00:56,340 --> 00:01:03,120
+ a real question is, how did this go from 60 computers of a very narrow group to a much
+
+12
+00:01:03,120 --> 00:01:13,500
+ larger group? And the answer to that question is at Urbana-Champaign, Illinois. And so at
+
+13
+00:01:13,500 --> 00:01:17,820
+ the same time that it kind of goes back to Bletchley Park, right? Where the computers
+
+14
+00:01:17,820 --> 00:01:25,060
+ were part of science. Throughout the 50s and 60s and 70s, scientists, much like the military,
+
+15
+00:01:25,060 --> 00:01:29,820
+ were realizing computers were mighty useful to advance scientific research. And so the
+
+16
+00:01:29,820 --> 00:01:34,620
+ National Science Foundation would fund universities to buy computers. And they'd say, "Give me
+
+17
+00:01:34,620 --> 00:01:38,260
+ $10 million to buy a computer." And another university would be like, "Give me $10 million
+
+18
+00:01:38,260 --> 00:01:42,060
+ to buy a computer." And then three years later the first university said, "My computer's
+
+19
+00:01:42,060 --> 00:01:46,460
+ obsolete. I need another $10 million." Now the research questions were good research
+
+20
+00:01:46,460 --> 00:01:51,240
+ questions and they were important to society, but the National Science Foundation got tired
+
+21
+00:01:51,240 --> 00:01:58,100
+ of giving $10 million to everybody. Wait, hang on a second. As a matter of fact, I was
+
+22
+00:01:58,100 --> 00:02:06,540
+ part of this because I used to be a high-performance computer guy. This is a convex C3800 supercomputer.
+
+23
+00:02:06,540 --> 00:02:11,100
+ I would be about this tall on this supercomputer. This is a lovely and very expensive model
+
+24
+00:02:11,100 --> 00:02:15,940
+ that I was given afterwards. They were going to throw it away because this is from like
+
+25
+00:02:15,940 --> 00:02:23,380
+ 1987. And basically I wanted one of these terribly badly. Each one of these is about
+
+26
+00:02:23,380 --> 00:02:29,580
+ $2 million. This is like two, four, six, eight, $10 million. And I so badly wanted this and
+
+27
+00:02:29,580 --> 00:02:35,700
+ I thought that I deserved a $10 million toy and I could do such great research. But unfortunately
+
+28
+00:02:35,700 --> 00:02:41,340
+ everybody else wanted the exact same thing. And they were important too. So the National
+
+29
+00:02:41,340 --> 00:02:46,740
+ Science Foundation said to themselves, "Hey, this isn't going to work very well if I can't
+
+30
+00:02:46,740 --> 00:02:52,860
+ find my pen. You know, we're going to make a network. How about we put a few of these
+
+31
+00:02:52,860 --> 00:02:58,300
+ things in and then make a network and connect them together?" Of course it's never as simple
+
+32
+00:02:58,300 --> 00:03:05,620
+ as that. So now we're going to meet Larry Smarr at the National Center for Supercomputing
+
+33
+00:03:05,620 --> 00:03:12,820
+ Applications, NCSA, at the University of Illinois Urbana-Champaign. And Larry was the director
+
+34
+00:03:12,820 --> 00:03:19,180
+ of NCSA and one of the many people, but one of the most instrumental people in creating
+
+35
+00:03:19,180 --> 00:03:23,780
+ the national network that we now think of as the internet and getting it, moving it
+
+36
+00:03:23,780 --> 00:03:32,460
+ from being a research project to being a project that we all, both academics and regular people,
+
+37
+00:03:32,460 --> 00:03:38,300
+ we all can can make really good use of it. So let's take a look at Larry Smarr.
+

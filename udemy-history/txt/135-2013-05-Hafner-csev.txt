@@ -1,0 +1,133 @@
+ There was this whole world of coders and hardware guys in the '60s, and I thought to myself,
+ I bet there's a really interesting story here.
+ So my editor at Simon & Schuster was totally 100% behind it.
+ The working title was really bad.
+ It was called Building Cyberspace, so we knew we needed a new title.
+ And Matt, my late husband, didn't come in on the project.
+ He was actually a better writer than I am and a wonderful, just had an absolutely incredible
+ mind and could grasp anything.
+ And he didn't come in on the project until about maybe a year into it.
+ When I was getting overwhelmed, I had this new baby, and I was working at Newsweek, and
+ I realized that there was just more to the story than I could do myself, it would have
+ taken me like double the time.
+ So that's when he came in on the project, and I found, indeed, that there was this incredible
+ untold story of not so much the Internet, so we have to keep it really clear, the ARPANET
+ and how that started, and in fact, Matt's the one who wrote the chapter, The Fastest
+ Million Dollars, which is about how it got funded at IPTO, the Information Processing
+ Techniques Office at what was then DARPA and then became ARPANET, DARPA and then ARPA again.
+ These people were all, as I had hoped, incredibly interesting, really smart, and had this new
+ idea for how computers could talk to each other.
+ One of the most amazing things was visiting Larry Roberts, who was running IPTO at the
+ time that this whole thing was drawn out.
+ We were at his house in Woodside, and we went out into the garage.
+ This is how un-researched this topic was, because, you know, who'd have thunk, right?
+ And we go out into his garage, and there are all these boxes of old, mildewy papers, and
+ he starts pulling them out, and there are old letters between him and people at MIT,
+ and then he pulls out this amazing set of sketches of him.
+ It's like, remember when Trudeau Doonesbury did Inside Reagan's Brain?
+ This was like inside Larry Roberts' brain.
+ He was just sketching out all the possible configurations of what this network could
+ look like.
+ I've got these pictures in the book, which you can show, but here, you know, these are
+ all his very early diagrams, just sort of popping out of his head.
+ This is the early notes on the ARPANET, and I just loved finding all this incredible primary
+ source material, and I felt like I should have been paying somebody to be able to do
+ this rather than…
+ Right, because it's just in a garage that millions of people drive by, right, and it's
+ all of a sudden this important artifact of what we're living right now.
+ Right, and we were able to sort of, you know, capture it, and Bolt, Baranek, and Newman
+ was a big force behind the book.
+ The book was in part their idea, and so these guys, because what we tend to forget is that
+ at BBN, they built the first imp and the interface message processor.
+ In fact, there's a very funny story in the book where Ted Kennedy, you know, Senator
+ from Massachusetts, sends a letter to BBN congratulating them on getting the contract
+ for the interfaith message processor.
+ I know.
+ So, a completely uncharted territory, and they had to build this piece of hardware,
+ which they did, and program it, which they did a whole new thing, and it was…
+ So I spent a lot of time with the folks at BBN, got to know them well, and that group,
+ they were completely on school in talking to, you know, reporters or a book researcher,
+ and there was this one guy, Ray Tomlinson, everybody said, "Oh, you should go talk
+ to Ray because he came up with the @ sign."
+ I said, "Oh, really?
+ Okay," and so, you know, there's this wonderful, really quiet guy, Ray Tomlinson,
+ sitting in his office, and I knocked on his door, I said, "I understand you came up
+ with the @ sign."
+ He goes, "Oh, yeah, yeah," and then he explains to me, you know, how it is that he
+ did this, and then, you know, and now it's a huge legend that Ray Tomlinson did this,
+ and the software guys, really…
+ So, I have this image of you sort of just driving and driving and going and going back
+ and forth.
+ I mean, how long was the research?
+ How long did you research this?
+ Was this like…
+ I think, yeah, the research took a couple of years, and it wasn't so much driving.
+ The hacker book was like driving all over, all over the place, because that was three
+ different stories of three different hackers.
+ This was more, in fact, email between the hacker book and this book and Wizards, so
+ 1988, and like when I started this book, 1993, email had come, it was much more popular,
+ so there were a lot of…we did a lot of emailing back and forth.
+ I spent a lot of time…I did go from…I was living in Austin at the time.
+ I did go from Austin to Boston a lot, and I spent a lot of time, actually, I did fly
+ to L.A. and spent a lot of time with John Postel, who came up with the domain name system,
+ and he died in '90…I want to say '98, '99, and that was shocking.
+ I spent a lot of time with him.
+ Tell me about…tell me about John.
+ Well, John…so anyone who's ever seen a picture of John, maybe you have one you can
+ dig up, this very long, kind of Santa Claus-like beard, and what's amazing is I spent a lot
+ of time at his house.
+ He lived in a teeny, tiny little house in the L.A. area with his girlfriend, this very
+ nice woman named Susan, and on the refrigerator, there were all these family photos, and they
+ all…they were all like these people with long beards, long white beards, what an interesting
+ family, and he drove, I think, this kind of beat-up Volvo or something like that, something
+ completely unpretentious, and lived so unpretentiously, and had all his files right in his study in
+ this little house, all this history, and also at ISI, where he worked in Marina del Rey,
+ and we spent hours and hours and hours together, first in Boston, where we were both at an
+ anniversary party of the ARPANET, and we spent a lot of time together, and I thought, you
+ know, this guy is key, and he was so quiet that sort of getting him to open up really
+ meant spending a lot of time with him, and he was…oh, and we met at one of the very
+ first INAC conferences in 1995 in Hawaii and spent a lot of time there, and he just was
+ so patiently trying to explain to me things, but I'll never forget this one thing that
+ happened with him in Hawaii at the INAC conference, it's the Internet Society Conference, one
+ of the very early ones, and I just was asking him some questions, and he goes…he looked
+ completely disturbed and distracted, and he said, "No, no, there's someone over across
+ the room I have to talk to," and it was someone from a very small country, sort of
+ wanting to talk to John about their domain, the country's domain name, or something,
+ but to John, it was far more important that he deal with this person's problem than cement
+ his place in history, in this ARPANET history.
+ In fact, when I was working on the book, I sent him an email, I'll never forget this,
+ I think I don't have the email anymore, and I said, "Just out of curiosity, why haven't
+ you ever wanted to get rich," because that's when people were starting to get rich, so
+ this was in '95, and he said, "It's just not what this is about," isn't that a wonderful
+ thing?
+ It is.
+ Yeah, and that's who John was.
+ One of the things that I've been curious about is how this got by AT&T, how this made
+ it past AT&T.
+ I know, talk about No Vision, well, Paul Barron, he couldn't convince AT&T to build the very
+ marvelous network that he designed, and then these other guys, the next guys, the next
+ crew that came in, and they were very, very, think about it back then, they had a monopoly,
+ what did they really care?
+ They had the Bell Research Labs, and it was a not-invented-here kind of syndrome, and
+ they didn't see it, I mean, talk about No Vision, they simply didn't see it, but I think
+ the fact, the not-invented-here part of it was like, "What would we possibly need this
+ for?"
+ They were in a context.
+ They were in their own context, yeah, but thank goodness, I mean, thank goodness they
+ didn't get their hands on this thing, the same with IBM, sorry, you know, just, we didn't
+ want corporate America, or DEC for that matter, the original hardware was based on a Honeywell
+ machine, and thank goodness Honeywell doesn't exist anymore.
+ It sounds terrible that I'm saying this, but it's, but it was all kind of happy, accidental
+ sort of coincidences.
+ I think Al Gore is- Oh, totally underestimated and underappreciated, is that what you were
+ going to say?
+ Yeah.
+ Oh, yeah.
+ I mean, why mock him?
+ Every time, every time I tell people I wrote a history of the origins of the internet,
+ people say very mockingly, "Oh, did Al Gore invent it?"
+ And I won't play into that.
+ He played a huge role in terms of policy and direction.
+ And when Clinton was running for president, you know, they were out there with this very
+ important technology white paper that, I mean, you can't do things like this unless you have
+ the support that people like Al Gore provided.

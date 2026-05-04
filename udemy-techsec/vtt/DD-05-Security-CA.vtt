@@ -1,0 +1,539 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:06.960
+ So now we have a way to ensure the confidentiality using secure socket layer and public-private key
+
+00:00:06.960 --> 00:00:13.920
+ encryption. And the only question now remaining is who are we talking to? And are we talking to that
+
+00:00:13.920 --> 00:00:19.120
+ server that we think we're talking to? Are we really talking to Amazon? Are we really talking
+
+00:00:19.120 --> 00:00:24.880
+ to Coursera? How do we know? Now, you'll notice if you take a look at the top of your browser,
+
+00:00:24.880 --> 00:00:28.800
+ perhaps right now even, you can take a look at the top of your browser and usually when it's
+
+00:00:28.800 --> 00:00:33.600
+ indicating that you have a secure connection, you can click on this and see some information.
+
+00:00:33.600 --> 00:00:42.480
+ It's called the certificate information. Okay. And so HTTPS has the notion of a public key.
+
+00:00:42.480 --> 00:00:47.280
+ We retrieve the public key when we make the connection. But there are two kinds of keys.
+
+00:00:47.280 --> 00:00:52.960
+ There are public keys that are just made up that are sent to us. And then there are public keys
+
+00:00:52.960 --> 00:00:59.600
+ that are signed and validated by a third party certification authority. So this is a Coursera
+
+00:00:59.600 --> 00:01:04.800
+ and it is certified by GoDaddy certification authority. So it's not just that we're getting
+
+00:01:04.800 --> 00:01:10.800
+ the certificate from Coursera. We're actually getting the certificate signed by GoDaddy.
+
+00:01:10.800 --> 00:01:19.600
+ The GoDaddy has checked the ID of Coursera, said, okay, you must be the CEO of Coursera or I'm not
+
+00:01:19.600 --> 00:01:26.880
+ going to give you this signed private key. So it's a process to get private keys signed and it's a way
+
+00:01:26.880 --> 00:01:33.600
+ to make sure you're talking to who you think you're talking to. So this is called digital
+
+00:01:33.600 --> 00:01:40.880
+ certificates, also known as sort of signed private keys. Now, if we go back and we talk about the
+
+00:01:40.880 --> 00:01:46.640
+ integrity, right, we want to know who we're talking about. And so we had this notion of a signature.
+
+00:01:46.640 --> 00:01:51.200
+ A signature is a way that you know that you're talking to who you're talking to. So for example,
+
+00:01:51.200 --> 00:01:59.120
+ like if a guy comes to your office and says, hi, I'm Dr. Chuck, got like a beard and some
+
+00:01:59.120 --> 00:02:04.400
+ white hair, you can say, hey, if you're really Dr. Chuck, show me your tattoo. And now you will know
+
+00:02:04.400 --> 00:02:11.920
+ that very few people will also look like this and have this tattoo, right? So this is my private key
+
+00:02:11.920 --> 00:02:17.840
+ and this is my signature of my private key. This is like my message digest. So people won't have
+
+00:02:17.840 --> 00:02:23.520
+ this tattoo if they claim to be Dr. Chuck. So this is Dr. Chuck, this is my message digest.
+
+00:02:23.520 --> 00:02:29.600
+ So there's a difference between a private key and a private key that's been certified
+
+00:02:29.600 --> 00:02:36.000
+ by one of these designated third parties. These designated third parties are called certificate
+
+00:02:36.000 --> 00:02:42.480
+ authorities. Now you could say, I'm a certificate authority. Well, some certificate authorities are
+
+00:02:42.480 --> 00:02:47.760
+ more better certificate authorities than others, okay? So they're a trusted third party.
+
+00:02:47.760 --> 00:02:55.280
+ And so how did they start? Well, some are more trusted than others and the more we trust them,
+
+00:02:55.280 --> 00:03:02.000
+ they kind of all work out. So it's not everybody, you can't become a trusted authority. So one of
+
+00:03:02.000 --> 00:03:06.560
+ the many trusted authorities and one of the oldest ones and one of the more popular ones and one of
+
+00:03:06.560 --> 00:03:11.600
+ the more expensive ones, it's pretty expensive to get your certificate signed. It can be as
+
+00:03:11.600 --> 00:03:16.720
+ inexpensive as a couple hundred dollars. It can be thousands of dollars to get a certificate signed.
+
+00:03:16.720 --> 00:03:23.360
+ And VeriSign is one of the oldest and most well-respected of these certificate authorities.
+
+00:03:23.360 --> 00:03:31.040
+ So the idea is that I have this website called online.drchuck.com where I teach Python classes
+
+00:03:31.040 --> 00:03:35.040
+ and do various other things. And I wanted to secure a certificate because I would be handling
+
+00:03:35.040 --> 00:03:42.640
+ people's data and I wanted to be respectable and have a secure certificate. So I had a public in a
+
+00:03:42.640 --> 00:03:47.360
+ private key and then I sent it to a certificate authority. I paid them money and then they sent
+
+00:03:47.360 --> 00:03:54.400
+ me back a signed private key, okay? So this is a, now you might say, oh, this is kind of evil or
+
+00:03:54.400 --> 00:03:59.280
+ this is really expensive because all they really are doing is like changing a few bits in my private
+
+00:03:59.280 --> 00:04:04.160
+ key or adding a few bits to my private key. But they have a lot of responsibility and the good
+
+00:04:04.160 --> 00:04:10.080
+ ones have a lot of credibility so they don't want to lose information. They got to spend some time
+
+00:04:10.080 --> 00:04:16.000
+ validating identity saying, okay, are you really the owner of drchuck.com? They're not going to
+
+00:04:16.000 --> 00:04:22.080
+ hand a certificate, a signed certificate for drchuck.com to anybody except the true owner.
+
+00:04:22.080 --> 00:04:26.800
+ And so they spend some time checking to make sure that it's the true owner. And they do this by
+
+00:04:26.800 --> 00:04:31.360
+ looking at the registration data and drchuck.com, et cetera, et cetera, et cetera. And so there is
+
+00:04:31.360 --> 00:04:39.360
+ a cost of verifying all this identity, kind of like the signature track on Coursera. And that's
+
+00:04:39.360 --> 00:04:42.880
+ kind of what's going on in the signature track of the Coursera. There's a difference between a
+
+00:04:42.880 --> 00:04:49.200
+ certificate and a certificate that Coursera is going to assert that we have verified the identity
+
+00:04:49.200 --> 00:04:53.600
+ and the cost is in the verification of the identity. So certificate authorities are
+
+00:04:54.400 --> 00:05:00.880
+ charging Amazon, but then ensuring that they don't mistakenly give the amazon.com certificate
+
+00:05:00.880 --> 00:05:06.720
+ to a random bad guy. Because if they did, that bad guy could pretend to be amazon.com.
+
+00:05:06.720 --> 00:05:14.240
+ So then you might ask, who decides which of these certificate authorities to trust? We use the
+
+00:05:14.240 --> 00:05:20.720
+ certificate authorities to decide whether or not to trust amazon.com or corsera.org or drchuck.com
+
+00:05:20.720 --> 00:05:27.440
+ or whatever. How do we decide which of the certificate authorities we're going to trust?
+
+00:05:27.440 --> 00:05:33.040
+ Well, it turns out that apple, microsoft and linux and other operating system vendors
+
+00:05:33.040 --> 00:05:39.120
+ pre-install at the moment that you're either purchasing your computer or installing your
+
+00:05:39.120 --> 00:05:46.320
+ operating system. Part of that operating system is actually a list of the public keys of the
+
+00:05:46.320 --> 00:05:51.520
+ chosen certificate authority. So if you look deep enough inside your computer, this is my mac,
+
+00:05:51.520 --> 00:05:58.560
+ you can see the companies that have been included by apple as the manufacturer of the operating
+
+00:05:58.560 --> 00:06:04.480
+ system. And so you see that verisign is one of those companies that has been pre-included
+
+00:06:04.480 --> 00:06:12.640
+ in apple macintosh, which means that a certificate from verisign is going to be known, right? So
+
+00:06:12.640 --> 00:06:18.080
+ let's look a little bit more. So these come, your browsers and your operating systems come with
+
+00:06:18.080 --> 00:06:26.000
+ pre-built-in public key certificates for certain certificate authorities like verisign.
+
+00:06:26.000 --> 00:06:31.360
+ Now that's a lot of trust that apple, microsoft and linux have placed in verisign. And that's
+
+00:06:31.360 --> 00:06:36.640
+ because over the years verisign has earned that trust that says verisign doesn't just get out
+
+00:06:36.640 --> 00:06:42.320
+ certificates without checking, right? If verisign gave out an amazon.com certificate to somebody
+
+00:06:42.320 --> 00:06:46.640
+ without checking, they would lose a lot of credibility. And then microsoft would like
+
+00:06:46.640 --> 00:06:51.360
+ take them out, right? Say, well, verisign seems to be kind of sleazy. They seem not to be able to
+
+00:06:51.360 --> 00:06:56.160
+ to handle their security, but you know, they have. And so they remain in there. And so we,
+
+00:06:56.160 --> 00:07:00.480
+ it's kind of an interesting thing where they are motivated to keep their security high.
+
+00:07:00.480 --> 00:07:05.760
+ They're motivated to do a good job because the moment that they sort of fail, they lose a lot of
+
+00:07:05.760 --> 00:07:11.360
+ credibility and respect and their value of verisign brand and is all of the respect that we have for
+
+00:07:11.360 --> 00:07:21.840
+ verisign. So, so. So we mentioned public private key encryption. We have the public key that goes
+
+00:07:21.840 --> 00:07:26.800
+ across and I'm about to type my credit card in. And so the problem now that we're going to solve
+
+00:07:26.800 --> 00:07:33.760
+ is on, is this really amazon's key? Is it really amazon's public key? I mean, I got a public key
+
+00:07:33.760 --> 00:07:40.320
+ from across this connection I made to a server and it claims that it's amazon.com, but do I believe
+
+00:07:40.320 --> 00:07:45.280
+ that it says it's amazon.com? And so that's the integrity thing. That's the security. That's the,
+
+00:07:45.280 --> 00:07:52.640
+ do I believe it? Is it really got the verisign tattoo in addition to the amazon.com? It represents
+
+00:07:52.640 --> 00:08:00.080
+ that it's amazon.com's public key. So we can also use public keys to do signing and, and basically
+
+00:08:00.080 --> 00:08:05.760
+ verisign has a public and private key for verisign. The public key for verisign is sitting in your
+
+00:08:05.760 --> 00:08:11.600
+ browser right now and they use, they do an encryption much like the message digest. They
+
+00:08:11.600 --> 00:08:18.240
+ do an encryption of amazon's certificate and then sort of create a digest and then add that digest
+
+00:08:18.240 --> 00:08:24.880
+ to it. So a certificate says I'm amazon.com and later it says, oh yes, and verisign signed this
+
+00:08:24.880 --> 00:08:31.520
+ with verisign's private key. Okay. So verisign's private key is used to sign amazon. This is
+
+00:08:31.520 --> 00:08:37.200
+ probably easiest if I just show you sort of a video. Wait, I'm going the wrong way. Am I
+
+00:08:37.200 --> 00:08:43.280
+ going the wrong way? What's going on here? Come on, I'm going the wrong way. Yeah, I'm going the
+
+00:08:43.280 --> 00:08:52.160
+ wrong way. Okay. So here we go. Going backwards. So here's how it works. This is how amazon gets a
+
+00:08:52.160 --> 00:08:59.920
+ public key signed by verisign, right? So in the beginning, verisign makes a public and a private
+
+00:08:59.920 --> 00:09:06.800
+ key somewhere in a bunker and they store the private key and they'll, you can sometimes read
+
+00:09:06.800 --> 00:09:13.680
+ up on how many, how much effort they go to storing the private key and then they hand the public key
+
+00:09:13.680 --> 00:09:23.680
+ to apple, microsoft and linux and then they bundle that in with your laptop. So your laptop that you
+
+00:09:23.680 --> 00:09:31.280
+ buy, you walk out and you have a laptop and it's got public keys in it from the vendor. Now amazon
+
+00:09:31.280 --> 00:09:36.080
+ says, you know what? I'd like to do some commerce and I would like to be able to
+
+00:09:36.080 --> 00:09:43.520
+ use SSL and, and have a certified private key. So then what amazon does
+
+00:09:43.520 --> 00:09:51.120
+ is amazon inside of its servers generates a pair, a public private key pair.
+
+00:09:51.920 --> 00:09:58.000
+ So this private key is not leaving amazon servers. It's, it takes a while. It takes minutes sometimes
+
+00:09:58.000 --> 00:10:04.640
+ generate the right random, sufficiently random public and private key by looking at all the
+
+00:10:04.640 --> 00:10:08.880
+ large prime numbers and then picking one and then bang, making a public and private key.
+
+00:10:08.880 --> 00:10:16.640
+ Then what amazon does at that point is it transports its public key to verison. Now during
+
+00:10:16.640 --> 00:10:22.080
+ that transport, it might, eve might have seen it, but it's okay because it's just, it's just a public
+
+00:10:22.080 --> 00:10:27.760
+ key, right? So it's just the public key and so it actually can be sent across the internet and it's
+
+00:10:27.760 --> 00:10:33.040
+ most commonly sent across the internet. Like when I got the online.drchuck.com certificates,
+
+00:10:33.040 --> 00:10:38.160
+ we just typed it in and sent it because if you get a hold of the public key, all it means is
+
+00:10:38.160 --> 00:10:45.360
+ you can encrypt. It doesn't mean you can decrypt. So then what happens is inside of verizon's servers
+
+00:10:46.640 --> 00:10:53.440
+ verizon computes a message digest using its public, its private key, right? And then it
+
+00:10:53.440 --> 00:11:01.680
+ adds basically a signature that says, oh, here's amazon's public key that I received from amazon,
+
+00:11:01.680 --> 00:11:08.400
+ verified the identity of the person, and now I have signed it. Mr verison, I've signed it.
+
+00:11:08.400 --> 00:11:15.440
+ And that of course is just like message digest, like information that is appended to the bits of
+
+00:11:15.440 --> 00:11:20.960
+ the public key. Then that public key with signature is sent back
+
+00:11:20.960 --> 00:11:29.360
+ bundled together and sent back to amazon. And now amazon has not just any old public key.
+
+00:11:29.360 --> 00:11:36.800
+ It has a public key that says, I am amazon.com and verizon is now asserting that I am really who I am.
+
+00:11:38.640 --> 00:11:49.440
+ And again, so eve saw that one. Who cares? It's just a public key. There's nothing about the
+
+00:11:49.440 --> 00:11:54.560
+ verizon private key. It never left the verizon servers. The signature is public information.
+
+00:11:54.560 --> 00:12:01.120
+ You can use the verizon public key to verify that the signature is right, but you can't forge the
+
+00:12:01.120 --> 00:12:07.280
+ signature. So eve can look at that. Eve could look going this way. Eve can look that way. Eve gets
+
+00:12:07.280 --> 00:12:17.520
+ nothing. Eve gets nothing. So amazon now has a signed and certified private key. Then what happens
+
+00:12:17.520 --> 00:12:27.360
+ is sooner or later, many hours, many days, many months later, you decide on your laptop,
+
+00:12:27.360 --> 00:12:37.360
+ remember this is you, oops, this is you. You want to buy some shoes. So you connect amazon.com with
+
+00:12:37.360 --> 00:12:47.040
+ your browser, with an HTTPS connection. And then what happens is amazon sends you its public key.
+
+00:12:47.040 --> 00:12:54.720
+ And eve of course is eavesdropping all the time. Eve sees it goes by. It's worthless, right? It's
+
+00:12:54.720 --> 00:12:59.920
+ worthless because it's just the encryption key. It's not the decryption key. The fact that it's
+
+00:12:59.920 --> 00:13:06.240
+ signed, it sees that, but it can't do anything with that information. Now within your laptop,
+
+00:13:06.240 --> 00:13:18.080
+ within your laptop, you have from the vendor, the verizon public key from macintosh or apple or
+
+00:13:18.080 --> 00:13:26.160
+ whatever. So you can look with this public key at that signature. And just like we did with the
+
+00:13:26.160 --> 00:13:32.560
+ message digest before, you can go, yep, that's good. That really had to have been signed by
+
+00:13:32.560 --> 00:13:36.800
+ verizon. And if your computer is really conservative, it can actually go check with
+
+00:13:36.800 --> 00:13:42.160
+ verizon, can send it up and say, hey, did you verify this? And then verizon can verify it too.
+
+00:13:42.160 --> 00:13:46.240
+ But you actually don't need to connect because you have the public key. The only way that the,
+
+00:13:46.240 --> 00:13:51.600
+ the, you know, whatever that message digest could be right would be is if verizon,
+
+00:13:51.600 --> 00:13:56.000
+ it's private key was used to generate the message digest, just like we used to do santa
+
+00:13:56.000 --> 00:14:01.360
+ in the other one. Okay. The Santa is just really simple, but it's the same basic mechanism.
+
+00:14:01.360 --> 00:14:08.160
+ This is verifiable that it came from this private key. Now, if somebody broke in
+
+00:14:08.160 --> 00:14:12.800
+ and stole the private key, that's a different story. But if the private key is safe and secure,
+
+00:14:12.800 --> 00:14:16.720
+ hasn't been compromised, the only way to generate that message digest is to be in
+
+00:14:16.720 --> 00:14:23.360
+ possession of the private key. So now you are in a position where you are in a good mood, right?
+
+00:14:23.360 --> 00:14:29.600
+ You see an HTTPS, you can pop that little thing and say that was signed by verizon.
+
+00:14:29.600 --> 00:14:34.320
+ You can be assured that verizon is asserting that that key came really, that probably key came from
+
+00:14:34.320 --> 00:14:44.720
+ Amazon. And now is time to encrypt your visa card and send it over an encrypted connection to Amazon.
+
+00:14:44.720 --> 00:14:50.320
+ Okay. Because you won't send your encrypted thing. You're, you're, you're, you won't send it
+
+00:14:50.320 --> 00:14:55.040
+ unless you believe that the HTTPS is proper and your browser will pop up a little pop up and say,
+
+00:14:55.040 --> 00:15:00.320
+ wait a sec, this certificate looks a little funky claims to be from amazon.com, but it's not signed
+
+00:15:00.320 --> 00:15:06.320
+ by one of the signatures that I believe in. So you send your data, it is encrypted and Eve is
+
+00:15:06.320 --> 00:15:10.880
+ watching, right? Eve is always watching, but because it's encrypted with a public key,
+
+00:15:10.880 --> 00:15:15.360
+ unless Eve has supercomputers in a couple of months, there's nothing that Eve can do.
+
+00:15:15.360 --> 00:15:21.360
+ And then of course, Amazon decrypts it using the private key. So the private key comes in.
+
+00:15:26.960 --> 00:15:30.640
+ Right? So in it comes Eve watches, but is helpless
+
+00:15:30.640 --> 00:15:36.400
+ because they don't have enough computers. Eve doesn't have enough computers and your key is
+
+00:15:36.400 --> 00:15:42.800
+ large enough. So Amazon then takes its private key and uses that to decrypt it and ends up with your
+
+00:15:42.800 --> 00:15:49.040
+ plain text again. So if you think this whole thing through this, Eve was watching the whole time.
+
+00:15:49.040 --> 00:15:55.360
+ We sent a public key, we signed and returned a public key. Then we sent the public key to
+
+00:15:55.360 --> 00:16:00.800
+ your laptop. We verified the public key and the whole time Eve is sort of watching all this
+
+00:16:00.800 --> 00:16:11.280
+ information and she is powerless to break it. Pretty dang clever if you ask me. And we can thank
+
+00:16:11.280 --> 00:16:19.760
+ Diffie, Hellman and Merkel for that. Pretty darn clever because Eve sees it all. Just think what
+
+00:16:19.760 --> 00:16:26.320
+ would happen if like the Germans had this in World War II. Would have been pretty cool. Of course,
+
+00:16:26.320 --> 00:16:31.600
+ they didn't have computers. So it'd have been difficult. I don't know. Too much to think about
+
+00:16:31.600 --> 00:16:37.280
+ right now. Okay. Continuing on. So what we have is we have this thing called the certificate
+
+00:16:37.280 --> 00:16:45.600
+ authority, which is a trusted third party that signs these certificates. Right? And so it's the,
+
+00:16:45.600 --> 00:16:52.160
+ it's an entity that issues digital signatures on public keys so that we the public have a way
+
+00:16:52.160 --> 00:16:59.040
+ of validating that an amazon.com certificate really came from amazon.com. So if you then add
+
+00:16:59.040 --> 00:17:05.440
+ this all together, right? If you add this all together, we have basic public private key
+
+00:17:05.440 --> 00:17:12.240
+ encryption that makes sure that this data can move across the internet, out of your computer,
+
+00:17:12.800 --> 00:17:17.920
+ out back into the next one, all encrypted. That's just public private that does that.
+
+00:17:17.920 --> 00:17:24.240
+ And then we have this third party certificate authority that your application can use to
+
+00:17:24.240 --> 00:17:31.280
+ validate the certificate that comes out. And so the combination of SSL or the secure sockets layer
+
+00:17:31.280 --> 00:17:37.280
+ and the certificate authority gives us high confidence that when we're talking to something,
+
+00:17:37.280 --> 00:17:43.200
+ we know we're really talking to it. So it's pretty non intrusive security. If your browser pops up
+
+00:17:43.200 --> 00:17:47.520
+ with a little pop up message, that means it's got a certificate that it has no certificate of
+
+00:17:47.520 --> 00:17:52.640
+ authority to validate. And that's not a good time to be typing in sensitive information unless you
+
+00:17:52.640 --> 00:17:59.200
+ know exactly what's going on. So that sort of brings us to the conclusion of this. This,
+
+00:17:59.200 --> 00:18:04.160
+ these last couple of lectures have been about message confidentiality and that is protecting
+
+00:18:04.160 --> 00:18:09.760
+ the contents from being revealed. We use encrypting and decrypting for that. And then we have message
+
+00:18:09.760 --> 00:18:15.680
+ digest and to sign things. We've signed messages, we've signed certificates, we've signed many
+
+00:18:15.680 --> 00:18:21.280
+ things and those are important. And we talked about both sort of shared key and secret key where you
+
+00:18:21.280 --> 00:18:25.600
+ have to get together and agree on a key, which is a symmetric key that's used for encrypting and
+
+00:18:25.600 --> 00:18:30.400
+ decrypting. And then you have the public private key, which is the asymmetric, which is one key is
+
+00:18:30.400 --> 00:18:35.520
+ used for encrypting and the other key is used for decrypting. And you can freely show the encrypting
+
+00:18:35.520 --> 00:18:40.080
+ key because it gives very little information, although it is mathematically possible, but
+
+00:18:40.080 --> 00:18:46.640
+ difficult to decrypt a public private key message. So that kind of sums up, that kind of sums up our
+
+00:18:47.440 --> 00:19:04.320
+ lecture on public private keys and I hope you find it valuable. See you on the net.
+

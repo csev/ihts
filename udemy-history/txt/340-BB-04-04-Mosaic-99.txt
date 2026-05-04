@@ -1,0 +1,212 @@
+ I think you can see that Tim Berners-Lee is a real bright guy with a real strong vision
+ of the future and a real deep commitment to the web and the Internet being an agent of
+ change in the world.
+ And I think that it's going to continue to be that unless proprietary companies can get
+ an upper hand.
+ And so it's really incumbent on all of us to protect the freedom of the Internet.
+ And believe me, there are organizations that think they should run the Internet and the
+ web.
+ They just are.
+ They never have stopped.
+ So we're at the point where the web is all here.
+ It's quite amazing.
+ And before we move on, I want to characterize just a little bit about the people you've
+ met so far and talk about some of the common things that they have between them.
+ And in a way, I've got the book The Wisdom of Crowds here, one of my favorite books.
+ Each one of these people, when you listen to them talk, they would quite often talk
+ about all the other people doing all the other work.
+ And they rarely consider themselves in any way heroes.
+ They rarely consider themselves as the great innovators.
+ They always see themselves as part of a collective curiosity.
+ And there were many things that I haven't told you about that were curious explorations
+ that helped inform it.
+ And this was really research until sort of the late '90s.
+ It was just a question of how to do it.
+ And at some point after the late '90s, it switched to what to do with it.
+ And at that point, we have a whole different group of people that start really entering
+ the world.
+ And one that's one of the earlier ones and has benefited greatly from it is Jeff Bezos.
+ He's the founder of Amazon.com.
+ And if you listen to Jeff, you will hear that he talks very differently.
+ He comes at it from a business perspective.
+ He's not necessarily trying to make the world a worse place.
+ He's trying to make the world a better place.
+ The fact that you can get all these books like The Next Morning, that's kind of cool.
+ So what Amazon does is really wonderful.
+ It's more efficient for society, it's economically beneficial.
+ But he has a profit in mind.
+ He is saying this web exists, browsers exist, protocols exist.
+ How can I take best advantage of it?
+ Richard Wiggins caught up with Jeff in 1997.
+ So just look at how smart this guy was in 1997.
+ Everyone else figured this out much later, but Jeff Bezos is a really, really bright
+ person.
+ Here's Jeff Bezos.
+ Hi there.
+ Who are you?
+ I'm Jeff Bezos.
+ What is your claim to fame?
+ I'm the founder of Amazon.com.
+ Where did you get an idea for Amazon.com?
+ Well, three years ago I was in New York City working for a quantitative hedge fund when
+ it came across the startling statistic that web usage was growing at 2300% a year.
+ So I decided I would try and find a business plan that made sense in the context of that
+ growth.
+ So I picked books as the first best product to sell online for making a list of like 20
+ different products that you might be able to sell.
+ Books were great as the first best because books are incredibly unusual in one respect.
+ That is that there are more items in the book category than there are items in any other
+ category by far.
+ Music is number two.
+ There are about 200,000 active music CDs at any given time.
+ But in the book space, there are more than three million different books worldwide active
+ and in print at any given time across all languages.
+ More than one and a half million in English alone.
+ So when you have that many items you can literally build a store online that couldn't exist any
+ other way.
+ And that's important right now because the web is still an infant technology.
+ Basically right now if you can do things using a more traditional method, you probably should
+ do them using the more traditional method.
+ What kind of inventory do you keep?
+ We inventory the best selling books at any given time.
+ We're inventorying in our own warehouse only a couple of thousand titles.
+ And then we have, we do almost in time inventory for another 400,000 titles or so.
+ We get those from a network of electronic, we order electronically from a network of
+ wholesalers and distributors.
+ We order those today.
+ They're on our loading dock the next morning.
+ Then for another 1.1 million titles we get those directly from 20,000 different publishers
+ and those can take a couple of weeks to get.
+ And then there are a million out of print books in our catalog.
+ We have a catalog of two and a half million books altogether.
+ Those million out of print books, some of them we can get and some of them we can't.
+ But we find them if we can and then we ship them to our customers.
+ We do kind of a search on those.
+ What's almost in time inventory?
+ Almost in time inventory is the phrase we use to describe a whole selection of books
+ that we offer.
+ Particularly the things that are below the 2,000th best selling book up to the 400,000th
+ best selling book.
+ Those are titles that we can get from a network of more than a dozen different wholesalers.
+ So if a customer orders a book from us today, we order that book from our wholesalers today
+ and that book shows up on our loading dock the next morning.
+ And then we can ship it to the customer.
+ They say one of the toughest things to do on the internet is to capture mind share.
+ What was your secret?
+ How did you do that?
+ Well yeah, even more generally, I agree with you that capturing mind share on the internet
+ is extremely difficult.
+ Even more generally, it's the late 20th century, not just the internet.
+ Capturing attention, attention is the scarce commodity of the late 20th century and one
+ of the ways that you can do that and it's the way that we did it was by doing something
+ new and innovative for the first time that actually has real value for the customer.
+ It's a hard thing to do, but if you do do that, then newspapers will write about you,
+ what you're doing.
+ Customers will tell other customers and you'll get a huge word of mouth fan out and that
+ can really drive and accelerate businesses and that's what happened with us.
+ In the first year of opening amazon.com to the public, we didn't do any paid advertising
+ and all of our growth was fueled by word of mouth and media exposure.
+ I saw little ads at the bottom of the column of the New York Times.
+ That was our very first advertising.
+ We don't do that anymore, but at the very beginning, we did little tiny ads at the bottom
+ of the front page of the New York Times.
+ I thought that was very clever.
+ It's sort of using a URL as a macro because I read that it expands.
+ We're a bookstore.
+ Click here.
+ Right.
+ That's a great way to think of it.
+ And it worked very well apparently.
+ I don't know, you know, the problem with that kind of advertising is it's extremely difficult
+ to track.
+ Put a different URL for every...
+ That's the problem is that you want people to start to learn your URL so you don't want
+ to actually use a different one.
+ And it's very easy.
+ One of the great things about online ads, we do advertising today in maybe 40 different
+ websites.
+ We do banner ads.
+ And that advertising is very easy to track in terms of knowing how effective it is.
+ So we know for each piece of creative in each venue, not only how many click throughs we
+ get but how many sell throughs we get, how many dollars of revenue it generates per ad
+ dollar spent on that creative in that venue.
+ And that is sort of a marketer's nirvana in a certain sense.
+ Well it's an exciting place to be on the web right now.
+ Oh, it absolutely is.
+ I mean it's just incredible.
+ What's really incredible about this is that this is day one.
+ This is the very beginning.
+ This is the Kitty Hawk stage of electronic commerce.
+ We're moving forward in so many different areas and lots of different companies are
+ as well.
+ And the late 20th century is just a great time to be alive.
+ We're going to find out that I think a millennia from now people are going to look back and
+ say wow, the late 20th century was really a great time to be alive on this planet.
+ So if you're a stockholder of Amazon, I think you're in good shape because he's a bright
+ fellow and he's always looking for how to really do the right thing and give us products
+ that we really like.
+ Now in this we sort of evolve the modern internet.
+ And much like Jeff, Jeff said that investment was growing at 3,000% a year or something
+ like that.
+ There was this mania in '96, '97, '98 where people just bought and bought and bought and
+ the notion that communications was going to be so valuable led to in a sense an overbuilding
+ of the fiber optic plan.
+ We have a massive amount of fiber optic in the ground right now and our ability to send
+ more data through the existing fibers by just upgrading the equipment at the two ends, that's
+ growing very rapidly as well.
+ And so we're in this really weird world now where a fiber optic between Ann Arbor and
+ Chicago, 180 miles, is not that much more expensive than a piece of copper wire that goes 30 miles
+ in 1960.
+ And so distance is less and less important in the internet.
+ It's why long distance phone calls don't cost any money anymore because long distance and
+ local are not that different because there's so much fiber in the ground.
+ But just one thing I want you to think about and wonder about is will we run out?
+ We're living off of the overbuilding that happened in the late '90s when they put so
+ much in and they've been able to upgrade so effectively.
+ But we might run out and where will the money come from to dig the next set of trenches
+ to put the next round of fiber in, we'll have to see.
+ So if we take a quick look at-- this is a graph of the growth of the servers on the
+ World Wide Web.
+ And if you take a look, we start in 1990 with one web server, December 1990, with Tim Berners-Lee
+ having one web server.
+ And then it sort of doesn't grow.
+ And then you sort of see kind of like this takeoff in the last two years, last late two
+ years of the 1990s, where you go up to about 20 to 30 million from what, I don't know,
+ 1996 is less than a quarter of a million dollars and less than a quarter of a million hosts.
+ You see kind of the crash, the boom, and the crash where it wasn't growing.
+ And then you sort of see another new graph, which is really-- this is when everybody had
+ to be on the internet.
+ Every little store started being on the internet.
+ Every one had to have a web server.
+ This was kind of the big ones coming on.
+ And this was sort of like the flame out of the exuberant growth of the late '90s.
+ And this exuberant growth gets so exuberant that it really changes the stock market in
+ the United States and the rest of the world to the point where, you know, from the early
+ '90s to 2000 was the longest period of expansion.
+ And there's a lot of factors for this.
+ But one of the factors is, as we began to use communication and computation to make
+ commerce more efficient, that triggered a great deal of growth.
+ It also triggered over-speculation, right?
+ And so the kind of-- this part here, the crash, the dot com crash, was a bit of the over-speculation
+ working its way out.
+ Probably if, you know, if they hadn't over-speculated, it would go like this instead.
+ But it can't be like that.
+ You go crazy, crazy, crazy, crazy, crazy, oops, oops, oops, oops, oops.
+ And then we sort of had a crappy economy for a while after that.
+ But again, the web, the internet, and all the technology that I just talked about really
+ put a stamp on the entire world's economy in the 1990s.
+ So I could go on and on and on and on about this stuff.
+ Open source is a big part of this.
+ I will put links up for these videos that I've got.
+ These are three open source luminaries that I've interviewed.
+ Richard Stallman is the Free Software Foundation, the GNU, which is-- much of Unix's utilities
+ are written this way.
+ The compilers are written this way.
+ He is a tremendous advocate for open source software.
+ Also we meet Brian Bellendorf from the Apache Foundation.
+ The Apache Foundation was formed based on the web server that was created at NCSA, became
+ the first web server that was the Apache web server.
+ So that lineage goes all the way back to Joseph Harden and the team at NCSA.
+ And then Rasmus Lierdorf is the inventor of PHP and one of the many very popular web programming
+ languages for building websites.
+ And so I'll put the links up for these, and you can take a look at them.

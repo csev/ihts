@@ -1,0 +1,310 @@
+ Today, we're at Bletchley Park in honor of Alan Turing's 100th birthday.
+ Bletchley Park, just north of London, in between Cambridge and Oxford, was considered by many
+ as the birthplace of modern computer science.
+ In 1938, again, anticipation of war, the government code and cipher scroll, and in the main, their
+ operational director, a gentleman called Alastair Dennison, had drawn up a list.
+ He had sent two people out to troll through the people at Oxford, and primarily Cambridge,
+ and to some extent Oxford, and drew up a list of people who they approached, who agreed
+ in the event of war, would report immediately to Bletchley Park.
+ Britain declared war on September 3rd, 1939, the following day, September 4th, Turing and
+ several others reported to Bletchley Park.
+ As the requirement for more people was needed, some, predominantly a gentleman called Gordon
+ Welchman, who had been on the initial list, he'd arrived the same day as Turing.
+ He went back to Cambridge, and he started recruiting all his best students, and in effect,
+ what they created here was the World's First Skunk Works, a secret innovative organization
+ where there were no rules.
+ Eventually, their main benefactor became the Prime Minister, Winston Churchill, and they
+ persuaded Churchill that this place needed more resources.
+ Churchill agreed, and he wrote a famous ... A letter was written by Welchman, Turing, and
+ the two deputies to Churchill, and one other number, a gentleman called Stuart Millner-Berry
+ actually delivered it in person to Downing Street.
+ Churchill, amazingly, read the letter the same day it was delivered.
+ He put a famous "Action This Day" stamp on it, with a handwritten note to his Chief of
+ Staff, a chap called General Lismay, which said, "Expedite with extreme priority and
+ report to me when it is done," and really from that point, September 1941, Bletchley
+ Park got all the resources they needed.
+ They threw, in effect, the smartest people together in Britain, and said, "Here's the
+ budget.
+ This is the end game," and that's why they invented some of these technologies that probably
+ wouldn't have been invented for years.
+ In many ways, Bletchley Park was an early version of a multidisciplinary science center,
+ much like CERN or NCSA is today.
+ Many brilliant people with different skills and backgrounds were brought together to solve
+ difficult problems.
+ The combination of the skills and collaborative environment resulted not in just solving the
+ problems of cryptography that they were facing, but in addition, solved broader problems for
+ all of computing and all of society.
+ When the people arrived here, they knew when they arrived that the Germans had taken a
+ machine, a machine which we tend to call Enigma.
+ Enigma was a particular variant of an encryption machine.
+ That machine was modified from the commercial version, and it allowed them to encrypt messages.
+ This was going to become a machine to be used for operational communications, very short
+ 200, 250-character messages.
+ Hitler had conceived, and as generals, a type of warfare never seen before, which became
+ known as Blitzkrieg.
+ Very fast movement, 50 miles a day, particularly when they invaded France and the latter stages
+ of their invasion of Poland.
+ You couldn't use fixed-line communications.
+ You needed to use wireless communications.
+ Here was a device which was portable, weighed 25 pounds, ran off a battery.
+ You could encrypt messages, and then as a separate process, they could be sent using
+ the fairly new technology of wireless radio.
+ It was the Poles who were the first to recognize that the age of machine cryptography had arrived,
+ and the sort of people who would be good at dealing with it were mathematicians.
+ In fact, they even went so far as to put on a course in cryptography at the University
+ of Poznan, invited 20 or 30 young German-speaking mathematicians to enroll.
+ It was a very difficult course, and by the time the course was finished, there were really
+ only three graduates who they recruited.
+ Their names were Maryan Ryevsky, Hendrik Zagalsky, and Yezi Orozhitsky, and these three were
+ the core of this team, and they are the ones who really made the early breakthroughs.
+ They convened a conference at their secret headquarters.
+ This was actually July '39, and at that conference, they gave the British everything.
+ They revealed what they had done.
+ They gave them a replica Enigma machine and all of their work.
+ That information came back to Bletchley Park, and once they were established in Bletchley
+ Park, they then used the Polish method to break the Enigma machine.
+ The Poles had actually built some machines themselves, one of which was called a Bomba.
+ That machine, the name apparently comes from a Polish ice cream dessert of the same name.
+ It's in effect vanilla ice cream with chocolate sauce around it.
+ This machine was called Bomb in honor of what the Poles did, but the Poles' technique was
+ based on the particular way that, at that time, the Germans enciphered their message
+ headers.
+ They, at that point, were repeating the message header, and that was the attack which the
+ Poles developed on it.
+ They believed, correctly, that when the war would start, that the Germans would change
+ the way they were doing that, and they called for help.
+ They told Turing and the people here everything they'd done, which we are and should be very
+ grateful, but they also proved that it was possible, and that, I think, was the spur
+ that kicked the Brits into actually doing something about it.
+ Now, Turing understood the weaknesses of the way they'd done it, and developed a crib-based
+ mechanism based on the fact that every military organization in the world cannot stop itself
+ sending stereotyped messages.
+ He then talked to a brilliant team of engineers, led by Doc Keane, who told him roughly the
+ speed that it would be possible to examine potential stops for.
+ Between them, they then designed the machine called Bomb, which would look for that and
+ do so in a sensible time.
+ Here is an example where we have intercepted this message SNMKG.
+ We're pretty sure that that is, because this particular operator always did this, this
+ is his morning weather forecast.
+ So here we have the guest German plain text, "Wetter für Herr Zarger," "Weather forecast."
+ And the two are lined up.
+ At that point, the enigmas' ability or inability to encode a letter as itself is useful, because
+ you can make sure you've got no clashes here.
+ And from these guest letters, the crib makers would derive a picture like this called a
+ menu where you'll notice that at position ZZE here, G is encoded as E, so we have G
+ going to E. At ZZP at the end here, E goes to V. This is reversible, of course.
+ We can describe this the other way up.
+ So here's E to V, that's ZZG here, S is going to V, so here's another link.
+ And eventually we can go all the way around and we can close this loop like that.
+ It was the closed loops that they were looking for.
+ The operation of the Bomb was simply that if there is a letter which you can feed in
+ at this point and which comes around through a string of one, two, three, four, five, six
+ enigmas and comes back as that same letter, then it's possible a position of these wheels
+ match the position of the wheels when Gunther started encoding his message on his enigma.
+ It turned out to be a bit more picky about loops and menus than perhaps they had hoped,
+ although it worked, and at that point Welchman added a completely left field master stroke
+ called the diagonal board, which I think it is fair to say made the difference between
+ success and failure to Turing's original idea.
+ And here are my three diagonal boards.
+ That's one, that's the other.
+ This is the third one, kind of any place where you can't see it, but can you see Z down to
+ A, okay?
+ There's nothing connecting that to the machine, it's just bolted there for convenience.
+ The only connections to the machine are when you connect X into one of the enigmas.
+ What will happen is when we turn the machine on, you'll see it will run up to speed, okay?
+ The motor will be running and the clutch will drop in, then you'll see the various carry
+ mechanisms happening, and then when we stop the machine, you'll see it slow down and then
+ the clutch drops out.
+ So, Tony, if you'd run it up for us please.
+ Would you turn on carry home?
+ Okay, thank you.
+ So what you saw there was the middle carry, then we switched on carry home to make the
+ slow carry work all the time, so these bars are just pushing around all the drums.
+ And you can see that all the 36 enigmas are just in step, they're all just turning and
+ they are a resource.
+ These are the very fast relays, the three banks, actually four, for the chains that
+ do the detection here.
+ This is the control logic, and then this is the 26 bit register that notes a stop and
+ then allows the machine to slow down before it stops.
+ Our favorite statistic is the sheer amount of wire in the thing.
+ We've lost count, but it's somewhere between 10 and 12 miles of wire in each one of these.
+ Then there was two main systems they were using, Enigma was their operational system,
+ that was being used for specific operational communications, again, very short, maximum
+ of 250 characters, instructions, orders for a Panzer Division to move from one location
+ to another, orders for a submarine to attack a convoy, for aircraft during the Battle of
+ Britain to attack specific targets.
+ The Germans started to introduce, through probably 1941, a different system.
+ The intercept service, which Britain had put into place to intercept these messages, started
+ hearing traffic, which was clearly not enigma traffic, enigma traffic with Morse code, easily
+ identifiable.
+ People can be trained fairly simply to transcribe, to listen to Morse code and transcribe the
+ letters.
+ This was a totally different signal.
+ It was not discernible, it was not transcribable.
+ This was Hitler's communication channel to his army general, so very long-winded communications,
+ top secret.
+ This was an even more daunting task, arguably, than Enigma, because this encryption machine
+ that was used with this system, there were various ones of them, Hitler referred to these
+ as his Geheimschreiber's, his secret writers, several companies, Siemens, that exists today,
+ were making a machine, Haglund, but there was also the Lorenz Company, and that was
+ the primary machine, particularly Lorenz at SN42.
+ That machine, and unlike Enigma that had three encryption wheels, had 12 encryption wheels.
+ They approached the post office research lab at Dulles Hill in London, a young engineer
+ called Tommy Flowers went into the project.
+ He was in effect told, "Well, go ahead, if you can get approval."
+ Flowers went back to the post office, got approval, put a small core team together,
+ and in less than a year had a working prototype, quite a remarkable achievement.
+ The first Colossus as this machine became known, the Mark I, had 1,500 valves or vacuum
+ tubes in it.
+ They brought it to Bletchley Park, it worked almost straight away.
+ The people here were convinced, they asked for a more powerful computer, Flowers already
+ had anticipated this, he already had it in production, 2,500 valves in an era when no
+ machine that used valves had more than about 15, here was a machine with 2,500.
+ Flowers was told that they needed the Mark II by June 1, 1944, because there was a certain
+ date in the diary, June 5, 1944 was a scheduled day for Operation Overlord D-Day, it actually
+ ended up being June 6 because of bad weather.
+ Flowers delivered the first Mark II to Bletchley Park on June 1, they switched it on, it worked
+ straight away.
+ They immediately started decrypting messages between the German High Command, and much
+ to their delight, they discovered that all of the subterfuge about the D-Day landings
+ had worked.
+ Hitler had believed that the main invasion was going to be at the Port of Calais, not
+ at Normandy.
+ That intelligence was fed back to General Eisenhower at Allied Supreme Command headquarters,
+ and there is reasonable evidence to conclude that D-Day might well not have gone ahead
+ on June 6, 1944 without the intelligence from Bletchley Park.
+ This is the Colossus computer at Bletchley Park, now we're in Hut 4 at Bletchley Park,
+ which was one of the first purpose-built computer centers, and some 10 of these machines were
+ installed here starting in January 1944.
+ Now, in the years previously, a new way of decrypting messages was discovered that was
+ being used in Germany, and it was those high-level messages between Hitler and his generals,
+ and they were encrypted on a machine called a Lorenz machine, and it used teleprinter
+ codes to actually transmit those messages.
+ Now, by '43, it was taking some six weeks to actually decode those messages, and decode
+ those messages laboriously by hand.
+ The problem with that is, within six weeks, the usefulness of the intelligence that you
+ gain from those messages is obviously gone, so that process needed to be speeded up.
+ Now, some techniques have been tried, some of the electronic techniques have been tried
+ here at Bletchley Park, but this machine, when it was put into use in early '44, reduced
+ that six-week period to decode the message down to six hours, and that's really just
+ a phenomenal jump.
+ The messages themselves were received at various intercept stations around the country and
+ were punched onto paper tape.
+ Now, there were two paper tapes on the machine here at the moment, one that we're running
+ and one which is ready for the next run.
+ Now, this tape, there are two here, if I take one, each row across the tape are punched
+ by a pole, and each of those is an alphanumeric character.
+ And that's the encrypted message that was received as being punched onto tape.
+ Now, although Colossus has really all the elements of a modern electronic computer,
+ it doesn't have the memory that we expect in a stored program computer.
+ So what happens is that tape of that message, some 5,000 characters of that message is actually
+ formed in a loop, and is read over here with a series of photoelectric sensors and lights,
+ and each character is read, and the 5,000 characters a second are read.
+ Now, each trunk of the machine we can hear there is another 5,000 characters being read
+ into the machine.
+ So we're reading that same 5,000 characters each time.
+ This is the control panel of the Colossus computer.
+ So it's this side of the machine that we would actually be, that the Wrens and the Wartime
+ would actually be using.
+ Now, I can set up the particular algorithm I want to test and routines I want to test
+ using these control panels.
+ And each clunk of the machine at the moment is another state where we're actually trying
+ a new algorithm and repeating that algorithm on that repeating 5,000 characters.
+ The results that the machine detects are presented here.
+ Now, we're doing a statistical analysis of that encrypted tape.
+ Now, the machine would run for some 6 hours.
+ There are 2,500 valves in this machine.
+ You can't see that many from the front, but once we go between the act of the machines,
+ you get an idea of the scale.
+ 2,500 valves.
+ Each valve has a heater, a hot wire heater in the center of the valve, and operates at
+ about 2,300 volts DC.
+ Now, 2,500 valves plus the power supplies generates over 8 kilowatts of electricity.
+ And by this point, when we're standing in between the racks, you can feel the heat coming
+ off of these racks.
+ Colossus is a combination of electronics, and we can see the electronics here in these
+ valve chassis members, and also electromechanical switch gear.
+ So there are backs of relay panels here.
+ These big single motion detectors are a sort of motorized switch that will actually spin
+ around.
+ There's banks of those in the machine.
+ The technology is equipment that was well known for the British Post Office.
+ This machine was designed by a chap called Tommy Flowers, and Tommy Flowers was an engineer
+ at the research center in London for the British Post Office.
+ Tommy was asked to look at the problem of how to automate this task, this manual task.
+ And Tommy came up with the idea of using electronics to do this.
+ At the time, the idea of using more than half a dozen valves in any circuit was just simply
+ poo poo.
+ Valves had a bad reputation.
+ People had valves in their radios at home.
+ They failed when they switched the radios on.
+ So the idea of using two and a half thousand was just simply phenomenal.
+ But Tommy understood that it's probably-- it's almost certainly the thermal shock that kills
+ valves in the first place.
+ So if you leave the machine on and don't subject it to that shock, you won't have a problem.
+ Now all the 10 colossus machines here at Bletchley Park were left on permanently.
+ The machines were operated by Rens in three shifts throughout the day.
+ We have to be equally careful.
+ This is obviously-- this is a replica of the machine itself.
+ But the same problems apply.
+ We need to be careful in bringing the supply voltages up gradually so we don't suffer from
+ thermal shock and in the same way shutting the machine down.
+ Tommy had the idea of generating the key, because it's a key that we're comparing with
+ that encrypted tape, generating that key electronically.
+ And these counters here, they're called the thyrotron rings, the thyrotron valves, actually
+ hold that count.
+ Now we describe colossus as not having a memory.
+ We say not having a memory in the sense that modern computers have a memory that's common
+ for data and for programs.
+ Well, the program here is set on those control panels at the front.
+ And that's switch and plug programmed, much like, say, its contemporary ENAG machine.
+ But these machines, these valves at the back, do act as a store in the sense of counters.
+ And they're actually counting the score that we're actually getting, each passed through
+ the algorithm.
+ We can see at the back here, well, certainly some of the modern technology, I suspect the
+ wartime guys that were building and debugging these machines, would have given anything
+ for a reliable oscilloscope and let alone a logic analyzer.
+ But if I look into the machine down here, back, you can see the projected image that's
+ coming off the tape, and that's shining onto five photosensitive valves.
+ And it's those valves that are actually reading the 5,000 characters every second.
+ And paper tape was used well into the 1960s and '70s.
+ At this speed, it was simply phenomenal, and hadn't really been thought of before.
+ And our original museum director, Tony Versailles, wanted to rebuild the Colossus and build a
+ replica of the Colossus machine, and this was some 20 years ago.
+ There's very little information out there.
+ There are a few pictures that were kept, possibly illegally, a few scraps of circuit diagrams,
+ and just the memories of some of the original pioneers who worked on the machine.
+ And when Tony started the plant, Tommy Flowers was still alive and remembered and was able
+ to draw circuits, because finally the parts as well.
+ But the important thing is the machine was designed by a post office engineer at the
+ time, an engineer that was used to designing systems for telephone switching.
+ So a lot of the components here, everything from the relay banks to the switches to the
+ power supplies, were common to British post offices in the pre-war period.
+ So when Tony then wants to find the components to rebuild the replica, he's lucky in the
+ sense that the last of those exchanges are being decommissioned from post offices around
+ the country.
+ Tony was therefore able to really sort of back up a pickup truck at the back of the
+ exchange and take away all of those components and dismantle all of those components.
+ And they were absolutely perfect and it was just that time he really couldn't have been
+ better.
+ So Alan Turing actually left Bletchley Park after about three and a half years.
+ His involvement really finished, he went to the United States, Turing was not actually
+ involved in the development of Colossus.
+ Some of the statistical work that he did was used by the people, predominantly Bill Tut,
+ who's the guy that actually reconstructed the Lorenz machine, quite remarkably a remarkable
+ feat, indeed.
+ Turing got involved in things like speech scrambling systems and went to the United
+ States and was involved in other projects, so he wasn't really involved in Colossus.
+ At the end of the war, Turing went to work for the National Physics Laboratory, again
+ pursuing these sort of ideas, and then of course he ended up at the University of Manchester,
+ where Max Newman, who had run the department where the Colossus computers had been located
+ at Bletchley Park, also ended up as the head of mathematics and obviously then at that
+ point Turing became involved in the very early computer developments in Britain.
+ Gordon Welchman immigrated to the United States at the end of the war, in 1948 he immigrated
+ to the United States and became involved in many of the early American computing developments,
+ project World Wind, Welchman worked at MIT, taught the first course in computing science
+ at MIT.
+ So Turing then was involved in things like Manchester Baby and the Franti Mark I and
+ the early computing developments, I guess this is well known of course, Turing tragically
+ committed suicide in 1954.
+ [Music]

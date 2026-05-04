@@ -1,0 +1,804 @@
+1
+00:00:00,000 --> 00:00:01,780
+ - So it's always fun to talk about security
+
+2
+00:00:01,780 --> 00:00:04,260
+ because the question is, is you,
+
+3
+00:00:04,260 --> 00:00:05,840
+ and what does security mean to you,
+
+4
+00:00:05,840 --> 00:00:07,680
+ and what does it mean to me?
+
+5
+00:00:07,680 --> 00:00:11,860
+ And whenever you're thinking about security,
+
+6
+00:00:11,860 --> 00:00:14,680
+ you gotta figure out sort of who is out to get you
+
+7
+00:00:14,680 --> 00:00:18,320
+ and why are they out to get you.
+
+8
+00:00:18,320 --> 00:00:22,880
+ And for us average people, we are so boring
+
+9
+00:00:22,880 --> 00:00:24,520
+ that literally pretty much the only thing
+
+10
+00:00:24,520 --> 00:00:27,800
+ the world wants from us is they wanna steal our,
+
+11
+00:00:27,800 --> 00:00:30,360
+ you know, they wanna steal our credit card numbers
+
+12
+00:00:30,360 --> 00:00:33,260
+ and then buy stuff with them for just a couple of days
+
+13
+00:00:33,260 --> 00:00:35,760
+ before the credit card company shuts them down.
+
+14
+00:00:35,760 --> 00:00:38,520
+ Now, if you're running for public office,
+
+15
+00:00:38,520 --> 00:00:40,080
+ there's a whole bunch of your opponents
+
+16
+00:00:40,080 --> 00:00:42,480
+ that are gonna want to break into your email
+
+17
+00:00:42,480 --> 00:00:44,320
+ and that happens, right?
+
+18
+00:00:44,320 --> 00:00:45,720
+ Those kind of shenanigans happen.
+
+19
+00:00:45,720 --> 00:00:47,440
+ So if you're interesting or influential
+
+20
+00:00:47,440 --> 00:00:48,960
+ or running for public office,
+
+21
+00:00:48,960 --> 00:00:50,000
+ you have a different problem
+
+22
+00:00:50,000 --> 00:00:53,920
+ than if you're just kind of a mere civilian like us.
+
+23
+00:00:53,920 --> 00:00:58,920
+ And so at the end of the day, you can worry about security
+
+24
+00:00:58,920 --> 00:01:01,760
+ and you can kind of wear tin foil clothing or something,
+
+25
+00:01:01,760 --> 00:01:03,000
+ but at the end of the day,
+
+26
+00:01:03,000 --> 00:01:06,480
+ you and I are so boring that nobody really cares.
+
+27
+00:01:06,480 --> 00:01:10,480
+ But it's good to assume that they're out to get you, right?
+
+28
+00:01:10,480 --> 00:01:12,800
+ That you try to be as secure as you can
+
+29
+00:01:12,800 --> 00:01:14,320
+ and be aware of your environment
+
+30
+00:01:14,320 --> 00:01:16,680
+ and be as secure as you possibly can
+
+31
+00:01:16,680 --> 00:01:20,460
+ with your information and with your communications.
+
+32
+00:01:21,440 --> 00:01:23,960
+ So who is out to get us?
+
+33
+00:01:23,960 --> 00:01:26,760
+ Well, the government.
+
+34
+00:01:26,760 --> 00:01:29,400
+ So now we're gonna actually turn the tables, right?
+
+35
+00:01:29,400 --> 00:01:32,640
+ In the very first lecture, we were the good guys.
+
+36
+00:01:32,640 --> 00:01:34,240
+ The good guys were the ones
+
+37
+00:01:34,240 --> 00:01:36,300
+ who were trying to break the Kurtag free.
+
+38
+00:01:36,300 --> 00:01:37,400
+ And the bad guys were the ones
+
+39
+00:01:37,400 --> 00:01:40,100
+ that were trying to hide their bad messages.
+
+40
+00:01:40,100 --> 00:01:43,180
+ And the government were the good guys in Bletchley Park
+
+41
+00:01:43,180 --> 00:01:44,900
+ and they broke the codes
+
+42
+00:01:44,900 --> 00:01:47,300
+ and they saved Western civilization.
+
+43
+00:01:47,300 --> 00:01:48,840
+ Yay, good guys.
+
+44
+00:01:48,840 --> 00:01:53,240
+ Well now, we're the Germans.
+
+45
+00:01:53,240 --> 00:01:54,760
+ We're the Japanese.
+
+46
+00:01:54,760 --> 00:01:56,600
+ We're trying to communicate.
+
+47
+00:01:56,600 --> 00:01:57,640
+ People are watching.
+
+48
+00:01:57,640 --> 00:01:59,640
+ And guess what?
+
+49
+00:01:59,640 --> 00:02:01,040
+ It's the same people.
+
+50
+00:02:01,040 --> 00:02:03,280
+ The government, the government's most likely interested
+
+51
+00:02:03,280 --> 00:02:05,080
+ in what you're doing.
+
+52
+00:02:05,080 --> 00:02:06,880
+ Again, most of us are so boring,
+
+53
+00:02:06,880 --> 00:02:08,980
+ the government doesn't really care at all.
+
+54
+00:02:08,980 --> 00:02:12,300
+ But the government has probably the best security
+
+55
+00:02:12,300 --> 00:02:14,380
+ breaking equipment on the planet right now,
+
+56
+00:02:14,380 --> 00:02:15,800
+ better than the criminals.
+
+57
+00:02:15,800 --> 00:02:19,000
+ And so it's just an interesting flip of the model, right?
+
+58
+00:02:19,000 --> 00:02:21,740
+ Where now we are trying to communicate
+
+59
+00:02:21,740 --> 00:02:24,760
+ and the government with all of their bombas
+
+60
+00:02:24,760 --> 00:02:29,480
+ and little rotating devices sitting in some warehouse
+
+61
+00:02:29,480 --> 00:02:30,960
+ somewhere that we don't know
+
+62
+00:02:30,960 --> 00:02:33,320
+ is taking our private communications
+
+63
+00:02:33,320 --> 00:02:35,480
+ and they're trying to break them.
+
+64
+00:02:35,480 --> 00:02:40,240
+ And we are in a war trying to make our communications
+
+65
+00:02:40,240 --> 00:02:42,560
+ more and more secure while the government says,
+
+66
+00:02:42,560 --> 00:02:46,020
+ whoa, we have to invent like electronic computers.
+
+67
+00:02:46,020 --> 00:02:48,820
+ Because we have to have bigger computers
+
+68
+00:02:48,820 --> 00:02:51,160
+ because the people, us good guys now
+
+69
+00:02:51,160 --> 00:02:52,600
+ who are doing the encrypting,
+
+70
+00:02:52,600 --> 00:02:53,840
+ we are trying to come up with more
+
+71
+00:02:53,840 --> 00:02:56,000
+ and more clever ways to encrypt.
+
+72
+00:02:56,000 --> 00:03:00,120
+ And the government has to keep coming up with ways to decrypt.
+
+73
+00:03:00,120 --> 00:03:04,280
+ And you could cast this as criminals versus good folks.
+
+74
+00:03:04,280 --> 00:03:06,960
+ You could cast these governments versus governments.
+
+75
+00:03:06,960 --> 00:03:09,600
+ At the end of the day, it's an arms race
+
+76
+00:03:09,600 --> 00:03:12,960
+ and it's rather symmetric as to which side you're on, right?
+
+77
+00:03:12,960 --> 00:03:14,940
+ I mean, we started out with the people
+
+78
+00:03:14,940 --> 00:03:17,320
+ trying to hide the information, we're the bad guys.
+
+79
+00:03:17,320 --> 00:03:19,040
+ And now we're the good guys.
+
+80
+00:03:19,040 --> 00:03:19,960
+ Why are we the good guys?
+
+81
+00:03:19,960 --> 00:03:21,000
+ 'Cause it's us.
+
+82
+00:03:21,000 --> 00:03:24,720
+ As soon as we decide it's us, we're the good guys.
+
+83
+00:03:24,720 --> 00:03:27,960
+ Here's a little picture I took a couple of years ago
+
+84
+00:03:27,960 --> 00:03:31,120
+ when I visited Bletchley Park.
+
+85
+00:03:31,120 --> 00:03:34,440
+ This actually led to the video a year and a half later.
+
+86
+00:03:35,800 --> 00:03:40,320
+ And in this, my friend who works at the Open University,
+
+87
+00:03:40,320 --> 00:03:43,520
+ who also does massively open online courses,
+
+88
+00:03:43,520 --> 00:03:44,840
+ that's Joel, he's now retired.
+
+89
+00:03:44,840 --> 00:03:49,000
+ He's the tour guide there and a dear and personal friend.
+
+90
+00:03:49,000 --> 00:03:51,720
+ And another of my dear and personal friends
+
+91
+00:03:51,720 --> 00:03:54,480
+ whose face you can't see is right here.
+
+92
+00:03:54,480 --> 00:03:55,920
+ His name is Chuck.
+
+93
+00:03:55,920 --> 00:03:58,080
+ He currently works at Shazam in London.
+
+94
+00:03:58,080 --> 00:04:02,000
+ And he and I just got away for the weekend
+
+95
+00:04:02,000 --> 00:04:04,440
+ and went up to Bletchley Park and took a tour.
+
+96
+00:04:04,440 --> 00:04:06,640
+ Now, just a little interesting connection.
+
+97
+00:04:06,640 --> 00:04:09,760
+ I sort of mentioned in a previous lecture about The Matrix.
+
+98
+00:04:09,760 --> 00:04:13,380
+ So you notice that Chuck here is wearing a jacket
+
+99
+00:04:13,380 --> 00:04:14,520
+ from the movie Matrix.
+
+100
+00:04:14,520 --> 00:04:16,560
+ I mentioned he was the one that wrote
+
+101
+00:04:16,560 --> 00:04:19,840
+ the hacking scene with Trinity.
+
+102
+00:04:19,840 --> 00:04:21,040
+ So here we all are together.
+
+103
+00:04:21,040 --> 00:04:22,400
+ We're at Bletchley Park.
+
+104
+00:04:22,400 --> 00:04:24,280
+ Alan Turing had an office in this.
+
+105
+00:04:24,280 --> 00:04:27,240
+ This is one of Alan Turing's offices at Bletchley Park.
+
+106
+00:04:27,240 --> 00:04:30,040
+ Here's Joel, open teaching and learning.
+
+107
+00:04:30,040 --> 00:04:32,560
+ Here is Chuck, worked on The Matrix.
+
+108
+00:04:32,560 --> 00:04:35,520
+ And here's Trinity, right?
+
+109
+00:04:35,520 --> 00:04:38,640
+ Except that now Trinity is our enemy instead of our friend.
+
+110
+00:04:38,640 --> 00:04:40,840
+ Although in the movie, we are rooting for Trinity.
+
+111
+00:04:40,840 --> 00:04:43,520
+ But we are the ones trying to protect
+
+112
+00:04:43,520 --> 00:04:46,520
+ what we're doing from the Trinities of the world.
+
+113
+00:04:46,520 --> 00:04:49,680
+ We're the good guys now and Trinity is the bad gal.
+
+114
+00:04:49,680 --> 00:04:52,760
+ She's the bad lady trying to break into our stuff.
+
+115
+00:04:52,760 --> 00:04:54,920
+ And we're protecting ourselves against Trinity.
+
+116
+00:04:54,920 --> 00:04:59,300
+ So tables have completely turned, OK?
+
+117
+00:04:59,300 --> 00:05:04,560
+ So before we go too far, you'll run into your organizations
+
+118
+00:05:04,560 --> 00:05:07,240
+ with lots of people who are like security experts.
+
+119
+00:05:07,240 --> 00:05:09,520
+ And I find security experts generally
+
+120
+00:05:09,520 --> 00:05:17,720
+ very annoying because they think they're smarter than they are.
+
+121
+00:05:17,720 --> 00:05:19,160
+ Security experts have this theory
+
+122
+00:05:19,160 --> 00:05:21,440
+ that more security is better.
+
+123
+00:05:21,440 --> 00:05:25,400
+ And the reality is that perfect security is unachievable.
+
+124
+00:05:25,400 --> 00:05:30,160
+ If you want perfect security, like lock yourself in a room
+
+125
+00:05:30,160 --> 00:05:32,320
+ and whisper to somebody, oh, wait a sec.
+
+126
+00:05:32,320 --> 00:05:34,800
+ And then the guard will come in and hear you or whatever.
+
+127
+00:05:34,800 --> 00:05:36,960
+ There'll be a microphone.
+
+128
+00:05:36,960 --> 00:05:39,800
+ So the notion that perfect security and that your company
+
+129
+00:05:39,800 --> 00:05:42,560
+ can spend more and more and more money of its budget
+
+130
+00:05:42,560 --> 00:05:44,960
+ on security just because the security expert thinks
+
+131
+00:05:44,960 --> 00:05:48,480
+ that you should is really kind of a fallacy.
+
+132
+00:05:48,480 --> 00:05:50,800
+ Security is a cost benefit analysis.
+
+133
+00:05:50,800 --> 00:05:53,800
+ And so if you think of credit card companies,
+
+134
+00:05:53,800 --> 00:05:56,440
+ what's the security of this number?
+
+135
+00:05:56,440 --> 00:05:57,680
+ I won't show you the number.
+
+136
+00:05:57,680 --> 00:05:59,320
+ But what if I lose this number?
+
+137
+00:05:59,320 --> 00:06:00,800
+ What's the consequences?
+
+138
+00:06:00,800 --> 00:06:03,720
+ I've had many credit cards that got compromised.
+
+139
+00:06:03,720 --> 00:06:05,400
+ I don't exactly know how.
+
+140
+00:06:05,400 --> 00:06:07,640
+ They've got software inside of the computer companies
+
+141
+00:06:07,640 --> 00:06:10,920
+ that catches, like when all of a sudden I live in Michigan
+
+142
+00:06:10,920 --> 00:06:13,560
+ and a bunch of charges at the New Jersey Walmart are showing up
+
+143
+00:06:13,560 --> 00:06:15,400
+ and I never got on a plane.
+
+144
+00:06:15,400 --> 00:06:19,480
+ I'm amazed at how rare it is that your identity actually
+
+145
+00:06:19,480 --> 00:06:21,040
+ gets lost permanently.
+
+146
+00:06:21,040 --> 00:06:24,800
+ So I'm really impressed with how the banks are capable.
+
+147
+00:06:24,800 --> 00:06:26,160
+ And so they have this number that
+
+148
+00:06:26,160 --> 00:06:27,920
+ makes it real convenient for us to buy.
+
+149
+00:06:27,920 --> 00:06:29,480
+ We can type it into a web form.
+
+150
+00:06:29,480 --> 00:06:31,120
+ We can do all these things.
+
+151
+00:06:31,120 --> 00:06:34,200
+ And one in a zillion times it gets compromised.
+
+152
+00:06:34,200 --> 00:06:36,760
+ And so they lose $50.
+
+153
+00:06:36,760 --> 00:06:39,200
+ But billions of dollars of commerce happen.
+
+154
+00:06:39,200 --> 00:06:41,960
+ So there is always a security versus cost.
+
+155
+00:06:41,960 --> 00:06:44,400
+ If basically, for me to use this credit card,
+
+156
+00:06:44,400 --> 00:06:49,680
+ I had to have sort of a personal guard from the company
+
+157
+00:06:49,680 --> 00:06:52,680
+ with me all the time, it'd be very expensive for me
+
+158
+00:06:52,680 --> 00:06:55,400
+ to buy stuff on Amazon and have it shipped to my house.
+
+159
+00:06:55,400 --> 00:06:59,880
+ And so understand that when you start getting into conversations
+
+160
+00:06:59,880 --> 00:07:05,440
+ with security, professionals, sometimes they're
+
+161
+00:07:05,440 --> 00:07:08,040
+ the kind that understand that security is naturally
+
+162
+00:07:08,040 --> 00:07:10,880
+ imperfect and everything is a cost-benefit analysis,
+
+163
+00:07:10,880 --> 00:07:13,240
+ rather than more security is always better.
+
+164
+00:07:13,240 --> 00:07:15,200
+ So more is not always better.
+
+165
+00:07:15,200 --> 00:07:17,440
+ That's just my little speech about security
+
+166
+00:07:17,440 --> 00:07:20,640
+ in case you get stuck in a conversation with some pompous
+
+167
+00:07:20,640 --> 00:07:22,200
+ security expert.
+
+168
+00:07:22,200 --> 00:07:23,840
+ They're mostly pompous.
+
+169
+00:07:23,840 --> 00:07:26,840
+ So database administrator pompous, too.
+
+170
+00:07:26,840 --> 00:07:30,680
+ But hope you're not a database administrator security expert.
+
+171
+00:07:30,680 --> 00:07:34,960
+ But the best security experts that I've ever met
+
+172
+00:07:34,960 --> 00:07:37,200
+ are the ones that understand this.
+
+173
+00:07:37,200 --> 00:07:40,280
+ And they can characterize every issue
+
+174
+00:07:40,280 --> 00:07:42,600
+ in terms of a cost-benefit analysis.
+
+175
+00:07:42,600 --> 00:07:44,480
+ And then you know that you've run
+
+176
+00:07:44,480 --> 00:07:46,700
+ into one that's really smart and bright.
+
+177
+00:07:46,700 --> 00:07:48,500
+ So the terminology that we're going
+
+178
+00:07:48,500 --> 00:07:51,760
+ to use for the rest of the segments of this lecture,
+
+179
+00:07:51,760 --> 00:07:55,280
+ we're going to be solving two basic problems.
+
+180
+00:07:55,280 --> 00:07:58,200
+ One is confidentiality.
+
+181
+00:07:58,200 --> 00:08:03,140
+ And the confidentiality is the leakage of information.
+
+182
+00:08:03,140 --> 00:08:09,160
+ So if I was to want to send this credit card number to one
+
+183
+00:08:09,160 --> 00:08:11,480
+ of you watching right now without the rest of you
+
+184
+00:08:11,480 --> 00:08:15,520
+ seeing my credit card number, the mere revealing
+
+185
+00:08:15,520 --> 00:08:18,120
+ of that information is the problem.
+
+186
+00:08:18,120 --> 00:08:21,480
+ So I want to come up with a way to send it to you
+
+187
+00:08:21,480 --> 00:08:24,600
+ so that no one except the one person that I want to see it
+
+188
+00:08:24,600 --> 00:08:25,440
+ gets it.
+
+189
+00:08:25,440 --> 00:08:27,600
+ That's confidentiality.
+
+190
+00:08:27,600 --> 00:08:30,520
+ The other problem is one of integrity.
+
+191
+00:08:30,520 --> 00:08:35,400
+ And that is, in a sense, knowing that A,
+
+192
+00:08:35,400 --> 00:08:37,240
+ that the information that you've got
+
+193
+00:08:37,240 --> 00:08:40,400
+ comes from who you thought it came from,
+
+194
+00:08:40,400 --> 00:08:44,480
+ and B, that it wasn't modified on the way.
+
+195
+00:08:44,480 --> 00:08:46,760
+ So there are things like digital signatures
+
+196
+00:08:46,760 --> 00:08:49,040
+ that sort of fall into this category
+
+197
+00:08:49,040 --> 00:08:51,480
+ and other mechanisms that we'll talk about.
+
+198
+00:08:51,480 --> 00:08:55,800
+ So these two themes of confidentiality and integrity
+
+199
+00:08:55,800 --> 00:08:58,320
+ will run through the rest of the lectures
+
+200
+00:08:58,320 --> 00:09:00,480
+ that we have on security.
+
+201
+00:09:00,480 --> 00:09:05,080
+ So coming up next, we're going to start diving right in.
+

@@ -1,0 +1,430 @@
+ - So welcome to our lecture on public key encryption,
+ where we're going to go back to confidentiality.
+ And so here we go.
+ If you recall, we've been having these two topics
+ that have been our theme throughout.
+ Just some grizzly, oh sorry, I'm starting to talk in ROT13.
+ Let's translate this back to non-ROT13.
+ The terminology, the two kind of themes we've been following
+ over the last couple of lectures in this lecture
+ are confidentiality and integrity.
+ And confidentiality is hiding, right?
+ Shielding information, not leaking information to people
+ that you don't want to show it to.
+ And integrity is making sure
+ that you know who you're dealing with.
+ And then the previous lecture, we really talked about
+ kind of real light, approachable ways
+ of ensuring confidentiality with things like Caesar Cipher,
+ and then integrity using a simple message digest
+ that based on a shared secret.
+ So the problem with all of those things
+ that we just saw is that they require a shared secret.
+ And the problem in the world of the internet
+ is it's just really difficult for every one of us
+ before we establish,
+ before we can make any purchases or whatever at Amazon
+ that we somehow have to drive to Amazon headquarters
+ and get a shared secret from Amazon.
+ They'll open up a book and say, okay, hi Chuck,
+ I see who you are and here's our shared secret.
+ And you walk away and as long as you carry
+ that shared secret, away you go.
+ And if the shared secret is lost,
+ it's difficult to review both.
+ So as the internet and frankly, in general,
+ as security needed to be able to work at arm's length,
+ meaning that you couldn't always bring everybody together
+ and hand out shared secrets
+ and then have them go to the far reaches of the world
+ and communicate, public key encryption was identified
+ as a extremely elegant solution to this problem.
+ And so it was proposed by Diffie and Hellman in 1976.
+ And it relies on two keys, it's asymmetric,
+ meaning we're not using the same key to encrypt as decrypt
+ the way we were in the previous lectures,
+ these are asymmetric.
+ There is a public key,
+ which is actually does not need any protection whatsoever
+ and a private key.
+ And the idea is they're generated inside of a computer,
+ you generate the public key and the private key,
+ you send out the public key,
+ the public key is used to do the encryption
+ and then private key is used to do the decryption.
+ And they're related mathematically
+ in a way that's well understood,
+ but difficult to compute for a key length that's large enough.
+ So there's a public key and a private key.
+ So I'd like you to take a look at this little video
+ up on YouTube of Diffie, Hellman and Merkel,
+ the inventors of this.
+ And I think it's a great video.
+ I would love it if this were my video,
+ but I didn't produce this video.
+ So take a quick look.
+ (gentle music)
+ So one of the things about this
+ public private key encryption is now that we know about it,
+ it's like, whoa, it's pretty obvious.
+ And frankly, Caesar and the Germans and everybody
+ could have used this idea.
+ They just hadn't thought of it yet.
+ And the other thing that's kind of interesting,
+ if you look into the story of this is that
+ the first reaction people got
+ when they start thinking about this
+ is like, it can't be this easy.
+ Now it's sort of both easy and hard,
+ but the concept is real elegant and really beautiful.
+ And that is that we have this public key.
+ So the public key is part of a public private pair
+ and it's used to do the encryption.
+ The beauty is it's computationally difficult
+ to recover that private key
+ from the public key and the encrypted text.
+ The key thing is it's not impossible.
+ And that's kind of one of the interesting philosophies
+ of security that we started at the very beginning
+ in talking about security.
+ The perfect security is kind of impossible to achieve
+ unless you simply don't send anything.
+ And so public private key, asymmetric keys
+ is well understood as to how you would break it.
+ Everyone knows how to break it.
+ The problem is, is that computers
+ aren't fast enough to break it.
+ And when computers get faster,
+ it will just make the keys bigger.
+ So the mathematics of this makes it impractical to break.
+ I mean, literally impractical to break.
+ Now I think we can safely assume
+ that governments probably have enough computation
+ to crack these once in a great while.
+ I mean, if they're not cracking every transaction
+ between you and target when you wanna buy something,
+ but if they really have to,
+ they can record the encrypted transmissions.
+ And if they really had to and took a long time,
+ I have no idea how long it would be, they can break it.
+ So that's actually kind of a neat way to think about this
+ by revealing it all.
+ Frankly, any computer scientist
+ could make a name for them their whole life
+ if they proved that there was something wrong with this.
+ By revealing the algorithm, revealing the cracking technique,
+ if someone can come up with a better cracking technique,
+ it is like fame and glory forever.
+ Which means that we're pretty sure
+ that there's no good way to crack this
+ other than the brute force mechanism
+ that requires a large amount of computation.
+ So if you're going to use a public-private key encryption,
+ you have to generate a pair.
+ And it starts by choosing two really large random numbers
+ with hundreds, if not thousands of digits that are prime.
+ So you kind of choose a random number, really big,
+ and then you kind of look around for a nearby prime number
+ and you choose two of those, and then you multiply them.
+ Okay, getting an even larger number.
+ And then through some steps, through some calculations,
+ you compute the public and the private keys
+ from that large number.
+ The essence of this are those two prime numbers.
+ Prime numbers, of course, are numbers
+ that you only divide by themselves in one,
+ which means they have no factors,
+ which means they're kind of like looking
+ for a needle in a haystack.
+ And so the public and private key
+ is really based on these two prime numbers.
+ If you could figure out what the prime numbers were,
+ you'd be okay, but the computational difficulty
+ is finding the prime numbers that are extremely large
+ and finding the right prime numbers
+ that are extremely large.
+ So it's easy to do some calculations in one direction,
+ but not in other.
+ So for example, what are the factors of 55,124,159?
+ Quick, but if I simply ask you,
+ what do you multiply 70,919 to get that 55 million number,
+ that's easy, you do a division.
+ And it turns out that you can find out 69,61 really easy.
+ So if I just say, what are these two numbers, that's hard.
+ If I say, given this number,
+ what's the other number, that's trivial.
+ So you can think of this as the decryption
+ is where the receiver of the message
+ knows kind of half of the calculation,
+ whereas the world doesn't know either half of it,
+ doesn't know the calculation.
+ So it has to figure out both halves,
+ whereas the receiver only has to figure out one half.
+ And so that's how asking the question
+ of what are the factors versus given one, what's the other?
+ So it takes a problem that's easy,
+ makes it computationally nearly impossible.
+ But again, not impossible, just nearly impossible.
+ Okay, so here's the notion.
+ So you're about to type your Visa card
+ into a credit card into like Amazon's webpage.
+ And so what happens is, is that Amazon has a public key
+ and a private key that they retain.
+ And they will send you the public key across a medium,
+ the internet, they're gonna send this to you somehow.
+ But the bad guys, Eve or Charlie or whoever they are,
+ the bad guys, this is Alice and Bob.
+ Eve and Charlie are always looking.
+ So Eve and Charlie could have intercepted
+ and you assume that they can.
+ This is the key.
+ Don't try to pretend they can't,
+ even though it's very difficult for them to do it,
+ but you assume they can.
+ So the public key comes across.
+ It is simply sent to you as part of the beginning
+ of establishing a secure connection.
+ And the bad guys see it too, or gals, they see it too.
+ So the public key comes to you.
+ And then what you do is you encrypt using that public key
+ and create some encrypted text, ciphertext,
+ which you then send back across the danger
+ where Eve and Charlie are watching.
+ And it comes across, they intercept the encrypted text.
+ They've intercepted the public key
+ and they can try as hard as they like with supercomputers
+ to derive this.
+ And frankly, like I said,
+ if they had months and months and months
+ and really fast computers, they could, okay?
+ But because Amazon is in sole possession of the private key
+ and it never left Amazon's servers,
+ it is a very simple matter for Amazon to decrypt
+ and get your plain text.
+ It happens very quickly.
+ Just like if you kind of know half
+ of the prime number calculation,
+ figuring out the other prime number is really, really easy.
+ Okay, so again, these people see all this information
+ and yet it is computationally virtually impossible
+ for all practical purposes to do it.
+ And so it's beautiful because there was no need
+ to protect the public key.
+ We never had to get in the same room and away it goes.
+ So you just, Amazon just blasts out its public key
+ and we encrypt using Amazon's public key.
+ We can't decrypt it, but we don't need to decrypt it.
+ All we need to do is send it to Amazon and voila, it works.
+ So the beautiful thing is,
+ is the public keys can be distributed,
+ they can be intercepted and it does not matter.
+ So with this notion of public private key encryption
+ in general, we made a change to HTTP.
+ A layer, a mini layer is in the data model.
+ If you remember way back,
+ perhaps you've forgotten about the layered model.
+ Remember that layered model?
+ Application, transport, internet.
+ Remember this is sort of one computer
+ and this is the other computer.
+ These are the routers, routers, these are the hops.
+ There's like 15 of these.
+ Remember, remember all this?
+ So it comes back not on us.
+ Okay, so if you recall, just sort of to briefly remember
+ that the transport layer is responsible
+ for the retransmission.
+ It gives us the appearance of a reliable ordered connection
+ between our application and the bar application.
+ HTTP is one of the application protocols.
+ And so there is a little mini layer
+ that is layered in sort of seamlessly
+ on top of the transport layer
+ that basically takes plaintext and encrypts it
+ and turns it into ciphertext.
+ And then ciphertext on the way out
+ and turns it back into plaintext.
+ Okay, and so what happens is,
+ is these applications just send plaintext
+ and out comes plaintext.
+ And there's a little bit of extra glue in the middle here
+ that's sort of a secure transport, secure sockets layer.
+ This is, this thing here is often called a socket.
+ SOCK, it'd be good if I could spell socket.
+ So this is a socket.
+ And then the red part is a secure socket.
+ So the applications kind of don't encrypt the data at all.
+ There is a library that encrypts it.
+ And the other thing is, is that all the rest of the internet,
+ the internet, the link layer, the routers, nothing,
+ the ethernet, the fiber,
+ they don't even know the difference
+ between encrypted text and non-crypted text
+ because the encrypted text wanders around fully encrypted.
+ Addresses are not encrypted.
+ And so it stays encrypted
+ all the way through the entire network.
+ It actually, if you then think about the fact
+ that this is the moment that it leaves your computer,
+ the only thing, so the plain text comes in here,
+ it gets encrypted here, encrypted comes down.
+ The only thing that leaves your computer is encrypted text.
+ And it makes it all the way across.
+ The encrypted text goes into Amazon.
+ So this is Amazon.
+ This is you.
+ The encrypted text finds its way through all these things
+ and it comes in encrypted.
+ And it actually doesn't get encrypted
+ until it's sort of right at the point
+ where Amazon's web server
+ that's going to actually charge a credit card.
+ So this is actually beautifully elegant
+ in that the rest of the network is blissfully unaware
+ that any encryption is happening.
+ It's just moving the data.
+ So this did not require any change.
+ Again, the beautiful layered architecture
+ did not require any change sort of below the transport layer.
+ And as a matter of fact,
+ all of the sequencing and retransmission
+ that happens in the TCP layer,
+ that happens with the encrypted stuff too,
+ because it's just encrypted.
+ It's just text.
+ It's gibberish text.
+ It's not the original Visa card number that you're sending.
+ You're sending one, two, three.
+ And out comes, you know, WXY.
+ The WXY just goes, it retransmitted.
+ All this crap just works.
+ It's like, beautiful.
+ It's a beautiful thing.
+ It's absolutely a beautiful thing.
+ And it's just like this mini layer kind of between the app.
+ It's like the top slice of the transport layer.
+ That's how I'm drawing it right here.
+ It's like this little kind of top extra little thing says,
+ you know what, we're going to transport,
+ but actually help me out and give me some encryption
+ while we're at it.
+ And there's all kinds of cool stuff that goes back and forth.
+ The public and private keys get exchanged.
+ That's all kinds of stuff we don't worry about.
+ We just send data and get data back.
+ Pretty cool, huh?
+ So this really solves the problem of the fact
+ that we basically should assume that everything
+ between our computer and the destination computer,
+ this is you, this is Amazon, right?
+ Everything here, this is all dangerous.
+ There's some terrifyingly scary individual
+ that's watching everything, doing packet sniffing.
+ This might be Eve, the eavesdropper.
+ This looks like a little he.
+ He looks pretty tough, right?
+ And so that even the wireless, right?
+ This is the Wi-Fi connection.
+ The Wi-Fi is dangerous.
+ Now, the reality is these things aren't all that dangerous.
+ The Wi-Fi is probably the weakest link of this whole thing.
+ But we have to assume that it's dangerous.
+ That's why we wanna assume that the only thing that's safe,
+ and unfortunately, if you put viruses in your computer,
+ then they can get at the plain text.
+ If Amazon loses its data somehow,
+ then they get the plain text, right?
+ But basically, we wanna distrust all of this, okay?
+ So this concept is called transport layer security,
+ also called SSL, also known as HTTPS, HTTPS.
+ For secure.
+ And it's kind of like between the TCP layer
+ and the application layer,
+ or the top half of the TCP layer
+ is the way I like to think about it.
+ It's because it's based on public-private key encryption.
+ It's difficult, but not impossible.
+ Normal people don't have the kind of equipment to break it.
+ And even governments, if they can break it,
+ I don't even know, I'm not an expert.
+ I don't hang out with the government.
+ So I don't really know.
+ But assume that if they really put their mind to it
+ in a very narrow situation,
+ if you become really interesting,
+ they will find your credit cards.
+ Probably there's easier ways to get your credit cards
+ than by decrypting your text.
+ So it's hard to decrypt.
+ And as I mentioned, because of the layered architecture,
+ the TCP layer, IP and link layers are completely unaware.
+ So you see this in the form of URLs that start with HTTPS.
+ They start with HTTPS,
+ www.facebook.com versus HTTP.
+ And there was a time a few years back
+ where it used to be a little more expensive
+ inside of the servers to do HTTPS.
+ It still is.
+ And so some sites would try to do some of their activity
+ without using secure protocols.
+ And others would use non-secure and secure
+ and then flip you back and forth
+ like if you're typing your password.
+ The problem was is that there was actually
+ still sensitive data being sent even across the insecure.
+ And there was quite a famous thing
+ where people could install a Firefox plugin
+ and watch Facebook, non-secure Facebook things
+ go back and forth across like a Starbucks.
+ And it would just show you all the people's Facebook accounts
+ and you could log in as them and post as them.
+ And so you've seen a situation where companies
+ are just starting to use HTTPS for everything.
+ You as a user have to be aware to see
+ if you're typing anything sensitive,
+ never type it into a URL that doesn't say HTTPS.
+ Never do that.
+ You're typing a password, a credit card number,
+ any kind of personal information,
+ make sure you're doing HTTPS and make sure
+ that you know what it is.
+ We'll talk about that in a bit.
+ We'll talk a little bit more about that in a bit.
+ So if we take a look and we think about
+ where the bad guys are at,
+ the bad guys are kind of everything
+ and this secure TCP runs,
+ is the one part of the layer of architecture
+ that runs from within your laptop to within the server.
+ And so then if we kind of assume the worst,
+ the backbone is pretty safe.
+ The WiFi is probably the most dangerous, right?
+ But when we do secure system TCP,
+ secure system to system TCP,
+ we are doing the encryption
+ right here inside your computer before it leaves.
+ And we're only doing the decryption
+ right when it comes back into computer.
+ So the decryption and encryption are happening
+ inside of Amazon's computer and inside of your computer
+ and nothing else.
+ So secure sockets is pretty good.
+ Now the place where you're still danger
+ is there might be a virus that's watching your keystrokes.
+ This is why virus checking is so important
+ because at some point you're typing it into your computer
+ and the greatest danger you have to losing your data
+ is really two things.
+ One, that you've got a virus
+ or B, somebody has redirected you
+ not to talk to evil Amazon instead of Amazon.
+ And that's what we'll talk about in the next lecture.
+ How does these browsers really know
+ that you're talking to the real Amazon?
+ And that is not confidentiality.
+ Confidentiality is stopping the bad guy
+ from seeing what you're sending as they're eavesdropping.
+ Eve is eavesdropping, okay?
+ Now the next thing is the question of,
+ is this the real Amazon or is this a fake Amazon?
+ So we'll talk about that next.

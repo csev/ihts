@@ -1,0 +1,296 @@
+1
+00:00:00,000 --> 00:00:06,080
+ The domain name system, it really doesn't have a great place to fit in this architecture.
+
+2
+00:00:06,080 --> 00:00:13,280
+ It is the thing that converts user-friendly names like www.umich.edu to like a network-friendly
+
+3
+00:00:13,280 --> 00:00:18,240
+ address. These network numbers and IP addresses are important because they are the, they encode
+
+4
+00:00:18,240 --> 00:00:25,440
+ the geography of the connections of the internet. But we humans really don't care about the geography
+
+5
+00:00:25,440 --> 00:00:32,240
+ of the interconnections of the internet. www.umich.edu or www.facebook.com is what we want to remember.
+
+6
+00:00:32,240 --> 00:00:39,440
+ So I like to kind of think of the domain name system as kind of like sort of somewhere either
+
+7
+00:00:39,440 --> 00:00:45,600
+ between the internet and the transport or between the internet and the link or somewhere like in
+
+8
+00:00:45,600 --> 00:00:49,360
+ this area, you know, somewhere here. And it's certainly not in the application layer. It's
+
+9
+00:00:49,360 --> 00:00:56,320
+ not the link layer. It uses the link layer. But basically it's kind of a little add-on to the side.
+
+10
+00:00:56,320 --> 00:01:04,000
+ So the domain name system is for user-friendly names. Okay. So let's talk a little bit about just
+
+11
+00:01:04,000 --> 00:01:10,400
+ how it works because domain names are what we use all the time and IP addresses are what computers
+
+12
+00:01:10,400 --> 00:01:16,160
+ use all the time. And the routers use. Routers really have no knowledge of the domain names.
+
+13
+00:01:16,160 --> 00:01:22,000
+ They simply move data based on the IP addresses. Numeric addresses are tough for people to remember.
+
+14
+00:01:22,000 --> 00:01:26,800
+ I remember in the old days we would have little post-it notes on our computers and that's how I
+
+15
+00:01:26,800 --> 00:01:31,440
+ would keep track. Oh, there's a new Minnesota just put up a server. Let's put that number on
+
+16
+00:01:31,440 --> 00:01:35,760
+ my little post-it note. So the fact that they were numbers didn't bother us at all because there was
+
+17
+00:01:35,760 --> 00:01:43,520
+ only 40 of them, but quickly there was more than 40. And each campus even in the early days only
+
+18
+00:01:43,520 --> 00:01:48,960
+ would have one network number, but now campuses have 20 or even 40 network numbers, multiple groups
+
+19
+00:01:48,960 --> 00:01:53,440
+ of addresses. They're groups of addresses, but there are many of them. They get reorganized. You
+
+20
+00:01:53,440 --> 00:01:58,400
+ move a server from one place on campus to another like the Michigan web server. It was on our North
+
+21
+00:01:58,400 --> 00:02:02,880
+ campus. It would have one address. It was on our main campus. It would have another address. And so
+
+22
+00:02:02,880 --> 00:02:07,920
+ you don't want people to know what these IP addresses are. So they invented this notion of
+
+23
+00:02:07,920 --> 00:02:14,320
+ a domain name system, the name, the, the, the visible name that we could switch the mapping
+
+24
+00:02:14,320 --> 00:02:24,000
+ from the name to the IP address transparently. And so the domain name system is like the internet's
+
+25
+00:02:24,000 --> 00:02:30,480
+ address book and it's a big distributed database. That's fast. It uses caching so that it's locally
+
+26
+00:02:30,480 --> 00:02:36,480
+ fast. Even if the network is partially down, IP addresses reflect the technical geography
+
+27
+00:02:36,480 --> 00:02:41,760
+ and they read right to left, at least to the point where the network number is kind of the physical
+
+28
+00:02:41,760 --> 00:02:47,920
+ attachment point for the campus or business. And then this part is the attachment point within
+
+29
+00:02:47,920 --> 00:02:54,880
+ that campus or business. And so the most specific, the least specific to most specific goes from left
+
+30
+00:02:54,880 --> 00:03:01,360
+ to right. Domain names on the other hand are like organizational structure. The least specific is on
+
+31
+00:03:01,360 --> 00:03:08,320
+ the far right. And then it goes more specific as we go left. So edu means educational institutions,
+
+32
+00:03:08,320 --> 00:03:13,680
+ umich.edu means the particular educational institution, university of Michigan,
+
+33
+00:03:13,680 --> 00:03:19,280
+ si.umich.edu means the school of information at the university of Michigan. Not all schools
+
+34
+00:03:19,280 --> 00:03:24,480
+ are just a particular one. And then dub dub dub is a particular server at that school.
+
+35
+00:03:24,480 --> 00:03:30,720
+ And it reads like a postal address. So if you think of where I teach 2455 North Quad,
+
+36
+00:03:30,720 --> 00:03:36,160
+ it's kind of on earth and it's on the country USA and it's in a zip code. It's in the state of
+
+37
+00:03:36,160 --> 00:03:40,880
+ Michigan. It's in Ann Arbor. And then this is the building. And then this is the room number in the
+
+38
+00:03:40,880 --> 00:03:48,480
+ building. So we go from very general to very specific. So domain names read in a sense,
+
+39
+00:03:48,480 --> 00:03:52,480
+ right to left, phone numbers and IP addresses read left to right.
+
+40
+00:03:55,520 --> 00:04:00,640
+ The other thing that's interesting about domain names is that they're owned. They're owned from
+
+41
+00:04:00,640 --> 00:04:07,440
+ right to left. And so there are sort of, there's a hierarchy and basically an organization owns
+
+42
+00:04:07,440 --> 00:04:14,320
+ edu. The organization's name is edu cause. It has conferences and other things, but one of the things
+
+43
+00:04:14,320 --> 00:04:21,920
+ that it does is it owns in the public trust, the name edu. So university of Michigan could go to
+
+44
+00:04:21,920 --> 00:04:27,920
+ edu and say, Hey, could I have umich.edu? And they would say, let me think about that. And then
+
+45
+00:04:27,920 --> 00:04:33,120
+ maybe they would give it. And they did because university of Michigan, nobody else had it. And
+
+46
+00:04:33,120 --> 00:04:37,280
+ it seemed like a good name and university of Michigan was like a credited institution of
+
+47
+00:04:37,280 --> 00:04:41,680
+ higher education. So they would give it to them. If I want to say like, Hey, I'm Dr. Chuck and I
+
+48
+00:04:41,680 --> 00:04:49,040
+ want to create Dr. Chuck university. And I could have drchuck.edu. And they would go like, no,
+
+49
+00:04:49,040 --> 00:04:54,160
+ you can't. You're not a university. You're not, you're not an educational institution.
+
+50
+00:04:54,160 --> 00:05:02,320
+ So they might say yes. They might say no. Things like.com and.org, they're kind of a catch is catch
+
+51
+00:05:02,320 --> 00:05:09,040
+ can. And so the first one who gets there, uh, tends to win. There's, there's some situations where if,
+
+52
+00:05:09,040 --> 00:05:16,720
+ if I got coca-cola.com and had no particular use for it and coca-cola owned the trademark coca-cola,
+
+53
+00:05:16,720 --> 00:05:21,760
+ they could take it away from me unless I had a legitimate purpose for it. Um, it's harder for me
+
+54
+00:05:21,760 --> 00:05:28,080
+ to imagine a legitimate purpose for coca-cola, but target.com might be a club for target shooting.
+
+55
+00:05:28,080 --> 00:05:32,960
+ And it would be difficult for target to say, sorry, I got to take your, your, your target
+
+56
+00:05:32,960 --> 00:05:39,120
+ shooting club away because that's even though it's not as big as targets company, it, uh,
+
+57
+00:05:39,120 --> 00:05:47,040
+ it's a legitimate use. So at each level, once the university of Michigan is awarded the university
+
+58
+00:05:47,040 --> 00:05:53,840
+ of Michigan, it creates a mechanism to award sub domains within that. And so there is actually a
+
+59
+00:05:53,840 --> 00:05:58,960
+ committee at the university of Michigan. And if we want, like our learning management system is
+
+60
+00:05:58,960 --> 00:06:05,200
+ called ctools.umich.edu. If we want that, we have to go to the committee and convince them to give
+
+61
+00:06:05,200 --> 00:06:10,960
+ it to us a top level domain within the university of Michigan. We got one, the school of information
+
+62
+00:06:10,960 --> 00:06:15,920
+ where I'm a faculty member is si.umich.edu. And they gave us that one. I could go to that
+
+63
+00:06:15,920 --> 00:06:22,640
+ committee and I could say, Hey, I want to be drchuck.umich.edu. And they would say, no, you
+
+64
+00:06:22,640 --> 00:06:31,440
+ can't. So then the school of information where I teach has si.umich.edu and they have a committee
+
+65
+00:06:31,440 --> 00:06:35,680
+ and they can give out sub domains within that. So you get the picture, right? So I could go there
+
+66
+00:06:35,680 --> 00:06:44,320
+ and say, Hey, can I have drchuck.umich.edu, si.umich.edu, drchuck.si.umich.edu. And they
+
+67
+00:06:44,320 --> 00:06:52,720
+ would say, no, but you can have csev.people.si.umich.edu. So once you own one of these things,
+
+68
+00:06:52,720 --> 00:07:00,480
+ you can give out sub domains. I do own drchuck.com, drchuck.com. And if there was high desire for
+
+69
+00:07:00,480 --> 00:07:05,440
+ something underneath drchuck.com, then I could have my own little business selling domains under
+
+70
+00:07:05,440 --> 00:07:11,520
+ drchuck.com. Nobody seems to want any of those things, but you know, some people have mail.com
+
+71
+00:07:11,520 --> 00:07:18,480
+ and other things. And so each one of these is a new potential for expansion. And so that's kind of
+
+72
+00:07:18,480 --> 00:07:23,840
+ how the domain name works, right? It is this mapping between these names. There is sort of this
+
+73
+00:07:24,800 --> 00:07:30,480
+ right to left ownership of these names and you have to ask people to get those names.
+
+74
+00:07:30,480 --> 00:07:33,680
+ And so that's a real quick overview of the domain name system.
+

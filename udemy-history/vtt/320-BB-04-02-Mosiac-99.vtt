@@ -1,0 +1,119 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:06.200
+ So at the end, Joseph is really talking about how Microsoft had to react to Netscape and
+
+00:00:06.200 --> 00:00:12.340
+ how all of a sudden the market began to sort of crash together in tons of investment, a
+
+00:00:12.340 --> 00:00:19.520
+ lot of intensity. Triggered mostly by the release of the Windows and the Mac version
+
+00:00:19.520 --> 00:00:28.100
+ of Mosaic, 1994 was distinctly different than 1993. The staff at NCSA went and founded Netscape
+
+00:00:28.100 --> 00:00:34.360
+ in April 1994. The first World Wide Web Conference was held in Switzerland. Shortly thereafter,
+
+00:00:34.360 --> 00:00:39.440
+ the other first World Wide Web Conference was held in Chicago. There's some interesting
+
+00:00:39.440 --> 00:00:48.320
+ stuff about that in these books. The books Robert Caius and Tim Berners-Lee's book talks
+
+00:00:48.320 --> 00:00:55.760
+ a little bit about that. And in October 1994, Tim left CERN and went to form the World Wide
+
+00:00:55.760 --> 00:01:02.360
+ Web Consortium. And by the end of the year, Windows 95 beta 2 with an internet browser
+
+00:01:02.360 --> 00:01:07.560
+ was there with TCP/IP built in. And so if you really think about, I mean it's not even
+
+00:01:07.560 --> 00:01:13.680
+ a whole year, it's almost six months where the world changed forever. And so at this
+
+00:01:13.680 --> 00:01:19.320
+ point, now money is coming into it. Up to that point it was mostly ideas and research,
+
+00:01:19.320 --> 00:01:25.740
+ but now money is coming in and we start seeing a transition. So Netscape was on the forefront
+
+00:01:25.740 --> 00:01:33.320
+ of doing this. And Netscape basically took the open source product. They started kind
+
+00:01:33.320 --> 00:01:37.320
+ of competing just to build a browser, but they quickly decided that they would go turn
+
+00:01:37.320 --> 00:01:43.480
+ the browser and their web server more proprietary and try to create distributed computing applications
+
+00:01:43.480 --> 00:01:49.000
+ using proprietary things that Netscape would build unique to themselves. And they would
+
+00:01:49.000 --> 00:01:54.880
+ attack Microsoft. The moment it became clear that Netscape was going to produce a way to
+
+00:01:54.880 --> 00:02:01.200
+ develop software on Mac, Windows, and Linux portably, then Microsoft got worried because
+
+00:02:01.200 --> 00:02:05.440
+ then the operating system wouldn't matter. And Microsoft had put so much into the Windows
+
+00:02:05.440 --> 00:02:10.540
+ operating system that if the operating system didn't matter, it would really tremendously
+
+00:02:10.540 --> 00:02:18.120
+ threaten Microsoft's business, hence Windows 95 with TCP/IP and a free web browser. So
+
+00:02:18.120 --> 00:02:26.480
+ Netscape sort of scared, well as Microsoft tried to buy Netscape, Netscape refused to
+
+00:02:26.480 --> 00:02:32.180
+ sell wanting more money and then Microsoft vowed to destroy it. And as Microsoft was
+
+00:02:32.180 --> 00:02:39.480
+ coming after Netscape, first Netscape tried to compete by building better and better software
+
+00:02:39.480 --> 00:02:44.800
+ like the JavaScript language which will meet Brandon Icke in a moment. And then after that
+
+00:02:44.800 --> 00:02:49.360
+ they tried to sort of switch from being the proprietary bad guys and go become more the
+
+00:02:49.360 --> 00:02:53.040
+ open source good guys. And that kind of blew up in their face and they built this open
+
+00:02:53.040 --> 00:02:57.600
+ source Mozilla which eventually became the Mozilla Foundation which eventually began
+
+00:02:57.600 --> 00:03:04.640
+ Firefox. So now what I want to do is I want you to meet two people, both of whom now are
+
+00:03:04.640 --> 00:03:09.880
+ the senior leadership at the Mozilla Foundation. Brandon Icke is the CTO of the Mozilla Foundation
+
+00:03:09.880 --> 00:03:17.200
+ but he'll really tell us about the 1995 where he invented JavaScript in 10 days as part
+
+00:03:17.200 --> 00:03:23.440
+ of Netscape. And then we'll meet Mitchell Baker who was the founder of, one of the founders
+
+00:03:23.440 --> 00:03:30.240
+ of Mozilla and she will talk about how Netscape kind of fortunes declined, got purchased by
+
+00:03:30.240 --> 00:03:36.480
+ AOL and fortunes declined even worse and how they basically pulled the Netscape code base
+
+00:03:36.480 --> 00:03:42.960
+ out to form the Mozilla code base which then became Firefox code base. And the Firefox
+
+00:03:42.960 --> 00:03:49.920
+ of course had this great idea that Mitchell will tell you about of having a search box
+
+00:03:49.920 --> 00:03:58.200
+ and they made tons and tons of money as Mitchell will tell you about. So up next, Brandon Icke
+
+00:03:58.200 --> 00:04:01.600
+ of the Mozilla Foundation and Mitchell Baker of the Mozilla Foundation.
+

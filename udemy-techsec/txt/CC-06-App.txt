@@ -1,0 +1,284 @@
+ so now we're going to talk about the application layer and up to now we've
+ been talking about these bottom layers and we've been sort of working our way
+ up we talked about the link layer the IP layer and the TCP layer and and and each
+ of these layers works with the other the the IP layer depends on the link layer
+ the TCP layer depends on and adds value to the IP layer and now we're going to
+ talk about the application layer that is going to make use of the services of the
+ TCP layer and the services of the TCP layer are basically to give us a
+ reliable sequenced end-to-end stream that can start in one application in one
+ computer and end in an application in a different computer and have a two-way
+ communication so I can send the word hello hello from one application and
+ then all kinds of billions of dollars of hardware hundreds of thousands of
+ engineers forty years of engineering design and out comes hello on the other
+ end and what's beautiful and this is the beauty of the layer of the four layer
+ architecture is we just pretend this is magic this is magic we send something
+ and out it comes with that magic available with that billions of dollars
+ and forty years of research magic available now what would we do right now
+ what would we do with that magic if we had it available to us so TCP is giving
+ us this reliable pipe we're gonna think about now we're gonna ignore all the
+ rest of it right we're gonna ignore all this part we're gonna put all we're gonna
+ say is we have an application on this into our computer now remember this is
+ your computer and say this is the server right so this is you and this is the
+ server and all the software runs in it in in every all the software is running
+ in your computer and all the software is running in the server so the question is
+ what are we going to do between these two things okay what how we what how are
+ we going to ask for data and this application is the client application and
+ this application is the server application client and server are not
+ necessarily the same very much the same client server are likely very different
+ applications the client is like give me information and the server is
+ responsible for giving the giving the information to the client so the client
+ is often making a request and then the server is making a response back and so
+ this client server mechanism this application to application communication
+ we can build a mail system with it worldwide web or we can stream videos
+ much like we'd be streaming this lecture back and forth we're going to focus on
+ the worldwide web because it's really simple and really elegant and it's part
+ of the easiest one to understand and it's the most popular but there are many
+ other protocols going on file transfer and others but the worldwide web
+ protocol HTTP D is the protocol that is the most popular so the there are two
+ basic questions that the application layer has to solve one is which
+ application gets the data and this is done using a mechanism called ports and
+ ports allow a IP address or a single computer or a single server to serve up
+ multiple services and then for a client to be able to dial up much like a
+ telephone extension and pick the service that they're interested in once you've
+ connected to the service that you're interested in like the worldwide web
+ service then you have to know the protocol to talk to that ports and TCP
+ are like a telephone extension number again meant like I said they you can
+ connect to an IP address but then you can connect to a port within it and so
+ if you think about a telephone number and an extension it's sort of a further
+ refinement an IP address gives us a particular server a piece of hardware
+ connected to the internet and then a port within that tells us what application
+ we're going to talk to so let's talk about ports and connections so if I have
+ a server and this is kind of an arbitrary server here's here is a single
+ server www.umich.edu and it has one IP address connected into the cloud we can
+ have many clients talking to it and we have many services running on this
+ server like sending email or logging into that server or retrieving web pages
+ or retrieving my mail from that server and there are ports so incoming email is
+ done generally in port 25 remote login is 22 or 23 web servers depending on
+ whether secure or not or 80 or 443 and the personal mailbox is on ports 109 or
+ 110 and so these computers don't just connect to an IP address but they
+ connect to a port within an IP address so some common TCP ports that we have
+ are the ones I just mentioned and you can take a look at these on the internet
+ the various ports okay now once we have a connection to the web server or to the
+ mail server or to the post office server we have to know how to talk to it and
+ that's what's called an application protocol and that is the rules for
+ conversation the rules for conversing so TCP gives us this reliable connection we
+ now can connect to the server that we desire to connect to by using ports and
+ the question is what are we going to say across that connection and what we say
+ across that connection who talks first what do you send what comes back depends
+ on the kind of server that you're talking to we're going to play mostly
+ with the world what the world wide web click the wrong button there the world
+ wide web server because it's the simplest and it's the most obvious as to
+ what's going on so the world wide web clients and the worldwide which are
+ otherwise known as browsers the world wide web clients and the world wide web
+ servers communicate using a protocol called HTTP as a matter of fact if you
+ look at the top of your URL it's HTTP colon slash slash something that adopt
+ right and and so basically there is a specification for how this is done so
+ when they wrote down I'm gonna write the first web browser in the first web
+ server they also wrote a document about how that piece of software would talk to
+ this other piece of software and the and it's a very simple concept HTTP has a
+ protocol where you make a connection to the from the client to the server the
+ client requests the document the server feeds out the document and then the
+ connection is dropped okay so it's very simple we'll actually simulate this this
+ is called the HTTP request response cycle okay and so the way it works is
+ you're in a browser and you click on a link the browser is an application it's
+ the client running on your computer so so this is kind of your computer down
+ here okay you click on a link then the browser makes a connection to the web
+ server and sends a request to for the document the web server looks up does
+ whatever and sends the document back and then the document is displayed on your
+ screen okay so let me show you sort of how this works with a web browser so here
+ is a canonical web page so here's a browser here's the URL that I went and
+ got you can get this URL as well you can even look at the source so if you look
+ at this source there is my HTML but one of the things that's in this source is
+ a link and if I hover over top of this link it's gonna look like that to hover
+ over top of link you can see at the bottom of my screen you can see it's
+ going to tell you that we're about to go retrieve page two dot HTML now this
+ browser is running on my laptop it is a web client it is an HTTP client and I'm
+ about to click on this piece of software running on my computer and then it is
+ going to make a connection out the back of it retrieve a document and then show
+ me the other document so it's going to happen real fast I click on second page
+ it requested and got a document back and showed me the document so that's the
+ contents of the second document okay and so that is the request response cycle
+ that is triggered that is triggered by me making a click somewhere in my
+ browser the browser sees the click it opens a connection this is sort of the
+ internet over here it makes a connection request a document the document comes
+ back and then the new document is displayed the request response cycle
+ click request response display click request response display so let's take a
+ look in some more detail as to what's really going on here so the command that
+ is being sent up to the server across this connection remember this part here
+ is the internet right there the command is a get command and the document is
+ based on the URL I clicked on that the browser knows about and says get slash
+ page two dot HTML and then what comes back is HTML and that is a markup
+ language that describes how this doc this page is supposed to be shown so
+ let's say that we wanted some more detail on how this really worked right
+ let's say we want to write a web browser and we want to be a good citizen and we
+ want to talk properly to the the web well we would go back to the IETF the
+ Internet Engineering Task Force and we would go grab the document that says hey
+ if you want to write a browser this is what you do this is what you do if you
+ want to write a browser go grab RFC 1945 which is the hypertext transport
+ protocol version 1.0 now I'm sure there's more complex superseded versions
+ of it but if we read it and read it and read it we spent a lot of time we get
+ down to section 5.1.2 and I would say if you are making a request for a
+ document this is the request line it has the letters get followed by a space
+ followed by the URL you're looking for followed by a space followed by the
+ version okay so that is the rule that is what you're supposed to send down this
+ connection I'm gonna give us some more examples on page 24 and so we could read
+ all this and we could write a web browser but what we're gonna do is we're
+ gonna fake being a web browser we're gonna cheat we're gonna hack it we're
+ gonna pretend to be a web browser we're gonna send the commands to the web
+ browser now I'm gonna do this on a Macintosh you could also do it on
+ Windows if you install a telnet client okay so the key is you install a telnet
+ client now most people would say telnet is insecure and it is it's a very old
+ protocol because all it does is it opens a TCP connection to a host on a port
+ that I specify and whatever I type goes across that TCP connection so it's a
+ great way to hack especially older less secure protocols so because HTTP is
+ generally a public protocol it's not really highly protected so it's much
+ simpler to hack it hacking secure protocols is requires writing software
+ rather than typing commands so if you're on Windows you have to install telnet
+ telnet so what I'm going to show you in a second is I'm gonna show you hacking
+ and I'm gonna telnet to www.doctorchuck.com port 80 what I'm saying is
+ connect me to this server on the internet and connect me to port 80
+ because I want to do HTTP connections and then I will send one command I'm gonna
+ send that command and then the web server will give me back the page okay
+ it's probably easier for me to just do it so let's take a look I am going to
+ simulate what the web browser does when it's requesting well actually you will
+ go to the second page and when it's requesting the first page it's doing a
+ get for page one okay so that's what we're going to do except now we are
+ going to do it in a terminal so I'm gonna type telnet oops I was type this
+ wrong telnet www.doctor-chuck.com port 80 okay so now I am connected to the web
+ server on www.doctor-chuck.com I could for example type yo what is up
+ dude now that would suggest I have not read the protocol specification for the
+ HTTP protocol so I do not know that I'm supposed to type the word get here I'm
+ gonna type yo what is up dude and it goes you are not from my country you are not
+ from my planet I do not know what you said of course that the way web servers
+ are saying this is they're saying bad request your browser sent a request that
+ this server could not understand it is the request header is missing a colon
+ separator you do not comply go away but we did talk it just told us that whatever
+ we were saying is gibberish to it and that's okay because we have read the
+ document and so we can do it so let's do it so now I'm going to do a telnet to
+ dr.chuck.com on port 80 go to dr. chuck hook on to port 80 so we can talk to the
+ web server and now I am going to behave I read the specification I'm gonna type
+ GT get space one space HTTP colon slash slash www.doctor-chuck.com slash page
+ one dot HTM HTTP space one dot I think there's a slash there oh no no no get
+ right to be right slash 1.0 I think I got that right so that is what I'm supposed
+ to type if I am a real browser now I have to actually type another new line
+ so I'll type another new line and now whoa oh I gave it the wrong page look
+ look look look look look I wanted to do I told it to get page shut HTML so let's
+ do it again do it again I'm not very good at this my browser is much better
+ at it so I type get HTTP colon slash slash www.doctor-chuck.com slash page one
+ dot HTM space HTTP slash 1.0 I believe that's it let's hope I got it right
+ this time and then another enter and another enter yay I got it so this time
+ I type you know I type this then I type this now it gave me some header
+ information it's saying things like 200 okay means I like you what the time is
+ when this file was last modified it's an HTML file and it actually shows me the
+ HTML text and so we have just hacked a web server you can do this to like
+ facebook.com and do a get if you get the right thing it'll give you stuff you
+ could go to various sites you can fake browsers now you're only going to get so
+ far because at some point these servers know that you're not a browser because a
+ browser actually sends a little more stuff than what we just sent but you get
+ the picture okay it's a protocol where we have rules and if we type the right
+ thing if we type the right thing we know what the specification tells us to type
+ we are rewarded with the information on that server if we comply with the
+ server's request we can talk to it we know how to talk that we know what port
+ to talk to and we know I know what protocol to talk to that port we can
+ write a client that meets the needs of that server and extract the data so this
+ is I like I like command lines I like sort of old-school user interfaces and
+ this is a scene from one of the matrix movies that you may recall I can't put it
+ in here because of copyright requirements I might have the URL or
+ maybe students will come up with the URL you can probably search for the Trinity
+ hacking scene people put it up and then it gets taken down and someone else puts
+ it up so let me tell you a little story about this scene this scene was actually
+ written by a former student of mine who worked on all three matrix movies doing
+ IT work on the movies and they were in Australia shooting the the three the
+ second set of three movies and he saw this scene and the scene was supposed to
+ use a minority report style way for her to hack into the the power grid and shut
+ it down he said that's not the way that you hack into computers all good hackers
+ use a text-based interface interface some old thing and that's a throwback
+ interface so the Wachowski brothers told him rewrite it so we actually downloaded
+ the exact hacking software it's called n map which stands for network map it is
+ mapping the ports it's probes the ports and sees what's on the ports see what
+ version of the software is on each of the ports figures out what the what the
+ weaknesses of those things are and even automatically exploits the weaknesses so
+ he wrote a script that downloaded this thing that automatically breaks into
+ computers by the way the good guys use this and the bad guys use this same
+ thing the good guys use it to test all the computers on their campus and make
+ sure that they're okay and the bad guys used to break into the ones that the
+ good guys aren't smart enough to fix and so this was kind of cool and and the
+ people who wrote n map were really quite amazed when they saw the movie they even
+ figured out what version it was and things like that and so it actually
+ triggered a series of follow-on scenes that used actual real hacking software
+ n map hacking software so I don't know if we've got a URL for this or not
+ whatever I URL I come up with even the one the end map people come up with
+ whatever it is it goes away because of copyright but you can find it because
+ someone always puts it back up so still no side I don't know what they're doing
+ but they only got two minutes left
+ so basically the application layer is a rich place
+ and there's lots of things that happen in the application layer we have this
+ pipe abstraction it's kind of like a string with two tin cans and we can
+ shout into one end and stuff comes out the other end later we'll talk about
+ adding security to that and we use these port numbers to allow to multiple
+ different servers or services on a computer that we can connect to so we've
+ kind of now reached the top of the architecture of the internet we've
+ talked about ethernet the link layer and fiber and all the diverse wireless all
+ the wonderful things that happen there the internet work layer which is this
+ kind of geographical hopping thing it's unreliable the TCP layer that
+ retransmits automatically if necessary and then the application layer which is
+ what we do with all this networks it's really impressive that this came out of
+ research work from the 1970s and that most of the architectures that were
+ really present most the ideas the architecture from the 70s are really
+ still present with us today as the NSF net came out these architectures evolved
+ a little bit the last few tweaks and there have been tweaks going on ever
+ since but the really the last few critical tweaks happened in the late 1980s
+ the the number of web hosts or the number of hosts on the internet goes
+ from 6 in 1969 to sort of a billion in 2011 and and it's pretty impressive that
+ roughly the same architecture that was designed with six computers is still
+ mostly functioning in mostly the same patterns all these years later with the
+ billions of computers and so if you start looking at the network now it
+ almost looks like a live creature with veins and nerves and and it's sort of
+ almost pulses and you'd see things like you can search on the internet for how
+ the internet reacted to Hurricane Sandy when like New York City was just like
+ shut off for three days you know that just kind of like routed around it yeah
+ a lot of stuff went across the Atlantic Ocean from New York City and yeah I had
+ found different paths and you know yeah New York was down but the rest of it
+ wasn't in many ways pretty amazing and we certainly see other situations where
+ governments try to shut the internet down by going into the server rooms and
+ shutting off you know what they think is the only connections but then more
+ connections pop up and so it's it's very much a almost a living thing it's
+ billions of computers and hundreds of thousands of routers and and it's
+ hundreds of millions of simultaneous connections going on all the time
+ including the one we're doing right now probably and it's trillions of bytes of
+ data moving across and it's it's it's not perfect it but it kind of works you
+ can think of it as like the largest energy collective engineering thing that
+ we've done together is humanity we built this it's all one thing and yet it's so
+ many different pieces and we just kind of keep gluing them together and gluing
+ more things on more things and it was it really was created almost like life
+ itself it's very organic it's designed to heal itself rather than be perfect
+ because things that try to be perfect are fragile and they break too easily but
+ things that are designed to heal can heal and you're never perfectly correct
+ you're never all the way up and you're never all the way down and so that's
+ what's interesting about the internet oops put the wrong way and so we kind of
+ come to the end of this where we started out with like machines and pulleys and
+ gears and spraying oil at Bletchley Park and typing a few characters on a
+ keyboard to this thing where we sort of just take for granted that we can watch
+ basketball anywhere on the planet just with a couple of swipes of the of the
+ key and and in a sense it's just that same human urge to communicate at a
+ distance and so the last thing that I'll close with is another video from Van
+ Jacobson now this is about a technique he calls content centric networking and
+ not everybody agrees with Van Jacobson on this you can ask people and they'll
+ say that's a good idea that I don't present this as the future I present
+ this more to get you thinking that there is a future that might be different than
+ the present that what I just told you that seems seems like oh it's perfect
+ and the and when in this surf in 1969 he figured this out and it was the perfect
+ thing right and the answer is it might not be and we as engineers and we as the
+ people of the internet we must understand that in 20 years it might be
+ all different because 20 years ago it was all different and 30 years before
+ that it was different yet again and so nothing's perfect and so we should never
+ be complacent and assume that what we have is trivial or perfect or even the
+ right answer social we should continue to question and so it's really
+ interesting to hear again from Van Jacobson who sort of did this great
+ innovation in 1987 that saved us and yet he thinks that these are issues and
+ there are issues that need to be saved again and I think in many ways he's right
+ the question is not so much whether he's right or wrong the question is what will
+ the ultimate solution that we pick be produced so so take a look at Van
+ Jacobson and what he can what he is thinking about as terms of the issues in
+ the future that we're going to need to solve when he talks about content
+ centered networking

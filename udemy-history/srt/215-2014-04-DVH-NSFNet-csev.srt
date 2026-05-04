@@ -1,0 +1,452 @@
+1
+00:00:00,000 --> 00:00:08,280
+ Back in the mid-80s, the National Science Foundation decided to establish supercomputing
+
+2
+00:00:08,280 --> 00:00:16,520
+ centers and the University of Michigan was one of the organizations that made a proposal
+
+3
+00:00:16,520 --> 00:00:19,000
+ for a national supercomputing center.
+
+4
+00:00:19,000 --> 00:00:28,760
+ The Michigan proposal had as its primary hardware artifact, a machine that was built in Japan.
+
+5
+00:00:28,760 --> 00:00:34,400
+ And I explained to my colleagues, my new colleagues, the University of Michigan having just arrived
+
+6
+00:00:34,400 --> 00:00:38,200
+ that it was highly unlikely that the proposal would be funded.
+
+7
+00:00:38,200 --> 00:00:44,120
+ A short while later, I was visiting the National Science Foundation and I had gotten to know,
+
+8
+00:00:44,120 --> 00:00:48,040
+ not well, but had gotten to know Eric Block, who was then director of the National Science
+
+9
+00:00:48,040 --> 00:00:51,040
+ Foundation.
+
+10
+00:00:51,040 --> 00:00:57,760
+ And Eric and I had a conversation about Michigan's proposal.
+
+11
+00:00:57,760 --> 00:01:04,760
+ And it was clear to me from my conversation with Eric that there was no prospect that
+
+12
+00:01:04,760 --> 00:01:07,160
+ the Michigan proposal would be funded.
+
+13
+00:01:07,160 --> 00:01:12,640
+ I said to Eric, I said, "Well, it occurs to me that what might be even better for the
+
+14
+00:01:12,640 --> 00:01:18,520
+ University of Michigan than having a supercomputing center is to run the network that connects
+
+15
+00:01:18,520 --> 00:01:19,520
+ all of the supercomputing centers."
+
+16
+00:01:19,520 --> 00:01:28,120
+ At any rate, I had an old friend who worked for IBM Research by the name of Al Weiss,
+
+17
+00:01:28,120 --> 00:01:32,600
+ who's in charge of all of IBM Research's computing facilities.
+
+18
+00:01:32,600 --> 00:01:41,560
+ And I called Al and I said, "Al, this is a great opportunity, but IBM is not going
+
+19
+00:01:41,560 --> 00:01:45,920
+ to be successful here and I need your help."
+
+20
+00:01:45,920 --> 00:01:50,000
+ And so Al sort of rallied some folks from IBM Research, where there actually was work
+
+21
+00:01:50,000 --> 00:01:53,320
+ going on in TCP/IP protocols.
+
+22
+00:01:53,320 --> 00:01:59,120
+ We got tentatively an agreement from IBM that they would contribute the hardware and the
+
+23
+00:01:59,120 --> 00:02:04,600
+ software to create the routing structure for the network.
+
+24
+00:02:04,600 --> 00:02:10,520
+ But we still needed the communications facilities.
+
+25
+00:02:10,520 --> 00:02:21,240
+ And at that time, the CFO at IBM was a gentleman, I think I remember the name correctly, his
+
+26
+00:02:21,240 --> 00:02:23,840
+ last name was Crowe.
+
+27
+00:02:23,840 --> 00:02:33,200
+ And so through IBM, we went to him and he had contacts with a former IBM employee who
+
+28
+00:02:33,200 --> 00:02:45,520
+ was now the Chief Technical Officer and essentially the Chief Network Operations Officer for MCI.
+
+29
+00:02:45,520 --> 00:02:49,080
+ His name was Dick Liebhaber.
+
+30
+00:02:49,080 --> 00:02:56,040
+ And so IBM approached Dick Liebhaber and asked him if MCI would be interested in providing
+
+31
+00:02:56,040 --> 00:02:59,000
+ the communications facilities for this network.
+
+32
+00:02:59,000 --> 00:03:05,200
+ Well, as you may recall, at that time, MCI was this fledgling organization.
+
+33
+00:03:05,200 --> 00:03:12,800
+ Some people had described it really as a law office trying to create an environment where
+
+34
+00:03:12,800 --> 00:03:18,200
+ they could actually offer telecommunication services up against AT&T's lobbying efforts.
+
+35
+00:03:18,200 --> 00:03:19,800
+ They had just been successful in that.
+
+36
+00:03:19,800 --> 00:03:26,640
+ They were establishing facilities across the United States.
+
+37
+00:03:26,640 --> 00:03:34,600
+ And Dick Liebhaber saw this as an opportunity to sort of move MCI into the big time to be
+
+38
+00:03:34,600 --> 00:03:37,480
+ part of this NSFNET proposal.
+
+39
+00:03:37,480 --> 00:03:45,000
+ And so we wound up with an agreement that we would file a joint proposal with Merit
+
+40
+00:03:45,000 --> 00:03:53,480
+ as the principal organization in partnership with IBM who would build all the routing hardware
+
+41
+00:03:53,480 --> 00:04:00,120
+ and software and with MCI who would provide the nationwide communications facilities.
+
+42
+00:04:00,120 --> 00:04:07,240
+ And while we were--and then we got Governor Blanchard to commit a million dollars a year
+
+43
+00:04:07,240 --> 00:04:10,440
+ from state funds in addition.
+
+44
+00:04:10,440 --> 00:04:15,240
+ So we wound up being able to submit a proposal to the National Science Foundation I think
+
+45
+00:04:15,240 --> 00:04:21,160
+ for something like $14.7 million because we knew the ceiling was 15.
+
+46
+00:04:21,160 --> 00:04:29,520
+ But in fact, by including all this in kind activity, it was actually more like a $55
+
+47
+00:04:29,520 --> 00:04:31,280
+ million proposal.
+
+48
+00:04:31,280 --> 00:04:42,600
+ It was designed to start at T1 or 1.5 megabits with planned upgrades over the period of the
+
+49
+00:04:42,600 --> 00:04:46,040
+ network's life.
+
+50
+00:04:46,040 --> 00:04:52,520
+ We subsequently learned that the proposal was received with considerable skepticism
+
+51
+00:04:52,520 --> 00:04:56,440
+ by the reviewers of the National Science Foundation.
+
+52
+00:04:56,440 --> 00:05:00,840
+ People really wondered about our technical ability to pull this off.
+
+53
+00:05:00,840 --> 00:05:08,840
+ But that review was conducted without reference to the actual funding pattern.
+
+54
+00:05:08,840 --> 00:05:15,860
+ And then when the wraps got pulled off of the amount of resource that was being committed
+
+55
+00:05:15,860 --> 00:05:22,400
+ by the partners to this proposal, it immediately went to the top of the list at the NSF.
+
+56
+00:05:22,400 --> 00:05:28,640
+ And a short period later, we received informal word that they wanted to negotiate with us
+
+57
+00:05:28,640 --> 00:05:31,280
+ about sort of working this all out.
+
+58
+00:05:31,280 --> 00:05:33,600
+ But we had to do a lot of innovation.
+
+59
+00:05:33,600 --> 00:05:38,520
+ The border gateway protocols had to be developed to allow multiple networks to interact with
+
+60
+00:05:38,520 --> 00:05:41,800
+ one another.
+
+61
+00:05:41,800 --> 00:05:49,760
+ And we had to build increasingly more capable routing and communications facilities.
+
+62
+00:05:49,760 --> 00:06:02,520
+ When we started the network, we had T1 circuits, but there were no cards for computers that
+
+63
+00:06:02,520 --> 00:06:05,240
+ would go at 1.5 megabits.
+
+64
+00:06:05,240 --> 00:06:11,400
+ We used the T1 circuits we subdivided and built a mesh network among all of the routers
+
+65
+00:06:11,400 --> 00:06:14,160
+ that we put in place.
+
+66
+00:06:14,160 --> 00:06:20,120
+ It wasn't for about a year, IBM was actually to build prototype cards that would go at
+
+67
+00:06:20,120 --> 00:06:23,120
+ 1.5 megabits.
+
+68
+00:06:23,120 --> 00:06:29,800
+ When we put those cards in our test network, we discovered they worked just fine.
+
+69
+00:06:29,800 --> 00:06:34,040
+ We put them in the production network, the network started failing on us.
+
+70
+00:06:34,040 --> 00:06:45,380
+ And we discovered after a very tough period that the folks who had built the T1 hardware
+
+71
+00:06:45,380 --> 00:06:52,520
+ for MCI had planned on using certain bit patterns to do diagnosis on the network and had never
+
+72
+00:06:52,520 --> 00:06:58,160
+ anticipated the notion that anybody would ever use a full 1.5 megabits as a single channel.
+
+73
+00:06:58,160 --> 00:07:03,920
+ They had always thought that it would be broken up into a set of voice circuits at 64 kilobits
+
+74
+00:07:03,920 --> 00:07:04,920
+ each.
+
+75
+00:07:04,920 --> 00:07:07,920
+ And so they didn't have any worry about these patterns ever appearing on their network.
+
+76
+00:07:07,920 --> 00:07:16,240
+ Well, it turned out that that happened with some frequency on the NSF net and it took
+
+77
+00:07:16,240 --> 00:07:18,320
+ the communications line down when it did.
+
+78
+00:07:18,320 --> 00:07:24,600
+ So they had to re-engineer their hardware to undertake this.
+
+79
+00:07:24,600 --> 00:07:29,400
+ We actually had for a short period of time put some translation circuits in our routers
+
+80
+00:07:29,400 --> 00:07:33,780
+ that actually looked for these bit patterns, took them out and replaced them with something
+
+81
+00:07:33,780 --> 00:07:40,540
+ else and then reinserted them at the other end to make it work over these T1 circuits.
+
+82
+00:07:40,540 --> 00:07:44,720
+ So we had a lot of adventure.
+
+83
+00:07:44,720 --> 00:07:55,640
+ Finally in, I think it was around 1990, this network was growing so fast that it was clear
+
+84
+00:07:55,640 --> 00:08:01,920
+ that these T1 circuits were not going to enable what we needed to do.
+
+85
+00:08:01,920 --> 00:08:09,920
+ So we had to go to the next step which was DS3 or from 1.5 megabits to 45 megabits which
+
+86
+00:08:09,920 --> 00:08:14,560
+ was a very large step, a 30-fold increase in capacity.
+
+87
+00:08:14,560 --> 00:08:21,360
+ And in order to do that we wound up creating another not-for-profit organization called
+
+88
+00:08:21,360 --> 00:08:23,600
+ Advanced Network and Services.
+
+89
+00:08:23,600 --> 00:08:29,720
+ Merit was still the principal investigator on the grant but it subcontracted the development
+
+90
+00:08:29,720 --> 00:08:37,160
+ of this new network, this 45 megabit network to Advanced Network and Services which was
+
+91
+00:08:37,160 --> 00:08:41,320
+ headquartered in Armonk.
+
+92
+00:08:41,320 --> 00:08:58,280
+ And IBM, MCI and Nortel all contributed $3 million to the founding of this new organization
+
+93
+00:08:58,280 --> 00:09:06,920
+ so it had the staff and the facilities to do the innovation that required us to go up
+
+94
+00:09:06,920 --> 00:09:10,400
+ to 45 megabits.
+
+95
+00:09:10,400 --> 00:09:18,240
+ That did accommodate our capacity needs over the life of the NSFnet.
+
+96
+00:09:18,240 --> 00:09:27,840
+ The NSFnet was the fastest internet network to the end.
+
+97
+00:09:27,840 --> 00:09:41,140
+ It finally was decommissioned in 1995 when the Congress decided that the federal government
+
+98
+00:09:41,140 --> 00:09:48,040
+ should not be in the business of supporting something that by that time in their view
+
+99
+00:09:48,040 --> 00:09:52,080
+ should have become a commercial facility.
+
+100
+00:09:52,080 --> 00:10:07,720
+ I'll not ever forget sitting in a house hearing room in the Capitol and next to Mitch
+
+101
+00:10:07,720 --> 00:10:25,840
+ Kapoor and some small internet company startup CEOs who were complaining to the Congress
+
+102
+00:10:25,840 --> 00:10:35,200
+ that it was inappropriate for the NSFnet to be funded by the National Science Foundation
+
+103
+00:10:35,200 --> 00:10:39,760
+ when they could provide this service as a commercial service.
+
+104
+00:10:39,760 --> 00:10:47,720
+ At the very same time they were making that complaint, they were using NSFnet as their
+
+105
+00:10:47,720 --> 00:10:55,600
+ backup network to carry traffic when their much less reliable networks failed on a national
+
+106
+00:10:55,600 --> 00:10:56,600
+ scale.
+
+107
+00:10:56,600 --> 00:11:04,760
+ MCI of course turned out to be a major internet service provider also using the same technology.
+
+108
+00:11:04,760 --> 00:11:15,720
+ In a classic innovator's curse moment, IBM who was at that time the leader in routing
+
+109
+00:11:15,720 --> 00:11:28,120
+ technology for internet backbones, managed to decide that they should kill all of the
+
+110
+00:11:28,120 --> 00:11:33,600
+ work they had done in developing these routers because it would threaten their proprietary
+
+111
+00:11:33,600 --> 00:11:35,160
+ network efforts.
+
+112
+00:11:35,160 --> 00:11:40,320
+ It's probably almost single handedly responsible for the fact that Cisco became the dominant
+
+113
+00:11:40,320 --> 00:11:44,160
+ router company in the United States rather than IBM.
+

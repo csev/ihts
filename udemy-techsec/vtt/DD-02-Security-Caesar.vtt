@@ -1,0 +1,1157 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:04.000
+ So the first topic that we're going to talk about is confidentiality.
+
+00:00:04.000 --> 00:00:05.600
+ Encryption and decryption.
+
+00:00:05.600 --> 00:00:09.920
+ And of course, this was what was going on at Bletchley Park in World War II.
+
+00:00:09.920 --> 00:00:16.040
+ So the terminology that we'll use in this is plaintext and ciphertext.
+
+00:00:16.040 --> 00:00:19.640
+ And the idea is, whether it's text or other information,
+
+00:00:19.640 --> 00:00:22.880
+ there is the information that we actually want to transmit,
+
+00:00:22.880 --> 00:00:25.000
+ whether it's a credit card number or something else.
+
+00:00:25.000 --> 00:00:27.960
+ And then there is the encrypted version of that.
+
+00:00:27.960 --> 00:00:29.480
+ And we'll call that the ciphertext.
+
+00:00:29.480 --> 00:00:34.040
+ And the ciphertext is what we assume is revealed to intermediate parties,
+
+00:00:34.040 --> 00:00:38.540
+ whether they are stopping it and changing it or they're just watching it.
+
+00:00:38.540 --> 00:00:44.520
+ It's still the ciphertext is the stuff that we are just by the nature
+
+00:00:44.520 --> 00:00:46.840
+ of the communication, we are forced to reveal it.
+
+00:00:46.840 --> 00:00:49.400
+ Or there is a probability that we'll reveal it.
+
+00:00:49.400 --> 00:00:51.960
+ So it is hopefully unintelligible.
+
+00:00:51.960 --> 00:00:56.600
+ And hopefully, it is difficult to go from the ciphertext to the plaintext,
+
+00:00:56.600 --> 00:01:01.840
+ except if you are the actual intended recipient, or impossible.
+
+00:01:01.840 --> 00:01:06.320
+ Encryption is the act of going from plaintext to ciphertext.
+
+00:01:06.320 --> 00:01:10.200
+ And returning the ciphertext back to the plaintext is decryption.
+
+00:01:10.200 --> 00:01:13.800
+ And there is a key, some kind of a key which is really
+
+00:01:13.800 --> 00:01:19.600
+ sort of some data plus a technique, plus an algorithm that goes back and forth.
+
+00:01:19.600 --> 00:01:23.680
+ So there are two kinds of systems that we'll talk about in the upcoming lectures.
+
+00:01:23.680 --> 00:01:28.880
+ One is called a secret key, and the other is called a public key.
+
+00:01:28.880 --> 00:01:32.080
+ The secret key is the one we talked about at the very beginning.
+
+00:01:32.080 --> 00:01:39.640
+ The secret key was really used from the Romans and Caesar on up to World War II.
+
+00:01:39.640 --> 00:01:44.840
+ The public key encryption really is much more recent in the 60s and the 70s.
+
+00:01:44.840 --> 00:01:47.160
+ And we'll talk about that later on.
+
+00:01:47.160 --> 00:01:51.840
+ So the first thing we'll talk about is the shared secret or secret key.
+
+00:01:51.840 --> 00:01:54.080
+ The secret key is also called symmetric key, which
+
+00:01:54.080 --> 00:01:59.000
+ means that both parties have to be in possession of the same information.
+
+00:01:59.000 --> 00:02:04.560
+ You basically use the same key material to encrypt as you do to decrypt.
+
+00:02:04.560 --> 00:02:09.400
+ The public key is asymmetric, which means you use one key to encrypt
+
+00:02:09.400 --> 00:02:10.800
+ and a different key to decrypt.
+
+00:02:10.800 --> 00:02:13.360
+ We'll get to that later.
+
+00:02:13.360 --> 00:02:19.440
+ And so the problem that secret key has that led to the need to invent public key
+
+00:02:19.440 --> 00:02:23.400
+ is the fact that you need to, at some point, have a secure communication.
+
+00:02:23.400 --> 00:02:26.600
+ Whether you're sitting in a room together and you hand each other code books,
+
+00:02:26.600 --> 00:02:32.120
+ whatever it is, you have to have a way to distribute the key in a secure manner.
+
+00:02:32.120 --> 00:02:36.360
+ The public key, which we'll get to later, has a way of distributing the key
+
+00:02:36.360 --> 00:02:37.760
+ using insecure medium.
+
+00:02:37.760 --> 00:02:41.960
+ And you'll see when we get there, it's so obvious and clever,
+
+00:02:41.960 --> 00:02:47.560
+ you wonder why nobody thought of it until very recently.
+
+00:02:47.560 --> 00:02:49.840
+ So here is the path.
+
+00:02:49.840 --> 00:02:52.240
+ You have some plain text.
+
+00:02:52.240 --> 00:02:55.760
+ You have, say, the word candy that you want to send.
+
+00:02:55.760 --> 00:02:59.440
+ You're going to encrypt with a shift, where you just
+
+00:02:59.440 --> 00:03:00.920
+ go to the next later letter.
+
+00:03:00.920 --> 00:03:07.560
+ So C becomes D. A becomes B. N becomes O. And so now we have the D-B-O-E-Z.
+
+00:03:07.560 --> 00:03:10.520
+ That is the plain text coming from Alice.
+
+00:03:10.520 --> 00:03:18.360
+ Alice sends it in the dangerous, dangerous, nasty, wide world of routers
+
+00:03:18.360 --> 00:03:25.200
+ or radio with Morse code or whatever it is we're going to do.
+
+00:03:25.200 --> 00:03:28.080
+ Whatever it is we're going to do, where the message might
+
+00:03:28.080 --> 00:03:29.640
+ be intercepted by somebody like Eve.
+
+00:03:29.640 --> 00:03:31.680
+ Now, they're not intercepting the plain text.
+
+00:03:31.680 --> 00:03:34.680
+ We assume that this part here is secure and this part here is secure.
+
+00:03:34.680 --> 00:03:38.320
+ It's only dangerous while it's in flight somehow in the middle.
+
+00:03:38.320 --> 00:03:40.760
+ And we only worry about Eve getting it.
+
+00:03:40.760 --> 00:03:47.640
+ And then at some point, because Bob has the key, which is subtract 1,
+
+00:03:47.640 --> 00:03:49.920
+ Bob goes from each of the cyber text letters
+
+00:03:49.920 --> 00:03:52.200
+ back to the plain text letters.
+
+00:03:52.200 --> 00:03:56.320
+ And voila, out comes the plain text again.
+
+00:03:56.320 --> 00:04:03.800
+ And so Eve's problem is Eve is only handed-- well, no, sorry.
+
+00:04:03.800 --> 00:04:05.520
+ Eve is not given the key.
+
+00:04:05.520 --> 00:04:08.160
+ Eve is given the cipher text and nothing else.
+
+00:04:08.160 --> 00:04:12.960
+ And she must, like Bletchley Park, must derive whatever it is.
+
+00:04:12.960 --> 00:04:18.960
+ Derive the key, derive the plain text, whatever it is, that's Eve's goal.
+
+00:04:18.960 --> 00:04:26.240
+ The Caesar cipher is kind of the oldest, most widely used forms of encryption.
+
+00:04:26.240 --> 00:04:29.400
+ It uses the notion of a shift.
+
+00:04:29.400 --> 00:04:32.680
+ The shift number is just as I've shown.
+
+00:04:32.680 --> 00:04:41.640
+ A shift of 1 means a becomes b and x becomes y and l becomes m.
+
+00:04:41.640 --> 00:04:44.640
+ So you just take and move a fixed position down the l.
+
+00:04:44.640 --> 00:04:47.580
+ This was used for a surprisingly long period of time.
+
+00:04:47.580 --> 00:04:49.360
+ And there's some pretty good YouTube videos
+
+00:04:49.360 --> 00:04:55.260
+ that if you want to see more about how this works and the math behind it
+
+00:04:55.260 --> 00:04:58.040
+ and how you break it, it's pretty fascinating.
+
+00:04:58.040 --> 00:05:01.440
+ I mean, finally, it's completely breakable.
+
+00:05:01.440 --> 00:05:05.160
+ And we're actually going to break it here pretty soon ourselves.
+
+00:05:05.160 --> 00:05:07.360
+ So the Caesar cipher.
+
+00:05:07.360 --> 00:05:11.960
+ So I want to pause and let you see a YouTube video here
+
+00:05:11.960 --> 00:05:18.440
+ from a beloved movie called The Christmas Story, where little Ralphie
+
+00:05:18.440 --> 00:05:21.840
+ gets his Little Orphan Annie secret decoder ring.
+
+00:05:21.840 --> 00:05:27.480
+ And Little Orphan Annie sends a decoded message, an encoded cipher
+
+00:05:27.480 --> 00:05:29.040
+ text, through the radio.
+
+00:05:29.040 --> 00:05:32.120
+ Everyone can hear it, but only those people who have the secret decoder
+
+00:05:32.120 --> 00:05:34.120
+ ring can decrypt the message.
+
+00:05:34.120 --> 00:05:37.280
+ And you can see that it is a Caesar cipher.
+
+00:05:37.280 --> 00:05:38.080
+ It has a shift.
+
+00:05:38.080 --> 00:05:42.440
+ You'll note that the first thing they say before they
+
+00:05:42.440 --> 00:05:46.120
+ say the encrypted message in the radio is that you're
+
+00:05:46.120 --> 00:05:49.080
+ supposed to connect b and 13 or something like that.
+
+00:05:49.080 --> 00:05:54.200
+ And then you rotate the two wheels of the secret decoder ring to the b 13.
+
+00:05:54.200 --> 00:05:57.800
+ And then you can read across the secret decoder ring
+
+00:05:57.800 --> 00:06:00.280
+ and decrypt the message as it's decrypted.
+
+00:06:00.280 --> 00:06:02.160
+ And then he slowly decrypts it.
+
+00:06:02.160 --> 00:06:05.360
+ And then, of course, there is the delightful moment
+
+00:06:05.360 --> 00:06:12.240
+ where he realizes the crash, crass commercialism,
+
+00:06:12.240 --> 00:06:16.080
+ or the complete lack of interesting meaning in all of this.
+
+00:06:16.080 --> 00:06:20.720
+ So without further ado, let's take a look at Ralphie and Christmas Story.
+
+00:06:20.720 --> 00:06:21.600
+ We'll be right back.
+
+00:06:21.600 --> 00:06:27.400
+ So I hope you like that.
+
+00:06:27.400 --> 00:06:29.600
+ I hope you like that.
+
+00:06:29.600 --> 00:06:32.600
+ And so off we go.
+
+00:06:32.600 --> 00:06:35.200
+ We're going to have a secret decoder ring for this class.
+
+00:06:35.200 --> 00:06:39.000
+ I would love to be able to send you all--
+
+00:06:39.000 --> 00:06:39.760
+ come down.
+
+00:06:39.760 --> 00:06:42.680
+ I would love to be able to send you all a little mechanical wheel
+
+00:06:42.680 --> 00:06:44.400
+ to move the stuff back and forth.
+
+00:06:44.400 --> 00:06:48.840
+ But instead, I use the internet, and I'm going to send you a PDF.
+
+00:06:48.840 --> 00:06:55.120
+ And at this point, you might want to pause the video and grab this PDF.
+
+00:06:55.120 --> 00:07:01.280
+ Grab it, secretdecoder.pdf, drchuck.com/secret-decoder.pdf,
+
+00:07:01.280 --> 00:07:02.360
+ and download it.
+
+00:07:02.360 --> 00:07:05.240
+ And you might even want to print it out, because we're going to,
+
+00:07:05.240 --> 00:07:11.760
+ at this moment, do a code breaking exercise.
+
+00:07:11.760 --> 00:07:15.600
+ And so let me tell you how to use this secret decoder ring.
+
+00:07:15.600 --> 00:07:19.240
+ So the top line here is the plain text.
+
+00:07:19.240 --> 00:07:24.000
+ And if you recall, Caesar Shift has a shift number.
+
+00:07:24.000 --> 00:07:28.280
+ And so to encode, you go from a plain text.
+
+00:07:28.280 --> 00:07:31.440
+ Let's say I want to do Chuck.
+
+00:07:31.440 --> 00:07:35.640
+ I want to encode Chuck.
+
+00:07:35.640 --> 00:07:38.580
+ And I want to encode it with a shift of 2.
+
+00:07:38.580 --> 00:07:41.400
+ So a shift of 2 means we select this.
+
+00:07:41.400 --> 00:07:46.680
+ And we basically go C is our plain text.
+
+00:07:46.680 --> 00:07:52.840
+ And then down, we go E. So then we go E is our first letter.
+
+00:07:52.840 --> 00:07:57.160
+ And then H is our second letter.
+
+00:07:57.160 --> 00:07:58.720
+ So we go down.
+
+00:07:58.720 --> 00:08:02.120
+ And that means H becomes J. Yeah.
+
+00:08:02.120 --> 00:08:08.760
+ And so U becomes W. So now I'm doing my encryption.
+
+00:08:08.760 --> 00:08:14.520
+ So EHW is the encrypted ciphertext.
+
+00:08:14.520 --> 00:08:18.560
+ So let me clear that and write back down here.
+
+00:08:18.560 --> 00:08:24.000
+ Let me give me a different color, EHW.
+
+00:08:24.000 --> 00:08:26.720
+ Now to decrypt, remember, you need to know the shift.
+
+00:08:26.720 --> 00:08:29.440
+ So we somehow communicated separately and securely
+
+00:08:29.440 --> 00:08:31.040
+ what the shift was.
+
+00:08:31.040 --> 00:08:34.120
+ And so now we have received our ciphertext.
+
+00:08:34.120 --> 00:08:38.640
+ We received our ciphertext.
+
+00:08:38.640 --> 00:08:41.000
+ And we need to decrypt it.
+
+00:08:41.000 --> 00:08:42.920
+ And so we know that the shift is 2.
+
+00:08:42.920 --> 00:08:46.640
+ So we go to E. We go in the shift row.
+
+00:08:46.640 --> 00:08:48.320
+ And then we go up to the plain text row.
+
+00:08:48.320 --> 00:08:52.000
+ And that says the first one is C. Then we go to H.
+
+00:08:52.000 --> 00:08:54.960
+ We go to the encoded text row.
+
+00:08:54.960 --> 00:08:57.160
+ And we go back up to the plain text row.
+
+00:08:57.160 --> 00:09:01.960
+ And so that's an H. Oh, wait, wait, wait.
+
+00:09:01.960 --> 00:09:03.320
+ It's not HW.
+
+00:09:03.320 --> 00:09:04.080
+ What am I thinking?
+
+00:09:04.080 --> 00:09:06.480
+ This should have been a J. I got this wrong.
+
+00:09:06.480 --> 00:09:07.680
+ Sorry about that.
+
+00:09:07.680 --> 00:09:09.200
+ So that's wrong.
+
+00:09:09.200 --> 00:09:12.240
+ Here's a J. Moves up to the H. Then the W.
+
+00:09:12.240 --> 00:09:13.440
+ Let's see if I got W right.
+
+00:09:13.440 --> 00:09:13.940
+ Yeah.
+
+00:09:13.940 --> 00:09:16.920
+ So W is my last ciphertext.
+
+00:09:16.920 --> 00:09:21.240
+ And it goes up to the U. Dot, dot, dot, dot, dot.
+
+00:09:21.240 --> 00:09:27.280
+ So you see the pattern that our encoding is plain text down
+
+00:09:27.280 --> 00:09:28.640
+ to shift position.
+
+00:09:28.640 --> 00:09:33.840
+ And our decoding is shift position back up to plain text.
+
+00:09:33.840 --> 00:09:36.080
+ So this is our secret decoder ring.
+
+00:09:36.080 --> 00:09:40.960
+ So go grab it and download it so that you can participate
+
+00:09:40.960 --> 00:09:43.920
+ in the next exercise.
+
+00:09:43.920 --> 00:09:50.260
+ So now you are going to be cast in the role of Bletchley Park.
+
+00:09:50.260 --> 00:09:50.960
+ OK?
+
+00:09:50.960 --> 00:09:51.680
+ Ready?
+
+00:09:51.680 --> 00:09:56.480
+ So here is your first code-breaking exercise.
+
+00:09:56.480 --> 00:09:58.080
+ OK.
+
+00:09:58.080 --> 00:10:00.600
+ So here we go.
+
+00:10:00.600 --> 00:10:02.160
+ So you're Bletchley Park, right?
+
+00:10:02.160 --> 00:10:05.960
+ You just intercepted this ciphertext.
+
+00:10:05.960 --> 00:10:12.600
+ U-B-- oh, U-P-B-T-U. Whoa, it's encrypted.
+
+00:10:12.600 --> 00:10:15.000
+ It's clearly meaningless.
+
+00:10:15.000 --> 00:10:16.800
+ So how are you going to decrypt it?
+
+00:10:16.800 --> 00:10:21.240
+ Well, the technique is take a look
+
+00:10:21.240 --> 00:10:24.880
+ and decrypt it with all the shift numbers, right?
+
+00:10:24.880 --> 00:10:26.240
+ You're going to do this by hand.
+
+00:10:26.240 --> 00:10:28.360
+ You're going to be a computer yourself.
+
+00:10:28.360 --> 00:10:32.160
+ You're going to do all the shift decrypting.
+
+00:10:32.160 --> 00:10:34.440
+ And just like in Bletchley Park, you
+
+00:10:34.440 --> 00:10:38.220
+ know you succeeded when the plain text makes sense, right?
+
+00:10:38.220 --> 00:10:40.680
+ When the plain text makes no sense,
+
+00:10:40.680 --> 00:10:41.840
+ then you haven't succeeded.
+
+00:10:41.840 --> 00:10:46.480
+ But at some point, the plain text makes sense.
+
+00:10:46.480 --> 00:10:50.000
+ So what you need to do is take your secret decoder ring,
+
+00:10:50.000 --> 00:10:53.440
+ and you need to decrypt it with a shift of 1, a shift of 2,
+
+00:10:53.440 --> 00:10:55.720
+ a shift of 3, a shift of 4.
+
+00:10:55.720 --> 00:10:57.640
+ And if you have your family members around,
+
+00:10:57.640 --> 00:10:59.120
+ you can print out multiple copies
+
+00:10:59.120 --> 00:11:00.680
+ of the secret decoder ring, and you
+
+00:11:00.680 --> 00:11:03.520
+ can assign different shifts to different family members.
+
+00:11:03.520 --> 00:11:08.320
+ So you have to decrypt this 26 times.
+
+00:11:08.320 --> 00:11:10.000
+ You have to decrypt it 26 times.
+
+00:11:10.000 --> 00:11:12.160
+ And then you look at all the 26 decryptions,
+
+00:11:12.160 --> 00:11:17.080
+ and then you decide which one makes the most sense, OK?
+
+00:11:17.080 --> 00:11:20.160
+ So don't peek.
+
+00:11:20.160 --> 00:11:21.800
+ Decrypt this one.
+
+00:11:21.800 --> 00:11:24.400
+ I made it easy on you, OK?
+
+00:11:24.400 --> 00:11:27.640
+ So we'll stop now and give you a little bit of time
+
+00:11:27.640 --> 00:11:29.480
+ to decrypt this one.
+
+00:11:29.480 --> 00:11:32.360
+ Don't start pause until you actually have decrypted it,
+
+00:11:32.360 --> 00:11:32.860
+ OK?
+
+00:11:40.760 --> 00:11:44.160
+ OK, this is your last chance for spoiler alert.
+
+00:11:44.160 --> 00:11:44.920
+ So here we are.
+
+00:11:44.920 --> 00:11:47.200
+ We're about to decrypt it.
+
+00:11:47.200 --> 00:11:48.680
+ Here we go.
+
+00:11:48.680 --> 00:11:50.240
+ I did make it easy on you.
+
+00:11:50.240 --> 00:11:51.400
+ It was a shift of 1.
+
+00:11:51.400 --> 00:11:56.680
+ It was a shift of 1.
+
+00:11:56.680 --> 00:11:59.440
+ If you started at 12, you're kind of foolish, right?
+
+00:11:59.440 --> 00:12:02.880
+ So you started at 1, and you go like, oh, great.
+
+00:12:02.880 --> 00:12:04.920
+ So now I'm going to decrypt it.
+
+00:12:04.920 --> 00:12:06.320
+ I'll start at 1.
+
+00:12:06.320 --> 00:12:07.120
+ Here's the plain text.
+
+00:12:07.120 --> 00:12:07.960
+ This should be PP.
+
+00:12:07.960 --> 00:12:09.220
+ That's the plain text.
+
+00:12:09.220 --> 00:12:14.640
+ So I'll start with U. If it's 1, then I go up, and it's T.
+
+00:12:14.640 --> 00:12:20.820
+ And the second one is P. So I go up, and it's O, T-O.
+
+00:12:20.820 --> 00:12:21.320
+ Keep going.
+
+00:12:21.320 --> 00:12:23.120
+ It says toast.
+
+00:12:23.120 --> 00:12:27.760
+ So you say to yourself, well, that's a word, so it must be it.
+
+00:12:27.760 --> 00:12:30.320
+ Well, hello.
+
+00:12:30.320 --> 00:12:32.200
+ What are you doing here?
+
+00:12:32.200 --> 00:12:34.080
+ Do you want to say hi to my students?
+
+00:12:34.080 --> 00:12:34.580
+ Meow.
+
+00:12:37.640 --> 00:12:39.320
+ This is a cat.
+
+00:12:39.320 --> 00:12:41.000
+ This is an Eddie cat.
+
+00:12:41.000 --> 00:12:44.780
+ He likes to come up into my office and look.
+
+00:12:44.780 --> 00:12:49.120
+ So do you know anything about encryption?
+
+00:12:49.120 --> 00:12:50.520
+ Do you know anything about encryption?
+
+00:12:50.520 --> 00:12:55.400
+ So you use a shift of 1, and then you go from the encryption
+
+00:12:55.400 --> 00:12:58.600
+ text up to the plain text.
+
+00:12:58.600 --> 00:12:59.720
+ Meow.
+
+00:12:59.720 --> 00:13:00.600
+ OK.
+
+00:13:00.600 --> 00:13:04.440
+ You are clearly not interested in my lecture.
+
+00:13:04.440 --> 00:13:06.000
+ So that was my cat.
+
+00:13:06.000 --> 00:13:07.520
+ Hello.
+
+00:13:07.520 --> 00:13:08.040
+ Sorry.
+
+00:13:08.040 --> 00:13:11.040
+ Can't open the window for you, because I'm doing a lecture.
+
+00:13:11.040 --> 00:13:13.640
+ OK.
+
+00:13:13.640 --> 00:13:19.040
+ So you're going to just keep bugging that window
+
+00:13:19.040 --> 00:13:21.560
+ until I kick you out of the other room, aren't you?
+
+00:13:21.560 --> 00:13:23.480
+ So you're going to have to get kicked out.
+
+00:13:23.480 --> 00:13:29.200
+ Out you go.
+
+00:13:29.200 --> 00:13:34.920
+ He was going to keep hitting that until I opened it for him.
+
+00:13:34.920 --> 00:13:37.200
+ OK.
+
+00:13:37.200 --> 00:13:39.160
+ So now you've broken this code.
+
+00:13:39.160 --> 00:13:40.960
+ And again, just like in Bletchley Park,
+
+00:13:40.960 --> 00:13:43.280
+ you only knew that you broke it if it made sense.
+
+00:13:43.280 --> 00:13:48.360
+ And so luckily, in Bletchley Park, the messages were longer,
+
+00:13:48.360 --> 00:13:51.400
+ and they were often looking for canonical things
+
+00:13:51.400 --> 00:13:53.240
+ that they would say every day.
+
+00:13:53.240 --> 00:13:55.640
+ So here we go.
+
+00:13:55.640 --> 00:14:02.120
+ And so that's the breaking of that one.
+
+00:14:02.120 --> 00:14:05.760
+ And it turns out the shift of 1 was the thing that we did.
+
+00:14:05.760 --> 00:14:09.560
+ So here is your second task.
+
+00:14:09.560 --> 00:14:13.880
+ This one's longer, and it's not a shift of 1.
+
+00:14:13.880 --> 00:14:17.560
+ And so this is a situation where you really
+
+00:14:17.560 --> 00:14:20.080
+ would have to get your whole family going on this,
+
+00:14:20.080 --> 00:14:23.040
+ where you've got to do 26 decryptions of this.
+
+00:14:23.040 --> 00:14:26.320
+ And it will make sense to you.
+
+00:14:26.320 --> 00:14:29.480
+ You decrypt it 26 times.
+
+00:14:29.480 --> 00:14:31.960
+ And so this one's going to be harder.
+
+00:14:31.960 --> 00:14:34.080
+ I guess you could just decrypt one word,
+
+00:14:34.080 --> 00:14:37.320
+ but it's just not a shift of 1.
+
+00:14:37.320 --> 00:14:40.760
+ But now we're going to do another trick.
+
+00:14:40.760 --> 00:14:44.040
+ So I don't want you to try all 26,
+
+00:14:44.040 --> 00:14:46.200
+ because there's a mistake in this.
+
+00:14:46.200 --> 00:14:49.240
+ There is a leakage of information
+
+00:14:49.240 --> 00:14:51.960
+ that makes it so that you can figure out
+
+00:14:51.960 --> 00:14:55.480
+ what the right decryption to try might be.
+
+00:14:55.480 --> 00:14:57.440
+ So this is English.
+
+00:14:57.440 --> 00:15:00.000
+ This is an English sentence.
+
+00:15:00.000 --> 00:15:04.280
+ So stare at it for a while and find a more optimal way
+
+00:15:04.280 --> 00:15:08.880
+ to decrypt it than trying all 26 shift patterns.
+
+00:15:08.880 --> 00:15:10.680
+ So there's a way to optimize this,
+
+00:15:10.680 --> 00:15:16.120
+ a way to cleverly figure out what might be the best shift,
+
+00:15:16.120 --> 00:15:20.520
+ or how not to have to decrypt the entire message 26 times
+
+00:15:20.520 --> 00:15:22.760
+ to reduce the complexity.
+
+00:15:22.760 --> 00:15:25.720
+ And that's because we've leaked some information here that
+
+00:15:25.720 --> 00:15:28.160
+ should be pretty obvious to you.
+
+00:15:28.160 --> 00:15:30.560
+ So let me give you a moment to break this one.
+
+00:15:30.560 --> 00:15:32.200
+ It shouldn't take you too long, and you
+
+00:15:32.200 --> 00:15:34.880
+ shouldn't have to force your whole family to decrypt
+
+00:15:34.880 --> 00:15:36.520
+ this stuff.
+
+00:15:36.520 --> 00:15:37.400
+ So here we go.
+
+00:15:37.400 --> 00:15:38.840
+ Give you a chance to decrypt it.
+
+00:15:38.840 --> 00:15:49.480
+ Here's your last chance before the reveal.
+
+00:15:49.480 --> 00:15:50.600
+ You ready?
+
+00:15:50.600 --> 00:15:51.080
+ Here we go.
+
+00:15:54.480 --> 00:15:59.840
+ So here is the decrypted text.
+
+00:15:59.840 --> 00:16:03.120
+ The shift turns out to be 13.
+
+00:16:03.120 --> 00:16:05.440
+ It's a shift to 13.
+
+00:16:05.440 --> 00:16:12.240
+ And the weakness of this whole thing is this right here.
+
+00:16:12.240 --> 00:16:16.440
+ In the English language, what is a single character--
+
+00:16:16.440 --> 00:16:18.480
+ we're not encrypting the spaces, you'll notice,
+
+00:16:18.480 --> 00:16:20.680
+ because the spaces come across.
+
+00:16:20.680 --> 00:16:25.760
+ So what is the one single character word
+
+00:16:25.760 --> 00:16:31.800
+ that we have in the English language that's capitalized?
+
+00:16:31.800 --> 00:16:37.160
+ Well, that's usually I. I need a jet, money and a jet.
+
+00:16:37.160 --> 00:16:42.880
+ What is the one thing that we do in the English language that
+
+00:16:42.880 --> 00:16:47.840
+ is a single character word that is lowercase, typically,
+
+00:16:47.840 --> 00:16:49.600
+ unless at the beginning of the sentence?
+
+00:16:49.600 --> 00:16:52.080
+ And that is the letter A.
+
+00:16:52.080 --> 00:16:55.000
+ So basically, you didn't have to decrypt the whole message.
+
+00:16:55.000 --> 00:16:56.920
+ You see some weird pattern.
+
+00:16:56.920 --> 00:16:58.320
+ And you go like this.
+
+00:16:58.320 --> 00:17:00.280
+ I just have to figure out.
+
+00:17:00.280 --> 00:17:02.120
+ And then you go look.
+
+00:17:02.120 --> 00:17:05.880
+ And you look in the row 13, the plain text.
+
+00:17:05.880 --> 00:17:09.000
+ And you go like, oh, where is-- you go look at the I,
+
+00:17:09.000 --> 00:17:10.760
+ because you guessed to the plain text.
+
+00:17:10.760 --> 00:17:13.120
+ And then you just look down until you see the V.
+
+00:17:13.120 --> 00:17:15.680
+ And within seconds, literally, within seconds,
+
+00:17:15.680 --> 00:17:17.800
+ if you do it right, within seconds,
+
+00:17:17.800 --> 00:17:19.560
+ you know it's a shift to 13.
+
+00:17:19.560 --> 00:17:24.120
+ And then it's a trivial matter to convert it.
+
+00:17:24.120 --> 00:17:26.280
+ So you could figure out the shift code within seconds.
+
+00:17:26.280 --> 00:17:29.720
+ And this was how Letchley Park figured it out.
+
+00:17:29.720 --> 00:17:34.040
+ And this is why the known plain text was so important.
+
+00:17:34.040 --> 00:17:36.200
+ Because you'd only have to figure out like one letter
+
+00:17:36.200 --> 00:17:37.960
+ if you knew what the plain text was.
+
+00:17:37.960 --> 00:17:42.000
+ And often, they would know by length and certain other things,
+
+00:17:42.000 --> 00:17:45.800
+ oh, I think we can guess what this plain text was
+
+00:17:45.800 --> 00:17:48.080
+ that this particular operator would send.
+
+00:17:48.080 --> 00:17:50.320
+ And this has to do with the leakage of information.
+
+00:17:50.320 --> 00:17:53.000
+ It's not the mathematical perfection or lack
+
+00:17:53.000 --> 00:17:55.200
+ of perfection in the security key.
+
+00:17:55.200 --> 00:17:56.520
+ It's some other leak.
+
+00:17:56.520 --> 00:17:58.720
+ It's some other thing where they're going like,
+
+00:17:58.720 --> 00:17:59.480
+ oh, wait a sec.
+
+00:17:59.480 --> 00:18:02.000
+ I can take advantage of something.
+
+00:18:02.000 --> 00:18:04.880
+ It was just equally encrypted as any other message.
+
+00:18:04.880 --> 00:18:07.840
+ But because I gave you this clue of an uppercase
+
+00:18:07.840 --> 00:18:10.920
+ single character word and a lowercase single character
+
+00:18:10.920 --> 00:18:15.920
+ word, lowercase single character word and uppercase single character
+
+00:18:15.920 --> 00:18:18.200
+ word, I greatly reduced the amount of effort
+
+00:18:18.200 --> 00:18:22.000
+ that you had to put in, OK?
+
+00:18:22.000 --> 00:18:25.760
+ Now what's cool about this-- you can go to this website,
+
+00:18:25.760 --> 00:18:30.440
+ www.wrote13.com-- is that long ago, before Facebook
+
+00:18:30.440 --> 00:18:32.320
+ and before Twitter and before all these things,
+
+00:18:32.320 --> 00:18:35.040
+ we had these things called newsgroups.
+
+00:18:35.040 --> 00:18:38.320
+ And they were kind of this weird kind of collective email
+
+00:18:38.320 --> 00:18:39.240
+ list that we had.
+
+00:18:39.240 --> 00:18:42.160
+ And this was like in the '80s.
+
+00:18:42.160 --> 00:18:44.360
+ And it was even used in store and forward networks,
+
+00:18:44.360 --> 00:18:46.880
+ where it was kind of like Facebook and store and forward
+
+00:18:46.880 --> 00:18:50.000
+ networks, meaning that it might take four hours for you
+
+00:18:50.000 --> 00:18:52.000
+ to see the status update.
+
+00:18:52.000 --> 00:18:55.280
+ But we kind of would subscribe to these collective things.
+
+00:18:55.280 --> 00:18:59.280
+ And there was one that was basically the dirty jokes.
+
+00:18:59.280 --> 00:19:02.800
+ And the thing about dirty jokes was part
+
+00:19:02.800 --> 00:19:05.160
+ of what we were trying to do in this thing
+
+00:19:05.160 --> 00:19:07.160
+ was you weren't supposed to swear.
+
+00:19:07.160 --> 00:19:12.600
+ And there was software that would filter out swear words
+
+00:19:12.600 --> 00:19:19.040
+ from-- if you put a swear word in to a dirty joke,
+
+00:19:19.040 --> 00:19:20.480
+ it would not forward the message.
+
+00:19:20.480 --> 00:19:24.180
+ And so we had to have a way to encrypt messages that
+
+00:19:24.180 --> 00:19:28.280
+ included swear words so that we could tell dirty jokes
+
+00:19:28.280 --> 00:19:30.240
+ to each other for those who wanted to subscribe
+
+00:19:30.240 --> 00:19:31.600
+ to the dirty joke list.
+
+00:19:31.600 --> 00:19:33.840
+ And so they came up with this Rote 13.
+
+00:19:33.840 --> 00:19:36.000
+ So we came up with a simple Caesar cipher
+
+00:19:36.000 --> 00:19:37.760
+ with a shift of 13.
+
+00:19:37.760 --> 00:19:41.560
+ 13, beautifully, of course, is 26 divided by 2.
+
+00:19:41.560 --> 00:19:43.160
+ So it's a symmetric shift.
+
+00:19:43.160 --> 00:19:46.600
+ The shifting in by 13 is the same as shifting out.
+
+00:19:46.600 --> 00:19:51.240
+ So of all the Caesar ciphers, a shift of 13,
+
+00:19:51.240 --> 00:19:52.560
+ the encryption and the decryption
+
+00:19:52.560 --> 00:19:55.080
+ are exactly the same calculation.
+
+00:19:55.080 --> 00:20:00.600
+ And so we would type our dirty joke into Rote 13
+
+00:20:00.600 --> 00:20:01.720
+ and convert it to Rote 13.
+
+00:20:01.720 --> 00:20:04.000
+ And we would send it in Rote 13.
+
+00:20:04.000 --> 00:20:05.920
+ And then we would-- if we wanted to decrypt it.
+
+00:20:05.920 --> 00:20:08.440
+ But what became funny after a while
+
+00:20:08.440 --> 00:20:12.880
+ was we were so used to reading Rote 13
+
+00:20:12.880 --> 00:20:15.800
+ that it almost became like a second language.
+
+00:20:15.800 --> 00:20:17.320
+ We could read second.
+
+00:20:17.320 --> 00:20:20.400
+ We could start reading the dirty jokes in Rote 13.
+
+00:20:20.400 --> 00:20:23.160
+ And we would laugh before we translated them out.
+
+00:20:23.160 --> 00:20:27.320
+ So Rote 13 is an interesting sort of historical thing.
+
+00:20:27.320 --> 00:20:29.720
+ And you go to Rote 13 and sort of encrypt
+
+00:20:29.720 --> 00:20:31.000
+ whatever you want to say.
+
+00:20:31.000 --> 00:20:33.040
+ And I'll probably have some questions
+
+00:20:33.040 --> 00:20:38.240
+ to ask you where you will have to do some Rote 13 encryption.
+
+00:20:38.240 --> 00:20:39.720
+ And so that's the end of this lecture
+
+00:20:39.720 --> 00:20:42.160
+ where we talk about Caesar ciphers
+
+00:20:42.160 --> 00:20:45.360
+ and the various techniques and how Caesar ciphers work.
+
+00:20:45.360 --> 00:20:50.080
+ And so we'll be back and talk about cryptographic hashes.
+

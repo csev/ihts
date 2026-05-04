@@ -1,0 +1,50 @@
+ - Hello, and welcome to our security lecture.
+ I'm Charles Severance, and I encourage
+ you to grab the PowerPoints and remix them and use them
+ in your own courses.
+ Use the videos.
+ Use everything in your own courses.
+ You don't have to teach this whole course.
+ It's quite a bit.
+ So let's start out by meeting some nice people.
+ These people are Alice and Bob, and they simply
+ want to communicate some information left
+ to their own devices.
+ And they don't want the rest of the world
+ to know about what they're communicating,
+ and so they want to encrypt it some way.
+ Now, in the cryptography world, they all
+ call these two people, the good people, Alice and Bob.
+ And they simply are A and B, very computer-esque variable
+ names, A and B, and Alice and Bob.
+ And then there's some bad guys.
+ There's the bad guys, and often they
+ are called C, like Carol, or Carlos, or Charlie,
+ or something like that.
+ They're even Chuck.
+ Even Chuck is a bad guy.
+ Or Dave or Eve, Eve for the eavesdropper.
+ And the idea is somewhere in the middle here,
+ somewhere in the middle, you have
+ some person with bad intent.
+ Here we have Trinity from The Matrix,
+ and she looks as bad as you can look, right?
+ So Alice and Bob seem to be real happy people.
+ They're just trying to get things done
+ and send some information without being bothered.
+ And then Trinity's there eavesdropping.
+ But there's other things.
+ You can eavesdrop.
+ You can sort of redirect the message and change it.
+ There's all kinds of things that the bad guy in the middle
+ is going to do.
+ And so Alice and Bob are far away from each other,
+ and they have to communicate securely.
+ And it's a literal gauntlet of problems
+ that they have to face, and various people
+ with bad intent, with bad purposes, sometimes just
+ wanting to see what's going on versus wanting
+ to change what's going on versus completely redirect
+ communication.
+ So Alice, Bob, and then a whole series of bad guys
+ with various bad guys and gals with various evil intent.

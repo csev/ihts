@@ -1,0 +1,857 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:05.400
+ The first application of this that we're going to talk about is hashing passwords.
+
+00:00:05.400 --> 00:00:12.240
+ So you go to a new site, even Coursera.org, and it asks you to create an account and create a password.
+
+00:00:12.240 --> 00:00:18.560
+ Now, you're not supposed to, but lots of people use the same password for lots of systems.
+
+00:00:18.560 --> 00:00:25.360
+ And so if your Coursera password were somehow mistakenly revealed, they might get your LinkedIn password as well.
+
+00:00:25.360 --> 00:00:39.080
+ And so it is considered very bad form, very, very bad form to actually ever store your password in the Coursera database in plain text.
+
+00:00:39.080 --> 00:00:46.280
+ Because if the database was somehow compromised, then all the bad guys would get all of the plain text passwords and again,
+
+00:00:46.280 --> 00:00:50.520
+ maybe use them not just on Coursera because you can change your password on Coursera,
+
+00:00:50.520 --> 00:00:57.280
+ but use them on LinkedIn and Twitter and whatever and YouTube and steal all your accounts by compromising one account
+
+00:00:57.280 --> 00:01:04.080
+ because you made the mistake that lots of people do of using the same password in a lot of different places
+
+00:01:04.080 --> 00:01:08.920
+ because we're tired of making up a new password for each place.
+
+00:01:08.920 --> 00:01:13.160
+ So you're not allowed to store the plain text password in the database.
+
+00:01:13.160 --> 00:01:15.720
+ That's bad practice, and we don't want to do that.
+
+00:01:15.720 --> 00:01:24.800
+ So the best practice is to store a hashed version of it to run, take the plain text of the password when you're creating your account,
+
+00:01:24.800 --> 00:01:29.360
+ run a cryptographic hash on it, store the cryptographic hash.
+
+00:01:29.360 --> 00:01:39.000
+ And then when you log in next, you present to the system your plain text password and it runs your presented password through a cryptographic hash,
+
+00:01:39.000 --> 00:01:44.080
+ same cryptographic hash, and then compares it with the hashed password in the database.
+
+00:01:44.080 --> 00:01:48.720
+ If they match, you must have presented the same plain text both times.
+
+00:01:48.720 --> 00:01:57.560
+ This is a way that they can verify that you've re-presented the same plain text again without them ever storing the plain text.
+
+00:01:57.560 --> 00:02:02.080
+ OK, that's why a respectable system will never send you your password.
+
+00:02:02.080 --> 00:02:07.560
+ It's I've almost started doing this where I as soon as I go to a new system and I set my password,
+
+00:02:07.560 --> 00:02:13.200
+ I set it to crap and then I have them send me a message to reset my password.
+
+00:02:13.200 --> 00:02:20.200
+ And if they send me the actual plain text of the password, it's like and I use some crap password.
+
+00:02:20.200 --> 00:02:25.360
+ I've actually got to the point where I'm tired of reusing my passwords and my technique.
+
+00:02:25.360 --> 00:02:29.200
+ I don't know if it's a good one or bad one because I just put crap in for my password.
+
+00:02:29.200 --> 00:02:33.840
+ And then every time I use a system, I have it send me a new password or reset the password.
+
+00:02:33.840 --> 00:02:39.960
+ I mean, I really think we should just change it so that when you log in, it just comes to your email and you click a link.
+
+00:02:39.960 --> 00:02:43.280
+ I don't know. I'm not an expert on this stuff, you know.
+
+00:02:43.280 --> 00:02:51.160
+ So but a respectable computing system will never, ever, ever send you your plain text password because they don't possess it and they can't derive it.
+
+00:02:51.160 --> 00:02:56.520
+ These cryptographic hashes are not backwards. You can't make them go backwards. Let's go back here.
+
+00:02:56.520 --> 00:03:04.480
+ They're only a one way hash because this might be one megabyte of data and this might be, well, let's see, four times.
+
+00:03:04.480 --> 00:03:10.000
+ This is 40 characters, 40 characters of data, one megabyte squeezes down to 40 characters.
+
+00:03:10.000 --> 00:03:14.600
+ There is no way to go backwards. The information is lost.
+
+00:03:14.600 --> 00:03:19.320
+ The hash is distinct and unique. Right. But you cannot go backwards.
+
+00:03:19.320 --> 00:03:27.520
+ It's a one way operation. You can go from the plain text to the hash, but you can't go from the hash to plain text, which is very different than encryption and decryption.
+
+00:03:27.520 --> 00:03:32.480
+ Right. In decryption, you had to be able to pull plain text back out from the encrypted text.
+
+00:03:32.480 --> 00:03:40.560
+ This is not encryption. This is calculating a special digest that is uniquely connected to the plain text message.
+
+00:03:40.560 --> 00:03:44.640
+ But you need to run the plain text through the hash again and then compare.
+
+00:03:44.640 --> 00:03:49.360
+ OK, so let's do some homework.
+
+00:03:49.360 --> 00:03:55.720
+ Well, so let me let me let me let me first show you the how this works in the hash passwords.
+
+00:03:55.720 --> 00:04:09.600
+ So so let's say, for example, you're logging into Coursera dot org and creating your profile for the first time and it says, please give me your password and you choose a singularly bad password as fluffy.
+
+00:04:09.600 --> 00:04:16.800
+ OK, so fluffy and you can type go type fluffy into Dr Chuck dot com slash Shaw one dot PHP in another window.
+
+00:04:16.800 --> 00:04:22.800
+ If you type fluffy and you encrypt it with Shaw one, you get this as the hash password.
+
+00:04:22.800 --> 00:04:26.960
+ And then this is what they store in Coursera's database.
+
+00:04:26.960 --> 00:04:30.880
+ And so that is they don't know they never store fluffy. They would not do that.
+
+00:04:30.880 --> 00:04:34.080
+ That would be so bad if they did that. So they store this.
+
+00:04:34.080 --> 00:04:38.640
+ And if I get this, it's very difficult to reverse engineer it to fluffy.
+
+00:04:38.640 --> 00:04:42.480
+ It also is even harder if you make your password long.
+
+00:04:42.480 --> 00:04:51.440
+ Best passwords are like sentences, not just eight characters, but they're like long sentences of stuff that's rather difficult to predict.
+
+00:04:51.440 --> 00:05:01.320
+ So this is what's stored in the Coursera databases, some ugly string, which is a cryptographic hash digest of your password.
+
+00:05:01.320 --> 00:05:04.240
+ So now you log out and and this is gone.
+
+00:05:04.240 --> 00:05:08.680
+ That's only in your mind. And this is sitting in the database.
+
+00:05:08.680 --> 00:05:13.480
+ So you log in, you log back into Coursera and you forget your password.
+
+00:05:13.480 --> 00:05:24.120
+ So you type in pony. If you run pony through Shaw one, you get this as the cryptographic hash of the word pony.
+
+00:05:24.120 --> 00:05:30.040
+ And you look and you compare and you go, no, that is not the right password.
+
+00:05:30.040 --> 00:05:32.360
+ I don't know what the right password is. I can't give you a hint.
+
+00:05:32.360 --> 00:05:36.120
+ I can't tell you, hey, you you put shift on your password.
+
+00:05:36.120 --> 00:05:43.480
+ Why don't you try taking that off? You know, you seem to have caps lock on because it doesn't know whether you what your password is.
+
+00:05:43.480 --> 00:05:47.160
+ But it does know that pony is not your password.
+
+00:05:47.160 --> 00:05:50.200
+ Then what it does. Right.
+
+00:05:50.200 --> 00:05:53.920
+ So this is what's stored in the database. Then you go, oh, my secretary. That's right.
+
+00:05:53.920 --> 00:05:59.240
+ I use fluffy for my password on Coursera. So then Coursera runs that through Shaw one.
+
+00:05:59.240 --> 00:06:03.040
+ It gets the cryptographic hash of the plain text that you entered.
+
+00:06:03.040 --> 00:06:09.440
+ And then it compares it to that what it has stored as the cryptographic as the plain as the as your hashed password.
+
+00:06:09.440 --> 00:06:13.680
+ And it matches. So then it says, yay, I'll let you back in.
+
+00:06:13.680 --> 00:06:21.520
+ The fluffy only existed in your mind unless you foolishly like wrote it on a post-it note and stuck it up on your computer, which you shouldn't do as well.
+
+00:06:21.520 --> 00:06:25.520
+ But whatever it was, Coursera never stored. Right.
+
+00:06:25.520 --> 00:06:29.240
+ Coursera never stored it. Coursera only stored this.
+
+00:06:29.240 --> 00:06:38.360
+ And that, again, is why Coursera can never tell you what your password is or any reasonable site can never tell you what your password is.
+
+00:06:38.360 --> 00:06:43.320
+ It can only tell you. It can only let you change it again, which is easy.
+
+00:06:43.320 --> 00:06:46.520
+ Changing it again, you just it decides, oh, it sends you mail.
+
+00:06:46.520 --> 00:06:50.760
+ You give it a new password and it recomputes a shot one for that one and stores that shot one.
+
+00:06:50.760 --> 00:06:57.480
+ So that's why you have to get password resets to happen. OK.
+
+00:06:57.480 --> 00:07:06.360
+ OK. So the next thing that I want to talk about is I want to talk about digital signatures, how we can use this for message integrity.
+
+00:07:06.360 --> 00:07:11.280
+ So we've got the notion of a cryptographic hash, which is a calculation takes a large block of text.
+
+00:07:11.280 --> 00:07:14.640
+ So far, we've only used it on small blocks of text.
+
+00:07:14.640 --> 00:07:21.600
+ OK. But now we're going to use it on larger blocks of text where we're going to ensure message integrity,
+
+00:07:21.600 --> 00:07:28.000
+ which means we're going to figure out if this message actually came from the person we think that it came from.
+
+00:07:28.000 --> 00:07:31.080
+ OK. So we're going to use integrity now.
+
+00:07:31.080 --> 00:07:38.240
+ I mean, in a sense, what the system was doing when you were typing in a password was it was ensuring that you were really the person on the other end of the line.
+
+00:07:38.240 --> 00:07:41.200
+ Right. Hi, I'm logging in as Dr. Chuck.
+
+00:07:41.200 --> 00:07:44.920
+ And here's my password, Fluffy, that's by giving you the password.
+
+00:07:44.920 --> 00:07:48.440
+ I'm proving that to Coursera that I'm really Dr. Chuck.
+
+00:07:48.440 --> 00:07:53.320
+ So it's a form of integrity, right. Identification is a form of integrity, right.
+
+00:07:53.320 --> 00:07:57.480
+ It's no different than showing your driver's license says, yes, this is really me.
+
+00:07:57.480 --> 00:08:00.920
+ OK. But now we're going to do it in a way that we're going to send a message.
+
+00:08:00.920 --> 00:08:04.360
+ So it's not just a password. We're not really solving just the password problem.
+
+00:08:04.360 --> 00:08:11.760
+ But we're actually going to use it to make sure that the message A came from the right person and B was not modified in transit.
+
+00:08:11.760 --> 00:08:17.680
+ This is kind of the doctor signing the prescription digitally and then sending you an email with your prescription
+
+00:08:17.680 --> 00:08:22.640
+ that you can just print the email and take it take it to your take it to your pharmacist.
+
+00:08:22.640 --> 00:08:25.000
+ So, again, message integrity.
+
+00:08:25.000 --> 00:08:28.160
+ When you get a message, did it come from who did it come from?
+
+00:08:28.160 --> 00:08:34.160
+ And do you get it come from who you really thought it came from or was it altered in transit?
+
+00:08:34.160 --> 00:08:40.480
+ OK, so if you go back to our little example from the Christmas story,
+
+00:08:40.480 --> 00:08:44.480
+ the message from Annie was eat more Ovaltine.
+
+00:08:44.480 --> 00:08:48.960
+ Now, the question really becomes, did it really come from Annie, right?
+
+00:08:48.960 --> 00:08:53.200
+ Because Little Orphan Annie didn't necessarily say it.
+
+00:08:53.200 --> 00:08:58.400
+ Little Orphan Annie's handed the message to somebody else and then they read it.
+
+00:08:58.400 --> 00:09:00.840
+ So did that person change the message?
+
+00:09:00.840 --> 00:09:08.720
+ Because maybe there was actually a secret message from Annie and maybe Annie wrote it and it really was an important secret message.
+
+00:09:08.720 --> 00:09:14.920
+ But then somebody like the advertiser changed it and sent it to you as if it came from Annie.
+
+00:09:14.920 --> 00:09:20.680
+ So we're not really worried so much now about the plain text that is the fine plain text.
+
+00:09:20.680 --> 00:09:25.360
+ The question is, did it really come from Little Orphan Annie?
+
+00:09:25.360 --> 00:09:32.200
+ Because we are receiving this from an insecure medium like Annie is out here somewhere,
+
+00:09:32.200 --> 00:09:38.480
+ but Annie handed it to somebody to hand it to somebody and somebody sent across radio, yada, yada, yada.
+
+00:09:38.480 --> 00:09:46.840
+ The question is, did the message originally come from Annie long, long ago, handed through many people or not?
+
+00:09:46.840 --> 00:09:50.200
+ This is again like the seal that you put on with the wax.
+
+00:09:50.200 --> 00:09:54.200
+ Did it really come from that person or not?
+
+00:09:54.200 --> 00:09:57.000
+ Is it really Annie just saying, yeah, this is Annie?
+
+00:09:57.000 --> 00:10:04.760
+ That's too easy. You could say eat less Ovaltine or or maybe Annie wanted to say, I hate Ovaltine, right?
+
+00:10:04.760 --> 00:10:09.120
+ That's maybe what, but we don't know if Annie said eat more Ovaltine or not, right?
+
+00:10:09.120 --> 00:10:13.480
+ Because all we saw was eat more Ovaltine and it seemed to come from Annie, but we got to know.
+
+00:10:13.480 --> 00:10:15.440
+ We got to know that it came from Annie or not.
+
+00:10:15.440 --> 00:10:24.320
+ OK, so simple message signing using shared secret and we'll move to a better technique later.
+
+00:10:24.320 --> 00:10:29.000
+ But we're going to start with a simple technique of shared secret is that we have a shared secret
+
+00:10:29.000 --> 00:10:34.000
+ that we're going to use for message signing.
+
+00:10:34.000 --> 00:10:38.760
+ It'll probably be different than the encryption secret, OK?
+
+00:10:38.760 --> 00:10:45.280
+ So now we get together with Annie in a shared room and she tells us what the shift is going to be.
+
+00:10:45.280 --> 00:10:48.880
+ And then she tells us what our shared signature secret is going to be.
+
+00:10:48.880 --> 00:10:51.080
+ And then we separate.
+
+00:10:51.080 --> 00:10:57.840
+ So the technique that you do is before we send the message, we concatenate the secret to the message, right?
+
+00:10:57.840 --> 00:11:03.800
+ So eat more Ovaltine and then put the secret on the end of the message.
+
+00:11:03.800 --> 00:11:09.720
+ And then you compute the digest of the message plus the secret concatenated together.
+
+00:11:09.720 --> 00:11:16.800
+ Then you remove the secret from the message and then you send the message plus the digest across the insecure.
+
+00:11:16.800 --> 00:11:23.760
+ And in my wife's example, this was the little signature numbers that came from her doctor was the digest.
+
+00:11:23.760 --> 00:11:28.960
+ But it was the digest not just of the message, but of the message plus the secret.
+
+00:11:28.960 --> 00:11:32.440
+ The secret didn't come across, the message plus the digest came across.
+
+00:11:32.440 --> 00:11:37.760
+ So let's look at this when we look at how when we receive a message.
+
+00:11:37.760 --> 00:11:43.440
+ So we receive a message and we see a digest at the end of the message and it's across an insecure transport.
+
+00:11:43.440 --> 00:11:50.840
+ So we take the digest off the message, take the digest off the message and we add the secret back on the message.
+
+00:11:50.840 --> 00:11:56.440
+ We know the secret, Annie knows the secret, but the people in the middle who transported the message do not know the secret.
+
+00:11:56.440 --> 00:11:59.200
+ So it's finally arrived in our location.
+
+00:11:59.200 --> 00:12:02.160
+ We see the digest, we pull that off and hold on to it.
+
+00:12:02.160 --> 00:12:03.720
+ We add the secret to it.
+
+00:12:03.720 --> 00:12:07.120
+ We can take the concatenated message plus secret.
+
+00:12:07.120 --> 00:12:13.000
+ We run it through SHA-1, we get a digest locally.
+
+00:12:13.000 --> 00:12:17.200
+ And then we compare that digest to the received digest.
+
+00:12:17.200 --> 00:12:20.720
+ And the only way to make the digest match is to know the secret.
+
+00:12:20.720 --> 00:12:26.760
+ Now, maybe somebody like made Annie tell them the secret, which means they could forge the messages.
+
+00:12:26.760 --> 00:12:35.360
+ But if the secret is not been compromised somehow, their only way to create the digest is to know the secret, right?
+
+00:12:35.360 --> 00:12:43.080
+ And so we can compare the received digest to the known the known digest that we compute on our end in a secure way,
+
+00:12:43.080 --> 00:12:47.000
+ because we and Annie are the only ones in possession of the secret.
+
+00:12:47.000 --> 00:12:52.720
+ So here we go. So you can play with this on SHA-1.php, Dr. Chuck.
+
+00:12:52.720 --> 00:13:01.440
+ And so if the message is that Annie wants us to send or Annie wants us to get is Eat More Ovaltine and the secret is Santa.
+
+00:13:01.440 --> 00:13:09.440
+ So what you do is you take the message, concatenate the secret and then run that through SHA-1.
+
+00:13:09.440 --> 00:13:13.720
+ This is all happening in Annie's secure room.
+
+00:13:13.720 --> 00:13:15.960
+ And she comes up with a digest.
+
+00:13:15.960 --> 00:13:21.360
+ Now, it's longer than this, but that's just the first six characters of it.
+
+00:13:21.360 --> 00:13:26.800
+ And then what she does is she removes the secret and then concatenates the digest.
+
+00:13:26.800 --> 00:13:30.120
+ OK, and that's what gets sent across the insecure medium.
+
+00:13:30.120 --> 00:13:37.680
+ It could be many steps, could be many people, it could be on paper, it could be Morse code, it could be phone call, who knows radio.
+
+00:13:37.680 --> 00:13:40.000
+ But we just this is the danger, right?
+
+00:13:40.000 --> 00:13:46.760
+ This is we do not know if the message is harmed in any way as it moves across this medium.
+
+00:13:46.760 --> 00:13:53.000
+ OK, so then what we do is we receive the message, right?
+
+00:13:53.000 --> 00:13:55.800
+ We don't know if it's a good message or a bad message.
+
+00:13:55.800 --> 00:14:02.600
+ So we see that it's a message and it has a digest on the end of the message and we split that out.
+
+00:14:02.600 --> 00:14:07.080
+ We split the digest out and we hold on to the digest separately.
+
+00:14:07.080 --> 00:14:10.320
+ OK, and now we have the message minus the digest.
+
+00:14:10.320 --> 00:14:16.640
+ And so then what we do is we add the secret back on because only Annie and us know the secret.
+
+00:14:16.640 --> 00:14:20.760
+ Right. And Annie and us know the secret.
+
+00:14:20.760 --> 00:14:22.320
+ We all know how to do SHA-1.
+
+00:14:22.320 --> 00:14:28.520
+ And so we take this message and we run it through SHA-1 and we get a digest that we've computed locally.
+
+00:14:28.520 --> 00:14:30.200
+ This is the received digest.
+
+00:14:30.200 --> 00:14:31.840
+ That's the local digest.
+
+00:14:31.840 --> 00:14:37.160
+ And then we compare and we say, this is great.
+
+00:14:37.160 --> 00:14:38.640
+ That must have came from Annie.
+
+00:14:38.640 --> 00:14:43.840
+ And we know that it came from Annie, even if it came through a dangerous set of steps.
+
+00:14:43.840 --> 00:14:47.080
+ And we can't trust any of the people that transported the message.
+
+00:14:47.080 --> 00:14:48.600
+ They're all untrustworthy.
+
+00:14:48.600 --> 00:14:55.360
+ But we know that no matter what happened, that originally at that moment, Annie did this.
+
+00:14:55.360 --> 00:15:00.320
+ OK, Annie made this digest because without knowing the word Santa, there is nothing.
+
+00:15:00.320 --> 00:15:03.280
+ And this could be like megabytes of data.
+
+00:15:03.280 --> 00:15:06.560
+ And this is a real tiny, you know, 40 character thing here.
+
+00:15:06.560 --> 00:15:09.560
+ The digest is small, the message is large.
+
+00:15:09.560 --> 00:15:12.200
+ So you can't go backwards to get it.
+
+00:15:12.200 --> 00:15:14.000
+ There's no backwards here.
+
+00:15:14.000 --> 00:15:18.520
+ Now, if you can steal the secret from Annie, then all bets are off, of course.
+
+00:15:18.520 --> 00:15:23.920
+ So we have to assume that Annie's OK and that, you know, Annie was not compromised,
+
+00:15:23.920 --> 00:15:30.200
+ like in James Bond movies, for example, where they're always trying to get the secret from the good guy.
+
+00:15:30.200 --> 00:15:34.040
+ OK, so let's go and do this again, right?
+
+00:15:34.040 --> 00:15:36.440
+ So here we go.
+
+00:15:36.440 --> 00:15:41.200
+ We want to send the Eat More Ovaltine and the secret Santa.
+
+00:15:41.200 --> 00:15:42.240
+ And so we do the same thing.
+
+00:15:42.240 --> 00:15:47.840
+ And we end up with-- end up with that.
+
+00:15:47.840 --> 00:15:49.520
+ And then she concatenates it.
+
+00:15:49.520 --> 00:15:53.400
+ And this is all done, you know, in Annie's bedroom and secret thing.
+
+00:15:53.400 --> 00:15:55.040
+ And then she sends it.
+
+00:15:55.040 --> 00:15:58.880
+ OK, she sends it to us.
+
+00:15:58.880 --> 00:16:08.400
+ But a diabolical, diabolical courier says, I have a thing about Ovaltine
+
+00:16:08.400 --> 00:16:10.440
+ and I'm going to change the more to less.
+
+00:16:10.440 --> 00:16:15.440
+ So I'm going to change this message to be Eat Less Ovaltine, right?
+
+00:16:15.440 --> 00:16:17.320
+ So Eat Less Ovaltine.
+
+00:16:17.320 --> 00:16:21.320
+ Bad, evil, rrr.
+
+00:16:21.320 --> 00:16:22.960
+ I don't know how to draw evil.
+
+00:16:22.960 --> 00:16:24.480
+ I'm a terrible artist.
+
+00:16:24.480 --> 00:16:27.320
+ Can't draw evil.
+
+00:16:27.320 --> 00:16:31.920
+ So some untrusted courier has changed the word more to less.
+
+00:16:31.920 --> 00:16:35.040
+ So we see the thing that says-- and we don't know, right?
+
+00:16:35.040 --> 00:16:36.480
+ We didn't see the courier.
+
+00:16:36.480 --> 00:16:38.240
+ They was carrying it in a box.
+
+00:16:38.240 --> 00:16:41.840
+ Who knows what they did, but they changed it and gave us a new copy.
+
+00:16:41.840 --> 00:16:44.760
+ So we received this message from an untrusted medium.
+
+00:16:44.760 --> 00:16:46.600
+ There's our untrusted medium.
+
+00:16:46.600 --> 00:16:51.040
+ And it is our job to decide if we really think it came from Annie or not.
+
+00:16:51.040 --> 00:16:56.160
+ So what we do is just like we did before, we break the message
+
+00:16:56.160 --> 00:16:58.120
+ and the digest into pieces.
+
+00:16:58.120 --> 00:17:01.960
+ And then we add the known secret to the end of it, right?
+
+00:17:01.960 --> 00:17:05.000
+ So we've added the known secret to the end of it right here.
+
+00:17:05.000 --> 00:17:09.120
+ Then we run it through the SHA-1 calculation and you can take--
+
+00:17:09.120 --> 00:17:14.520
+ look, there we go.
+
+00:17:14.520 --> 00:17:16.360
+ And go ahead and try this if you want.
+
+00:17:16.360 --> 00:17:19.280
+ Maybe you have this up in a separate window, sha-1.php.
+
+00:17:19.280 --> 00:17:24.720
+ Put Eat Less Ovaltine Santa in and you will get a different signature.
+
+00:17:24.720 --> 00:17:26.920
+ Because you change even a single character
+
+00:17:26.920 --> 00:17:29.400
+ and SHA-1 will give us a different digest.
+
+00:17:29.400 --> 00:17:31.960
+ That's cryptographic hashes in action, right?
+
+00:17:31.960 --> 00:17:36.360
+ Even the tiniest change in megabytes of data
+
+00:17:36.360 --> 00:17:38.480
+ will change the cryptographic hash.
+
+00:17:38.480 --> 00:17:42.520
+ That's the beauty of SHA-1 and MD5 and SHA-256 and the others.
+
+00:17:42.520 --> 00:17:44.400
+ There is no match.
+
+00:17:44.400 --> 00:17:50.120
+ So we know that this message either did not come from Annie
+
+00:17:50.120 --> 00:17:52.120
+ or was modified in transit.
+
+00:17:52.120 --> 00:17:58.800
+ So we can tell the difference and we do not have to trust the medium, right?
+
+00:17:58.800 --> 00:18:04.560
+ OK, so let's see what got coming up next here.
+
+00:18:04.560 --> 00:18:09.520
+ OK, so here is the encryption technique.
+
+00:18:09.520 --> 00:18:13.960
+ And let's just stop and let you do one of these on your own.
+
+00:18:13.960 --> 00:18:23.160
+ And say that we've got two messages from Annie.
+
+00:18:23.160 --> 00:18:26.160
+ And I want you to stop and I want you to calculate.
+
+00:18:26.160 --> 00:18:30.600
+ Santa is the secret, OK?
+
+00:18:30.600 --> 00:18:32.400
+ Santa is the secret.
+
+00:18:32.400 --> 00:18:36.840
+ And I want you to tell me if free cookies or free candy actually
+
+00:18:36.840 --> 00:18:38.240
+ came from Annie or not.
+
+00:18:38.240 --> 00:18:41.520
+ One of them is a valid message from Annie
+
+00:18:41.520 --> 00:18:45.200
+ and the other is not a valid message from Annie, OK?
+
+00:18:45.200 --> 00:18:49.200
+ So I want you to take a moment, use the SHA-1 calculator,
+
+00:18:49.200 --> 00:18:53.120
+ and I want you to try to figure out which of these is valid
+
+00:18:53.120 --> 00:18:56.320
+ and which of these is not valid, OK?
+
+00:18:56.320 --> 00:18:57.200
+ Give you a minute.
+
+00:18:57.200 --> 00:19:06.920
+ OK, one last chance before we do the reveal.
+
+00:19:06.920 --> 00:19:08.760
+ OK, here we go.
+
+00:19:08.760 --> 00:19:14.120
+ So here comes a message from an insecure medium, free cookies.
+
+00:19:14.120 --> 00:19:22.600
+ With that as the message digest, and we got the other one, free candy,
+
+00:19:22.600 --> 00:19:25.200
+ with that as the message digest.
+
+00:19:25.200 --> 00:19:33.280
+ So what we do is we take off the digest and add the word Santa to each one.
+
+00:19:33.280 --> 00:19:37.080
+ And then we run the SHA-1 on each one.
+
+00:19:37.080 --> 00:19:40.640
+ And then we get the two SHA-1s.
+
+00:19:40.640 --> 00:19:43.080
+ Here's the one and here's the two.
+
+00:19:43.080 --> 00:19:46.400
+ And then what we do, most importantly, is we
+
+00:19:46.400 --> 00:19:50.280
+ compare them with the received SHA-1.
+
+00:19:50.280 --> 00:19:53.280
+ And when you compare them with the received SHA-1 or the received message
+
+00:19:53.280 --> 00:19:55.560
+ digest or the received message signature,
+
+00:19:55.560 --> 00:20:00.120
+ you see right away that one is good and one is bad.
+
+00:20:00.120 --> 00:20:02.480
+ It's as simple as that, right?
+
+00:20:02.480 --> 00:20:06.000
+ One of these is good and one of these is bad.
+
+00:20:06.000 --> 00:20:10.160
+ So digital signatures are actually really surprisingly simple
+
+00:20:10.160 --> 00:20:14.680
+ and surprisingly easy to do without a lot of complex technology.
+
+00:20:14.680 --> 00:20:16.640
+ The only complex technology in here is really
+
+00:20:16.640 --> 00:20:21.960
+ the clever mathematics that makes these cryptographic hashes work effectively.
+
+00:20:21.960 --> 00:20:24.280
+ The simple concatenation of a secret.
+
+00:20:24.280 --> 00:20:26.480
+ Now, you want your secrets to be kind of longer than this
+
+00:20:26.480 --> 00:20:28.320
+ and more random than that.
+
+00:20:28.320 --> 00:20:30.960
+ But ultimately, the notion of a digital signature
+
+00:20:30.960 --> 00:20:34.760
+ is actually a simple and rather elegant and beautiful notion
+
+00:20:34.760 --> 00:20:38.120
+ that really leverages this notion of cryptographic hashes
+
+00:20:38.120 --> 00:20:40.760
+ in a really cool manner.
+
+00:20:40.760 --> 00:20:45.120
+ So that kind of sums up our first half lecture,
+
+00:20:45.120 --> 00:20:47.560
+ where we really talk more about the techniques
+
+00:20:47.560 --> 00:20:51.240
+ of both integrity and confidentiality.
+
+00:20:51.240 --> 00:20:55.680
+ But we've done it all with a secret key, where we have the same key.
+
+00:20:55.680 --> 00:20:59.680
+ We have a moment where we're together in a secure manner
+
+00:20:59.680 --> 00:21:03.480
+ and we exchange the code book, whether it's Annie or the Caesar
+
+00:21:03.480 --> 00:21:06.120
+ or whatever, where we know what the shift is.
+
+00:21:06.120 --> 00:21:11.280
+ So every pair of communicating people or systems needs a key.
+
+00:21:11.280 --> 00:21:15.040
+ Now, in the internet, with everybody buying from everybody else
+
+00:21:15.040 --> 00:21:17.800
+ and using credit cards, it's just not practical.
+
+00:21:17.800 --> 00:21:22.280
+ You just could not have a secret key for Amazon.
+
+00:21:22.280 --> 00:21:24.840
+ I guess it kind of works for the password.
+
+00:21:24.840 --> 00:21:26.160
+ We'll get to that in a second.
+
+00:21:26.160 --> 00:21:28.480
+ The password doesn't solve everything, because then you
+
+00:21:28.480 --> 00:21:31.400
+ would have to actually visit Amazon to get your password set up.
+
+00:21:31.400 --> 00:21:35.160
+ And so the problem is we have to use an insecure medium
+
+00:21:35.160 --> 00:21:39.280
+ to establish the first secret, as it were.
+
+00:21:39.280 --> 00:21:42.000
+ And so it just was never going to work.
+
+00:21:42.000 --> 00:21:44.040
+ So we need a different approach for the internet.
+
+00:21:44.040 --> 00:21:47.920
+ And that's what we're going to talk about in the next lecture.
+
+00:21:47.920 --> 00:21:48.440
+ See you then.
+

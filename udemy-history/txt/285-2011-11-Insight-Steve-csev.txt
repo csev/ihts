@@ -1,0 +1,157 @@
+ Hello, and welcome to Conversations with Computing.
+ In this column, I take a look at some of the second-order effects of the technology that
+ Steve Jobs produced throughout his career and how those technologies from Apple and
+ Next often served as an inspiration to many of the early innovators in the Internet and
+ World Wide Web.
+ I found out that we'd lost Steve Jobs on the evening of October 5th, right in the middle
+ of a lecture on using regular expressions in Python.
+ I was recording the lecture for a later podcast.
+ Because you might want to go down the nerd rabbit hole later, and that's okay.
+ There's nothing wrong with avoiding the nerd rabbit hole, but this is a nerdy thing.
+ It's extremely nerdy.
+ I think it's awesome.
+ A nerdy announcement?
+ >> Well, yeah.
+ >> Really, I mean, and it's kind of verified it's not some...
+ >> The very next week, in the same classroom, I was giving my lecture on the inside story
+ of the history of the Internet and the World Wide Web, sharing some of my interviews with
+ early pioneers.
+ As I gave the lecture and watched my video interviews thinking about Steve Jobs, I began
+ to realize how important Apple and Next technology was to those early innovators.
+ In some ways, the very existence of those technologies helped propel the Internet and
+ Web revolution forward.
+ In my 1999 interview with Robert Caillou, the co-inventor of the World Wide Web, we
+ are sitting in his office by the NextCube that ran the very first web server.
+ As Robert describes how the NextStep development environment allowed them to quickly build
+ prototype versions of a web browser in 1990, you get the sense that their Next hardware
+ and software was very much an equal partner in their early visions of the Web.
+ >> Obviously, the whole of high-energy physics has been this sort of miniature information
+ society since way back when, as soon as there were networks, essentially.
+ And so because we have this need for spreading documentation around, we built these things
+ like centralized databases, there was CERN doc, you know, you could use it, but whatever.
+ We had a--well, we still have a large database of high-energy physics articles kept by Stanford,
+ and you could get at it before the Web by knowing exactly what computer to log into
+ over the network, blah, blah, blah, blah, but it was all very difficult.
+ And then so when Tim invented the Web, and I have a separate proposal, I dropped it because
+ Tim's proposal ran over the Internet, and that was clearly much more efficient.
+ When the Web came, all that necessity of knowing which computer to go to, what to say to that
+ computer, and so forth, just disappeared, you know.
+ People put up these pages with their links, and you could just follow links and get to
+ places where you wanted to be and find everything, and it was also all in the same format.
+ So that was very important, too, that, you know, we broke this proprietary commercial
+ system of vertical markets, which, you know, don't let you get at anything, except if you
+ stay with this particular company or with that particular company.
+ So that horizontal split, that cut that we made between the browsers on top and the databases
+ at the bottom was, I think, essential to make it useful for us, but also to make it useful
+ for everybody else, right?
+ And so that was what it was like in the beginning, and Tim and I did this all on this next machine
+ here in about 1990.
+ So the first server was about 1990, the first, end of 1990, the first server in the United
+ States came up about a year later at Stanford because of that database that I was talking
+ about before.
+ The real problem was that this development system is so much better than anything else
+ that porting what we had here to any other platform took an order of magnitude more time.
+ And for example, every time you clicked here, you had another window, right?
+ Every time you clicked on a diagram, you had a diagram in another window.
+ When you clicked on a map, you got the map in PostScript, scalable, perfectly printable,
+ and so on and so forth.
+ You tried to port that to another system, you got berserk.
+ You know, there's a big difference between making an editor and something that just puts
+ up a page and you can't do anything with that.
+ So our system from 1990 was also the editor.
+ I mean, I started, it's only after Next stopped making hardware and I had to go back from
+ a Next to a Macintosh that I had to learn HTML, right?
+ I mean, before we produced all the documentation and the stuff, but we never saw any, we never
+ saw any HTML, we never saw any URLs, right?
+ Because you linked by saying link this to that, not by typing in the URL.
+ There was a special window you could call up in which you could type a URL if you needed
+ to, but it wasn't the usual thing.
+ I mean, there's this navigation panel which says HTTP, dah, dah, dah, dah, and I learned
+ all that.
+ The hard way afterwards that you had to use that because you've lost that system, right?
+ Steve Jobs' Next Workstations were essential to the creation of the earliest web software.
+ Their advanced development environment and rich display capabilities led early innovators
+ to think of the internet less as a text only and more as an engaging multimedia experience.
+ In my 2007 interview with Paul Coons, who brought up the first web server in the United
+ States on an IBM mainframe at the Stanford Linear Accelerator in December 1991, we can
+ see that he still has a working color Next Workstation in his office.
+ When Paul was developing software for the IBM mainframe, there were around 20 web servers
+ in the entire world.
+ If you wanted a web browser to test your server, having a Next Workstation was essential.
+ So when I was at CERN in September 1991, and Tim DeMarenz Lee dragged me into his office
+ to give me a demo of the web, at first I wasn't very interested, but when he demonstrated
+ doing a query to a help system database on a mainframe, I immediately put two and two
+ together and said, "Well, if you can query a help system on a mainframe, you can query
+ a database on a mainframe."
+ The database itself had about 300,000 entries.
+ Was it heavily used before you put it on the web and then continued to be heavily used?
+ It was heavily used.
+ People had signed up for have computer accounts on the mainframe so they could do their queries
+ from all around the world.
+ I think there were some 4,000 registered users.
+ So did you have to write it all from scratch?
+ Did you write it from the protocol or was there software that you reused to make your
+ first web server?
+ Well, I used the CERN server software, which was written in C. Unfortunately, we had a
+ C compiler on the mainframe at the time.
+ It wasn't very long that we had a C compiler, but we had one.
+ So all I had to do was to write some extra C code to get the query that the user had
+ made and turn it into the database query.
+ Now, wasn't the original web server on a Next?
+ All the web software was originally developed on the Next computer at CERN.
+ While the web and web technologies were gaining traction in the academic and research communities
+ who often had access to powerful Unix workstations on their desks, the rest of the world was
+ browsing the Internet using the text-oriented gopher clients and servers.
+ In 1993, the National Center for Supercomputing Applications at the University of Illinois
+ at Urbana-Champaign released NCSA Mosaic.
+ Mosaic was the first graphically rich web browser that ran on Unix, Macintosh, and Windows.
+ In my 1997 interview with Larry Smarr, he points out that the success of the NCSA Mosaic
+ browser occurred in part because of earlier work developing the NCSA image library to
+ take advantage of the graphics capabilities of early Apple Macintosh computers.
+ What we basically did during that late age period was to make the world safe for images.
+ What NCSA image did was basically we said we want to build a world of infrastructure
+ in which it's as easy to move an image around as it is to move a word.
+ That was our design parameters, and that's the way we talked about it back then.
+ So that meant we had to scale the network, scale the disk drives, scale the compute power.
+ We had to go to full color.
+ When the Mac II first came out, 256 color levels, we got 50 of them.
+ Apple gave us 50 Mac IIs, which was stunning in those days.
+ We were, in fact, the largest funded academic group in the country for the Apple Advanced
+ Technology Group.
+ IBM at that time was telling their customers, "You don't need color.
+ We've already provided it, as I said.
+ You have four of them, black, white, cyan, and magenta.
+ Why would you need more?"
+ So what we did was we took things that were on $100,000 computer graphics workstations
+ of image processing that medical imaging people use, satellite reconnaissance people use,
+ and we took all that, put it in the software, and NCSA image on the Mac.
+ So you could just move the mouse and do what it would take you, what would have otherwise
+ cost you $100,000 to do, and you'd have to be an elite specialist.
+ But again, taking things that elite people knew how to do, could afford to do, and making
+ it available to the masses.
+ The day after I found out that Steve was no longer with us, I happened to have a morning
+ meeting in New York City, so I went to the Apple Store in Manhattan to get a sense of
+ our collective reaction to the loss of such a brilliant visionary who's affected us in
+ so many ways.
+ Hello, everybody.
+ This is Chuck.
+ I'm here at the Apple Store in Manhattan.
+ I'll show you what we're seeing.
+ We're seeing press, we're seeing an impromptu memorial for Steve Jobs that's got apples,
+ it's got flowers, it's got all kinds of really, really cool stuff.
+ But the crowd seems really quiet.
+ There's a media that's interviewing all the people.
+ You can see the media there grabbing people off the street and interviewing them.
+ I'm sure they're capturing their thoughts.
+ So here we are sort of one day after the passing of Steve Jobs.
+ Throughout his career at Apple and next, and then again at Apple, Steve Jobs was never
+ interested in the least expensive nor the most profitable technology.
+ He pursued the best and most advanced technology.
+ In many of his designs and decisions, he provided a roadmap for the entire consumer technology
+ marketplace.
+ It's no wonder that many of us would wait with breathless anticipation for each and
+ every Apple announcement.
+ They were always an exciting glimpse into the future of technology.
+ Over the past 30 years, the products that came from jobs companies were a joy to use.
+ And perhaps more importantly, they inspired many innovators to keep their focus on the
+ exciting and unexplored future.

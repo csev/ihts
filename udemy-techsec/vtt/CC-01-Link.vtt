@@ -1,0 +1,806 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:16.760
+ - Oh, oh hi, sorry, I was in the forums. I guess it's time for this week's video. So
+
+00:00:16.760 --> 00:00:21.720
+ this week we're moving from history to technology, and in a sense we're going to tell the same
+
+00:00:21.720 --> 00:00:26.120
+ story again. You know, we'll sort of start at the beginning, but we're going to start
+
+00:00:26.120 --> 00:00:29.520
+ from the bottom and work upwards. So in a sense we're kind of talking about the same
+
+00:00:29.520 --> 00:00:35.520
+ things, but just from a more technical perspective. Don't worry, you'll be fine. We're not going
+
+00:00:35.520 --> 00:00:40.120
+ to over - there's no math, I promise. There's no programming. Don't worry about that. So
+
+00:00:40.120 --> 00:00:45.280
+ of course I appreciate IEEE Computer Magazine, who I write for, to let me use the articles
+
+00:00:45.280 --> 00:00:50.240
+ that are associated with some of the videos, as well as the folks from Open Michigan who
+
+00:00:50.240 --> 00:00:55.840
+ have helped me. So hang on a sec. No, hang on. I've got a phone call. I'll be right
+
+00:00:55.840 --> 00:01:02.600
+ back. Okay, well that's been sent. Sorry for that interruption. Again, I thank everybody
+
+00:01:02.600 --> 00:01:07.760
+ for the use of the copyright materials. Part of my hidden agenda in this class is that
+
+00:01:07.760 --> 00:01:13.920
+ you will be able to look at this XKCD comic and you'll understand the humor. So I'm going
+
+00:01:13.920 --> 00:01:25.800
+ to stop for a moment and let you look at it and see if you get the humor. Okay, so maybe
+
+00:01:25.800 --> 00:01:29.480
+ you did, maybe you didn't, but hopefully by the time we're done, you'll have a better
+
+00:01:29.480 --> 00:01:36.920
+ chance of getting the humor. So if you recall, most academics throughout the 60s, 70s, and
+
+00:01:36.920 --> 00:01:41.680
+ 80s, the best they had access to was this store and forward networking where you would
+
+00:01:41.680 --> 00:01:45.800
+ send a message and it would go into a computer and it might sit for some time. Then it would
+
+00:01:45.800 --> 00:01:51.640
+ find its way across a network and it would sit for a little while longer and hop. And
+
+00:01:51.640 --> 00:01:55.840
+ there's these multiple hops. We call these hops. And each of these would be a couple
+
+00:01:55.840 --> 00:02:02.280
+ of hundred miles perhaps. And to go from say Michigan to Stanford, there might be 15 or
+
+00:02:02.280 --> 00:02:08.880
+ 20 hops. Hops are as much defined by geography where we're all trying to optimize the cost
+
+00:02:08.880 --> 00:02:13.960
+ of these long distance connections. So the thing that really characterized store and
+
+00:02:13.960 --> 00:02:19.560
+ forward networking was that there wasn't a lot of sharing. One message was being sent
+
+00:02:19.560 --> 00:02:24.400
+ across one of these links at a time, and all the other messages just kind of waited in
+
+00:02:24.400 --> 00:02:31.880
+ line. Now the innovation that happened in the research networks in the 60s through the
+
+00:02:31.880 --> 00:02:37.600
+ 80s, ultimately unbodied in the ARPANET, was the fact that they were going to be packet
+
+00:02:37.600 --> 00:02:43.960
+ networks. First, how do we share one link so that a long message doesn't clog it up?
+
+00:02:43.960 --> 00:02:49.520
+ And how do we deal with outages more dynamically with the idea that eventually you could say,
+
+00:02:49.520 --> 00:02:54.360
+ send a packet across the country and back into a computer and back out in maybe a half
+
+00:02:54.360 --> 00:03:00.120
+ of a second. And that was seen as something to do rather than somewhere between 10 minutes
+
+00:03:00.120 --> 00:03:06.680
+ and a day or two. So how to do this efficiently? It was a research project. And it was a research
+
+00:03:06.680 --> 00:03:16.180
+ project that lasted almost 20 years. And 20 or more years. And one of the neatest things
+
+00:03:16.180 --> 00:03:20.240
+ about this is they were able to throw it away and rewrite it a bunch of times so that they
+
+00:03:20.240 --> 00:03:26.240
+ could put something in production, see its flaws, see what was good about it, then they
+
+00:03:26.240 --> 00:03:33.040
+ had the money from DARPA to throw it away and rewrite it. Now by the late 1970s, it
+
+00:03:33.040 --> 00:03:39.060
+ had, you know, hundred-ish computers on it. Here's a picture. And these are not the schools.
+
+00:03:39.060 --> 00:03:45.880
+ These are the computers. These are, you know, listing all of the computers that are there.
+
+00:03:45.880 --> 00:03:52.600
+ And so the engine, the innovation that they spent 20 years perfecting was the notion of
+
+00:03:52.600 --> 00:04:01.260
+ packet swishing. So how can we move data simultaneously across the connection? And the essential brilliant
+
+00:04:01.260 --> 00:04:08.720
+ idea is break the message into packets. And again, to sort of review, here I have a message
+
+00:04:08.720 --> 00:04:13.000
+ and I have postcards that only can handle 10 characters. And I'm going to send this
+
+00:04:13.000 --> 00:04:18.720
+ "Hello, there. Have a nice day" message to Daphne in California. And so I have three
+
+00:04:18.720 --> 00:04:24.840
+ 10-character postcards. I basically put a from address and a to address on each postcard
+
+00:04:24.840 --> 00:04:28.840
+ and a sequence number on each postcard. One, two, and three. And I put 10 characters on
+
+00:04:28.840 --> 00:04:34.640
+ each. And then I stick them in my mailbox. I just put them in. Put the sign up. And then
+
+00:04:34.640 --> 00:04:43.300
+ I wait. Now, let's just say, you know, that the post office person comes and picks this
+
+00:04:43.300 --> 00:04:51.080
+ first one up. And it goes to Chicago from Michigan. And then it goes to Omaha. It goes
+
+00:04:51.080 --> 00:04:56.000
+ to Denver. And then the second one kind of falls on the floor and it ends up going to
+
+00:04:56.000 --> 00:04:59.840
+ Charlotte, North Carolina. And then they're like, "Why is this here?" And then they send
+
+00:04:59.840 --> 00:05:05.080
+ it to Atlanta to get checked. And then they make sure. And this one goes. And number three
+
+00:05:05.080 --> 00:05:11.000
+ ends up going to St. Louis. And then Tulsa. And then Colorado. And this one gets routed
+
+00:05:11.000 --> 00:05:15.660
+ back to Charlotte because they weren't sure why they sent it to them in the first place.
+
+00:05:15.660 --> 00:05:20.560
+ And then they send it to Memphis, Tennessee. And then this one makes it to California.
+
+00:05:20.560 --> 00:05:26.520
+ And then this other one sort of goes to Phoenix. And this one finally gets to Dallas, Texas.
+
+00:05:26.520 --> 00:05:31.840
+ And this other one goes finally. And then this third one goes to Tucson, Arizona. And
+
+00:05:31.840 --> 00:05:36.600
+ then Las Vegas, Nevada. And finally it makes it, right? So these poor little postcards
+
+00:05:36.600 --> 00:05:41.600
+ that I put in, they have each a different journey, right? It's a little adventure for
+
+00:05:41.600 --> 00:05:47.920
+ each of the postcards that they go through. And so we don't, I don't see how this works
+
+00:05:47.920 --> 00:05:52.880
+ on my end. I put in three postcards. I numbered them one, two, three. But on the far end in
+
+00:05:52.880 --> 00:05:58.920
+ California, Daphne opens her mailbox and has scribbling all over her mailbox. Oh, the shame.
+
+00:05:58.920 --> 00:06:03.560
+ No, actually we'll get rid of the scribbling. So Daphne opens up her mailbox and she doesn't
+
+00:06:03.560 --> 00:06:09.040
+ know how these packets got there, I mean postcards, how they got there. Out comes the first one.
+
+00:06:09.040 --> 00:06:12.520
+ She goes, oh, it looks like I got a message from Chuck, but I've only got part of it.
+
+00:06:12.520 --> 00:06:16.880
+ Then out comes the second one shortly thereafter. And then after a long period of time, finally
+
+00:06:16.880 --> 00:06:20.640
+ the third one comes out, but it's actually the second one. And now she understands that
+
+00:06:20.640 --> 00:06:26.040
+ she's got the entire message and she reassembles it and away we go. And so this is the basic
+
+00:06:26.040 --> 00:06:31.480
+ notion of how all those postcards can share the infrastructure. They can all be in flight
+
+00:06:31.480 --> 00:06:35.320
+ at the same time. They can take different paths. You don't have to connect them all
+
+00:06:35.320 --> 00:06:43.520
+ together like trains, basically. And this led to a shared network infrastructure. And
+
+00:06:43.520 --> 00:06:48.720
+ so the computers that were in a store and forward network went from sort of big powerful
+
+00:06:48.720 --> 00:06:53.780
+ computers with disk drives to really tiny computers with a single purpose of forwarding
+
+00:06:53.780 --> 00:07:01.440
+ packets rather than long-term storage of message. And so the store and forward had long-term
+
+00:07:01.440 --> 00:07:07.520
+ storage of messages in the routers. I mean, not in the routers. In the store and forward,
+
+00:07:07.520 --> 00:07:11.480
+ the old one, long-term storage was somewhere in the network. But this was only short-term,
+
+00:07:11.480 --> 00:07:17.360
+ right? Short-term storage, short-term storage. And so when a packet comes out, it simply
+
+00:07:17.360 --> 00:07:23.720
+ has to find its way through a series of hops. It still hops and it still connections. But
+
+00:07:23.720 --> 00:07:29.120
+ basically it has to find its way across the Internet. And then we would take whole campuses
+
+00:07:29.120 --> 00:07:34.040
+ like University of Michigan, say, or Stanford, for example. And then we'd have sort of various
+
+00:07:34.040 --> 00:07:38.380
+ kinds of local networks on those campuses and computers on the campuses and servers
+
+00:07:38.380 --> 00:07:43.320
+ and various things. And they would route all their packets, all their data out to the Internet.
+
+00:07:43.320 --> 00:07:46.720
+ And then the packets would find their way across the Internet. And then we might have
+
+00:07:46.720 --> 00:07:53.600
+ a home connection as well that might connect. And so the shared network infrastructure focuses
+
+00:07:53.600 --> 00:08:01.640
+ only on packets, not reliability or anything else.
+
+00:08:01.640 --> 00:08:06.040
+ So this notion of hops didn't go away. As a matter of fact, I don't know how many hops
+
+00:08:06.040 --> 00:08:12.280
+ it took to get from Ann Arbor to Palo Alto using Bitnet. I'm going to guess it might
+
+00:08:12.280 --> 00:08:18.240
+ have been 16 or 20. And these days it takes 16 or 20 hops. The difference is, is in the
+
+00:08:18.240 --> 00:08:23.640
+ Internet, the 16 or 20 hops happens in a hundredth of a second or a tenth of a second. So the
+
+00:08:23.640 --> 00:08:29.080
+ notion of hops and the notion of intermediate computers is still present in the Internet
+
+00:08:29.080 --> 00:08:35.120
+ and the TCP/IP networks that we use today. And so your message sort of leaves you the
+
+00:08:35.120 --> 00:08:40.440
+ host that you're in, hops to the first router, and then hops to however many routers, dot
+
+00:08:40.440 --> 00:08:44.720
+ dot dot. This is more of a dot dot dot thing. And then finally hops its way out to the far
+
+00:08:44.720 --> 00:08:50.360
+ host. And so this is sort of either your computer, maybe Stanford's web server, and then there's
+
+00:08:50.360 --> 00:08:55.260
+ this series of routers in the middle that it hops through.
+
+00:08:55.260 --> 00:09:04.540
+ And so the problem of what data goes between here and here is you've got to solve a lot
+
+00:09:04.540 --> 00:09:10.280
+ of problems, all kinds of problems. And so in order to simplify the solution or break
+
+00:09:10.280 --> 00:09:16.860
+ the solution into simpler, more manageable parts, they came up with a layered network
+
+00:09:16.860 --> 00:09:24.200
+ model. Now, this is a cartoon, and computer people love drawing cartoons and saying this
+
+00:09:24.200 --> 00:09:28.880
+ is our architecture, this is our framework, this is our approach. Sometimes they're helpful,
+
+00:09:28.880 --> 00:09:34.420
+ sometimes they're not helpful. Sometimes the cartoon is just kind of a cartoon. But what's
+
+00:09:34.420 --> 00:09:38.460
+ usually being communicated in these kinds of pictures is they're taking a big problem
+
+00:09:38.460 --> 00:09:44.220
+ and breaking it down into some subset, some set of smaller problems. So the whole problem
+
+00:09:44.220 --> 00:09:48.620
+ that they've got to solve of getting data reliability reliably across the whole country
+
+00:09:48.620 --> 00:09:55.340
+ is that big. And if we can break it into four pieces and work separately, and come up with
+
+00:09:55.340 --> 00:10:01.480
+ ways to let these pieces interact, work separately with each one, then maybe we'll have a better
+
+00:10:01.480 --> 00:10:08.020
+ solution, okay? So take a problem that's so large and so complex that we might not be
+
+00:10:08.020 --> 00:10:13.080
+ able to solve it, and break it into four smaller problems, gives us a better chance of solving
+
+00:10:13.080 --> 00:10:18.580
+ the four problems. Now, there's a certain art to picking how you break the problem up.
+
+00:10:18.580 --> 00:10:23.080
+ And there's more than one network model. The one that we use in the Internet is the TCP/IP
+
+00:10:23.080 --> 00:10:27.600
+ or Internet Protocol Suite model. And we'll meet some of the people who designed that.
+
+00:10:27.600 --> 00:10:32.720
+ There was also a model called the seven-layer OSI model, Open System Interconnection model.
+
+00:10:32.720 --> 00:10:39.200
+ So there's a model out there that has one, two, three, four, five, six, seven layers.
+
+00:10:39.200 --> 00:10:42.520
+ And they all have names, and they all have purposes, and they all have definitions. This
+
+00:10:42.520 --> 00:10:49.320
+ was not quite as popular. This was not very popular. And I doubt that it's many places,
+
+00:10:49.320 --> 00:10:54.200
+ because the TCP/IP model is the one that kind of won. And so that's the one that we're going
+
+00:10:54.200 --> 00:10:57.600
+ to study. But that doesn't mean that that has to be the only one, but it is the one
+
+00:10:57.600 --> 00:11:03.120
+ that has become popular on the Internet. So once you break the problem down from a big
+
+00:11:03.120 --> 00:11:07.960
+ problem into four small problems, you have to develop documents about how these layers
+
+00:11:07.960 --> 00:11:14.000
+ work together, how various computers work together, how routers work, all these things.
+
+00:11:14.000 --> 00:11:20.200
+ And so early in the process of the development of the ARPANET, they created an open process
+
+00:11:20.200 --> 00:11:25.760
+ to build these specifications, where they would invite engineers from all kinds of companies
+
+00:11:25.760 --> 00:11:32.000
+ and universities and who knows what, any expertise, to show up at a meeting several times a year.
+
+00:11:32.000 --> 00:11:36.680
+ I mentioned the IETF meeting when I was talking about the history of the Internet and the
+
+00:11:36.680 --> 00:11:42.160
+ Tim Berners-Lee boff that only 15 people showed up to. That's this meeting. It's the Internet
+
+00:11:42.160 --> 00:11:46.920
+ Engineering Task Force, which is just a bunch of engineers that get in a room, get in many
+
+00:11:46.920 --> 00:11:50.920
+ rooms and solve a bunch of problems. And so the standards that come out of this, and you
+
+00:11:50.920 --> 00:11:55.080
+ can go read them, they're all open documents. They're very throwback documents. They've
+
+00:11:55.080 --> 00:12:01.280
+ got this text thing, and it's got all this beautiful uppercase that reminds me of back
+
+00:12:01.280 --> 00:12:06.720
+ when printers didn't have a lowercase. And these are documents that describe how most
+
+00:12:06.720 --> 00:12:19.520
+ of the components of the Internet work together. So the layered architecture that I just described,
+
+00:12:19.520 --> 00:12:24.160
+ where you have a computer, and then it sends data out the back of it, and then hop, hop,
+
+00:12:24.160 --> 00:12:29.480
+ hop, hop through routers, and then the data arrives at the destination computer, and then
+
+00:12:29.480 --> 00:12:32.920
+ the destination sends it back. It's hop, hop, hop, hop, hop coming back, and it comes to
+
+00:12:32.920 --> 00:12:39.160
+ you. We're going to expand on this a little bit. So each of these hosts on the two ends
+
+00:12:39.160 --> 00:12:45.160
+ is going to expand to this much right here. So that's one host. That's another host. And
+
+00:12:45.160 --> 00:12:51.840
+ each of these routers is going to expand into this. So this bottom picture is just an expanded
+
+00:12:51.840 --> 00:12:59.320
+ version of this upper picture so that we can see how the Internet layers work together.
+
+00:12:59.320 --> 00:13:07.520
+ So when you send a message in on your computer, this is all software. Application, transport,
+
+00:13:07.520 --> 00:13:12.200
+ Internet, link. So this is all software. And then it comes out the little plug on the back
+
+00:13:12.200 --> 00:13:20.240
+ of your computer. So maybe your computer has a little plug like this on the back of it.
+
+00:13:20.240 --> 00:13:24.360
+ That's an Ethernet plug, and here's an Ethernet wire, and I'm plugging my local area network
+
+00:13:24.360 --> 00:13:31.200
+ in, right? And so this right here is that right there. That's kind of the plug. It might
+
+00:13:31.200 --> 00:13:35.960
+ be Wi-Fi, which means it's kind of like air, but if you have a wire like this, then it's
+
+00:13:35.960 --> 00:13:40.800
+ a little more tangible. And there's something on the other end of that wire. This is a very
+
+00:13:40.800 --> 00:13:46.880
+ short wire, but there would be a router on the other end of that wire. The router takes
+
+00:13:46.880 --> 00:13:51.800
+ the data off the wire and then forwards it, just like a post office, intermediate post
+
+00:13:51.800 --> 00:13:56.680
+ office would do, onto the next link, onto the next link. And this would be multiple
+
+00:13:56.680 --> 00:14:01.780
+ hops in here. They're only showing two hops. And then finally, it's on the last link going
+
+00:14:01.780 --> 00:14:07.800
+ to that computer at Stanford, and then it goes up through these four layers of software
+
+00:14:07.800 --> 00:14:11.280
+ and then goes and does whatever it's going to do. Now, when they send you the response
+
+00:14:11.280 --> 00:14:17.960
+ back, it kind of goes the other way. And back up and back to you. So if this was you in
+
+00:14:17.960 --> 00:14:23.880
+ a web browser, you know, and then here's me, and here's a slide I've got, right? This web
+
+00:14:23.880 --> 00:14:28.040
+ browser and you move in your cursor in the web browser, sending stuff back and forth
+
+00:14:28.040 --> 00:14:33.680
+ to the Coursera servers, kind of here, and that's what's happening, right? So as we look
+
+00:14:33.680 --> 00:14:40.760
+ at this picture over here, this left column is the host you're coming from. The right
+
+00:14:40.760 --> 00:14:51.880
+ column is the host you're going to, and the routers are these things in the middle. Okay?
+
+00:14:51.880 --> 00:14:57.400
+ So let's start looking at all four layers. We are going to start at the bottom, at the
+
+00:14:57.400 --> 00:15:03.120
+ link layer, and then we're going to move up. So if you recall, when I talked about the
+
+00:15:03.120 --> 00:15:11.240
+ basic reason why we even have a layered architecture at all, is to simplify the problem. To simplify
+
+00:15:11.240 --> 00:15:19.200
+ the problem. So the idea of the link layer is the link layer is a, it only worries about
+
+00:15:19.200 --> 00:15:24.560
+ getting the data across one hop, right? Only worries about getting the data from across
+
+00:15:24.560 --> 00:15:31.680
+ one piece of wire. What like voltage goes on these little wires and how we send this
+
+00:15:31.680 --> 00:15:37.480
+ stuff and if more than one computer is using the same wire, how do we share? It's a complex
+
+00:15:37.480 --> 00:15:41.760
+ enough problem, but we don't worry about the whole world. We worry about this one link
+
+00:15:41.760 --> 00:15:48.460
+ layer. And so the link layer is sort of like the connection out of one computer and into
+
+00:15:48.460 --> 00:15:54.760
+ another computer. And this might be fiber optic, might be, you know, 40 miles, or it
+
+00:15:54.760 --> 00:16:00.720
+ might be 40 feet, for all we know. But it's one link, okay? And then a router pulls it
+
+00:16:00.720 --> 00:16:05.600
+ off that link and then forwards it onto another link. If you go to the post office, you could
+
+00:16:05.600 --> 00:16:11.720
+ think of the person who picks your mail up from your house with the thing on their shoulder,
+
+00:16:11.720 --> 00:16:16.080
+ that's one link. Then they put it in a truck, which takes it to a place that puts it in
+
+00:16:16.080 --> 00:16:21.760
+ a semi-truck, and then they puts it to another place that puts it on a train, and the semi-truck
+
+00:16:21.760 --> 00:16:28.800
+ and the train and the postman or postwoman are these little link layers. Each person
+
+00:16:28.800 --> 00:16:33.360
+ or semi-truck is not taking it all the way, they're just getting a little farther. So
+
+00:16:33.360 --> 00:16:39.640
+ that's the link layer. So the link layer doesn't worry about the rest of this stuff. It really,
+
+00:16:39.640 --> 00:16:43.120
+ the stuff that is defined on this wire really doesn't even care if there's a worldwide web
+
+00:16:43.120 --> 00:16:49.400
+ or anything. Its job is to get data across one foot. That's what its job is. Is it up?
+
+00:16:49.400 --> 00:16:54.860
+ Is it down? How do we share? It doesn't care. It's got a very narrow view. So what it means
+
+00:16:54.860 --> 00:17:02.900
+ is we can zoom in on this problem. We can zoom in and focus and ignore everything else.
+
+00:17:02.900 --> 00:17:08.620
+ So the link layer basically asks questions like, "I've got some data inside the computer
+
+00:17:08.620 --> 00:17:14.520
+ and I want to send it out. How do I encapsulate it? What if this is shared? How do I deal
+
+00:17:14.520 --> 00:17:20.520
+ with that?" Common link technologies that we see are like Ethernet or Wi-Fi or cable
+
+00:17:20.520 --> 00:17:28.520
+ modem, DSL, satellite or optical. These are all links, layers of one form or another.
+
+00:17:28.520 --> 00:17:32.480
+ So if you're going back to this Ethernet link layer, which is one of our favorites because
+
+00:17:32.480 --> 00:17:37.280
+ it's kind of ubiquitous, other than wireless, it's probably Ethernet is the most ubiquitous
+
+00:17:37.280 --> 00:17:48.160
+ link layer. So when the manufacturer builds an Ethernet or a wireless adapter, they actually
+
+00:17:48.160 --> 00:17:53.640
+ build into it, which is probably right here. I don't know. It could be right here. They
+
+00:17:53.640 --> 00:17:59.120
+ build into it a serial number. So they mark this as having a serial number. And you can
+
+00:17:59.120 --> 00:18:04.360
+ actually, whether you're on Windows or Mac, you can work your way down to find the serial
+
+00:18:04.360 --> 00:18:08.840
+ number for your actual manufactured piece of equipment. So there's one on the Mac. That's
+
+00:18:08.840 --> 00:18:16.440
+ an example one on the Mac and that's an example one on the PC. They tend to be six two-digit
+
+00:18:16.440 --> 00:18:21.880
+ numbers concatenated together often with colons or in this case in Windows it shows dashes.
+
+00:18:21.880 --> 00:18:26.940
+ And so this is a Raspberry Pi and all the Raspberry Pis are going to actually have similar
+
+00:18:26.940 --> 00:18:33.920
+ prefixes and then serial numbers within that prefix. And so the Raspberry Pis get manufactured.
+
+00:18:33.920 --> 00:18:38.200
+ They come out of the manufacturing line with this sequence number just kind of going chug,
+
+00:18:38.200 --> 00:18:44.680
+ chug, chug, up, up, up, up, up. And then they get shipped to all corners of the world. And
+
+00:18:44.680 --> 00:18:52.440
+ so these numbers are not the numbers for this to get across the world. All these serial
+
+00:18:52.440 --> 00:18:59.000
+ numbers at the link layer are good for is to get across one connection in case that
+
+00:18:59.000 --> 00:19:02.840
+ connection is shared. And if you were to plug this into a hub and you're plugging other
+
+00:19:02.840 --> 00:19:07.680
+ computers into that same hub, well then you're sharing that connection and this computer
+
+00:19:07.680 --> 00:19:12.840
+ might see the traffic for that other computer. And so we use the physical addresses so that
+
+00:19:12.840 --> 00:19:19.360
+ this computer knows which of the packets belong to it on the piece of wire. So wired ethernet
+
+00:19:19.360 --> 00:19:23.360
+ or Wi-Fi certainly if you're sitting in a room with a bunch of Wi-Fi computers you're
+
+00:19:23.360 --> 00:19:28.880
+ sharing the air. So you have to come up with rules how to share this, how to share nicely
+
+00:19:28.880 --> 00:19:37.120
+ and how to behave. So the way it works is you could and this ethernet could easily have
+
+00:19:37.120 --> 00:19:40.840
+ a bunch of other computers hooked to it right because it's really shared and so they're
+
+00:19:40.840 --> 00:19:47.200
+ all sitting here, they're all talking simultaneously, you know, but we have a pair of computers
+
+00:19:47.200 --> 00:19:52.240
+ that want to talk. So it's not just one, it's got a bunch of folks sitting here. Just draw
+
+00:19:52.240 --> 00:19:57.600
+ a bunch of them, bunches of folks. They're all talking or all potentially talking and
+
+00:19:57.600 --> 00:20:01.920
+ we got to figure out how in the shared medium. Like this is, think of this as a hub and they're
+
+00:20:01.920 --> 00:20:06.400
+ all connected into this hub including the two we want to talk. They're all connected
+
+00:20:06.400 --> 00:20:11.440
+ in the hub including the two that we want to talk. And how can these two make sure that
+
+00:20:11.440 --> 00:20:16.680
+ the data goes, is the data that's sent with the intention of going to this computer, this
+
+00:20:16.680 --> 00:20:23.840
+ router, how can it make sure that it gets there? Well, if it knows the address of the
+
+00:20:23.840 --> 00:20:30.800
+ sending and receiving unit it just encodes that in the packet. And that way it sort of
+
+00:20:30.800 --> 00:20:36.360
+ goes by all these folks, let me change colors here, the packet we send goes by all these
+
+00:20:36.360 --> 00:20:41.640
+ folks and even if they all heard every one of the packets they all know that it doesn't
+
+00:20:41.640 --> 00:20:45.400
+ belong to them because they all have a different number and this is the only one that responds
+
+00:20:45.400 --> 00:20:53.600
+ to it. So that allows them to share the wireless or the wire and share the wireless or the
+
+00:20:53.600 --> 00:21:01.120
+ wire and have it all work out for them. So that's the idea of the link layer. Now again,
+
+00:21:01.120 --> 00:21:07.240
+ remember this might only be 50 feet or 50 yards or 50 meters, you make it meters. It's
+
+00:21:07.240 --> 00:21:12.240
+ only 50 meters but you still have to share the network in that 50 meters. And then the
+
+00:21:12.240 --> 00:21:16.440
+ router takes it off of that and forwards it on a different link and that's how we get
+
+00:21:16.440 --> 00:21:20.340
+ across the country but that's the next layer up and let's not worry about that for now.
+
+00:21:20.340 --> 00:21:27.640
+ So the idea is think about one link whether it's fiber optic or wireless or Wi-Fi. And
+
+00:21:27.640 --> 00:21:33.280
+ so what are the kind of problems that you have to solve on this link layer? Well, so
+
+00:21:33.280 --> 00:21:37.720
+ one of the things that's cool about many link layers is like wireless and Ethernet is they
+
+00:21:37.720 --> 00:21:41.560
+ can be shared and it makes it really easy to just plug new computers in. So you just
+
+00:21:41.560 --> 00:21:46.320
+ sort of like here's a hub and you just plug another computer in and it's on the network.
+
+00:21:46.320 --> 00:21:52.000
+ But they have to come up with a way to avoid the chaos when they're sharing. And so the
+
+00:21:52.000 --> 00:21:59.720
+ way Ethernet does this is with a technique called carrier sense media access with collision
+
+00:21:59.720 --> 00:22:05.920
+ detection. And as you'll see a lot of the things that we do on the Internet have a lot
+
+00:22:05.920 --> 00:22:11.760
+ to do with courtesy. Meaning that we're just nice and if everybody's nice it all works
+
+00:22:11.760 --> 00:22:17.400
+ out kind of like driving in a car. Just everyone can't run through the stop sign at the same
+
+00:22:17.400 --> 00:22:22.920
+ time. So we've got to stop, got a green light, your turn, my turn, whatever. This probably
+
+00:22:22.920 --> 00:22:27.520
+ wouldn't work so well with cars because sometimes you do have a collision of packets you just
+
+00:22:27.520 --> 00:22:33.600
+ have to wait. Packet collisions don't crush your car they just slow your data down. So
+
+00:22:33.600 --> 00:22:39.360
+ here we go. This is basically carrier sense media access with collision detection. The
+
+00:22:39.360 --> 00:22:43.480
+ first thing you do if you want to send some data, say we got some data inside a little
+
+00:22:43.480 --> 00:22:48.440
+ computer and we're going to send it out knowing that there might be other data going by. The
+
+00:22:48.440 --> 00:22:54.680
+ first thing we do is we listen. We listen to what's on there. If it's not silent we
+
+00:22:54.680 --> 00:22:59.360
+ just wait until it goes silent and then we start sending. So if someone's already using
+
+00:22:59.360 --> 00:23:05.240
+ it why crash into their data and crush their data? Because it's shared, there's only one.
+
+00:23:05.240 --> 00:23:12.040
+ You can't both be sending at the same time. So first you listen. Once it's silent you
+
+00:23:12.040 --> 00:23:20.560
+ begin transmitting data and then what you do is you also listen to your own data. And
+
+00:23:20.560 --> 00:23:30.760
+ if your own data is coming back then it's sounding pretty good. And then if there is
+
+00:23:30.760 --> 00:23:35.040
+ a collision because there's a chance that two computers will want to send at the same
+
+00:23:35.040 --> 00:23:39.920
+ time and they'll collide then what they have to do is back off. And they have a sophisticated
+
+00:23:39.920 --> 00:23:45.000
+ random number calculation so that they back off not always the same amount. Each computer
+
+00:23:45.000 --> 00:23:49.600
+ backs off a different amount and they make it so that it's fair. So one computer's not
+
+00:23:49.600 --> 00:23:57.840
+ always backing the most off so it's very fair. So it's when you detect a collision you retransmit
+
+00:23:57.840 --> 00:24:04.700
+ after a random back off. First you avoid collisions but in the rare case that you have a collision
+
+00:24:04.700 --> 00:24:19.440
+ then you do this. And so I want to introduce you to the person who invented Ethernet. This
+
+00:24:19.440 --> 00:24:27.160
+ is Robert Metcalf and he was working at Xerox Palo Alto Research Center, PARC, everyone
+
+00:24:27.160 --> 00:24:32.880
+ calls it PARC. And they were building what is most considered the first computer, the
+
+00:24:32.880 --> 00:24:40.120
+ Alto computers. They were connecting line printers or fast printers to these. Xerox was building
+
+00:24:40.120 --> 00:24:49.360
+ the first laser printers and they needed something faster and so they just started building it.
+
+00:24:49.360 --> 00:24:53.200
+ And they built this thing called Ethernet. Now it's a little different than the Ethernet
+
+00:24:53.200 --> 00:24:56.320
+ that we see. The first Ethernet that they built is a little different. You can see a
+
+00:24:56.320 --> 00:25:00.440
+ picture of it down here. If you ever go to Xerox PARC and get in you'll go see this little
+
+00:25:00.440 --> 00:25:07.120
+ museum they have. It used a single piece of cable that ran along, they just ran it down
+
+00:25:07.120 --> 00:25:13.120
+ the hallway and they would connect a tap in and then they would use that to send the data.
+
+00:25:13.120 --> 00:25:17.600
+ So it would go down the hallway and a tap would come out in each office and they were
+
+00:25:17.600 --> 00:25:22.080
+ truly sharing the media. This is not shared except when you plug it into a hub, that's
+
+00:25:22.080 --> 00:25:29.200
+ what makes this shared. And it was inspired by an earlier wireless network where they
+
+00:25:29.200 --> 00:25:36.780
+ were doing not collision detection but retransmission called ALOHA. And a lot of early packet network
+
+00:25:36.780 --> 00:25:44.600
+ inspiration comes from the ALOHAnet from University of Hawaii. And because they didn't have anything
+
+00:25:44.600 --> 00:25:48.960
+ except wireless, but they did have wireless, they did a lot of really cool early research
+
+00:25:48.960 --> 00:25:56.000
+ on wireless. And so let's go ahead and meet Bob Metcalf, the inventor, one of the inventors
+
+00:25:56.000 --> 00:25:56.720
+ of Ethernet.
+

@@ -1,0 +1,30 @@
+ So I hope you enjoyed that. Again, I tried to showcase the juxtaposition of the mechanical
+ computers moving to the electronic computers and how it was a collective effort by many
+ different people. And so one of the things that happened sort of after this is after
+ the war, they didn't need Bletchley Park anymore. So they shut the Bletchley Park down.
+ And all these people who had worked on all these things and built all these things went
+ to various academic places like MIT, Manchester, Harvard. And what happened was is what they
+ had done was a secret and they could say nothing about it. But they had realized and they couldn't
+ forget that electronics could do computation. And electronics could do computation far more
+ rapidly than anything we've ever imagined before. And so a series of computers came
+ up really fast after the war. They kind of, you know, relaxed, the war is over, we feel
+ good. But let's start thinking about what we would build if we were going to do computations
+ like weather or other kinds of cool computations instead of just wartime computations. And
+ so these next generation of computers that are often thought of as the first computers
+ in the world, which are really kind of like the follow on computers to the computers built
+ at Bletchley Park. And so the immediate post-war period in the 1940s took the US and UK code
+ breaking. There were similar things in the United States as well. And I'm sure elsewhere
+ where that pushed the envelope of computation. But the folks that had built all these things
+ for wartime purposes switched and moved into academic and peacetime purposes. And so they
+ built, I mean, if you think about it, they had less pressure, but they already know it's
+ feasible and they could kind of sit back and relax and be like, OK, that would be a little
+ better. We kind of compromised there. So they built some really elegant computers. And,
+ you know, they can all sort of fight over who's the first. But ultimately they all pretty
+ much came out very quickly one after another because the idea had escaped. And so this
+ is the beginning of sort of electronic computation, right? The fact that electricity can be used
+ to represent data and that can be used to change data very rapidly as compared to other
+ things that used physical storage for computer information. So this was a great time. Electronic
+ computation from the specialized to the general purpose. And these people really built some
+ exciting computers, many of the architectures of which are kind of still sort of with us.
+ A lot of the architectures were innovative. The innovative architectures that we still
+ used today were conceived and imagined there.

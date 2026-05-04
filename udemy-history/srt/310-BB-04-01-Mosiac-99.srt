@@ -1,0 +1,164 @@
+1
+00:00:00,000 --> 00:00:06,000
+ So we started our journey at University of Illinois Urbana-Champaign. We got the
+
+2
+00:00:06,000 --> 00:00:10,400
+ NSF, created University of Michigan, we created the web, we created the first web
+
+3
+00:00:10,400 --> 00:00:14,680
+ server, and now we're going to come back to where we started. We're going to go
+
+4
+00:00:14,680 --> 00:00:18,800
+ back to the University of Illinois at Urbana-Champaign. These are the folks
+
+5
+00:00:18,800 --> 00:00:25,560
+ that basically exploded the web, moved the web from the academic space to the
+
+6
+00:00:25,560 --> 00:00:30,080
+ commercial and end user space. And there's all kinds of things. The network
+
+7
+00:00:30,080 --> 00:00:34,320
+ was growing, things were getting faster, personal computers were getting better
+
+8
+00:00:34,320 --> 00:00:40,080
+ very rapid pace because the IBM PC is almost 10 years old and many computers
+
+9
+00:00:40,080 --> 00:00:44,360
+ and they were getting quite fast in the in the 90s. So the 1990s our computing
+
+10
+00:00:44,360 --> 00:00:51,680
+ and their display capabilities were getting better very rapidly. And in this
+
+11
+00:00:51,680 --> 00:00:56,680
+ environment NCSA at Urbana-Champaign, University of Illinois Urbana-Champaign
+
+12
+00:00:56,680 --> 00:01:04,400
+ built an open source web browser that worked on Mac, Windows, and Unix. It was
+
+13
+00:01:04,400 --> 00:01:10,240
+ the first web browser that did this and it it was the thing that really made it
+
+14
+00:01:10,240 --> 00:01:14,600
+ so average people who had PCs or Macs in their home could get a network
+
+15
+00:01:14,600 --> 00:01:18,020
+ connection and start enjoying all of this new content that was coming up on
+
+16
+00:01:18,020 --> 00:01:22,920
+ the world wide web. Hello my name is Charles Severance and I am showing you
+
+17
+00:01:22,920 --> 00:01:29,240
+ right now a desktop application that works on my Macintosh called NCSA X
+
+18
+00:01:29,240 --> 00:01:35,520
+ Mosaic. This was software released in 1993 and it was the first Mosaic. It was
+
+19
+00:01:35,520 --> 00:01:40,160
+ the X Windows Mosaic and I'm running it on my Macintosh and you can download it
+
+20
+00:01:40,160 --> 00:01:47,320
+ from my github account. CSAB is my github handle and it's the X Mosaic - 1.2
+
+21
+00:01:47,320 --> 00:01:52,040
+ So what we're looking at here is the original default homepage at the
+
+22
+00:01:52,040 --> 00:01:54,840
+ National Center for Supercomputing Applications at the University of
+
+23
+00:01:54,840 --> 00:02:00,920
+ Illinois and we see it as we saw it circa 1993. We can scroll through we can
+
+24
+00:02:00,920 --> 00:02:06,520
+ see the old good old days the visited links in purple and so if we scroll
+
+25
+00:02:06,520 --> 00:02:14,320
+ down you'll see some neat pictures and the wonderful gray background. List tags
+
+26
+00:02:14,320 --> 00:02:22,040
+ were real back then. You know we can go see something about visualization at
+
+27
+00:02:22,040 --> 00:02:28,000
+ NCSA. I've done a little tiny bit to this to teach it a few things. You can see
+
+28
+00:02:28,000 --> 00:02:35,480
+ all that I've done on HTTP on my github site. You can see everything I've done on
+
+29
+00:02:35,480 --> 00:02:40,180
+ my github site. I try to stay as I just made a few more things work like PNG
+
+30
+00:02:40,180 --> 00:02:47,120
+ images and HTTP 1.1 seek it to visit more more pages. Another another
+
+31
+00:02:47,120 --> 00:02:54,200
+ wonderful page to another wonderful page to take a look at is the original first
+
+32
+00:02:54,200 --> 00:02:59,320
+ page on the world wide web the info.cern.ch and again we're experiencing
+
+33
+00:02:59,320 --> 00:03:06,160
+ it now circa 1993 to see what's out there. Take a look at the people involved
+
+34
+00:03:06,160 --> 00:03:11,680
+ in the project. So here's some of those pages Tim Berners-Lee of course Robert
+
+35
+00:03:11,680 --> 00:03:17,040
+ Caillou of course and here's some of the other people that were working at CERN.
+
+36
+00:03:17,040 --> 00:03:27,160
+ So there you go that is a quick experience in how we surf the web in 1993.
+
+37
+00:03:27,160 --> 00:03:32,800
+ After this the NCSA staff student programmers software developers all
+
+38
+00:03:32,800 --> 00:03:37,000
+ formed the company Netscape in order to commercialize all this. Joseph Harden
+
+39
+00:03:37,000 --> 00:03:41,600
+ was the supervisor of the software development group at NCSA that was
+
+40
+00:03:41,600 --> 00:03:47,200
+ responsible for building and releasing both the mosaic web browser and the
+
+41
+00:03:47,200 --> 00:03:54,000
+ HTTP web server as open source and gave them away free.
+

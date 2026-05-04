@@ -1,0 +1,752 @@
+1
+00:00:00,000 --> 00:00:05,880
+ Netscape is of course known for its Netscape Navigator product, first commercial browser
+
+2
+00:00:05,880 --> 00:00:11,720
+ on the web, so first tool, first generation really used to get on the web. And that was
+
+3
+00:00:11,720 --> 00:00:18,600
+ successful for a while, and then competition became quite stiff from Microsoft. The different
+
+4
+00:00:18,600 --> 00:00:24,420
+ way to compete would be by building a shared asset, set of Netscape versus Microsoft that
+
+5
+00:00:24,420 --> 00:00:31,280
+ Netscape would gather contributions of volunteers and other commercial partners, and build a
+
+6
+00:00:31,280 --> 00:00:37,260
+ product that would be shared. And that group of people knew that to be open source you
+
+7
+00:00:37,260 --> 00:00:43,080
+ had to be real. You couldn't just say, "Oh, we're open source, love us." You really had
+
+8
+00:00:43,080 --> 00:00:48,360
+ to manage it differently. So at the time there were six or seven or eight of us who were
+
+9
+00:00:48,360 --> 00:00:54,160
+ employed by Netscape as Mozilla.org staff, and another 100 or 150 employed by Netscape
+
+10
+00:00:54,160 --> 00:01:00,760
+ as Netscape engineers building the Netscape product, and contributing their work to the
+
+11
+00:01:00,760 --> 00:01:05,960
+ Mozilla open source project. So we were all in the same buildings, we all went to many
+
+12
+00:01:05,960 --> 00:01:11,480
+ of the same meetings, but we had slightly different goals. Because although we call
+
+13
+00:01:11,480 --> 00:01:18,900
+ it the Netscape product, Netscape had been purchased by AOL already. And so the client
+
+14
+00:01:18,900 --> 00:01:24,180
+ itself was diminishing in importance, and the importance of the Netscape client was
+
+15
+00:01:24,180 --> 00:01:31,600
+ to push traffic to the AOL websites. But we, of course, at Mozilla.org were an anomaly,
+
+16
+00:01:31,600 --> 00:01:36,800
+ because our charter was to build a successful open source project. And so that worked for
+
+17
+00:01:36,800 --> 00:01:45,180
+ quite a while. There were tensions. These were the dark years for Mozilla. We came to
+
+18
+00:01:45,180 --> 00:01:51,560
+ understand we needed to rebuild our core technology. That took a long time. While we were doing
+
+19
+00:01:51,560 --> 00:01:56,400
+ that, market share continued to slide. And there was a set of tensions over what does
+
+20
+00:01:56,400 --> 00:02:02,800
+ it mean to run a real open source project? And as it turned out, there were two competing
+
+21
+00:02:02,800 --> 00:02:08,720
+ views. And one of you was that open source is phenomenal, we're very happy that the
+
+22
+00:02:08,720 --> 00:02:13,400
+ code is out there, anyone is very welcome to take that code and use it. We absolutely
+
+23
+00:02:13,400 --> 00:02:20,600
+ want to build a large and engaged contributor community, but all decisions and all authority
+
+24
+00:02:20,600 --> 00:02:25,960
+ will be held by the managed group and we'll make those decisions as we think best, which
+
+25
+00:02:25,960 --> 00:02:32,640
+ is, of course, to benefit the client we're trying to build, which was the Netscape browser.
+
+26
+00:02:32,640 --> 00:02:41,720
+ We at Mozilla.org were convinced it wouldn't be successful, that building a product to
+
+27
+00:02:41,720 --> 00:02:47,760
+ benefit AOL only wouldn't generate the kind of interest, either from individual volunteers
+
+28
+00:02:47,760 --> 00:02:53,000
+ or from commercial partners, that we needed to be successful, and that we found the difference
+
+29
+00:02:53,000 --> 00:02:59,120
+ in perspective from the volunteers made the quality of the project much higher. They were
+
+30
+00:02:59,120 --> 00:03:05,440
+ under immense pressure to ship this product because the company needed it. And not only
+
+31
+00:03:05,440 --> 00:03:11,400
+ was it difficult technically and in an engineering sense, but we at Mozilla.org were saying,
+
+32
+00:03:11,400 --> 00:03:14,960
+ and there's these other things, you may think it's good enough, but we're telling you it's
+
+33
+00:03:14,960 --> 00:03:20,320
+ not because this is the feedback that we're getting and you need to change some of the
+
+34
+00:03:20,320 --> 00:03:27,080
+ development processes and management practices. And so they thought, well, I'm not sure what
+
+35
+00:03:27,080 --> 00:03:30,840
+ they thought, but we experienced it as, no, we really need to keep going on the way that
+
+36
+00:03:30,840 --> 00:03:37,840
+ we're going until we get this product shipped. But unfortunately, the Mozilla community was
+
+37
+00:03:37,840 --> 00:03:44,360
+ correct because when that product shipped, it was a failure. That was Netscape 6. Universally
+
+38
+00:03:44,360 --> 00:03:49,840
+ acknowledged as a bad product and pretty universally acknowledged as the end of the Netscape product
+
+39
+00:03:49,840 --> 00:03:54,840
+ line. That all those people that had held on and hoped through the Netscape four days
+
+40
+00:03:54,840 --> 00:04:00,840
+ and waited and waited and waited for the update once they got it pretty much gave up. So that's
+
+41
+00:04:00,840 --> 00:04:07,600
+ what we experienced. So that certainly didn't help us. That was unfortunate. It did reinforce
+
+42
+00:04:07,600 --> 00:04:17,240
+ our view that our view of the world wasn't crazy. And so we continued on and it was still
+
+43
+00:04:17,240 --> 00:04:24,520
+ long and slow to get technology and products that we liked. And the tensions continued.
+
+44
+00:04:24,520 --> 00:04:29,160
+ The management tensions continued. The failure of Netscape 6 didn't make anything easier.
+
+45
+00:04:29,160 --> 00:04:35,420
+ And certainly for the AOL folks, it really didn't make things easier either. And we fought
+
+46
+00:04:35,420 --> 00:04:42,600
+ a lot about the UI. I think UI is a constant source of tension. But in our case, it was
+
+47
+00:04:42,600 --> 00:04:48,840
+ worse because some of these fights would be it makes sense to AOL to put something in
+
+48
+00:04:48,840 --> 00:04:53,480
+ the product, in the interface of the product. Either a button to an AOL site or something
+
+49
+00:04:53,480 --> 00:04:58,920
+ that has an ad in it or some feature that a partner has paid for so it generates revenue.
+
+50
+00:04:58,920 --> 00:05:04,520
+ We think it might send people to our site. Some of our users might really like it. So
+
+51
+00:05:04,520 --> 00:05:07,920
+ it all made sense from their point of view. But if you're not building the AOL client
+
+52
+00:05:07,920 --> 00:05:12,920
+ to benefit AOL and you're trying to build an open source product that is used for many
+
+53
+00:05:12,920 --> 00:05:17,960
+ people, then of course those features are a big negative. And so those were very fierce
+
+54
+00:05:17,960 --> 00:05:27,040
+ fights because the management of the client group had very clear opportunities in hand
+
+55
+00:05:27,040 --> 00:05:33,260
+ that they wanted to build into their product. And we were this small group saying no.
+
+56
+00:05:33,260 --> 00:05:38,840
+ We're pretty opposed in that case. And we would say no, you can't put it into the core
+
+57
+00:05:38,840 --> 00:05:42,720
+ product. You're welcome to have a build system on your own and add it in later. And that's
+
+58
+00:05:42,720 --> 00:05:46,720
+ how we ended up doing this thing. So we did develop a system for it, but of course it's
+
+59
+00:05:46,720 --> 00:05:52,160
+ awkward and you're always rubbing against what should go where. And it turned out even
+
+60
+00:05:52,160 --> 00:05:58,260
+ in the very early days that the open source Mozilla versions of the product got a lot
+
+61
+00:05:58,260 --> 00:06:05,320
+ more testing than the Netscape versions. And we also tried to build in some quality mechanisms
+
+62
+00:06:05,320 --> 00:06:12,300
+ that again seem normal today. So you get hired as an employee, you don't automatically get
+
+63
+00:06:12,300 --> 00:06:19,180
+ the right to check your code into the tree. But someone has to look at your qualifications
+
+64
+00:06:19,180 --> 00:06:26,280
+ and say Mozilla and the way we work, we understand your coding level, we understand you know
+
+65
+00:06:26,280 --> 00:06:29,820
+ how we work, we understand if something goes wrong with your code you know where you need
+
+66
+00:06:29,820 --> 00:06:33,800
+ to be and all of these things. And that's a very difficult setting for a hiring manager
+
+67
+00:06:33,800 --> 00:06:39,040
+ to say well I've just hired you and you can't be as efficient as you think you can because
+
+68
+00:06:39,040 --> 00:06:44,880
+ there's yet another vetting process by this other group. So I understand why it was difficult,
+
+69
+00:06:44,880 --> 00:06:49,400
+ but on the other hand as an open source project if you can't control the quality of the code
+
+70
+00:06:49,400 --> 00:06:56,000
+ and you don't have any say in it you're not very real. Well client fortunes declined
+
+71
+00:06:56,000 --> 00:07:03,160
+ and the Netscape browser declined and declined precipitously after the Netscape 6. And so
+
+72
+00:07:03,160 --> 00:07:11,960
+ AOL was interested in laying off people and in one of the big layoffs I was included.
+
+73
+00:07:11,960 --> 00:07:22,100
+ And that was seen, that was in 2001 and that was seen as a power struggle as well because
+
+74
+00:07:22,100 --> 00:07:29,060
+ by that time the fights back and forth about what we were building and who was making decisions
+
+75
+00:07:29,060 --> 00:07:33,860
+ were pretty well known within the engineering organization. It's hard for them not to be.
+
+76
+00:07:33,860 --> 00:07:37,420
+ I mean it's true anywhere right, but in some cases the fights and the bugs are all very
+
+77
+00:07:37,420 --> 00:07:49,460
+ public as well. And so I was laid off or fired depending on how you want to describe it.
+
+78
+00:07:49,460 --> 00:07:56,840
+ And as it turned out it wasn't really possible to take my place. And I continued as a volunteer
+
+79
+00:07:56,840 --> 00:08:01,700
+ and the Netscape engineering organization was very clear whose leadership they were
+
+80
+00:08:01,700 --> 00:08:10,060
+ most interested in following. And so we had to work out a way in which the management
+
+81
+00:08:10,060 --> 00:08:16,980
+ at Netscape AOL that remained and I worked out a sort of a way to work together enough
+
+82
+00:08:16,980 --> 00:08:22,040
+ so that they could ship the product they wanted to ship but that I continued to lead the project.
+
+83
+00:08:22,040 --> 00:08:32,020
+ And I think that was a surprise, not so much to me I think. And so I worked as a volunteer
+
+84
+00:08:32,020 --> 00:08:36,420
+ on the Mozilla project for a number of years including the years in which we shipped our
+
+85
+00:08:36,420 --> 00:08:42,500
+ first product which we called Mozilla and which we were very proud of technically. And
+
+86
+00:08:42,500 --> 00:08:47,340
+ for its day many people were surprised at how good it was, but it didn't have a good
+
+87
+00:08:47,340 --> 00:08:52,580
+ user experience. But eventually I ended up working on another open source project with
+
+88
+00:08:52,580 --> 00:09:00,060
+ Mitch Kapoor for a while and that was lucky. He had started this open project and reached
+
+89
+00:09:00,060 --> 00:09:06,120
+ out to talk to Brendan and I about it to learn something. And the day that he was scheduled
+
+90
+00:09:06,120 --> 00:09:11,380
+ to come down and talk with us was the day that I was laid off. And so it was an odd
+
+91
+00:09:11,380 --> 00:09:17,660
+ thing of timing. Yeah that was pre-Chandler but it was that. So I worked on that for a
+
+92
+00:09:17,660 --> 00:09:22,860
+ while and Mitch was always a supporter of Mozilla. Even before Firefox when he didn't
+
+93
+00:09:22,860 --> 00:09:28,340
+ like the product but he recognized that we were an important part of the ecosystem. And
+
+94
+00:09:28,340 --> 00:09:38,500
+ that went on until 2003 when AOL decided to stop investing in the client almost completely.
+
+95
+00:09:38,500 --> 00:09:43,980
+ And fortunately they knew that just killing it wasn't good. They knew enough about Mozilla
+
+96
+00:09:43,980 --> 00:09:54,480
+ and the name and the brand to think it would be good to do something with it. And so eventually
+
+97
+00:09:54,480 --> 00:10:01,180
+ I ended up working with them and some of the people there knew Mitch as well. And I was
+
+98
+00:10:01,180 --> 00:10:05,860
+ working with Mitch and they knew him and so we all spent a chunk of time trying to figure
+
+99
+00:10:05,860 --> 00:10:13,320
+ out what was possible. And my partner Brendan was still at Netscape, very eager to make
+
+100
+00:10:13,320 --> 00:10:19,660
+ a move and many of the key people we wanted were also desperate to keep working on Mozilla.
+
+101
+00:10:19,660 --> 00:10:27,580
+ And so we ended up getting a two million dollar seed money from AOL and Mitch was helpful
+
+102
+00:10:27,580 --> 00:10:33,420
+ with that and a few other things. The trademark name Mozilla and the four giant servers which
+
+103
+00:10:33,420 --> 00:10:38,340
+ were so important to us at the time and which had taken us almost 18 months to get through
+
+104
+00:10:38,340 --> 00:10:43,940
+ the purchase cycle at AOL. And so I think we still have those boxes sitting around because
+
+105
+00:10:43,940 --> 00:10:49,040
+ they were so important to us at the time. And so in 2003 the Mozilla Foundation was
+
+106
+00:10:49,040 --> 00:10:56,460
+ formed and Mitch was the first chairman because he had done so much and had so much to offer.
+
+107
+00:10:56,460 --> 00:11:04,820
+ And Brian Balendorf and Chris Blizzard who worked on Mozilla forever and Brendan and
+
+108
+00:11:04,820 --> 00:11:12,260
+ I were on the board. And AOL understood that there were three or four people that would
+
+109
+00:11:12,260 --> 00:11:17,660
+ be leaving when they did some kind of re-org when they closed down the client group and
+
+110
+00:11:17,660 --> 00:11:21,780
+ that those people would be coming to join us. And of all the people that we thought would
+
+111
+00:11:21,780 --> 00:11:27,580
+ be most helpful at Mozilla, they all came. That was about nine or ten. So we were and
+
+112
+00:11:27,580 --> 00:11:32,700
+ Mitch continued to support me and one other person in Mozilla part time. So we were maybe
+
+113
+00:11:32,700 --> 00:11:39,700
+ ten or eleven people. And Brendan and I had always felt that we needed employees. It was
+
+114
+00:11:39,700 --> 00:11:45,060
+ exciting. It was a little scary because we knew that two million dollars wouldn't go
+
+115
+00:11:45,060 --> 00:11:49,940
+ that far and that we had a lot of work to do to make ourselves real. We were still 18
+
+116
+00:11:49,940 --> 00:11:56,180
+ months away from shipping, 15 months away from shipping Firefox. So that part was scary
+
+117
+00:11:56,180 --> 00:12:00,380
+ but it was immensely exciting. One of the friends of Mozilla showed up and they had
+
+118
+00:12:00,380 --> 00:12:05,360
+ a big lease and a little bit of space they could sublease to us. So we found a funky
+
+119
+00:12:05,360 --> 00:12:12,920
+ little room way in the back. Not even a sink. Very odd but we were really happy with it.
+
+120
+00:12:12,920 --> 00:12:17,960
+ And we worked away on building our product. At that time we made what was a pretty fundamental
+
+121
+00:12:17,960 --> 00:12:25,060
+ change that was critical and we decided unambiguously to be a consumer product. That seems obvious
+
+122
+00:12:25,060 --> 00:12:28,540
+ but when you're a bunch of developers it's not that easy. And it means that you have
+
+123
+00:12:28,540 --> 00:12:33,620
+ to strip out a lot of the things that are clunky for a general consumer. You really
+
+124
+00:12:33,620 --> 00:12:38,860
+ have to be determined that you're building for a general consumer, not yourself. And
+
+125
+00:12:38,860 --> 00:12:43,060
+ I think many open source projects probably don't want to do that and shouldn't try if
+
+126
+00:12:43,060 --> 00:12:46,980
+ you don't want to because you have to keep at it. So we started doing that. Out of the
+
+127
+00:12:46,980 --> 00:12:53,620
+ blue some visual designers appeared from Prince Edward Island in Canada and so we started
+
+128
+00:12:53,620 --> 00:12:59,260
+ to get nice looking logos which we'd never had before and visual elements. And then we
+
+129
+00:12:59,260 --> 00:13:05,900
+ tried to figure out what to do with the start page because we knew that Mozilla development
+
+130
+00:13:05,900 --> 00:13:13,380
+ tools weren't the right answer and we just took us forever. And we looked at all sorts
+
+131
+00:13:13,380 --> 00:13:19,860
+ of things and finally decided the one thing we knew that everybody did was search. You
+
+132
+00:13:19,860 --> 00:13:23,180
+ know we'd have people who'd say well it's obvious you should have the BBC. At least
+
+133
+00:13:23,180 --> 00:13:27,160
+ in English language versions it's obvious. And then you know our engineering guy would
+
+134
+00:13:27,160 --> 00:13:30,460
+ look up and say well it's not obvious to my 17 year old daughter that that's what she
+
+135
+00:13:30,460 --> 00:13:36,700
+ wants. It's not obvious to my son either so. But everybody used search. So we thought we
+
+136
+00:13:36,700 --> 00:13:42,860
+ have the search box. Maybe we should put that on the start page too. Make it easier. Maybe
+
+137
+00:13:42,860 --> 00:13:50,700
+ more obvious to people about search. So we went to talk with the search providers. We
+
+138
+00:13:50,700 --> 00:13:57,860
+ had a very fruitful discussion with Google. I think they also saw the value of having
+
+139
+00:13:57,860 --> 00:14:02,780
+ a Mozilla browser in the world. They were very explicit about that and I believe them.
+
+140
+00:14:02,780 --> 00:14:09,860
+ And so they were also open to doing a business arrangement. And so often people ask how Mozilla
+
+141
+00:14:09,860 --> 00:14:16,980
+ gets paid and we're like most businesses on the web. Search and ads. You do a search.
+
+142
+00:14:16,980 --> 00:14:22,180
+ You know you'll see ads. If you follow those ads revenue is generated. You know it goes
+
+143
+00:14:22,180 --> 00:14:26,140
+ through the system and we get a little piece of it. As do other browser makers. So it's
+
+144
+00:14:26,140 --> 00:14:31,540
+ very similar to the business model on the web. And we did something that I believe had
+
+145
+00:14:31,540 --> 00:14:37,380
+ never been done before which was to make sure that Google and Yahoo were right there next
+
+146
+00:14:37,380 --> 00:14:41,420
+ to each other. You don't see them next to each other. You have to click on the arrow
+
+147
+00:14:41,420 --> 00:14:46,300
+ but they're there. And today people laugh at me when I say that because you only see
+
+148
+00:14:46,300 --> 00:14:52,540
+ one. But I negotiated that. And that was an absolute utter I will walk away from the deal
+
+149
+00:14:52,540 --> 00:14:58,300
+ term to everyone. Because I don't think I'd ever seen it before. And I wasn't. You know
+
+150
+00:14:58,300 --> 00:15:01,820
+ what if you get on a plane and you want a Diet Coke but the plane only has Diet Pepsi
+
+151
+00:15:01,820 --> 00:15:05,740
+ because that's their deal. You're angry and if you want a Diet Pepsi and you want a Coke.
+
+152
+00:15:05,740 --> 00:15:11,620
+ And I used that example. I said I'm not going to have Firefox users angry at us because
+
+153
+00:15:11,620 --> 00:15:15,300
+ they wanted one or the other. You know you have to agree. You're both going to be in
+
+154
+00:15:15,300 --> 00:15:22,340
+ the product. But it also is your values right. It is your values front and center. Yes because
+
+155
+00:15:22,340 --> 00:15:29,020
+ the choice is there. We can do it. And to not do it would be to take away a choice that
+
+156
+00:15:29,020 --> 00:15:36,220
+ somebody really wants and it matters to someone. So we have that choice in the search box but
+
+157
+00:15:36,220 --> 00:15:41,140
+ we still didn't really know what to expect. So we shipped Firefox. And our sense that
+
+158
+00:15:41,140 --> 00:15:46,820
+ we were onto something turned out to be far more true even than we knew. We'd seen a rise
+
+159
+00:15:46,820 --> 00:15:52,540
+ in interest from 0.8 and 0.9 that was pretty noticeable but once we hit the release version
+
+160
+00:15:52,540 --> 00:15:57,700
+ it just exploded. And part of that was it was the perfect product. This time we had
+
+161
+00:15:57,700 --> 00:16:02,100
+ a product at the right time in the market. Internet capabilities had grown enough people
+
+162
+00:16:02,100 --> 00:16:07,140
+ could actually download a browser easily and more people had bandwidth and ability to do
+
+163
+00:16:07,140 --> 00:16:13,520
+ so and a comfort level to try it. So that was good. We had a beautiful product and it
+
+164
+00:16:13,520 --> 00:16:19,860
+ was an important product and the alternative was horrendous and dangerous and awful. And
+
+165
+00:16:19,860 --> 00:16:25,660
+ so all of that combined to create this giant excitement. And so Firefox market share climbed
+
+166
+00:16:25,660 --> 00:16:32,140
+ by a percentage point immediately and started moving these huge numbers. So it was a completely
+
+167
+00:16:32,140 --> 00:16:37,300
+ viral storm with nothing driving it other than the product and the need itself. And
+
+168
+00:16:37,300 --> 00:16:43,940
+ so that took everyone by surprise. We were hoping to be able to generate a few million
+
+169
+00:16:43,940 --> 00:16:48,080
+ dollars to support ourselves for the next year. We had 10 or 11 employees. You start
+
+170
+00:16:48,080 --> 00:16:53,500
+ to add that up. So we were hoping to make enough money to do that. And it turned out
+
+171
+00:16:53,500 --> 00:16:57,700
+ we generated that amount of money before the end of the year. The six weeks or eight weeks
+
+172
+00:16:57,700 --> 00:17:03,060
+ or whatever it was before the end of the year. And so things actually things got even more
+
+173
+00:17:03,060 --> 00:17:09,340
+ stressful and more hectic at that point because now you've kind of got the proverbial tiger
+
+174
+00:17:09,340 --> 00:17:15,240
+ by the tail. We're still 12 people. Right. So that immediate need to grow and the sense
+
+175
+00:17:15,240 --> 00:17:21,580
+ of pressure and stress combined with elation and success is probably, you know, I don't
+
+176
+00:17:21,580 --> 00:17:25,940
+ know, maybe it's like having a child. Right. But it's that combination doesn't immediately
+
+177
+00:17:25,940 --> 00:17:30,980
+ get easier. It was a little easier to be anonymous than nervous. Yes. Yes, that's for sure. We
+
+178
+00:17:30,980 --> 00:17:37,580
+ certainly see that. And so by the end of Firefox shipped in 2004, just actually we just passed
+
+179
+00:17:37,580 --> 00:17:43,820
+ the eight year anniversary. And by the end of 2004, it was pretty clear that we were
+
+180
+00:17:43,820 --> 00:17:49,140
+ a different organization. We were, I would say, still struggling with a different set
+
+181
+00:17:49,140 --> 00:17:55,500
+ of problems, but we had changed the nature of the problems really quite fundamentally.
+
+182
+00:17:55,500 --> 00:18:02,780
+ And you know, we've done so in a way that that our users loved. By 2005, we were in
+
+183
+00:18:02,780 --> 00:18:10,820
+ a really different world where we began to be able to actually influence others. And
+
+184
+00:18:10,820 --> 00:18:15,100
+ that's always been the goal. I mean, market share is nice and it's nice when people love
+
+185
+00:18:15,100 --> 00:18:18,980
+ your product. Market share is a validation that you produce the right thing. And so that's
+
+186
+00:18:18,980 --> 00:18:23,680
+ awesome on its own. But the more important, maybe not more important, equally important
+
+187
+00:18:23,680 --> 00:18:30,620
+ goal is to be able to influence not only ourselves, but others in the industry so that we start
+
+188
+00:18:30,620 --> 00:18:32,140
+ to see more of the things that we care about.
+

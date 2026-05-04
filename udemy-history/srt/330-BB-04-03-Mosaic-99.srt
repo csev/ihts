@@ -1,0 +1,88 @@
+1
+00:00:00,000 --> 00:00:22,000
+ So that was a series of action-packed videos. Brendan and Mitchell have done a great deal, and if you look at the current HTML5, JavaScript, really some of the work that Brendan and Mitchell have done have created this new world that we live in right now with these highly interactive applications.
+
+2
+00:00:22,000 --> 00:00:35,000
+ JavaScript, AJAX, it can really all trace its moments back, its creational moments back to these folks who A) created the clever technology and B) fought to keep it from becoming too proprietary.
+
+3
+00:00:35,000 --> 00:00:46,000
+ So a lot of people gave up on say their own personal benefit to believe in a cause that was the greater good of society through open source.
+
+4
+00:00:46,000 --> 00:01:01,000
+ Now the thing to also think about, just kind of in the back of your mind, is if it wasn't for Microsoft, would Netscape have been successful in its original strategy to make the web and both servers and the clients make them proprietary?
+
+5
+00:01:01,000 --> 00:01:10,000
+ They were going to sell web browsers. They were selling web browsers from $70 to $100. You used to be able to go to a store and buy a web browser. Your computer didn't come with a browser.
+
+6
+00:01:10,000 --> 00:01:17,000
+ As a matter of fact, the first time that Microsoft put the browser in with their operating system, they got sued for it.
+
+7
+00:01:17,000 --> 00:01:24,000
+ But by Microsoft trying to catch up, they had to give their browser away free, which made it impossible for Netscape to charge for the browser.
+
+8
+00:01:24,000 --> 00:01:48,000
+ And so in some ways, not that Microsoft was trying to make the world safe, but they basically blunted, put hundreds of millions of dollars into blunting Netscape's strategy and making sure that, well, they didn't make it, but the net result was the creation of Firefox and Mozilla and the World Wide Web Consortium and a much more fair marketplace.
+
+9
+00:01:48,000 --> 00:02:08,000
+ So the World Wide Web Consortium was created in October of 1994. CERN made a conscious decision, even though it knew that the web had been created there, that the sort of future curation of the web and what the web meant was not something that a physics lab should take on.
+
+10
+00:02:08,000 --> 00:02:32,000
+ And so Tim Berners-Lee went to MIT. MIT welcomed him with open arms. They funded him. They helped him create the World Wide Web Consortium and have done a wonderful job in leading the charge in defining the standards that define the standards that define what HTML is, what CSS is, et cetera.
+
+11
+00:02:32,000 --> 00:02:48,000
+ Now in October 1994, there was no way to know if this was going to be successful. Again, it was somewhat of a reaction to Netscape, who had this sort of bunker mentality. The Netscape was going to take it all over and own it and push all these open people away.
+
+12
+00:02:48,000 --> 00:02:58,000
+ Tim and Mitchell and Joseph and all these people did not want that to happen. They felt it should be free for everybody and open and many browsers and many servers and everything should interoperate.
+
+13
+00:02:58,000 --> 00:03:07,000
+ And standards were the key to that, and the World Wide Web Consortium was going to be the vehicle through which that happened. But they didn't have any power compared to Netscape, and Netscape had all the money.
+
+14
+00:03:07,000 --> 00:03:35,000
+ But IBM and Microsoft were not particularly fans of Netscape either, and so they early on joined the World Wide Web Consortium and gave it enough credibility to eventually sort of take over in terms of being very respected, and the standards produced by the World Wide Web Consortium are high quality and very respected, and they're a shining light to keeping the web safe for the rest of us.
+
+15
+00:03:35,000 --> 00:03:44,000
+ And let proprietary companies do their proprietary thing, but the World Wide Web Consortium is a real important part of today's web.
+
+16
+00:03:44,000 --> 00:04:08,000
+ And so we finally come to the point where you can assume the web, where the web was just there, there was a bunch of browsers, there was a bunch of servers, there was some open source stuff and non-open source stuff. And I want to briefly introduce you to Tim Berners-Lee. This footage was taken by Richard Wiggins, not me. Caught him at a conference, and we only got about a minute of his video.
+
+17
+00:04:08,000 --> 00:04:30,000
+ Last month I was off in Boston for the fourth annual World Wide Web Conference, and I had the opportunity to talk to the inventor of the World Wide Web, Tim Berners-Lee, and I asked him a little bit about where we're going with this web stuff, and we have just a little bit of footage from Tim telling us where that's going to be.
+
+18
+00:04:30,000 --> 00:04:44,000
+ You didn't see nothing yet, but you wait until people assume the web. When the web becomes something you can assume, when the web and the infrastructure is all laid down and we have an information space, then it will be time for the next revolution. Who knows what that will be?
+
+19
+00:04:44,000 --> 00:04:51,000
+ It's hard to imagine a greater revolution than what we've seen. I mean, I go to the smallest places and everybody's putting up a web page.
+
+20
+00:04:51,000 --> 00:05:08,000
+ Right, but the web could only take place, the web revolution could only take place because the internet, which had been a quieter, smaller revolution, but that of the internet itself quietly being deployed throughout the world, had happened because the internet was something people could assume the web revolution could take place.
+
+21
+00:05:08,000 --> 00:05:19,000
+ When the web is something you can assume, then maybe a cultural revolution, an isocultural revolution, a multicultural revolution, or maybe we'll find ways of doing things better that we hadn't imagined.
+
+22
+00:05:19,000 --> 00:05:30,000
+ Pretty neat, Rich. One of the things that I liked about it was he just said his idea was the next step is something completely different. A cultural revolution is compared to just a little more technology.
+

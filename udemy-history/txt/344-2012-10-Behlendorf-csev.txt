@@ -1,0 +1,214 @@
+ (jazz music)
+ (jazz music)
+ (jazz music)
+ (jazz music)
+ (jazz music)
+ - We got our start in the early days of the web
+ as a group of disaffected webmasters
+ who were using a piece of freely available web software,
+ but had difficulty with it.
+ We were fixing bugs.
+ We were sharing these bug fixes with each other,
+ like baseball trading cards, if you will,
+ these patches, as it's called.
+ And one day we discovered the group
+ that put out the web server that we were using
+ basically folded when all their developers left
+ to go join a brand new company called Netscape.
+ So a bunch of us decided that,
+ hey, we're dependent upon this software.
+ We don't want to become full-time web server developers,
+ but we want to be able to use this thing
+ that we've had for free and be able to improve it
+ and all that kind of stuff.
+ We looked at the license of the code,
+ and the license said, here's the software.
+ Do whatever you want with it.
+ Don't blame us when it breaks, right?
+ And we said, hey, that's a pretty good bargain.
+ Why don't we pass the same bargain
+ onto the next group of people, right?
+ So we formed a mailing list, right?
+ And this was mostly, again, webmasters
+ and people working at some early internet service providers
+ or website design companies or places like Amazon
+ or the internet movie database.
+ And we combined our patches together
+ and decided to call it a patchy server for that reason
+ and went forward.
+ And really the model of how we worked
+ was based upon kind of us as a group, as peers,
+ proposing ideas, vetting each other's ideas and patches
+ and fixing bugs as a group, as a team.
+ None of us had met in person, well, some of us had met,
+ but as a group, we didn't meet in person until 1998,
+ really three years after we got our start.
+ And long after, by the way,
+ we'd become the most predominant web server product
+ on the planet.
+ And yet at this time, still, no money, no dime,
+ not direct to us from this piece of open source software,
+ but plenty of us made our living
+ off of building things on top of this piece.
+ And that's really the story, I think,
+ of kind of successful open source projects writ large,
+ which is people working together on common technologies
+ to solve common problems
+ so they can go off and make money on other places
+ or so they can have fun, they can try new ideas,
+ they can be experimental, right?
+ And that's really the same story of Apache and of Linux
+ and all these other open source projects.
+ - So one of the core things about Apache
+ is the concept of meritocracy.
+ Was that a difficult thing to make happen?
+ I mean, I look at your bylaws and I say,
+ somebody crafted those bylaws carefully,
+ or was this just kind of like dumb luck?
+ Is this just kind of how it worked out?
+ Were there any like fights over the bylaws,
+ or did the bylaws just kind of come naturally?
+ - So let's say you've got a group of your neighbors,
+ you know, say a four or five block radius, right?
+ Group of your neighbors, you're on a mailing list, right?
+ And you kind of wanna be social with each other
+ because you have to see each other every day.
+ You know, you don't wanna pick fights necessarily.
+ But you wanna get something done and you decide that,
+ hey, let's throw a picnic on some Sunday, right?
+ So as a group of neighbors, how are you going to decide
+ how to throw a big group picnic, right?
+ Well, somebody's gonna say, hey, I have a big grill.
+ You know, somebody else will say,
+ I have this great meat place that I go and buy my meat from.
+ I'll get it there.
+ Somebody else says, I make a wicked potato salad
+ or something like that.
+ And, you know, by people showing up and volunteering things
+ and saying what they can do
+ and building upon each other's ideas,
+ you generally find a way to do it.
+ That carries a tone of respect for other people's ideas
+ that, you know, recognizes that passion and motivation
+ are some of the most finite resources in the world, right?
+ And you have to cherish that.
+ You don't wanna, you know,
+ naysay somebody's idea just out of hand, right?
+ And so I think it just kind of fell out naturally
+ from, you know, kind of the golden rule
+ of do unto others and that kind of thing.
+ Didn't seem like magic to us, I guess,
+ when we were doing it.
+ But yeah, it turns out to be not that hard
+ to be able to work together
+ when people have the same common goal,
+ which is let's build a product
+ that does all this great stuff.
+ One thing that we did do that made it easy
+ to make some of these decisions
+ was to have a very modular API,
+ which made it easy for us to be able to say,
+ "Hey, if you want that special cool feature,
+ "do it as a separate thing and make it successful,
+ "and we'll decide whether to bring this into the product
+ "once it's become successful or not," right?
+ Another key thing that plays into this
+ that is true of all open source projects
+ is that an open source license, like we had on ours,
+ that Linux has, et cetera,
+ carries with it something called the right to fork,
+ which means that if I were to go all Colonel Kurtz
+ on the project and start saying we're gonna go here
+ and no one else wanted to follow,
+ well, all of those other people
+ could decide to pick up the code
+ and go start a different project somewhere else
+ if they couldn't kick me out,
+ which is probably what they would have tried to do first.
+ This right to fork means that
+ you don't have to have any tolerance for dictators.
+ You don't have to deal with people
+ who make bad technical decisions.
+ You can take that future into your hands,
+ and if you find a group of other people who agree with you,
+ you can go on and create a new project around it.
+ So I think that rule, that right to fork,
+ limits the kind of excesses that we see
+ whenever we start to talk about
+ how do groups make decisions and conflict arises,
+ how do you deal with that conflict?
+ And it means that your style of leadership
+ isn't so much one of control
+ and plotting moves ahead of time,
+ but instead one of being able to get people on your side,
+ convince them that you're gonna value their efforts,
+ value the contributions that they make.
+ - Tell me a little bit about what you're doing now
+ and how sort of the Apache work
+ has flowed into what your current work is.
+ - Well, I think what we realized
+ kind of early on with Apache is that
+ even though we were really carrying forward
+ the traditions from the Internet Engineering Task Force,
+ from the BSD community and the Linux communities
+ in terms of how to write software,
+ and even though we were using tools
+ available to the open source world like CVS
+ and web-based issue trackers and such,
+ I came to realize that there was a certain kind of,
+ that if you could define how it was
+ at Apache Build Software,
+ define it from the perspective of process
+ and the perspective of tools,
+ that was something that if you could
+ distill it down to a science and make it repeatable,
+ you could take it to the rest of the software industry.
+ And you could do that for more open source projects,
+ brand new ones,
+ or you could even do it inside of companies.
+ We, on the outside of big companies like an IBM or an HP,
+ we tend to think that all those companies
+ must have that innovation problem licked, right?
+ They must know how to write software,
+ great software that maximizes the intellectual capital
+ that they're paying for every day, right?
+ Turns out a lot of companies are actually
+ really bad at getting their engineers,
+ getting their employees to produce the smartest things,
+ to reuse each other's work as well as they could,
+ and as well as the open source community does.
+ And so I started a company in 1999
+ on the premise of let's figure this out,
+ let's put this in a bottle if we can or define it,
+ and let's take it to the rest of the industry
+ in the form of a collaboration platform
+ targeted at version control, issue tracking,
+ and also capturing the ad hoc, you know,
+ free form conversation that takes place
+ in open source projects.
+ And so part of it is that,
+ part of it as well is educating communities
+ on best practices around open source engineering.
+ How do you have a development process
+ that is transparent and accessible
+ to everyone in an organization
+ rather than something that is, you know,
+ three people in a cubicle making a decision
+ about, you know, the right kind of decision,
+ or a way to implement a particular technical solution, right?
+ - So finish this sentence, CollabNet is?
+ - CollabNet is a products and services company
+ focused on replicating open source collaboration
+ practices and tools to the rest of the software industry.
+ - Perfect.
+ Now we're on.
+ - Hi there.
+ I'm here at North Carolina State University
+ at a meeting hosted by IBM
+ talking about potential for open source in K-12.
+ I was very, very fortunate to be on a wonderful panel
+ with Brian Bellendorf from Apache Foundation.
+ Brian spoke with the Sakai community last June
+ in Baltimore as our keynote,
+ and I was able to talk to Brian
+ ask him a few things about the beginning of Apache and what he's up to now.

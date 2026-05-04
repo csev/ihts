@@ -1,0 +1,247 @@
+ [MUSIC PLAYING]
+ In the case of Ghana, private sector led.
+ The government was not aware, the government was not interested.
+ And so the private sector took it up.
+ But the private sector we're discussing is me.
+ I'm not exactly private sector, I'm academic.
+ Only I did this job through the private sector.
+ Meaning that I realized that you can wait for the university
+ forever, because they depend on government.
+ And you can wait for the government forever.
+ They have no clue.
+ So I actually have been known to have said publicly
+ that I cannot wait for the government
+ to do it for the country.
+ So I know how to do it.
+ I will do it, no matter how small it is,
+ just to make the point that we are able to do it.
+ In so doing, maybe I can create an avalanche that
+ will carry through the momentum.
+ And that is what I tried to do in the case of Ghana.
+ Now on the continent as a whole, there are variety.
+ Like in the case of Egypt, where the minister there
+ happens to be one of our counterparts
+ from internet society, ISOC, that's Tarek Kamel.
+ And so there was a heavy government success built.
+ In other places like South Africa,
+ there was a good academic dose.
+ So it has varied depending on the circumstance.
+ But I think in much of West Africa,
+ the thrust had been principally from private sector.
+ Because I also went around helping Togo, private sector,
+ helping Gambia, private sector.
+ And so even Nigeria, giving them intellectual property
+ so they could also begin to do it.
+ So it became privacy helping private sector,
+ but for the common good.
+ Because we really felt that we had to go together.
+ Otherwise, things would just disappear.
+ I allowed some countries to transit their data through me.
+ And Togo was an example.
+ But in other places, I actually sent engineers
+ to go and install nodes for them.
+ And Gambia was an example.
+ In other cases, I actually trained people like Swaziland.
+ They brought the telco people to meet.
+ We trained.
+ In other cases, we did consulting services
+ to help Ethiopia, and so on and so forth.
+ So that was roughly the progression,
+ in that the names had to come first.
+ But that was meaningful.
+ And we had to move mail.
+ And so we had to do that.
+ And then the next bit was get the capital cities connected.
+ And that one was a mad rush.
+ But it was a good community activity in the sense
+ that we wanted to help each other.
+ And that has continued till now.
+ Because now, I actually run the African Network Operators Group.
+ And the principal function of this group
+ is to sort of help operators support themselves.
+ And usually, we support ourselves
+ with building our capacity in many different areas,
+ mostly in infrastructure-related things,
+ like routing type of issues, or server services type of issues
+ for those who want to build information resources.
+ The AFNUG has now become the meeting place
+ for most of the technical community.
+ And we meet only once a year.
+ And when we meet, it's like for a period of two weeks,
+ within which we spend one week to train
+ whoever has been admitted into the workshops.
+ And we run four workshops in parallel now.
+ It didn't start as four.
+ It started as just two.
+ And then we've added as we went along.
+ We even have a French track in the routing side of things.
+ And when we meet after the workshop for the students,
+ then we try to sort of induct the students
+ into what the real world is.
+ So we follow the workshop with meetings.
+ And the meetings include the loss of parallel sessions.
+ Those who are following the AFRINIC meetings
+ will get to do that.
+ Those who may be discussing some tutorials, maybe in security
+ will also get to do that.
+ And then we also have a day for conference presentations
+ of 20, 30 minutes from a variety of different areas.
+ And so that has now become a major meeting
+ place for the engineers.
+ And once a year, we all congregate.
+ And it's supposed to be service to community type of thing,
+ in that nobody gets paid.
+ But we try to raise money for the student participants
+ to come.
+ And we've been getting funding.
+ Cisco has been a regular funding source.
+ We've got funding from IDRC, Internet Society, Francophonie,
+ and a whole number of others.
+ But over time, we're trying to change that program so that we
+ become more self-sustaining.
+ So participants who are coming in from, let's say, operators,
+ telcos, and so on, we insist that they pay more of their way
+ so that we can raise funding for academic and research people
+ to participate, and so on.
+ And that was really how things have-- and it still
+ continues to be a major meeting point for many of our operators.
+ Of course, once we've got the connectivity in,
+ then there's a whole host of other issues
+ that began to show up.
+ But we thought all of them can be solved
+ within the same environment.
+ So you have CCTLD issues.
+ Oh, you have AFTLD.
+ Let AFTLD focus that.
+ You have Research and Educational Network Challenge.
+ Oh, build a consensus around the same meeting place.
+ So to an extent, AFTLD has moved from being a workshop type
+ of thing to a meeting place where many new things could
+ be incubated and then allowed to blossom and take
+ on their own life.
+ [MUSIC PLAYING]
+ Now, the particular case about the NIC
+ was interesting in that it took us 10 years
+ to get to accreditation.
+ Of course, in the beginning, we certainly didn't know what it was.
+ We knew it was very important.
+ And for engineers, we knew that that
+ was what to focus on, none of the other things.
+ So we began to build consensus around it.
+ A proposal was made first in '95, then '97, a formal document.
+ And then we moved on.
+ But we realized that we had to build something more than just
+ casual meetings.
+ So we went to deliberately to agree on specifics.
+ And the specifics was who becomes a member of the board.
+ And we decided to do it geographically so that we
+ don't get too much caught into why is that there
+ are so many people from the north and nobody from the south.
+ So we said, OK, each one of the sub-regions
+ gets to elect one person.
+ So it's the members who will elect that person.
+ And that person will serve for a period of one, two, three
+ years, depending on the staggering.
+ And that is how that one also came.
+ But the difficult thing with that was, as we were learning,
+ that meant more and more people were coming.
+ So whenever we thought we had an agreement on something,
+ we were about to move forward in cooperation,
+ then more people come.
+ One case was very disturbing.
+ And that's sort of a moment.
+ And that one, John Puster, was also there.
+ This was very early.
+ And he had agreed that, me, just do it.
+ You have to do it.
+ It has to happen.
+ So I invited them all to a meeting with the African
+ engineers and everything.
+ And suddenly, somebody got up and said, no, no, no, no, no.
+ Why don't we share it up into the countries
+ and have this all go our separate ways?
+ And I mean, at that point, I thought
+ that was the end of the world.
+ And to be honest with you, I never
+ felt so ashamed because I was a bit
+ of an interface between the African technical community
+ and the global community.
+ I knew John Puster myself personally.
+ And they've come to sort of help me.
+ But my people were not ready.
+ So all John could say to me was, get your people ready.
+ And you will have it.
+ So I had to continue until I was able to build some shared
+ consensus.
+ And in 2005, we got it.
+ And at that point, it was also evident
+ that if it has taken so long, there are maybe two factors
+ I have to consider.
+ In 10 years, I would have upset a lot of people.
+ And this could be real in the sense
+ that the three registries had to give up
+ something for Afrinik to exist.
+ So it's inevitable that I would have
+ made a number of people in those three registries uncomfortable.
+ So for me, it was obvious I could not
+ continue in the same capacity.
+ Of course, I didn't tell my colleagues
+ that this was my real feeling.
+ But it was also true that if I were to stay there,
+ I'll get less participation.
+ I'll have less motivation for people to make an effort.
+ And what I needed more was more people
+ making efforts than just one person trying to do things.
+ Because I knew that the space was so large that even if I
+ had nothing to do with these things,
+ there was plenty for me to do.
+ So the strategic thinking was, find a way
+ to exit without telling anybody.
+ Make sure you don't give out too much information for people
+ to capitalize and game on it.
+ So everybody thought I was indeed
+ going to be the next official chair, not the startup chair,
+ but the official chair.
+ And I let them think so.
+ But when it came to the board meeting,
+ I decided to dissolve the board.
+ And I got vote for it.
+ And then I decided I would not run again.
+ And at the same time, certain people
+ who have been, you might say, controversial
+ in their contribution, I tried to urge them not to.
+ And in some cases, I even told them
+ that if you tried, I would marshal the community
+ to vote you out.
+ And in some cases, they tried and they were voted out.
+ But that created a certain flow of maybe new entrants
+ wanting to contribute service to the community.
+ And that has continued till now.
+ And I think that that has been a very good thing for Afrinik.
+ And of course, we also observed in the case of Afrinik
+ that the ability to make local policy
+ does affect the effectiveness of the task at hand.
+ So for example, we know that soon after accreditation,
+ the type of membership we had began to skew more
+ towards a smaller size.
+ Because majority of the operators
+ were actually small operators.
+ And they were trying to fit into a large market,
+ a large operator community environment.
+ And we were working with Riot and Afrinik and so on.
+ And that wasn't working so well.
+ So by us changing the policy to recognize the size,
+ the true size of our operators, we
+ were able to increase the membership.
+ And beyond that, we realized that our location also,
+ we changed the policy so that our location sizes were
+ smaller than the normal that a person, a typical operator,
+ would get.
+ So by knowing the community and making the policies,
+ the community making the policy to suit itself,
+ you're able to get a better match
+ to the needs of the community.
+ And that has shown in the growth and uptake of, at least,
+ IPv4 addresses from Afrinik.
+ [MUSIC PLAYING]
+ [MUSIC PLAYING]

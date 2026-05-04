@@ -1,0 +1,31 @@
+ The Free Software Foundation's mission is to promote users' freedom to copy and redistribute
+ and change software.
+ Free software refers to freedom, not price.
+ So the alternative to free software is proprietary software, proprietary software that subjugates
+ and divides the users.
+ That's what's wrong about it.
+ It's because it divides and subjugates people.
+ It doesn't respect users' freedom.
+ It doesn't allow users to be part of a community, and that's why it's wrong.
+ It's not wrong for programmers to make money, and as long as they can make money in a way
+ that respects the freedom of other people, I think that's good.
+ After all, I'm a programmer, and I'm not unhappy when I make some money, but I only do it in
+ ways that respect the freedom of other people.
+ Back in the 1980s, it was possible for people to speculate, speculatively assume that we
+ couldn't possibly do such a big job because nobody would write the software if they weren't
+ getting paid.
+ Well, now we know from experience that lots of people will work on free software even
+ if they don't get paid, and at the same time, a number of people have found ways to get
+ paid to write free software, so we've now shown that we can do very large jobs.
+ We can produce a broad spectrum of software that is very high quality and that users like
+ to use.
+ Well, I think that the World Wide Web should eventually become the free encyclopedia of
+ all knowledge, that it should have articles covering every topic that you'd want to have
+ in an encyclopedia, and every one of these articles should be available for access at
+ no charge, and that people should be permitted to redistribute them also, and also to quote
+ parts, any part of the article in a new article.
+ I think that they'll be written mostly by teachers, college teachers, high school teachers.
+ You know, if each one writes an article a year, if each, say, not every teacher, because
+ obviously they won't all do this, but if a couple of thousand teachers get involved and
+ each one writes an article per year, that's not a very large part of your time, and that'll
+ get the job done in a decade or two.

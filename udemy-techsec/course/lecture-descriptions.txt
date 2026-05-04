@@ -1,0 +1,146 @@
+
+Subtitle (≤120 chars)
+
+Understand how the Internet works—from packets and protocols to encryption and HTTPS security
+
+Course Description
+
+This course offers a clear and practical introduction to how the Internet works, guiding you from the fundamental mechanics of data transmission all the way to modern security techniques that protect everyday online communication.
+
+We begin by building an intuitive understanding of networking from the ground up. You will learn how data is broken into packets, how those packets travel across shared infrastructure, and how routing decisions are made using IP addresses. From there, we explore how systems like DNS make the Internet usable for humans by translating names into network locations.
+
+Next, the course explains how reliable communication is achieved over an inherently unreliable network. You will see how TCP ensures that data arrives correctly, in order, and at the right speed, forming the foundation for everything from email to streaming video. We then move up to the application layer, where protocols like HTTP power the web through simple but powerful request-response interactions.
+
+In the second half of the course, we shift focus to security. You will learn how encryption protects confidentiality, how hashing ensures data integrity, and how public key cryptography solves the challenge of secure communication between strangers. Finally, we examine how digital certificates and certificate authorities establish trust, enabling secure connections like HTTPS.
+
+Throughout the course, the emphasis is on understanding rather than memorization. By the end, you will have a strong mental model of how the Internet operates and how its core technologies fit together in a coherent, real-world system.
+
+Who This Course Is For
+
+This course is designed for learners who want a clear, conceptual understanding of how the Internet works without needing advanced mathematics or prior programming experience. It is especially valuable for students, educators, and professionals who use technology every day but want to better understand what happens “under the hood.”
+
+If you are beginning your journey in computing, this course will give you a strong mental model of networking and security concepts that are foundational to fields like web development, cybersecurity, and IT. If you already have some technical experience, it will help you connect the pieces—from IP and TCP to HTTP and encryption—into a coherent, end-to-end picture.
+
+This course is also a good fit for instructors looking for approachable material to support teaching, or for curious learners who enjoy understanding the deeper structure behind everyday technologies like the web, secure connections, and online communication.
+
+
+CC-01-Link.txt
+
+Title: From Store-and-Forward to Packet Switching
+Description:
+Learn how early networks moved data using store-and-forward systems and how packet switching revolutionized communication. This lecture explains how messages are split into packets, routed independently, and reassembled—forming the foundation of modern Internet performance and scalability.
+
+CC-02-IP.txt
+
+Title: IP Addresses and the Internet Layer Explained
+Description:
+Understand how the Internet Protocol routes packets across networks using IP addresses. This lecture covers address structure, network prefixes, and how routers efficiently forward data across multiple hops to reach the correct destination computer.
+
+CC-03-DNS.txt
+
+Title: DNS: Turning Names into Network Addresses
+Description:
+Explore how the Domain Name System translates human-friendly names into IP addresses. Learn how DNS works as a distributed, cached system that allows users to navigate the Internet without memorizing numeric addresses.
+
+CC-04-TCP.txt
+
+Title: TCP: Reliable Data Delivery Over the Internet
+Description:
+Discover how TCP ensures reliable communication over an unreliable network. This lecture explains acknowledgements, retransmission, and flow control, showing how TCP guarantees ordered, complete data delivery across the Internet.
+
+CC-05-TCP.txt
+
+Title: TCP Streams: Building Reliable End-to-End Connections
+Description:
+Learn how TCP transforms unreliable packet delivery into a dependable data stream. This lecture shows how buffering, sequencing, and acknowledgements create the illusion of a continuous, reliable connection between applications.
+
+CC-06-App.txt
+
+Title: Application Layer: HTTP and Client-Server Design
+Description:
+Examine how applications use network layers to communicate. This lecture introduces client-server architecture, ports, and protocols like HTTP, explaining how browsers request and receive web content through the request-response cycle.
+
+DD-01-Security-Intro-A.txt
+
+Title: Security Basics: Alice, Bob, and the Threat Model
+Description:
+Meet the foundational characters of cryptography—Alice, Bob, and the attacker. This lecture introduces the core problem of secure communication and the different types of threats that arise when data travels across insecure networks.
+
+DD-01-Security-Intro-B.txt
+
+Title: Who Is Threatening Your Data? Understanding Risk
+Description:
+Learn how to think about security from a practical perspective. This lecture explores real-world threats, from casual attackers to governments, and explains how risk varies depending on who you are and what data you protect.
+
+DD-02-Security-Caesar.txt
+
+Title: Encryption Fundamentals: The Caesar Cipher
+Description:
+Understand the basics of encryption using the classic Caesar cipher. This lecture introduces plaintext, ciphertext, and keys, demonstrating how simple substitution methods work—and why they are easy to break.
+
+DD-03-A-Security-Digest.txt
+
+Title: Integrity and Hashing: Protecting Data from Changes
+Description:
+Explore how cryptographic hashing ensures data integrity. This lecture explains how messages are converted into fixed-length digests and how these hashes can detect tampering or unauthorized modifications.
+
+DD-03-B-Security-Digest.txt
+
+Title: Password Security: Hashing and Safe Storage
+Description:
+Learn how modern systems protect passwords using hashing. This lecture explains why passwords are never stored in plain text and how hashing allows systems to verify identity without exposing sensitive information.
+
+DD-04-Security-SSL.txt
+
+Title: Public Key Encryption: Solving the Key Problem
+Description:
+Discover how public key cryptography enables secure communication without shared secrets. This lecture introduces asymmetric encryption, public/private keys, and why this approach is essential for modern Internet security.
+
+DD-05-Security-CA.txt
+
+Title: Certificates and Trust: How HTTPS Verifies Identity
+Description:
+Understand how digital certificates and certificate authorities establish trust online. This lecture explains how browsers verify websites using signed certificates, ensuring you are communicating with the correct and trusted server.
+
+2013-04-Metcalfe-Copyright-IEEE.pdf
+
+Title: Bob Metcalfe: The Birth of Ethernet
+
+Description:
+In this interview, Bob Metcalfe recounts the creation of Ethernet at Xerox PARC and the challenges of networking early personal computers. He explains how the need to connect high-speed printers and multiple machines led to a shared cable design with collision detection and randomized retransmission. Bob Metcalfe also reflects on the evolution of Ethernet standards and how his early work helped shape the foundation of modern local area networks and today’s high-speed connectivity.
+
+2012-05-Van-Jacobson-Copyright-IEEE.pdf
+
+Title: Van Jacobson: Scaling the Early Internet
+
+Description:
+In this interview, Van Jacobson explains the challenges of scaling TCP/IP during the early days of NSFNet. He describes how congestion collapse nearly brought the network to a halt and how the development of the slow-start algorithm helped stabilize and grow the modern Internet. Van Jacobson provides a rare, firsthand look at the engineering decisions that made large-scale networking possible and how collaboration across the community led to rapid solutions.
+
+2012-12-Vint-Cerf-Copyright-IEEE.pdf
+
+Title: Vint Cerf: A Brief History of Packets
+
+Description:
+In this interview, Vint Cerf—one of the “fathers of the Internet”—shares the origins of packet switching and the development of TCP/IP. He traces the evolution from early research in distributed communication to the creation of ARPANET and the eventual rise of the Internet. Vint Cerf highlights the importance of open protocols, collaboration, and long-term research in building the global network we rely on today.
+
+2013-01-Van-CCN-Copyright-IEEE.pdf
+
+Title: Van Jacobson: Rethinking the Internet with Content-Centric Networking
+
+Description:
+In this interview, Van Jacobson explores the limitations of the traditional host-to-host Internet model and introduces the concept of content-centric networking (CCN). He explains how modern usage patterns—focused on content distribution rather than conversations—challenge the current architecture. Van Jacobson discusses how shifting toward naming and retrieving content directly could improve scalability, efficiency, and performance across global networks.
+
+2015-12-Schneier-Mindset-Copyright-IEEE.pdf
+
+Title: Bruce Schneier: Thinking Like a Security Expert
+
+Description:
+In this interview, Bruce Schneier discusses what it means to develop a “security mindset.” He explains that security is not just about technology but about understanding adversaries, thinking creatively, and anticipating how systems can fail. Bruce Schneier emphasizes the importance of curiosity, interdisciplinary thinking, and real-world experimentation in preparing for a career in cybersecurity.
+
+2016-03-Schneier-NIST-Copyright-IEEE.pdf
+
+Title: Bruce Schneier: Building and Breaking Cryptographic Systems
+
+Description:
+In this interview, Bruce Schneier examines the realities of cryptographic security in a world of powerful adversaries. He explains how strong mathematical algorithms like AES provide real protection, but also why vulnerabilities often arise in implementation rather than theory. Bruce Schneier discusses the role of standards organizations like NIST, the importance of simplicity in secure design, and the ongoing balance between privacy, surveillance, and trust.
+

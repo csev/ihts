@@ -1,0 +1,152 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:02.840
+ - Hello, and welcome to our security lecture.
+
+00:00:02.840 --> 00:00:05.520
+ I'm Charles Severance, and I encourage
+
+00:00:05.520 --> 00:00:09.920
+ you to grab the PowerPoints and remix them and use them
+
+00:00:09.920 --> 00:00:10.840
+ in your own courses.
+
+00:00:10.840 --> 00:00:11.680
+ Use the videos.
+
+00:00:11.680 --> 00:00:14.040
+ Use everything in your own courses.
+
+00:00:14.040 --> 00:00:16.000
+ You don't have to teach this whole course.
+
+00:00:16.000 --> 00:00:19.480
+ It's quite a bit.
+
+00:00:19.480 --> 00:00:22.680
+ So let's start out by meeting some nice people.
+
+00:00:22.680 --> 00:00:28.180
+ These people are Alice and Bob, and they simply
+
+00:00:28.180 --> 00:00:31.320
+ want to communicate some information left
+
+00:00:31.320 --> 00:00:32.260
+ to their own devices.
+
+00:00:32.260 --> 00:00:34.440
+ And they don't want the rest of the world
+
+00:00:34.440 --> 00:00:36.140
+ to know about what they're communicating,
+
+00:00:36.140 --> 00:00:39.440
+ and so they want to encrypt it some way.
+
+00:00:39.440 --> 00:00:44.680
+ Now, in the cryptography world, they all
+
+00:00:44.680 --> 00:00:48.520
+ call these two people, the good people, Alice and Bob.
+
+00:00:48.520 --> 00:00:53.120
+ And they simply are A and B, very computer-esque variable
+
+00:00:53.120 --> 00:00:55.880
+ names, A and B, and Alice and Bob.
+
+00:00:55.880 --> 00:00:57.840
+ And then there's some bad guys.
+
+00:00:57.840 --> 00:01:01.160
+ There's the bad guys, and often they
+
+00:01:01.160 --> 00:01:05.240
+ are called C, like Carol, or Carlos, or Charlie,
+
+00:01:05.240 --> 00:01:06.800
+ or something like that.
+
+00:01:06.800 --> 00:01:08.120
+ They're even Chuck.
+
+00:01:08.120 --> 00:01:09.720
+ Even Chuck is a bad guy.
+
+00:01:09.720 --> 00:01:12.720
+ Or Dave or Eve, Eve for the eavesdropper.
+
+00:01:12.720 --> 00:01:17.000
+ And the idea is somewhere in the middle here,
+
+00:01:17.000 --> 00:01:19.360
+ somewhere in the middle, you have
+
+00:01:19.360 --> 00:01:21.280
+ some person with bad intent.
+
+00:01:21.280 --> 00:01:23.520
+ Here we have Trinity from The Matrix,
+
+00:01:23.520 --> 00:01:27.680
+ and she looks as bad as you can look, right?
+
+00:01:27.680 --> 00:01:30.520
+ So Alice and Bob seem to be real happy people.
+
+00:01:30.520 --> 00:01:33.480
+ They're just trying to get things done
+
+00:01:33.480 --> 00:01:36.440
+ and send some information without being bothered.
+
+00:01:36.440 --> 00:01:39.520
+ And then Trinity's there eavesdropping.
+
+00:01:39.520 --> 00:01:40.440
+ But there's other things.
+
+00:01:40.440 --> 00:01:41.560
+ You can eavesdrop.
+
+00:01:41.560 --> 00:01:44.400
+ You can sort of redirect the message and change it.
+
+00:01:44.400 --> 00:01:46.720
+ There's all kinds of things that the bad guy in the middle
+
+00:01:46.720 --> 00:01:47.880
+ is going to do.
+
+00:01:47.880 --> 00:01:51.840
+ And so Alice and Bob are far away from each other,
+
+00:01:51.840 --> 00:01:53.340
+ and they have to communicate securely.
+
+00:01:53.340 --> 00:01:57.640
+ And it's a literal gauntlet of problems
+
+00:01:57.640 --> 00:02:00.040
+ that they have to face, and various people
+
+00:02:00.040 --> 00:02:03.360
+ with bad intent, with bad purposes, sometimes just
+
+00:02:03.360 --> 00:02:05.600
+ wanting to see what's going on versus wanting
+
+00:02:05.600 --> 00:02:09.320
+ to change what's going on versus completely redirect
+
+00:02:09.320 --> 00:02:09.920
+ communication.
+
+00:02:09.920 --> 00:02:13.960
+ So Alice, Bob, and then a whole series of bad guys
+
+00:02:13.960 --> 00:02:18.840
+ with various bad guys and gals with various evil intent.
+

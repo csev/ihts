@@ -1,0 +1,135 @@
+::Q1 Key Exchange Problem::
+Why is public key cryptography necessary on the Internet?
+{
+=It allows secure communication without pre-shared secrets
+~It eliminates the need for encryption
+~It replaces hashing
+~It guarantees faster transmission
+}
+
+::Q2 Symmetric Limitation::
+What is the main limitation of symmetric encryption in large networks?
+{
+=Sharing keys securely at scale is difficult
+~It is too fast
+~It cannot encrypt data
+~It does not use algorithms
+}
+
+::Q3 Public vs Private Key::
+What is the key idea behind public key cryptography?
+{
+=One key is public for encryption, the other is private for decryption
+~Both keys must be secret
+~Keys are stored in routers
+~Encryption uses only one key
+}
+
+::Q4 Confidentiality Thinking::
+If Alice encrypts a message using Bob’s public key, who can read it?
+{
+=Only Bob using his private key
+~Anyone with Alice’s public key
+~All routers in the network
+~Anyone who intercepts it
+}
+
+::Q5 Authentication Insight::
+If Bob encrypts something with his private key, what does that prove?
+{
+=That the message came from Bob
+~That the message is secret
+~That the network is secure
+~That the message is faster
+}
+
+::Q6 Dual Use Concept::
+Why are public key systems used for both encryption and signatures?
+{
+=They solve both confidentiality and authenticity problems
+~They reduce packet size
+~They eliminate TCP
+~They simplify routing
+}
+
+::Q7 Man-in-the-Middle Risk::
+Why is simply using public key encryption not enough by itself?
+{
+=An attacker could substitute a fake public key
+~Public keys are too small
+~Encryption is too slow
+~Routers block encrypted traffic
+}
+
+::Q8 Certificate Purpose::
+What problem do digital certificates solve?
+{
+=They verify that a public key belongs to a specific entity
+~They encrypt all data
+~They replace IP addresses
+~They improve routing
+}
+
+::Q9 Certificate Authority Role::
+Why do we trust certificate authorities (CAs)?
+{
+=They vouch for the identity of servers by signing certificates
+~They route packets
+~They generate IP addresses
+~They store passwords
+}
+
+::Q10 Trust Chain Thinking::
+Why is a chain of trust used in certificate systems?
+{
+=Trust can be extended from known authorities to unknown entities
+~It reduces encryption time
+~It eliminates attackers
+~It simplifies DNS
+}
+
+::Q11 HTTPS Insight::
+What does HTTPS add on top of HTTP?
+{
+=Encryption and identity verification
+~Faster page loading
+~Better routing
+~Smaller packets
+}
+
+::Q12 Browser Verification::
+Why does a browser check a website’s certificate?
+{
+=To confirm it is communicating with the intended server
+~To assign an IP address
+~To improve speed
+~To reduce packet loss
+}
+
+::Q13 Warning Messages::
+Why do browsers warn users about invalid certificates?
+{
+=The identity of the server cannot be trusted
+~The network is too slow
+~The IP address is incorrect
+~The packet size is too large
+}
+
+::Q14 Encryption Tradeoff::
+Why is public key encryption often combined with symmetric encryption in practice?
+{
+=Public key is slower, so symmetric is used for bulk data
+~Symmetric encryption is insecure
+~Public key cannot encrypt data
+~Routers require symmetric keys
+}
+
+::Q15 Big Picture Trust::
+Why is trust a central challenge in Internet security?
+{
+=You often communicate with systems you have never met before
+~Encryption eliminates trust issues
+~All servers are verified automatically
+~Networks guarantee identity
+}
+

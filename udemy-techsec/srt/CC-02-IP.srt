@@ -1,0 +1,2864 @@
+1
+00:00:00,000 --> 00:00:01,240
+ Welcome back.
+
+2
+00:00:01,240 --> 00:00:02,980
+ So I hope you enjoyed that.
+
+3
+00:00:02,980 --> 00:00:05,600
+ Now, I want to make it real clear that when I give you
+
+4
+00:00:05,600 --> 00:00:09,760
+ a 15-minute video of an amazing inventor and computer
+
+5
+00:00:09,760 --> 00:00:13,280
+ scientist, you don't have to remember every word
+
+6
+00:00:13,280 --> 00:00:16,160
+ that that person says, OK?
+
+7
+00:00:16,160 --> 00:00:18,160
+ It's more important to get the gist of it.
+
+8
+00:00:18,160 --> 00:00:20,520
+ I try to cover the things I really
+
+9
+00:00:20,520 --> 00:00:22,560
+ want you to know in my slides.
+
+10
+00:00:22,560 --> 00:00:25,200
+ And you might want to listen to it more than once,
+
+11
+00:00:25,200 --> 00:00:27,760
+ or listen to my slides and then go back.
+
+12
+00:00:27,760 --> 00:00:30,280
+ But I don't want you to memorize it.
+
+13
+00:00:30,280 --> 00:00:33,360
+ I wanted to give you smart people.
+
+14
+00:00:33,360 --> 00:00:35,880
+ I want you to hear from the smart people who
+
+15
+00:00:35,880 --> 00:00:38,800
+ did all this cool work in their own words.
+
+16
+00:00:38,800 --> 00:00:40,600
+ But when we hear from their own words,
+
+17
+00:00:40,600 --> 00:00:43,160
+ they're sometimes pretty technical.
+
+18
+00:00:43,160 --> 00:00:47,060
+ So just relax and enjoy listening to these people
+
+19
+00:00:47,060 --> 00:00:49,320
+ and understand that you're not going to get everything.
+
+20
+00:00:49,320 --> 00:00:51,020
+ But hopefully, you'll come back and you'll
+
+21
+00:00:51,020 --> 00:00:52,980
+ get more and more later.
+
+22
+00:00:52,980 --> 00:00:57,920
+ So the idea was that he really started with this idea
+
+23
+00:00:57,920 --> 00:01:01,680
+ of wireless, which was we're going to share one medium.
+
+24
+00:01:01,680 --> 00:01:04,640
+ And the wireless and the wire, the ethernet wire
+
+25
+00:01:04,640 --> 00:01:07,360
+ that he built, the coaxial cable that he built,
+
+26
+00:01:07,360 --> 00:01:11,720
+ was like a giant radio, except it ran in the ceiling.
+
+27
+00:01:11,720 --> 00:01:13,880
+ And so the design ended up really simple.
+
+28
+00:01:13,880 --> 00:01:17,160
+ And that's been good for ethernet over the years.
+
+29
+00:01:17,160 --> 00:01:21,680
+ And later, Wi-Fi is a variation of ethernet.
+
+30
+00:01:21,680 --> 00:01:24,840
+ And so it turns out to be sometimes it's
+
+31
+00:01:24,840 --> 00:01:26,720
+ best to build something simple, but that just
+
+32
+00:01:26,720 --> 00:01:29,720
+ make it go really fast and make it really cheap.
+
+33
+00:01:29,720 --> 00:01:32,160
+ He also formed the company 3Com, which
+
+34
+00:01:32,160 --> 00:01:35,720
+ was one of the first manufacturers of PC cards.
+
+35
+00:01:35,720 --> 00:01:38,740
+ And so back in the day, you would go buy a PC
+
+36
+00:01:38,740 --> 00:01:41,200
+ and you would go buy a 3Com card and you'd plug it
+
+37
+00:01:41,200 --> 00:01:42,840
+ into the back of your computer.
+
+38
+00:01:42,840 --> 00:01:47,360
+ And so there was a time when San Francisco Stadium Candlestick
+
+39
+00:01:47,360 --> 00:01:49,840
+ Park was named 3Com Stadium.
+
+40
+00:01:49,840 --> 00:01:54,800
+ And our friend Bob Metcalfe was involved in all of that.
+
+41
+00:01:54,800 --> 00:01:56,880
+ So he's done many things throughout his life.
+
+42
+00:01:56,880 --> 00:01:59,120
+ And we're honored to have met him.
+
+43
+00:01:59,120 --> 00:02:03,480
+ So we started with this four-layer architecture
+
+44
+00:02:03,480 --> 00:02:06,780
+ that says we're going to break down a big problem of cooperating
+
+45
+00:02:06,780 --> 00:02:09,480
+ applications across various kinds of networks.
+
+46
+00:02:09,480 --> 00:02:10,680
+ We're going to break it down.
+
+47
+00:02:10,680 --> 00:02:14,480
+ And we just got done talking about the link layer.
+
+48
+00:02:14,480 --> 00:02:17,920
+ It's literally 20,000, maybe 50,000 engineers
+
+49
+00:02:17,920 --> 00:02:21,360
+ have spent the last 20 years figuring out
+
+50
+00:02:21,360 --> 00:02:22,840
+ how to make this work.
+
+51
+00:02:22,840 --> 00:02:27,000
+ Because the layered architecture lets them think,
+
+52
+00:02:27,000 --> 00:02:31,560
+ although it was informed, they have 20,000, 50,000--
+
+53
+00:02:31,560 --> 00:02:36,240
+ I don't know-- 20,000 engineers that think about that problem
+
+54
+00:02:36,240 --> 00:02:39,000
+ and they ignore the rest of the problems.
+
+55
+00:02:39,000 --> 00:02:42,880
+ They ignore the rest of the problems.
+
+56
+00:02:42,880 --> 00:02:44,920
+ That's great, because they've gotten really
+
+57
+00:02:44,920 --> 00:02:46,960
+ good at this one problem.
+
+58
+00:02:46,960 --> 00:02:49,480
+ Now we're going to go like-- I don't know how many engineers.
+
+59
+00:02:49,480 --> 00:02:51,520
+ Let's just make it up-- 5K engineers
+
+60
+00:02:51,520 --> 00:02:53,480
+ think about this next problem.
+
+61
+00:02:53,480 --> 00:02:57,360
+ The next problem is called-- oh, my color's got to change--
+
+62
+00:02:57,360 --> 00:03:00,200
+ the inter-network layer.
+
+63
+00:03:00,200 --> 00:03:07,200
+ It is the notion of forwarding each of the postcards
+
+64
+00:03:07,200 --> 00:03:10,760
+ with a from and a to address, forwarding enough times
+
+65
+00:03:10,760 --> 00:03:13,240
+ to get them all the way across the network.
+
+66
+00:03:13,240 --> 00:03:15,680
+ That's the next problem we're going to solve.
+
+67
+00:03:15,680 --> 00:03:18,320
+ We're going to stop thinking about the link layer.
+
+68
+00:03:18,320 --> 00:03:19,860
+ We're just going to assume it works.
+
+69
+00:03:19,860 --> 00:03:20,800
+ It's just magic.
+
+70
+00:03:20,800 --> 00:03:22,960
+ That's what a layered architecture gives you.
+
+71
+00:03:22,960 --> 00:03:24,800
+ You don't worry about the stuff above you.
+
+72
+00:03:24,800 --> 00:03:26,640
+ You don't worry about the stuff below you.
+
+73
+00:03:26,640 --> 00:03:31,440
+ You focus like crazy on the stuff that you're focusing on.
+
+74
+00:03:31,440 --> 00:03:40,560
+ So the link layer only works on one link.
+
+75
+00:03:40,560 --> 00:03:42,440
+ It worries about one link.
+
+76
+00:03:42,440 --> 00:03:45,720
+ And there might be 15 or so of these links.
+
+77
+00:03:45,720 --> 00:03:49,160
+ But the internet layer worries about all the links
+
+78
+00:03:49,160 --> 00:03:53,920
+ and the proper sequence of links to follow
+
+79
+00:03:53,920 --> 00:03:57,720
+ to get from UM to Stanford.
+
+80
+00:03:57,720 --> 00:04:00,000
+ That's a kind of complex problem.
+
+81
+00:04:00,000 --> 00:04:01,920
+ We're not even going to worry about reliability.
+
+82
+00:04:01,920 --> 00:04:05,480
+ We're just going to worry about if I had a postcard
+
+83
+00:04:05,480 --> 00:04:09,480
+ with a from and a to address, a packet, can I get it there?
+
+84
+00:04:09,480 --> 00:04:11,240
+ How will I forward it?
+
+85
+00:04:11,240 --> 00:04:13,280
+ I assume the link layer is perfect.
+
+86
+00:04:13,280 --> 00:04:15,640
+ So the internet layer is the first end to end.
+
+87
+00:04:15,640 --> 00:04:18,760
+ Because if you recall, this vertical set of boxes
+
+88
+00:04:18,760 --> 00:04:21,360
+ is the host starting computer.
+
+89
+00:04:21,360 --> 00:04:25,000
+ And this vertical set of boxes is the destination computer.
+
+90
+00:04:25,000 --> 00:04:29,760
+ So in this little Raspberry Pi, all four of these things--
+
+91
+00:04:29,760 --> 00:04:34,080
+ application, transport, IP, and the link--
+
+92
+00:04:34,080 --> 00:04:37,800
+ is all part of this one gadget.
+
+93
+00:04:37,800 --> 00:04:39,360
+ So IP is best effort.
+
+94
+00:04:39,360 --> 00:04:41,480
+ And it's OK to drop data if things go bad.
+
+95
+00:04:41,480 --> 00:04:45,240
+ And that's one of its most charming features.
+
+96
+00:04:45,240 --> 00:04:48,520
+ But what it had to introduce in addition to the ethernet
+
+97
+00:04:48,520 --> 00:04:52,920
+ addresses, or the media access layer, MAC addresses,
+
+98
+00:04:52,920 --> 00:04:57,160
+ is an address of the destination.
+
+99
+00:04:57,160 --> 00:04:59,280
+ Now, if you remember, the MAC addresses,
+
+100
+00:04:59,280 --> 00:05:00,800
+ the addresses for the link layer,
+
+101
+00:05:00,800 --> 00:05:02,080
+ come from the manufacturer.
+
+102
+00:05:02,080 --> 00:05:04,520
+ The moment this equipment is manufactured,
+
+103
+00:05:04,520 --> 00:05:07,000
+ it is burned in a serial number.
+
+104
+00:05:07,000 --> 00:05:09,040
+ These move all around the world.
+
+105
+00:05:09,040 --> 00:05:11,200
+ If this runs here at the University of Michigan,
+
+106
+00:05:11,200 --> 00:05:14,960
+ it needs one address to connect to the network, one IP address.
+
+107
+00:05:14,960 --> 00:05:17,880
+ And if it runs in Stanford, it needs a different IP address.
+
+108
+00:05:17,880 --> 00:05:19,420
+ So we have to be able to change these.
+
+109
+00:05:19,420 --> 00:05:21,440
+ They're assigned differently.
+
+110
+00:05:21,440 --> 00:05:24,880
+ So it's the worldwide number.
+
+111
+00:05:24,880 --> 00:05:26,560
+ That is your postcard address.
+
+112
+00:05:26,560 --> 00:05:28,280
+ It's like a phone number, right?
+
+113
+00:05:28,280 --> 00:05:32,840
+ So wherever I'm at, you call my phone, and this gadget rings.
+
+114
+00:05:32,840 --> 00:05:38,160
+ So it's address-- well, that's actually kind of a bad example,
+
+115
+00:05:38,160 --> 00:05:40,040
+ because I use the same phone number.
+
+116
+00:05:40,040 --> 00:05:41,560
+ Ignore that.
+
+117
+00:05:41,560 --> 00:05:42,600
+ Phones use magic.
+
+118
+00:05:42,600 --> 00:05:43,720
+ They use crazy magic.
+
+119
+00:05:43,720 --> 00:05:49,040
+ So in computers, they're not as cool as phones.
+
+120
+00:05:49,040 --> 00:05:51,040
+ You have to change the address everywhere you go.
+
+121
+00:05:51,040 --> 00:05:53,680
+ We'll talk about how you change the address everywhere you go.
+
+122
+00:05:53,680 --> 00:05:58,560
+ The IP addresses are based on where the station is connected.
+
+123
+00:05:58,560 --> 00:06:02,200
+ They do get reorganized once in a great while, but not very often.
+
+124
+00:06:02,200 --> 00:06:05,440
+ And you can even go to various websites on the internet
+
+125
+00:06:05,440 --> 00:06:10,360
+ and say, IP address lookup is the most common search.
+
+126
+00:06:10,360 --> 00:06:13,960
+ And it will tell you something about where you're coming from, right?
+
+127
+00:06:13,960 --> 00:06:15,660
+ And it would kind of be sometimes really weird,
+
+128
+00:06:15,660 --> 00:06:17,120
+ because you might be at a Starbucks,
+
+129
+00:06:17,120 --> 00:06:19,040
+ and it might send it all to St. Louis, and it might say,
+
+130
+00:06:19,040 --> 00:06:21,360
+ oh, you're coming from St. Louis, even if you're not.
+
+131
+00:06:21,360 --> 00:06:22,240
+ So you can look it up.
+
+132
+00:06:22,240 --> 00:06:24,200
+ And you can look up other addresses as well.
+
+133
+00:06:24,200 --> 00:06:26,280
+ You can say, oh, here's an IP address.
+
+134
+00:06:26,280 --> 00:06:27,600
+ I'm going to look this one up.
+
+135
+00:06:27,600 --> 00:06:29,520
+ First, it starts by looking yours up.
+
+136
+00:06:29,520 --> 00:06:31,760
+ But you can put in different addresses,
+
+137
+00:06:31,760 --> 00:06:33,520
+ like in this particular one.
+
+138
+00:06:33,520 --> 00:06:35,840
+ If I put a different address in here,
+
+139
+00:06:35,840 --> 00:06:40,080
+ it will actually go look that address up.
+
+140
+00:06:40,080 --> 00:06:43,120
+ So the IP address format, it's four numbers
+
+141
+00:06:43,120 --> 00:06:44,960
+ that are separated by dots.
+
+142
+00:06:44,960 --> 00:06:49,960
+ Each of the numbers can be between 1 and 255.
+
+143
+00:06:49,960 --> 00:06:53,200
+ And it's just a representation of a 32-bit number.
+
+144
+00:06:53,200 --> 00:06:55,640
+ Back in the day, they kept the numbers small,
+
+145
+00:06:55,640 --> 00:07:00,280
+ because they didn't want to use all the computer memory.
+
+146
+00:07:00,280 --> 00:07:03,400
+ And so this is an example of an IP address.
+
+147
+00:07:03,400 --> 00:07:09,480
+ Four numbers between 0 and 255, separated by dots.
+
+148
+00:07:09,480 --> 00:07:14,920
+ Now, the address is broken into two parts.
+
+149
+00:07:14,920 --> 00:07:18,880
+ There is the network number part, which is the prefix.
+
+150
+00:07:18,880 --> 00:07:22,600
+ And then there is the computer number within network.
+
+151
+00:07:22,600 --> 00:07:24,440
+ And it's kind of like phone numbers
+
+152
+00:07:24,440 --> 00:07:29,720
+ were before cell phones, where the area code was
+
+153
+00:07:29,720 --> 00:07:31,160
+ where the phone was.
+
+154
+00:07:31,160 --> 00:07:34,800
+ And then this was within that area code, where to find it.
+
+155
+00:07:34,800 --> 00:07:38,840
+ And even the older days, these were actually geographic too.
+
+156
+00:07:38,840 --> 00:07:41,800
+ So these numbers would be neighborhoods or whatever.
+
+157
+00:07:41,800 --> 00:07:43,120
+ These days, it's all electronic.
+
+158
+00:07:43,120 --> 00:07:47,920
+ So the precise mapping of a phone number to a geography
+
+159
+00:07:47,920 --> 00:07:49,960
+ is less precise.
+
+160
+00:07:49,960 --> 00:07:51,780
+ And that's why you get a cell phone number.
+
+161
+00:07:51,780 --> 00:07:53,360
+ And you move to a whole new state.
+
+162
+00:07:53,360 --> 00:07:54,860
+ You keep your old cell phone number,
+
+163
+00:07:54,860 --> 00:07:56,560
+ because it's become electronic.
+
+164
+00:07:56,560 --> 00:07:59,760
+ But in the early days, when it was actual relays and switches
+
+165
+00:07:59,760 --> 00:08:02,400
+ making the phone numbers work, they actually
+
+166
+00:08:02,400 --> 00:08:06,000
+ had to do with where.
+
+167
+00:08:06,000 --> 00:08:08,040
+ It's actually kind of fascinating how phones work.
+
+168
+00:08:08,040 --> 00:08:11,960
+ I ought to teach a class on how phone switches worked
+
+169
+00:08:11,960 --> 00:08:13,480
+ in the 1800s.
+
+170
+00:08:13,480 --> 00:08:17,320
+ Actually quite fascinating, because they
+
+171
+00:08:17,320 --> 00:08:18,400
+ were surprisingly simple.
+
+172
+00:08:18,400 --> 00:08:20,000
+ That's the interesting part.
+
+173
+00:08:20,000 --> 00:08:22,600
+ How simple turn of the century-- well,
+
+174
+00:08:22,600 --> 00:08:24,880
+ turn of last century-- phone numbers were.
+
+175
+00:08:24,880 --> 00:08:28,760
+ So let's get back to IP addresses.
+
+176
+00:08:28,760 --> 00:08:30,480
+ There's four numbers.
+
+177
+00:08:30,480 --> 00:08:33,400
+ Some part of those four numbers is a prefix.
+
+178
+00:08:33,400 --> 00:08:36,000
+ We call that the network number.
+
+179
+00:08:36,000 --> 00:08:39,560
+ And when the packet is in the middle of the network,
+
+180
+00:08:39,560 --> 00:08:41,160
+ it doesn't really look at these numbers.
+
+181
+00:08:41,160 --> 00:08:42,400
+ It only looks at the prefix.
+
+182
+00:08:42,400 --> 00:08:44,840
+ So it kind of thinks of all the packets going
+
+183
+00:08:44,840 --> 00:08:49,920
+ to a piece of the University of Michigan as 141, 211 star star.
+
+184
+00:08:49,920 --> 00:08:52,940
+ And then we assign these numbers within Michigan.
+
+185
+00:08:52,940 --> 00:08:54,960
+ And then this number is assigned to us
+
+186
+00:08:54,960 --> 00:08:58,000
+ by the internet authority that assigns numbers.
+
+187
+00:08:58,000 --> 00:08:59,380
+ So we say, hey, we need some more.
+
+188
+00:08:59,380 --> 00:09:00,600
+ And they give us a prefix.
+
+189
+00:09:00,600 --> 00:09:04,440
+ Then within that prefix, we get to set up all the other things.
+
+190
+00:09:04,440 --> 00:09:11,200
+ So this network number, which is the prefix of the IP address,
+
+191
+00:09:11,200 --> 00:09:14,620
+ is the way that a packet is routed through the internet
+
+192
+00:09:14,620 --> 00:09:17,080
+ as it progresses through the internet.
+
+193
+00:09:17,080 --> 00:09:23,600
+ And so it's sort of like if I start with my computer here
+
+194
+00:09:23,600 --> 00:09:27,120
+ at U of M, and that's my number, that's my actual number.
+
+195
+00:09:27,120 --> 00:09:31,000
+ And here's a Stanford computer, and that's its number.
+
+196
+00:09:31,000 --> 00:09:32,720
+ And I send a packet.
+
+197
+00:09:32,720 --> 00:09:38,640
+ And I say, OK, I'm going to send it from 141, 211, 144, 188,
+
+198
+00:09:38,640 --> 00:09:41,840
+ to 67, 149, yada yada.
+
+199
+00:09:41,840 --> 00:09:45,600
+ As soon as the packet enters the network,
+
+200
+00:09:45,600 --> 00:09:48,280
+ it doesn't throw the data away, but it stops thinking about it.
+
+201
+00:09:48,280 --> 00:09:50,280
+ It only looks at the prefix.
+
+202
+00:09:50,280 --> 00:09:55,440
+ And so it greatly simplifies what the routers have to do
+
+203
+00:09:55,440 --> 00:09:58,040
+ as it goes across the hops in the internet.
+
+204
+00:09:58,040 --> 00:09:59,840
+ It's greatly simplified because it only
+
+205
+00:09:59,840 --> 00:10:00,960
+ looks at the first part.
+
+206
+00:10:00,960 --> 00:10:04,000
+ It doesn't have to look at the whole thing.
+
+207
+00:10:04,000 --> 00:10:05,460
+ And then it starts making decisions
+
+208
+00:10:05,460 --> 00:10:06,400
+ as to how to get there.
+
+209
+00:10:06,400 --> 00:10:08,640
+ It says, OK, I'll hop it over here.
+
+210
+00:10:08,640 --> 00:10:10,000
+ And it's like in Kansas City.
+
+211
+00:10:10,000 --> 00:10:11,560
+ And it says, what am I going to do here?
+
+212
+00:10:11,560 --> 00:10:14,800
+ And I'll pick one of those two links, and I'll go over here.
+
+213
+00:10:14,800 --> 00:10:16,780
+ And then as it exits the network,
+
+214
+00:10:16,780 --> 00:10:19,700
+ it dumps it somehow onto Stanford's campus.
+
+215
+00:10:19,700 --> 00:10:22,880
+ And then it finds its way-- oh, it didn't find it to this one.
+
+216
+00:10:22,880 --> 00:10:24,120
+ It found its way to that one.
+
+217
+00:10:24,120 --> 00:10:27,240
+ There you go, unpredictable computers.
+
+218
+00:10:27,240 --> 00:10:30,520
+ So within the Stanford campus, these numbers mean something.
+
+219
+00:10:30,520 --> 00:10:32,780
+ And the Stanford campus uses those numbers
+
+220
+00:10:32,780 --> 00:10:35,560
+ to get the thing to the actual real computer.
+
+221
+00:10:35,560 --> 00:10:38,480
+ And so it sort of used this prefix.
+
+222
+00:10:38,480 --> 00:10:40,640
+ It has a real number, but then it
+
+223
+00:10:40,640 --> 00:10:42,600
+ uses the prefix in the middle.
+
+224
+00:10:42,600 --> 00:10:45,480
+ And then the real number reappears at the end.
+
+225
+00:10:45,480 --> 00:10:47,320
+ So that's called a network number.
+
+226
+00:10:47,320 --> 00:10:51,200
+ And it greatly simplifies.
+
+227
+00:10:51,200 --> 00:10:55,440
+ It's complex enough to be in the middle
+
+228
+00:10:55,440 --> 00:10:58,640
+ and have to worry about all these things coming from Kansas
+
+229
+00:10:58,640 --> 00:11:02,080
+ City and Beijing and where these things go.
+
+230
+00:11:02,080 --> 00:11:04,660
+ To have to look at each one and know where every computer is
+
+231
+00:11:04,660 --> 00:11:06,040
+ is crazy.
+
+232
+00:11:06,040 --> 00:11:10,040
+ So that's why they call it the inter-network protocol,
+
+233
+00:11:10,040 --> 00:11:12,160
+ because it says there's one network,
+
+234
+00:11:12,160 --> 00:11:14,920
+ there's another network, and the only thing I care about
+
+235
+00:11:14,920 --> 00:11:16,800
+ is the network number.
+
+236
+00:11:16,800 --> 00:11:19,280
+ And I am the inter-network protocol,
+
+237
+00:11:19,280 --> 00:11:22,460
+ IP, inter-network protocol.
+
+238
+00:11:22,460 --> 00:11:24,280
+ I'm just getting these things from one network
+
+239
+00:11:24,280 --> 00:11:25,160
+ to another network.
+
+240
+00:11:25,160 --> 00:11:27,080
+ And then it's up to that network to figure out
+
+241
+00:11:27,080 --> 00:11:29,840
+ how to get the darn thing to the right computer within it.
+
+242
+00:11:29,840 --> 00:11:31,380
+ And it's up to Stanford to figure out
+
+243
+00:11:31,380 --> 00:11:34,120
+ how to get it to the right computer at Stanford.
+
+244
+00:11:34,120 --> 00:11:37,840
+ So these things are called the network number.
+
+245
+00:11:37,840 --> 00:11:39,960
+ It's the prefix of the IP address.
+
+246
+00:11:39,960 --> 00:11:42,200
+ Now the key thing that-- it's really a beautiful, beautiful
+
+247
+00:11:42,200 --> 00:11:45,440
+ design, because the center of the network
+
+248
+00:11:45,440 --> 00:11:49,560
+ is both exceedingly complex in one way, that it's so big
+
+249
+00:11:49,560 --> 00:11:52,200
+ and so fast, but exceedingly simple in the other.
+
+250
+00:11:52,200 --> 00:11:56,760
+ It just has to move the data from point A to point B.
+
+251
+00:11:56,760 --> 00:11:59,400
+ And if you think about it, it's even simpler.
+
+252
+00:11:59,400 --> 00:12:03,160
+ If we look at it from the perspective of this router,
+
+253
+00:12:03,160 --> 00:12:06,240
+ the router here I've got circled,
+
+254
+00:12:06,240 --> 00:12:08,200
+ it just received a packet.
+
+255
+00:12:08,200 --> 00:12:10,000
+ It looks at the network number.
+
+256
+00:12:10,000 --> 00:12:12,360
+ And it actually doesn't even care to some degree
+
+257
+00:12:12,360 --> 00:12:14,240
+ where it really belongs.
+
+258
+00:12:14,240 --> 00:12:16,720
+ It only has one of two choices.
+
+259
+00:12:16,720 --> 00:12:18,120
+ It's going to go this way.
+
+260
+00:12:18,120 --> 00:12:20,880
+ It's going to go that way.
+
+261
+00:12:20,880 --> 00:12:22,680
+ Which one's better?
+
+262
+00:12:22,680 --> 00:12:27,400
+ And it turns out, if you look at it, either one would work.
+
+263
+00:12:27,400 --> 00:12:29,280
+ Turns out this one is better.
+
+264
+00:12:29,280 --> 00:12:32,240
+ But if I went this way, it would just take an extra tenth
+
+265
+00:12:32,240 --> 00:12:34,120
+ of a second or something.
+
+266
+00:12:34,120 --> 00:12:36,360
+ So it turns out the decisions that are made
+
+267
+00:12:36,360 --> 00:12:38,720
+ don't even have to be perfect.
+
+268
+00:12:38,720 --> 00:12:41,680
+ You can make the wrong decision, and the network automatically
+
+269
+00:12:41,680 --> 00:12:42,200
+ corrects.
+
+270
+00:12:42,200 --> 00:12:44,920
+ That's part of the goal of the network.
+
+271
+00:12:44,920 --> 00:12:47,720
+ And so it really simplifies and limits
+
+272
+00:12:47,720 --> 00:12:51,880
+ the need for each router to understand
+
+273
+00:12:51,880 --> 00:12:54,240
+ the entire network, which makes these routers--
+
+274
+00:12:54,240 --> 00:12:55,960
+ I draw them small in these diagrams
+
+275
+00:12:55,960 --> 00:13:00,120
+ on purpose, because we think of them as small and fast,
+
+276
+00:13:00,120 --> 00:13:02,000
+ and only solving a really tiny problem,
+
+277
+00:13:02,000 --> 00:13:04,080
+ but doing it really super awesome.
+
+278
+00:13:04,080 --> 00:13:09,080
+ So routers maintain what we call router tables.
+
+279
+00:13:09,080 --> 00:13:12,360
+ And they maintain a list of network numbers
+
+280
+00:13:12,360 --> 00:13:17,800
+ and the best outbound route for each of the network numbers.
+
+281
+00:13:17,800 --> 00:13:19,480
+ Now, the other thing that they do
+
+282
+00:13:19,480 --> 00:13:22,560
+ is they pass routes back and forth.
+
+283
+00:13:22,560 --> 00:13:25,440
+ And this is how they adapt to errors, right?
+
+284
+00:13:25,440 --> 00:13:26,760
+ They get updated dynamically.
+
+285
+00:13:26,760 --> 00:13:29,060
+ They ask each other for the best place.
+
+286
+00:13:29,060 --> 00:13:31,480
+ If they see a network number they haven't seen before,
+
+287
+00:13:31,480 --> 00:13:34,600
+ they ask their neighbors, then their neighbor's neighbors.
+
+288
+00:13:34,600 --> 00:13:38,520
+ And they go, oh, OK, I got a good way to get to 67, 149.
+
+289
+00:13:38,520 --> 00:13:40,960
+ And so there's all kinds of communication,
+
+290
+00:13:40,960 --> 00:13:45,280
+ but it's relatively slow and it doesn't have to be perfect.
+
+291
+00:13:45,280 --> 00:13:47,560
+ And so router tables are what routers have,
+
+292
+00:13:47,560 --> 00:13:50,280
+ but they're indexed by the network number of the packets,
+
+293
+00:13:50,280 --> 00:13:52,480
+ not the host of the destination.
+
+294
+00:13:52,480 --> 00:13:55,960
+ So that's an amazing, amazing improvement
+
+295
+00:13:55,960 --> 00:13:59,000
+ in the performance and efficiency of the internet
+
+296
+00:13:59,000 --> 00:14:01,880
+ core, the IP core.
+
+297
+00:14:01,880 --> 00:14:04,600
+ So it's really quite simple, right?
+
+298
+00:14:04,600 --> 00:14:08,880
+ You basically have a local area network on your campus.
+
+299
+00:14:08,880 --> 00:14:11,360
+ This might actually be your house, too.
+
+300
+00:14:11,360 --> 00:14:13,840
+ House is kind of like a campus.
+
+301
+00:14:13,840 --> 00:14:16,000
+ And you can do all the crazy things you want,
+
+302
+00:14:16,000 --> 00:14:19,040
+ hundreds of computers, hundreds of servers,
+
+303
+00:14:19,040 --> 00:14:20,960
+ and thousands of laptops.
+
+304
+00:14:20,960 --> 00:14:27,360
+ And you get one address that is the address of your campus.
+
+305
+00:14:27,360 --> 00:14:29,640
+ It's the network number of your campus
+
+306
+00:14:29,640 --> 00:14:31,160
+ to the rest of the world.
+
+307
+00:14:31,160 --> 00:14:35,200
+ And then all over the world, people can send to you.
+
+308
+00:14:35,200 --> 00:14:40,280
+ And by simply looking at the prefix, data makes it to you.
+
+309
+00:14:40,280 --> 00:14:45,760
+ Keeps this really simple and really fast.
+
+310
+00:14:45,760 --> 00:14:47,320
+ So it's beautiful.
+
+311
+00:14:47,320 --> 00:14:48,480
+ That's with a network number.
+
+312
+00:14:48,480 --> 00:14:50,800
+ One area code, one network number.
+
+313
+00:14:50,800 --> 00:14:52,560
+ It's the only thing has to be kept track of.
+
+314
+00:14:52,560 --> 00:14:56,800
+ A whole UM campus can be characterized
+
+315
+00:14:56,800 --> 00:14:59,900
+ within the core of the network as basically a single network
+
+316
+00:14:59,900 --> 00:15:00,400
+ number.
+
+317
+00:15:00,400 --> 00:15:03,560
+ And the reality is, it's usually a few of these,
+
+318
+00:15:03,560 --> 00:15:06,160
+ because they get given to you in smaller chunks.
+
+319
+00:15:06,160 --> 00:15:09,200
+ So you end up with 20 or 30 of these things for your campus
+
+320
+00:15:09,200 --> 00:15:11,080
+ if you're a medium to large campus.
+
+321
+00:15:11,080 --> 00:15:20,160
+ So now I want to talk a little bit about the problem
+
+322
+00:15:20,160 --> 00:15:23,320
+ of computers that move around.
+
+323
+00:15:23,320 --> 00:15:26,200
+ So you have a laptop.
+
+324
+00:15:26,200 --> 00:15:29,180
+ And you use it at your local coffee shop.
+
+325
+00:15:29,180 --> 00:15:30,520
+ And then you close the lid.
+
+326
+00:15:30,520 --> 00:15:32,880
+ And you go home and open it.
+
+327
+00:15:32,880 --> 00:15:34,200
+ And it works at home.
+
+328
+00:15:34,200 --> 00:15:35,440
+ And then you close the lid.
+
+329
+00:15:35,440 --> 00:15:36,200
+ And you go to school.
+
+330
+00:15:36,200 --> 00:15:38,280
+ And you open it and talk to wireless at school.
+
+331
+00:15:38,280 --> 00:15:39,520
+ And it works.
+
+332
+00:15:39,520 --> 00:15:41,600
+ It's like, hey, Dr. Chuck, you just
+
+333
+00:15:41,600 --> 00:15:43,580
+ told me that I have to have this address.
+
+334
+00:15:43,580 --> 00:15:45,120
+ And I can't talk on the internet if I
+
+335
+00:15:45,120 --> 00:15:47,000
+ don't have the right address.
+
+336
+00:15:47,000 --> 00:15:50,160
+ And the packets are routed based on the prefix of this address.
+
+337
+00:15:50,160 --> 00:15:52,920
+ Why is it that I can be three places--
+
+338
+00:15:52,920 --> 00:15:56,120
+ coffee shop, home, and school--
+
+339
+00:15:56,120 --> 00:15:57,680
+ and it seems like everything works?
+
+340
+00:15:57,680 --> 00:16:02,960
+ Well, that's because while your computer has an ethernet
+
+341
+00:16:02,960 --> 00:16:05,800
+ address that's baked in at the factory,
+
+342
+00:16:05,800 --> 00:16:08,880
+ most computers are configured when they first open up
+
+343
+00:16:08,880 --> 00:16:11,680
+ and connect to a Wi-Fi to ask, instead
+
+344
+00:16:11,680 --> 00:16:14,560
+ of having an IP address configured in your computer,
+
+345
+00:16:14,560 --> 00:16:19,600
+ they send a request out to say, hey, I'm new here.
+
+346
+00:16:19,600 --> 00:16:22,120
+ Is there anyone who will give me an IP address that I might
+
+347
+00:16:22,120 --> 00:16:25,240
+ use for this particular location?
+
+348
+00:16:25,240 --> 00:16:29,480
+ And if there is an access point, say, at your Starbucks,
+
+349
+00:16:29,480 --> 00:16:33,560
+ it says, sure, use this one.
+
+350
+00:16:33,560 --> 00:16:34,840
+ You're at Starbucks.
+
+351
+00:16:34,840 --> 00:16:36,880
+ That's a good number for Starbucks.
+
+352
+00:16:36,880 --> 00:16:39,120
+ Now, it turns out that the prefix of this
+
+353
+00:16:39,120 --> 00:16:41,840
+ is exactly the prefix that the world sees
+
+354
+00:16:41,840 --> 00:16:43,640
+ all this traffic to Starbucks.
+
+355
+00:16:43,640 --> 00:16:46,800
+ So it's actually kind of a real address.
+
+356
+00:16:46,800 --> 00:16:50,280
+ And it gives you an address.
+
+357
+00:16:50,280 --> 00:16:53,560
+ So you ask-- when your thing comes up, it asks,
+
+358
+00:16:53,560 --> 00:16:54,800
+ what can I get?
+
+359
+00:16:54,800 --> 00:16:56,880
+ And then it's told what address to use.
+
+360
+00:16:56,880 --> 00:16:59,400
+ So you're using one address while you're at Starbucks,
+
+361
+00:16:59,400 --> 00:17:02,280
+ a different address at home, and a different address yet again
+
+362
+00:17:02,280 --> 00:17:04,200
+ at school.
+
+363
+00:17:04,200 --> 00:17:10,240
+ So that's called the dynamic host configuration protocol.
+
+364
+00:17:10,240 --> 00:17:14,800
+ Now, it turns out with schools and homes
+
+365
+00:17:14,800 --> 00:17:20,400
+ and there's just too many computers
+
+366
+00:17:20,400 --> 00:17:24,280
+ to give every computer a real address.
+
+367
+00:17:24,280 --> 00:17:27,240
+ And so we have these special addresses.
+
+368
+00:17:27,240 --> 00:17:30,480
+ They're called the non-routable addresses.
+
+369
+00:17:30,480 --> 00:17:33,600
+ So you'll probably notice if you go to one person's house,
+
+370
+00:17:33,600 --> 00:17:38,920
+ you will have an IP address of 192.168.something.something.
+
+371
+00:17:38,920 --> 00:17:40,280
+ Go to a different person's house,
+
+372
+00:17:40,280 --> 00:17:43,920
+ it'll also be 192.168.something.something.
+
+373
+00:17:43,920 --> 00:17:48,000
+ And you go to your house, it's 192.168.something.something.
+
+374
+00:17:48,000 --> 00:17:49,800
+ And you're like, how can that work?
+
+375
+00:17:49,800 --> 00:17:51,520
+ I seem to have the same address.
+
+376
+00:17:51,520 --> 00:17:54,920
+ Well, that's because of a technology called network
+
+377
+00:17:54,920 --> 00:18:00,160
+ address translation, where each of the home routers
+
+378
+00:18:00,160 --> 00:18:02,480
+ actually has a unique and distinct address,
+
+379
+00:18:02,480 --> 00:18:04,160
+ but you're not seeing it.
+
+380
+00:18:04,160 --> 00:18:05,960
+ It's giving you a temporary address,
+
+381
+00:18:05,960 --> 00:18:09,000
+ an address that really can't run at all on the internet.
+
+382
+00:18:09,000 --> 00:18:11,120
+ It only lives within the house.
+
+383
+00:18:11,120 --> 00:18:14,720
+ But then as your packets leave the house or leave the Starbucks,
+
+384
+00:18:14,720 --> 00:18:16,000
+ the real address is put in.
+
+385
+00:18:16,000 --> 00:18:18,480
+ And then when it comes back, the real address is taken out
+
+386
+00:18:18,480 --> 00:18:20,440
+ and your local address is put in.
+
+387
+00:18:20,440 --> 00:18:22,280
+ So they're called non-routable addresses,
+
+388
+00:18:22,280 --> 00:18:24,780
+ because if they ever escaped into the real internet,
+
+389
+00:18:24,780 --> 00:18:27,560
+ they'd be like, oh, those are for your house.
+
+390
+00:18:27,560 --> 00:18:29,120
+ They're not supposed to go very far.
+
+391
+00:18:29,120 --> 00:18:30,680
+ And I don't even know where they go.
+
+392
+00:18:30,680 --> 00:18:33,400
+ They go nowhere in the core of the internet,
+
+393
+00:18:33,400 --> 00:18:36,240
+ but they go properly inside your house.
+
+394
+00:18:36,240 --> 00:18:39,000
+ So the way this ends up working is
+
+395
+00:18:39,000 --> 00:18:43,080
+ if you are at your coffee shop, the coffee shop
+
+396
+00:18:43,080 --> 00:18:49,720
+ has an address you associate with their base access point.
+
+397
+00:18:49,720 --> 00:18:53,360
+ It gives you a non-routable address to use locally.
+
+398
+00:18:53,360 --> 00:18:56,400
+ And then as your traffic gets sent,
+
+399
+00:18:56,400 --> 00:18:59,480
+ this address is changed to that address.
+
+400
+00:18:59,480 --> 00:19:01,000
+ You never see this happening.
+
+401
+00:19:01,000 --> 00:19:04,440
+ It's done as the packet goes through the base station.
+
+402
+00:19:04,440 --> 00:19:06,240
+ And then when the packet comes back,
+
+403
+00:19:06,240 --> 00:19:08,200
+ it comes back with this address.
+
+404
+00:19:08,200 --> 00:19:09,920
+ But then as it goes to the base station,
+
+405
+00:19:09,920 --> 00:19:12,240
+ it switches back to this address.
+
+406
+00:19:12,240 --> 00:19:14,760
+ So even though this address is not the real address
+
+407
+00:19:14,760 --> 00:19:18,800
+ the network sees, they see you having this address here.
+
+408
+00:19:18,800 --> 00:19:22,000
+ So if you would do an IP lookup from a coffee shop,
+
+409
+00:19:22,000 --> 00:19:23,600
+ the coffee shop will be identified.
+
+410
+00:19:23,600 --> 00:19:25,240
+ You will see the IP address here.
+
+411
+00:19:25,240 --> 00:19:27,160
+ And if you looked at your laptop,
+
+412
+00:19:27,160 --> 00:19:28,960
+ your laptop would not have that same address
+
+413
+00:19:28,960 --> 00:19:37,480
+ because it's being translated in the access point.
+
+414
+00:19:37,480 --> 00:19:43,280
+ So then you go home.
+
+415
+00:19:46,040 --> 00:19:52,980
+ And at home, your access point has a different address.
+
+416
+00:19:52,980 --> 00:20:01,640
+ But your computer asks your access point for an address.
+
+417
+00:20:01,640 --> 00:20:04,120
+ And it gets a local address that's generated locally.
+
+418
+00:20:04,120 --> 00:20:06,040
+ And again, there's a mapping.
+
+419
+00:20:06,040 --> 00:20:13,800
+ It's called NAT, N-A-T, network address translation.
+
+420
+00:20:13,800 --> 00:20:17,600
+ So as the packet goes through, it takes out the one address
+
+421
+00:20:17,600 --> 00:20:18,880
+ and puts in the second.
+
+422
+00:20:18,880 --> 00:20:19,600
+ Data comes back.
+
+423
+00:20:19,600 --> 00:20:22,440
+ It takes the address out and puts the local one in.
+
+424
+00:20:22,440 --> 00:20:24,360
+ And the same thing happens at school.
+
+425
+00:20:24,360 --> 00:20:25,920
+ So you're at school finally.
+
+426
+00:20:25,920 --> 00:20:27,400
+ And you get a different address.
+
+427
+00:20:27,400 --> 00:20:28,880
+ They're not the same, but you look,
+
+428
+00:20:28,880 --> 00:20:30,200
+ and the prefixes are the same.
+
+429
+00:20:30,200 --> 00:20:31,920
+ It's like they should be the same place.
+
+430
+00:20:31,920 --> 00:20:34,080
+ But they're completely different because your school
+
+431
+00:20:34,080 --> 00:20:35,520
+ has a different address.
+
+432
+00:20:35,520 --> 00:20:38,200
+ And there is a translation that goes back and forth
+
+433
+00:20:38,200 --> 00:20:40,000
+ as the data goes around and around.
+
+434
+00:20:40,000 --> 00:20:43,360
+ So just for the distance of the local Wi-Fi
+
+435
+00:20:43,360 --> 00:20:47,160
+ or whatever, use these 192.168 numbers.
+
+436
+00:20:47,160 --> 00:20:49,760
+ And then they're translated to the real numbers
+
+437
+00:20:49,760 --> 00:20:52,080
+ by your network access points.
+
+438
+00:20:52,080 --> 00:20:55,840
+ So these are illegal inside this network.
+
+439
+00:20:55,840 --> 00:21:00,340
+ So if it ever saw a 192.168, it would just
+
+440
+00:21:00,340 --> 00:21:03,400
+ throw that packet away.
+
+441
+00:21:03,400 --> 00:21:08,400
+ They're only for very local connections.
+
+442
+00:21:08,400 --> 00:21:14,120
+ So with that, I'm wondering if by now you
+
+443
+00:21:14,120 --> 00:21:17,320
+ know why this is funny.
+
+444
+00:21:17,320 --> 00:21:22,840
+ I'll give you a minute.
+
+445
+00:21:22,840 --> 00:21:36,560
+ OK, so the reason this is funny is she
+
+446
+00:21:36,560 --> 00:21:40,520
+ traced the killer's IP address, and it
+
+447
+00:21:40,520 --> 00:21:44,960
+ had a prefix of 192.168, which means
+
+448
+00:21:44,960 --> 00:21:49,600
+ the killer had to be within a relatively short radius,
+
+449
+00:21:49,600 --> 00:21:53,800
+ using likely the same Wi-Fi access point, which
+
+450
+00:21:53,800 --> 00:21:57,120
+ means it was close.
+
+451
+00:21:57,120 --> 00:21:59,960
+ Very scary.
+
+452
+00:21:59,960 --> 00:22:02,480
+ Hope you think it's funny.
+
+453
+00:22:02,480 --> 00:22:06,000
+ Of course, XKCD is never exactly funny,
+
+454
+00:22:06,000 --> 00:22:08,000
+ but it hopefully makes you smile a little bit.
+
+455
+00:22:08,000 --> 00:22:24,520
+ So up to now, I've been talking about this cloud network that's
+
+456
+00:22:24,520 --> 00:22:27,200
+ magic, and the packets take different routes.
+
+457
+00:22:27,200 --> 00:22:29,440
+ And we don't know, but they show up.
+
+458
+00:22:29,440 --> 00:22:30,920
+ Remember the mailbox?
+
+459
+00:22:30,920 --> 00:22:33,320
+ They just show up or don't show up, right?
+
+460
+00:22:33,320 --> 00:22:38,640
+ So it turns out that sometimes we, as engineers,
+
+461
+00:22:38,640 --> 00:22:41,880
+ want to take a look at what's going on inside the internet.
+
+462
+00:22:41,880 --> 00:22:45,920
+ And it turned out that there was a feature they added early
+
+463
+00:22:45,920 --> 00:22:48,760
+ on to help diagnose problems in the internet
+
+464
+00:22:48,760 --> 00:22:50,480
+ that we still use today.
+
+465
+00:22:50,480 --> 00:22:52,840
+ And it's so convenient that it's built right
+
+466
+00:22:52,840 --> 00:22:54,520
+ into your operating system.
+
+467
+00:22:54,520 --> 00:22:57,800
+ If you have a Macintosh or Linux, Traceroute is built in.
+
+468
+00:22:57,800 --> 00:23:00,260
+ And if you have Windows, you've got to install Traceroute.
+
+469
+00:23:00,260 --> 00:23:03,920
+ So just say Windows, install Traceroute, and you'll find something.
+
+470
+00:23:03,920 --> 00:23:06,480
+ But there was a problem.
+
+471
+00:23:06,480 --> 00:23:13,440
+ So if you recall, I said that each router sees the world very narrowly
+
+472
+00:23:13,440 --> 00:23:18,040
+ and simply sees a packet and makes a decision one place.
+
+473
+00:23:18,040 --> 00:23:23,680
+ So let's say that here comes a packet on the way to Stanford.
+
+474
+00:23:23,680 --> 00:23:27,040
+ And these routers are sort of strangely configured.
+
+475
+00:23:27,040 --> 00:23:29,300
+ This router thinks it should go there.
+
+476
+00:23:29,300 --> 00:23:31,600
+ This router thinks it should go there.
+
+477
+00:23:31,600 --> 00:23:33,840
+ And this router thinks it should go there.
+
+478
+00:23:33,840 --> 00:23:34,600
+ Well, it comes in.
+
+479
+00:23:34,600 --> 00:23:37,600
+ It goes like, oh, well, I know where that one goes, there.
+
+480
+00:23:37,600 --> 00:23:42,920
+ So if you end up with this misconfigured router situation,
+
+481
+00:23:42,920 --> 00:23:48,320
+ you end up with your data going round and round in circles.
+
+482
+00:23:48,320 --> 00:23:53,320
+ It would actually crush the network, because it's like a whirlpool.
+
+483
+00:23:53,320 --> 00:23:55,260
+ You can't even notice that it's happening,
+
+484
+00:23:55,260 --> 00:24:00,160
+ because there might actually be 10.
+
+485
+00:24:00,160 --> 00:24:01,620
+ There might be a bunch of them.
+
+486
+00:24:01,620 --> 00:24:04,420
+ And then it comes back, and you send it around again.
+
+487
+00:24:04,420 --> 00:24:06,000
+ So you're filling up all your bandwidth.
+
+488
+00:24:06,000 --> 00:24:09,320
+ It's never going to get there unless something changes,
+
+489
+00:24:09,320 --> 00:24:11,080
+ unless something crashes.
+
+490
+00:24:11,080 --> 00:24:13,380
+ It's not going to change, because these routers think
+
+491
+00:24:13,380 --> 00:24:14,580
+ that's the best thing to do.
+
+492
+00:24:14,580 --> 00:24:15,680
+ They're mistaken.
+
+493
+00:24:15,680 --> 00:24:16,380
+ But they are.
+
+494
+00:24:16,380 --> 00:24:18,080
+ They can be mistaken, because they're
+
+495
+00:24:18,080 --> 00:24:22,160
+ operating with imperfect information.
+
+496
+00:24:22,160 --> 00:24:26,240
+ So how would you solve this problem?
+
+497
+00:24:26,240 --> 00:24:28,440
+ Routers are imperfect.
+
+498
+00:24:28,440 --> 00:24:30,000
+ So they solve the problem with a thing
+
+499
+00:24:30,000 --> 00:24:32,560
+ called the time to live field.
+
+500
+00:24:32,560 --> 00:24:35,240
+ So much like the network address translation
+
+501
+00:24:35,240 --> 00:24:38,200
+ tweaks the addresses on the way in and on the way out,
+
+502
+00:24:38,200 --> 00:24:41,440
+ the time to live is a field that routers change.
+
+503
+00:24:41,440 --> 00:24:43,540
+ Every time a packet goes through a router,
+
+504
+00:24:43,540 --> 00:24:46,200
+ it subtracts one from this field.
+
+505
+00:24:46,200 --> 00:24:49,160
+ And it starts with a number between 25.
+
+506
+00:24:49,160 --> 00:24:52,320
+ It can be as high as 255, but it's usually like 25.
+
+507
+00:24:52,320 --> 00:24:56,360
+ And what happens is every time the packet
+
+508
+00:24:56,360 --> 00:25:00,080
+ goes through a router, the number goes down by one.
+
+509
+00:25:00,080 --> 00:25:03,960
+ So if it was-- it would come in here as 255.
+
+510
+00:25:03,960 --> 00:25:07,600
+ Then it would go through here at 254, and 253.
+
+511
+00:25:07,600 --> 00:25:08,600
+ It would come back.
+
+512
+00:25:08,600 --> 00:25:10,200
+ It would be 252.
+
+513
+00:25:10,200 --> 00:25:12,400
+ And what would happen is eventually it
+
+514
+00:25:12,400 --> 00:25:16,100
+ would get to one of these guys, and it hit 0.
+
+515
+00:25:16,100 --> 00:25:19,880
+ And they would decide, OK, you've been running around
+
+516
+00:25:19,880 --> 00:25:20,800
+ too long.
+
+517
+00:25:20,800 --> 00:25:22,720
+ We will throw you away.
+
+518
+00:25:22,720 --> 00:25:26,680
+ So the number goes down, and it always goes down.
+
+519
+00:25:26,680 --> 00:25:29,640
+ But then when it hits 0, they throw the packet away.
+
+520
+00:25:29,640 --> 00:25:33,560
+ They say, you have been through 255 hops.
+
+521
+00:25:33,560 --> 00:25:35,120
+ Chances are good you're never going
+
+522
+00:25:35,120 --> 00:25:37,320
+ to get to your destination.
+
+523
+00:25:37,320 --> 00:25:41,880
+ So the traceroute command sort of cheats.
+
+524
+00:25:41,880 --> 00:25:46,760
+ Normal packets are sent with a TTL, or time to live, of like 30.
+
+525
+00:25:46,760 --> 00:25:49,120
+ 30 hops, or 40 hops.
+
+526
+00:25:49,120 --> 00:25:54,400
+ But what traceroute does is sends broken packets.
+
+527
+00:25:54,400 --> 00:25:58,560
+ It turns out that when a router throws away your packet,
+
+528
+00:25:58,560 --> 00:26:00,640
+ most of the time it is courteous.
+
+529
+00:26:00,640 --> 00:26:03,880
+ And it sends you back a notification and says, hi.
+
+530
+00:26:03,880 --> 00:26:05,040
+ I got your packet.
+
+531
+00:26:05,040 --> 00:26:09,800
+ I decremented it, subtracted one, and it got to 0.
+
+532
+00:26:09,800 --> 00:26:12,080
+ And I threw it away.
+
+533
+00:26:12,080 --> 00:26:13,520
+ Sorry about that.
+
+534
+00:26:13,520 --> 00:26:14,960
+ Here's who I am.
+
+535
+00:26:14,960 --> 00:26:17,320
+ I mean, I really feel bad about throwing your packet away.
+
+536
+00:26:17,320 --> 00:26:18,680
+ Maybe you want to figure something else out.
+
+537
+00:26:18,680 --> 00:26:19,000
+ I don't know.
+
+538
+00:26:19,000 --> 00:26:20,360
+ Something must be messed up.
+
+539
+00:26:20,360 --> 00:26:22,800
+ It can't be my fault, but I threw it away.
+
+540
+00:26:22,800 --> 00:26:24,960
+ So what traceroute does is it first sends a packet
+
+541
+00:26:24,960 --> 00:26:26,840
+ with a time to live of 1.
+
+542
+00:26:26,840 --> 00:26:28,600
+ So the first router goes like, whoa, this
+
+543
+00:26:28,600 --> 00:26:30,440
+ has been around a long time.
+
+544
+00:26:30,440 --> 00:26:31,840
+ Sets it to 0, throws it away.
+
+545
+00:26:31,840 --> 00:26:33,440
+ Then sends a note back.
+
+546
+00:26:33,440 --> 00:26:36,480
+ Then traceroute sends a packet of 2 across.
+
+547
+00:26:36,480 --> 00:26:38,680
+ It goes hop, hop, and it gets thrown away,
+
+548
+00:26:38,680 --> 00:26:40,440
+ and a little note comes back.
+
+549
+00:26:40,440 --> 00:26:44,240
+ So you can kind of build a map by sending enough packets
+
+550
+00:26:44,240 --> 00:26:47,400
+ and getting kind of a return rejection
+
+551
+00:26:47,400 --> 00:26:49,760
+ from one of the routers.
+
+552
+00:26:49,760 --> 00:26:51,280
+ It would have got there.
+
+553
+00:26:51,280 --> 00:26:53,880
+ So if, for example, I do a traceroute
+
+554
+00:26:53,880 --> 00:26:58,560
+ from the University of Michigan to Stanford, if I did it now,
+
+555
+00:26:58,560 --> 00:27:00,960
+ it'd be a different set of things.
+
+556
+00:27:00,960 --> 00:27:03,200
+ I get this output.
+
+557
+00:27:03,200 --> 00:27:05,640
+ And if I take a look at this, this is the hop.
+
+558
+00:27:05,640 --> 00:27:09,320
+ So there's the first 1, 2, 3, 4, through 14.
+
+559
+00:27:09,320 --> 00:27:10,520
+ 14 hops.
+
+560
+00:27:10,520 --> 00:27:11,600
+ So it takes 14 hops.
+
+561
+00:27:11,600 --> 00:27:13,160
+ Now interestingly, again, I don't
+
+562
+00:27:13,160 --> 00:27:15,960
+ remember what the hop count was in the store and forward days,
+
+563
+00:27:15,960 --> 00:27:17,520
+ but it's quite a few.
+
+564
+00:27:17,520 --> 00:27:21,960
+ And that's because it's optimizing geography.
+
+565
+00:27:21,960 --> 00:27:27,120
+ And so you can see the first hop is on my campus.
+
+566
+00:27:27,120 --> 00:27:31,120
+ Then the second and third hop are bouncing around my campus
+
+567
+00:27:31,120 --> 00:27:32,480
+ some more.
+
+568
+00:27:32,480 --> 00:27:34,640
+ Now we don't quite know where this one is,
+
+569
+00:27:34,640 --> 00:27:37,600
+ but now it's on a national network called Internet 2,
+
+570
+00:27:37,600 --> 00:27:39,320
+ Internet 2, Internet 2.
+
+571
+00:27:39,320 --> 00:27:42,440
+ This is probably going across the country.
+
+572
+00:27:42,440 --> 00:27:45,800
+ And then it ends up on Scenic, which I think
+
+573
+00:27:45,800 --> 00:27:47,920
+ is sort of California's network.
+
+574
+00:27:47,920 --> 00:27:50,520
+ It bounces through California a couple times.
+
+575
+00:27:50,520 --> 00:27:52,520
+ Let's see.
+
+576
+00:27:52,520 --> 00:27:56,240
+ HPRLAX, that's Los Angeles.
+
+577
+00:27:56,240 --> 00:27:58,320
+ This is-- I don't know where that is.
+
+578
+00:27:58,320 --> 00:27:59,880
+ Los Angeles.
+
+579
+00:27:59,880 --> 00:28:02,520
+ Now it looks like it's making it to Oakland.
+
+580
+00:28:02,520 --> 00:28:03,140
+ I don't know.
+
+581
+00:28:03,140 --> 00:28:05,060
+ There's probably some meaning to these things.
+
+582
+00:28:05,060 --> 00:28:07,360
+ So it's making it through Oakland.
+
+583
+00:28:07,360 --> 00:28:11,280
+ And then it's going to Stanford from something Oakland.
+
+584
+00:28:11,280 --> 00:28:12,960
+ I don't know.
+
+585
+00:28:12,960 --> 00:28:14,840
+ But now it's on the Stanford campus.
+
+586
+00:28:14,840 --> 00:28:16,440
+ And now it has three more hops to get
+
+587
+00:28:16,440 --> 00:28:20,400
+ across the Stanford campus to the Stanford campus' web server.
+
+588
+00:28:20,400 --> 00:28:24,080
+ Now what's also going on here is it's keeping track
+
+589
+00:28:24,080 --> 00:28:25,840
+ of how long it's taking.
+
+590
+00:28:25,840 --> 00:28:28,120
+ It sends each one a couple of times.
+
+591
+00:28:28,120 --> 00:28:30,080
+ And so these are milliseconds.
+
+592
+00:28:30,080 --> 00:28:32,920
+ So milliseconds are thousandths of a second.
+
+593
+00:28:32,920 --> 00:28:36,960
+ So 534 milliseconds is a half a second.
+
+594
+00:28:36,960 --> 00:28:38,880
+ 490 is a half a second.
+
+595
+00:28:38,880 --> 00:28:42,800
+ So these are like half a second, half a second.
+
+596
+00:28:42,800 --> 00:28:43,840
+ Oh, wait, no, no.
+
+597
+00:28:43,840 --> 00:28:45,400
+ Sorry, not half a second.
+
+598
+00:28:45,400 --> 00:28:46,800
+ That'd be 4,000.
+
+599
+00:28:46,800 --> 00:28:49,840
+ Well, 1,000 milliseconds would be one second.
+
+600
+00:28:49,840 --> 00:28:51,360
+ So I got that all wrong.
+
+601
+00:28:51,360 --> 00:28:56,680
+ So 0.49 milliseconds is like half of a thousandth of a second.
+
+602
+00:28:56,680 --> 00:28:59,040
+ So that's fast, fast.
+
+603
+00:28:59,040 --> 00:29:03,400
+ Six milliseconds is one thousandth of a second.
+
+604
+00:29:03,400 --> 00:29:08,520
+ 76 milliseconds, which is nine hops away.
+
+605
+00:29:08,520 --> 00:29:12,880
+ That's 76 thousandths, or 7/100.
+
+606
+00:29:12,880 --> 00:29:18,760
+ So it takes about 7/100.
+
+607
+00:29:18,760 --> 00:29:23,480
+ So like 77 over 1,000.
+
+608
+00:29:23,480 --> 00:29:29,640
+ So no, 7/100, sorry, 7/100 of a second.
+
+609
+00:29:29,640 --> 00:29:34,840
+ So less than a tenth of a second to get through 14 routers
+
+610
+00:29:34,840 --> 00:29:37,520
+ from Michigan to Stanford.
+
+611
+00:29:37,520 --> 00:29:40,120
+ Less than a tenth of a second.
+
+612
+00:29:40,120 --> 00:29:42,400
+ Pretty impressive.
+
+613
+00:29:42,400 --> 00:29:47,280
+ Now, if I do a trace route from Ann Arbor, Michigan,
+
+614
+00:29:47,280 --> 00:29:50,440
+ to East Lansing, Michigan, Michigan State University,
+
+615
+00:29:50,440 --> 00:29:52,080
+ we have a very close connection.
+
+616
+00:29:52,080 --> 00:29:54,360
+ I mentioned the Merit Network, where we've had a close
+
+617
+00:29:54,360 --> 00:29:55,600
+ connection for a long time.
+
+618
+00:29:55,600 --> 00:30:04,520
+ So not only is it fewer hops, it's only eight hops
+
+619
+00:30:04,520 --> 00:30:06,760
+ to get to Michigan State.
+
+620
+00:30:06,760 --> 00:30:10,280
+ If you look at the hops here, I'm
+
+621
+00:30:10,280 --> 00:30:14,320
+ bouncing around the campus for three.
+
+622
+00:30:14,320 --> 00:30:17,120
+ I'm bouncing through the state for two,
+
+623
+00:30:17,120 --> 00:30:21,160
+ and bouncing on the Michigan State campus for three.
+
+624
+00:30:21,160 --> 00:30:25,760
+ So it's a total of eight, three hops to get across my campus,
+
+625
+00:30:25,760 --> 00:30:28,240
+ two hops to get across the state of Michigan,
+
+626
+00:30:28,240 --> 00:30:31,080
+ and three hops to get on campus.
+
+627
+00:30:31,080 --> 00:30:33,440
+ And it's really fast.
+
+628
+00:30:33,440 --> 00:30:39,880
+ It's 9/1000 of a second, which is less than 1/100 of a second.
+
+629
+00:30:39,880 --> 00:30:41,240
+ So really fast.
+
+630
+00:30:41,240 --> 00:30:42,360
+ You can kind of see it.
+
+631
+00:30:42,360 --> 00:30:44,920
+ Now, if you ran this trace route more than once,
+
+632
+00:30:44,920 --> 00:30:46,200
+ this might change.
+
+633
+00:30:46,200 --> 00:30:50,160
+ It doesn't change too fast, but legally it could change.
+
+634
+00:30:50,160 --> 00:30:52,880
+ I mean, there's no guarantee it's going to be the same.
+
+635
+00:30:52,880 --> 00:30:55,520
+ It's highly likely it's going to be the same, because the most
+
+636
+00:30:55,520 --> 00:30:58,640
+ efficient way is not going to change within a few seconds.
+
+637
+00:30:58,640 --> 00:31:00,320
+ But if you start in the middle of the day,
+
+638
+00:31:00,320 --> 00:31:02,840
+ and you do it the next day, it might change quite a bit.
+
+639
+00:31:02,840 --> 00:31:05,800
+ So it'd be something to play with.
+
+640
+00:31:05,800 --> 00:31:09,880
+ Run it, print it out, run it again at midnight,
+
+641
+00:31:09,880 --> 00:31:14,080
+ run it in at noon, see if your trace route is different.
+
+642
+00:31:14,080 --> 00:31:16,320
+ Interesting.
+
+643
+00:31:16,320 --> 00:31:18,760
+ So here's an example of a trace route
+
+644
+00:31:18,760 --> 00:31:24,640
+ from University of Michigan to Peking University in China.
+
+645
+00:31:24,640 --> 00:31:31,280
+ And so again, it bounces through my campus
+
+646
+00:31:31,280 --> 00:31:33,800
+ for a couple of hops.
+
+647
+00:31:33,800 --> 00:31:35,680
+ My campus for a couple of hops.
+
+648
+00:31:35,680 --> 00:31:40,720
+ It bounces around the United States for a couple of hops.
+
+649
+00:31:40,720 --> 00:31:45,400
+ And then it starts crossing the Pacific Ocean.
+
+650
+00:31:45,400 --> 00:31:48,920
+ There's traffic actually went through Seoul, Korea.
+
+651
+00:31:48,920 --> 00:31:50,800
+ And then it ended up in Beijing.
+
+652
+00:31:50,800 --> 00:31:53,640
+ Now, the interesting thing is you can see that it looks like
+
+653
+00:31:53,640 --> 00:31:59,760
+ it's taking about 61,000 or 6/100, just over a--
+
+654
+00:31:59,760 --> 00:32:02,880
+ just almost, well, half a tenth of a second,
+
+655
+00:32:02,880 --> 00:32:05,240
+ to get across the country.
+
+656
+00:32:05,240 --> 00:32:07,040
+ And then it starts taking longer.
+
+657
+00:32:07,040 --> 00:32:11,120
+ And then by the time it's going all the way to China and back,
+
+658
+00:32:11,120 --> 00:32:13,480
+ it's doing 256 milliseconds, which
+
+659
+00:32:13,480 --> 00:32:15,840
+ is about a quarter of a second.
+
+660
+00:32:15,840 --> 00:32:20,600
+ Now, the big difference here is likely not traffic.
+
+661
+00:32:20,600 --> 00:32:23,840
+ It is likely the speed of light.
+
+662
+00:32:23,840 --> 00:32:30,040
+ It is how fast it takes light to get across the Pacific Ocean.
+
+663
+00:32:30,040 --> 00:32:32,600
+ So it takes a while.
+
+664
+00:32:32,600 --> 00:32:37,040
+ The reason I think it's most likely that these numbers are
+
+665
+00:32:37,040 --> 00:32:46,920
+ pretty consistent [INAUDIBLE]
+
+666
+00:32:46,920 --> 00:32:49,920
+ It's low traffic because these are very consistent.
+
+667
+00:32:49,920 --> 00:32:54,000
+ [INAUDIBLE]
+
+668
+00:32:54,000 --> 00:32:55,360
+ Pretty much all the time.
+
+669
+00:32:55,360 --> 00:32:57,800
+ So that suggests that we're not waiting for any traffic.
+
+670
+00:32:57,800 --> 00:33:00,520
+ We're getting through as fast as we physically can,
+
+671
+00:33:00,520 --> 00:33:02,880
+ which is some combination of the speed of the link
+
+672
+00:33:02,880 --> 00:33:03,880
+ and the speed of light.
+
+673
+00:33:07,540 --> 00:33:10,440
+ [KNOCKING]
+
+674
+00:33:10,440 --> 00:33:17,000
+ So we just got done talking about how we add to every packet
+
+675
+00:33:17,000 --> 00:33:20,680
+ this global number, the IP address.
+
+676
+00:33:20,680 --> 00:33:23,120
+ It has the prefix of the network number.
+
+677
+00:33:23,120 --> 00:33:25,680
+ In the internet part, the internetwork,
+
+678
+00:33:25,680 --> 00:33:28,160
+ where it's really moving data from one network
+
+679
+00:33:28,160 --> 00:33:31,120
+ to another network and leaving it up to those destination
+
+680
+00:33:31,120 --> 00:33:36,560
+ networks, how to move it, we end up really simplifying
+
+681
+00:33:36,560 --> 00:33:37,360
+ the postcard.
+
+682
+00:33:37,360 --> 00:33:41,400
+ And the postcard ends up being a really apt example.
+
+683
+00:33:41,400 --> 00:33:43,520
+ But the key thing, especially when
+
+684
+00:33:43,520 --> 00:33:45,480
+ thinking about the four layer architecture,
+
+685
+00:33:45,480 --> 00:33:48,320
+ the reason that I think TCP/IP succeeded
+
+686
+00:33:48,320 --> 00:33:50,680
+ was in this real complex problem of moving data
+
+687
+00:33:50,680 --> 00:33:52,680
+ between billions of computers.
+
+688
+00:33:52,680 --> 00:33:55,880
+ It kept the part in the middle real simple.
+
+689
+00:33:55,880 --> 00:33:57,240
+ It doesn't try to be perfect.
+
+690
+00:33:57,240 --> 00:33:59,320
+ It doesn't try to retransmit data.
+
+691
+00:33:59,320 --> 00:34:00,480
+ It doesn't try to store it.
+
+692
+00:34:00,480 --> 00:34:02,400
+ It doesn't try to keep it in the right order.
+
+693
+00:34:02,400 --> 00:34:04,520
+ It doesn't try to say that if this packet went here,
+
+694
+00:34:04,520 --> 00:34:06,520
+ I'm going to make sure the next one goes there.
+
+695
+00:34:06,520 --> 00:34:10,960
+ The two packets, if one gets ahead, we don't really care.
+
+696
+00:34:10,960 --> 00:34:14,440
+ It means it really fast and really scalable.
+
+697
+00:34:14,440 --> 00:34:19,960
+ And by keeping it simple and really fast,
+
+698
+00:34:19,960 --> 00:34:21,800
+ it solves really an amazing problem.
+
+699
+00:34:21,800 --> 00:34:24,320
+ But we yet have other problems to solve.
+
+700
+00:34:24,320 --> 00:34:29,920
+ So I want to close this lecture by introducing you
+
+701
+00:34:29,920 --> 00:34:31,640
+ to another person.
+
+702
+00:34:31,640 --> 00:34:34,560
+ So Vint Cerf was a graduate student,
+
+703
+00:34:34,560 --> 00:34:38,680
+ as the whole notion of packet switching was being examined,
+
+704
+00:34:38,680 --> 00:34:42,440
+ both in the federal government at the Defense Advanced
+
+705
+00:34:42,440 --> 00:34:47,760
+ Research Project Agency, DARPA, and in higher education,
+
+706
+00:34:47,760 --> 00:34:52,480
+ both in the United States and Europe, UK, and elsewhere.
+
+707
+00:34:52,480 --> 00:34:56,160
+ And so Vint Cerf was at the right place at the right time.
+
+708
+00:34:56,160 --> 00:34:58,480
+ And we can be very thankful for that.
+
+709
+00:34:58,480 --> 00:35:02,440
+ He's credited as being one of the fathers of the ARPANET,
+
+710
+00:35:02,440 --> 00:35:06,400
+ which, of course, begat the internet.
+
+711
+00:35:06,400 --> 00:35:10,400
+ And so Vint is going to talk to us, in a sense,
+
+712
+00:35:10,400 --> 00:35:15,880
+ going back even pre-ARPANET, and bring us up packets
+
+713
+00:35:15,880 --> 00:35:18,880
+ and what packets mean, and then how that all flowed
+
+714
+00:35:18,880 --> 00:35:23,120
+ into the ARPANET, and how the ARPANET evolved
+
+715
+00:35:23,120 --> 00:35:24,960
+ to become the internet.
+
+716
+00:35:24,960 --> 00:35:26,520
+ Enjoy.
+

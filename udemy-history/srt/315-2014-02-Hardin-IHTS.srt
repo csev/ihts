@@ -1,0 +1,644 @@
+1
+00:00:00,000 --> 00:00:05,600
+ The NCSA Mosaic web browser was developed at the University of Illinois starting in 1992.
+
+2
+00:00:05,600 --> 00:00:11,560
+ NCSA Mosaic brought the web to Apple, PC, and Unix systems.
+
+3
+00:00:11,560 --> 00:00:15,960
+ Joseph Hardin managed the software development group at the National Center for Supercomputing
+
+4
+00:00:15,960 --> 00:00:18,880
+ Applications.
+
+5
+00:00:18,880 --> 00:00:25,560
+ NCSA was kind of a special place, right?
+
+6
+00:00:25,560 --> 00:00:31,600
+ One of those things that happens very infrequently where there's lots of energy, a large amount
+
+7
+00:00:31,600 --> 00:00:37,960
+ of resources, visionary leadership, and a lot of free space for people to play.
+
+8
+00:00:37,960 --> 00:00:43,180
+ And Larry Smarr has to figure in any discussion of it quickly because he's the person that
+
+9
+00:00:43,180 --> 00:00:45,560
+ created that space.
+
+10
+00:00:45,560 --> 00:00:54,320
+ And that gave a bunch of us, people in visualization, people in computational science, people in
+
+11
+00:00:54,320 --> 00:01:00,120
+ collaboration technologies, people in all kinds of stuff, networking.
+
+12
+00:01:00,120 --> 00:01:05,960
+ In the middle and late 80s, a space to just figure out what it was that we thought was
+
+13
+00:01:05,960 --> 00:01:07,540
+ fun and what was interesting.
+
+14
+00:01:07,540 --> 00:01:12,800
+ What I thought was interesting was how people were using these new technologies to work
+
+15
+00:01:12,800 --> 00:01:13,800
+ together.
+
+16
+00:01:13,800 --> 00:01:25,480
+ And we started out working with tools that supported simulation and computations on the
+
+17
+00:01:25,480 --> 00:01:28,840
+ main supercomputing systems.
+
+18
+00:01:28,840 --> 00:01:31,320
+ That's what the software development group did.
+
+19
+00:01:31,320 --> 00:01:37,480
+ And there was a group before I joined it that did NCSA Telnet, right?
+
+20
+00:01:37,480 --> 00:01:43,160
+ This is back when we were trying to convince the physicists that DECnet wasn't such a great
+
+21
+00:01:43,160 --> 00:01:52,240
+ idea, that we wanted this crazy, open, nobody owns it, right, IP model for the network.
+
+22
+00:01:52,240 --> 00:01:59,840
+ And that was kind of a bit of a struggle because if it was an open source type thing and nobody
+
+23
+00:01:59,840 --> 00:02:06,120
+ owns it, how's anybody going to have responsibility for it and why not use DECnet, which is this
+
+24
+00:02:06,120 --> 00:02:12,000
+ perfectly good proprietary, well-developed system, yadda yadda.
+
+25
+00:02:12,000 --> 00:02:17,480
+ So it took a while for us to explain to the physicists why we wanted an open model for
+
+26
+00:02:17,480 --> 00:02:23,160
+ TCP/IP, for the interconnection of all these networks.
+
+27
+00:02:23,160 --> 00:02:28,960
+ And I spent time for a while with a program at NCSA called the Affiliates Program, where
+
+28
+00:02:28,960 --> 00:02:38,280
+ we gave people Mac SEs and told them about TCP and put the NCSA Telnet on the machine
+
+29
+00:02:38,280 --> 00:02:41,080
+ and said, "Now, here's how you get to the supercomputers."
+
+30
+00:02:41,080 --> 00:02:46,960
+ Larry recognized from the beginning, and we all loved the idea, that these small little
+
+31
+00:02:46,960 --> 00:02:52,000
+ things on the desktop were really the gateways for everybody to the big machines in the background.
+
+32
+00:02:52,000 --> 00:02:56,840
+ And that all of this would turn into one cloud behind the screen that we needed to figure
+
+33
+00:02:56,840 --> 00:03:00,280
+ out how to get the user involved in as much as possible.
+
+34
+00:03:00,280 --> 00:03:05,240
+ So we were interested in building tools for end users that worked with PCs and that allowed
+
+35
+00:03:05,240 --> 00:03:10,440
+ them to do their work better in the computational science communities that they were part of
+
+36
+00:03:10,440 --> 00:03:12,940
+ on the supercomputers.
+
+37
+00:03:12,940 --> 00:03:18,120
+ And it's an easy extension from that to think about collaborative technologies in the large.
+
+38
+00:03:18,120 --> 00:03:28,400
+ How do people work together, not only with these tools, but also with simple communications,
+
+39
+00:03:28,400 --> 00:03:36,200
+ email, papers, data sets that they want to share, and how do they do that?
+
+40
+00:03:36,200 --> 00:03:42,280
+ Initially, our interest was in synchronous tools when we were thinking of collaboration
+
+41
+00:03:42,280 --> 00:03:43,280
+ tools.
+
+42
+00:03:43,280 --> 00:03:50,720
+ So we were building something called NCSA Collage, which was a set of tools that worked,
+
+43
+00:03:50,720 --> 00:03:56,120
+ and one of the big deals was that they worked across the three platforms, the X Windows
+
+44
+00:03:56,120 --> 00:04:02,240
+ for the UNIX people, the Windows environment, and the Mac.
+
+45
+00:04:02,240 --> 00:04:07,520
+ And that was one of the things that was sort of part of the underlying culture there was
+
+46
+00:04:07,520 --> 00:04:10,880
+ we wanted to make them available to as large a community as possible.
+
+47
+00:04:10,880 --> 00:04:16,280
+ So we started working on collaborative tools, and there was a set of people on each of those
+
+48
+00:04:16,280 --> 00:04:22,440
+ machines that was working to make it possible for people to share in real time images of
+
+49
+00:04:22,440 --> 00:04:30,260
+ their data, the spreadsheets of their data, and papers that they had run across interesting
+
+50
+00:04:30,260 --> 00:04:35,440
+ references to with their colleagues who were remote from them geographically.
+
+51
+00:04:35,440 --> 00:04:40,560
+ So that's the context in which Dave Thompson, who was one of the developers, one of the
+
+52
+00:04:40,560 --> 00:04:48,920
+ X Windows developers, the lead X Windows developer, I think, for the Collage tool, pulled down
+
+53
+00:04:48,920 --> 00:04:53,220
+ one of the early web browsers.
+
+54
+00:04:53,220 --> 00:05:00,200
+ It was the one from Slack, and I can't remember its name, and he went through the effort of
+
+55
+00:05:00,200 --> 00:05:06,120
+ getting it working and brought it in and showed it to Mark Andreessen and I.
+
+56
+00:05:06,120 --> 00:05:12,080
+ And both of us looked at the screen, Dave described what he had in front of us, and
+
+57
+00:05:12,080 --> 00:05:15,840
+ we said, "We can do better than that.
+
+58
+00:05:15,840 --> 00:05:19,580
+ That's a complicated system, and the interface looks terrible."
+
+59
+00:05:19,580 --> 00:05:25,880
+ And Dave said that it was a real pain for him to get it working, for him to download
+
+60
+00:05:25,880 --> 00:05:29,200
+ it and install it and compile it and everything.
+
+61
+00:05:29,200 --> 00:05:34,960
+ And it only works on an X Windows box, and wouldn't it be cool if it worked across all
+
+62
+00:05:34,960 --> 00:05:38,640
+ three of the boxes and if it was something that was just a plug-and-go like the rest
+
+63
+00:05:38,640 --> 00:05:40,000
+ of our tools?
+
+64
+00:05:40,000 --> 00:05:45,840
+ So Mark and another developer there ran with the idea.
+
+65
+00:05:45,840 --> 00:05:50,280
+ Dave wanted to work on it, but I said, "Dave, please finish up with the Collage stuff."
+
+66
+00:05:50,280 --> 00:05:57,020
+ And this was before we really understood what was meant by open source, but we wanted everybody
+
+67
+00:05:57,020 --> 00:05:59,960
+ to be able to take the software and do whatever they wanted to with it.
+
+68
+00:05:59,960 --> 00:06:02,520
+ We weren't that concerned with commercial advantage.
+
+69
+00:06:02,520 --> 00:06:08,660
+ We were more interested in it being open and people being able to make contributions back
+
+70
+00:06:08,660 --> 00:06:12,080
+ to the code and taking the code and doing what they wanted to with it.
+
+71
+00:06:12,080 --> 00:06:18,280
+ So we just put it all in the public domain, which as the folks from Apache will tell you,
+
+72
+00:06:18,280 --> 00:06:19,280
+ was kind of ambiguous.
+
+73
+00:06:19,280 --> 00:06:24,740
+ It's not clear what that means, but at least it got the code out there.
+
+74
+00:06:24,740 --> 00:06:27,280
+ So Mark and Eric were working on that.
+
+75
+00:06:27,280 --> 00:06:30,100
+ Mark and Eric were working on what?
+
+76
+00:06:30,100 --> 00:06:36,640
+ The first generation of NCSA Mosaic, and this was an X Windows app.
+
+77
+00:06:36,640 --> 00:06:41,040
+ And nobody was working yet on the Windows or the Mac version.
+
+78
+00:06:41,040 --> 00:06:44,400
+ And we saw the first version of that come out when was it?
+
+79
+00:06:44,400 --> 00:06:49,280
+ Early '93, late '92, and it was probably early '93.
+
+80
+00:06:49,280 --> 00:06:53,160
+ And the response, of course, was fantastic.
+
+81
+00:06:53,160 --> 00:06:59,080
+ It's wonderful to be able to just click on something and see it right away.
+
+82
+00:06:59,080 --> 00:07:08,800
+ And indeed, the combination of hyperlinks in a document as far as navigation and retrieval
+
+83
+00:07:08,800 --> 00:07:13,240
+ of documents as a user interface is just great.
+
+84
+00:07:13,240 --> 00:07:20,840
+ And a lot of people got it immediately, especially people that were working with the tools at
+
+85
+00:07:20,840 --> 00:07:27,240
+ NCSA and the companies-- I remember an HP exec coming in one time, and Mark and Eric
+
+86
+00:07:27,240 --> 00:07:36,440
+ had written a little filter that took Unix documentation and made it into HTML and made
+
+87
+00:07:36,440 --> 00:07:39,160
+ all of the references into links.
+
+88
+00:07:39,160 --> 00:07:44,520
+ And they went to-- they hit an HP site, and the exec said, "Where's this coming from?"
+
+89
+00:07:44,520 --> 00:07:49,120
+ Because he was able to see all of his HP documentation there in the room at NCSA and navigate through
+
+90
+00:07:49,120 --> 00:07:50,120
+ it really easily.
+
+91
+00:07:50,120 --> 00:07:55,760
+ And he said, "Well, you've got three or four folks back there that have put up HTTPD servers.
+
+92
+00:07:55,760 --> 00:07:57,040
+ You may not know what those are yet."
+
+93
+00:07:57,040 --> 00:07:58,640
+ And he said, "I've never heard of this."
+
+94
+00:07:58,640 --> 00:08:02,480
+ And we said, "But this is the kind of thing that is probably going to be really useful
+
+95
+00:08:02,480 --> 00:08:06,840
+ in the future for people who are trying to manage documentation in a distributed fashion."
+
+96
+00:08:06,840 --> 00:08:07,840
+ Yada, yada, yada.
+
+97
+00:08:07,840 --> 00:08:08,840
+ Right?
+
+98
+00:08:08,840 --> 00:08:11,960
+ We went on with a story like that, and this guy was bouncing up and down in his seat.
+
+99
+00:08:11,960 --> 00:08:16,600
+ And this was the kind of response that we got with it.
+
+100
+00:08:16,600 --> 00:08:23,360
+ For a while, we tried to integrate the earlier work with Collage with the work with Mosaic.
+
+101
+00:08:23,360 --> 00:08:27,480
+ And early versions of Mosaic have a Collaborate button at the top.
+
+102
+00:08:27,480 --> 00:08:33,120
+ And that was something that would allow you to pull in something from a synchronous session.
+
+103
+00:08:33,120 --> 00:08:37,900
+ The idea was that you'd be working with your colleagues synchronously, and then asynchronously
+
+104
+00:08:37,900 --> 00:08:46,960
+ go off and use the browser and pull something into the Collage session, or vice versa, be
+
+105
+00:08:46,960 --> 00:08:51,300
+ working on something in the Collage session and be able to access it through the browser,
+
+106
+00:08:51,300 --> 00:08:55,320
+ or just use the browser as a component in the session.
+
+107
+00:08:55,320 --> 00:08:59,800
+ Well, the browser, of course, took off.
+
+108
+00:08:59,800 --> 00:09:11,500
+ We had Tom Redmond, who was the lead for the Mac version, though he was the person who
+
+109
+00:09:11,500 --> 00:09:18,800
+ really built it was Alex Todit, who was an excellent developer and a lot of times ran
+
+110
+00:09:18,800 --> 00:09:23,760
+ ahead of the other people that were working on stuff, especially on the Mac.
+
+111
+00:09:23,760 --> 00:09:27,520
+ And Chris Wilson and John, they were working on the Windows version.
+
+112
+00:09:27,520 --> 00:09:38,280
+ So all of a sudden, in '93, late '93, early '94, there's this full suite of Mosaics that
+
+113
+00:09:38,280 --> 00:09:43,720
+ work across the X Windows, the Mac, and the Windows system.
+
+114
+00:09:43,720 --> 00:09:51,240
+ And that's the point at which the guy who was the president at the time of the Internet
+
+115
+00:09:51,240 --> 00:09:56,760
+ Association said NCSA has fired a shot heard around the world, because it's available now
+
+116
+00:09:56,760 --> 00:10:00,960
+ across all these platforms and anybody can use it.
+
+117
+00:10:00,960 --> 00:10:06,980
+ We were convinced deep down inside that all of the new technologies and the digitalization
+
+118
+00:10:06,980 --> 00:10:10,320
+ of the world and everything was going to make a huge difference.
+
+119
+00:10:10,320 --> 00:10:11,920
+ We just weren't sure exactly how.
+
+120
+00:10:11,920 --> 00:10:19,360
+ At the same time, when people would come to us early on in the Mosaic experience and say,
+
+121
+00:10:19,360 --> 00:10:24,400
+ we want to commercialize this and do this with it or do that with it, there was a lot
+
+122
+00:10:24,400 --> 00:10:25,920
+ of, you know, we're not sure.
+
+123
+00:10:25,920 --> 00:10:32,840
+ I remember sitting in rooms with commercial folks that came in and pitched to us.
+
+124
+00:10:32,840 --> 00:10:38,480
+ And I'd bring the whole team in, the whole software development group, and say, listen
+
+125
+00:10:38,480 --> 00:10:43,280
+ to these guys and, you know, tell me what you think about this.
+
+126
+00:10:43,280 --> 00:10:46,260
+ And nobody was sure what it was going to do.
+
+127
+00:10:46,260 --> 00:10:52,640
+ And there were people who started off building browsers and just kind of never got off the
+
+128
+00:10:52,640 --> 00:10:53,640
+ ground.
+
+129
+00:10:53,640 --> 00:11:02,720
+ Until the Netscape effort started up, there was sufficient energy and sufficient resources,
+
+130
+00:11:02,720 --> 00:11:15,680
+ I think, to really get on and ride and push and, you know, crank up a group of X hundred
+
+131
+00:11:15,680 --> 00:11:19,320
+ developers in a matter of months.
+
+132
+00:11:19,320 --> 00:11:25,880
+ And then they were, you know, quickly overshadowed by the effort that Microsoft put into it.
+
+133
+00:11:25,880 --> 00:11:31,640
+ I remember one of the Netscape guys saying, I came back from a meeting with some folks
+
+134
+00:11:31,640 --> 00:11:37,600
+ up in Seattle, and they said that Microsoft now had, this is when Netscape was riding
+
+135
+00:11:37,600 --> 00:11:39,800
+ at the top of its form, right?
+
+136
+00:11:39,800 --> 00:11:41,200
+ Top of the game.
+
+137
+00:11:41,200 --> 00:11:46,000
+ This guy says, Microsoft just told me that there's somebody from Microsoft just said
+
+138
+00:11:46,000 --> 00:11:49,800
+ that they've got like 2,000 developers working on this.
+
+139
+00:11:49,800 --> 00:11:55,200
+ He said, at that point, I realized that we were, you know, going to have some difficulties.
+
+140
+00:11:55,200 --> 00:12:02,600
+ And we, of course, always felt that there should be more than one browser.
+
+141
+00:12:02,600 --> 00:12:06,840
+ And so we wanted this because we were interested in standards and openness right at the time.
+
+142
+00:12:06,840 --> 00:12:11,160
+ If there's only one browser, then that company gets to determine what the standards are.
+
+143
+00:12:11,160 --> 00:12:16,080
+ And there were all kinds of hassles early on about putting in different features and
+
+144
+00:12:16,080 --> 00:12:19,360
+ the browsers driving the standards rather than the standards driving the browsers and
+
+145
+00:12:19,360 --> 00:12:20,440
+ all this kind of stuff.
+
+146
+00:12:20,440 --> 00:12:22,700
+ So we wanted some diversity.
+
+147
+00:12:22,700 --> 00:12:29,160
+ There was a feeling very early on that this was going to be a real gas.
+
+148
+00:12:29,160 --> 00:12:34,860
+ This was going to be hot, that this was something that was, the response was just so immediate.
+
+149
+00:12:34,860 --> 00:12:43,880
+ If you go back and you ask people who were sitting in front of machines in 1993, 94,
+
+150
+00:12:43,880 --> 00:12:48,760
+ 95, right, and you say, do you remember the first time that you used Mosaic?
+
+151
+00:12:48,760 --> 00:12:49,760
+ Right?
+
+152
+00:12:49,760 --> 00:12:52,800
+ Or do you remember the first time you used a browser that wasn't Mosaic?
+
+153
+00:12:52,800 --> 00:12:58,160
+ And vast majority of them that I've run into say, yeah, I can remember.
+
+154
+00:12:58,160 --> 00:13:03,080
+ And I remember one of the NSF program officers calling me up one day just out of the blue
+
+155
+00:13:03,080 --> 00:13:08,160
+ and saying, I just wanted to tell you, you know, you guys, this was like after we'd been
+
+156
+00:13:08,160 --> 00:13:14,760
+ playing with this for months, right, not years, just months, he said, you know, sometimes
+
+157
+00:13:14,760 --> 00:13:21,020
+ we just sit around and click on things because it's still such a surprise to have a picture
+
+158
+00:13:21,020 --> 00:13:24,940
+ or a whole nother page of information pop up, right?
+
+159
+00:13:24,940 --> 00:13:28,620
+ And we don't know where it's coming from and we don't know who's putting it up, but we
+
+160
+00:13:28,620 --> 00:13:29,760
+ We still haven't gotten over
+
+161
+00:13:29,760 --> 00:13:33,200
+ the gee whiz aspect of this yet.
+

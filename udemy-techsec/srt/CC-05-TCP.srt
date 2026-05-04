@@ -1,0 +1,48 @@
+1
+00:00:00,000 --> 00:00:07,560
+ So basically the transport control protocol has a responsibility of compensating for the imperfections of the IP layer.
+
+2
+00:00:07,560 --> 00:00:19,560
+ Data can arrive not out of order, it can arrive not at all, and so the TCP layer marks the data in a way and stores the data in the source computers until it is acknowledged by the destination computers.
+
+3
+00:00:19,560 --> 00:00:27,560
+ And so TCP buffers this information, and the buffers are kept on the edge, and this allows the internet to grow in wonderful ways.
+
+4
+00:00:27,560 --> 00:00:39,560
+ So this results in a layer that really provides us what seems to be an end-to-end connection.
+
+5
+00:00:39,560 --> 00:00:52,560
+ So we can send data in one end, a stream of data, just send it in, just roll it in, and out comes a stream of data.
+
+6
+00:00:52,560 --> 00:00:57,560
+ It comes out in the same order, it comes out reliably, and we can stop thinking about it.
+
+7
+00:00:57,560 --> 00:01:10,560
+ And again, the whole goal of this layered architecture is so that we can pretend that the complexity inside this box is simple.
+
+8
+00:01:10,560 --> 00:01:18,560
+ So it's not simple inside, but we the applications who are going to make use of this transport layer can pretend it's simple.
+
+9
+00:01:18,560 --> 00:01:29,560
+ Okay, and so we just, I put in H, and an H comes out, and I put in an E, and an E comes out, and I put in an L, L, and an L, L comes out, and an O comes out.
+
+10
+00:01:29,560 --> 00:01:38,560
+ And it's hundreds of thousands of engineers and billions of dollars of research that makes it work, but it just is simple.
+
+11
+00:01:38,560 --> 00:01:40,560
+ It's been oversimplified.
+
+12
+00:01:40,560 --> 00:01:55,560
+ So now we've talked about the link layer, the IP layer, and the transport layer, and up next we're going to talk about what we do once we have reliable pipes connecting one application to another.
+

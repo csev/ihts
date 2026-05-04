@@ -1,0 +1,180 @@
+ I was extraordinarily lucky, and happened to be at the Xerox research, Xerox Palo Alto
+ Research Center, when a problem evolved that had never before occurred. The problem had
+ never occurred, and that was the problem of having a building full of personal computers.
+ I was the networking guy, so they turned to me and said, "Network these puppies." Now,
+ we had just finished starting the internet, it was then called the ARPANET, which was
+ packet switching, and it was pretty clear we wanted this network to connect to the wasn't
+ yet called internet thing, so it would be packet switched, we were pretty sure. At the
+ same time, we were building arguably, I don't want to get into that argument, the first
+ laser printer, which in our case, the first one, whose name was EARS, that's a whole
+ other story. It was a page per second, 500 dots per inch, and if you do the math, that's
+ about 20 megabits per second. So the existing methods of interconnection had a lot of problems.
+ One is they were all home run, so all these wires, one from every desk, would all come
+ to this one place in the building and put a big rat's nest, we called it a rat's nest
+ by the way. Two is they generally ran at 300 bits per second, or if you really rev them
+ up, they go to 14 for kilobits per second, and that wasn't even close to 20 megabits
+ per second, so we wanted to be able to keep the printer busy by sending documents from
+ all these PCs, which hadn't been built yet, except, well, they hadn't been built even
+ at PARC at that point. So we were building the printer and we were building the PCs all
+ at the same time. So I started to work on this, and there was an effort before mine
+ called SIGNET at PARC, and it was being done by Charles Simony, my friend, but he wasn't
+ a networking guy, so they sent me in to pick up SIGNET from Charles, and he was going to
+ off and do something else, and by the way, the other thing he did is he wrote a text
+ editor, a word processor called BRAVO, which then became Microsoft Office. So Charles is
+ a billionaire, and he's been to the space station twice, the International Space Station.
+ So maybe I shouldn't have kicked him off SIGNET, maybe I should have done BRAVO, I don't know.
+ Anyway, so I immediately decided that SIGNET, by the way, SIGNET stands for Simony's Infinitely
+ Glorious Network, was in fact infinitely glorious and had too many moving parts to be a LAN.
+ By the way, the word LAN wasn't invented until 1990, and this is still 1973, so the word
+ LAN was way in the future, so that's an anachronism. Anyway, the SIGNET had too many moving parts
+ for a LAN, and it was in the course of investigating how to organize this LAN that I ran into quite
+ by accident by a packet radio network at the University of Hawaii. It was called the Aloha
+ Net, and what was beautiful about the Aloha Network is it solved a distributed problem.
+ That is, how would we share a radio channel back to the mainframe in Hawaii at the university
+ if we were just a bunch of terminals scattered among the Hawaiian islands and they couldn't
+ really easily talk to each other to get coordinated? How would they coordinate their sharing of
+ this inbound radio channel?
+ And Norm Abramson there at the University of Hawaii devised this very simple randomized
+ retransmission procedure where a person would type, by the way, what they would type was
+ a card image. It was 80 columns wide back from the days of card batch processing. So
+ you would type in your card image and hit send, and then your terminal would send it
+ in toward the mainframe and then would wait a short time to see if there was an acknowledgement
+ returned on the outbound channel. And if there was, everything was hunky dory, but if there
+ wasn't, that probably meant the two terminals had decided to send at the same time. So then
+ as many terminals as participated in that collision of transmissions would then randomize
+ and then retransmit at a random time in the future. Thereby, if they overlapped here,
+ they very likely would not overlap again in the future because they would choose different
+ random numbers to count down. So that's randomized retransmission multiple access.
+ Well, since I was trying to avoid this big rat's nest of wires and only wanted to have
+ one wire, just one wire, not 16 or 32 or whatever the alternatives were, just one, I wanted
+ a distributed solution to how to share this cable and the ALOHA network produce that using
+ randomized retransmissions. So then I actually, you know, there's sort of two stories here.
+ One is a hardware story, there's a hardware story and there's a software story. And the
+ hardware story is not that interesting, but it's there. So one of the first things I did
+ was to buy a kilometer of cable, or maybe a mile, I don't know if I'd gone metric yet.
+ So a spool of coax cable about this big with the two ends sticking up. So I got a pulse
+ generator and I hooked it up to one end and hooked it around back into the oscilloscope
+ and started launching square waves down the cable and watching what came out. I thought
+ that would be good preparation for building a network. And what came out the other side
+ wasn't a square wave. It was sort of lazy rise times and lazy fall times. But if you
+ put a digital gate, you could recover the square wave. That is, you just set, use the
+ digital threshold and so out of this gate came a square wave. So you could recover at
+ the end of a mile of cable this square wave. So I kind of knew, I kind of had some confidence
+ then that we, that various stations connected to this cable could inject their square waves
+ and the other guys could recover them. So that hardware wasn't that hard. It was a straightforward.
+ So the first hardware was kind of relatively straightforward.
+ And the square wave, by the way, was called Manchester. What we'd do is we'd take the
+ bit, we'd make a packet of bits. And then we'd send them one at a time down this cable
+ and we would encode them. And the encoding was also simple. It was Manchester coding
+ meaning for each bit, the first half of the bit would be the complement of the bit and
+ the second half of the bit would be the bit. So you would have a transition in the middle
+ of each bit cell, which is a very simple modulation scheme. So as you're sending the packet, the
+ cable's wiggling and you can recover the signal at the other end and clock those bits into
+ a shift register and then clock the shift register into the memory and collect the packet
+ that way.
+ And that all took just some soldering to make that all happen basically.
+ Well I don't want to. It got a little bit complicated when you wanted to put 255 of
+ them on a mile of cable. You had to be a little bit careful about the impedance of the taps
+ because a square wave coming by a tap might generate reflections that would then interfere.
+ But the beauty of Manchester encoding was that while you were sending a packet, there
+ were constant transitions. So if you listened, you could tell whether a packet was going
+ by and you didn't have to listen for long. You only had to listen for about a bit time
+ which turned out to be 340 nanoseconds. So you could wait that long and tell whether
+ there was a packet going by. So one of the first differences between the Ethernet and
+ the ALOHA network, there are a lot of differences, but one of the first ones was carrier sense.
+ In the ALOHA network, you couldn't tell if somebody else was transmitting at the same
+ time as you, but on the Ethernet you could. And the advantage of that was you might as
+ well, if you're sending and somebody else is sending at the same time, you might as
+ well give up because you've destroyed each other's packets or punt. Then that recovers
+ that bandwidth that would otherwise be lost to just continuing to transmit a damaged packet.
+ And the other thing was this Manchester code meant that the cable was on half the time
+ and off half the time. That is, the driver, sort of an open, what we used to call an open
+ collector driver, would either yank the cable up to 3 or 4 or 5 volts, I even forget the
+ voltage now. But it was under 5, I'm sure of that. I had a rule, I never went above 5 volts.
+ You would yank the cable up and then during the other half the bit, when you weren't yanking,
+ you let go. So for example, in each bit cell, you got to look to see if anyone else was
+ transmitting when you had stopped. And if there was somebody else, then you had a collision.
+ So that was the second feature.
+ So it was really a digital signal. It was really a digital signal. It wasn't a modulated
+ signal in any way, right?
+ No. Well, it was...
+ Best you could send a digital signal over coaxing.
+ On off with the Manchester encoding. So the Manchester encoding is akin to a modulation
+ scheme, but it's the simplest one you can think of.
+ It's very baseband.
+ Yeah, it is very baseband, but it's a sort of modulation scheme that a computer scientist
+ would come up with as opposed to one of those fancy...
+ Radio people.
+ Radio people.
+ Right.
+ And by the way, I took a lot of gas from all those radio people. Why did you use such a
+ simple scheme? You wasted... You would have wasted all that band. You wasted all that
+ band with that capable... That cable was capable of carrying hundreds of megabits per second
+ and you only carried 2.94. What a waste of the cable.
+ Exactly.
+ Well, there was plenty of cable to waste. So we've talked about carrier sense and collision
+ detection and the scheme would be that each packet would carry two addresses, the address
+ of the destination and the address of the source. And each of these would be eight bits.
+ And so on the back plane of the little personal computers with wire app, you would wire up
+ in a code between zero and 255 and that would be the serial number of the machine. And then
+ you'd read that off the back plane and put it in the packet. So each packet had two addresses.
+ This is different from the alone incidentally, which had one address because the channel
+ was only going through two channels. So two addresses. And we added cyclic redundancy
+ checksum on the end of the packet, which we implemented in hardware so that you, in addition...
+ So you could tell if the packet had been damaged. So if there was a collision and the terminal,
+ the contending stations backed off, there would be a hunk of garbage on the cable zipping
+ around. But when it was received, the checksum wouldn't add up and you'd just throw that chunk
+ of garbage away. The day that I was launching pulses down this
+ spool of cable, I was doing some soldering and I was doing some knife work to get the
+ insulation off the copper. And across the room was a young grad student who was doing
+ something else and he noticed me not being good at this. And it turns out he was very
+ good at it because he had worked in a television studio and he had worked in cable television.
+ So he knew all about skinning wires and coaxes. So he came over to help me. And his name was
+ David Boggs. And then we started working together and invented
+ Ethernet together. And he was slightly more hardware and I was slightly more software.
+ But there was then a third guy who was even more hardware than David, who was the PicoFarad
+ guy, the guy who had put those last few passive components on the end just to be sure that
+ connection to the coaxial cable would be clean for transmissions. Every time you tapped into
+ it, you didn't put a big lump of impedance on it.
+ The tapping seems like a counterintuitive thing to me. I mean, everyone would think
+ that a star is the right thing, but you were going to tap into that, just tap into it.
+ One of the problems we decided to solve was the rat's nest problem. We did not want a
+ rat's nest. And every time we installed a new PC, we didn't have to home run a cable
+ back to the rat's nest. So we wanted to put one cable down the middle of the corridor.
+ And then every time you want to put a PC, you just run up and tap into it. And we didn't
+ want the network to go down while you were tapping into it because we wanted 24x7 access
+ to the network. So there had to be a way to tap into the network without bringing it down.
+ So that led to a device we found in the cable TV industry. It was called a Gerald tap. It
+ was basically a vampire tap. You'd drill a little hole in the outer casing of the coax
+ and then you would screw in this tap that would puncture the insulation and go right
+ to the copper and tap in. And you notice in that operation, you're not breaking the copper.
+ So the network continues sending. You tap in and you're now part of the network.
+ So that came from the cable industry. It did. So a guy named David Liddell, who had done
+ cable TV installations when he was in grad school in Toledo, suggested that we use the
+ Gerald tap since it was already being made in volume and worked just fine, as far as
+ he was concerned. And it allowed us to solve the rat's nest, what we perceive to be an
+ important problem, the rat's nest problem. The ALOHA network ran in the kilobit per second
+ range like 4800 or kilobits per second. Ethernet then started at 2.94 megabit. And in those
+ days, by the way, T1 was 1.544 megabits per second. So in 1973, Ethernet was already twice
+ as fast as T1. Of course, T1 is still around, oddly. But then we went from 2.94, we briefly
+ went to 20 megabits per second inside of Xerox. And then when we bumped into DEC and Intel
+ for the standardization process in 802, we decided on 10. We came down from 20 to 10
+ so the chips would work. And then we went from 10 and later I helped found a company
+ called Grand Junction Networks that introduced the 100 meg Ethernet. And I remember being
+ at my coffee table in Palo Alto, I think it was, I forget the year, no, maybe it was in
+ Woodside. But we were trying to think of how we would make a faster Ethernet. And there
+ is some math that shows that as you go faster, the efficiency depends on the diameter of
+ the network. And as you go faster and faster, the efficiency goes down, the diameter of
+ the network in bits. And we were trying to go up a factor of 10 and then, I don't know
+ who it was, one of us observed that, "Wait a minute, we've been assuming that Ethernet
+ is a kilometer in diameter, but we're all going to hubs now so that we only need a hundred
+ meters, not a thousand meters." And that was the factor of 10 right there. So by changing
+ the collision interval, you maintain the same theoretical efficiencies by just assuming
+ you're going 100 meters instead of a kilometer. So that got us to 100 megabits per second
+ and now gigabit, 10 gigabit, which I guess is the mainstream now, and then 100 gigabit
+ is now beginning to run, 100 gigabits per second. You can't be a computer scientist
+ and build that kind of digital now. You have to actually be a hardware engineer to run
+ that.
+ I think at that point you're pretty much a radio person.
+ But then after 100 gigabits comes terabit. So I've already begun giving talks on terabit
+ Ethernet.

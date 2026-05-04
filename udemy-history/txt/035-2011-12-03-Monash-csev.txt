@@ -1,0 +1,70 @@
+ [ Music ]
+ >> That students get a better understanding of something if they know the history,
+ know where it's come from.
+ That's my view.
+ So when I go to class, when I go to the interface design class, for instance,
+ I can take them down to the museum and show them what an early interface was.
+ We talk about interface design and they think of their handheld computer,
+ their laptop, their desktop, and they look at the screen and they think that's an interface.
+ Sure it is, but how did we get there?
+ What was the early interface of computers?
+ And I take them down to the Ferranti series and they say, well,
+ what's the interface here with a computer?
+ So it's giving them the idea of what an interface is by taking them back to something
+ that looks very primitive and then we look at the evolution of interfaces over time.
+ We look at the different applications.
+ You know, we go back and look at PhysiCalc and WordStar and things like that
+ and sort of progress through the different versions of these different products.
+ You actually have like running PhysiCalc?
+ No, no, we don't.
+ No, no, I've sourced it from the web.
+ But I think it just broadens their outlook on IT
+ and I think it's a danger with computing students that they can become very focused on the latest
+ and quickly discard the technology they're using when the next one comes along and forget about it.
+ Even before we had the museum, we were lucky. We had here SIRAC.
+ I've mentioned SIRAC to you, yeah, the world's number four digital stored program computer.
+ It's left over, used till about '65, so about '72 or so.
+ It arrived on campus just for storage purposes, but we put it in a display area.
+ When I first arrived with my teaching here in about '88 to teach,
+ I would always take my introduction to computer architecture students past.
+ It had so much to tell students about the origin of operating systems,
+ the primary function of operating systems to allocate resources and the efficiency of use of resources.
+ With the programming students, I can show them things like punch cards and things like this,
+ how do we get information into the computers and show them things like that.
+ It might be part of one class in a semester that I use the museum in particular for my classes,
+ and others use it too in similar ways, but we do have school children coming on visits,
+ and then we have about an hour tour and we take them through the museum,
+ starting with the calculating machines, and we talk about what do people do before computers,
+ and I've got things like this, what is a computer, where do we get the name of computing from,
+ and I've got this picture of women using slide rules in 1948, I think it was,
+ this is in America, doing their calculations, and the idea that the first computers were people,
+ and often they were women, so that's kind of an interesting bit of social history there.
+ So trying to connect the computers and state of the technology to what was happening in society at the time.
+ The physical artefacts are very important to that.
+ That idea of the physical, we still carry forward even today,
+ as we're looking to see what we can do with the full museum that we've created now.
+ We're toyed with ideas of a web-based series of exhibitions, photographing all of the artefacts,
+ making sure that people can sort of browse through and move through halls.
+ We feel that even with that web-based teaching methods, we would still like to have physical artefacts.
+ We're toyed with a box of artefacts that we would send out to schools that are working on our program,
+ and they do an educational program.
+ So the physical hands-on is a very important thing.
+ Museum curators understand it, people who aren't museum curators tend not to.
+ We had a staff member in our school.
+ When we started the museum, I was talking to her and said, "Oh, we will have slide wheels in there."
+ Now she had done an honours degree in maths, and she had not heard, not that she hadn't seen a slide wheel,
+ she didn't even know what one was.
+ And that to me was amazing because when I went to uni, everyone carried a slide wheel.
+ This is my slide wheel from my university days.
+ We all had these as science students, engineering students, we all had these tools.
+ And she was probably ten years younger than me and suddenly had no idea what I was even talking about,
+ hadn't heard the word.
+ So I think that really made me realise that history is just so quickly forgotten,
+ and that there's a danger that we forget about these things,
+ and if we don't have them around for people to see, they forget about the history of the technology that they're using.
+ And I think that's a real danger.
+ [music]
+ [music]
+ [music]
+ [music]
+ [music]

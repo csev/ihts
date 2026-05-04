@@ -1,0 +1,173 @@
+ From the 1960s to the 1980s, the U.S. Department of Defense was investing in a research network
+ called ARPANET, and ARPANET was funded by the military ARPA Defense Advanced Research
+ Projects Agency, and we'll meet, later in the lecture, we'll meet, Vint Cerf will tell
+ the story much better than I can tell, but I'll just tell you a short version right now.
+ A lot of people wonder why the Department of Defense started this project, and a lot
+ of people say, "Oh, it's because of the fear of nuclear war," and the project was
+ very long, and there were various motivations throughout the various phases of the effort,
+ but based on what I've been told and what I've read, I think it's safe to say that
+ the primary motivation was to improve the use of their computing equipment that they
+ were used for military purposes, make it easier to access them, make it so people didn't
+ have to travel as much, make it so that people could work from their office on many different
+ computers, and also so that people could actually talk more effectively, so they could send
+ email real fast, so that the email would move faster for military people.
+ So the first thing is really kind of an end user focus to make them more useful to people
+ and get people working together more effectively.
+ That was the first kind of heavy motivation.
+ The second motivation actually had to do with reliability and redundancy and resistance
+ to partial failure, and that really wasn't so much about nuclear attack.
+ That was more about battlefield attack, so the notion that once you start having all
+ these links and you make them wireless and you put them in trailers on a battlefield
+ and you got a few hundred miles and the data's moving back and forth, then we have to worry
+ about in a battlefield situation, one of those trailers might get hit and how would you keep
+ the network running if one of those trailers got hit.
+ So the notion that we have sort of a whole nation and we are worried about communications,
+ I'm sure there was some worry about that, but it wasn't really the main reason.
+ I mean, the exciting thing to me is the main reason was a very people-centered reason of
+ people working more effectively.
+ But this was a rather exclusive club, rather exclusive network, because it was only for
+ the people who were either military or funded to build it.
+ So in 1969, there were four hosts on it.
+ Again, that's research.
+ And these were lease lines, the same ones we were all using to do our email, and they
+ were expensive, very expensive.
+ But because it was a large grant, they just paid it because the research was not about
+ the money.
+ The research was, if you had these connections, what would be the best way to use them, and
+ how to deal with redundancies, and how to deal with multiple paths to the same place.
+ All that stuff is interesting research questions that computer scientists spent many years
+ conceiving of.
+ And so by 1972, looks like we got about 20.
+ We got a couple of cross-country links and multiple connections, and this looks like
+ a great test bed to see, you know, so all of a sudden this part goes down, how quickly
+ can we reroute around the outage.
+ And literally these things these days reroute around outages in far less than a second.
+ And so that's really impressive.
+ Our current internet owes its history to the research that was done in the 1960s and 1970s.
+ But what was fundamentally different between the store and forward networks of Bitnet and
+ this ARPANET research network was the notion of packet switching.
+ So it's a real simple concept.
+ It just takes a little more complex software to solve.
+ The store and forward network would start sending data across the link, and then keep
+ sending it until it was done.
+ That seemed to be very efficient.
+ You didn't want to like, you wanted to use it as fast as you can, and then put in the
+ next one out, put the next one out, put the next one out.
+ It was really simple and it dealt with outages in a simple manner by storing them all locally
+ on the disk.
+ But what if instead you made it so you broke every message, let me see if I can even draw
+ this.
+ I should probably make a slide about this.
+ So if there's a network here and here's my computer and it's got a network connection,
+ it's got one really big message broken into pieces, many pieces, and it sends the pieces
+ one at a time.
+ If you show up with a really short message with only three pieces, all you have to do
+ is wait for one piece to go and then your piece goes in.
+ And then you share for a while, right?
+ You share for a while and then you have made it through because you only have three packets.
+ This has like 1,000 packets.
+ And then once your message is through, they resume sending this data in order.
+ And so you were able to sneak and bypass the traffic jam that was this large amount of
+ data.
+ And so that's the idea of packets.
+ And packets are these chunks to say what we're going to send is a piece.
+ And then at the end of that, we're going to maybe send a piece of a different message.
+ It was allowing simultaneously multiple message to be in flight at the same time.
+ That's packet switching.
+ And what happened then is we also ended up with these special purpose computers called
+ routers.
+ They're still computers, but they weren't doing storing in the same way.
+ They were just forwarding.
+ They weren't storing forward.
+ They were merely forwarding.
+ So we'll get back to that in a second.
+ So my favorite analogy to talk about how packets work is postcards.
+ So let's say that I want to send a 30-character message to my friend Daphne at Stanford.
+ But all I have is 10-character postcards.
+ So off I go.
+ I break my message into three bits of 10 characters.
+ I write each piece on a different postcard.
+ I address with a from and a to address from Chuck to Daphne.
+ And then I give a sequence number so that when she gets the postcards, she knows what
+ order to put them back together.
+ So I have to label each of these.
+ And these are fixed width and fixed length.
+ It's like a packet.
+ I'm breaking a long message that might be very long into nothing so that each piece
+ is a certain size so that we can all share it.
+ And so then what I do is I send these, I put them all in my mailbox, and then I wait.
+ And this magical thing called the post office picks them up, puts them in buildings.
+ We'll sort them, they end up on trucks, they end up on planes, on trains, on donkeys by
+ hand.
+ And each of my postcards might take a different route.
+ I mean, one of my postcards goes from Michigan to Chicago to Kansas City to San Francisco.
+ Another of my postcards goes from Michigan to Chicago to Dallas to Denver to Kansas City
+ to San Francisco.
+ And my third postcard goes really crazy.
+ It goes to Cleveland, and it goes to Atlanta, then it goes to Washington, DC, and then it
+ goes to Chicago, and then it goes to Kansas City, and then it makes it to San Francisco.
+ Now the fact that they took different paths and they might not even arrive in order, some
+ might get past each other, they might get stuck somewhere, it doesn't matter because
+ each one of these has been labeled both with the from and the to destination.
+ So each of these intermediate locations doesn't have to get it to the final destination, they
+ just have to get it closer.
+ They make choices, and even if they make the wrong choice, it can be sort of dealt with
+ one way or the other.
+ So this is some big mystery.
+ It's called the post office.
+ It just takes these little cards with labels and moves them.
+ It doesn't know if that's a YouTube video or if it's an email.
+ It doesn't really care.
+ It just has these little chunks to move around that have from and to addresses.
+ I mean, that's the essence of the network, the internet, the cloud.
+ That's why we draw this picture.
+ You'll see like, "Ooh, it's a cloud."
+ And that's because it's, don't worry about what's inside here.
+ It's all super mysterious, and don't worry about it.
+ It just comes out.
+ So after all that happens, Daphne, who happens to have the exact same mailbox as I do, it's
+ kind of rare.
+ We both have a mailbox that's Copyright Creative Commons.
+ That's what's cool about this mailbox.
+ At some point later, these things start appearing.
+ She goes like, "Whoa, it looks like Chuck is sending me a note."
+ But because of his limitation of postcards, he's only sent me one.
+ Now I know who it's from and I know who it's to, and I know that's the first of some number
+ of messages.
+ And then the next day, out comes another one, because that was the one that sort of went
+ the more southerly route.
+ And she goes, "Well, I'm missing something.
+ I'll just sit and wait and see what happens."
+ And then finally, many, many days later, the one that took the circuitous, most circuitous,
+ most roundabout route comes.
+ And now Daphne can reassemble the messages, because she has the sequences.
+ So she simply puts them back together.
+ One, two, three, boom.
+ So she puts them back together.
+ She has it.
+ She sort of throws the postcards away and she has the ultimate final message.
+ That's packets.
+ Packets are breaking a big message into small parts, labeling each one of them individually,
+ and then throwing them into the shared network.
+ And so this is what it looks like.
+ The post office in this is called a gateway.
+ Okay, come on.
+ Gateway.
+ So that's a gateway.
+ So here's Michigan, here's Stanford.
+ Stanford has a gateway too.
+ That's like their post office.
+ In the middle is the post office box.
+ And the post office box basically, the post office has intermediate locations and it has
+ trucks and locations.
+ These are links and routers.
+ And messages can take different paths, right?
+ And then they arrive and they're reassembled.
+ And we have like the ability to hook from home and stuff like that.
+ So there's a local area network, LAN, LAN.
+ And then there's this sort of like internet, the network of networks.
+ It's like the post office.
+ And it still breaks things into packets.
+ They still come out as packets.
+ And then Daphne has to reassemble them on her computer to create the message.
+ So the research network, ARPANET, solved a lot of engineering problems.

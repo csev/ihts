@@ -1,0 +1,90 @@
+ So now we just finished talking about basic confidentiality using simple Caesar cipher.
+ And we'll get better before we'll be more sophisticated than that because Caesar ciphers are trivially breakable, obviously.
+ But now we're going to switch from confidentiality to integrity.
+ And we're worried about the message, just to review, that confidentiality means we're hiding information.
+ We just don't want Eve to see it because Eve sees the ciphertext.
+ And we want her to never be able to extract the plain text.
+ And as we saw in the last lecture, you, if I'm just using a Caesar cipher,
+ I mean, there was little or nothing I could do to stop you from doing it.
+ All you'd do is enough work and you would figure out the shift and then you'd have everything.
+ So it would take you, you know, you'd write a program.
+ It would take you like a thousandth of a second to check all possible things and you're done.
+ So that's confidentiality. Now we're going to talk about integrity, right?
+ And we're going to kind of assume confidentiality or perhaps assume it's not necessary
+ because we're transporting it in a locked box or in a whatever.
+ But let's just say I had some piece of paper, right?
+ And you'd want it to know if this piece of paper really came from you.
+ Well, we would use things like a signature, right?
+ Or we would use a bit of wax where we would push the, our seal on it and the seal only belonged to us.
+ But, but really did signatures can be forged.
+ You know, people can steal the wax imprint thing.
+ I mean, in Roman times they would wear it around their neck to make sure that no one stole it.
+ But you could also just create a fake one so you could seal your letter with the wax.
+ But, and you break the wax seal. But in the computer world, we need something, right?
+ We need a situation where, where perhaps, I mean, my wife had to get a prescription
+ and they sent her an email with a prescription in it.
+ And this prescription had on the end of it a digital signature.
+ It was just a bunch of numbers. And you think to yourself, wow, you know, here's this prescription.
+ And at the end it just has a bunch of numbers and that's the digital signature from the doctor.
+ And how does that work? Well, it, it works surprisingly well.
+ And, and that message can be forwarded. She can print it out.
+ She can scan it. She can send it to a pharmacist via email.
+ And as long as that signature's in there, we can know that the data originally came from the doctor.
+ And that, that you didn't, no one modified it to be a different kind of prescription.
+ Like a different amount or a different drug.
+ And, and then that would invalidate the signature. And how exactly is that done?
+ Well, it's done using a technique called cryptographic hashing.
+ And it is a bit of computer software, a bit of code that takes a large amount of text
+ and reduces it down to some small set of numbers, a large block of data to a fixed length set of numbers.
+ And, and the message is the big thing and the digest is the little thing.
+ It's sort of, it's like it digests it and sort of gives you this little tiny thing.
+ Now the key is there are many different techniques to, to map from a message to the hash or the digest.
+ And some are better than others.
+ And it turns out that there is a long-term whole field of mathematics and computer science
+ that is dedicated to understanding what a good cryptographic hash might be.
+ And so there, there are these well-known cryptographic hashes that you may have heard of, like SHA-1 or MD5.
+ Each of those is the result of many, many years of research of thinking through what a good cryptographic hash is.
+ So, for example, one cryptographic hash might be, I sign it with a number of characters in the message.
+ That would be something that says, like, well, at least they didn't expand or contract the number of characters in the message.
+ But then at some point that would be such an obvious thing that you would change the signature as well.
+ So you want to make it so you can't change the message and change the signature because then you're sort of properly forging a signature.
+ So the hash function that takes the message to create the digest,
+ that's something that is a scientific mathematical research effort to get the thing right.
+ Okay. So here is an example of a hash function.
+ Now, this hash function takes as message input on one side, right?
+ It takes message input of, and this can be short, medium, or extremely long messages.
+ And the digest is always a fixed size. It's always a fixed size, right?
+ Some get longer than others. Different message hashing functions give different length, but they're all fixed.
+ And they're fixed even if the input is megabytes. It can be megabytes, hundreds of megabytes.
+ And you can still run all that through the hash function and get a digest.
+ And so the key thing is to make it so that for any change in the input, the digest also changes.
+ And so here we have the red fox jumps over the blue dog, right? And that's the hash that comes out.
+ And if we change one letter, you know, the V to a U, the hash changes dramatically.
+ So this hash changes dramatically. So this suggests this is a good cryptographic hash function, right?
+ The length didn't change. All the characters are the same, but one character changed and the hash function changes completely, okay?
+ And here is another flipping of characters, right, where from here to here, excuse me, better color here. Which color is that?
+ From here to here, the V and the E were just toggled. And yet from here to here, the hash function is completely different.
+ And so the hash function needs to generate quite different hashes, even with tiny perturbations of the input.
+ You're not even allowed to change one character or add or remove character.
+ And they know when a cryptographic hash function is bad, if they can take two different messages and send it through and get the same digest.
+ And so there's a lot of research to try to, as soon as they come up with one of these things,
+ there is a massive amount of research to try to disprove it, to say that's a bad one.
+ And the bad one is if two different messages come in and they come out with the same hash function,
+ then that's bad because it means that it's provable, provably that the signature could use, the same signature could be used to sign two different input messages.
+ Okay, so this hash function, function is a bit of computer code, right?
+ And, you know, SHA1, you can go look on Wikipedia for SHA1 or MD5. These are kind of classic hash functions.
+ And when you read the SHA1 or MD5 Wikipedia, they'll talk about the fact that it's been decided it's kind of flawed.
+ And so there's like SHA1, don't use it. It's not cool.
+ Now you can use it for less critical things. You just have to be aware of what its limitations are.
+ So like SHA256 is better than SHA1.
+ So what happens is there's continuous research and there's continuous improvement in the mathematics of these hashing functions.
+ And they're getting really good at it because we've been using these things for a very, very, very long time.
+ Now, if you want to play, let me clear this up.
+ So I've got a simple SHA1 calculator and you'll be using this in the homework.
+ The SHA1 calculator takes as input some kind of a plain text and it produces output when you hit the thing.
+ So you can put in Pony or Fluffy or whatever, or even a whole bunch of stuff, and it produces a SHA1.
+ So basically, get ready to use this because the next upcoming exercises are going to use this.
+ And you can read SHA1 about SHA1 on Wikipedia and you can find out like, yeah, it's seen as less than perfect and you should use SHA256 or whatever.
+ But actually, lots of applications in less than critical situations know that for short and reasonably length strings, the flaws are mathematically found, but they're not commonly run into.
+ So SHA1 is not horrible. It's just been proven sort of less than ideal.
+ And so for highly sensitive information, you would never use SHA1, but for simple things, SHA1 and even things like MD5 are commonly used, like for hashing passwords.

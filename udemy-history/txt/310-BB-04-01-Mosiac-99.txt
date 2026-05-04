@@ -1,0 +1,41 @@
+ So we started our journey at University of Illinois Urbana-Champaign. We got the
+ NSF, created University of Michigan, we created the web, we created the first web
+ server, and now we're going to come back to where we started. We're going to go
+ back to the University of Illinois at Urbana-Champaign. These are the folks
+ that basically exploded the web, moved the web from the academic space to the
+ commercial and end user space. And there's all kinds of things. The network
+ was growing, things were getting faster, personal computers were getting better
+ very rapid pace because the IBM PC is almost 10 years old and many computers
+ and they were getting quite fast in the in the 90s. So the 1990s our computing
+ and their display capabilities were getting better very rapidly. And in this
+ environment NCSA at Urbana-Champaign, University of Illinois Urbana-Champaign
+ built an open source web browser that worked on Mac, Windows, and Unix. It was
+ the first web browser that did this and it it was the thing that really made it
+ so average people who had PCs or Macs in their home could get a network
+ connection and start enjoying all of this new content that was coming up on
+ the world wide web. Hello my name is Charles Severance and I am showing you
+ right now a desktop application that works on my Macintosh called NCSA X
+ Mosaic. This was software released in 1993 and it was the first Mosaic. It was
+ the X Windows Mosaic and I'm running it on my Macintosh and you can download it
+ from my github account. CSAB is my github handle and it's the X Mosaic - 1.2
+ So what we're looking at here is the original default homepage at the
+ National Center for Supercomputing Applications at the University of
+ Illinois and we see it as we saw it circa 1993. We can scroll through we can
+ see the old good old days the visited links in purple and so if we scroll
+ down you'll see some neat pictures and the wonderful gray background. List tags
+ were real back then. You know we can go see something about visualization at
+ NCSA. I've done a little tiny bit to this to teach it a few things. You can see
+ all that I've done on HTTP on my github site. You can see everything I've done on
+ my github site. I try to stay as I just made a few more things work like PNG
+ images and HTTP 1.1 seek it to visit more more pages. Another another
+ wonderful page to another wonderful page to take a look at is the original first
+ page on the world wide web the info.cern.ch and again we're experiencing
+ it now circa 1993 to see what's out there. Take a look at the people involved
+ in the project. So here's some of those pages Tim Berners-Lee of course Robert
+ Caillou of course and here's some of the other people that were working at CERN.
+ So there you go that is a quick experience in how we surf the web in 1993.
+ After this the NCSA staff student programmers software developers all
+ formed the company Netscape in order to commercialize all this. Joseph Harden
+ was the supervisor of the software development group at NCSA that was
+ responsible for building and releasing both the mosaic web browser and the
+ HTTP web server as open source and gave them away free.

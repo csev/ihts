@@ -1,0 +1,78 @@
+ Alright, so it started in 1993 when I saw the Mosaic web browser. That was when I got
+ really interested in the web. I'd been doing Gopher and IRC and other Internet related things
+ before then, but with Mosaic, I could suddenly explain what I was doing to my mother. So I
+ knew this thing was going to be very, very interesting. I was living in Mountain View,
+ California, but I moved back to Toronto to do consulting, and I ended up consulting for
+ a number of companies, and I wrote the same code over and over, basically CGI scripts
+ written in C, and I wrote similar code to handle forms and host data and filtering and
+ all those sort of common web things you end up having to write in C if you're writing
+ raw CCGI programs. So that was getting tedious. I'm not very interested in programming. It's
+ kind of tedious and boring, so if I could reduce the amount of time I had to spend programming
+ and maximize the output and get to the solution quicker, that was my goal with PHB. I put
+ together all my common stuff into a C library, hacked it into the NCSA web server, and then
+ added a little templating system on top of that to let me easily call into it, and that
+ was the first version of PHB. It was a productivity tool for myself, so I could very quickly go
+ to a new client and whip up a new web application for them and tie them to their database or
+ whatever they needed, and every client had slightly different requirements, so I kept
+ extending my tool. Then other people started asking me about this stuff. They asked me
+ how I built these things, and I said, "Well, I'm using this little tool I built," and they
+ asked if they could have it, and I said, "Sure, why not?" I mean, that's not what I'm selling.
+ I'm selling my services of solving problems. The tool itself is irrelevant, really. It's
+ just my hammer. Anybody can use my hammer. I don't care. And then they started sending
+ patches, which I thought was really, really cool, and they found bugs in my stuff that
+ I hadn't found yet, which meant I could also go into clients and say, "Hey, here we go.
+ Here's a new version. It fixes this, this, and this," and they thought I was being extremely
+ productive writing all this code and fixing all these things so fast. That's when open
+ source really hit me. This was in 1994, '95, before the term open source existed, but it
+ really caught on with me that I got together with a group of my peers, other people interested
+ in the web and solving the web problem from all around the world. We all had similar problems.
+ We faced similar issues, and collaboratively we could build a tool that solved this problem.
+ That was really how PHP got off the ground. I learned a bit along the way that in order
+ for this to grow, I had to give up control of PHP. I had to let other people have some
+ control. I couldn't rewrite everybody's patches, both because I'm pretty lazy and it's a lot
+ of work, but also to give people some ownership in the project. Once they have some ownership
+ and once they have full control over their part of it, then they become much more invested
+ in it, and they become passionate, and it becomes theirs, not just them contributing
+ to my project, it becomes our project. That really changed the nature of PHP. That happened
+ around 1997 or so, where I really delegated it out and gave people full access to the
+ CBS repository that I was using to develop this stuff in. It grew like crazy after that,
+ both because the web grew, and PHP was sort of in the right time, the right place, but
+ also because it was very, very easy to get in and get started. Contributing to PHP and
+ using PHP as well, obviously, has a very low barrier of entry. Both on the using PHP side
+ and also contributing to PHP side, I try to keep the barrier of entry really low. It does
+ not take much, even today, to get a CBS account in a PHP project. Source provision control
+ is a wonderful thing. It doesn't really matter how bad the initial patch is from some contributor.
+ We can always fix it. Much rather welcome new contributors and guide them along and
+ get them to be productive and useful, than yell at them for having a bad initial patch.
+ From the outside, you look like a well-oiled machine. It's a well-oiled machine that accomplishes
+ things more effectively than a commercial organization. At the same time, it's a band
+ of brothers to some degree. We have close to 1,400 people with CBS accounts, which means
+ those people can all commit to some part of the repository, either PHP, Pear, Peckle,
+ or the documentation tree, anywhere in there. They're not all active, obviously. We probably
+ have slightly over half the people have committed something in the last year and a half. There's
+ no management of these people, really. They self-organize into smaller groups. It's impossible
+ to manage 1,400 people, obviously, especially when they're volunteers and they're not actually
+ going to show up to a meeting or to read their email or whatever. They self-organize around
+ what they're interested in. We have documentation teams for the various languages. There's a
+ big French documentation team that just worry about the French translation of the documentation.
+ There's a Japanese translation team, a big group of core documenters. Those guys organize
+ themselves. There's no big chief of this whole thing. I don't tell people what to do. I can't.
+ They're not going to listen to me. Why would they listen to me? They do what they're interested
+ in. That's the only way volunteers work. Then there's the Peckle guys that build Peckle
+ extensions. Generally, that's where we test out new extensions and bring in certain ones.
+ Like in PHP 5.1, we brought in the JSON extension, which started its life in Peckle. Next may
+ be OAuth or some of the others that are big right now. That's how new features and new
+ things eventually creep in. They live outside of the core tree, and they get enough penetration.
+ There are enough people to install them. We see Linux distros pulling them in, and their
+ core version of PHP, they pull in some of these things. We sort of look at what's happening
+ out there, and that happens. There's no real management of that either. It's a meritocracy.
+ Code speaks. If you write a patch, or you write a piece of code to implement a feature,
+ that says a lot. If someone wants to disagree with that way of doing things, if they can
+ offer an alternate implementation, that's a really good argument. If all they do is
+ whine about it, that's a really bad argument. Chances are that the implementation will win,
+ even though it may not be the best way of doing things. There's code. It sort of works.
+ That's what we go with. That's always been the default. It doesn't always lead to consistency,
+ but it does lead to getting the features and actually being able to do something, being
+ able to connect to this type of database, even though it may not be the best way of
+ doing it. At least it gets you there. That's always been what PHP is about, is solving
+ the problem. We'd rather have an ugly feature than not having the feature at all.

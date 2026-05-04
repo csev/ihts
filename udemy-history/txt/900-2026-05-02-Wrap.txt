@@ -1,0 +1,26 @@
+ When we started this course, we looked at the pre-Internet and its earliest formative
+ days.
+ You have met influential researchers, looked at a few experimental machines, and together
+ asked a simple question.
+ Could computers talk to each other?
+ From those early moments, ARPANET, packet switching, and the first fragile connections,
+ we followed a path that changed the world.
+ We saw how the network grew from a research project into a global infrastructure.
+ We talked about the transition from ARPANET to NSFNET, and how policy, funding, and collaboration
+ helped shape its growth.
+ We explored the invention of the web, how a simple idea, linking information using a
+ web "browser" made the Internet usable for everyone.
+ And along the way, we met the people who made it happen.
+ Not just brilliant individuals, but communities, open, collaborative, and often driven more
+ by curiosity than profit.
+ If there's one takeaway from this course, it's this.
+ The Internet was not inevitable.
+ It was the result of choices, technical choices, policy decisions, and human values.
+ And those choices continue today.
+ The Internet you now use is still evolving.
+ As you move forward, don't just use it.
+ Understand it.
+ Because once you understand it, you see it differently.
+ You see the layers, you see the trade-offs, and the opportunities.
+ Thank you for spending this time with me.
+ It's been a pleasure.

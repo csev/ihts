@@ -1,0 +1,162 @@
+ Packet switching was an idea which was specifically studied by Len Kleinrock at MIT who was actually
+ looking at message switching and he did a brilliant dissertation on the use of queuing
+ theory to analyze what networks of queues would look like using this message switching
+ approach. His analysis, although we'd never used the word packet, is as equally applicable
+ to packet switching as it is to message switching. So that's one important milestone in around
+ 1961. In '62 or thereabouts, Paul Barron is doing work for the RAND Corporation and
+ is deeply concerned about the ability to preserve command and control in a post-nuclear environment.
+ We were seriously worried that the Russians would actually launch and that we would suffer
+ a nuclear attack and that we had to be able to respond and we needed command and control
+ for that. So Paul, in 1962, before the existence of integrated circuits or anything else, is
+ saying we really should be digitizing and packetizing voice and then using sort of pole-mounted
+ radios that are able to transmit in all directions to create a highly connected environment so
+ that if holes were knocked out of it by nuclear explosions, if it's a fabric that's in any
+ way connected, information could get from one end to the other. So he envisioned the
+ notion of a message block and it was dynamically routed. He used hot potato routing. If you
+ got something, you got rid of it as fast as you could. He chopped up the speech into little
+ 20 millisecond pieces. He didn't talk so much about data as I remember it. This was
+ supposed to be a highly resilient voice network for command and control. I may have just done
+ him a disservice because later he was very much conscious of the importance of data communication
+ too. So that's around 1962. It gets documented in an 11-volume series called On Distributed
+ Communications and he can't sell it to anybody. The traditional telcos, AT&T in particular,
+ found the people at what was then the Defense Communications Agency, laughed him out of
+ the room, said this was a silly idea, couldn't possibly work, and so he should just go away.
+ So he never got anywhere with that in spite of all the documentation. In '66, Larry Roberts,
+ along with one other guy whose name I am now not remembering, does a point-to-point experiment
+ to test packet switching. It was between the ANSF-Q7 machine at System Development Corporation
+ in Santa Monica and the TX-2 machine at MIT at Lincoln Laboratory, which is where Larry
+ was. They demonstrated on a 2400-bit line, bit-per-second line, that you could move packets
+ back and forth. Then in the '64 or '65 timeframe, a man named Donald W. Davies at the National
+ Physical Laboratory in London also gets the bug, tries to get money from the Science Research
+ Commission in England, and gets only enough to build one node, the one-node network. So
+ he builds this packet net. He invents the term "packet" to describe what these objects
+ are and it works. He's got a bunch of terminals and other things hanging off of this one node.
+ So in a funny way, he built a local area network, if you like, but it was based on physical
+ wires. So those three guys introduced packet switching. Larry and whoever it was that he
+ worked with demonstrate that it's possible to get two very distinct kinds of computers
+ to talk to each other using the standard way. J.C.R. Licklider is a psychologist, actually,
+ at MIT, but he's convinced in the early '60s that computing is important to non-numeric
+ processing, that it will allow people to work together and collaborate in ways that they
+ never could before. He comes and starts the Information Processing Techniques Office at
+ ARPA with this bee in his bonnet. And who does he encounter? He encounters Douglas Engelbart
+ at SRI International, and the two bond, basically, because Engelbart was all about non-numeric
+ computing and the ability of people to build up the superstructure of communications and
+ documents and interact with each other, hyperlinking, the mouse, the portrait mode display, black
+ on white presentations. I mean, the guy had a worldwide web in a box at SRI, and Licklider
+ understands that. Licklider is sending out notes to his little community of people talking
+ about the intergalactic network made of tongue-in-cheek. So he really gets credit for having put this
+ meme in place at ARPA. Then Taylor comes along to pick up the responsibility for running
+ the IPTO from Licklider and is all hacked off because he's got three terminals in his
+ office at the Pentagon connected to three different machines, and he says, "Why can't
+ there be one terminal talking to all three? We need a network." And so as he's pursuing
+ this idea with Charlie Hertzfeld, who was the head of ARPA at the time, Charlie hands
+ him a million bucks over a 20-minute conversation, and now Taylor's got the problem. Who's going
+ to actually do this? Because Taylor's not a technologist either. He's another kind of
+ psychologist type. So he decides to get Larry Roberts from Lincoln Laboratories, who did
+ that packet thing, and Larry doesn't want to come. So he goes and complains about this
+ to Charlie Hertzfeld. Charlie calls up the guy that runs Lincoln Laboratories and says,
+ "You know, we pay for a significant fraction of your research budget every year. You should
+ tell Larry he should show up." In fact, I thought that maybe Larry had been forced to
+ do this by Charlie. I think it was probably a little less awful than that. But Larry was
+ persuaded to come down. Eventually, of course, inherited the operation of the office from
+ Bob Taylor, but in the meantime is the guy responsible for initiating the ARPANET project.
+ So they write an RFQ request for quotation. A bunch of responses come back, probably on
+ the order of a couple dozen. I don't know personally for sure how many. I know that
+ I wrote one of them with my colleague Steve Crocker while we were still at UCLA as graduate
+ students, but we were consulting with a company called Jacoby Systems in Santa Monica. Jacoby
+ Systems wrote one of the responses. Bolt-Bear-Neck and Newman wrote another response, primarily
+ written by Bob Cohn, who'd come to BB&N from MIT. So the responses come back and they get
+ evaluated and four of them end up, and the Jacoby Systems one isn't one of them. Or if
+ it was, it didn't get selected. BB&N got selected. So Steve Crocker and I kind of hiked back
+ to UCLA as graduate students. And the next thing we know, Len Kleinrock, who's at UCLA
+ and who'd written this original dissertation work on packet switching, has come to UCLA
+ to teach and explore a queuing theory, is a close compatriot of Larry Roberts, because
+ they were both at Lincoln MIOBS together. So he gets the network measurement center
+ piece of the ARPANET project. And Steve Crocker and I and John Postel, all of us from the
+ same high school in San Fernando Valley, end up in Len Kleinrock's operation running the
+ network measurement center. So I was the principal programmer for that. Steve Crocker took the
+ responsibility for managing and leading the network working group, which led to the host
+ to host protocols. And John Postel eventually becomes the keeper of the documentation. He's
+ the RFC editor, which Steve Crocker started, Request for Comments. He's the guy that becomes
+ the numbers czar, which is keeping track of address spaces and allocations, and eventually
+ becomes the domain name manager of the Internet Assigned Numbers Authority when the Internet
+ happens. That hasn't happened yet. This period of time of the ARPANET program brings us up
+ to 1972. This is an important moment in this whole history, because the first demonstration
+ of the ARPANET happens in the Washington Hilton Hotel basement in October of '72. A whole
+ bunch of people from the networking, interested networking community, packet switching community,
+ attend, not only in the U.S., but from France and from England and Italy and Germany and
+ elsewhere. That group of about 25 or 30 people convenes, sees the ARPANET in operation, sees
+ applications that were being done, including Doug Engelbart's stuff, and then forms this
+ international network working group modeled after the working group that Steve Crocker
+ managed to build the ARPANET system. And at this point, I become the chairman of that
+ group because Steve is busy at ARPA doing artificial intelligence.
+ At the end of that year, Bob Kahn leaves Bolt, Berenick, and Newman and goes to ARPA. I leave
+ UCLA, where I'd been working with Kleinrock and Crocker and Postel, and they go to Stanford.
+ So Bob is at ARPA. I'm at Stanford. And in the spring of '73, Bob comes out from ARPA
+ and he says, "I have a problem." He says, "What's your problem?" He says, "Well, we
+ got this ARPANET." He says, "Yep. But we also are working on other networking capability
+ to make command and control work for the military. If you're going to be serious about putting
+ computers in command and control, they have to be mobile. They have to be in armored personnel
+ vehicles and tanks and all these other things. They have to be seaborne so we can have ship-to-ship
+ and ship-to-shore communications, which means satellite. So we need mobile radio. We need
+ satellite in addition to the fixed-wire systems that are represented by the ARPANET. We have
+ fixed installations that are not moving around." So we have all these different technologies.
+ And Bob's brilliant idea is not to build one network with all those technologies embedded
+ in it. Instead, he breaks them apart and says, "Let's build a packet satellite network,
+ which optimizes the use of satellite, takes into account that it's got a half a second
+ round trip time. Let's build a packet radio network, which optimizes a system whose connectivity
+ is changing with time as things move around and as you get variable delay and also variable
+ interference." So these were three different packet networks. Then the problem is how do
+ you hook them together? You wouldn't have this problem if you put all the technologies
+ into one net. But if you put them all into one net, it makes it really hard to do control
+ over all these highly variable parameters. So instead, he says, "Break them into different
+ networks and connect those together." So we design and build a gateway, which today we
+ call a router. And that concept also introduced a whole bunch of other things like how do
+ you refer to another network? Each network thinks it's the only network in the universe.
+ This is true of the proprietary networks like SNA and DECnet and so on. You didn't have
+ a vocabulary that said take this packet and move it to another computer on another network
+ somewhere else that you might not even be connected to. So we have to invent an internet
+ address space in order to solve that problem. We have to find a way to allow packet losses
+ in this path to be recovered, which is where TCP now becomes a manager of reliability on
+ an end-to-end basis instead of relying on each net to be reliable. The ARPAnet was built
+ on the assumption you could build a reliable underlying net. The internet was based on
+ the assumption that no network was necessarily reliable and you had to do end-to-end retransmissions
+ to recover. So during this 1973 period, Bob and I get the first paper written and published
+ in IEEE Transactions on Communications, May of 1974. And I think mostly nobody paid too
+ much attention to it. Meanwhile, ARPA is funding us to go make this actually work. At Stanford,
+ I am working with my graduate students, some who are at Xerox PARC, some who are at Stanford,
+ on the detailed specifications of TCP/IP. We published that in December of 1974 and
+ it's the first time the word "internet" shows up in print anywhere. It was the first
+ papers we talked about internetworking. So internet shows up in a complete spec in December
+ of 1974 and it's also got bugs, but we don't know that yet. Until we start implementing
+ it in 1975 with two other organizations. So Bob Kahn says, "You can't have just one
+ implementation." Bolt-Bear-Neck and Newman becomes one of the implementers. University
+ College London and Peter Kristine's group in England is the second or third implementation.
+ So we have three implementations of TCP/IP. In fact, by this time it's only TCP. We haven't
+ broken off the IP part. Three implementations are going. We instantly find problems with
+ the design and we start evolving. So over a period from 1973 to 1978 we go through four
+ iterations of the design and implementation and test until we have a fairly stable thing.
+ And then we standardize. So 1978 we fix everything. Now by this time the internet protocol has
+ been split off because people like David Reed and Danny Cohen are saying we need to have
+ real-time communications that is not necessarily reliable but which has a little latency. So
+ voice communications, radar tracks and all that. You don't care where the missile was
+ two seconds ago. You want to know where is it now? And in the case of voice if you lose
+ a packet you just say that again. I missed something. So we split TCP into TCP and IP
+ and we create something called user datagram protocol which is parallel to TCP and it is
+ the real-time low latency version of the reliable TCP. All of those little components, IP, TCP
+ and UDP now go into the internet architecture starting in 1978 and we start implementing.
+ For the next five years we do everything we can to get TCP/IP implemented on every operating
+ system we can find. It goes onto the IBM machines, it goes onto the digital machines, HP, it
+ goes into Unix. We have a Unix version built by Bolt, Barenik and Newman. We send it out
+ to Berkeley, to the Berkeley BSD release guys and Bill Joyce says I don't like that code.
+ He writes his own, puts it into BSD 4.2 and that's the version of Unix that carries a
+ lot of TCP/IP to the academic world because at the same sort of time frame some micro
+ systems comes along and builds these fantastic workstations and they want to use open source
+ or at least open protocols and open operating systems. So they adopt Unix and the TCP/IP
+ comes with it and they use Ethernet as a way of connecting workstations together so they
+ are the engine that's driving the academic community which are all gangbusters for workstations
+ and high-speed local networking. So all of this of course places huge demands on the
+ ARPANET backbone which is only running at 50 kilobits a second and eventually leads
+ to the need for higher speed. NSF jumps into the fray seeing how valuable all this is for
+ the academic community and concludes that it should build a network that runs even faster
+ and it does so and it's called NSFNET.

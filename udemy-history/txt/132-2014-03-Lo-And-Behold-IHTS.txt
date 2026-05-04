@@ -1,0 +1,217 @@
+ When you walk into the back entrance of Bolter Hall on the UCLA campus, you may notice a
+ seemingly random pattern of floor tiles in the entrance.
+ If you spend a little time looking at the pattern, it might dawn on you that the tiles
+ represent zeros and ones.
+ And then you might even figure out that the tiles represent ASCII characters.
+ The characters in the floor tiles spell out "lo" and "behold" to commemorate the building
+ where the "L" and the "O" were the first two packets ever sent on the ARPANET from
+ UCLA to Stanford Research Institute on October 29, 1969.
+ ARPA wanted a network so that they could share the large computing resources they had given
+ to their researchers across the country.
+ University of Utah had a terrific graphics operating system.
+ SRI had database, we had simulation, University of Illinois had high performance computing.
+ And every time ARPA brought on a new researcher, they'd offer to buy them a computer, fine,
+ but the researcher would say, "I want the same capability all those other guys have.
+ I want the graphics, the database, and all the rest."
+ And ARPA said, "We can't afford that."
+ If you want to do graphics, you log on to the machine at Utah through a network that
+ we think we're going to make.
+ So the need for the network was to do resource sharing and not to protect the United States
+ against a nuclear holocaust.
+ When Bob Taylor came in as a neck director, and he recognized his need for sharing resources,
+ by the way, notice the phrase I'm using, "sharing resources" is exactly what I built into the
+ network design.
+ Now they wanted to share the external resources.
+ Same idea.
+ You have it, you're not using it as somebody else should be able to.
+ So they brought in Larry Roberts, another classmate of mine, in fact, an officer mate
+ of mine at MIT, to manage this project.
+ He came to me because he knew my work.
+ He watched me do the simulation.
+ In fact, I used his compiler on the TX-2 computer and said, "Len, we need to know if this thing
+ is going to work."
+ He knew that I had the theory, so I could show it to him it's going to work.
+ In fact, he even says he would never have decided to spend millions of dollars of the
+ U.S. government's money if he wasn't sure this thing would work.
+ So the design began to be laid out by a few of us in 1967.
+ In '68, they sent out a request for a proposal.
+ The end of '68, both Berenick and Newman, a Cambridge, Massachusetts firm, won the contract
+ to produce the first switch of the opener.
+ And we became the network measurement center early on so we could test it out.
+ During the design phase, some great people were there throwing their ideas out.
+ Herb Baskin was there, a time human expert.
+ And he said, "If this network can't deliver short messages within a half a second, I can't
+ use it for time sharing."
+ Specification, half a second.
+ By the way, we've got 200 milliseconds.
+ And Wes Clark said, "Circuit computer for communications."
+ I said, "Look, if this is going to be an experiment," and I was also interested in the research
+ and experimentation, "we have to build software in so we can run experiments.
+ Artificial traffic generators, measurement hooks, a place where the measurements can
+ be evaluated, put the software in."
+ So Howie Frank began to talk about network reliability.
+ He said, "If anything fails, the network shouldn't collapse."
+ So we didn't say there should be five nines of uptime.
+ We went much more pragmatic, we said, "If any single thing fails, everybody else can
+ still talk."
+ So to do that, you need something called a two-connected topology, two independent pairs
+ between every pair of nodes, built in it.
+ So all those specs went to BBN.
+ They built the darn thing.
+ They delivered the switch here at UCLA on schedule.
+ Eight months after they got the contract, they were to deliver this new technology,
+ new applications, new device.
+ They did it on time, on budget, came here, we plugged it in, and bits began to move back
+ and forth between our timeshare machine and that switch on the day after Labor Day, September
+ 2, 1969.
+ But that was just a one-node network.
+ The schedule was that another one of these switches would be delivered at Stanford Research
+ Institute, 400 miles to the north, and they would connect that to their machine.
+ And that happened in October.
+ So in October, we had a two-node network.
+ My machine, my switch, another switch, 400 miles away, and the SRI host.
+ And it wasn't one single line, it was a gang of 4.8 kilobit per second lines.
+ So now what do you do?
+ You have a two-node network.
+ Well, now you can do something.
+ So we decided one night, one night late in October, programmer Charlie Klein and I were
+ in the room and said, "Look, let's communicate between these two machines."
+ So we got a hold of Bill Duvall, their programmer over there, and we said, "Let's simply log
+ in from a terminal connected to our host to that machine."
+ The idea is these are both timesharing systems.
+ They expect terminals to connect in and use the services of the machine.
+ The big thing was sit at a terminal here, log onto your machine here, and through this
+ wonderful network, log on here as if you're a local user.
+ That's easy enough.
+ So we got all set, got Charlie down at the terminal over here.
+ And just to be sure this worked, we had a telephone handset.
+ In fact, I actually think I've got the, here it is, I'm just happy to have it.
+ That was a telephone set.
+ That's the telephone.
+ That was the telephone.
+ We plugged it in.
+ We derived a...
+ You weren't using Skype.
+ Very nice.
+ Plugged it in, we used a piece of the high-speed line for the phone connection.
+ But the interesting thing is we were using the defunct circuit switching technology to
+ prove out the new packet switching technology, and it really helped us so we could understand
+ what's going on.
+ So Charlie tapped the L and we said, "You get the L?"
+ Bill said, "Yep, got the L."
+ Tapped the L, "You get the O?"
+ We're trying to do LOG for login.
+ Got the O, got the O.
+ Tapped the G, get the G, crash.
+ So the first message ever on the network was LO, as in lo and behold.
+ Now that's especially interesting because if you go outside this hallway here down under
+ the alley and come into another entrance to this building, and I just discovered this about
+ a week ago, you walk on a platform and there's a mosaic of tiles down there, and they're
+ a strange pattern.
+ It turns out it's the ASCII code for lo and behold.
+ I have no idea who did that.
+ It's about a year and a half now.
+ Some very clever person put that in.
+ That was the first message.
+ October 29th, 1969, the 1030th night.
+ You're entering 1969 right now.
+ We reproduced this room to look as it did and smell and feel like it did some 40-odd
+ years ago.
+ If you look over here, you're looking at the first piece of equipment ever on the internet.
+ This is that first interface message processor, imp number one at UCLA, a Honeywell minicomputer
+ adapted by both Baranek and Newman, BBNN, to operate as a switch which handles all this
+ functionality.
+ This is the same physical four square feet where it served as the opening note of the
+ internet.
+ It's the first piece of equipment ever on the internet.
+ That's the actual one.
+ That's it.
+ I kept it for years.
+ They tried to throw it away many times.
+ Most of the people who had imps have tossed them.
+ This is the one or two left of our coral, but this is number one.
+ This is the first piece.
+ If you open this machine, you'll be privileged to smell it.
+ It's got an unusual odor and just brings you right back.
+ Emotionally, it's great.
+ You can't smell it.
+ This is a military-hardened machine.
+ This machine was essentially a state-of-the-art minicomputer which was adapted by BBNN.
+ I first saw it in 1968 at one of the joint computer conference shows.
+ Thousands of people on the big exhibit floor.
+ You see these skyhooks up here?
+ They had one of these machines hanging from the ceiling, swinging in the air, running.
+ There was a guy, big guy, stripped to the waist, oiled skin with a sledgehammer, and
+ he was going, "Whack, whack," to show that it was a military, and it was.
+ The most important document of the internet, the most important document of the entire
+ internet is right here.
+ You took out who was working with me.
+ Well, one of my software programmers was John Postel.
+ In fact, here's his picture, and he was not a hippie, even though he appears to be.
+ He was the one who basically disciplined my staff to do things properly, keep records.
+ He said, "We have to keep a record of what's going on."
+ So beginning in October, basically a month after the imp arrived, we started keeping
+ an imp log.
+ You know, this is an engineer's log.
+ This is not, you know, Madison Avenue piece of data, just scribble, we use an old STS
+ log.
+ In here, we kept a record of what's going on, and the most important entry happened
+ to be right here.
+ On October 29, 1969, at 10.30 at night, Charlie Klein, the programmer who was in the room
+ with me, made this entry, "Talk to SRI, host to host."
+ This is the only record of the very first message ever on the internet, right here.
+ You know, we had the technology.
+ We started making measurements.
+ We were the first experimental node.
+ So we saw things happening.
+ How come we have a 50 kilobit per second line?
+ The routing procedure either goes one way or the other, one at a time.
+ So how can you get more than 50 kilobits per second between two nodes if there's only one
+ path at any time?
+ And we say, "Oh, it's obvious."
+ That path is on now.
+ When it gets backed up, you change paths.
+ So this guy's empty and it's backed up while you're sending this way.
+ They go close to 100 kilobits per second, right, too.
+ But we could break it as well, as I said.
+ Every time we did, we would call BBN and say, "Fix it.
+ We did this.
+ Fix it."
+ Because they wouldn't give us the code.
+ They kept it proprietary until opposite.
+ We paid for that code.
+ You have to open it.
+ They did.
+ They saw it.
+ Every time we got it...
+ And it would take them six months to fix anything.
+ We'd discover a fault this time we had the code.
+ We'd show them how to fix it.
+ Still took six months.
+ One of the things I was very much interested in with design was distributed control.
+ Why?
+ When I was a student at Shannon, and Shannon's great work came when you had a lot of things
+ interacting.
+ Long code words, for example.
+ That's when these emerging properties arise.
+ So I said, "I want to design large networks.
+ Not a large network.
+ You can't have a single point of control.
+ You have to distribute it."
+ Right?
+ So what does it mean to distribute control?
+ You're delegating authority to all the peers.
+ When ARPA started funding the principal investigators, they had the same philosophy.
+ They said, "Look, you're a smart guy.
+ Here's some money.
+ Go do the thing you do best.
+ We're not going to sit on top of you.
+ Make good things happen."
+ So here we are, I'm a recipient of that kind of money.
+ What do I do with it?
+ I've got my graduate students, they're building kids.
+ Look, we need a host-host protocol.
+ Here.
+ I'm not going to sit on top of you, I'm going to run with it.
+ That is not a product mentality.
+ That is a research, a development, a creative desire, and it worked so well.

@@ -1,0 +1,135 @@
+::Q1 Why TCP Exists::
+Why does TCP exist as a separate layer above IP?
+{
+=To add reliability on top of an unreliable but fast network
+~To replace IP routing
+~To eliminate packet switching
+~To reduce the number of packets
+}
+
+::Q2 IP vs TCP Design::
+Why is reliability NOT built directly into the IP layer?
+{
+=Keeping IP simple allows the network to scale and stay fast
+~IP cannot use acknowledgements
+~Routers are too slow
+~TCP was invented first
+}
+
+::Q3 Edge Storage Insight::
+Why does TCP store packets at the sender instead of inside the network?
+{
+=It avoids requiring routers to maintain large amounts of memory
+~Routers cannot detect errors
+~Packets cannot be copied
+~It speeds up routing decisions
+}
+
+::Q4 Acknowledgement Purpose::
+Why does TCP require acknowledgements from the receiver?
+{
+=To confirm which data has successfully arrived
+~To determine the packet size
+~To assign IP addresses
+~To encrypt the data
+}
+
+::Q5 Lost Packet Thinking::
+If a packet is lost, how does TCP respond?
+{
+=It retransmits the missing packet after detecting the loss
+~It ignores the loss
+~It reroutes all future packets
+~It restarts the entire connection
+}
+
+::Q6 Ordering Problem::
+Why must TCP track sequence numbers?
+{
+=Packets may arrive out of order across the network
+~Packets are encrypted
+~Routers reorder packets intentionally
+~IP guarantees ordering
+}
+
+::Q7 Speculative Sending::
+Why does TCP send multiple packets before receiving acknowledgements?
+{
+=To efficiently use available network capacity
+~To reduce packet size
+~To avoid retransmission
+~To guarantee ordering
+}
+
+::Q8 Flow Control Insight::
+Why does TCP adjust how fast it sends data?
+{
+=To match the speed and capacity of the underlying network
+~To reduce the number of routers used
+~To simplify IP addressing
+~To eliminate packet loss entirely
+}
+
+::Q9 End-to-End Principle::
+Why is reliability handled at the endpoints rather than in the network core?
+{
+=It keeps the network simple and shifts complexity to edge devices
+~Routers cannot detect packet loss
+~Endpoints cannot communicate directly
+~It reduces packet size
+}
+
+::Q10 Illusion of Simplicity::
+Why do applications experience TCP as a simple “stream”?
+{
+=TCP hides the complexity of packet loss and reordering
+~Packets are never lost
+~IP guarantees delivery
+~Applications control routing
+}
+
+::Q11 Buffering Reasoning::
+Why does TCP buffer data before sending and after receiving?
+{
+=To manage retransmission and ordering of packets
+~To reduce packet size
+~To assign IP addresses
+~To encrypt messages
+}
+
+::Q12 Network Scalability::
+Why does TCP’s design help the Internet scale to billions of devices?
+{
+=It avoids adding complexity and storage requirements to the network core
+~It eliminates routing tables
+~It reduces the number of packets
+~It guarantees perfect delivery
+}
+
+::Q13 Tradeoff Thinking::
+What is the key tradeoff between IP and TCP?
+{
+=IP is fast but unreliable; TCP is slower but reliable
+~IP is reliable; TCP is fast
+~Both are unreliable
+~Both are identical
+}
+
+::Q14 Congestion Awareness::
+Why must TCP consider network speed and congestion?
+{
+=Sending too fast can overwhelm the network and cause loss
+~Routers require constant updates
+~IP addresses depend on speed
+~DNS requires it
+}
+
+::Q15 Design Philosophy::
+Why is TCP considered both “simple and complex”?
+{
+=Simple to use but complex internally to manage reliability and efficiency
+~It has few features
+~It replaces all other layers
+~It eliminates packet switching
+}
+

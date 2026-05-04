@@ -1,0 +1,648 @@
+1
+00:00:00,000 --> 00:00:13,280
+ Packet switching was an idea which was specifically studied by Len Kleinrock at MIT who was actually
+
+2
+00:00:13,280 --> 00:00:18,900
+ looking at message switching and he did a brilliant dissertation on the use of queuing
+
+3
+00:00:18,900 --> 00:00:24,700
+ theory to analyze what networks of queues would look like using this message switching
+
+4
+00:00:24,700 --> 00:00:32,620
+ approach. His analysis, although we'd never used the word packet, is as equally applicable
+
+5
+00:00:32,620 --> 00:00:36,820
+ to packet switching as it is to message switching. So that's one important milestone in around
+
+6
+00:00:36,820 --> 00:00:43,820
+ 1961. In '62 or thereabouts, Paul Barron is doing work for the RAND Corporation and
+
+7
+00:00:43,820 --> 00:00:50,740
+ is deeply concerned about the ability to preserve command and control in a post-nuclear environment.
+
+8
+00:00:50,740 --> 00:00:55,180
+ We were seriously worried that the Russians would actually launch and that we would suffer
+
+9
+00:00:55,180 --> 00:00:58,940
+ a nuclear attack and that we had to be able to respond and we needed command and control
+
+10
+00:00:58,940 --> 00:01:08,900
+ for that. So Paul, in 1962, before the existence of integrated circuits or anything else, is
+
+11
+00:01:08,900 --> 00:01:18,140
+ saying we really should be digitizing and packetizing voice and then using sort of pole-mounted
+
+12
+00:01:18,140 --> 00:01:24,420
+ radios that are able to transmit in all directions to create a highly connected environment so
+
+13
+00:01:24,420 --> 00:01:29,720
+ that if holes were knocked out of it by nuclear explosions, if it's a fabric that's in any
+
+14
+00:01:29,720 --> 00:01:34,980
+ way connected, information could get from one end to the other. So he envisioned the
+
+15
+00:01:34,980 --> 00:01:40,420
+ notion of a message block and it was dynamically routed. He used hot potato routing. If you
+
+16
+00:01:40,420 --> 00:01:44,260
+ got something, you got rid of it as fast as you could. He chopped up the speech into little
+
+17
+00:01:44,260 --> 00:01:49,340
+ 20 millisecond pieces. He didn't talk so much about data as I remember it. This was
+
+18
+00:01:49,340 --> 00:01:54,160
+ supposed to be a highly resilient voice network for command and control. I may have just done
+
+19
+00:01:54,160 --> 00:02:00,780
+ him a disservice because later he was very much conscious of the importance of data communication
+
+20
+00:02:00,780 --> 00:02:07,440
+ too. So that's around 1962. It gets documented in an 11-volume series called On Distributed
+
+21
+00:02:07,440 --> 00:02:14,240
+ Communications and he can't sell it to anybody. The traditional telcos, AT&T in particular,
+
+22
+00:02:14,240 --> 00:02:20,420
+ found the people at what was then the Defense Communications Agency, laughed him out of
+
+23
+00:02:20,420 --> 00:02:26,040
+ the room, said this was a silly idea, couldn't possibly work, and so he should just go away.
+
+24
+00:02:26,040 --> 00:02:32,220
+ So he never got anywhere with that in spite of all the documentation. In '66, Larry Roberts,
+
+25
+00:02:32,220 --> 00:02:37,380
+ along with one other guy whose name I am now not remembering, does a point-to-point experiment
+
+26
+00:02:37,380 --> 00:02:45,260
+ to test packet switching. It was between the ANSF-Q7 machine at System Development Corporation
+
+27
+00:02:45,260 --> 00:02:52,260
+ in Santa Monica and the TX-2 machine at MIT at Lincoln Laboratory, which is where Larry
+
+28
+00:02:52,260 --> 00:02:58,140
+ was. They demonstrated on a 2400-bit line, bit-per-second line, that you could move packets
+
+29
+00:02:58,140 --> 00:03:05,380
+ back and forth. Then in the '64 or '65 timeframe, a man named Donald W. Davies at the National
+
+30
+00:03:05,380 --> 00:03:12,180
+ Physical Laboratory in London also gets the bug, tries to get money from the Science Research
+
+31
+00:03:12,180 --> 00:03:20,460
+ Commission in England, and gets only enough to build one node, the one-node network. So
+
+32
+00:03:20,460 --> 00:03:25,140
+ he builds this packet net. He invents the term "packet" to describe what these objects
+
+33
+00:03:25,140 --> 00:03:30,460
+ are and it works. He's got a bunch of terminals and other things hanging off of this one node.
+
+34
+00:03:30,460 --> 00:03:36,940
+ So in a funny way, he built a local area network, if you like, but it was based on physical
+
+35
+00:03:36,940 --> 00:03:42,660
+ wires. So those three guys introduced packet switching. Larry and whoever it was that he
+
+36
+00:03:42,660 --> 00:03:47,780
+ worked with demonstrate that it's possible to get two very distinct kinds of computers
+
+37
+00:03:47,780 --> 00:03:54,740
+ to talk to each other using the standard way. J.C.R. Licklider is a psychologist, actually,
+
+38
+00:03:54,740 --> 00:04:01,420
+ at MIT, but he's convinced in the early '60s that computing is important to non-numeric
+
+39
+00:04:01,420 --> 00:04:06,140
+ processing, that it will allow people to work together and collaborate in ways that they
+
+40
+00:04:06,140 --> 00:04:10,900
+ never could before. He comes and starts the Information Processing Techniques Office at
+
+41
+00:04:10,900 --> 00:04:18,500
+ ARPA with this bee in his bonnet. And who does he encounter? He encounters Douglas Engelbart
+
+42
+00:04:18,500 --> 00:04:24,300
+ at SRI International, and the two bond, basically, because Engelbart was all about non-numeric
+
+43
+00:04:24,300 --> 00:04:29,700
+ computing and the ability of people to build up the superstructure of communications and
+
+44
+00:04:29,700 --> 00:04:35,940
+ documents and interact with each other, hyperlinking, the mouse, the portrait mode display, black
+
+45
+00:04:35,940 --> 00:04:43,860
+ on white presentations. I mean, the guy had a worldwide web in a box at SRI, and Licklider
+
+46
+00:04:43,860 --> 00:04:49,300
+ understands that. Licklider is sending out notes to his little community of people talking
+
+47
+00:04:49,300 --> 00:04:56,740
+ about the intergalactic network made of tongue-in-cheek. So he really gets credit for having put this
+
+48
+00:04:56,740 --> 00:05:03,060
+ meme in place at ARPA. Then Taylor comes along to pick up the responsibility for running
+
+49
+00:05:03,060 --> 00:05:07,940
+ the IPTO from Licklider and is all hacked off because he's got three terminals in his
+
+50
+00:05:07,940 --> 00:05:12,020
+ office at the Pentagon connected to three different machines, and he says, "Why can't
+
+51
+00:05:12,020 --> 00:05:18,060
+ there be one terminal talking to all three? We need a network." And so as he's pursuing
+
+52
+00:05:18,060 --> 00:05:23,820
+ this idea with Charlie Hertzfeld, who was the head of ARPA at the time, Charlie hands
+
+53
+00:05:23,820 --> 00:05:28,660
+ him a million bucks over a 20-minute conversation, and now Taylor's got the problem. Who's going
+
+54
+00:05:28,660 --> 00:05:33,460
+ to actually do this? Because Taylor's not a technologist either. He's another kind of
+
+55
+00:05:33,460 --> 00:05:39,460
+ psychologist type. So he decides to get Larry Roberts from Lincoln Laboratories, who did
+
+56
+00:05:39,460 --> 00:05:44,580
+ that packet thing, and Larry doesn't want to come. So he goes and complains about this
+
+57
+00:05:44,580 --> 00:05:49,260
+ to Charlie Hertzfeld. Charlie calls up the guy that runs Lincoln Laboratories and says,
+
+58
+00:05:49,260 --> 00:05:54,820
+ "You know, we pay for a significant fraction of your research budget every year. You should
+
+59
+00:05:54,820 --> 00:06:00,540
+ tell Larry he should show up." In fact, I thought that maybe Larry had been forced to
+
+60
+00:06:00,540 --> 00:06:06,100
+ do this by Charlie. I think it was probably a little less awful than that. But Larry was
+
+61
+00:06:06,100 --> 00:06:10,340
+ persuaded to come down. Eventually, of course, inherited the operation of the office from
+
+62
+00:06:10,340 --> 00:06:17,780
+ Bob Taylor, but in the meantime is the guy responsible for initiating the ARPANET project.
+
+63
+00:06:17,780 --> 00:06:25,180
+ So they write an RFQ request for quotation. A bunch of responses come back, probably on
+
+64
+00:06:25,180 --> 00:06:29,300
+ the order of a couple dozen. I don't know personally for sure how many. I know that
+
+65
+00:06:29,300 --> 00:06:36,320
+ I wrote one of them with my colleague Steve Crocker while we were still at UCLA as graduate
+
+66
+00:06:36,320 --> 00:06:41,460
+ students, but we were consulting with a company called Jacoby Systems in Santa Monica. Jacoby
+
+67
+00:06:41,460 --> 00:06:46,020
+ Systems wrote one of the responses. Bolt-Bear-Neck and Newman wrote another response, primarily
+
+68
+00:06:46,020 --> 00:06:52,580
+ written by Bob Cohn, who'd come to BB&N from MIT. So the responses come back and they get
+
+69
+00:06:52,580 --> 00:06:58,060
+ evaluated and four of them end up, and the Jacoby Systems one isn't one of them. Or if
+
+70
+00:06:58,060 --> 00:07:02,980
+ it was, it didn't get selected. BB&N got selected. So Steve Crocker and I kind of hiked back
+
+71
+00:07:02,980 --> 00:07:08,940
+ to UCLA as graduate students. And the next thing we know, Len Kleinrock, who's at UCLA
+
+72
+00:07:08,940 --> 00:07:13,580
+ and who'd written this original dissertation work on packet switching, has come to UCLA
+
+73
+00:07:13,580 --> 00:07:22,180
+ to teach and explore a queuing theory, is a close compatriot of Larry Roberts, because
+
+74
+00:07:22,180 --> 00:07:26,100
+ they were both at Lincoln MIOBS together. So he gets the network measurement center
+
+75
+00:07:26,100 --> 00:07:32,020
+ piece of the ARPANET project. And Steve Crocker and I and John Postel, all of us from the
+
+76
+00:07:32,020 --> 00:07:40,340
+ same high school in San Fernando Valley, end up in Len Kleinrock's operation running the
+
+77
+00:07:40,340 --> 00:07:44,820
+ network measurement center. So I was the principal programmer for that. Steve Crocker took the
+
+78
+00:07:44,820 --> 00:07:50,020
+ responsibility for managing and leading the network working group, which led to the host
+
+79
+00:07:50,020 --> 00:07:55,300
+ to host protocols. And John Postel eventually becomes the keeper of the documentation. He's
+
+80
+00:07:55,300 --> 00:08:00,600
+ the RFC editor, which Steve Crocker started, Request for Comments. He's the guy that becomes
+
+81
+00:08:00,600 --> 00:08:05,480
+ the numbers czar, which is keeping track of address spaces and allocations, and eventually
+
+82
+00:08:05,480 --> 00:08:10,420
+ becomes the domain name manager of the Internet Assigned Numbers Authority when the Internet
+
+83
+00:08:10,420 --> 00:08:17,300
+ happens. That hasn't happened yet. This period of time of the ARPANET program brings us up
+
+84
+00:08:17,300 --> 00:08:22,740
+ to 1972. This is an important moment in this whole history, because the first demonstration
+
+85
+00:08:22,740 --> 00:08:29,420
+ of the ARPANET happens in the Washington Hilton Hotel basement in October of '72. A whole
+
+86
+00:08:29,420 --> 00:08:35,260
+ bunch of people from the networking, interested networking community, packet switching community,
+
+87
+00:08:35,260 --> 00:08:40,660
+ attend, not only in the U.S., but from France and from England and Italy and Germany and
+
+88
+00:08:40,660 --> 00:08:48,900
+ elsewhere. That group of about 25 or 30 people convenes, sees the ARPANET in operation, sees
+
+89
+00:08:48,900 --> 00:08:55,580
+ applications that were being done, including Doug Engelbart's stuff, and then forms this
+
+90
+00:08:55,580 --> 00:08:59,620
+ international network working group modeled after the working group that Steve Crocker
+
+91
+00:08:59,620 --> 00:09:05,260
+ managed to build the ARPANET system. And at this point, I become the chairman of that
+
+92
+00:09:05,260 --> 00:09:11,940
+ group because Steve is busy at ARPA doing artificial intelligence.
+
+93
+00:09:11,940 --> 00:09:17,860
+ At the end of that year, Bob Kahn leaves Bolt, Berenick, and Newman and goes to ARPA. I leave
+
+94
+00:09:17,860 --> 00:09:23,660
+ UCLA, where I'd been working with Kleinrock and Crocker and Postel, and they go to Stanford.
+
+95
+00:09:23,660 --> 00:09:30,940
+ So Bob is at ARPA. I'm at Stanford. And in the spring of '73, Bob comes out from ARPA
+
+96
+00:09:30,940 --> 00:09:33,660
+ and he says, "I have a problem." He says, "What's your problem?" He says, "Well, we
+
+97
+00:09:33,660 --> 00:09:40,120
+ got this ARPANET." He says, "Yep. But we also are working on other networking capability
+
+98
+00:09:40,120 --> 00:09:44,420
+ to make command and control work for the military. If you're going to be serious about putting
+
+99
+00:09:44,420 --> 00:09:49,960
+ computers in command and control, they have to be mobile. They have to be in armored personnel
+
+100
+00:09:49,960 --> 00:09:54,460
+ vehicles and tanks and all these other things. They have to be seaborne so we can have ship-to-ship
+
+101
+00:09:54,460 --> 00:09:59,500
+ and ship-to-shore communications, which means satellite. So we need mobile radio. We need
+
+102
+00:09:59,500 --> 00:10:06,140
+ satellite in addition to the fixed-wire systems that are represented by the ARPANET. We have
+
+103
+00:10:06,140 --> 00:10:10,420
+ fixed installations that are not moving around." So we have all these different technologies.
+
+104
+00:10:10,420 --> 00:10:16,300
+ And Bob's brilliant idea is not to build one network with all those technologies embedded
+
+105
+00:10:16,300 --> 00:10:21,340
+ in it. Instead, he breaks them apart and says, "Let's build a packet satellite network,
+
+106
+00:10:21,340 --> 00:10:25,360
+ which optimizes the use of satellite, takes into account that it's got a half a second
+
+107
+00:10:25,360 --> 00:10:31,420
+ round trip time. Let's build a packet radio network, which optimizes a system whose connectivity
+
+108
+00:10:31,420 --> 00:10:36,580
+ is changing with time as things move around and as you get variable delay and also variable
+
+109
+00:10:36,580 --> 00:10:41,300
+ interference." So these were three different packet networks. Then the problem is how do
+
+110
+00:10:41,300 --> 00:10:45,260
+ you hook them together? You wouldn't have this problem if you put all the technologies
+
+111
+00:10:45,260 --> 00:10:49,660
+ into one net. But if you put them all into one net, it makes it really hard to do control
+
+112
+00:10:49,660 --> 00:10:54,260
+ over all these highly variable parameters. So instead, he says, "Break them into different
+
+113
+00:10:54,260 --> 00:10:59,100
+ networks and connect those together." So we design and build a gateway, which today we
+
+114
+00:10:59,100 --> 00:11:04,780
+ call a router. And that concept also introduced a whole bunch of other things like how do
+
+115
+00:11:04,780 --> 00:11:09,680
+ you refer to another network? Each network thinks it's the only network in the universe.
+
+116
+00:11:09,680 --> 00:11:15,420
+ This is true of the proprietary networks like SNA and DECnet and so on. You didn't have
+
+117
+00:11:15,420 --> 00:11:20,460
+ a vocabulary that said take this packet and move it to another computer on another network
+
+118
+00:11:20,460 --> 00:11:25,020
+ somewhere else that you might not even be connected to. So we have to invent an internet
+
+119
+00:11:25,020 --> 00:11:31,780
+ address space in order to solve that problem. We have to find a way to allow packet losses
+
+120
+00:11:31,780 --> 00:11:37,900
+ in this path to be recovered, which is where TCP now becomes a manager of reliability on
+
+121
+00:11:37,900 --> 00:11:42,820
+ an end-to-end basis instead of relying on each net to be reliable. The ARPAnet was built
+
+122
+00:11:42,820 --> 00:11:46,820
+ on the assumption you could build a reliable underlying net. The internet was based on
+
+123
+00:11:46,820 --> 00:11:51,260
+ the assumption that no network was necessarily reliable and you had to do end-to-end retransmissions
+
+124
+00:11:51,260 --> 00:12:00,900
+ to recover. So during this 1973 period, Bob and I get the first paper written and published
+
+125
+00:12:00,900 --> 00:12:07,620
+ in IEEE Transactions on Communications, May of 1974. And I think mostly nobody paid too
+
+126
+00:12:07,620 --> 00:12:13,500
+ much attention to it. Meanwhile, ARPA is funding us to go make this actually work. At Stanford,
+
+127
+00:12:13,500 --> 00:12:20,580
+ I am working with my graduate students, some who are at Xerox PARC, some who are at Stanford,
+
+128
+00:12:20,580 --> 00:12:25,740
+ on the detailed specifications of TCP/IP. We published that in December of 1974 and
+
+129
+00:12:25,740 --> 00:12:30,260
+ it's the first time the word "internet" shows up in print anywhere. It was the first
+
+130
+00:12:30,260 --> 00:12:35,940
+ papers we talked about internetworking. So internet shows up in a complete spec in December
+
+131
+00:12:35,940 --> 00:12:40,220
+ of 1974 and it's also got bugs, but we don't know that yet. Until we start implementing
+
+132
+00:12:40,220 --> 00:12:45,940
+ it in 1975 with two other organizations. So Bob Kahn says, "You can't have just one
+
+133
+00:12:45,940 --> 00:12:49,900
+ implementation." Bolt-Bear-Neck and Newman becomes one of the implementers. University
+
+134
+00:12:49,900 --> 00:12:55,420
+ College London and Peter Kristine's group in England is the second or third implementation.
+
+135
+00:12:55,420 --> 00:13:00,260
+ So we have three implementations of TCP/IP. In fact, by this time it's only TCP. We haven't
+
+136
+00:13:00,260 --> 00:13:06,100
+ broken off the IP part. Three implementations are going. We instantly find problems with
+
+137
+00:13:06,100 --> 00:13:12,660
+ the design and we start evolving. So over a period from 1973 to 1978 we go through four
+
+138
+00:13:12,660 --> 00:13:18,660
+ iterations of the design and implementation and test until we have a fairly stable thing.
+
+139
+00:13:18,660 --> 00:13:24,580
+ And then we standardize. So 1978 we fix everything. Now by this time the internet protocol has
+
+140
+00:13:24,580 --> 00:13:31,340
+ been split off because people like David Reed and Danny Cohen are saying we need to have
+
+141
+00:13:31,340 --> 00:13:36,340
+ real-time communications that is not necessarily reliable but which has a little latency. So
+
+142
+00:13:36,340 --> 00:13:40,320
+ voice communications, radar tracks and all that. You don't care where the missile was
+
+143
+00:13:40,320 --> 00:13:45,460
+ two seconds ago. You want to know where is it now? And in the case of voice if you lose
+
+144
+00:13:45,460 --> 00:13:53,140
+ a packet you just say that again. I missed something. So we split TCP into TCP and IP
+
+145
+00:13:53,140 --> 00:13:57,140
+ and we create something called user datagram protocol which is parallel to TCP and it is
+
+146
+00:13:57,140 --> 00:14:04,300
+ the real-time low latency version of the reliable TCP. All of those little components, IP, TCP
+
+147
+00:14:04,300 --> 00:14:10,600
+ and UDP now go into the internet architecture starting in 1978 and we start implementing.
+
+148
+00:14:10,600 --> 00:14:17,940
+ For the next five years we do everything we can to get TCP/IP implemented on every operating
+
+149
+00:14:17,940 --> 00:14:23,620
+ system we can find. It goes onto the IBM machines, it goes onto the digital machines, HP, it
+
+150
+00:14:23,620 --> 00:14:29,020
+ goes into Unix. We have a Unix version built by Bolt, Barenik and Newman. We send it out
+
+151
+00:14:29,020 --> 00:14:33,940
+ to Berkeley, to the Berkeley BSD release guys and Bill Joyce says I don't like that code.
+
+152
+00:14:33,940 --> 00:14:41,420
+ He writes his own, puts it into BSD 4.2 and that's the version of Unix that carries a
+
+153
+00:14:41,420 --> 00:14:46,540
+ lot of TCP/IP to the academic world because at the same sort of time frame some micro
+
+154
+00:14:46,540 --> 00:14:51,740
+ systems comes along and builds these fantastic workstations and they want to use open source
+
+155
+00:14:51,740 --> 00:14:58,700
+ or at least open protocols and open operating systems. So they adopt Unix and the TCP/IP
+
+156
+00:14:58,700 --> 00:15:02,940
+ comes with it and they use Ethernet as a way of connecting workstations together so they
+
+157
+00:15:02,940 --> 00:15:08,080
+ are the engine that's driving the academic community which are all gangbusters for workstations
+
+158
+00:15:08,080 --> 00:15:12,500
+ and high-speed local networking. So all of this of course places huge demands on the
+
+159
+00:15:12,500 --> 00:15:17,860
+ ARPANET backbone which is only running at 50 kilobits a second and eventually leads
+
+160
+00:15:17,860 --> 00:15:23,020
+ to the need for higher speed. NSF jumps into the fray seeing how valuable all this is for
+
+161
+00:15:23,020 --> 00:15:27,620
+ the academic community and concludes that it should build a network that runs even faster
+
+162
+00:15:27,620 --> 00:15:29,540
+ and it does so and it's called NSFNET.
+

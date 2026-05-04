@@ -1,0 +1,134 @@
+::Q1 Purpose of Application Layer::
+Why does the application layer exist on top of TCP?
+{
+=To define how applications communicate using the reliable connection
+~To replace TCP reliability
+~To route packets across the network
+~To assign IP addresses
+}
+
+::Q2 Client-Server Roles::
+Why are client and server roles separated?
+{
+=They have different responsibilities in requesting and providing data
+~They use different IP protocols
+~They cannot run on the same machine
+~They operate at different speeds
+}
+
+::Q3 Request-Response Model::
+Why does HTTP use a request-response model?
+{
+=It simplifies communication between clients and servers
+~It guarantees faster data transfer
+~It eliminates the need for TCP
+~It prevents packet loss
+}
+
+::Q4 Role of Ports::
+Why are port numbers necessary in networking?
+{
+=They allow multiple applications to run on the same machine
+~They identify physical hardware
+~They replace IP addresses
+~They improve encryption
+}
+
+::Q5 IP vs Port Thinking::
+Why is an IP address alone not sufficient to identify a service?
+{
+=Multiple services can run on the same device
+~IP addresses change too often
+~Ports are faster than IP addresses
+~IP addresses are encrypted
+}
+
+::Q6 Protocol Rules::
+Why do application protocols like HTTP need strict rules?
+{
+=Both sides must agree on how to communicate
+~To reduce packet size
+~To speed up routing
+~To eliminate TCP
+}
+
+::Q7 HTTP Simplicity::
+Why is HTTP considered a simple protocol?
+{
+=It uses a straightforward request and response interaction
+~It does not use TCP
+~It avoids sending data
+~It eliminates servers
+}
+
+::Q8 Browser Behavior::
+When you click a link, what is the browser fundamentally doing?
+{
+=Sending a request to a server and displaying the response
+~Changing the IP address
+~Routing packets directly
+~Encrypting all data
+}
+
+::Q9 Protocol Misuse::
+What happens if a client does not follow the HTTP protocol correctly?
+{
+=The server cannot understand the request and rejects it
+~The network reroutes the request
+~The client is assigned a new IP
+~The connection becomes faster
+}
+
+::Q10 Layer Abstraction::
+Why can application developers ignore lower network layers?
+{
+=TCP and IP handle the complexity of data transmission
+~Applications control routing
+~Routers provide reliability
+~DNS handles all communication
+}
+
+::Q11 Connection Lifecycle::
+Why does HTTP often close the connection after a response?
+{
+=Each request is independent and does not require a persistent connection
+~To improve encryption
+~To reduce packet size
+~To eliminate servers
+}
+
+::Q12 Multiple Services::
+How can a single server handle web, email, and login services simultaneously?
+{
+=By using different port numbers for each service
+~By assigning multiple IP addresses
+~By duplicating hardware
+~By using different DNS entries
+}
+
+::Q13 Protocol Design Insight::
+Why is it useful to publish protocol specifications (like HTTP)?
+{
+=So independent systems can interoperate correctly
+~To reduce packet size
+~To eliminate errors
+~To control routing
+}
+
+::Q14 Abstraction Benefit::
+Why is the “magic pipe” abstraction important at the application layer?
+{
+=It lets developers focus on functionality instead of network complexity
+~It improves packet speed
+~It reduces IP addresses
+~It eliminates servers
+}
+
+::Q15 Real-World Thinking::
+Why can tools like telnet be used to manually interact with a web server?
+{
+=Because application protocols are just structured text over TCP
+~Because telnet replaces HTTP
+~Because servers do not require protocols
+~Because routing is disabled
+}

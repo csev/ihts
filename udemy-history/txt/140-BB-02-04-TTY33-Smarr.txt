@@ -1,0 +1,37 @@
+ By the end of the 1970s, there was quite a sophisticated network. Like I said, they'd
+ rewritten it four times. It had gotten to be very sophisticated. There'd been good investment.
+ They had been careful about understanding how to improve it each time they rebuilt it.
+ And so it was a really fine working piece of software. And the people who used it at
+ these research universities and at the military, it was kind of like a futuristic world, right?
+ You could send email and a second later it would appear, right? It was really quick and
+ everything was nice. And you could even have instant message-like interactions where it
+ went right then. And the problem was, is this was a small group of people. This is maybe
+ looks like 60 or so. That was all the computers on the entire Internet, right? I mean, now
+ we have our cell phones and we have billions of them, right? But this is like 60. And so
+ a real question is, how did this go from 60 computers of a very narrow group to a much
+ larger group? And the answer to that question is at Urbana-Champaign, Illinois. And so at
+ the same time that it kind of goes back to Bletchley Park, right? Where the computers
+ were part of science. Throughout the 50s and 60s and 70s, scientists, much like the military,
+ were realizing computers were mighty useful to advance scientific research. And so the
+ National Science Foundation would fund universities to buy computers. And they'd say, "Give me
+ $10 million to buy a computer." And another university would be like, "Give me $10 million
+ to buy a computer." And then three years later the first university said, "My computer's
+ obsolete. I need another $10 million." Now the research questions were good research
+ questions and they were important to society, but the National Science Foundation got tired
+ of giving $10 million to everybody. Wait, hang on a second. As a matter of fact, I was
+ part of this because I used to be a high-performance computer guy. This is a convex C3800 supercomputer.
+ I would be about this tall on this supercomputer. This is a lovely and very expensive model
+ that I was given afterwards. They were going to throw it away because this is from like
+ 1987. And basically I wanted one of these terribly badly. Each one of these is about
+ $2 million. This is like two, four, six, eight, $10 million. And I so badly wanted this and
+ I thought that I deserved a $10 million toy and I could do such great research. But unfortunately
+ everybody else wanted the exact same thing. And they were important too. So the National
+ Science Foundation said to themselves, "Hey, this isn't going to work very well if I can't
+ find my pen. You know, we're going to make a network. How about we put a few of these
+ things in and then make a network and connect them together?" Of course it's never as simple
+ as that. So now we're going to meet Larry Smarr at the National Center for Supercomputing
+ Applications, NCSA, at the University of Illinois Urbana-Champaign. And Larry was the director
+ of NCSA and one of the many people, but one of the most instrumental people in creating
+ the national network that we now think of as the internet and getting it, moving it
+ from being a research project to being a project that we all, both academics and regular people,
+ we all can can make really good use of it. So let's take a look at Larry Smarr.

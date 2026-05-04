@@ -1,0 +1,532 @@
+1
+00:00:00,000 --> 00:00:08,800
+ There was this whole world of coders and hardware guys in the '60s, and I thought to myself,
+
+2
+00:00:08,800 --> 00:00:11,040
+ I bet there's a really interesting story here.
+
+3
+00:00:11,040 --> 00:00:17,520
+ So my editor at Simon & Schuster was totally 100% behind it.
+
+4
+00:00:17,520 --> 00:00:20,180
+ The working title was really bad.
+
+5
+00:00:20,180 --> 00:00:27,720
+ It was called Building Cyberspace, so we knew we needed a new title.
+
+6
+00:00:27,720 --> 00:00:31,500
+ And Matt, my late husband, didn't come in on the project.
+
+7
+00:00:31,500 --> 00:00:37,060
+ He was actually a better writer than I am and a wonderful, just had an absolutely incredible
+
+8
+00:00:37,060 --> 00:00:39,880
+ mind and could grasp anything.
+
+9
+00:00:39,880 --> 00:00:47,060
+ And he didn't come in on the project until about maybe a year into it.
+
+10
+00:00:47,060 --> 00:00:57,400
+ When I was getting overwhelmed, I had this new baby, and I was working at Newsweek, and
+
+11
+00:00:57,400 --> 00:01:00,680
+ I realized that there was just more to the story than I could do myself, it would have
+
+12
+00:01:00,680 --> 00:01:04,160
+ taken me like double the time.
+
+13
+00:01:04,160 --> 00:01:11,520
+ So that's when he came in on the project, and I found, indeed, that there was this incredible
+
+14
+00:01:11,520 --> 00:01:17,000
+ untold story of not so much the Internet, so we have to keep it really clear, the ARPANET
+
+15
+00:01:17,000 --> 00:01:22,960
+ and how that started, and in fact, Matt's the one who wrote the chapter, The Fastest
+
+16
+00:01:22,960 --> 00:01:30,000
+ Million Dollars, which is about how it got funded at IPTO, the Information Processing
+
+17
+00:01:30,000 --> 00:01:37,680
+ Techniques Office at what was then DARPA and then became ARPANET, DARPA and then ARPA again.
+
+18
+00:01:37,680 --> 00:01:47,000
+ These people were all, as I had hoped, incredibly interesting, really smart, and had this new
+
+19
+00:01:47,000 --> 00:01:52,540
+ idea for how computers could talk to each other.
+
+20
+00:01:52,540 --> 00:02:03,360
+ One of the most amazing things was visiting Larry Roberts, who was running IPTO at the
+
+21
+00:02:03,360 --> 00:02:06,160
+ time that this whole thing was drawn out.
+
+22
+00:02:06,160 --> 00:02:08,860
+ We were at his house in Woodside, and we went out into the garage.
+
+23
+00:02:08,860 --> 00:02:15,120
+ This is how un-researched this topic was, because, you know, who'd have thunk, right?
+
+24
+00:02:15,120 --> 00:02:20,920
+ And we go out into his garage, and there are all these boxes of old, mildewy papers, and
+
+25
+00:02:20,920 --> 00:02:28,360
+ he starts pulling them out, and there are old letters between him and people at MIT,
+
+26
+00:02:28,360 --> 00:02:33,400
+ and then he pulls out this amazing set of sketches of him.
+
+27
+00:02:33,400 --> 00:02:38,720
+ It's like, remember when Trudeau Doonesbury did Inside Reagan's Brain?
+
+28
+00:02:38,720 --> 00:02:42,560
+ This was like inside Larry Roberts' brain.
+
+29
+00:02:42,560 --> 00:02:49,540
+ He was just sketching out all the possible configurations of what this network could
+
+30
+00:02:49,540 --> 00:02:50,540
+ look like.
+
+31
+00:02:50,540 --> 00:02:57,400
+ I've got these pictures in the book, which you can show, but here, you know, these are
+
+32
+00:02:57,400 --> 00:03:03,920
+ all his very early diagrams, just sort of popping out of his head.
+
+33
+00:03:03,920 --> 00:03:11,000
+ This is the early notes on the ARPANET, and I just loved finding all this incredible primary
+
+34
+00:03:11,000 --> 00:03:17,600
+ source material, and I felt like I should have been paying somebody to be able to do
+
+35
+00:03:17,600 --> 00:03:18,600
+ this rather than…
+
+36
+00:03:18,600 --> 00:03:23,440
+ Right, because it's just in a garage that millions of people drive by, right, and it's
+
+37
+00:03:23,440 --> 00:03:27,240
+ all of a sudden this important artifact of what we're living right now.
+
+38
+00:03:27,240 --> 00:03:31,760
+ Right, and we were able to sort of, you know, capture it, and Bolt, Baranek, and Newman
+
+39
+00:03:31,760 --> 00:03:33,360
+ was a big force behind the book.
+
+40
+00:03:33,360 --> 00:03:40,760
+ The book was in part their idea, and so these guys, because what we tend to forget is that
+
+41
+00:03:40,760 --> 00:03:49,400
+ at BBN, they built the first imp and the interface message processor.
+
+42
+00:03:49,400 --> 00:03:53,720
+ In fact, there's a very funny story in the book where Ted Kennedy, you know, Senator
+
+43
+00:03:53,720 --> 00:04:00,240
+ from Massachusetts, sends a letter to BBN congratulating them on getting the contract
+
+44
+00:04:00,240 --> 00:04:04,040
+ for the interfaith message processor.
+
+45
+00:04:04,040 --> 00:04:05,040
+ I know.
+
+46
+00:04:05,040 --> 00:04:08,640
+ So, a completely uncharted territory, and they had to build this piece of hardware,
+
+47
+00:04:08,640 --> 00:04:14,520
+ which they did, and program it, which they did a whole new thing, and it was…
+
+48
+00:04:14,520 --> 00:04:19,320
+ So I spent a lot of time with the folks at BBN, got to know them well, and that group,
+
+49
+00:04:19,320 --> 00:04:27,600
+ they were completely on school in talking to, you know, reporters or a book researcher,
+
+50
+00:04:27,600 --> 00:04:31,240
+ and there was this one guy, Ray Tomlinson, everybody said, "Oh, you should go talk
+
+51
+00:04:31,240 --> 00:04:35,200
+ to Ray because he came up with the @ sign."
+
+52
+00:04:35,200 --> 00:04:37,200
+ I said, "Oh, really?
+
+53
+00:04:37,200 --> 00:04:43,880
+ Okay," and so, you know, there's this wonderful, really quiet guy, Ray Tomlinson,
+
+54
+00:04:43,880 --> 00:04:47,880
+ sitting in his office, and I knocked on his door, I said, "I understand you came up
+
+55
+00:04:47,880 --> 00:04:48,880
+ with the @ sign."
+
+56
+00:04:48,880 --> 00:04:52,720
+ He goes, "Oh, yeah, yeah," and then he explains to me, you know, how it is that he
+
+57
+00:04:52,720 --> 00:05:00,000
+ did this, and then, you know, and now it's a huge legend that Ray Tomlinson did this,
+
+58
+00:05:00,000 --> 00:05:04,760
+ and the software guys, really…
+
+59
+00:05:04,760 --> 00:05:10,040
+ So, I have this image of you sort of just driving and driving and going and going back
+
+60
+00:05:10,040 --> 00:05:11,040
+ and forth.
+
+61
+00:05:11,040 --> 00:05:12,480
+ I mean, how long was the research?
+
+62
+00:05:12,480 --> 00:05:13,480
+ How long did you research this?
+
+63
+00:05:13,480 --> 00:05:14,480
+ Was this like…
+
+64
+00:05:14,480 --> 00:05:18,440
+ I think, yeah, the research took a couple of years, and it wasn't so much driving.
+
+65
+00:05:18,440 --> 00:05:22,400
+ The hacker book was like driving all over, all over the place, because that was three
+
+66
+00:05:22,400 --> 00:05:25,400
+ different stories of three different hackers.
+
+67
+00:05:25,400 --> 00:05:31,600
+ This was more, in fact, email between the hacker book and this book and Wizards, so
+
+68
+00:05:31,600 --> 00:05:39,280
+ 1988, and like when I started this book, 1993, email had come, it was much more popular,
+
+69
+00:05:39,280 --> 00:05:43,040
+ so there were a lot of…we did a lot of emailing back and forth.
+
+70
+00:05:43,040 --> 00:05:47,040
+ I spent a lot of time…I did go from…I was living in Austin at the time.
+
+71
+00:05:47,040 --> 00:05:54,460
+ I did go from Austin to Boston a lot, and I spent a lot of time, actually, I did fly
+
+72
+00:05:54,460 --> 00:06:04,560
+ to L.A. and spent a lot of time with John Postel, who came up with the domain name system,
+
+73
+00:06:04,560 --> 00:06:12,680
+ and he died in '90…I want to say '98, '99, and that was shocking.
+
+74
+00:06:12,680 --> 00:06:15,040
+ I spent a lot of time with him.
+
+75
+00:06:15,040 --> 00:06:18,240
+ Tell me about…tell me about John.
+
+76
+00:06:18,240 --> 00:06:22,360
+ Well, John…so anyone who's ever seen a picture of John, maybe you have one you can
+
+77
+00:06:22,360 --> 00:06:26,920
+ dig up, this very long, kind of Santa Claus-like beard, and what's amazing is I spent a lot
+
+78
+00:06:26,920 --> 00:06:27,920
+ of time at his house.
+
+79
+00:06:27,920 --> 00:06:35,600
+ He lived in a teeny, tiny little house in the L.A. area with his girlfriend, this very
+
+80
+00:06:35,600 --> 00:06:42,280
+ nice woman named Susan, and on the refrigerator, there were all these family photos, and they
+
+81
+00:06:42,280 --> 00:06:48,800
+ all…they were all like these people with long beards, long white beards, what an interesting
+
+82
+00:06:48,800 --> 00:06:56,320
+ family, and he drove, I think, this kind of beat-up Volvo or something like that, something
+
+83
+00:06:56,320 --> 00:07:07,480
+ completely unpretentious, and lived so unpretentiously, and had all his files right in his study in
+
+84
+00:07:07,480 --> 00:07:14,760
+ this little house, all this history, and also at ISI, where he worked in Marina del Rey,
+
+85
+00:07:14,760 --> 00:07:21,640
+ and we spent hours and hours and hours together, first in Boston, where we were both at an
+
+86
+00:07:21,640 --> 00:07:28,000
+ anniversary party of the ARPANET, and we spent a lot of time together, and I thought, you
+
+87
+00:07:28,000 --> 00:07:33,560
+ know, this guy is key, and he was so quiet that sort of getting him to open up really
+
+88
+00:07:33,560 --> 00:07:38,520
+ meant spending a lot of time with him, and he was…oh, and we met at one of the very
+
+89
+00:07:38,520 --> 00:07:43,840
+ first INAC conferences in 1995 in Hawaii and spent a lot of time there, and he just was
+
+90
+00:07:43,840 --> 00:07:49,400
+ so patiently trying to explain to me things, but I'll never forget this one thing that
+
+91
+00:07:49,400 --> 00:07:54,560
+ happened with him in Hawaii at the INAC conference, it's the Internet Society Conference, one
+
+92
+00:07:54,560 --> 00:08:02,760
+ of the very early ones, and I just was asking him some questions, and he goes…he looked
+
+93
+00:08:02,760 --> 00:08:07,080
+ completely disturbed and distracted, and he said, "No, no, there's someone over across
+
+94
+00:08:07,080 --> 00:08:12,680
+ the room I have to talk to," and it was someone from a very small country, sort of
+
+95
+00:08:12,680 --> 00:08:18,360
+ wanting to talk to John about their domain, the country's domain name, or something,
+
+96
+00:08:18,360 --> 00:08:26,120
+ but to John, it was far more important that he deal with this person's problem than cement
+
+97
+00:08:26,120 --> 00:08:28,760
+ his place in history, in this ARPANET history.
+
+98
+00:08:28,760 --> 00:08:34,880
+ In fact, when I was working on the book, I sent him an email, I'll never forget this,
+
+99
+00:08:34,880 --> 00:08:40,360
+ I think I don't have the email anymore, and I said, "Just out of curiosity, why haven't
+
+100
+00:08:40,360 --> 00:08:46,640
+ you ever wanted to get rich," because that's when people were starting to get rich, so
+
+101
+00:08:46,640 --> 00:08:55,160
+ this was in '95, and he said, "It's just not what this is about," isn't that a wonderful
+
+102
+00:08:55,160 --> 00:08:56,160
+ thing?
+
+103
+00:08:56,160 --> 00:08:57,160
+ It is.
+
+104
+00:08:57,160 --> 00:08:58,160
+ Yeah, and that's who John was.
+
+105
+00:08:58,160 --> 00:09:04,760
+ One of the things that I've been curious about is how this got by AT&T, how this made
+
+106
+00:09:04,760 --> 00:09:06,080
+ it past AT&T.
+
+107
+00:09:06,080 --> 00:09:18,680
+ I know, talk about No Vision, well, Paul Barron, he couldn't convince AT&T to build the very
+
+108
+00:09:18,680 --> 00:09:25,280
+ marvelous network that he designed, and then these other guys, the next guys, the next
+
+109
+00:09:25,280 --> 00:09:33,760
+ crew that came in, and they were very, very, think about it back then, they had a monopoly,
+
+110
+00:09:33,760 --> 00:09:35,360
+ what did they really care?
+
+111
+00:09:35,360 --> 00:09:51,120
+ They had the Bell Research Labs, and it was a not-invented-here kind of syndrome, and
+
+112
+00:09:51,120 --> 00:09:56,480
+ they didn't see it, I mean, talk about No Vision, they simply didn't see it, but I think
+
+113
+00:09:56,480 --> 00:10:03,920
+ the fact, the not-invented-here part of it was like, "What would we possibly need this
+
+114
+00:10:03,920 --> 00:10:04,920
+ for?"
+
+115
+00:10:04,920 --> 00:10:06,640
+ They were in a context.
+
+116
+00:10:06,640 --> 00:10:12,240
+ They were in their own context, yeah, but thank goodness, I mean, thank goodness they
+
+117
+00:10:12,240 --> 00:10:18,120
+ didn't get their hands on this thing, the same with IBM, sorry, you know, just, we didn't
+
+118
+00:10:18,120 --> 00:10:26,960
+ want corporate America, or DEC for that matter, the original hardware was based on a Honeywell
+
+119
+00:10:26,960 --> 00:10:30,760
+ machine, and thank goodness Honeywell doesn't exist anymore.
+
+120
+00:10:30,760 --> 00:10:36,680
+ It sounds terrible that I'm saying this, but it's, but it was all kind of happy, accidental
+
+121
+00:10:36,680 --> 00:10:39,320
+ sort of coincidences.
+
+122
+00:10:39,320 --> 00:10:46,520
+ I think Al Gore is- Oh, totally underestimated and underappreciated, is that what you were
+
+123
+00:10:46,520 --> 00:10:47,520
+ going to say?
+
+124
+00:10:47,520 --> 00:10:48,520
+ Yeah.
+
+125
+00:10:48,520 --> 00:10:49,520
+ Oh, yeah.
+
+126
+00:10:49,520 --> 00:10:50,520
+ I mean, why mock him?
+
+127
+00:10:50,520 --> 00:10:58,040
+ Every time, every time I tell people I wrote a history of the origins of the internet,
+
+128
+00:10:58,040 --> 00:11:00,920
+ people say very mockingly, "Oh, did Al Gore invent it?"
+
+129
+00:11:00,920 --> 00:11:02,440
+ And I won't play into that.
+
+130
+00:11:02,440 --> 00:11:10,960
+ He played a huge role in terms of policy and direction.
+
+131
+00:11:10,960 --> 00:11:18,360
+ And when Clinton was running for president, you know, they were out there with this very
+
+132
+00:11:18,360 --> 00:11:29,160
+ important technology white paper that, I mean, you can't do things like this unless you have
+
+133
+00:11:29,160 --> 00:11:31,760
+ the support that people like Al Gore provided.
+

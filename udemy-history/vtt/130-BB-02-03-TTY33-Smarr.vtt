@@ -1,0 +1,59 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:02.720
+ So here is an example problem to solve.
+
+00:00:02.720 --> 00:00:09.200
+ Now, none of the mailbox, run of the routers, none of the post office offices know exactly
+
+00:00:09.200 --> 00:00:12.880
+ where the thing is going and they don't transport it to the final destination.
+
+00:00:12.880 --> 00:00:17.320
+ All they do is they transport it to the future, to a further down destination.
+
+00:00:17.320 --> 00:00:18.960
+ But what if they get it wrong?
+
+00:00:18.960 --> 00:00:24.440
+ What if one, this is like Michigan, this is Chicago, this is Dallas, and what if Michigan
+
+00:00:24.440 --> 00:00:28.240
+ thinks sending to Chicago is a good idea, Chicago thinks sending to Dallas is a good
+
+00:00:28.240 --> 00:00:31.600
+ idea, and then Dallas thinks sending to Michigan is a good idea?
+
+00:00:31.600 --> 00:00:34.960
+ Well, then Michigan's going to get it again and send it back to Chicago.
+
+00:00:34.960 --> 00:00:40.960
+ And so then what you end up with is this situation where your packet, your data, is in a loop.
+
+00:00:40.960 --> 00:00:41.960
+ Right?
+
+00:00:41.960 --> 00:00:45.880
+ This wouldn't be good for the post office and it's not good for the internet.
+
+00:00:45.880 --> 00:00:49.840
+ So you have to say, how do we solve this problem when something's wrong?
+
+00:00:49.840 --> 00:00:50.840
+ Right?
+
+00:00:50.840 --> 00:00:53.880
+ It's, you wish it were perfect, but it's not.
+
+00:00:53.880 --> 00:00:58.380
+ And so this is the kind of research question as to how to solve this kind of problem.
+
+00:00:58.380 --> 00:01:02.440
+ And we'll talk more about this in a bit when we get into a little more technical detail.
+
+00:01:02.440 --> 00:01:06.640
+ But I just wanted to sort of say, that's the kind of research and engineering that took
+
+00:01:06.640 --> 00:01:11.440
+ literally 20 years and four different versions of the ARPANET to get right.
+

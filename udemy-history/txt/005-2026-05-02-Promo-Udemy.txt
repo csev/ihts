@@ -1,0 +1,21 @@
+ Hello and welcome to my Internet History course. My name is Charles Severance and I'm a faculty
+ member at the University of Michigan School of Information. I've been working on this
+ material for nearly 30 years. For me, it goes back to the mid-1990s, just when the Internet
+ was getting started. At that time, I had a wonderful chance to work with some friends
+ to produce a television show about the Internet. We didn't know what it would become, so we
+ went around filming people, capturing ideas, and collecting what turned out to be a nice
+ informal history of the early Internet. Around that same time, I was also experimenting with
+ teaching using the Internet. In fact, I was one of the first professors in the world to
+ stream a four-credit semester-long class entirely online. It was so early I couldn't even stream
+ video the first semester, just audio, slides, and a scary picture of me in the upper left
+ hand corner. Over the years, I kept collecting stories and building teaching tools and interviewing
+ people that helped create the Internet. And all that came together in the original version
+ of this course in 2013. This latest version is updated and refined. The idea behind this
+ course is simple. You can't really understand technology without understanding its history.
+ Technology evolves over time, shaped by people, constraints, opportunities, and decisions
+ that don't always seem important at the moment. This course grew out of a Python class I also
+ taught for many years in the mid-2000s. Right after a difficult midterm exam, I would give
+ the students a break from programming and step back and give their learning a larger
+ context. So that's the history. That's the backstory. Now let's get started. And we'll
+ begin with what I think of as the beginning. Codebreaking at Bletchley Park, in the 1940s,
+ just north of London, England.

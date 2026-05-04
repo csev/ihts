@@ -1,0 +1,854 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:05.180
+ so now we're going to talk about the application layer and up to now we've
+
+00:00:05.180 --> 00:00:08.220
+ been talking about these bottom layers and we've been sort of working our way
+
+00:00:08.220 --> 00:00:14.220
+ up we talked about the link layer the IP layer and the TCP layer and and and each
+
+00:00:14.220 --> 00:00:19.380
+ of these layers works with the other the the IP layer depends on the link layer
+
+00:00:19.380 --> 00:00:23.860
+ the TCP layer depends on and adds value to the IP layer and now we're going to
+
+00:00:23.860 --> 00:00:28.020
+ talk about the application layer that is going to make use of the services of the
+
+00:00:28.020 --> 00:00:33.420
+ TCP layer and the services of the TCP layer are basically to give us a
+
+00:00:33.420 --> 00:00:39.460
+ reliable sequenced end-to-end stream that can start in one application in one
+
+00:00:39.460 --> 00:00:43.500
+ computer and end in an application in a different computer and have a two-way
+
+00:00:43.500 --> 00:00:51.300
+ communication so I can send the word hello hello from one application and
+
+00:00:51.300 --> 00:00:56.300
+ then all kinds of billions of dollars of hardware hundreds of thousands of
+
+00:00:56.300 --> 00:01:02.420
+ engineers forty years of engineering design and out comes hello on the other
+
+00:01:02.420 --> 00:01:06.940
+ end and what's beautiful and this is the beauty of the layer of the four layer
+
+00:01:06.940 --> 00:01:15.340
+ architecture is we just pretend this is magic this is magic we send something
+
+00:01:15.340 --> 00:01:20.900
+ and out it comes with that magic available with that billions of dollars
+
+00:01:20.900 --> 00:01:26.620
+ and forty years of research magic available now what would we do right now
+
+00:01:26.620 --> 00:01:33.100
+ what would we do with that magic if we had it available to us so TCP is giving
+
+00:01:33.100 --> 00:01:37.580
+ us this reliable pipe we're gonna think about now we're gonna ignore all the
+
+00:01:37.580 --> 00:01:41.860
+ rest of it right we're gonna ignore all this part we're gonna put all we're gonna
+
+00:01:41.860 --> 00:01:46.300
+ say is we have an application on this into our computer now remember this is
+
+00:01:46.300 --> 00:01:51.480
+ your computer and say this is the server right so this is you and this is the
+
+00:01:51.480 --> 00:01:56.820
+ server and all the software runs in it in in every all the software is running
+
+00:01:56.820 --> 00:02:01.220
+ in your computer and all the software is running in the server so the question is
+
+00:02:01.220 --> 00:02:05.700
+ what are we going to do between these two things okay what how we what how are
+
+00:02:05.700 --> 00:02:09.980
+ we going to ask for data and this application is the client application and
+
+00:02:09.980 --> 00:02:14.140
+ this application is the server application client and server are not
+
+00:02:14.140 --> 00:02:18.780
+ necessarily the same very much the same client server are likely very different
+
+00:02:18.780 --> 00:02:22.460
+ applications the client is like give me information and the server is
+
+00:02:22.460 --> 00:02:26.660
+ responsible for giving the giving the information to the client so the client
+
+00:02:26.660 --> 00:02:31.420
+ is often making a request and then the server is making a response back and so
+
+00:02:31.420 --> 00:02:36.580
+ this client server mechanism this application to application communication
+
+00:02:36.580 --> 00:02:40.540
+ we can build a mail system with it worldwide web or we can stream videos
+
+00:02:40.540 --> 00:02:44.220
+ much like we'd be streaming this lecture back and forth we're going to focus on
+
+00:02:44.220 --> 00:02:47.740
+ the worldwide web because it's really simple and really elegant and it's part
+
+00:02:47.740 --> 00:02:52.860
+ of the easiest one to understand and it's the most popular but there are many
+
+00:02:52.860 --> 00:02:57.340
+ other protocols going on file transfer and others but the worldwide web
+
+00:02:57.340 --> 00:03:06.260
+ protocol HTTP D is the protocol that is the most popular so the there are two
+
+00:03:06.260 --> 00:03:12.500
+ basic questions that the application layer has to solve one is which
+
+00:03:12.500 --> 00:03:18.100
+ application gets the data and this is done using a mechanism called ports and
+
+00:03:18.100 --> 00:03:24.980
+ ports allow a IP address or a single computer or a single server to serve up
+
+00:03:24.980 --> 00:03:29.780
+ multiple services and then for a client to be able to dial up much like a
+
+00:03:29.780 --> 00:03:35.020
+ telephone extension and pick the service that they're interested in once you've
+
+00:03:35.020 --> 00:03:38.700
+ connected to the service that you're interested in like the worldwide web
+
+00:03:38.700 --> 00:03:44.260
+ service then you have to know the protocol to talk to that ports and TCP
+
+00:03:44.260 --> 00:03:48.660
+ are like a telephone extension number again meant like I said they you can
+
+00:03:48.660 --> 00:03:52.060
+ connect to an IP address but then you can connect to a port within it and so
+
+00:03:52.060 --> 00:03:56.500
+ if you think about a telephone number and an extension it's sort of a further
+
+00:03:56.500 --> 00:04:01.220
+ refinement an IP address gives us a particular server a piece of hardware
+
+00:04:01.220 --> 00:04:05.620
+ connected to the internet and then a port within that tells us what application
+
+00:04:05.620 --> 00:04:15.300
+ we're going to talk to so let's talk about ports and connections so if I have
+
+00:04:15.300 --> 00:04:19.980
+ a server and this is kind of an arbitrary server here's here is a single
+
+00:04:19.980 --> 00:04:26.460
+ server www.umich.edu and it has one IP address connected into the cloud we can
+
+00:04:26.460 --> 00:04:32.220
+ have many clients talking to it and we have many services running on this
+
+00:04:32.220 --> 00:04:38.580
+ server like sending email or logging into that server or retrieving web pages
+
+00:04:38.580 --> 00:04:44.700
+ or retrieving my mail from that server and there are ports so incoming email is
+
+00:04:44.700 --> 00:04:50.700
+ done generally in port 25 remote login is 22 or 23 web servers depending on
+
+00:04:50.700 --> 00:04:57.980
+ whether secure or not or 80 or 443 and the personal mailbox is on ports 109 or
+
+00:04:57.980 --> 00:05:03.340
+ 110 and so these computers don't just connect to an IP address but they
+
+00:05:03.340 --> 00:05:10.100
+ connect to a port within an IP address so some common TCP ports that we have
+
+00:05:10.100 --> 00:05:15.100
+ are the ones I just mentioned and you can take a look at these on the internet
+
+00:05:15.100 --> 00:05:21.580
+ the various ports okay now once we have a connection to the web server or to the
+
+00:05:21.580 --> 00:05:25.700
+ mail server or to the post office server we have to know how to talk to it and
+
+00:05:25.700 --> 00:05:29.860
+ that's what's called an application protocol and that is the rules for
+
+00:05:29.860 --> 00:05:37.200
+ conversation the rules for conversing so TCP gives us this reliable connection we
+
+00:05:37.200 --> 00:05:41.540
+ now can connect to the server that we desire to connect to by using ports and
+
+00:05:41.540 --> 00:05:46.500
+ the question is what are we going to say across that connection and what we say
+
+00:05:46.500 --> 00:05:51.540
+ across that connection who talks first what do you send what comes back depends
+
+00:05:51.540 --> 00:05:55.060
+ on the kind of server that you're talking to we're going to play mostly
+
+00:05:55.060 --> 00:06:00.060
+ with the world what the world wide web click the wrong button there the world
+
+00:06:00.060 --> 00:06:03.960
+ wide web server because it's the simplest and it's the most obvious as to
+
+00:06:03.960 --> 00:06:09.500
+ what's going on so the world wide web clients and the worldwide which are
+
+00:06:09.500 --> 00:06:13.780
+ otherwise known as browsers the world wide web clients and the world wide web
+
+00:06:13.780 --> 00:06:18.820
+ servers communicate using a protocol called HTTP as a matter of fact if you
+
+00:06:18.820 --> 00:06:23.460
+ look at the top of your URL it's HTTP colon slash slash something that adopt
+
+00:06:23.460 --> 00:06:32.020
+ right and and so basically there is a specification for how this is done so
+
+00:06:32.020 --> 00:06:35.340
+ when they wrote down I'm gonna write the first web browser in the first web
+
+00:06:35.340 --> 00:06:39.420
+ server they also wrote a document about how that piece of software would talk to
+
+00:06:39.420 --> 00:06:44.100
+ this other piece of software and the and it's a very simple concept HTTP has a
+
+00:06:44.100 --> 00:06:47.860
+ protocol where you make a connection to the from the client to the server the
+
+00:06:47.860 --> 00:06:51.620
+ client requests the document the server feeds out the document and then the
+
+00:06:51.620 --> 00:06:56.060
+ connection is dropped okay so it's very simple we'll actually simulate this this
+
+00:06:56.060 --> 00:07:03.100
+ is called the HTTP request response cycle okay and so the way it works is
+
+00:07:03.100 --> 00:07:07.980
+ you're in a browser and you click on a link the browser is an application it's
+
+00:07:07.980 --> 00:07:12.660
+ the client running on your computer so so this is kind of your computer down
+
+00:07:12.660 --> 00:07:19.080
+ here okay you click on a link then the browser makes a connection to the web
+
+00:07:19.080 --> 00:07:25.780
+ server and sends a request to for the document the web server looks up does
+
+00:07:25.780 --> 00:07:30.020
+ whatever and sends the document back and then the document is displayed on your
+
+00:07:30.020 --> 00:07:38.540
+ screen okay so let me show you sort of how this works with a web browser so here
+
+00:07:38.540 --> 00:07:44.140
+ is a canonical web page so here's a browser here's the URL that I went and
+
+00:07:44.140 --> 00:07:47.860
+ got you can get this URL as well you can even look at the source so if you look
+
+00:07:47.860 --> 00:07:54.020
+ at this source there is my HTML but one of the things that's in this source is
+
+00:07:54.020 --> 00:07:59.500
+ a link and if I hover over top of this link it's gonna look like that to hover
+
+00:07:59.500 --> 00:08:03.620
+ over top of link you can see at the bottom of my screen you can see it's
+
+00:08:03.620 --> 00:08:09.260
+ going to tell you that we're about to go retrieve page two dot HTML now this
+
+00:08:09.260 --> 00:08:17.660
+ browser is running on my laptop it is a web client it is an HTTP client and I'm
+
+00:08:17.660 --> 00:08:22.940
+ about to click on this piece of software running on my computer and then it is
+
+00:08:22.940 --> 00:08:27.820
+ going to make a connection out the back of it retrieve a document and then show
+
+00:08:27.820 --> 00:08:31.580
+ me the other document so it's going to happen real fast I click on second page
+
+00:08:31.580 --> 00:08:36.220
+ it requested and got a document back and showed me the document so that's the
+
+00:08:36.220 --> 00:08:42.700
+ contents of the second document okay and so that is the request response cycle
+
+00:08:42.700 --> 00:08:50.380
+ that is triggered that is triggered by me making a click somewhere in my
+
+00:08:50.380 --> 00:08:55.420
+ browser the browser sees the click it opens a connection this is sort of the
+
+00:08:55.420 --> 00:08:59.260
+ internet over here it makes a connection request a document the document comes
+
+00:08:59.260 --> 00:09:04.180
+ back and then the new document is displayed the request response cycle
+
+00:09:04.180 --> 00:09:10.180
+ click request response display click request response display so let's take a
+
+00:09:10.180 --> 00:09:15.140
+ look in some more detail as to what's really going on here so the command that
+
+00:09:15.140 --> 00:09:20.660
+ is being sent up to the server across this connection remember this part here
+
+00:09:20.660 --> 00:09:25.380
+ is the internet right there the command is a get command and the document is
+
+00:09:25.380 --> 00:09:29.260
+ based on the URL I clicked on that the browser knows about and says get slash
+
+00:09:29.260 --> 00:09:35.900
+ page two dot HTML and then what comes back is HTML and that is a markup
+
+00:09:35.900 --> 00:09:41.540
+ language that describes how this doc this page is supposed to be shown so
+
+00:09:41.540 --> 00:09:45.900
+ let's say that we wanted some more detail on how this really worked right
+
+00:09:45.900 --> 00:09:49.580
+ let's say we want to write a web browser and we want to be a good citizen and we
+
+00:09:49.580 --> 00:09:56.580
+ want to talk properly to the the web well we would go back to the IETF the
+
+00:09:56.580 --> 00:10:02.820
+ Internet Engineering Task Force and we would go grab the document that says hey
+
+00:10:02.820 --> 00:10:07.180
+ if you want to write a browser this is what you do this is what you do if you
+
+00:10:07.180 --> 00:10:13.060
+ want to write a browser go grab RFC 1945 which is the hypertext transport
+
+00:10:13.060 --> 00:10:16.820
+ protocol version 1.0 now I'm sure there's more complex superseded versions
+
+00:10:16.820 --> 00:10:20.540
+ of it but if we read it and read it and read it we spent a lot of time we get
+
+00:10:20.540 --> 00:10:26.380
+ down to section 5.1.2 and I would say if you are making a request for a
+
+00:10:26.380 --> 00:10:32.340
+ document this is the request line it has the letters get followed by a space
+
+00:10:32.340 --> 00:10:36.460
+ followed by the URL you're looking for followed by a space followed by the
+
+00:10:36.460 --> 00:10:42.380
+ version okay so that is the rule that is what you're supposed to send down this
+
+00:10:42.380 --> 00:10:47.820
+ connection I'm gonna give us some more examples on page 24 and so we could read
+
+00:10:47.820 --> 00:10:53.100
+ all this and we could write a web browser but what we're gonna do is we're
+
+00:10:53.100 --> 00:10:58.060
+ gonna fake being a web browser we're gonna cheat we're gonna hack it we're
+
+00:10:58.060 --> 00:11:02.100
+ gonna pretend to be a web browser we're gonna send the commands to the web
+
+00:11:02.100 --> 00:11:06.540
+ browser now I'm gonna do this on a Macintosh you could also do it on
+
+00:11:06.540 --> 00:11:12.140
+ Windows if you install a telnet client okay so the key is you install a telnet
+
+00:11:12.140 --> 00:11:16.180
+ client now most people would say telnet is insecure and it is it's a very old
+
+00:11:16.180 --> 00:11:21.620
+ protocol because all it does is it opens a TCP connection to a host on a port
+
+00:11:21.620 --> 00:11:26.440
+ that I specify and whatever I type goes across that TCP connection so it's a
+
+00:11:26.440 --> 00:11:32.340
+ great way to hack especially older less secure protocols so because HTTP is
+
+00:11:32.340 --> 00:11:36.120
+ generally a public protocol it's not really highly protected so it's much
+
+00:11:36.120 --> 00:11:40.300
+ simpler to hack it hacking secure protocols is requires writing software
+
+00:11:40.300 --> 00:11:44.700
+ rather than typing commands so if you're on Windows you have to install telnet
+
+00:11:44.700 --> 00:11:50.260
+ telnet so what I'm going to show you in a second is I'm gonna show you hacking
+
+00:11:50.260 --> 00:11:56.860
+ and I'm gonna telnet to www.doctorchuck.com port 80 what I'm saying is
+
+00:11:56.860 --> 00:12:01.380
+ connect me to this server on the internet and connect me to port 80
+
+00:12:01.380 --> 00:12:07.980
+ because I want to do HTTP connections and then I will send one command I'm gonna
+
+00:12:07.980 --> 00:12:12.540
+ send that command and then the web server will give me back the page okay
+
+00:12:12.540 --> 00:12:20.540
+ it's probably easier for me to just do it so let's take a look I am going to
+
+00:12:20.540 --> 00:12:27.700
+ simulate what the web browser does when it's requesting well actually you will
+
+00:12:27.700 --> 00:12:31.380
+ go to the second page and when it's requesting the first page it's doing a
+
+00:12:31.380 --> 00:12:36.580
+ get for page one okay so that's what we're going to do except now we are
+
+00:12:36.580 --> 00:12:46.140
+ going to do it in a terminal so I'm gonna type telnet oops I was type this
+
+00:12:46.140 --> 00:13:02.860
+ wrong telnet www.doctor-chuck.com port 80 okay so now I am connected to the web
+
+00:13:02.860 --> 00:13:14.860
+ server on www.doctor-chuck.com I could for example type yo what is up
+
+00:13:14.860 --> 00:13:23.820
+ dude now that would suggest I have not read the protocol specification for the
+
+00:13:23.820 --> 00:13:28.820
+ HTTP protocol so I do not know that I'm supposed to type the word get here I'm
+
+00:13:28.820 --> 00:13:37.460
+ gonna type yo what is up dude and it goes you are not from my country you are not
+
+00:13:37.460 --> 00:13:41.460
+ from my planet I do not know what you said of course that the way web servers
+
+00:13:41.460 --> 00:13:46.980
+ are saying this is they're saying bad request your browser sent a request that
+
+00:13:46.980 --> 00:13:50.980
+ this server could not understand it is the request header is missing a colon
+
+00:13:50.980 --> 00:13:59.480
+ separator you do not comply go away but we did talk it just told us that whatever
+
+00:13:59.480 --> 00:14:03.620
+ we were saying is gibberish to it and that's okay because we have read the
+
+00:14:03.620 --> 00:14:10.020
+ document and so we can do it so let's do it so now I'm going to do a telnet to
+
+00:14:10.020 --> 00:14:15.640
+ dr.chuck.com on port 80 go to dr. chuck hook on to port 80 so we can talk to the
+
+00:14:15.640 --> 00:14:22.820
+ web server and now I am going to behave I read the specification I'm gonna type
+
+00:14:22.820 --> 00:14:32.420
+ GT get space one space HTTP colon slash slash www.doctor-chuck.com slash page
+
+00:14:32.420 --> 00:14:39.980
+ one dot HTM HTTP space one dot I think there's a slash there oh no no no get
+
+00:14:39.980 --> 00:14:45.740
+ right to be right slash 1.0 I think I got that right so that is what I'm supposed
+
+00:14:45.740 --> 00:14:50.380
+ to type if I am a real browser now I have to actually type another new line
+
+00:14:50.380 --> 00:14:58.860
+ so I'll type another new line and now whoa oh I gave it the wrong page look
+
+00:14:58.860 --> 00:15:03.980
+ look look look look look I wanted to do I told it to get page shut HTML so let's
+
+00:15:03.980 --> 00:15:08.700
+ do it again do it again I'm not very good at this my browser is much better
+
+00:15:08.700 --> 00:15:16.700
+ at it so I type get HTTP colon slash slash www.doctor-chuck.com slash page one
+
+00:15:16.700 --> 00:15:26.060
+ dot HTM space HTTP slash 1.0 I believe that's it let's hope I got it right
+
+00:15:26.060 --> 00:15:34.060
+ this time and then another enter and another enter yay I got it so this time
+
+00:15:34.060 --> 00:15:39.700
+ I type you know I type this then I type this now it gave me some header
+
+00:15:39.700 --> 00:15:47.100
+ information it's saying things like 200 okay means I like you what the time is
+
+00:15:47.100 --> 00:15:51.580
+ when this file was last modified it's an HTML file and it actually shows me the
+
+00:15:51.580 --> 00:15:59.180
+ HTML text and so we have just hacked a web server you can do this to like
+
+00:15:59.180 --> 00:16:04.100
+ facebook.com and do a get if you get the right thing it'll give you stuff you
+
+00:16:04.100 --> 00:16:08.260
+ could go to various sites you can fake browsers now you're only going to get so
+
+00:16:08.260 --> 00:16:12.540
+ far because at some point these servers know that you're not a browser because a
+
+00:16:12.540 --> 00:16:16.540
+ browser actually sends a little more stuff than what we just sent but you get
+
+00:16:16.540 --> 00:16:21.460
+ the picture okay it's a protocol where we have rules and if we type the right
+
+00:16:21.460 --> 00:16:27.540
+ thing if we type the right thing we know what the specification tells us to type
+
+00:16:27.540 --> 00:16:32.680
+ we are rewarded with the information on that server if we comply with the
+
+00:16:32.680 --> 00:16:39.500
+ server's request we can talk to it we know how to talk that we know what port
+
+00:16:39.500 --> 00:16:42.900
+ to talk to and we know I know what protocol to talk to that port we can
+
+00:16:42.900 --> 00:16:49.500
+ write a client that meets the needs of that server and extract the data so this
+
+00:16:49.500 --> 00:16:54.180
+ is I like I like command lines I like sort of old-school user interfaces and
+
+00:16:54.180 --> 00:17:02.580
+ this is a scene from one of the matrix movies that you may recall I can't put it
+
+00:17:02.580 --> 00:17:05.980
+ in here because of copyright requirements I might have the URL or
+
+00:17:05.980 --> 00:17:09.380
+ maybe students will come up with the URL you can probably search for the Trinity
+
+00:17:09.380 --> 00:17:12.420
+ hacking scene people put it up and then it gets taken down and someone else puts
+
+00:17:12.420 --> 00:17:16.940
+ it up so let me tell you a little story about this scene this scene was actually
+
+00:17:16.940 --> 00:17:21.380
+ written by a former student of mine who worked on all three matrix movies doing
+
+00:17:21.380 --> 00:17:26.540
+ IT work on the movies and they were in Australia shooting the the three the
+
+00:17:26.540 --> 00:17:32.000
+ second set of three movies and he saw this scene and the scene was supposed to
+
+00:17:32.000 --> 00:17:37.520
+ use a minority report style way for her to hack into the the power grid and shut
+
+00:17:37.520 --> 00:17:43.380
+ it down he said that's not the way that you hack into computers all good hackers
+
+00:17:43.380 --> 00:17:47.780
+ use a text-based interface interface some old thing and that's a throwback
+
+00:17:47.780 --> 00:17:54.980
+ interface so the Wachowski brothers told him rewrite it so we actually downloaded
+
+00:17:54.980 --> 00:17:59.940
+ the exact hacking software it's called n map which stands for network map it is
+
+00:17:59.940 --> 00:18:05.020
+ mapping the ports it's probes the ports and sees what's on the ports see what
+
+00:18:05.020 --> 00:18:08.340
+ version of the software is on each of the ports figures out what the what the
+
+00:18:08.340 --> 00:18:14.100
+ weaknesses of those things are and even automatically exploits the weaknesses so
+
+00:18:14.100 --> 00:18:18.300
+ he wrote a script that downloaded this thing that automatically breaks into
+
+00:18:18.300 --> 00:18:22.700
+ computers by the way the good guys use this and the bad guys use this same
+
+00:18:22.700 --> 00:18:25.860
+ thing the good guys use it to test all the computers on their campus and make
+
+00:18:25.860 --> 00:18:29.400
+ sure that they're okay and the bad guys used to break into the ones that the
+
+00:18:29.400 --> 00:18:34.300
+ good guys aren't smart enough to fix and so this was kind of cool and and the
+
+00:18:34.300 --> 00:18:38.220
+ people who wrote n map were really quite amazed when they saw the movie they even
+
+00:18:38.220 --> 00:18:41.460
+ figured out what version it was and things like that and so it actually
+
+00:18:41.460 --> 00:18:48.660
+ triggered a series of follow-on scenes that used actual real hacking software
+
+00:18:48.660 --> 00:18:53.980
+ n map hacking software so I don't know if we've got a URL for this or not
+
+00:18:53.980 --> 00:18:59.460
+ whatever I URL I come up with even the one the end map people come up with
+
+00:18:59.460 --> 00:19:03.500
+ whatever it is it goes away because of copyright but you can find it because
+
+00:19:03.500 --> 00:19:25.760
+ someone always puts it back up so still no side I don't know what they're doing
+
+00:19:25.760 --> 00:19:28.660
+ but they only got two minutes left
+
+00:19:33.500 --> 00:20:03.140
+ so basically the application layer is a rich place
+
+00:20:03.140 --> 00:20:06.940
+ and there's lots of things that happen in the application layer we have this
+
+00:20:06.940 --> 00:20:11.100
+ pipe abstraction it's kind of like a string with two tin cans and we can
+
+00:20:11.100 --> 00:20:14.980
+ shout into one end and stuff comes out the other end later we'll talk about
+
+00:20:14.980 --> 00:20:20.340
+ adding security to that and we use these port numbers to allow to multiple
+
+00:20:20.340 --> 00:20:27.540
+ different servers or services on a computer that we can connect to so we've
+
+00:20:27.540 --> 00:20:31.000
+ kind of now reached the top of the architecture of the internet we've
+
+00:20:31.000 --> 00:20:36.540
+ talked about ethernet the link layer and fiber and all the diverse wireless all
+
+00:20:36.540 --> 00:20:40.140
+ the wonderful things that happen there the internet work layer which is this
+
+00:20:40.140 --> 00:20:45.220
+ kind of geographical hopping thing it's unreliable the TCP layer that
+
+00:20:45.220 --> 00:20:49.380
+ retransmits automatically if necessary and then the application layer which is
+
+00:20:49.380 --> 00:20:55.140
+ what we do with all this networks it's really impressive that this came out of
+
+00:20:55.140 --> 00:21:00.380
+ research work from the 1970s and that most of the architectures that were
+
+00:21:00.380 --> 00:21:04.300
+ really present most the ideas the architecture from the 70s are really
+
+00:21:04.300 --> 00:21:13.940
+ still present with us today as the NSF net came out these architectures evolved
+
+00:21:13.940 --> 00:21:17.900
+ a little bit the last few tweaks and there have been tweaks going on ever
+
+00:21:17.900 --> 00:21:23.020
+ since but the really the last few critical tweaks happened in the late 1980s
+
+00:21:23.020 --> 00:21:29.540
+ the the number of web hosts or the number of hosts on the internet goes
+
+00:21:29.540 --> 00:21:37.620
+ from 6 in 1969 to sort of a billion in 2011 and and it's pretty impressive that
+
+00:21:37.620 --> 00:21:42.340
+ roughly the same architecture that was designed with six computers is still
+
+00:21:42.340 --> 00:21:48.140
+ mostly functioning in mostly the same patterns all these years later with the
+
+00:21:48.140 --> 00:21:53.500
+ billions of computers and so if you start looking at the network now it
+
+00:21:53.500 --> 00:21:59.060
+ almost looks like a live creature with veins and nerves and and it's sort of
+
+00:21:59.060 --> 00:22:04.140
+ almost pulses and you'd see things like you can search on the internet for how
+
+00:22:04.140 --> 00:22:09.020
+ the internet reacted to Hurricane Sandy when like New York City was just like
+
+00:22:09.020 --> 00:22:14.220
+ shut off for three days you know that just kind of like routed around it yeah
+
+00:22:14.220 --> 00:22:19.060
+ a lot of stuff went across the Atlantic Ocean from New York City and yeah I had
+
+00:22:19.060 --> 00:22:23.500
+ found different paths and you know yeah New York was down but the rest of it
+
+00:22:23.500 --> 00:22:29.900
+ wasn't in many ways pretty amazing and we certainly see other situations where
+
+00:22:29.900 --> 00:22:34.060
+ governments try to shut the internet down by going into the server rooms and
+
+00:22:34.060 --> 00:22:38.260
+ shutting off you know what they think is the only connections but then more
+
+00:22:38.260 --> 00:22:44.820
+ connections pop up and so it's it's very much a almost a living thing it's
+
+00:22:44.820 --> 00:22:49.340
+ billions of computers and hundreds of thousands of routers and and it's
+
+00:22:49.340 --> 00:22:53.340
+ hundreds of millions of simultaneous connections going on all the time
+
+00:22:53.340 --> 00:22:59.180
+ including the one we're doing right now probably and it's trillions of bytes of
+
+00:22:59.180 --> 00:23:06.660
+ data moving across and it's it's it's not perfect it but it kind of works you
+
+00:23:06.660 --> 00:23:11.200
+ can think of it as like the largest energy collective engineering thing that
+
+00:23:11.200 --> 00:23:16.660
+ we've done together is humanity we built this it's all one thing and yet it's so
+
+00:23:16.660 --> 00:23:21.060
+ many different pieces and we just kind of keep gluing them together and gluing
+
+00:23:21.060 --> 00:23:25.460
+ more things on more things and it was it really was created almost like life
+
+00:23:25.460 --> 00:23:30.300
+ itself it's very organic it's designed to heal itself rather than be perfect
+
+00:23:30.300 --> 00:23:34.720
+ because things that try to be perfect are fragile and they break too easily but
+
+00:23:34.720 --> 00:23:39.500
+ things that are designed to heal can heal and you're never perfectly correct
+
+00:23:39.500 --> 00:23:42.700
+ you're never all the way up and you're never all the way down and so that's
+
+00:23:42.700 --> 00:23:48.660
+ what's interesting about the internet oops put the wrong way and so we kind of
+
+00:23:48.660 --> 00:23:53.100
+ come to the end of this where we started out with like machines and pulleys and
+
+00:23:53.100 --> 00:23:57.780
+ gears and spraying oil at Bletchley Park and typing a few characters on a
+
+00:23:57.780 --> 00:24:03.660
+ keyboard to this thing where we sort of just take for granted that we can watch
+
+00:24:03.660 --> 00:24:07.620
+ basketball anywhere on the planet just with a couple of swipes of the of the
+
+00:24:07.620 --> 00:24:13.260
+ key and and in a sense it's just that same human urge to communicate at a
+
+00:24:13.260 --> 00:24:18.420
+ distance and so the last thing that I'll close with is another video from Van
+
+00:24:18.420 --> 00:24:24.740
+ Jacobson now this is about a technique he calls content centric networking and
+
+00:24:24.740 --> 00:24:29.980
+ not everybody agrees with Van Jacobson on this you can ask people and they'll
+
+00:24:29.980 --> 00:24:35.700
+ say that's a good idea that I don't present this as the future I present
+
+00:24:35.700 --> 00:24:41.220
+ this more to get you thinking that there is a future that might be different than
+
+00:24:41.220 --> 00:24:47.900
+ the present that what I just told you that seems seems like oh it's perfect
+
+00:24:47.900 --> 00:24:54.520
+ and the and when in this surf in 1969 he figured this out and it was the perfect
+
+00:24:54.520 --> 00:24:58.860
+ thing right and the answer is it might not be and we as engineers and we as the
+
+00:24:58.860 --> 00:25:03.260
+ people of the internet we must understand that in 20 years it might be
+
+00:25:03.260 --> 00:25:07.420
+ all different because 20 years ago it was all different and 30 years before
+
+00:25:07.420 --> 00:25:11.520
+ that it was different yet again and so nothing's perfect and so we should never
+
+00:25:11.520 --> 00:25:16.900
+ be complacent and assume that what we have is trivial or perfect or even the
+
+00:25:16.900 --> 00:25:20.020
+ right answer social we should continue to question and so it's really
+
+00:25:20.020 --> 00:25:24.220
+ interesting to hear again from Van Jacobson who sort of did this great
+
+00:25:24.220 --> 00:25:29.220
+ innovation in 1987 that saved us and yet he thinks that these are issues and
+
+00:25:29.220 --> 00:25:33.460
+ there are issues that need to be saved again and I think in many ways he's right
+
+00:25:33.460 --> 00:25:37.580
+ the question is not so much whether he's right or wrong the question is what will
+
+00:25:37.580 --> 00:25:43.340
+ the ultimate solution that we pick be produced so so take a look at Van
+
+00:25:43.340 --> 00:25:47.440
+ Jacobson and what he can what he is thinking about as terms of the issues in
+
+00:25:47.440 --> 00:25:50.700
+ the future that we're going to need to solve when he talks about content
+
+00:25:50.700 --> 00:25:53.420
+ centered networking
+

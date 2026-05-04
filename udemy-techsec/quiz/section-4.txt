@@ -1,0 +1,135 @@
+::Q1 Threat Model Thinking::
+Why is it important to define who the attacker is before designing security?
+{
+=Different attackers require different defenses
+~All attackers behave the same way
+~Encryption eliminates all threats
+~Security only depends on technology
+}
+
+::Q2 Security Mindset::
+What does it mean to “think like an attacker”?
+{
+=Look for ways a system could be misused or broken
+~Follow protocols exactly
+~Avoid using encryption
+~Trust all incoming data
+}
+
+::Q3 Communication Risk::
+Why is sending data over a network inherently risky?
+{
+=Data may be intercepted or modified in transit
+~Packets cannot be routed correctly
+~Networks are always unreliable
+~IP addresses are hidden
+}
+
+::Q4 Encryption Purpose::
+What is the primary goal of encryption?
+{
+=To prevent unauthorized parties from understanding data
+~To speed up communication
+~To reduce packet size
+~To eliminate packet loss
+}
+
+::Q5 Caesar Cipher Limitation::
+Why is the Caesar cipher considered weak?
+{
+=It has a very small number of possible keys
+~It cannot encode text
+~It requires too much computation
+~It does not use packets
+}
+
+::Q6 Brute Force Insight::
+Why can simple encryption methods be broken easily?
+{
+=Attackers can try all possible keys quickly
+~Encryption always reveals patterns
+~Networks remove encryption
+~Routers decode messages
+}
+
+::Q7 Key Importance::
+Why is the secrecy of the key more important than the secrecy of the algorithm?
+{
+=Algorithms are often public but keys must remain private
+~Algorithms cannot be shared
+~Keys are stored in routers
+~Encryption hides the algorithm
+}
+
+::Q8 Integrity vs Confidentiality::
+What problem does hashing solve that encryption does not?
+{
+=Detecting whether data has been altered
+~Hiding the contents of data
+~Speeding up transmission
+~Routing packets
+}
+
+::Q9 Hash Function Property::
+Why must a good hash function produce very different outputs for small input changes?
+{
+=To make tampering easy to detect
+~To reduce computation time
+~To compress data efficiently
+~To simplify encryption
+}
+
+::Q10 Password Storage::
+Why are passwords stored as hashes instead of plain text?
+{
+=To prevent exposure if the database is compromised
+~To speed up login
+~To reduce storage size
+~To avoid encryption
+}
+
+::Q11 Hash Verification::
+How can a system verify a password without storing it directly?
+{
+=By hashing the entered password and comparing hashes
+~By decrypting stored data
+~By checking IP addresses
+~By asking the user again
+}
+
+::Q12 Replay Thinking::
+Why is simply encrypting data not always sufficient for security?
+{
+=An attacker may capture and reuse valid encrypted data
+~Encryption always fails
+~Networks remove encryption
+~Packets cannot be copied
+}
+
+::Q13 Security Tradeoff::
+Why is stronger security often more computationally expensive?
+{
+=It requires more complex mathematical operations
+~It reduces packet size
+~It eliminates routing
+~It avoids using keys
+}
+
+::Q14 Human Factor::
+Why are humans often the weakest link in security?
+{
+=They may choose weak passwords or fall for attacks
+~They cannot use encryption
+~They control routers
+~They generate IP addresses
+}
+
+::Q15 Big Picture::
+Why must multiple security techniques (encryption + hashing) be combined?
+{
+=Different techniques solve different security problems
+~One technique is not allowed
+~Encryption replaces hashing
+~Hashing replaces encryption
+}
+

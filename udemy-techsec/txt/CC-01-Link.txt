@@ -1,0 +1,268 @@
+ - Oh, oh hi, sorry, I was in the forums. I guess it's time for this week's video. So
+ this week we're moving from history to technology, and in a sense we're going to tell the same
+ story again. You know, we'll sort of start at the beginning, but we're going to start
+ from the bottom and work upwards. So in a sense we're kind of talking about the same
+ things, but just from a more technical perspective. Don't worry, you'll be fine. We're not going
+ to over - there's no math, I promise. There's no programming. Don't worry about that. So
+ of course I appreciate IEEE Computer Magazine, who I write for, to let me use the articles
+ that are associated with some of the videos, as well as the folks from Open Michigan who
+ have helped me. So hang on a sec. No, hang on. I've got a phone call. I'll be right
+ back. Okay, well that's been sent. Sorry for that interruption. Again, I thank everybody
+ for the use of the copyright materials. Part of my hidden agenda in this class is that
+ you will be able to look at this XKCD comic and you'll understand the humor. So I'm going
+ to stop for a moment and let you look at it and see if you get the humor. Okay, so maybe
+ you did, maybe you didn't, but hopefully by the time we're done, you'll have a better
+ chance of getting the humor. So if you recall, most academics throughout the 60s, 70s, and
+ 80s, the best they had access to was this store and forward networking where you would
+ send a message and it would go into a computer and it might sit for some time. Then it would
+ find its way across a network and it would sit for a little while longer and hop. And
+ there's these multiple hops. We call these hops. And each of these would be a couple
+ of hundred miles perhaps. And to go from say Michigan to Stanford, there might be 15 or
+ 20 hops. Hops are as much defined by geography where we're all trying to optimize the cost
+ of these long distance connections. So the thing that really characterized store and
+ forward networking was that there wasn't a lot of sharing. One message was being sent
+ across one of these links at a time, and all the other messages just kind of waited in
+ line. Now the innovation that happened in the research networks in the 60s through the
+ 80s, ultimately unbodied in the ARPANET, was the fact that they were going to be packet
+ networks. First, how do we share one link so that a long message doesn't clog it up?
+ And how do we deal with outages more dynamically with the idea that eventually you could say,
+ send a packet across the country and back into a computer and back out in maybe a half
+ of a second. And that was seen as something to do rather than somewhere between 10 minutes
+ and a day or two. So how to do this efficiently? It was a research project. And it was a research
+ project that lasted almost 20 years. And 20 or more years. And one of the neatest things
+ about this is they were able to throw it away and rewrite it a bunch of times so that they
+ could put something in production, see its flaws, see what was good about it, then they
+ had the money from DARPA to throw it away and rewrite it. Now by the late 1970s, it
+ had, you know, hundred-ish computers on it. Here's a picture. And these are not the schools.
+ These are the computers. These are, you know, listing all of the computers that are there.
+ And so the engine, the innovation that they spent 20 years perfecting was the notion of
+ packet swishing. So how can we move data simultaneously across the connection? And the essential brilliant
+ idea is break the message into packets. And again, to sort of review, here I have a message
+ and I have postcards that only can handle 10 characters. And I'm going to send this
+ "Hello, there. Have a nice day" message to Daphne in California. And so I have three
+ 10-character postcards. I basically put a from address and a to address on each postcard
+ and a sequence number on each postcard. One, two, and three. And I put 10 characters on
+ each. And then I stick them in my mailbox. I just put them in. Put the sign up. And then
+ I wait. Now, let's just say, you know, that the post office person comes and picks this
+ first one up. And it goes to Chicago from Michigan. And then it goes to Omaha. It goes
+ to Denver. And then the second one kind of falls on the floor and it ends up going to
+ Charlotte, North Carolina. And then they're like, "Why is this here?" And then they send
+ it to Atlanta to get checked. And then they make sure. And this one goes. And number three
+ ends up going to St. Louis. And then Tulsa. And then Colorado. And this one gets routed
+ back to Charlotte because they weren't sure why they sent it to them in the first place.
+ And then they send it to Memphis, Tennessee. And then this one makes it to California.
+ And then this other one sort of goes to Phoenix. And this one finally gets to Dallas, Texas.
+ And this other one goes finally. And then this third one goes to Tucson, Arizona. And
+ then Las Vegas, Nevada. And finally it makes it, right? So these poor little postcards
+ that I put in, they have each a different journey, right? It's a little adventure for
+ each of the postcards that they go through. And so we don't, I don't see how this works
+ on my end. I put in three postcards. I numbered them one, two, three. But on the far end in
+ California, Daphne opens her mailbox and has scribbling all over her mailbox. Oh, the shame.
+ No, actually we'll get rid of the scribbling. So Daphne opens up her mailbox and she doesn't
+ know how these packets got there, I mean postcards, how they got there. Out comes the first one.
+ She goes, oh, it looks like I got a message from Chuck, but I've only got part of it.
+ Then out comes the second one shortly thereafter. And then after a long period of time, finally
+ the third one comes out, but it's actually the second one. And now she understands that
+ she's got the entire message and she reassembles it and away we go. And so this is the basic
+ notion of how all those postcards can share the infrastructure. They can all be in flight
+ at the same time. They can take different paths. You don't have to connect them all
+ together like trains, basically. And this led to a shared network infrastructure. And
+ so the computers that were in a store and forward network went from sort of big powerful
+ computers with disk drives to really tiny computers with a single purpose of forwarding
+ packets rather than long-term storage of message. And so the store and forward had long-term
+ storage of messages in the routers. I mean, not in the routers. In the store and forward,
+ the old one, long-term storage was somewhere in the network. But this was only short-term,
+ right? Short-term storage, short-term storage. And so when a packet comes out, it simply
+ has to find its way through a series of hops. It still hops and it still connections. But
+ basically it has to find its way across the Internet. And then we would take whole campuses
+ like University of Michigan, say, or Stanford, for example. And then we'd have sort of various
+ kinds of local networks on those campuses and computers on the campuses and servers
+ and various things. And they would route all their packets, all their data out to the Internet.
+ And then the packets would find their way across the Internet. And then we might have
+ a home connection as well that might connect. And so the shared network infrastructure focuses
+ only on packets, not reliability or anything else.
+ So this notion of hops didn't go away. As a matter of fact, I don't know how many hops
+ it took to get from Ann Arbor to Palo Alto using Bitnet. I'm going to guess it might
+ have been 16 or 20. And these days it takes 16 or 20 hops. The difference is, is in the
+ Internet, the 16 or 20 hops happens in a hundredth of a second or a tenth of a second. So the
+ notion of hops and the notion of intermediate computers is still present in the Internet
+ and the TCP/IP networks that we use today. And so your message sort of leaves you the
+ host that you're in, hops to the first router, and then hops to however many routers, dot
+ dot dot. This is more of a dot dot dot thing. And then finally hops its way out to the far
+ host. And so this is sort of either your computer, maybe Stanford's web server, and then there's
+ this series of routers in the middle that it hops through.
+ And so the problem of what data goes between here and here is you've got to solve a lot
+ of problems, all kinds of problems. And so in order to simplify the solution or break
+ the solution into simpler, more manageable parts, they came up with a layered network
+ model. Now, this is a cartoon, and computer people love drawing cartoons and saying this
+ is our architecture, this is our framework, this is our approach. Sometimes they're helpful,
+ sometimes they're not helpful. Sometimes the cartoon is just kind of a cartoon. But what's
+ usually being communicated in these kinds of pictures is they're taking a big problem
+ and breaking it down into some subset, some set of smaller problems. So the whole problem
+ that they've got to solve of getting data reliability reliably across the whole country
+ is that big. And if we can break it into four pieces and work separately, and come up with
+ ways to let these pieces interact, work separately with each one, then maybe we'll have a better
+ solution, okay? So take a problem that's so large and so complex that we might not be
+ able to solve it, and break it into four smaller problems, gives us a better chance of solving
+ the four problems. Now, there's a certain art to picking how you break the problem up.
+ And there's more than one network model. The one that we use in the Internet is the TCP/IP
+ or Internet Protocol Suite model. And we'll meet some of the people who designed that.
+ There was also a model called the seven-layer OSI model, Open System Interconnection model.
+ So there's a model out there that has one, two, three, four, five, six, seven layers.
+ And they all have names, and they all have purposes, and they all have definitions. This
+ was not quite as popular. This was not very popular. And I doubt that it's many places,
+ because the TCP/IP model is the one that kind of won. And so that's the one that we're going
+ to study. But that doesn't mean that that has to be the only one, but it is the one
+ that has become popular on the Internet. So once you break the problem down from a big
+ problem into four small problems, you have to develop documents about how these layers
+ work together, how various computers work together, how routers work, all these things.
+ And so early in the process of the development of the ARPANET, they created an open process
+ to build these specifications, where they would invite engineers from all kinds of companies
+ and universities and who knows what, any expertise, to show up at a meeting several times a year.
+ I mentioned the IETF meeting when I was talking about the history of the Internet and the
+ Tim Berners-Lee boff that only 15 people showed up to. That's this meeting. It's the Internet
+ Engineering Task Force, which is just a bunch of engineers that get in a room, get in many
+ rooms and solve a bunch of problems. And so the standards that come out of this, and you
+ can go read them, they're all open documents. They're very throwback documents. They've
+ got this text thing, and it's got all this beautiful uppercase that reminds me of back
+ when printers didn't have a lowercase. And these are documents that describe how most
+ of the components of the Internet work together. So the layered architecture that I just described,
+ where you have a computer, and then it sends data out the back of it, and then hop, hop,
+ hop, hop through routers, and then the data arrives at the destination computer, and then
+ the destination sends it back. It's hop, hop, hop, hop, hop coming back, and it comes to
+ you. We're going to expand on this a little bit. So each of these hosts on the two ends
+ is going to expand to this much right here. So that's one host. That's another host. And
+ each of these routers is going to expand into this. So this bottom picture is just an expanded
+ version of this upper picture so that we can see how the Internet layers work together.
+ So when you send a message in on your computer, this is all software. Application, transport,
+ Internet, link. So this is all software. And then it comes out the little plug on the back
+ of your computer. So maybe your computer has a little plug like this on the back of it.
+ That's an Ethernet plug, and here's an Ethernet wire, and I'm plugging my local area network
+ in, right? And so this right here is that right there. That's kind of the plug. It might
+ be Wi-Fi, which means it's kind of like air, but if you have a wire like this, then it's
+ a little more tangible. And there's something on the other end of that wire. This is a very
+ short wire, but there would be a router on the other end of that wire. The router takes
+ the data off the wire and then forwards it, just like a post office, intermediate post
+ office would do, onto the next link, onto the next link. And this would be multiple
+ hops in here. They're only showing two hops. And then finally, it's on the last link going
+ to that computer at Stanford, and then it goes up through these four layers of software
+ and then goes and does whatever it's going to do. Now, when they send you the response
+ back, it kind of goes the other way. And back up and back to you. So if this was you in
+ a web browser, you know, and then here's me, and here's a slide I've got, right? This web
+ browser and you move in your cursor in the web browser, sending stuff back and forth
+ to the Coursera servers, kind of here, and that's what's happening, right? So as we look
+ at this picture over here, this left column is the host you're coming from. The right
+ column is the host you're going to, and the routers are these things in the middle. Okay?
+ So let's start looking at all four layers. We are going to start at the bottom, at the
+ link layer, and then we're going to move up. So if you recall, when I talked about the
+ basic reason why we even have a layered architecture at all, is to simplify the problem. To simplify
+ the problem. So the idea of the link layer is the link layer is a, it only worries about
+ getting the data across one hop, right? Only worries about getting the data from across
+ one piece of wire. What like voltage goes on these little wires and how we send this
+ stuff and if more than one computer is using the same wire, how do we share? It's a complex
+ enough problem, but we don't worry about the whole world. We worry about this one link
+ layer. And so the link layer is sort of like the connection out of one computer and into
+ another computer. And this might be fiber optic, might be, you know, 40 miles, or it
+ might be 40 feet, for all we know. But it's one link, okay? And then a router pulls it
+ off that link and then forwards it onto another link. If you go to the post office, you could
+ think of the person who picks your mail up from your house with the thing on their shoulder,
+ that's one link. Then they put it in a truck, which takes it to a place that puts it in
+ a semi-truck, and then they puts it to another place that puts it on a train, and the semi-truck
+ and the train and the postman or postwoman are these little link layers. Each person
+ or semi-truck is not taking it all the way, they're just getting a little farther. So
+ that's the link layer. So the link layer doesn't worry about the rest of this stuff. It really,
+ the stuff that is defined on this wire really doesn't even care if there's a worldwide web
+ or anything. Its job is to get data across one foot. That's what its job is. Is it up?
+ Is it down? How do we share? It doesn't care. It's got a very narrow view. So what it means
+ is we can zoom in on this problem. We can zoom in and focus and ignore everything else.
+ So the link layer basically asks questions like, "I've got some data inside the computer
+ and I want to send it out. How do I encapsulate it? What if this is shared? How do I deal
+ with that?" Common link technologies that we see are like Ethernet or Wi-Fi or cable
+ modem, DSL, satellite or optical. These are all links, layers of one form or another.
+ So if you're going back to this Ethernet link layer, which is one of our favorites because
+ it's kind of ubiquitous, other than wireless, it's probably Ethernet is the most ubiquitous
+ link layer. So when the manufacturer builds an Ethernet or a wireless adapter, they actually
+ build into it, which is probably right here. I don't know. It could be right here. They
+ build into it a serial number. So they mark this as having a serial number. And you can
+ actually, whether you're on Windows or Mac, you can work your way down to find the serial
+ number for your actual manufactured piece of equipment. So there's one on the Mac. That's
+ an example one on the Mac and that's an example one on the PC. They tend to be six two-digit
+ numbers concatenated together often with colons or in this case in Windows it shows dashes.
+ And so this is a Raspberry Pi and all the Raspberry Pis are going to actually have similar
+ prefixes and then serial numbers within that prefix. And so the Raspberry Pis get manufactured.
+ They come out of the manufacturing line with this sequence number just kind of going chug,
+ chug, chug, up, up, up, up, up. And then they get shipped to all corners of the world. And
+ so these numbers are not the numbers for this to get across the world. All these serial
+ numbers at the link layer are good for is to get across one connection in case that
+ connection is shared. And if you were to plug this into a hub and you're plugging other
+ computers into that same hub, well then you're sharing that connection and this computer
+ might see the traffic for that other computer. And so we use the physical addresses so that
+ this computer knows which of the packets belong to it on the piece of wire. So wired ethernet
+ or Wi-Fi certainly if you're sitting in a room with a bunch of Wi-Fi computers you're
+ sharing the air. So you have to come up with rules how to share this, how to share nicely
+ and how to behave. So the way it works is you could and this ethernet could easily have
+ a bunch of other computers hooked to it right because it's really shared and so they're
+ all sitting here, they're all talking simultaneously, you know, but we have a pair of computers
+ that want to talk. So it's not just one, it's got a bunch of folks sitting here. Just draw
+ a bunch of them, bunches of folks. They're all talking or all potentially talking and
+ we got to figure out how in the shared medium. Like this is, think of this as a hub and they're
+ all connected into this hub including the two we want to talk. They're all connected
+ in the hub including the two that we want to talk. And how can these two make sure that
+ the data goes, is the data that's sent with the intention of going to this computer, this
+ router, how can it make sure that it gets there? Well, if it knows the address of the
+ sending and receiving unit it just encodes that in the packet. And that way it sort of
+ goes by all these folks, let me change colors here, the packet we send goes by all these
+ folks and even if they all heard every one of the packets they all know that it doesn't
+ belong to them because they all have a different number and this is the only one that responds
+ to it. So that allows them to share the wireless or the wire and share the wireless or the
+ wire and have it all work out for them. So that's the idea of the link layer. Now again,
+ remember this might only be 50 feet or 50 yards or 50 meters, you make it meters. It's
+ only 50 meters but you still have to share the network in that 50 meters. And then the
+ router takes it off of that and forwards it on a different link and that's how we get
+ across the country but that's the next layer up and let's not worry about that for now.
+ So the idea is think about one link whether it's fiber optic or wireless or Wi-Fi. And
+ so what are the kind of problems that you have to solve on this link layer? Well, so
+ one of the things that's cool about many link layers is like wireless and Ethernet is they
+ can be shared and it makes it really easy to just plug new computers in. So you just
+ sort of like here's a hub and you just plug another computer in and it's on the network.
+ But they have to come up with a way to avoid the chaos when they're sharing. And so the
+ way Ethernet does this is with a technique called carrier sense media access with collision
+ detection. And as you'll see a lot of the things that we do on the Internet have a lot
+ to do with courtesy. Meaning that we're just nice and if everybody's nice it all works
+ out kind of like driving in a car. Just everyone can't run through the stop sign at the same
+ time. So we've got to stop, got a green light, your turn, my turn, whatever. This probably
+ wouldn't work so well with cars because sometimes you do have a collision of packets you just
+ have to wait. Packet collisions don't crush your car they just slow your data down. So
+ here we go. This is basically carrier sense media access with collision detection. The
+ first thing you do if you want to send some data, say we got some data inside a little
+ computer and we're going to send it out knowing that there might be other data going by. The
+ first thing we do is we listen. We listen to what's on there. If it's not silent we
+ just wait until it goes silent and then we start sending. So if someone's already using
+ it why crash into their data and crush their data? Because it's shared, there's only one.
+ You can't both be sending at the same time. So first you listen. Once it's silent you
+ begin transmitting data and then what you do is you also listen to your own data. And
+ if your own data is coming back then it's sounding pretty good. And then if there is
+ a collision because there's a chance that two computers will want to send at the same
+ time and they'll collide then what they have to do is back off. And they have a sophisticated
+ random number calculation so that they back off not always the same amount. Each computer
+ backs off a different amount and they make it so that it's fair. So one computer's not
+ always backing the most off so it's very fair. So it's when you detect a collision you retransmit
+ after a random back off. First you avoid collisions but in the rare case that you have a collision
+ then you do this. And so I want to introduce you to the person who invented Ethernet. This
+ is Robert Metcalf and he was working at Xerox Palo Alto Research Center, PARC, everyone
+ calls it PARC. And they were building what is most considered the first computer, the
+ Alto computers. They were connecting line printers or fast printers to these. Xerox was building
+ the first laser printers and they needed something faster and so they just started building it.
+ And they built this thing called Ethernet. Now it's a little different than the Ethernet
+ that we see. The first Ethernet that they built is a little different. You can see a
+ picture of it down here. If you ever go to Xerox PARC and get in you'll go see this little
+ museum they have. It used a single piece of cable that ran along, they just ran it down
+ the hallway and they would connect a tap in and then they would use that to send the data.
+ So it would go down the hallway and a tap would come out in each office and they were
+ truly sharing the media. This is not shared except when you plug it into a hub, that's
+ what makes this shared. And it was inspired by an earlier wireless network where they
+ were doing not collision detection but retransmission called ALOHA. And a lot of early packet network
+ inspiration comes from the ALOHAnet from University of Hawaii. And because they didn't have anything
+ except wireless, but they did have wireless, they did a lot of really cool early research
+ on wireless. And so let's go ahead and meet Bob Metcalf, the inventor, one of the inventors
+ of Ethernet.

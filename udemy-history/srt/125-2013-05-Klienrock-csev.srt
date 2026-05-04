@@ -1,0 +1,476 @@
+1
+00:00:00,000 --> 00:00:05,800
+ So I was a student at MIT, and I was scheduled on the wonderful scholarship program supported
+
+2
+00:00:05,800 --> 00:00:11,680
+ by MIT Lincoln Labs to get a master's degree. And it was a very rigid schedule. You're going
+
+3
+00:00:11,680 --> 00:00:17,060
+ to be done in two years, get a job at Lincoln Lab, and do research. And so I was on the
+
+4
+00:00:17,060 --> 00:00:22,160
+ program, and I was one of the few people who actually finished on time. And as I was finishing,
+
+5
+00:00:22,160 --> 00:00:29,080
+ I scheduled to have my first child the summer of 1958, when we were going to be done. In
+
+6
+00:00:29,080 --> 00:00:35,280
+ that summer, my professor at the server mechanisms lab at MIT said, "You have to get a PhD."
+
+7
+00:00:35,280 --> 00:00:39,760
+ I said, "I don't want to get a PhD. I've done this program. I'm scheduled. My child
+
+8
+00:00:39,760 --> 00:00:44,240
+ has just been born. So you've got to do it." So I kept twisting my arm, and finally I said,
+
+9
+00:00:44,240 --> 00:00:47,920
+ "Okay, I'll do it. But I'm going to do it. I want to work on something that's really
+
+10
+00:00:47,920 --> 00:00:53,280
+ significant and not pittle around for the next three or four years." So I decided I'm
+
+11
+00:00:53,280 --> 00:00:58,640
+ going to work for the best professor I know at MIT, and that was Claude Shannon, the infamous,
+
+12
+00:00:58,640 --> 00:01:03,720
+ wonderful, magnificent person, Claude Shannon. So I called him up, and he brought me to his
+
+13
+00:01:03,720 --> 00:01:07,920
+ house, and we chatted a bit. Decided, yes, we're going to work together. The first thing
+
+14
+00:01:07,920 --> 00:01:12,240
+ I started working on, actually, was a chess playing program. Just working with a man was
+
+15
+00:01:12,240 --> 00:01:19,440
+ a delight. He was a great engineer, a great mathematician, smart as heck, could solve
+
+16
+00:01:19,440 --> 00:01:24,720
+ a problem like that. I looked around at my classmates, most of whom were working for
+
+17
+00:01:24,720 --> 00:01:28,880
+ him, and most of them were working on the kind of work he had developed, namely the
+
+18
+00:01:28,880 --> 00:01:35,760
+ field of information theory and coding theory. I looked at them, and I had taken those courses,
+
+19
+00:01:35,760 --> 00:01:39,780
+ and I said, "You know, the work that they're doing is the work that he left behind. Those
+
+20
+00:01:39,780 --> 00:01:44,480
+ problems that are left over are hard and probably not of great significance, little bits and
+
+21
+00:01:44,480 --> 00:01:49,480
+ pieces left." I said, "That's not what I signed up for. I wanted something to be fun,
+
+22
+00:01:49,480 --> 00:01:55,520
+ exciting, challenging, and have impact." Meanwhile, being at MIT and Lincoln Laboratory,
+
+23
+00:01:55,520 --> 00:02:00,600
+ I was surrounded by computers, and I recognized, you know, one day these computers are going
+
+24
+00:02:00,600 --> 00:02:04,920
+ to have to talk to each other, because this is way early. Nobody was thinking about that
+
+25
+00:02:04,920 --> 00:02:08,400
+ at the time, but I said, "If they're going to talk to each other, what technology would
+
+26
+00:02:08,400 --> 00:02:15,040
+ support their communication and their interaction?" And the answer is, there was nothing available.
+
+27
+00:02:15,040 --> 00:02:20,240
+ So I had an approach. I figured the way to provide the communications would be to provide
+
+28
+00:02:20,240 --> 00:02:26,280
+ the ability for shared communication links, because I knew that computers, when they talk,
+
+29
+00:02:26,280 --> 00:02:30,680
+ they don't talk the way I am now continuously. They go blast, and they're quiet for a while.
+
+30
+00:02:30,680 --> 00:02:35,840
+ Little while later, they suddenly come up and blast again. And you can't afford to dedicate
+
+31
+00:02:35,840 --> 00:02:41,280
+ a communications connection for something which is almost never talking. But when it
+
+32
+00:02:41,280 --> 00:02:46,240
+ wants to talk, it wants immediate access. So we had to not use the telephone network,
+
+33
+00:02:46,240 --> 00:02:50,640
+ which is designed for continuous talking, the circuit switch network, but something
+
+34
+00:02:50,640 --> 00:02:57,360
+ else. And I had an approach using some mathematical thinking, namely queuing theory. There was
+
+35
+00:02:57,360 --> 00:03:02,680
+ a model I could develop, and it just made sense to do that which we had done in time
+
+36
+00:03:02,680 --> 00:03:07,920
+ sharing. In time sharing, you have a big computer, and a lot of people share it. When you're
+
+37
+00:03:07,920 --> 00:03:13,580
+ using it, I'm not. When you're not, I am. So we sort of interlace each other. Why not
+
+38
+00:03:13,580 --> 00:03:19,080
+ use communications the same way? We're going to set up communications capability, let everybody
+
+39
+00:03:19,080 --> 00:03:23,580
+ jump in and share it, and they only get to use it when they have something to send. This
+
+40
+00:03:23,580 --> 00:03:28,360
+ is a new technology. So there's an approach. I have a mathematical tool to do it. It's
+
+41
+00:03:28,360 --> 00:03:32,800
+ clearly important. It will have impact. And nobody's looked at this yet, so there's a
+
+42
+00:03:32,800 --> 00:03:38,440
+ lot of low-hanging fruit around. It's not that hard. It's not that hard. So it's perfect
+
+43
+00:03:38,440 --> 00:03:44,420
+ for me. So I started working on that problem. Now, this was years before anybody needed
+
+44
+00:03:44,420 --> 00:03:49,360
+ this technology. In time sharing, for example, which is the underlying technology that I
+
+45
+00:03:49,360 --> 00:03:54,680
+ adapted to communications, in time sharing, you want to let the little jobs go before
+
+46
+00:03:54,680 --> 00:03:59,520
+ the big jobs. Why should a little guy wait a long time for a big job? He's just going
+
+47
+00:03:59,520 --> 00:04:04,080
+ to get in and get out. So when jobs come in, you ask them, "How long are you?" And they're
+
+48
+00:04:04,080 --> 00:04:07,940
+ all going to say, "I'm tiny." So you say, "Okay, you're tiny. I'll give you a little
+
+49
+00:04:07,940 --> 00:04:12,320
+ bit of time. And if you're tiny, you'll be out of there. No? I'll send you to the back
+
+50
+00:04:12,320 --> 00:04:18,080
+ of the queue and you get another tiny shot." The notion of round robin. So you get a little
+
+51
+00:04:18,080 --> 00:04:22,720
+ bit at a time. We're going to break you into little chunks. You get a chunk at a time.
+
+52
+00:04:22,720 --> 00:04:27,600
+ I said, "That's a great idea for sharing communications. We'll give everybody a little
+
+53
+00:04:27,600 --> 00:04:32,080
+ bit of communications time. The little ones will filter out. The short jobs will filter
+
+54
+00:04:32,080 --> 00:04:38,560
+ out." When I say job, I mean message. A short message will filter out. And the long ones
+
+55
+00:04:38,560 --> 00:04:42,200
+ will take a little longer. And they don't mind being interrupted by the little guys.
+
+56
+00:04:42,200 --> 00:04:47,380
+ The important thing in this technology was not to make the very short messages wait behind
+
+57
+00:04:47,380 --> 00:04:53,640
+ very long messages. This automatic round robin, which is now called packet switching, you
+
+58
+00:04:53,640 --> 00:04:58,600
+ chop things into fixed lengths. You give them a little bit. If that's not enough, give them
+
+59
+00:04:58,600 --> 00:05:04,240
+ another piece and they go flying through the network on their own. So the idea of packetizing
+
+60
+00:05:04,240 --> 00:05:08,480
+ was important. The idea of distributed control, the idea of large shared systems in which
+
+61
+00:05:08,480 --> 00:05:13,700
+ you get some terrific design benefits came along. And so this got published. McGraw-Hill
+
+62
+00:05:13,700 --> 00:05:16,400
+ book. Nobody cared.
+
+63
+00:05:16,400 --> 00:05:18,320
+ It got published early?
+
+64
+00:05:18,320 --> 00:05:24,480
+ Yeah. My dissertation ended in December '62. I graduated in June '63. This book was published
+
+65
+00:05:24,480 --> 00:05:25,480
+ in 1964.
+
+66
+00:05:25,480 --> 00:05:26,480
+ And nobody cared?
+
+67
+00:05:26,480 --> 00:05:30,880
+ Nobody cared. In fact, I went to AT&T, the biggest network at the time, and explained
+
+68
+00:05:30,880 --> 00:05:35,320
+ to them, "You guys ought to give us good data communications." And their answer was, "What
+
+69
+00:05:35,320 --> 00:05:39,080
+ are you talking about? The United States is a copper mine. It's full of telephone wires.
+
+70
+00:05:39,080 --> 00:05:44,800
+ Use that." And I said, "No, no. You don't understand. It takes you 35 seconds to set
+
+71
+00:05:44,800 --> 00:05:49,400
+ up a call. You charge me a minimum of three minutes, and I want to send 100 milliseconds
+
+72
+00:05:49,400 --> 00:05:55,760
+ of data." And their answer was, "Little boy, go away." So little boy went away and with
+
+73
+00:05:55,760 --> 00:06:00,300
+ others developed this technology which ate their lunch. But nobody cared. And they said
+
+74
+00:06:00,300 --> 00:06:05,240
+ it wouldn't work. And even if it did work, they want nothing to do with it. So that was
+
+75
+00:06:05,240 --> 00:06:10,580
+ the environment we faced. It wasn't until years later when the government decided they
+
+76
+00:06:10,580 --> 00:06:15,240
+ needed a network that suddenly I saw a way in which I could implement the technology
+
+77
+00:06:15,240 --> 00:06:16,680
+ I had.
+
+78
+00:06:16,680 --> 00:06:21,920
+ But getting back to what I said earlier, I set up this mathematical model. It was analytically
+
+79
+00:06:21,920 --> 00:06:26,960
+ intractable and still is, by the way. I had two choices. One is give up and find something
+
+80
+00:06:26,960 --> 00:06:33,920
+ else. Or two, make an assumption which allows me to move forward. So I introduced a mathematical
+
+81
+00:06:33,920 --> 00:06:39,280
+ assumption which cracked the problem wide open. From that point, I could just sail through
+
+82
+00:06:39,280 --> 00:06:45,840
+ the solution, get the performance behavior, get the design principles, going forward.
+
+83
+00:06:45,840 --> 00:06:48,200
+ But then the question is, was that assumption any good?
+
+84
+00:06:48,200 --> 00:06:50,120
+ What was the assumption?
+
+85
+00:06:50,120 --> 00:06:56,720
+ The assumption was what I call the independence assumption. And it's absolutely a false assumption.
+
+86
+00:06:56,720 --> 00:07:02,240
+ It says when a message travels through the network, it changes its length independently
+
+87
+00:07:02,240 --> 00:07:05,960
+ every time it hits a new node on its hop through the network.
+
+88
+00:07:05,960 --> 00:07:10,640
+ Mathematically, that creates an independence which allows you to proceed with the analysis.
+
+89
+00:07:10,640 --> 00:07:12,760
+ But it's clearly not true.
+
+90
+00:07:12,760 --> 00:07:18,240
+ So what I had to do was to simulate a network with and without the assumption. I simulated
+
+91
+00:07:18,240 --> 00:07:24,320
+ many networks on a machine at Lincoln Laboratory on the TX2 transistorized computer there.
+
+92
+00:07:24,320 --> 00:07:30,280
+ And I spent four months writing the simulation program without debugging a single line of
+
+93
+00:07:30,280 --> 00:07:38,920
+ it at a 2,500 line assembly language simulation. And I knew if I didn't get that simulation
+
+94
+00:07:38,920 --> 00:07:44,880
+ right, I would get no dissertation. Ran it, tested with and without the assumption, and
+
+95
+00:07:44,880 --> 00:07:50,480
+ the results were amazingly close. So I had my solution. I could prove it would work.
+
+96
+00:07:50,480 --> 00:07:54,240
+ The package wouldn't fall on the floor. I could tell when things would work well and
+
+97
+00:07:54,240 --> 00:07:58,440
+ when they wouldn't. Got published. Again, still nobody cared about it.
+
+98
+00:07:58,440 --> 00:08:02,080
+ As I said, Lincoln Laboratory sent me for my master's dissertation. They also sent me
+
+99
+00:08:02,080 --> 00:08:09,440
+ for my PhD. So they supported me for years. Wonderful economic, financial, research environment
+
+100
+00:08:09,440 --> 00:08:14,360
+ support. And I felt an obligation to work for them. And I was prepared to take a job
+
+101
+00:08:14,360 --> 00:08:21,160
+ at Lincoln Laboratory, which is a great institution. And so when I went to work there, the first
+
+102
+00:08:21,160 --> 00:08:25,660
+ thing they said is, "Look, Glenn, why don't you look outside before you can commit to
+
+103
+00:08:25,660 --> 00:08:30,080
+ work here? Make sure there's nothing out there that you really would like better."
+
+104
+00:08:30,080 --> 00:08:37,420
+ This was a magnificent step on their part. So I took a trip to the West Coast. I went
+
+105
+00:08:37,420 --> 00:08:44,140
+ to some of the aerospace companies. I was not interested in university position at all.
+
+106
+00:08:44,140 --> 00:08:47,560
+ But it turns out when I was going up to San Francisco to look at some of the high-tech
+
+107
+00:08:47,560 --> 00:08:55,520
+ companies up there, a friend of mine suggested I interview with Berkeley. So I did. I interviewed.
+
+108
+00:08:55,520 --> 00:09:02,320
+ I came back. They lost my case. They changed the chairman. I never heard from them. But
+
+109
+00:09:02,320 --> 00:09:06,200
+ on sabbatical, one of the professors that interviewed me came to MIT. Well, I was just
+
+110
+00:09:06,200 --> 00:09:11,140
+ finishing my PhD then. And he sees me in the hall and says, "Cleanrock, how are you?"
+
+111
+00:09:11,140 --> 00:09:16,840
+ And he thinks that I'm looking for an academic position. So he contacts one of his friends
+
+112
+00:09:16,840 --> 00:09:23,080
+ here at UCLA, who then invites me out here, offers me a job. And now I've got a dilemma.
+
+113
+00:09:23,080 --> 00:09:27,280
+ Do I want to teach? Do I want to cross the United States? It's almost like on a wagon
+
+114
+00:09:27,280 --> 00:09:33,400
+ train 3,000 miles away from the East Coast, where the world is, family is, for a job paying
+
+115
+00:09:33,400 --> 00:09:40,240
+ half that I could earn back at MIT Lincoln Labs and try something I've never tried before.
+
+116
+00:09:40,240 --> 00:09:44,640
+ So I went to the books at Lincoln Lab and I said, "Look, I've got this offer. It looks
+
+117
+00:09:44,640 --> 00:09:50,640
+ attractive. It's a new challenge. What should I do?" And there was a wonderful answer they
+
+118
+00:09:50,640 --> 00:09:57,760
+ gave. They said, "Lenn, try it. If you don't like it, come back." Wow is right. Well, I
+
+119
+00:09:57,760 --> 00:10:02,120
+ came here in August of '63, 50 years ago, and I'm still here.
+

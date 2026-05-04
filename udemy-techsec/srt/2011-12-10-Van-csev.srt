@@ -1,0 +1,696 @@
+1
+00:00:00,000 --> 00:00:21,000
+ [ Music ]
+
+2
+00:00:21,000 --> 00:00:23,360
+ >> There were lots of campus Ethernet's
+
+3
+00:00:23,360 --> 00:00:25,160
+ because they were really easy to deploy
+
+4
+00:00:25,160 --> 00:00:27,760
+ and you could put them in a department
+
+5
+00:00:27,760 --> 00:00:30,720
+ and then you could run a wire between two departments
+
+6
+00:00:30,720 --> 00:00:35,400
+ and you had a bigger network and so we've grown up networks sort
+
+7
+00:00:35,400 --> 00:00:41,680
+ of by agglomeration in lots of different university campuses
+
+8
+00:00:41,680 --> 00:00:48,840
+ and NSF came up with some money, said, oh, we've got a little bit
+
+9
+00:00:48,840 --> 00:00:51,960
+ in our budget where we could get some 56 kilobit lines
+
+10
+00:00:51,960 --> 00:00:57,200
+ and tie those campuses together and they did that,
+
+11
+00:00:57,200 --> 00:01:00,000
+ made the NSF met phase one.
+
+12
+00:01:00,000 --> 00:01:05,120
+ But now you're tying together 10 megabit campus infrastructure
+
+13
+00:01:05,120 --> 00:01:13,040
+ with 56 kilobit wires and it was wildly popular because people
+
+14
+00:01:13,040 --> 00:01:15,120
+ that couldn't talk could suddenly talk
+
+15
+00:01:15,120 --> 00:01:19,440
+ and they're sending emails and moving huge files
+
+16
+00:01:19,440 --> 00:01:23,880
+ and everybody's really excited about this technology.
+
+17
+00:01:23,880 --> 00:01:32,000
+ But any one of those campuses could oversubscribe the net
+
+18
+00:01:32,000 --> 00:01:34,000
+ by a factor of a thousand.
+
+19
+00:01:34,000 --> 00:01:39,640
+ So we had a lot of packets piling up and getting dropped.
+
+20
+00:01:39,640 --> 00:01:44,560
+ At the time I was a researcher at Lawrence Berkeley Lab,
+
+21
+00:01:44,560 --> 00:01:48,200
+ which is in the hills up above the Berkeley campus
+
+22
+00:01:48,200 --> 00:01:53,440
+ and I was also teaching on the Berkeley campus.
+
+23
+00:01:53,440 --> 00:02:01,440
+ Even back in those days, which was mid '80s, we had a,
+
+24
+00:02:01,440 --> 00:02:04,880
+ for every class there was a messages group, you know,
+
+25
+00:02:04,880 --> 00:02:06,560
+ like a little news group that was set up.
+
+26
+00:02:06,560 --> 00:02:10,960
+ All the assignments would be put online and I was trying
+
+27
+00:02:10,960 --> 00:02:16,520
+ to get course materials from my office in LBL down to a machine
+
+28
+00:02:16,520 --> 00:02:23,040
+ in Evans Hall at Berkeley and there was like zero throughput
+
+29
+00:02:23,040 --> 00:02:27,480
+ in the net, it was one packet every 10 minutes or so
+
+30
+00:02:27,480 --> 00:02:35,240
+ and it seemed unbelievably bad and I went down and talked
+
+31
+00:02:35,240 --> 00:02:40,840
+ to Mike Carroll who was heading the BSD group,
+
+32
+00:02:40,840 --> 00:02:43,360
+ the people that developed Berkeley Unix
+
+33
+00:02:43,360 --> 00:02:48,560
+ and he's getting reports of these problems from all
+
+34
+00:02:48,560 --> 00:02:52,120
+ over the country from, in those days,
+
+35
+00:02:52,120 --> 00:02:54,880
+ the easiest way to start running TCP/IP was to bring
+
+36
+00:02:54,880 --> 00:02:59,960
+ up Berkeley Unix because there was a ARPA funded very nice
+
+37
+00:02:59,960 --> 00:03:04,920
+ implementation in it and everybody was seeing poor
+
+38
+00:03:04,920 --> 00:03:11,960
+ performance so we talked for a long time that day
+
+39
+00:03:11,960 --> 00:03:15,160
+ and on succeeding days about, well, what's going wrong,
+
+40
+00:03:15,160 --> 00:03:18,320
+ is there some mistake in the protocol implementation,
+
+41
+00:03:18,320 --> 00:03:21,840
+ is there some mistake in the protocol,
+
+42
+00:03:21,840 --> 00:03:27,000
+ this thing was working on smaller scale tests
+
+43
+00:03:27,000 --> 00:03:28,880
+ and then it suddenly fell apart.
+
+44
+00:03:28,880 --> 00:03:35,520
+ I think we struggled for three or four months just going
+
+45
+00:03:35,520 --> 00:03:40,920
+ through the code, writing tools to capture packet traces
+
+46
+00:03:40,920 --> 00:03:43,320
+ and looking at the packet traces and trying
+
+47
+00:03:43,320 --> 00:03:50,520
+ to sort out what was breaking and I remember the two
+
+48
+00:03:50,520 --> 00:03:54,800
+ of us were sitting in Mike's office after we'd been pounding
+
+49
+00:03:54,800 --> 00:03:58,440
+ our head against the wall for literally months and one
+
+50
+00:03:58,440 --> 00:04:01,440
+ of us, I can't remember which one, said, "You know,
+
+51
+00:04:01,440 --> 00:04:03,760
+ the reason I can't figure out why it's breaking is
+
+52
+00:04:03,760 --> 00:04:06,920
+ I don't understand how it ever worked."
+
+53
+00:04:06,920 --> 00:04:11,560
+ You know, we're sending these bits out at 10 megabits,
+
+54
+00:04:11,560 --> 00:04:14,440
+ they're zipping across campus, they're running
+
+55
+00:04:14,440 --> 00:04:18,840
+ into this 56 kilobit wire, we expect them to go
+
+56
+00:04:18,840 --> 00:04:21,600
+ through that wire, pop out on the other side, go through.
+
+57
+00:04:21,600 --> 00:04:25,280
+ How could that function?
+
+58
+00:04:25,280 --> 00:04:30,000
+ That turned out to be the crucial starting point.
+
+59
+00:04:30,000 --> 00:04:37,080
+ At that point, we started saying, "Well, what is there
+
+60
+00:04:37,080 --> 00:04:39,160
+ about this protocol that makes it work?
+
+61
+00:04:39,160 --> 00:04:42,360
+ How does it deal with all of those bandwidth changes?
+
+62
+00:04:42,360 --> 00:04:45,320
+ How does it deal with the multiple hops?"
+
+63
+00:04:45,320 --> 00:04:50,600
+ So this picture, that direction is time,
+
+64
+00:04:50,600 --> 00:04:52,120
+ this direction is bandwidth.
+
+65
+00:04:52,120 --> 00:04:55,040
+ So that's a fat pipe and that's a skinny pipe.
+
+66
+00:04:55,040 --> 00:04:58,760
+ And the scale of the time is, you know,
+
+67
+00:04:58,760 --> 00:05:02,520
+ this is a 10 megabit pipe and this is a 56 kilobit pipe.
+
+68
+00:05:02,520 --> 00:05:06,920
+ So here the difference is about 3 to 1,
+
+69
+00:05:06,920 --> 00:05:10,440
+ it was really closer to 100 to 1.
+
+70
+00:05:10,440 --> 00:05:17,200
+ And time, seconds times bits per second equals bits.
+
+71
+00:05:17,200 --> 00:05:23,000
+ So each of these little boxes in there is a packet,
+
+72
+00:05:23,000 --> 00:05:25,080
+ it's the number of bits in a packet.
+
+73
+00:05:25,080 --> 00:05:29,600
+ And if you scrunch it down in bandwidth, it's got to spread
+
+74
+00:05:29,600 --> 00:05:32,960
+ out in time because the number of bits doesn't change.
+
+75
+00:05:32,960 --> 00:05:38,840
+ And so see the burst of packets,
+
+76
+00:05:38,840 --> 00:05:41,960
+ the window's worth of packets gets launched, it's going to fly
+
+77
+00:05:41,960 --> 00:05:45,960
+ through the net until it hits this fast to slow transition.
+
+78
+00:05:45,960 --> 00:05:49,760
+ And then because the packets have to stretch out in time,
+
+79
+00:05:49,760 --> 00:05:52,440
+ they all have to sit there and wait as they're fed
+
+80
+00:05:52,440 --> 00:05:54,280
+ into the slower wire.
+
+81
+00:05:54,280 --> 00:06:02,320
+ And you, they pop out the other side, they get spread
+
+82
+00:06:02,320 --> 00:06:05,480
+ out by this bottleneck, by this slower wire.
+
+83
+00:06:05,480 --> 00:06:08,440
+ Once they're spread out, they stay spread out, right?
+
+84
+00:06:08,440 --> 00:06:11,720
+ There's nothing to push them back together again.
+
+85
+00:06:11,720 --> 00:06:16,840
+ They hit a receiver, it turns every data packet into an ACK.
+
+86
+00:06:16,840 --> 00:06:18,040
+ So you've got a bunch of ACKs
+
+87
+00:06:18,040 --> 00:06:20,000
+ that are going back towards the sender
+
+88
+00:06:20,000 --> 00:06:22,760
+ and they remember what's the right spacing
+
+89
+00:06:22,760 --> 00:06:24,920
+ for that bottleneck.
+
+90
+00:06:24,920 --> 00:06:29,320
+ So the ACKs get back to the sender
+
+91
+00:06:29,320 --> 00:06:31,840
+ and every ACK gets turned into a data packet.
+
+92
+00:06:31,840 --> 00:06:34,960
+ So we can see the data packets flowing back.
+
+93
+00:06:34,960 --> 00:06:39,400
+ And this is after one round trip time.
+
+94
+00:06:39,400 --> 00:06:43,600
+ Now the packets are coming out perfectly spaced so they go by,
+
+95
+00:06:43,600 --> 00:06:48,720
+ a new one goes into the net in exactly the time it takes a
+
+96
+00:06:48,720 --> 00:06:51,680
+ packet to exit from the bottleneck.
+
+97
+00:06:51,680 --> 00:06:54,800
+ So these ACKs are sort of acting as a clock
+
+98
+00:06:54,800 --> 00:06:58,120
+ that tells you, tells the sender when it's safe
+
+99
+00:06:58,120 --> 00:07:00,080
+ to inject every new packet.
+
+100
+00:07:00,080 --> 00:07:02,160
+ And they're always going to be spaced
+
+101
+00:07:02,160 --> 00:07:04,200
+ by whatever is the slowest point in the net.
+
+102
+00:07:04,200 --> 00:07:06,480
+ >> And the key thing is, is how do you, how quick,
+
+103
+00:07:06,480 --> 00:07:08,000
+ how can you get the steady state sort
+
+104
+00:07:08,000 --> 00:07:09,600
+ of most quickly without wasting?
+
+105
+00:07:09,600 --> 00:07:14,880
+ >> Yeah. And the issue, the failure we saw was,
+
+106
+00:07:14,880 --> 00:07:19,320
+ this works perfectly after you've exchanged a round trip
+
+107
+00:07:19,320 --> 00:07:21,440
+ time worth of packets.
+
+108
+00:07:21,440 --> 00:07:26,200
+ But when you're starting up, when you're here,
+
+109
+00:07:26,200 --> 00:07:27,880
+ there's no clock.
+
+110
+00:07:27,880 --> 00:07:31,560
+ And so the hard part on TCP is not getting it running,
+
+111
+00:07:31,560 --> 00:07:34,760
+ it's getting it started because once you've got it running,
+
+112
+00:07:34,760 --> 00:07:37,520
+ you've got a clock that tells you exactly what to do.
+
+113
+00:07:37,520 --> 00:07:40,080
+ So if you turn them on, suddenly you get
+
+114
+00:07:40,080 --> 00:07:42,400
+ in this repetitive failure mode
+
+115
+00:07:42,400 --> 00:07:45,920
+ where you saturate the buffering that was available
+
+116
+00:07:45,920 --> 00:07:48,440
+ at some gateway and then when you retransmit,
+
+117
+00:07:48,440 --> 00:07:49,560
+ you do the same thing again.
+
+118
+00:07:49,560 --> 00:07:51,640
+ So you're always losing packets.
+
+119
+00:07:51,640 --> 00:07:54,800
+ But if you turned it on more gradually,
+
+120
+00:07:54,800 --> 00:07:57,440
+ then you wouldn't overload the buffering and you'd get enough
+
+121
+00:07:57,440 --> 00:08:01,360
+ of a clock going so that you control the amount
+
+122
+00:08:01,360 --> 00:08:05,080
+ of backlog to fit the available buffer
+
+123
+00:08:05,080 --> 00:08:07,520
+ but you'd still be growing the number of packets in flight
+
+124
+00:08:07,520 --> 00:08:11,120
+ so that you'd eventually get a, you'd start with a kind
+
+125
+00:08:11,120 --> 00:08:13,760
+ of sporadic clock but you'd eventually fill in the details
+
+126
+00:08:13,760 --> 00:08:15,720
+ and get a per packet clock.
+
+127
+00:08:15,720 --> 00:08:17,920
+ >> How did you get it to the point where it was
+
+128
+00:08:17,920 --> 00:08:20,640
+ in all the TCP/IP implementations on the planet?
+
+129
+00:08:20,640 --> 00:08:22,960
+ Because they kind of have to cooperate in a way.
+
+130
+00:08:22,960 --> 00:08:25,880
+ >> So remember it was a much simpler time when you're talking
+
+131
+00:08:25,880 --> 00:08:30,040
+ about all the TCP/IP implementations on the planet.
+
+132
+00:08:30,040 --> 00:08:32,360
+ At that time there were like four.
+
+133
+00:08:32,360 --> 00:08:34,480
+ So there was the Berkeley Unix one.
+
+134
+00:08:34,480 --> 00:08:36,520
+ There was the MIT PCTCP.
+
+135
+00:08:36,520 --> 00:08:41,440
+ There was a BBN one that was used in butterflies and imps
+
+136
+00:08:41,440 --> 00:08:44,520
+ and there was a Multics one.
+
+137
+00:08:44,520 --> 00:08:51,720
+ I took the couple of TCP kernel modules that we'd been working
+
+138
+00:08:51,720 --> 00:08:53,880
+ on, packaged them up in a tar.
+
+139
+00:08:53,880 --> 00:08:58,560
+ I had this horrible driver hack that would let us snarf packets
+
+140
+00:08:58,560 --> 00:09:02,400
+ from the kernel, I mean it was really a horrible driver hack.
+
+141
+00:09:02,400 --> 00:09:06,160
+ It was the way you said what you wanted to snarf was by ADB
+
+142
+00:09:06,160 --> 00:09:11,600
+ in the kernel you wrote in binary some new values.
+
+143
+00:09:11,600 --> 00:09:13,160
+ These are the ports that I want to look at
+
+144
+00:09:13,160 --> 00:09:15,560
+ and the driver would capture those into a circular buffer
+
+145
+00:09:15,560 --> 00:09:21,960
+ and you'd read kernel memory to pull that buffer out.
+
+146
+00:09:21,960 --> 00:09:27,200
+ Craig Laris and Chris Torak who were working in my group
+
+147
+00:09:27,200 --> 00:09:35,440
+ at LBL and were both long-time kernel hackers were just
+
+148
+00:09:35,440 --> 00:09:39,760
+ embarrassed at this and they put together a really nice clean
+
+149
+00:09:39,760 --> 00:09:44,000
+ driver thing called BPF, the Berkeley Packet Filter
+
+150
+00:09:44,000 --> 00:09:46,880
+ that would let you pull packets out of the kernel
+
+151
+00:09:46,880 --> 00:09:51,160
+ by a very efficient I/O control interface.
+
+152
+00:09:51,160 --> 00:10:00,640
+ And so we bundled all of that up and on the TCP/IP mailing list
+
+153
+00:10:00,640 --> 00:10:05,800
+ which in those days was, TCP/IP was very experimental,
+
+154
+00:10:05,800 --> 00:10:08,600
+ it was very leading edge and pretty much everybody
+
+155
+00:10:08,600 --> 00:10:10,760
+ who was playing with it was on that mailing list
+
+156
+00:10:10,760 --> 00:10:13,320
+ to announce that this stuff was available.
+
+157
+00:10:13,320 --> 00:10:20,160
+ A bunch of people FTPed it, tried it, it blew up,
+
+158
+00:10:20,160 --> 00:10:22,040
+ sent kernel core dumps and bug reports
+
+159
+00:10:22,040 --> 00:10:27,440
+ and fixed the bug reports and put new versions out.
+
+160
+00:10:27,440 --> 00:10:30,240
+ Somebody would immediately come back and say, panicked here,
+
+161
+00:10:30,240 --> 00:10:32,040
+ do you want the K-Core?
+
+162
+00:10:32,040 --> 00:10:37,120
+ And they'd go, oh no, embarrassed, put out a new version,
+
+163
+00:10:37,120 --> 00:10:40,400
+ go out, somebody else would come back and say panicked here
+
+164
+00:10:40,400 --> 00:10:44,520
+ and fix that and just cycled like that and after about a day
+
+165
+00:10:44,520 --> 00:10:46,520
+ we got a version that didn't immediately panic
+
+166
+00:10:46,520 --> 00:10:51,560
+ and then started working on the actual algorithms
+
+167
+00:10:51,560 --> 00:10:53,760
+ and a little bit of tuning to make sure
+
+168
+00:10:53,760 --> 00:10:59,080
+ that it actually did good all the time and didn't do any harm.
+
+169
+00:10:59,080 --> 00:11:02,440
+ Just completely a community effort
+
+170
+00:11:02,440 --> 00:11:09,320
+ and sort of when the community was saying,
+
+171
+00:11:09,320 --> 00:11:15,280
+ this mostly does good and never seems to do harm,
+
+172
+00:11:15,280 --> 00:11:20,040
+ that's pretty much what Mike needed to put it into the kernel
+
+173
+00:11:20,040 --> 00:11:23,280
+ so he took the community-developed modules
+
+174
+00:11:23,280 --> 00:11:25,080
+ and rolled them into the BSD release.
+

@@ -1,0 +1,84 @@
+1
+00:00:00,000 --> 00:00:05,580
+ Hello and welcome to my Internet History course. My name is Charles Severance and I'm a faculty
+
+2
+00:00:05,580 --> 00:00:09,900
+ member at the University of Michigan School of Information. I've been working on this
+
+3
+00:00:09,900 --> 00:00:15,920
+ material for nearly 30 years. For me, it goes back to the mid-1990s, just when the Internet
+
+4
+00:00:15,920 --> 00:00:20,360
+ was getting started. At that time, I had a wonderful chance to work with some friends
+
+5
+00:00:20,360 --> 00:00:26,280
+ to produce a television show about the Internet. We didn't know what it would become, so we
+
+6
+00:00:26,280 --> 00:00:32,020
+ went around filming people, capturing ideas, and collecting what turned out to be a nice
+
+7
+00:00:32,020 --> 00:00:37,340
+ informal history of the early Internet. Around that same time, I was also experimenting with
+
+8
+00:00:37,340 --> 00:00:42,320
+ teaching using the Internet. In fact, I was one of the first professors in the world to
+
+9
+00:00:42,320 --> 00:00:49,200
+ stream a four-credit semester-long class entirely online. It was so early I couldn't even stream
+
+10
+00:00:49,200 --> 00:00:54,680
+ video the first semester, just audio, slides, and a scary picture of me in the upper left
+
+11
+00:00:54,680 --> 00:01:00,280
+ hand corner. Over the years, I kept collecting stories and building teaching tools and interviewing
+
+12
+00:01:00,280 --> 00:01:04,300
+ people that helped create the Internet. And all that came together in the original version
+
+13
+00:01:04,300 --> 00:01:11,960
+ of this course in 2013. This latest version is updated and refined. The idea behind this
+
+14
+00:01:11,960 --> 00:01:19,940
+ course is simple. You can't really understand technology without understanding its history.
+
+15
+00:01:19,940 --> 00:01:26,160
+ Technology evolves over time, shaped by people, constraints, opportunities, and decisions
+
+16
+00:01:26,160 --> 00:01:32,000
+ that don't always seem important at the moment. This course grew out of a Python class I also
+
+17
+00:01:32,000 --> 00:01:37,080
+ taught for many years in the mid-2000s. Right after a difficult midterm exam, I would give
+
+18
+00:01:37,080 --> 00:01:42,840
+ the students a break from programming and step back and give their learning a larger
+
+19
+00:01:42,840 --> 00:01:49,080
+ context. So that's the history. That's the backstory. Now let's get started. And we'll
+
+20
+00:01:49,080 --> 00:01:56,440
+ begin with what I think of as the beginning. Codebreaking at Bletchley Park, in the 1940s,
+
+21
+00:01:56,440 --> 00:01:58,160
+ just north of London, England.
+

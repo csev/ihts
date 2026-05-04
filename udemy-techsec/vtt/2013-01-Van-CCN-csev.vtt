@@ -1,0 +1,317 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:22.500
+ We're having massive scaling problems today, trying to join together the very information-centric
+
+00:00:22.500 --> 00:00:29.860
+ web model with the very host-centric TCP/IP model.
+
+00:00:29.860 --> 00:00:39.000
+ If you look at how the net has evolved, it started as a telephone system for computers.
+
+00:00:39.000 --> 00:00:46.280
+ The model was computers wanted to exchange data, people wanted their computers to be
+
+00:00:46.280 --> 00:00:48.660
+ able to exchange data.
+
+00:00:48.660 --> 00:00:57.940
+ The model we had for communication for 140 years had been the phone system.
+
+00:00:57.940 --> 00:01:02.900
+ So we said, "Okay, they want to have a conversation, because communication is conversation over
+
+00:01:02.900 --> 00:01:04.520
+ long distances.
+
+00:01:04.520 --> 00:01:13.580
+ And so let's make protocols and infrastructure that allows computers to have a conversation."
+
+00:01:13.580 --> 00:01:21.420
+ First cut of that, things like the ARPANET networks that would handle different bandwidths.
+
+00:01:21.420 --> 00:01:28.200
+ They didn't require all of the global clock distribution of a telephony network, instead
+
+00:01:28.200 --> 00:01:33.360
+ they substituted buffering.
+
+00:01:33.360 --> 00:01:41.680
+ One crucial thing coming out of Paul Barron was, unlike the phone system where the communication
+
+00:01:41.680 --> 00:01:47.800
+ was all about building a wire, you know, hop by hop, link by link between the two endpoints,
+
+00:01:47.800 --> 00:01:55.000
+ he was basically instructing the switching system how to make one long wire, Paul said,
+
+00:01:55.000 --> 00:01:59.440
+ "Don't do it that way, just identify the endpoints and let the network take care of getting the
+
+00:01:59.440 --> 00:02:00.440
+ data there."
+
+00:02:00.440 --> 00:02:05.480
+ So this is great, it's just completely changed the world.
+
+00:02:05.480 --> 00:02:12.160
+ But the bulk of that change didn't happen in the 70s and 80s and early 90s when the
+
+00:02:12.160 --> 00:02:16.800
+ net was first growing out, it happened in the late 90s and the 2000s when the web took
+
+00:02:16.800 --> 00:02:17.800
+ off.
+
+00:02:17.800 --> 00:02:23.620
+ And it had nothing whatsoever to do with computers having a conversation model, it had to do
+
+00:02:23.620 --> 00:02:27.280
+ with people creating and consuming content.
+
+00:02:27.280 --> 00:02:37.760
+ And the web sort of showed us for the first time what happens if we leave behind this
+
+00:02:37.760 --> 00:02:45.520
+ 18th century model of telephony and instead we start to look at not the wires but the
+
+00:02:45.520 --> 00:02:47.400
+ information in the wires.
+
+00:02:47.400 --> 00:02:53.160
+ And the web gave us a structure where you could name information, not the process of
+
+00:02:53.160 --> 00:02:57.480
+ getting it, but the information itself, say, "I want this webpage, I want this YouTube
+
+00:02:57.480 --> 00:03:05.760
+ video, I want this Amazon personal page," and you would get back a set of content, some
+
+00:03:05.760 --> 00:03:09.120
+ thing that represented that name that you gave.
+
+00:03:09.120 --> 00:03:18.920
+ But if we recast the way we think about the low-level infrastructure, don't say the web
+
+00:03:18.920 --> 00:03:27.360
+ is an overlay on top of TCP/IP, which is the way it's implemented today, but say if 99%
+
+00:03:27.360 --> 00:03:33.040
+ plus of what we do is web-like stuff, is there a model that lets us do the same stuff at
+
+00:03:33.040 --> 00:03:34.040
+ the packet level?
+
+00:03:34.040 --> 00:03:39.520
+ So we make it the basis of our communication rather than saying it has to be an overlay.
+
+00:03:39.520 --> 00:03:44.480
+ So you can create videos, you can put them on your own website, and you have to pray
+
+00:03:44.480 --> 00:03:50.200
+ that they never get popular because if they get popular, your ISP is almost immediately
+
+00:03:50.200 --> 00:03:54.880
+ going to shut you down because your link will be completely saturated, what we used to call
+
+00:03:54.880 --> 00:03:56.880
+ the slash dot effect.
+
+00:03:56.880 --> 00:03:59.500
+ That's intrinsic to the conversational model.
+
+00:03:59.500 --> 00:04:04.260
+ We don't do broadcast TV by making phone calls to a TV station.
+
+00:04:04.260 --> 00:04:09.640
+ If you want to put media distribution over TCP/IP, you have to figure out some way to
+
+00:04:09.640 --> 00:04:18.320
+ lie to the network so that YouTube.com, which TCP thinks is a location, is identified by
+
+00:04:18.320 --> 00:04:22.840
+ an IP address, you've got to make sure that it's not a location, that it's spread across
+
+00:04:22.840 --> 00:04:24.520
+ the entire planet.
+
+00:04:24.520 --> 00:04:33.640
+ So while we spent most of the '90s growing the internet and having the protocols work
+
+00:04:33.640 --> 00:04:41.680
+ for us, now if you look at YouTube, Google, Amazon, Facebook, Twitter, all of these very
+
+00:04:41.680 --> 00:04:50.560
+ heavily used services that manifest themselves to the net as an IP address, looks like a
+
+00:04:50.560 --> 00:04:58.240
+ single location, but if they're a single location with hundreds of millions of users, the traffic
+
+00:04:58.240 --> 00:05:03.200
+ in a conversational model always scales like the popularity, it scales like the number
+
+00:05:03.200 --> 00:05:04.200
+ of consumers.
+
+00:05:04.200 --> 00:05:12.860
+ If you're doing a Twitter update or a video that wants to be seen by millions, you can't
+
+00:05:12.860 --> 00:05:17.560
+ deploy it in a conversational model, and we spend all our time fooling the net.
+
+00:05:17.560 --> 00:05:22.360
+ Information that's sort of qualitatively the same, it's all naming or identity information,
+
+00:05:22.360 --> 00:05:25.680
+ but it's spread randomly across the whole damn packet.
+
+00:05:25.680 --> 00:05:30.840
+ So we've got source and destination addresses that conventionally we think of as layer three,
+
+00:05:30.840 --> 00:05:38.080
+ and so it's up at front to be used by the network layer, and then we've got ports that
+
+00:05:38.080 --> 00:05:41.820
+ are layer four, and so they're a little bit deeper in because they're supposed to be used
+
+00:05:41.820 --> 00:05:46.440
+ by the end node for its demoxing to get you to a particular application.
+
+00:05:46.440 --> 00:05:52.200
+ And inside of that, we've got sequence numbers, which are being used when you get to the application
+
+00:05:52.200 --> 00:05:58.400
+ for it to reassemble the larger unit, and inside of that, we've got URLs, which are
+
+00:05:58.400 --> 00:06:04.640
+ used by a higher level part of the application, the non-transport part of the application.
+
+00:06:04.640 --> 00:06:08.960
+ You've just got all of this information, it's all fundamentally name information.
+
+00:06:08.960 --> 00:06:10.760
+ What do these bits mean?
+
+00:06:10.760 --> 00:06:17.600
+ If you pull together the source addresses, the ports, the sequence numbers, the URLs,
+
+00:06:17.600 --> 00:06:24.320
+ they all give you context for the information, they're all the name of the information.
+
+00:06:24.320 --> 00:06:31.600
+ Rather than having Amazon's load balancer, which is trying to figure out, all right,
+
+00:06:31.600 --> 00:06:38.880
+ which of my 50,000 unused machines is currently handling this customer's request, so I have
+
+00:06:38.880 --> 00:06:42.880
+ to look at the addresses, I have to look at the ports, I have to look at the sequence
+
+00:06:42.880 --> 00:06:46.600
+ numbers, I have to look at the cookies in order to dispatch the sucker to where it's
+
+00:06:46.600 --> 00:06:47.600
+ going.
+
+00:06:47.600 --> 00:06:52.400
+ What if I say packets have a name on the front, and all of that information just gets collected
+
+00:06:52.400 --> 00:06:57.320
+ to the name, and at any point in the network, you look at as much of that name as you need
+
+00:06:57.320 --> 00:06:59.080
+ to look at to do your job.
+
+00:06:59.080 --> 00:07:03.640
+ If just the front part will work, because all you're doing is gross level story, just
+
+00:07:03.640 --> 00:07:05.500
+ look at the front.
+
+00:07:05.500 --> 00:07:09.240
+ If you need to look at more of it, we don't have layers.
+
+00:07:09.240 --> 00:07:14.860
+ What we have is a set of structured information.
+
+00:07:14.860 --> 00:07:18.080
+ We know that we're going to be looking at different parts of it for different reasons,
+
+00:07:18.080 --> 00:07:24.080
+ so we put topologically sensitive information like amazon.com, stick that at the front,
+
+00:07:24.080 --> 00:07:29.920
+ because you can use that to make scalable routing tables.
+
+00:07:29.920 --> 00:07:35.200
+ When it gets there, we don't want to say there's a transport protocol and there's various layers,
+
+00:07:35.200 --> 00:07:39.240
+ just say, "Yeah, there's a job that I'm doing when I get to amazon.com, and it requires
+
+00:07:39.240 --> 00:07:41.160
+ me to look at this much."
+
+00:07:41.160 --> 00:07:49.640
+ If you don't care where you're getting the data, if all that matters to you is what the
+
+00:07:49.640 --> 00:07:58.360
+ data is, not where it comes from, then all of this memory that has to be in the network
+
+00:07:58.360 --> 00:08:06.800
+ as buffering in order to manage the multiplexing of the network, suddenly that becomes a viable
+
+00:08:06.800 --> 00:08:08.040
+ source of data.
+
+00:08:08.040 --> 00:08:15.000
+ The way it happens today is you're watching a YouTube video, that means the bits leave
+
+00:08:15.000 --> 00:08:19.640
+ some server at YouTube, they go into the downstream gateway's memory, they get pulled out of that
+
+00:08:19.640 --> 00:08:24.080
+ memory, put into a wire, go into the next top gateway's memory, and they're bouncing
+
+00:08:24.080 --> 00:08:29.760
+ memory to memory through all these interconnecting wires until they get to you.
+
+00:08:29.760 --> 00:08:37.020
+ If the two of us are watching the same video, then the immediate upstream gateway gets one
+
+00:08:37.020 --> 00:08:43.240
+ copy of the video going to me, and another separate copy of exactly the same video going
+
+00:08:43.240 --> 00:08:46.520
+ to you.
+
+00:08:46.520 --> 00:08:52.720
+ They both went through that gateway's memory.
+
+00:08:52.720 --> 00:08:57.560
+ Is it this conversational abstraction that we're putting on because the gateway doesn't
+
+00:08:57.560 --> 00:09:00.360
+ know that we're consuming the same content?
+
+00:09:00.360 --> 00:09:03.000
+ What it sees is two different conversations.
+
+00:09:03.000 --> 00:09:07.720
+ It can't look in its memory and say, "Oh, I've got that, I can give it to you."
+
+00:09:07.720 --> 00:09:13.240
+ You have to fetch a new copy and you have to fetch it all the way from YouTube.
+
+00:09:13.240 --> 00:09:22.960
+ That's what's giving us the abysmal scaling is having the load scale like the popularity
+
+00:09:22.960 --> 00:09:29.060
+ is strictly a function of the data can only originate at one place.
+
+00:09:29.060 --> 00:09:34.040
+ If you just care about the data, just start going towards that place and as soon as you
+
+00:09:34.040 --> 00:09:37.280
+ run into the data, okay, now you've got a copy, you're done with your distribution.
+

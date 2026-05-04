@@ -1,0 +1,452 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:14.880
+ One of the things we've learned from the Snowden documents is that cryptography, broadly applied,
+
+00:00:14.880 --> 00:00:18.660
+ gives the NSA trouble, at least at scale.
+
+00:00:18.660 --> 00:00:24.980
+ So the NSA does a lot of cryptanalysis and they break a lot of systems, but well-designed,
+
+00:00:24.980 --> 00:00:28.760
+ well-implemented cryptography does stymie them.
+
+00:00:28.760 --> 00:00:35.220
+ It's important to understand how it does, because if the NSA wanted to be in my computer,
+
+00:00:35.220 --> 00:00:42.180
+ they'd be in my computer, done, period, no question about it, they would hack into my
+
+00:00:42.180 --> 00:00:44.780
+ computer and they have a lot of tools to do that.
+
+00:00:44.780 --> 00:00:48.260
+ If they are not in my computer, one of two things are true.
+
+00:00:48.260 --> 00:00:54.900
+ One, it's against the law and the NSA is following the law, and two, I'm not high enough on their
+
+00:00:54.900 --> 00:00:57.460
+ priorities list.
+
+00:00:57.460 --> 00:01:04.820
+ What cryptography does is it forces the attacker, whether the NSA, or the Chinese government,
+
+00:01:04.820 --> 00:01:10.580
+ or cyber criminals, or whoever, to have a priorities list.
+
+00:01:10.580 --> 00:01:15.700
+ And depending on their budget, they'll go down the priorities list and the hope is you're
+
+00:01:15.700 --> 00:01:20.540
+ not there, you are below their budget line.
+
+00:01:20.540 --> 00:01:30.420
+ Without cryptography, an organization like the NSA can bulk collect data on everybody.
+
+00:01:30.420 --> 00:01:36.820
+ With cryptography, they are forced to target, and that's extraordinarily valuable, because
+
+00:01:36.820 --> 00:01:44.380
+ it means the FBI will go after the criminals, and the NSA will go after the agents of a
+
+00:01:44.380 --> 00:01:52.300
+ foreign power, the Chinese government will go after the US government officials that
+
+00:01:52.300 --> 00:01:55.540
+ rise to whatever level they want to spy on.
+
+00:01:55.540 --> 00:02:01.420
+ The cyber criminals will just go after a few of us, and the rest of us are protected.
+
+00:02:01.420 --> 00:02:05.300
+ That makes cryptography a very important tool.
+
+00:02:05.300 --> 00:02:12.820
+ Now, cryptography doesn't actually provide any security, because cryptography is mathematics.
+
+00:02:12.820 --> 00:02:19.380
+ When we say we trust the cryptography, what we're saying is we trust the mathematics,
+
+00:02:19.380 --> 00:02:21.800
+ and I think there's a lot of reason to say that.
+
+00:02:21.800 --> 00:02:23.760
+ I trust the mathematics.
+
+00:02:23.760 --> 00:02:29.740
+ Everything I know about cryptography tells me the mathematics is good.
+
+00:02:29.740 --> 00:02:33.460
+ Certainly there will be cryptographic advances, certainly some things will be broken in the
+
+00:02:33.460 --> 00:02:37.180
+ future, but by and large, the math works.
+
+00:02:37.180 --> 00:02:39.920
+ But math has no agency.
+
+00:02:39.920 --> 00:02:41.820
+ Math can't do anything.
+
+00:02:41.820 --> 00:02:43.380
+ It's equations on a piece of paper.
+
+00:02:43.380 --> 00:02:51.380
+ In order for math to do something, someone has to take that math and write code, and
+
+00:02:51.380 --> 00:02:56.860
+ embed that code in a program, and embed that program in some bigger system, and put that
+
+00:02:56.860 --> 00:03:02.460
+ bigger system on a computer with an operating system, on a network, with a user, and all
+
+00:03:02.460 --> 00:03:06.380
+ of those things add in security.
+
+00:03:06.380 --> 00:03:11.300
+ When the NSA breaks cryptography, by and large, they don't break the mathematics.
+
+00:03:11.300 --> 00:03:13.020
+ They break something else.
+
+00:03:13.020 --> 00:03:14.180
+ They break the implementation.
+
+00:03:14.180 --> 00:03:15.700
+ They break the software.
+
+00:03:15.700 --> 00:03:17.260
+ They break the network.
+
+00:03:17.260 --> 00:03:19.900
+ They break the hardware the software is running on.
+
+00:03:19.900 --> 00:03:25.300
+ They do something somewhere else, and again and again we learn this lesson.
+
+00:03:25.300 --> 00:03:31.260
+ The math works, but putting stuff around it is much harder.
+
+00:03:31.260 --> 00:03:37.880
+ Now there's an important corollary here, that complexity is the worst enemy of security.
+
+00:03:37.880 --> 00:03:40.500
+ What these things do is they add complexity.
+
+00:03:40.500 --> 00:03:46.060
+ The more complex you make your system, the less secure it's going to be because the more
+
+00:03:46.060 --> 00:03:49.020
+ vulnerabilities you'll have.
+
+00:03:49.020 --> 00:03:55.300
+ The more mistakes you'll make somewhere in that system, and we learn again and again
+
+00:03:55.300 --> 00:04:02.380
+ when we see analyses of voting systems, embedded systems, your cell phone, messaging systems,
+
+00:04:02.380 --> 00:04:06.140
+ email systems, that it's always something around the crypto.
+
+00:04:06.140 --> 00:04:12.620
+ Something that the designers, the implementers, the coders, the users, got wrong.
+
+00:04:12.620 --> 00:04:17.540
+ The simpler we can make systems, the more secure they are.
+
+00:04:17.540 --> 00:04:25.500
+ What NIST is doing is they're trying to build standards around as much as possible.
+
+00:04:25.500 --> 00:04:28.380
+ They have a standard for a crypto algorithm.
+
+00:04:28.380 --> 00:04:31.140
+ AES is the standard crypto algorithm.
+
+00:04:31.140 --> 00:04:38.160
+ It was a public process where multiple groups submitted algorithms, and the community as
+
+00:04:38.160 --> 00:04:41.580
+ a whole picked a winner.
+
+00:04:41.580 --> 00:04:45.700
+ It wasn't dictated on high, there weren't secret criteria.
+
+00:04:45.700 --> 00:04:51.220
+ The AES algorithm was the one that most of us thought should be AES.
+
+00:04:51.220 --> 00:04:54.580
+ Actually, there were several we thought were good candidates.
+
+00:04:54.580 --> 00:04:59.220
+ They picked one, but there's a lot of trust in the process because it was a very public,
+
+00:04:59.220 --> 00:05:01.500
+ open, international process.
+
+00:05:01.500 --> 00:05:06.940
+ SHA-3, the new secure hash standard, the same sort of process.
+
+00:05:06.940 --> 00:05:09.900
+ It's really fun as a cryptographer to be involved in this process.
+
+00:05:09.900 --> 00:05:12.500
+ I think of it as a great crypto demolition derby.
+
+00:05:12.500 --> 00:05:14.900
+ We all put our algorithms in the ring, beat each other up.
+
+00:05:14.900 --> 00:05:16.580
+ The last one left standing wins.
+
+00:05:16.580 --> 00:05:18.500
+ It was kind of like that.
+
+00:05:18.500 --> 00:05:24.620
+ We would all publish papers analyzing each other, and one of the ones left standing won.
+
+00:05:24.620 --> 00:05:28.900
+ That's just a small part of what NIST does.
+
+00:05:28.900 --> 00:05:31.140
+ They have standards for random number generation.
+
+00:05:31.140 --> 00:05:37.420
+ They have standards for key agreement, for different protocols, trying to standardize
+
+00:05:37.420 --> 00:05:43.200
+ these components so the implementers make fewer mistakes.
+
+00:05:43.200 --> 00:05:48.660
+ But still, there's a lot that you can't standardize, and those bigger pieces are where you're going
+
+00:05:48.660 --> 00:05:50.260
+ to still find most of your vulnerabilities.
+
+00:05:50.260 --> 00:05:55.140
+ I believe that's where the NSA finds most of its vulnerabilities, that it's out there.
+
+00:05:55.140 --> 00:06:00.340
+ Recently, we learned about vulnerabilities in the key agreement protocols that are used
+
+00:06:00.340 --> 00:06:03.780
+ to secure a lot of the VPNs and internet connections.
+
+00:06:03.780 --> 00:06:09.940
+ If you look at where that vulnerability was, it's because of a shortcut that was made and
+
+00:06:09.940 --> 00:06:12.700
+ copy that allowed for a massive pre-computation.
+
+00:06:12.700 --> 00:06:14.340
+ The math worked great.
+
+00:06:14.340 --> 00:06:20.020
+ If you want to make a standard worse, you make it super complex, and you're just building
+
+00:06:20.020 --> 00:06:22.380
+ in vectors at that point.
+
+00:06:22.380 --> 00:06:27.700
+ This is why the normal IETF process for internet standards doesn't really work for security,
+
+00:06:27.700 --> 00:06:31.780
+ because those standards are compromises.
+
+00:06:31.780 --> 00:06:34.360
+ Let's put in all the options to make everyone happy.
+
+00:06:34.360 --> 00:06:39.720
+ Let's put in as much flexibility as necessary to make the system as comprehensive as possible.
+
+00:06:39.720 --> 00:06:42.260
+ That is anti-secure security.
+
+00:06:42.260 --> 00:06:47.340
+ Security needs as few options as possible, as simple as possible.
+
+00:06:47.340 --> 00:06:48.340
+ You don't want compromise.
+
+00:06:48.340 --> 00:06:53.900
+ You want one group to win, because that group has a self-contained vision.
+
+00:06:53.900 --> 00:06:56.860
+ When you have a piece of this, and a piece of that, and a piece of that, there's going
+
+00:06:56.860 --> 00:07:00.900
+ to be some interaction you didn't notice, and that interaction will be the interaction
+
+00:07:00.900 --> 00:07:03.380
+ that breaks your system.
+
+00:07:03.380 --> 00:07:06.140
+ You didn't win AES, right?
+
+00:07:06.140 --> 00:07:07.140
+ You were in it.
+
+00:07:07.140 --> 00:07:09.700
+ You were in the demolition derby with your helmet on.
+
+00:07:09.700 --> 00:07:13.180
+ Tell me a little bit about what it's like to be in the demolition derby toward the end,
+
+00:07:13.180 --> 00:07:16.700
+ and what it's like to sort of not win the demolition derby.
+
+00:07:16.700 --> 00:07:18.780
+ So AES was an interesting process.
+
+00:07:18.780 --> 00:07:26.540
+ It started out with 64 algorithms, which 56 met the submission criteria, then NIST whittled
+
+00:07:26.540 --> 00:07:32.540
+ it down to, I think it was 15 or 16, and then in the next round whittled it down to 5, and
+
+00:07:32.540 --> 00:07:33.540
+ then chose 1.
+
+00:07:33.540 --> 00:07:39.820
+ So it's a constant winnowing process, and Twofish, which was my submission, made it
+
+00:07:39.820 --> 00:07:43.980
+ all the way into the top 5.
+
+00:07:43.980 --> 00:07:45.460
+ Those top 5 were all good algorithms.
+
+00:07:45.460 --> 00:07:50.220
+ I mean, there was no bad algorithms there, and the arguments were more about security
+
+00:07:50.220 --> 00:07:59.020
+ margin and implementability in hardware versus embedded systems versus constrained systems,
+
+00:07:59.020 --> 00:08:01.020
+ 8-bit, 32-bit.
+
+00:08:01.020 --> 00:08:07.740
+ So we were making distinctions about how we thought it would be used, and to me, it came
+
+00:08:07.740 --> 00:08:13.060
+ down to, I think, 3 algorithms, and I thought these were all good choices.
+
+00:08:13.060 --> 00:08:17.540
+ Twofish was one, Ringdahl, the eventual Winder, was one, and actually, at this point, I forget
+
+00:08:17.540 --> 00:08:19.460
+ what the third is.
+
+00:08:19.460 --> 00:08:25.860
+ And what I said on my blog at the time is, you know, any of these three are good.
+
+00:08:25.860 --> 00:08:29.300
+ And sure, it would have been great to have been the winner, but there really is something.
+
+00:08:29.300 --> 00:08:34.740
+ There's a lot of value in NIST picking a non-US algorithm.
+
+00:08:34.740 --> 00:08:40.940
+ By picking an algorithm from Belgium, it said to the world that NIST is picking what they
+
+00:08:40.940 --> 00:08:45.620
+ thought was the best, and not trying to pick American.
+
+00:08:45.620 --> 00:08:50.860
+ So that was an important consideration I hadn't thought of at the time.
+
+00:08:50.860 --> 00:08:52.940
+ So I can't fault in this process at all.
+
+00:08:52.940 --> 00:08:54.340
+ It's been great to win.
+
+00:08:54.340 --> 00:09:00.240
+ It actually was really fun to participate, and I would do it again, and I participated
+
+00:09:00.240 --> 00:09:07.300
+ in the SHA-3 competition, which again was picked by someone else won.
+
+00:09:07.300 --> 00:09:10.180
+ My entry was called "Scane."
+
+00:09:10.180 --> 00:09:17.460
+ And you know, these are lots of fun for cryptographers and also for students, because they give students
+
+00:09:17.460 --> 00:09:18.460
+ a whole bunch of targets.
+
+00:09:18.460 --> 00:09:22.820
+ One of the hard things if you're a crypto student is you have to break stuff.
+
+00:09:22.820 --> 00:09:25.700
+ The only way you learn how to make things is by breaking things.
+
+00:09:25.700 --> 00:09:28.180
+ It's back to that security mindset.
+
+00:09:28.180 --> 00:09:31.040
+ Anybody can create a security system that he can't break.
+
+00:09:31.040 --> 00:09:34.500
+ So if you show up with a security system and say, "I can't break this," my first question
+
+00:09:34.500 --> 00:09:36.420
+ is, "Well, who are you?
+
+00:09:36.420 --> 00:09:41.740
+ Why should I trust your attestation that you can't break it as something that's meaningful?
+
+00:09:41.740 --> 00:09:43.980
+ What else have you broken?"
+
+00:09:43.980 --> 00:09:50.540
+ And these competitions give a whole bunch of targets so students can start breaking things
+
+00:09:50.540 --> 00:09:57.780
+ that haven't been broken before, get papers out of it, get publications, get cred in the
+
+00:09:57.780 --> 00:10:04.260
+ field as someone who can break stuff and therefore as someone who can design stuff.
+
+00:10:04.260 --> 00:10:06.120
+ It's a source of new problems.
+
+00:10:06.120 --> 00:10:07.740
+ It's a source of new targets.
+
+00:10:07.740 --> 00:10:10.700
+ But this is what I said to start.
+
+00:10:10.700 --> 00:10:13.740
+ Security is inherently adversarial.
+
+00:10:13.740 --> 00:10:18.060
+ And that adversarial nature makes it different.
+
+00:10:18.060 --> 00:10:23.620
+ Unlike any other field in computer science, you go to a security conference, a crypto
+
+00:10:23.620 --> 00:10:29.180
+ conference, and there are going to be papers of people who break each other's stuff.
+
+00:10:29.180 --> 00:10:32.020
+ And you have to get a thick skin.
+
+00:10:32.020 --> 00:10:35.900
+ You have to understand that we are all learning.
+
+00:10:35.900 --> 00:10:41.140
+ If I produce a protocol and you break it, sure, I'm unhappy, but I've learned something.
+
+00:10:41.140 --> 00:10:43.500
+ So have you and so has everyone else.
+
+00:10:43.500 --> 00:10:51.340
+ And that knowledge is more important than my particular creation surviving.
+
+00:10:51.340 --> 00:10:54.660
+ And you have to understand that and accept that, and that has to excite you.
+

@@ -1,0 +1,285 @@
+ The first application of this that we're going to talk about is hashing passwords.
+ So you go to a new site, even Coursera.org, and it asks you to create an account and create a password.
+ Now, you're not supposed to, but lots of people use the same password for lots of systems.
+ And so if your Coursera password were somehow mistakenly revealed, they might get your LinkedIn password as well.
+ And so it is considered very bad form, very, very bad form to actually ever store your password in the Coursera database in plain text.
+ Because if the database was somehow compromised, then all the bad guys would get all of the plain text passwords and again,
+ maybe use them not just on Coursera because you can change your password on Coursera,
+ but use them on LinkedIn and Twitter and whatever and YouTube and steal all your accounts by compromising one account
+ because you made the mistake that lots of people do of using the same password in a lot of different places
+ because we're tired of making up a new password for each place.
+ So you're not allowed to store the plain text password in the database.
+ That's bad practice, and we don't want to do that.
+ So the best practice is to store a hashed version of it to run, take the plain text of the password when you're creating your account,
+ run a cryptographic hash on it, store the cryptographic hash.
+ And then when you log in next, you present to the system your plain text password and it runs your presented password through a cryptographic hash,
+ same cryptographic hash, and then compares it with the hashed password in the database.
+ If they match, you must have presented the same plain text both times.
+ This is a way that they can verify that you've re-presented the same plain text again without them ever storing the plain text.
+ OK, that's why a respectable system will never send you your password.
+ It's I've almost started doing this where I as soon as I go to a new system and I set my password,
+ I set it to crap and then I have them send me a message to reset my password.
+ And if they send me the actual plain text of the password, it's like and I use some crap password.
+ I've actually got to the point where I'm tired of reusing my passwords and my technique.
+ I don't know if it's a good one or bad one because I just put crap in for my password.
+ And then every time I use a system, I have it send me a new password or reset the password.
+ I mean, I really think we should just change it so that when you log in, it just comes to your email and you click a link.
+ I don't know. I'm not an expert on this stuff, you know.
+ So but a respectable computing system will never, ever, ever send you your plain text password because they don't possess it and they can't derive it.
+ These cryptographic hashes are not backwards. You can't make them go backwards. Let's go back here.
+ They're only a one way hash because this might be one megabyte of data and this might be, well, let's see, four times.
+ This is 40 characters, 40 characters of data, one megabyte squeezes down to 40 characters.
+ There is no way to go backwards. The information is lost.
+ The hash is distinct and unique. Right. But you cannot go backwards.
+ It's a one way operation. You can go from the plain text to the hash, but you can't go from the hash to plain text, which is very different than encryption and decryption.
+ Right. In decryption, you had to be able to pull plain text back out from the encrypted text.
+ This is not encryption. This is calculating a special digest that is uniquely connected to the plain text message.
+ But you need to run the plain text through the hash again and then compare.
+ OK, so let's do some homework.
+ Well, so let me let me let me let me first show you the how this works in the hash passwords.
+ So so let's say, for example, you're logging into Coursera dot org and creating your profile for the first time and it says, please give me your password and you choose a singularly bad password as fluffy.
+ OK, so fluffy and you can type go type fluffy into Dr Chuck dot com slash Shaw one dot PHP in another window.
+ If you type fluffy and you encrypt it with Shaw one, you get this as the hash password.
+ And then this is what they store in Coursera's database.
+ And so that is they don't know they never store fluffy. They would not do that.
+ That would be so bad if they did that. So they store this.
+ And if I get this, it's very difficult to reverse engineer it to fluffy.
+ It also is even harder if you make your password long.
+ Best passwords are like sentences, not just eight characters, but they're like long sentences of stuff that's rather difficult to predict.
+ So this is what's stored in the Coursera databases, some ugly string, which is a cryptographic hash digest of your password.
+ So now you log out and and this is gone.
+ That's only in your mind. And this is sitting in the database.
+ So you log in, you log back into Coursera and you forget your password.
+ So you type in pony. If you run pony through Shaw one, you get this as the cryptographic hash of the word pony.
+ And you look and you compare and you go, no, that is not the right password.
+ I don't know what the right password is. I can't give you a hint.
+ I can't tell you, hey, you you put shift on your password.
+ Why don't you try taking that off? You know, you seem to have caps lock on because it doesn't know whether you what your password is.
+ But it does know that pony is not your password.
+ Then what it does. Right.
+ So this is what's stored in the database. Then you go, oh, my secretary. That's right.
+ I use fluffy for my password on Coursera. So then Coursera runs that through Shaw one.
+ It gets the cryptographic hash of the plain text that you entered.
+ And then it compares it to that what it has stored as the cryptographic as the plain as the as your hashed password.
+ And it matches. So then it says, yay, I'll let you back in.
+ The fluffy only existed in your mind unless you foolishly like wrote it on a post-it note and stuck it up on your computer, which you shouldn't do as well.
+ But whatever it was, Coursera never stored. Right.
+ Coursera never stored it. Coursera only stored this.
+ And that, again, is why Coursera can never tell you what your password is or any reasonable site can never tell you what your password is.
+ It can only tell you. It can only let you change it again, which is easy.
+ Changing it again, you just it decides, oh, it sends you mail.
+ You give it a new password and it recomputes a shot one for that one and stores that shot one.
+ So that's why you have to get password resets to happen. OK.
+ OK. So the next thing that I want to talk about is I want to talk about digital signatures, how we can use this for message integrity.
+ So we've got the notion of a cryptographic hash, which is a calculation takes a large block of text.
+ So far, we've only used it on small blocks of text.
+ OK. But now we're going to use it on larger blocks of text where we're going to ensure message integrity,
+ which means we're going to figure out if this message actually came from the person we think that it came from.
+ OK. So we're going to use integrity now.
+ I mean, in a sense, what the system was doing when you were typing in a password was it was ensuring that you were really the person on the other end of the line.
+ Right. Hi, I'm logging in as Dr. Chuck.
+ And here's my password, Fluffy, that's by giving you the password.
+ I'm proving that to Coursera that I'm really Dr. Chuck.
+ So it's a form of integrity, right. Identification is a form of integrity, right.
+ It's no different than showing your driver's license says, yes, this is really me.
+ OK. But now we're going to do it in a way that we're going to send a message.
+ So it's not just a password. We're not really solving just the password problem.
+ But we're actually going to use it to make sure that the message A came from the right person and B was not modified in transit.
+ This is kind of the doctor signing the prescription digitally and then sending you an email with your prescription
+ that you can just print the email and take it take it to your take it to your pharmacist.
+ So, again, message integrity.
+ When you get a message, did it come from who did it come from?
+ And do you get it come from who you really thought it came from or was it altered in transit?
+ OK, so if you go back to our little example from the Christmas story,
+ the message from Annie was eat more Ovaltine.
+ Now, the question really becomes, did it really come from Annie, right?
+ Because Little Orphan Annie didn't necessarily say it.
+ Little Orphan Annie's handed the message to somebody else and then they read it.
+ So did that person change the message?
+ Because maybe there was actually a secret message from Annie and maybe Annie wrote it and it really was an important secret message.
+ But then somebody like the advertiser changed it and sent it to you as if it came from Annie.
+ So we're not really worried so much now about the plain text that is the fine plain text.
+ The question is, did it really come from Little Orphan Annie?
+ Because we are receiving this from an insecure medium like Annie is out here somewhere,
+ but Annie handed it to somebody to hand it to somebody and somebody sent across radio, yada, yada, yada.
+ The question is, did the message originally come from Annie long, long ago, handed through many people or not?
+ This is again like the seal that you put on with the wax.
+ Did it really come from that person or not?
+ Is it really Annie just saying, yeah, this is Annie?
+ That's too easy. You could say eat less Ovaltine or or maybe Annie wanted to say, I hate Ovaltine, right?
+ That's maybe what, but we don't know if Annie said eat more Ovaltine or not, right?
+ Because all we saw was eat more Ovaltine and it seemed to come from Annie, but we got to know.
+ We got to know that it came from Annie or not.
+ OK, so simple message signing using shared secret and we'll move to a better technique later.
+ But we're going to start with a simple technique of shared secret is that we have a shared secret
+ that we're going to use for message signing.
+ It'll probably be different than the encryption secret, OK?
+ So now we get together with Annie in a shared room and she tells us what the shift is going to be.
+ And then she tells us what our shared signature secret is going to be.
+ And then we separate.
+ So the technique that you do is before we send the message, we concatenate the secret to the message, right?
+ So eat more Ovaltine and then put the secret on the end of the message.
+ And then you compute the digest of the message plus the secret concatenated together.
+ Then you remove the secret from the message and then you send the message plus the digest across the insecure.
+ And in my wife's example, this was the little signature numbers that came from her doctor was the digest.
+ But it was the digest not just of the message, but of the message plus the secret.
+ The secret didn't come across, the message plus the digest came across.
+ So let's look at this when we look at how when we receive a message.
+ So we receive a message and we see a digest at the end of the message and it's across an insecure transport.
+ So we take the digest off the message, take the digest off the message and we add the secret back on the message.
+ We know the secret, Annie knows the secret, but the people in the middle who transported the message do not know the secret.
+ So it's finally arrived in our location.
+ We see the digest, we pull that off and hold on to it.
+ We add the secret to it.
+ We can take the concatenated message plus secret.
+ We run it through SHA-1, we get a digest locally.
+ And then we compare that digest to the received digest.
+ And the only way to make the digest match is to know the secret.
+ Now, maybe somebody like made Annie tell them the secret, which means they could forge the messages.
+ But if the secret is not been compromised somehow, their only way to create the digest is to know the secret, right?
+ And so we can compare the received digest to the known the known digest that we compute on our end in a secure way,
+ because we and Annie are the only ones in possession of the secret.
+ So here we go. So you can play with this on SHA-1.php, Dr. Chuck.
+ And so if the message is that Annie wants us to send or Annie wants us to get is Eat More Ovaltine and the secret is Santa.
+ So what you do is you take the message, concatenate the secret and then run that through SHA-1.
+ This is all happening in Annie's secure room.
+ And she comes up with a digest.
+ Now, it's longer than this, but that's just the first six characters of it.
+ And then what she does is she removes the secret and then concatenates the digest.
+ OK, and that's what gets sent across the insecure medium.
+ It could be many steps, could be many people, it could be on paper, it could be Morse code, it could be phone call, who knows radio.
+ But we just this is the danger, right?
+ This is we do not know if the message is harmed in any way as it moves across this medium.
+ OK, so then what we do is we receive the message, right?
+ We don't know if it's a good message or a bad message.
+ So we see that it's a message and it has a digest on the end of the message and we split that out.
+ We split the digest out and we hold on to the digest separately.
+ OK, and now we have the message minus the digest.
+ And so then what we do is we add the secret back on because only Annie and us know the secret.
+ Right. And Annie and us know the secret.
+ We all know how to do SHA-1.
+ And so we take this message and we run it through SHA-1 and we get a digest that we've computed locally.
+ This is the received digest.
+ That's the local digest.
+ And then we compare and we say, this is great.
+ That must have came from Annie.
+ And we know that it came from Annie, even if it came through a dangerous set of steps.
+ And we can't trust any of the people that transported the message.
+ They're all untrustworthy.
+ But we know that no matter what happened, that originally at that moment, Annie did this.
+ OK, Annie made this digest because without knowing the word Santa, there is nothing.
+ And this could be like megabytes of data.
+ And this is a real tiny, you know, 40 character thing here.
+ The digest is small, the message is large.
+ So you can't go backwards to get it.
+ There's no backwards here.
+ Now, if you can steal the secret from Annie, then all bets are off, of course.
+ So we have to assume that Annie's OK and that, you know, Annie was not compromised,
+ like in James Bond movies, for example, where they're always trying to get the secret from the good guy.
+ OK, so let's go and do this again, right?
+ So here we go.
+ We want to send the Eat More Ovaltine and the secret Santa.
+ And so we do the same thing.
+ And we end up with-- end up with that.
+ And then she concatenates it.
+ And this is all done, you know, in Annie's bedroom and secret thing.
+ And then she sends it.
+ OK, she sends it to us.
+ But a diabolical, diabolical courier says, I have a thing about Ovaltine
+ and I'm going to change the more to less.
+ So I'm going to change this message to be Eat Less Ovaltine, right?
+ So Eat Less Ovaltine.
+ Bad, evil, rrr.
+ I don't know how to draw evil.
+ I'm a terrible artist.
+ Can't draw evil.
+ So some untrusted courier has changed the word more to less.
+ So we see the thing that says-- and we don't know, right?
+ We didn't see the courier.
+ They was carrying it in a box.
+ Who knows what they did, but they changed it and gave us a new copy.
+ So we received this message from an untrusted medium.
+ There's our untrusted medium.
+ And it is our job to decide if we really think it came from Annie or not.
+ So what we do is just like we did before, we break the message
+ and the digest into pieces.
+ And then we add the known secret to the end of it, right?
+ So we've added the known secret to the end of it right here.
+ Then we run it through the SHA-1 calculation and you can take--
+ look, there we go.
+ And go ahead and try this if you want.
+ Maybe you have this up in a separate window, sha-1.php.
+ Put Eat Less Ovaltine Santa in and you will get a different signature.
+ Because you change even a single character
+ and SHA-1 will give us a different digest.
+ That's cryptographic hashes in action, right?
+ Even the tiniest change in megabytes of data
+ will change the cryptographic hash.
+ That's the beauty of SHA-1 and MD5 and SHA-256 and the others.
+ There is no match.
+ So we know that this message either did not come from Annie
+ or was modified in transit.
+ So we can tell the difference and we do not have to trust the medium, right?
+ OK, so let's see what got coming up next here.
+ OK, so here is the encryption technique.
+ And let's just stop and let you do one of these on your own.
+ And say that we've got two messages from Annie.
+ And I want you to stop and I want you to calculate.
+ Santa is the secret, OK?
+ Santa is the secret.
+ And I want you to tell me if free cookies or free candy actually
+ came from Annie or not.
+ One of them is a valid message from Annie
+ and the other is not a valid message from Annie, OK?
+ So I want you to take a moment, use the SHA-1 calculator,
+ and I want you to try to figure out which of these is valid
+ and which of these is not valid, OK?
+ Give you a minute.
+ OK, one last chance before we do the reveal.
+ OK, here we go.
+ So here comes a message from an insecure medium, free cookies.
+ With that as the message digest, and we got the other one, free candy,
+ with that as the message digest.
+ So what we do is we take off the digest and add the word Santa to each one.
+ And then we run the SHA-1 on each one.
+ And then we get the two SHA-1s.
+ Here's the one and here's the two.
+ And then what we do, most importantly, is we
+ compare them with the received SHA-1.
+ And when you compare them with the received SHA-1 or the received message
+ digest or the received message signature,
+ you see right away that one is good and one is bad.
+ It's as simple as that, right?
+ One of these is good and one of these is bad.
+ So digital signatures are actually really surprisingly simple
+ and surprisingly easy to do without a lot of complex technology.
+ The only complex technology in here is really
+ the clever mathematics that makes these cryptographic hashes work effectively.
+ The simple concatenation of a secret.
+ Now, you want your secrets to be kind of longer than this
+ and more random than that.
+ But ultimately, the notion of a digital signature
+ is actually a simple and rather elegant and beautiful notion
+ that really leverages this notion of cryptographic hashes
+ in a really cool manner.
+ So that kind of sums up our first half lecture,
+ where we really talk more about the techniques
+ of both integrity and confidentiality.
+ But we've done it all with a secret key, where we have the same key.
+ We have a moment where we're together in a secure manner
+ and we exchange the code book, whether it's Annie or the Caesar
+ or whatever, where we know what the shift is.
+ So every pair of communicating people or systems needs a key.
+ Now, in the internet, with everybody buying from everybody else
+ and using credit cards, it's just not practical.
+ You just could not have a secret key for Amazon.
+ I guess it kind of works for the password.
+ We'll get to that in a second.
+ The password doesn't solve everything, because then you
+ would have to actually visit Amazon to get your password set up.
+ And so the problem is we have to use an insecure medium
+ to establish the first secret, as it were.
+ And so it just was never going to work.
+ So we need a different approach for the internet.
+ And that's what we're going to talk about in the next lecture.
+ See you then.

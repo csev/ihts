@@ -1,0 +1,300 @@
+ (upbeat music)
+ (upbeat music)
+ - Hello everybody, it's our second almost annual
+ class reunion at Bletchley Park
+ and we have a wonderful group of people
+ and we'll just go around and do the standard thing
+ and let everyone say hi and say their name
+ or whatever they wanna say, okay?
+ So here we go.
+ - Hi. - Hi.
+ Hi, this is Özgür from London.
+ I took Dr. Chuck's pilot courses all the way to Capstone.
+ - Congratulations, thank you.
+ - Thank you.
+ - Hi, my name is Lotte.
+ I'm from Sweden and I've been doing Python for everybody.
+ - Did you come from Sweden?
+ - No, today I came from London, I live in London.
+ - Oh, okay, okay.
+ We had a person come from Paris last year.
+ - Okay. - Hi, I'm Steve.
+ I'm doing the Python course several times
+ and I'm one of your mentors.
+ - Right, so we sent Steven a sweet shirt.
+ Congratulations, you're a volunteer
+ and you've been working for me for how long?
+ - Couple years now.
+ - And you got a shirt.
+ - Uh-huh.
+ (laughing)
+ - Woo, and a nice trip out here.
+ - Oh yeah, of course.
+ So let's give a round of applause to Steven.
+ (applauding)
+ So, Steven is famous, yeah, sure, yeah.
+ So Steven is famous for telling everybody
+ to quit putting code in the forums.
+ (laughing)
+ - Yeah, he probably does that 20 times a day
+ to say quit putting code in the forums.
+ So, thanks.
+ Okay, continue on.
+ Hello, what's your name?
+ - Hi, I'm Caroline and I'm from London
+ and I've really enjoyed doing your courses, all of them.
+ I haven't done the capstone project yet,
+ but I'm hoping to go back and do that.
+ - But you took the history course.
+ - Yes, I did.
+ - Is this your first time at Leslie Park?
+ - It is, yes.
+ - Okay, so we got you to come to Leslie Park.
+ - Yes, and I've really enjoyed it.
+ - Cool, hi.
+ - Hi, I'm Lena, I'm from Ukraine.
+ It's my first steps in studying programming.
+ - Did you come from Ukraine?
+ - No, I live in London.
+ - Okay.
+ - And I want to thank you, Dr. Chuck,
+ for interesting lectures, for inspiration you give.
+ You're awesome, thank you.
+ - Oh, thank you, I really enjoy doing it.
+ It's really an honor.
+ I mean, the pleasure is all mine.
+ - Hi, my name is Dima, Ukrainian as well.
+ I'm here to support my beloved wife, Lena.
+ Originally, I'm just a software developer,
+ professional one, so.
+ - Ah, okay.
+ - Yeah, it's starting.
+ - You know Python already?
+ - Yeah.
+ - The people could find your course
+ and just advise me to study.
+ - I'm sure dinner's different now.
+ (laughing)
+ So you can talk Python at dinner.
+ - It's a bit colder, yeah, that's true.
+ (laughing)
+ Hi, I'm Brian from Richmond, Virginia,
+ here following your course,
+ and thought I'd check out the meal out.
+ - Are you on vacation?
+ - Yes, basically.
+ - When I went to Las Vegas,
+ I had officers with four people,
+ none of them were from Vegas.
+ Everyone is--
+ - Hi, I'm Jason from Wallingford in Oxfordshire.
+ I've done the internet history course.
+ - Great.
+ - And I'm now doing a chemistry course,
+ and I realize how much better your courses are.
+ (laughing)
+ - Oh, I might have to take that one out.
+ No, I won't take that out.
+ No, it's really fun.
+ It's really an honor to teach you all,
+ and to be in your homes,
+ and be on your phones, and all that stuff.
+ It just is an honor.
+ Hi.
+ - Hi, my name is Yu.
+ I'm a Japanese, and I live in London.
+ And I'm taking Python specialization now.
+ - Okay.
+ - And it's always fun, yeah.
+ - Hi.
+ - Hi, I'm Irena.
+ I'm from Poland, but I live in London.
+ And I graduated from linguistics, basically,
+ but I really fell in love in Python.
+ Thanks to you.
+ - So did you find out about the Polish connection
+ here at Bletchley Park?
+ - Yes, I actually watched the last year, yeah.
+ - You watched the video about the Polish folks?
+ - Yeah, yeah. - Cool.
+ - Yeah, yeah, yeah.
+ - Is anyone here for the second time?
+ From like a year and a half ago?
+ - Yeah.
+ - Oh, so you were here a year and a half ago?
+ - No, no, I came here three years ago.
+ - Oh, no, I'm talking about like the office hours.
+ - No, no, no.
+ - Okay, okay.
+ Hi.
+ - Hi, I'm Jeff.
+ I teach computer science, but I didn't study it.
+ So I had to study your courses,
+ and what you taught me about internet history three years ago
+ still forms the basis.
+ I still steal some of your slides from my lessons,
+ and I often get my students to sign up for your courses.
+ - Good.
+ I usually do, you know.
+ - But you, what level of school do you teach?
+ - Oh, I teach middle school, upper school,
+ what we call here GCSE and A level, so.
+ - Cool.
+ We gotta get more of that.
+ We just gotta get that right.
+ - Get them thinking the way computers work.
+ - Yep.
+ Mike, you wanna talk?
+ - I'm Mike.
+ I did the original version of the Python.
+ - The first one, the 10 week, the long one, yeah.
+ - Yeah.
+ - Well, cool.
+ Welcome.
+ - Yeah, they do very much.
+ - Yeah.
+ You're normal.
+ Hi.
+ - Hi, I'm Sarah.
+ I'm here from Oxford.
+ I took the original Python for everyone course a while ago
+ and programming finally clicked,
+ so now I teach kids to code at workshops and stuff.
+ - I don't know if you noticed,
+ but I use the word Sarah in a lot of my examples.
+ So now I have a Sarah that's the real person.
+ So there's Sally and Glenn and all these people,
+ but there's always Sarah for some reason,
+ but you're apparently the Sarah.
+ So welcome.
+ - Hi, I'm Robin.
+ I'm from Hemel Hempstead and I really enjoy your courses.
+ I love in Python.
+ - Well, welcome.
+ Welcome.
+ - Hi, I'm Karolina.
+ I'm originally from Poland, but living in London.
+ So I found one Polish friend here already, so it's nice.
+ I've been doing Python course currently on level three.
+ - Good.
+ - So I hope to make it to the capstone.
+ - Level three gets harder.
+ - Thank you so much.
+ Oh, yes.
+ It's getting harder, but exciting.
+ - Yep.
+ Good.
+ Hi.
+ - Hi, I'm Richard.
+ I'm doing programming for everyone.
+ I'm learning Python.
+ It's nice to learn something
+ other than hello world in our language.
+ Just doing it for interesting.
+ - Yeah, exactly.
+ Hi.
+ - Hi, I'm Claire from Devon.
+ I've only done the first Python course,
+ but it's really fun
+ and I think you're a really good lecturer.
+ - Well, thank you.
+ Thank you.
+ I'm part of the whole idea is to get you in.
+ - Yeah.
+ - And get you curious and so that your curiosity drives you
+ where you're gonna go rather than scaring you.
+ - I wanna do the rest if I can.
+ - Yeah.
+ Thanks.
+ - Hi, I'm Bim.
+ I'm from Essex, Thorac, Essex.
+ And I took the history of the internet.
+ - Okay.
+ Do you wanna talk?
+ - That's my son.
+ Just accompanied me today.
+ Thank you.
+ - Okay, that's it.
+ - Okay.
+ We're fine.
+ - Hi, I'm Anne.
+ I've just finished your Python
+ for everybody specialization.
+ It's fantastic.
+ - Cool.
+ - Yeah.
+ - You said that the capstone was a little too easy.
+ - Yeah, but it's the concepts behind it are good
+ and we'll be good to work out.
+ - See, I consider that a success.
+ - Yeah.
+ - If all the rest of the course made
+ the last part seem easy,
+ then ha, ha, I win.
+ - Fantastic.
+ (laughing)
+ - Hello, I'm Peter.
+ I'm on the second course of the Python,
+ learning to Python.
+ And it's very good.
+ I'm enjoying it.
+ So yeah, I like it.
+ - Well, cool.
+ The third one gets a little harder.
+ (laughing)
+ The third one gets a little harder.
+ Hi, Matt.
+ - Hi there, I'm Matt.
+ I'm an archivist working for a museum in London
+ and I've reached a capstone
+ of the Python for Everyone course.
+ It's the most useful thing I've done in quite a few years.
+ I work a lot with museum collection data
+ and archive collection data.
+ And I'm now, after knowing nothing
+ about coding two months ago,
+ writing programs that can tear apart
+ my museum's entire catalog database
+ and do really useful things
+ that we've wanted to do for a long time
+ and do them in seconds.
+ So looking forward to building on what I've learned.
+ Thanks ever so much.
+ - You do know that I work at a place
+ that has a master's degree in archiving
+ that does technology, you know.
+ - I did not know that.
+ - You didn't know that?
+ - No.
+ - No, I work at a school of information.
+ - Ah.
+ - It does library science, archiving, nerdy stuff.
+ - Oh, I better get myself a US visa then, haven't I?
+ - Yeah.
+ (laughing)
+ - Better hurry.
+ (laughing)
+ - Yeah.
+ - Hi.
+ - Hi, my name's Pete.
+ So I work in the local government in IT
+ and I help out in a coded dojo at weekends.
+ But I don't like Python, so I need to do the course.
+ - Cool, welcome.
+ - Hi, my name's Luke.
+ I'm doing the third Python course
+ and I'm enjoying it very much.
+ - Great.
+ - Hi, my name is Roger.
+ I'm doing the history of the internet.
+ We are basically part.
+ So that's where everything starts.
+ From there to what we do with these ones now.
+ - Thank you so much.
+ - Thank you.
+ Okay, well there we go.
+ That's our office hours.
+ We'll do a big scan of everybody
+ and let's have one more round of applause for Stephen
+ and how awesome Stephen is.
+ (audience applauding)

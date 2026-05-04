@@ -1,0 +1,74 @@
+ The domain name system, it really doesn't have a great place to fit in this architecture.
+ It is the thing that converts user-friendly names like www.umich.edu to like a network-friendly
+ address. These network numbers and IP addresses are important because they are the, they encode
+ the geography of the connections of the internet. But we humans really don't care about the geography
+ of the interconnections of the internet. www.umich.edu or www.facebook.com is what we want to remember.
+ So I like to kind of think of the domain name system as kind of like sort of somewhere either
+ between the internet and the transport or between the internet and the link or somewhere like in
+ this area, you know, somewhere here. And it's certainly not in the application layer. It's
+ not the link layer. It uses the link layer. But basically it's kind of a little add-on to the side.
+ So the domain name system is for user-friendly names. Okay. So let's talk a little bit about just
+ how it works because domain names are what we use all the time and IP addresses are what computers
+ use all the time. And the routers use. Routers really have no knowledge of the domain names.
+ They simply move data based on the IP addresses. Numeric addresses are tough for people to remember.
+ I remember in the old days we would have little post-it notes on our computers and that's how I
+ would keep track. Oh, there's a new Minnesota just put up a server. Let's put that number on
+ my little post-it note. So the fact that they were numbers didn't bother us at all because there was
+ only 40 of them, but quickly there was more than 40. And each campus even in the early days only
+ would have one network number, but now campuses have 20 or even 40 network numbers, multiple groups
+ of addresses. They're groups of addresses, but there are many of them. They get reorganized. You
+ move a server from one place on campus to another like the Michigan web server. It was on our North
+ campus. It would have one address. It was on our main campus. It would have another address. And so
+ you don't want people to know what these IP addresses are. So they invented this notion of
+ a domain name system, the name, the, the, the visible name that we could switch the mapping
+ from the name to the IP address transparently. And so the domain name system is like the internet's
+ address book and it's a big distributed database. That's fast. It uses caching so that it's locally
+ fast. Even if the network is partially down, IP addresses reflect the technical geography
+ and they read right to left, at least to the point where the network number is kind of the physical
+ attachment point for the campus or business. And then this part is the attachment point within
+ that campus or business. And so the most specific, the least specific to most specific goes from left
+ to right. Domain names on the other hand are like organizational structure. The least specific is on
+ the far right. And then it goes more specific as we go left. So edu means educational institutions,
+ umich.edu means the particular educational institution, university of Michigan,
+ si.umich.edu means the school of information at the university of Michigan. Not all schools
+ are just a particular one. And then dub dub dub is a particular server at that school.
+ And it reads like a postal address. So if you think of where I teach 2455 North Quad,
+ it's kind of on earth and it's on the country USA and it's in a zip code. It's in the state of
+ Michigan. It's in Ann Arbor. And then this is the building. And then this is the room number in the
+ building. So we go from very general to very specific. So domain names read in a sense,
+ right to left, phone numbers and IP addresses read left to right.
+ The other thing that's interesting about domain names is that they're owned. They're owned from
+ right to left. And so there are sort of, there's a hierarchy and basically an organization owns
+ edu. The organization's name is edu cause. It has conferences and other things, but one of the things
+ that it does is it owns in the public trust, the name edu. So university of Michigan could go to
+ edu and say, Hey, could I have umich.edu? And they would say, let me think about that. And then
+ maybe they would give it. And they did because university of Michigan, nobody else had it. And
+ it seemed like a good name and university of Michigan was like a credited institution of
+ higher education. So they would give it to them. If I want to say like, Hey, I'm Dr. Chuck and I
+ want to create Dr. Chuck university. And I could have drchuck.edu. And they would go like, no,
+ you can't. You're not a university. You're not, you're not an educational institution.
+ So they might say yes. They might say no. Things like.com and.org, they're kind of a catch is catch
+ can. And so the first one who gets there, uh, tends to win. There's, there's some situations where if,
+ if I got coca-cola.com and had no particular use for it and coca-cola owned the trademark coca-cola,
+ they could take it away from me unless I had a legitimate purpose for it. Um, it's harder for me
+ to imagine a legitimate purpose for coca-cola, but target.com might be a club for target shooting.
+ And it would be difficult for target to say, sorry, I got to take your, your, your target
+ shooting club away because that's even though it's not as big as targets company, it, uh,
+ it's a legitimate use. So at each level, once the university of Michigan is awarded the university
+ of Michigan, it creates a mechanism to award sub domains within that. And so there is actually a
+ committee at the university of Michigan. And if we want, like our learning management system is
+ called ctools.umich.edu. If we want that, we have to go to the committee and convince them to give
+ it to us a top level domain within the university of Michigan. We got one, the school of information
+ where I'm a faculty member is si.umich.edu. And they gave us that one. I could go to that
+ committee and I could say, Hey, I want to be drchuck.umich.edu. And they would say, no, you
+ can't. So then the school of information where I teach has si.umich.edu and they have a committee
+ and they can give out sub domains within that. So you get the picture, right? So I could go there
+ and say, Hey, can I have drchuck.umich.edu, si.umich.edu, drchuck.si.umich.edu. And they
+ would say, no, but you can have csev.people.si.umich.edu. So once you own one of these things,
+ you can give out sub domains. I do own drchuck.com, drchuck.com. And if there was high desire for
+ something underneath drchuck.com, then I could have my own little business selling domains under
+ drchuck.com. Nobody seems to want any of those things, but you know, some people have mail.com
+ and other things. And so each one of these is a new potential for expansion. And so that's kind of
+ how the domain name works, right? It is this mapping between these names. There is sort of this
+ right to left ownership of these names and you have to ask people to get those names.
+ And so that's a real quick overview of the domain name system.

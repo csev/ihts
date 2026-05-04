@@ -1,0 +1,278 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:04.000
+ Hello, and welcome to our first real lecture of Internet history, technology, and security.
+
+00:00:04.000 --> 00:00:09.000
+ We're going to start, of course, with Internet history, and I'm Charles Severance, and I'm your instructor.
+
+00:00:09.000 --> 00:00:12.000
+ We're going to start at the dawn of electronic computing.
+
+00:00:12.000 --> 00:00:19.000
+ Computing started early with abacuses and humans, but we're going to start with the moment of electronic computing,
+
+00:00:19.000 --> 00:00:27.000
+ in particular because it was the moment where computing and communications were sort of co-born at the same time.
+
+00:00:27.000 --> 00:00:34.000
+ Then communication before the Internet became normal, then early Internet research,
+
+00:00:34.000 --> 00:00:41.000
+ and then the Internet itself that was academia, and then, of course, went out into the real world,
+
+00:00:41.000 --> 00:00:46.000
+ and then the Web, which really took all this connectivity and made it easy to use for everybody.
+
+00:00:46.000 --> 00:00:50.000
+ It's really our view now of this network is very much through the Web.
+
+00:00:50.000 --> 00:00:56.000
+ And then from that point forward, we look at sort of the commercialization of it and the ubiquity of it
+
+00:00:56.000 --> 00:01:01.000
+ and the widespread use of it.
+
+00:01:01.000 --> 00:01:07.000
+ So the first video that I want to show you, it's a little longer than most of the other videos.
+
+00:01:07.000 --> 00:01:13.000
+ It is about Bletchley Park, and there are many heroes at Bletchley Park.
+
+00:01:13.000 --> 00:01:20.000
+ Of course, this was a top-secret code-breaking effort by the British government during World War II.
+
+00:01:20.000 --> 00:01:27.000
+ World War II, I mean, if you think about it in history, perhaps there's no time in history quite like World War II.
+
+00:01:27.000 --> 00:01:35.000
+ If you go back to what kind of technologies were using in 1910 and 1920 to the technologies we were using in 1940,
+
+00:01:35.000 --> 00:01:41.000
+ it's an amazing difference. Jet airplanes, radio, radar, so many things were invented
+
+00:01:41.000 --> 00:01:47.000
+ and made usable and made production quality during that period of time.
+
+00:01:47.000 --> 00:01:53.000
+ The war, of course, is terrible, but it does cause governments to fear for their lives
+
+00:01:53.000 --> 00:01:57.000
+ and invest heavily, very heavily, in research.
+
+00:01:57.000 --> 00:02:05.000
+ And so we, in some sense, even though the war is a terrible thing, we sort of benefit from the extensive research.
+
+00:02:05.000 --> 00:02:09.000
+ They were trying to solve wartime problems, but they ultimately solved problems
+
+00:02:09.000 --> 00:02:12.000
+ that have changed our peacetime world in wonderful ways.
+
+00:02:12.000 --> 00:02:19.000
+ So Bletchley Park is north of London between Oxford and Cambridge in England,
+
+00:02:19.000 --> 00:02:24.000
+ and it was a code-breaking effort, and at one point there were over 10,000 people
+
+00:02:24.000 --> 00:02:34.000
+ working on top-secret efforts to decode encrypted messages initially from Germans as they were using radio.
+
+00:02:34.000 --> 00:02:42.000
+ So they call World War II a "World War," mostly because it touched geographically more than any other war
+
+00:02:42.000 --> 00:02:47.000
+ had ever touched before or since, really.
+
+00:02:47.000 --> 00:02:57.000
+ You know, Alaska, United States, Italy, Africa, Russia, Japan, Philippines,
+
+00:02:57.000 --> 00:03:05.000
+ you know, it truly was geographically distributed, and it was necessary to do unprecedented communications
+
+00:03:05.000 --> 00:03:12.000
+ just to effectively pursue the war, and this meant that communications had to be wireless.
+
+00:03:12.000 --> 00:03:17.000
+ And the problem with wireless is anyone can put up an antenna and listen to the wireless signal.
+
+00:03:17.000 --> 00:03:22.000
+ There's no way to hide the wireless signal, unlike a wire that you could hide it,
+
+00:03:22.000 --> 00:03:25.000
+ and if no one had access to the wire, you can't see what's in it.
+
+00:03:25.000 --> 00:03:29.000
+ But if you're using wireless and fast-moving armies in long distances,
+
+00:03:29.000 --> 00:03:33.000
+ then someone can intercept the wireless signal, and they can.
+
+00:03:33.000 --> 00:03:36.000
+ So the trick, of course, was to create an encrypted wireless signal,
+
+00:03:36.000 --> 00:03:39.000
+ so they could see everything you sent, but it didn't make any sense to them.
+
+00:03:39.000 --> 00:03:42.000
+ It all sounded like gibberish, unless you, of course, know the code.
+
+00:03:42.000 --> 00:03:47.000
+ And so this was a key technology was building codes and code-making machines.
+
+00:03:47.000 --> 00:03:51.000
+ A good example of this was the Enigma made by Germany,
+
+00:03:51.000 --> 00:03:55.000
+ which is -- we'll talk about these in this last part, very last part of the class,
+
+00:03:55.000 --> 00:03:58.000
+ in the security part of the class, how these codes and cypers work,
+
+00:03:58.000 --> 00:04:03.000
+ but they scramble material in a way that's generally unintelligible.
+
+00:04:03.000 --> 00:04:06.000
+ And, of course, the really bright folks at Bletchley Park --
+
+00:04:06.000 --> 00:04:11.000
+ Alan Turing, one of many really bright people at Bletchley Park --
+
+00:04:11.000 --> 00:04:17.000
+ used, you know, mathematics to say, you know, these codes may be more crackable than we think.
+
+00:04:17.000 --> 00:04:22.000
+ There was folks from Poland who also informed them to say,
+
+00:04:22.000 --> 00:04:26.000
+ look, let's show what we did to crack it right before Poland was involved.
+
+00:04:26.000 --> 00:04:29.000
+ They were working heavily on the mathematics of cracking.
+
+00:04:29.000 --> 00:04:32.000
+ And so then they built these machines.
+
+00:04:32.000 --> 00:04:35.000
+ And so in this video that I'm about to show you,
+
+00:04:35.000 --> 00:04:39.000
+ it's really -- what I tried to do is I tried to contrast the two machines,
+
+00:04:39.000 --> 00:04:45.000
+ and one is an extremely fast mechanical computer with relays and switches
+
+00:04:45.000 --> 00:04:49.000
+ and things that spin and gears that move back and forth.
+
+00:04:49.000 --> 00:04:53.000
+ It's a very physical computer that's looking for patterns.
+
+00:04:53.000 --> 00:04:57.000
+ And as it's spinning, it's checking for possible encoding combinations
+
+00:04:57.000 --> 00:05:02.000
+ to try to just do brute force checking of lots of different possibilities.
+
+00:05:02.000 --> 00:05:05.000
+ And so it was a mechanical computer.
+
+00:05:05.000 --> 00:05:07.000
+ The Bomba was a mechanical computer.
+
+00:05:07.000 --> 00:05:09.000
+ And then as the German encryption improved
+
+00:05:09.000 --> 00:05:12.000
+ and they used different techniques with more sophisticated encryption,
+
+00:05:12.000 --> 00:05:15.000
+ they just couldn't decrypt it with a mechanical computer anymore.
+
+00:05:15.000 --> 00:05:18.000
+ And so they just were forced to build something faster.
+
+00:05:18.000 --> 00:05:23.000
+ And that faster thing was the first truly powerful
+
+00:05:23.000 --> 00:05:26.000
+ general purpose electronic computer in the world.
+
+00:05:26.000 --> 00:05:28.000
+ Of course, it was kept secret until the --
+
+00:05:28.000 --> 00:05:30.000
+ certainly kept secret until the '60s and the '70s,
+
+00:05:30.000 --> 00:05:33.000
+ and much of it was still kept secret until even the '90s.
+
+00:05:33.000 --> 00:05:39.000
+ And so its place in history is kind of a recent understanding.
+
+00:05:39.000 --> 00:05:42.000
+ You can look at early history texts that talk about the first computer,
+
+00:05:42.000 --> 00:05:43.000
+ and they don't mention this one.
+
+00:05:43.000 --> 00:05:46.000
+ Well, that's because it was a secret until a long time.
+
+00:05:46.000 --> 00:05:49.000
+ So the Bomba was a powerful mechanical computer.
+
+00:05:49.000 --> 00:05:52.000
+ The Colossus was a powerful electronic computer.
+
+00:05:52.000 --> 00:05:56.000
+ But I had this picture that was drawn by an artist for me.
+
+00:05:56.000 --> 00:06:02.000
+ And in addition to showcasing sort of the moment where a mechanical computer,
+
+00:06:02.000 --> 00:06:05.000
+ no matter how hard you tried, wouldn't work fast enough,
+
+00:06:05.000 --> 00:06:10.000
+ the electronic computer was sort of forcefully created out of tremendous need.
+
+00:06:10.000 --> 00:06:14.000
+ What's also really interesting is the fact that Bletchley Park,
+
+00:06:14.000 --> 00:06:19.000
+ during this time with 10,000 people, had all kinds of people --
+
+00:06:19.000 --> 00:06:25.000
+ language experts, mathematicians, engineers, welders.
+
+00:06:25.000 --> 00:06:28.000
+ And it's a really cross-disciplinary activity.
+
+00:06:28.000 --> 00:06:33.000
+ And they were solving a problem of decrypting German transmissions,
+
+00:06:33.000 --> 00:06:38.000
+ but they ultimately solved the problem in the pursuit of that,
+
+00:06:38.000 --> 00:06:42.000
+ of electronic communications and computation.
+
+00:06:42.000 --> 00:06:48.000
+ And so this picture is really trying to show how Alan Turing was really very critical.
+
+00:06:48.000 --> 00:06:51.000
+ But there were other people like Gordon Welchman and Doc Kean
+
+00:06:51.000 --> 00:06:56.000
+ and the folks from Poland that informed all of this, university colleagues.
+
+00:06:56.000 --> 00:07:02.000
+ And this whole thing was very much a connected, collective group of really bright people,
+
+00:07:02.000 --> 00:07:07.000
+ highly motivated, well-funded, and they created this.
+
+00:07:07.000 --> 00:07:15.000
+ So let me go ahead and pause now and let you take a look at this film.
+

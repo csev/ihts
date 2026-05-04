@@ -1,0 +1,218 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:10.000
+ So again, I think Paul really created for us the first search engine and showed that the web could be a mostly consumed environment and be extremely useful.
+
+00:00:10.000 --> 00:00:17.000
+ When you think about it, if there was no web and there was no content, how would you know that the web is a great way to view content?
+
+00:00:17.000 --> 00:00:26.000
+ So Paul Coons had the advantage that he had a lot of content, and it was content that at least the physicists found extremely valuable, and then people go, "Oh, I can see."
+
+00:00:26.000 --> 00:00:32.000
+ As a matter of fact, I remember when I first saw the web, I was like, "Okay, fine. It's got pictures. Who cares?"
+
+00:00:32.000 --> 00:00:36.000
+ Because other things like Gopher were just as good.
+
+00:00:36.000 --> 00:00:42.000
+ And then I saw the ability to go to Federal Express and track a package, and I go, "Now that's a cool idea."
+
+00:00:42.000 --> 00:00:44.000
+ Gopher couldn't do that.
+
+00:00:44.000 --> 00:00:52.000
+ As a matter of fact, in 1993, sort of three years after the web was created, the web was actually not all that popular.
+
+00:00:52.000 --> 00:00:59.000
+ 1991 was the Paul Coons, but that was mostly physicists and a few nerds, myself included.
+
+00:00:59.000 --> 00:01:04.000
+ But in 1993, Gopher was a much better product, and it was a much more beloved product.
+
+00:01:04.000 --> 00:01:14.000
+ And the problem, again, came down to the fact that the network was so slow that simple text-based things worked better than highly graphical things.
+
+00:01:14.000 --> 00:01:24.000
+ There's an apocryphal story that happened in March of 1993 where there was a meeting of the Internet Engineering Task Force that does standards for all these things.
+
+00:01:24.000 --> 00:01:30.000
+ And they had a bird-of-a-feather session for Gopher and a bird-of-a-feather session for the World Wide Web.
+
+00:01:30.000 --> 00:01:36.000
+ And the Gopher session was full of people, and they couldn't have enough in the room, and they were sitting on the floor and peeking in the door.
+
+00:01:36.000 --> 00:01:40.000
+ And then later, I wasn't at this meeting, by the way.
+
+00:01:40.000 --> 00:01:44.000
+ Rich Wiggins, my co-host on the television show, was at this meeting.
+
+00:01:44.000 --> 00:01:48.000
+ And what he tells me is, at the bird-of-a-feather meeting, there was almost nobody there.
+
+00:01:48.000 --> 00:01:56.000
+ And Turnburner's Lee was like, "I've been working on this thing for three years, and it's better than Gopher, but nobody wants to use it."
+
+00:01:56.000 --> 00:02:02.000
+ And the people in the room at that point told him, they said, "It's just too complex. It's too hard to get working."
+
+00:02:02.000 --> 00:02:11.000
+ So this was a long time ago, and the Web was not assured to be a success at that point. It just wasn't really clear.
+
+00:02:11.000 --> 00:02:17.000
+ The university was getting the idea that we had to spend a lot of money on a campus-wide network
+
+00:02:17.000 --> 00:02:22.000
+ and that maybe we should use it for something besides connecting to the mainframe.
+
+00:02:22.000 --> 00:02:27.000
+ So most of the top of the computer center was saying maybe we should do something with publishing information.
+
+00:02:27.000 --> 00:02:34.000
+ That'd be an interesting sort of use of the network that more people could use than just the people who wanted to talk to the mainframe.
+
+00:02:34.000 --> 00:02:37.000
+ Were you surprised at how fast Gopher took off?
+
+00:02:37.000 --> 00:02:43.000
+ Yeah, absolutely shocked, because we basically wrote something that we thought would be good enough for our campus
+
+00:02:43.000 --> 00:02:49.000
+ and hoped that a few other places would use it because then if somebody at a different institution used it,
+
+00:02:49.000 --> 00:02:54.000
+ we'd have some credibility locally that, "Hey, we're not just saying it's good. Somebody else is saying it's good."
+
+00:02:54.000 --> 00:03:00.000
+ So that it was accepted is probably more a sign that it just happened to be the right thing at the right time.
+
+00:03:00.000 --> 00:03:05.000
+ The environment was ripe for something like that, and we had an okay product at the right time.
+
+00:03:05.000 --> 00:03:10.000
+ Basically, we put it up for anonymous FTP and sent out a couple announcements on Newsnet saying,
+
+00:03:10.000 --> 00:03:14.000
+ "Hey, here's a thing that does kind of a campus-wide information system."
+
+00:03:14.000 --> 00:03:21.000
+ The fashion back then was to say, "Everybody needs to have a CWIS, a campus-wide information system."
+
+00:03:21.000 --> 00:03:26.000
+ So Gopher, we thought, made a pretty good one because he didn't have to centralize publishing on one machine.
+
+00:03:26.000 --> 00:03:32.000
+ You could let individual departments publish off their own machines and control their own content.
+
+00:03:32.000 --> 00:03:37.000
+ That model turned out to be a pretty good one, so lots of other places started using it.
+
+00:03:37.000 --> 00:03:43.000
+ So we had kind of the right idea at the point where this particular issue, campus-wide information system,
+
+00:03:43.000 --> 00:03:49.000
+ was something that all of the university computer centers were saying, "I've got to have one of these."
+
+00:03:49.000 --> 00:03:57.000
+ The technology we built Gopher to work with were fairly slow machines with limited graphics and slow modems.
+
+00:03:57.000 --> 00:04:01.000
+ That was our design point because that's what people had six, seven years ago.
+
+00:04:01.000 --> 00:04:04.000
+ And while we added graphics and movies and those sorts of things,
+
+00:04:04.000 --> 00:04:08.000
+ Gopher wasn't designed to be hypertext and really media-rich documents.
+
+00:04:08.000 --> 00:04:15.000
+ It was aimed more at run fast over limited bandwidth on slow machines.
+
+00:04:15.000 --> 00:04:24.000
+ So 1993 was kind of like, it was a real, there was a lot of things that could have been very different in 1993.
+
+00:04:24.000 --> 00:04:31.000
+ And I want to show you a commercial, and there's a couple of these out there,
+
+00:04:31.000 --> 00:04:38.000
+ from 1993 that one of the large telecommunications vendors put out as a national ad campaign.
+
+00:04:38.000 --> 00:04:42.000
+ And this is what the telecommunications industry was thinking about.
+
+00:04:42.000 --> 00:04:46.000
+ They saw it all happening. They saw this all happening. They knew it was going to be big.
+
+00:04:46.000 --> 00:04:51.000
+ They knew it was going to allow interactions in many ways. They knew it. They weren't dumb.
+
+00:04:51.000 --> 00:04:56.000
+ It was like, "Whoa, what's going on?" No, not at all. They absolutely knew.
+
+00:04:56.000 --> 00:05:05.000
+ So this really wonderful series of commercials is just quite amazing.
+
+00:05:05.000 --> 00:05:11.000
+ So take a look. At the end you'll see actually what the large telecommunications company's name is.
+
+00:05:11.000 --> 00:05:13.000
+ So take a quick look.
+
+00:05:41.000 --> 00:06:05.000
+ So again, sort of looking back at this and looking at things that might not have been,
+
+00:06:05.000 --> 00:06:14.000
+ there's nobody that really makes the connection that Steve Jobs might have had some impact on the World Wide Web.
+
+00:06:14.000 --> 00:06:18.000
+ But in a way, he was actually quite influential.
+
+00:06:18.000 --> 00:06:25.000
+ Steve Jobs, of course, founded Apple and then was kicked out of Apple after the Macintosh.
+
+00:06:25.000 --> 00:06:28.000
+ And he started a new company called Next.
+
+00:06:28.000 --> 00:06:32.000
+ And if you listen closely to what Robert Caillou says, and you listen closely to what Paul Kuhn says,
+
+00:06:32.000 --> 00:06:38.000
+ and the computer that was on my desk during this entire period of the 1990s to '93 were Next computers.
+
+00:06:38.000 --> 00:06:45.000
+ Next was a bold, Unix-based, highly networked, high-definition display, high-performance computer
+
+00:06:45.000 --> 00:06:50.000
+ that Steve Jobs built when he formed the company Next after he got fired from Apple.
+
+00:06:50.000 --> 00:06:56.000
+ Of course, he eventually came back to Apple, and the Next technology is Macintosh.
+
+00:06:56.000 --> 00:06:58.000
+ That's the Macintosh operating system.
+
+00:06:58.000 --> 00:07:03.000
+ And so if you make a mistake in Macintosh, you might see an error message that starts "NS something."
+
+00:07:03.000 --> 00:07:08.000
+ That's called NextStep, which is the operating system on these Next computers.
+
+00:07:08.000 --> 00:07:13.000
+ For the first three years of the Web, it was pretty much only on the Next computer.
+
+00:07:13.000 --> 00:07:18.000
+ People would, even the server was on the Next computer, and the browser was on the Next computer.
+
+00:07:18.000 --> 00:07:21.000
+ And so the Next computer really kind of did that.
+
+00:07:21.000 --> 00:07:31.000
+ I wrote an article a couple months after Steve Jobs died for IEEE Computer Magazine's January 2012 issue
+
+00:07:31.000 --> 00:07:35.000
+ that really sort of tried to, at least from a historical perspective,
+
+00:07:35.000 --> 00:07:41.000
+ point out how important Steve Jobs may have been in helping the Internet get formed.
+

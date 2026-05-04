@@ -1,0 +1,156 @@
+1
+00:00:00,000 --> 00:00:05,880
+ So I hope you got from that, that it wasn't trivial. It wasn't like somebody just walked out and said, "Hey, make a network."
+
+2
+00:00:05,880 --> 00:00:07,880
+ I mean, there were
+
+3
+00:00:07,880 --> 00:00:13,000
+ forces, powerful forces, the telecom lobbyists that did not want this to happen.
+
+4
+00:00:13,000 --> 00:00:19,960
+ And we will see these telecom lobbyists a couple times as we progress through this lecture.
+
+5
+00:00:19,960 --> 00:00:22,000
+ So
+
+6
+00:00:22,000 --> 00:00:27,520
+ Larry Smarr and the folks that made the supercomputers convinced Congress to authorize the
+
+7
+00:00:29,640 --> 00:00:33,160
+ giving of a grant to build the National Science Foundations Network.
+
+8
+00:00:33,160 --> 00:00:39,840
+ It was going to use the TCP/IP protocol that the ARPANET had built. It was supposed to be inclusive, at least for research
+
+9
+00:00:39,840 --> 00:00:45,440
+ academics, and it was, you know, research universities, we want to get them connected.
+
+10
+00:00:45,440 --> 00:00:53,080
+ And so our story now leads from the University of Illinois at Urbana-Champaign to my university, the University of Michigan.
+
+11
+00:00:53,080 --> 00:00:55,720
+ Now if you take a look at this
+
+12
+00:00:55,720 --> 00:00:58,920
+ ARPANET picture that was sort of right before
+
+13
+00:00:59,720 --> 00:01:06,000
+ now, it's 1972, but if you look at all of the ARPANET pictures, there is a glaring omission
+
+14
+00:01:06,000 --> 00:01:08,960
+ from my perspective.
+
+15
+00:01:08,960 --> 00:01:12,200
+ Glaring omission on all of these. I wonder why aren't we there?
+
+16
+00:01:12,200 --> 00:01:17,840
+ Well, there's a very good reason why the University of Michigan is not on any of the ARPANET pictures.
+
+17
+00:01:17,840 --> 00:01:20,120
+ And that's because we build our own network.
+
+18
+00:01:20,120 --> 00:01:24,580
+ We build a network using leased lines, a three-node network between
+
+19
+00:01:24,580 --> 00:01:28,600
+ Michigan State University, University of Michigan, and Wayne State University.
+
+20
+00:01:28,880 --> 00:01:34,200
+ We were sharing each other's compute resources. We were using each other's computers interactively.
+
+21
+00:01:34,200 --> 00:01:38,360
+ We were playing online multi-user games. We called them adventure.
+
+22
+00:01:38,360 --> 00:01:43,760
+ They were all based on text, but they were great fun, and they were great community building. We had chat forums,
+
+23
+00:01:43,760 --> 00:01:50,200
+ we had all kinds of things, and we used each other's software, and it was a cool little world. And the ARPANET
+
+24
+00:01:50,200 --> 00:01:55,040
+ wasn't seen by many as all that significant. It was kind of an experiment, right?
+
+25
+00:01:55,040 --> 00:01:57,760
+ It was a research project, and we were a research, we were a production.
+
+26
+00:01:58,400 --> 00:02:01,840
+ Merit was production, and ARPANET was research. So there you go, right?
+
+27
+00:02:01,840 --> 00:02:06,560
+ So there was actually a lot of these sort of like nascent networks out there early days.
+
+28
+00:02:06,560 --> 00:02:14,860
+ And so the University of Michigan sort of never really was significantly involved in the ARPANET work, but
+
+29
+00:02:14,860 --> 00:02:22,160
+ the University of Michigan being a large university did want to get a supercomputer center. And because of some strategic
+
+30
+00:02:22,160 --> 00:02:25,540
+ blunders, as Doug Van Holling will soon explain to you,
+
+31
+00:02:27,040 --> 00:02:28,840
+ Michigan didn't get a supercomputer center.
+
+32
+00:02:28,840 --> 00:02:35,240
+ And so the idea was is we would do what it was going to take to get the network, because that might be more fun.
+
+33
+00:02:35,240 --> 00:02:42,880
+ So Doug Van Holling at the time was the chief information officer at the University of Michigan, having recently arrived from Carnegie Mellon University,
+
+34
+00:02:42,880 --> 00:02:45,680
+ and he was also the
+
+35
+00:02:45,680 --> 00:02:50,080
+ chief of the Merit network, the network that connected our three schools.
+
+36
+00:02:50,080 --> 00:02:53,920
+ And so they figured that once they didn't get a supercomputer
+
+37
+00:02:54,640 --> 00:02:59,680
+ center, they better really pull out the stops so that they would get the NSFnet.
+
+38
+00:02:59,680 --> 00:03:07,200
+ And of course they did get the NSFnet, and Doug Van Holling was the principal investigator for the NSFnet starting in 1988.
+
+39
+00:03:07,200 --> 00:03:12,960
+ So let's let Doug Van Holling tell you the story, and I'll be back in a moment.
+

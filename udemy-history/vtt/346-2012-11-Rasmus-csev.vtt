@@ -1,0 +1,236 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:05.480
+ Alright, so it started in 1993 when I saw the Mosaic web browser. That was when I got
+
+00:00:05.480 --> 00:00:10.200
+ really interested in the web. I'd been doing Gopher and IRC and other Internet related things
+
+00:00:10.200 --> 00:00:17.120
+ before then, but with Mosaic, I could suddenly explain what I was doing to my mother. So I
+
+00:00:17.120 --> 00:00:22.800
+ knew this thing was going to be very, very interesting. I was living in Mountain View,
+
+00:00:22.800 --> 00:00:28.340
+ California, but I moved back to Toronto to do consulting, and I ended up consulting for
+
+00:00:28.340 --> 00:00:33.400
+ a number of companies, and I wrote the same code over and over, basically CGI scripts
+
+00:00:33.400 --> 00:00:41.080
+ written in C, and I wrote similar code to handle forms and host data and filtering and
+
+00:00:41.080 --> 00:00:44.720
+ all those sort of common web things you end up having to write in C if you're writing
+
+00:00:44.720 --> 00:00:52.400
+ raw CCGI programs. So that was getting tedious. I'm not very interested in programming. It's
+
+00:00:52.400 --> 00:00:57.440
+ kind of tedious and boring, so if I could reduce the amount of time I had to spend programming
+
+00:00:57.440 --> 00:01:05.040
+ and maximize the output and get to the solution quicker, that was my goal with PHB. I put
+
+00:01:05.040 --> 00:01:10.680
+ together all my common stuff into a C library, hacked it into the NCSA web server, and then
+
+00:01:10.680 --> 00:01:15.520
+ added a little templating system on top of that to let me easily call into it, and that
+
+00:01:15.520 --> 00:01:21.080
+ was the first version of PHB. It was a productivity tool for myself, so I could very quickly go
+
+00:01:21.080 --> 00:01:26.360
+ to a new client and whip up a new web application for them and tie them to their database or
+
+00:01:26.360 --> 00:01:30.800
+ whatever they needed, and every client had slightly different requirements, so I kept
+
+00:01:30.800 --> 00:01:36.560
+ extending my tool. Then other people started asking me about this stuff. They asked me
+
+00:01:36.560 --> 00:01:40.080
+ how I built these things, and I said, "Well, I'm using this little tool I built," and they
+
+00:01:40.080 --> 00:01:43.160
+ asked if they could have it, and I said, "Sure, why not?" I mean, that's not what I'm selling.
+
+00:01:43.160 --> 00:01:47.760
+ I'm selling my services of solving problems. The tool itself is irrelevant, really. It's
+
+00:01:47.760 --> 00:01:54.360
+ just my hammer. Anybody can use my hammer. I don't care. And then they started sending
+
+00:01:54.360 --> 00:01:58.440
+ patches, which I thought was really, really cool, and they found bugs in my stuff that
+
+00:01:58.440 --> 00:02:03.720
+ I hadn't found yet, which meant I could also go into clients and say, "Hey, here we go.
+
+00:02:03.720 --> 00:02:08.600
+ Here's a new version. It fixes this, this, and this," and they thought I was being extremely
+
+00:02:08.600 --> 00:02:15.160
+ productive writing all this code and fixing all these things so fast. That's when open
+
+00:02:15.160 --> 00:02:22.360
+ source really hit me. This was in 1994, '95, before the term open source existed, but it
+
+00:02:22.360 --> 00:02:28.360
+ really caught on with me that I got together with a group of my peers, other people interested
+
+00:02:28.360 --> 00:02:32.240
+ in the web and solving the web problem from all around the world. We all had similar problems.
+
+00:02:32.240 --> 00:02:38.120
+ We faced similar issues, and collaboratively we could build a tool that solved this problem.
+
+00:02:38.120 --> 00:02:45.640
+ That was really how PHP got off the ground. I learned a bit along the way that in order
+
+00:02:45.640 --> 00:02:51.280
+ for this to grow, I had to give up control of PHP. I had to let other people have some
+
+00:02:51.280 --> 00:02:55.080
+ control. I couldn't rewrite everybody's patches, both because I'm pretty lazy and it's a lot
+
+00:02:55.080 --> 00:03:00.840
+ of work, but also to give people some ownership in the project. Once they have some ownership
+
+00:03:00.840 --> 00:03:05.440
+ and once they have full control over their part of it, then they become much more invested
+
+00:03:05.440 --> 00:03:09.920
+ in it, and they become passionate, and it becomes theirs, not just them contributing
+
+00:03:09.920 --> 00:03:17.720
+ to my project, it becomes our project. That really changed the nature of PHP. That happened
+
+00:03:17.720 --> 00:03:22.800
+ around 1997 or so, where I really delegated it out and gave people full access to the
+
+00:03:22.800 --> 00:03:29.080
+ CBS repository that I was using to develop this stuff in. It grew like crazy after that,
+
+00:03:29.080 --> 00:03:33.840
+ both because the web grew, and PHP was sort of in the right time, the right place, but
+
+00:03:33.840 --> 00:03:40.320
+ also because it was very, very easy to get in and get started. Contributing to PHP and
+
+00:03:40.320 --> 00:03:45.800
+ using PHP as well, obviously, has a very low barrier of entry. Both on the using PHP side
+
+00:03:45.800 --> 00:03:50.800
+ and also contributing to PHP side, I try to keep the barrier of entry really low. It does
+
+00:03:50.800 --> 00:03:56.160
+ not take much, even today, to get a CBS account in a PHP project. Source provision control
+
+00:03:56.160 --> 00:04:01.400
+ is a wonderful thing. It doesn't really matter how bad the initial patch is from some contributor.
+
+00:04:01.400 --> 00:04:06.240
+ We can always fix it. Much rather welcome new contributors and guide them along and
+
+00:04:06.240 --> 00:04:13.600
+ get them to be productive and useful, than yell at them for having a bad initial patch.
+
+00:04:13.600 --> 00:04:20.920
+ From the outside, you look like a well-oiled machine. It's a well-oiled machine that accomplishes
+
+00:04:20.920 --> 00:04:28.060
+ things more effectively than a commercial organization. At the same time, it's a band
+
+00:04:28.060 --> 00:04:33.920
+ of brothers to some degree. We have close to 1,400 people with CBS accounts, which means
+
+00:04:33.920 --> 00:04:39.660
+ those people can all commit to some part of the repository, either PHP, Pear, Peckle,
+
+00:04:39.660 --> 00:04:44.960
+ or the documentation tree, anywhere in there. They're not all active, obviously. We probably
+
+00:04:44.960 --> 00:04:52.800
+ have slightly over half the people have committed something in the last year and a half. There's
+
+00:04:52.800 --> 00:04:58.320
+ no management of these people, really. They self-organize into smaller groups. It's impossible
+
+00:04:58.320 --> 00:05:04.920
+ to manage 1,400 people, obviously, especially when they're volunteers and they're not actually
+
+00:05:04.920 --> 00:05:11.400
+ going to show up to a meeting or to read their email or whatever. They self-organize around
+
+00:05:11.400 --> 00:05:15.360
+ what they're interested in. We have documentation teams for the various languages. There's a
+
+00:05:15.360 --> 00:05:19.280
+ big French documentation team that just worry about the French translation of the documentation.
+
+00:05:19.280 --> 00:05:26.680
+ There's a Japanese translation team, a big group of core documenters. Those guys organize
+
+00:05:26.680 --> 00:05:33.160
+ themselves. There's no big chief of this whole thing. I don't tell people what to do. I can't.
+
+00:05:33.160 --> 00:05:36.960
+ They're not going to listen to me. Why would they listen to me? They do what they're interested
+
+00:05:36.960 --> 00:05:42.920
+ in. That's the only way volunteers work. Then there's the Peckle guys that build Peckle
+
+00:05:42.920 --> 00:05:48.800
+ extensions. Generally, that's where we test out new extensions and bring in certain ones.
+
+00:05:48.800 --> 00:05:54.960
+ Like in PHP 5.1, we brought in the JSON extension, which started its life in Peckle. Next may
+
+00:05:54.960 --> 00:06:02.880
+ be OAuth or some of the others that are big right now. That's how new features and new
+
+00:06:02.880 --> 00:06:09.080
+ things eventually creep in. They live outside of the core tree, and they get enough penetration.
+
+00:06:09.080 --> 00:06:12.280
+ There are enough people to install them. We see Linux distros pulling them in, and their
+
+00:06:12.280 --> 00:06:15.480
+ core version of PHP, they pull in some of these things. We sort of look at what's happening
+
+00:06:15.480 --> 00:06:22.720
+ out there, and that happens. There's no real management of that either. It's a meritocracy.
+
+00:06:22.720 --> 00:06:27.480
+ Code speaks. If you write a patch, or you write a piece of code to implement a feature,
+
+00:06:27.480 --> 00:06:31.800
+ that says a lot. If someone wants to disagree with that way of doing things, if they can
+
+00:06:31.800 --> 00:06:35.800
+ offer an alternate implementation, that's a really good argument. If all they do is
+
+00:06:35.800 --> 00:06:40.920
+ whine about it, that's a really bad argument. Chances are that the implementation will win,
+
+00:06:40.920 --> 00:06:45.840
+ even though it may not be the best way of doing things. There's code. It sort of works.
+
+00:06:45.840 --> 00:06:53.080
+ That's what we go with. That's always been the default. It doesn't always lead to consistency,
+
+00:06:53.080 --> 00:06:58.080
+ but it does lead to getting the features and actually being able to do something, being
+
+00:06:58.080 --> 00:07:02.800
+ able to connect to this type of database, even though it may not be the best way of
+
+00:07:02.800 --> 00:07:07.960
+ doing it. At least it gets you there. That's always been what PHP is about, is solving
+
+00:07:07.960 --> 00:07:12.800
+ the problem. We'd rather have an ugly feature than not having the feature at all.
+

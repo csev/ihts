@@ -1,0 +1,341 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:08.440
+ Well I am a trained relativistic astrophysicist and I got my PhDs always in physics departments
+
+00:00:08.440 --> 00:00:14.180
+ working on astrophysics problems involving general relativity, gas dynamics and so forth
+
+00:00:14.180 --> 00:00:20.640
+ and so in the 70s when I was developing what is now called numerical general relativity
+
+00:00:20.640 --> 00:00:25.080
+ which is the way to solve Einstein's equations for dynamics of black holes, colliding black
+
+00:00:25.080 --> 00:00:31.840
+ holes or in astrophysics that require general relativity like supernova events and so on.
+
+00:00:31.840 --> 00:00:39.440
+ I had to go and get a top secret nuclear weapons clearance to get access to supercomputers
+
+00:00:39.440 --> 00:00:46.200
+ because in the mid 70s the only place to get a supercomputer was either at Livermore in
+
+00:00:46.200 --> 00:00:52.280
+ Los Alamos or in one area which was weather. Now astronomy has always been a driver of
+
+00:00:52.280 --> 00:01:00.280
+ supercomputing and in fact on Johnny von Neumann's computer that was built by the Institute half
+
+00:01:00.280 --> 00:01:07.320
+ of that went to army to Aberdeen. Half of that was used of course for the army for trajectory
+
+00:01:07.320 --> 00:01:13.160
+ calculations but the other half was used for stellar evolution. So astronomy and von Neumann's
+
+00:01:13.160 --> 00:01:21.200
+ interest in weather meant that astronomy and weather for 50 years basically have been dominant
+
+00:01:21.200 --> 00:01:28.480
+ drivers of supercomputing usage and yet to do pure astrophysics you're having to get
+
+00:01:28.480 --> 00:01:31.960
+ a top secret nuclear weapons clearance. Now nobody seemed to think there was anything
+
+00:01:31.960 --> 00:01:37.400
+ unusual about this and so I just went ahead as a post doc and I would get a few months
+
+00:01:37.400 --> 00:01:41.520
+ in the summer, work a hundred hours a week and then the last of the year I'd have to
+
+00:01:41.520 --> 00:01:45.520
+ live off that, go back to Harvard where I was a junior fellow, try to explain to them
+
+00:01:45.520 --> 00:01:52.640
+ about one could solve the laws of physics that we had been laying down for 300 years
+
+00:01:52.640 --> 00:01:59.100
+ in incredible detail for engineering devices like nuclear weapons that put on earth temperatures
+
+00:01:59.100 --> 00:02:04.360
+ of the center of the sun, stresses beyond anything that we could imagine in academic
+
+00:02:04.360 --> 00:02:09.260
+ problems that we were trying to solve in lots of disciplines. So this thing could revolutionize
+
+00:02:09.260 --> 00:02:16.160
+ academic research. Well nobody got it. I really felt like I was transitioning in a flying
+
+00:02:16.160 --> 00:02:21.280
+ saucer between this advanced civilization at Livermore and this Stone Age culture at
+
+00:02:21.280 --> 00:02:28.760
+ Harvard and Harvard was as advanced as any place in thinking about this. I didn't figure
+
+00:02:28.760 --> 00:02:34.960
+ this out until it was in the early 80s and by then the first Cray had gone into the continent
+
+00:02:34.960 --> 00:02:38.880
+ of Europe in an open scientific institute, the Max Planck Institute of Physics and Astrophysics
+
+00:02:38.880 --> 00:02:43.160
+ so I'm over there in the summer along with people like Dave Arnett who is one of the
+
+00:02:43.160 --> 00:02:48.160
+ great supernova super computer guys in our country and people in chemistry and it was
+
+00:02:48.160 --> 00:02:52.680
+ like Paris in the 20s with all these ex-patriots sitting over there and we're like trying to
+
+00:02:52.680 --> 00:02:56.960
+ figure this out like it's an American built super computer right? Why are we in Munich?
+
+00:02:56.960 --> 00:03:05.920
+ Right? I mean this is very strange. So but you know in America we don't question the
+
+00:03:05.920 --> 00:03:09.920
+ infrastructure somehow. I mean it's just like it's either there or it isn't there or that's
+
+00:03:09.920 --> 00:03:16.760
+ just the way it is. But I was having a mass of beer late one night. Actually I think it
+
+00:03:16.760 --> 00:03:22.080
+ was the second mass of beer with my German host who had also been born like I was post
+
+00:03:22.080 --> 00:03:28.960
+ war and he finally turns to me and he says aren't you ashamed of yourself? You big rich
+
+00:03:28.960 --> 00:03:35.060
+ occupying country. You come over here in our little country and we finally get enough money
+
+00:03:35.060 --> 00:03:39.080
+ scraped together after World War II to buy one of these super computers and you Americans
+
+00:03:39.080 --> 00:03:44.760
+ come over here and use up our time. He says how did you guys ever win the war? What is
+
+00:03:44.760 --> 00:03:50.720
+ going on here? And so this finally sort of just stimulated me into saying what is going
+
+00:03:50.720 --> 00:03:56.080
+ on here? This is nuts and I went back and I found out for instance that after the Sputnik
+
+00:03:56.080 --> 00:04:02.120
+ program the federal government had funded the universities, built the science buildings,
+
+00:04:02.120 --> 00:04:06.000
+ converted the super computer centers, IBM would go around and give away almost the main
+
+00:04:06.000 --> 00:04:11.600
+ frames and so the scientists in the 60s took it for granted that they had the fastest computers
+
+00:04:11.600 --> 00:04:16.920
+ in the world in academia. But about 1970 with the starting of the Vietnam War and with all
+
+00:04:16.920 --> 00:04:22.880
+ kinds of guns and butters issues and everything else that stopped. And in fact to give you
+
+00:04:22.880 --> 00:04:28.760
+ an example by 78 half the number of PhDs and engineers in engineering was being generated
+
+00:04:28.760 --> 00:04:35.840
+ in our country as there were in 1970. So there was this complete severing of the Sputnik
+
+00:04:35.840 --> 00:04:40.440
+ era partnership with the federal government and it was particularly bad in computing.
+
+00:04:40.440 --> 00:04:48.320
+ To give you an example when I was at Livermore in the 70s there were four CDC 7600s which
+
+00:04:48.320 --> 00:04:53.760
+ were just one of the finest super computers ever built. No American university ever took
+
+00:04:53.760 --> 00:04:59.320
+ delivery of a single CDC 7600. In fact the University of Illinois when I first got here
+
+00:04:59.320 --> 00:05:08.680
+ had a cyber 175 which was a retread, a second design manufacturing of this thing and we
+
+00:05:08.680 --> 00:05:12.360
+ were one of the first universities that had it and people all thought that Illinois naturally
+
+00:05:12.360 --> 00:05:18.120
+ was way ahead of everybody else. So it's like we were just completely divorced from the
+
+00:05:18.120 --> 00:05:23.080
+ private sector that was generating these wonderful machines because of federal policy which was
+
+00:05:23.080 --> 00:05:32.440
+ to say these things are so valuable that we can only afford to put them into war environments.
+
+00:05:32.440 --> 00:05:38.560
+ So after this German encounter I came back and I said well gee I wonder how many other
+
+00:05:38.560 --> 00:05:46.000
+ scientists like me are there. So at the University of Illinois I started cold calling my colleagues
+
+00:05:46.000 --> 00:05:51.160
+ and saying hi you don't know me I'm a little assistant professor but I bet you that your
+
+00:05:51.160 --> 00:05:58.480
+ research is blocked by lack of access to super computers and they sort of said like who is
+
+00:05:58.480 --> 00:06:05.280
+ this you know crank call and but we'd start talking in chemistry and biology and agriculture
+
+00:06:05.280 --> 00:06:11.320
+ and so on and sure enough it turns out that that was true they knew how to do the science
+
+00:06:11.320 --> 00:06:15.900
+ they just didn't have access. So I said well send me a little perspective of what science
+
+00:06:15.900 --> 00:06:21.960
+ you could do if you had a super computer. Well I ended up with 65 faculty in 15 departments
+
+00:06:21.960 --> 00:06:29.320
+ on one campus and I thought this has got to be this way all over the country. So it was
+
+00:06:29.320 --> 00:06:35.960
+ I really said saying well gee somebody's got to raise this issue and about that time there
+
+00:06:35.960 --> 00:06:40.760
+ had been a lax report that had the federal government had done to begin to undercover
+
+00:06:40.760 --> 00:06:43.920
+ some of this stuff but they still weren't I remember Peter lax he was one of the greatest
+
+00:06:43.920 --> 00:06:50.920
+ mathematicians head of one of the top people in the cron institute a long time advocate
+
+00:06:50.920 --> 00:06:59.440
+ of things computational and I had this long long battle with Peter because in the draft
+
+00:06:59.440 --> 00:07:02.960
+ report of the lax report it was not it was going to say well yeah we got to get one of
+
+00:07:02.960 --> 00:07:06.280
+ these super computers and make it available to the universities but you know let's put
+
+00:07:06.280 --> 00:07:10.840
+ it at Livermore put it somewhere that people know how to do this stuff and a university
+
+00:07:10.840 --> 00:07:17.880
+ was not on the list of what the lax report considered to be appropriate sites for a supercomputer
+
+00:07:17.880 --> 00:07:23.520
+ so I had this long battle over the telephone I remember with Peter lax sort of David and
+
+00:07:23.520 --> 00:07:30.080
+ Goliath because I mean he was this giant of the field I'm nobody and I finally convinced
+
+00:07:30.080 --> 00:07:37.440
+ him not to exclude universities as a possibility even though he felt that it was fairly unlikely
+
+00:07:37.440 --> 00:07:44.000
+ that any of them would be able to play with sharp instruments and not hurt themselves
+
+00:07:44.000 --> 00:07:49.920
+ so I mean you gotta understand the world was totally different when the supercomputer centers
+
+00:07:49.920 --> 00:07:54.280
+ program was coming into being and people it's so hard for people now on the web and everything
+
+00:07:54.280 --> 00:07:59.840
+ to go back to that time there was no internet you know there was there was these wonderful
+
+00:07:59.840 --> 00:08:06.160
+ people vent surf and bob con and all these people bill joy who had developed tcpip and
+
+00:08:06.160 --> 00:08:13.360
+ embodied it in the arpanet this is a few computer science departments and military okay nobody
+
+00:08:13.360 --> 00:08:17.040
+ in a physics department or chemistry department ever heard of the arpanet much less had any
+
+00:08:17.040 --> 00:08:25.480
+ access to it but it was obviously the right idea and so once we got the congress to put
+
+00:08:25.480 --> 00:08:29.160
+ through money for a national supercomputer program then there was a national competition
+
+00:08:29.160 --> 00:08:35.080
+ and and and so on and the five centers were selected the first thing then that NSF realized
+
+00:08:35.080 --> 00:08:40.120
+ well okay now we put these in place to be providing access to academic scientists and
+
+00:08:40.120 --> 00:08:47.000
+ yet like they have to fly to champaign urbana like I had to fly to livermore okay this isn't
+
+00:08:47.000 --> 00:08:53.760
+ right so there were a lot of discussions then but the trouble was that the telecom lobbyist
+
+00:08:53.760 --> 00:08:59.840
+ in washington would block any discussion of the federal government putting in the kind
+
+00:08:59.840 --> 00:09:03.640
+ of network we have today which is what people wanted I mean everybody knew that they wanted
+
+00:09:03.640 --> 00:09:08.600
+ to have a ubiquitous email person to person network but as soon as they'd start talking
+
+00:09:08.600 --> 00:09:13.800
+ about that the telecom lobbyist would come up and say no way guys that's private sector
+
+00:09:13.800 --> 00:09:18.840
+ don't get the federal government involved in that stay out of it so what we learned
+
+00:09:18.840 --> 00:09:22.880
+ early on is real interesting it's like if we had argued instead of the supercomputer
+
+00:09:22.880 --> 00:09:27.680
+ program let's get the federal government to buy everybody a personal computer which was
+
+00:09:27.680 --> 00:09:33.360
+ IBM personal computer was two years old in 1985 and put on people's desk okay again this
+
+00:09:33.360 --> 00:09:39.600
+ would be an interference with the private sector so but we said oh we'll just take a few of
+
+00:09:39.600 --> 00:09:43.120
+ these esoteric supercomputers and they said okay that's right there's no market there
+
+00:09:43.120 --> 00:09:47.340
+ that's okay the federal government has a role well it was the same thing with networking
+
+00:09:47.340 --> 00:09:52.040
+ what we said is we just want to put a high speed backbone across the country to connect
+
+00:09:52.040 --> 00:09:57.960
+ the five centers and the telecom people said okay that's cool you know 56 kilobits was
+
+00:09:57.960 --> 00:10:06.040
+ the national high speed backbone less than ISDN today yeah that's not a market okay and
+
+00:10:06.040 --> 00:10:09.400
+ we said we got a few of these weird supercomputer types who are out in universities who want
+
+00:10:09.400 --> 00:10:14.560
+ to hook into that they say yeah that's okay that's not a market you can do that well that
+
+00:10:14.560 --> 00:10:20.360
+ was the NSF net backbone then the regionals got funded and then the campuses were afraid
+
+00:10:20.360 --> 00:10:25.760
+ that if they didn't dig up their quad and put in some fiber then the professors who
+
+00:10:25.760 --> 00:10:32.640
+ wanted to get access to supercomputers would go to a university that would do that so gradually
+
+00:10:32.640 --> 00:10:43.840
+ the whole internet emerged out of the sort of policy vice you get into Washington where
+
+00:10:43.840 --> 00:10:50.520
+ you can't do the right thing you have to do something that seems irrelevant but has a
+
+00:10:50.520 --> 00:10:56.200
+ logic to it that will gradually bring the market forces into play that will spin out
+
+00:10:56.200 --> 00:10:57.720
+ ultimately a whole industry.
+

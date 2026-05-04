@@ -1,0 +1,131 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:18.000
+ So I don't know if you noticed halfway through, I knew that song by heart but I had still written the lyrics on my hand and so halfway through I, you can see me look at my hand to check the lyrics that I knew made me look like a dork. I'm not, I really want to sing, I'm just not a very good singer. And thankfully Steve let me sing with the band.
+
+00:00:18.000 --> 00:00:39.000
+ So back to the topic at hand. In 1999, I visited CERN as one of my first tasks at the University of Michigan to help them with lecture recording. And I said, "Hey, I got a camera, you know, are the inventors of the World Wide Web here?" And we still had a little bit of the television show going back then.
+
+00:00:39.000 --> 00:01:02.000
+ So I went and interviewed Robert Caillou who was still at CERN. He was just sort of across the street from the cafeteria. And we walked into his office and gave him a microphone and just started talking about the beginnings of the World Wide Web. And Robert Caillou is the co-inventor of the World Wide Web along with Tim Berners-Lee who built it at CERN. So let's take a listen to Robert Caillou.
+
+00:01:09.000 --> 00:01:35.000
+ Hi, Charles Severance here.
+
+00:01:35.000 --> 00:01:45.000
+ I'm at CERN in Geneva, Switzerland, one of the world's preeminent high energy physics facilities. We were lucky enough to talk to Robert Caillou, one of the co-founders of the World Wide Web.
+
+00:01:45.000 --> 00:02:08.000
+ The big collaborations at CERN, and Stephen here is a member of one of them, had people spread all over the world and use CERN as the infrastructure to do the experiments. And so obviously the whole of high energy physics has been this sort of miniature information society since way back when, as soon as there were networks essentially.
+
+00:02:08.000 --> 00:02:20.000
+ And so because we have this need for spreading documentation around, we built these things like centralized databases. There was CERN doc, you know, you could use it, but whatever.
+
+00:02:20.000 --> 00:02:36.000
+ We had a large, well we still have a large database of high energy physics articles kept by Stanford. And you could get at it before the Web by knowing exactly what computer to log into over the network, blah, blah, blah, blah.
+
+00:02:36.000 --> 00:02:45.000
+ When the Web came all that necessity of knowing which computer to go to, what to say to that computer and so forth just disappeared.
+
+00:02:45.000 --> 00:02:52.000
+ You know, people put up these pages with their links and you could just follow links and get to places where you wanted to be and find everything.
+
+00:02:52.000 --> 00:03:08.000
+ And it was also all in the same format. So that was very important to that. You know, we broke this proprietary commercial system of vertical markets, which, you know, don't let you get at anything except if you stay with this particular company or with that particular company.
+
+00:03:08.000 --> 00:03:23.000
+ So that horizontal split, that cut that we made between the browsers on top and the databases at the bottom was, I think, essential to make it useful for us, but also to make it useful for everybody else.
+
+00:03:23.000 --> 00:03:41.000
+ And so that was what it was like in the beginning. And Tim and I did this all on this next machine here in about 1990. So the first server was up about 1990, the first end of 1990.
+
+00:03:41.000 --> 00:03:51.000
+ The first server in the United States came up about a year later at Stanford because of that database that I was talking about before.
+
+00:03:51.000 --> 00:03:55.000
+ Did you and Tim feel like this was the big one or it was just a business situation?
+
+00:03:55.000 --> 00:04:06.000
+ Well, in a sense, of course, as I always say, we called it World Wide Web in 1990 and Tim had, in fact, a name like that just before that.
+
+00:04:06.000 --> 00:04:13.000
+ So there was, in fact, no way of building it smaller than the Internet already was and the Internet was everywhere.
+
+00:04:13.000 --> 00:04:32.000
+ So there was no way we could build it smaller. But the thing that we probably did not expect or did not aim for definitely in the beginning, at least, was to have this be useful outside the community of academics and Internet people that existed then.
+
+00:04:32.000 --> 00:04:45.000
+ See, the Internet came outside the academic world only, what, after, I would say, also after '94, right?
+
+00:04:45.000 --> 00:05:01.000
+ '94 is what I call the year of the web. It's when we had the first conferences when Mosaic got off the ground, really, and when commerce started to notice it and companies began to be foreign and so on and so forth, exclusively with that in mind.
+
+00:05:01.000 --> 00:05:06.000
+ And that was only then, before that it was mainly universities and academics.
+
+00:05:06.000 --> 00:05:19.000
+ Gopher was simpler and easier to install and easier to populate and that explained its easier success for a while because both took off at about the same time.
+
+00:05:19.000 --> 00:05:36.000
+ And because the web was somewhat more difficult, it took somewhat longer, but Gopher became also integrated in the web browsers almost instantaneously and so, you know, after that, after a short while you saw what you could do with the web and what you could do with Gopher, you went to the web.
+
+00:05:36.000 --> 00:05:49.000
+ But it was easy, much easier to install Gopher, which is why it had a sort of bump where it went ahead of the web for a while.
+
+00:05:49.000 --> 00:06:08.000
+ The same is true of Mosaic. Mosaic was just no good, but easier to install, right? And so it went ahead of what we were trying to do. I mean, we were completely killed in the browser environment because what we tried to do with our browsers was more difficult than what Mosaic was trying to do.
+
+00:06:08.000 --> 00:06:23.000
+ So, you know, this proves that a better thing sometimes gets killed or takes much, much longer to come up because the easier thing, sort of like a virus, outgrows the other one.
+
+00:06:23.000 --> 00:06:38.000
+ I think that the real problem was that this development system is so much better than anything else that porting what we have here to any other platform took a lot of magnitude more time.
+
+00:06:38.000 --> 00:06:55.000
+ For example, every time you clicked here, you had another window. Every time you clicked on a diagram, you had a diagram in another window. When you clicked on a map, you got the map in PostScript, scalable, perfectly printable, and so on and so forth.
+
+00:06:55.000 --> 00:07:11.000
+ You tried to port that to another system, you got berserk. And this is the reason why, in Mosaic, you had only one window, and every time you clicked, you replaced the content of that one window, which was not what we wanted. Every time you see a page, you got the images in line, so you scrolled and they were gone, and so this was all not what we wanted.
+
+00:07:11.000 --> 00:07:21.000
+ It's horribly complicated for the user, and it's not efficient, but, you know, it was the easiest way to do it on the next system. And so, you know, there you go.
+
+00:07:21.000 --> 00:07:31.000
+ So that thing spreads, and if you want to make, you know, there's a big difference between making an editor and something that just puts up a page and you can't do anything with that.
+
+00:07:31.000 --> 00:07:57.000
+ So our system from 1990 was also the editor. I mean, I started, it's only after Next stopped making hardware, and I had to go back from Next to Macintosh, that I had to learn HTML. I mean, before, we produced all the documentation and the stuff, but we never saw any HTML, we never saw any URLs.
+
+00:07:57.000 --> 00:08:11.000
+ Because you linked by saying, "Link this to that," not by typing in a URL. There was a special window you could call up in which you could type a URL if you needed to, but it wasn't the usual thing.
+
+00:08:11.000 --> 00:08:21.000
+ I mean, there's this navigation panel which says, "HTTP," da-da-da-da. You know, I learned all that. The hard way afterwards that you had to use that because you've lost that system, right?
+
+00:08:21.000 --> 00:08:32.000
+ The interesting thing, though, is that I find HTML a glorious language. Now, I'm not the average user, but I like to write it. I mean, I enjoy it almost as a word processing. It's like tech.
+
+00:08:32.000 --> 00:08:42.000
+ Yeah, right, right. It's exactly as bad as tech. That's exactly what it is. It's exactly as bad as tech. And can you imagine, I mean, the headings have levels which are absolute?
+
+00:08:42.000 --> 00:08:53.000
+ True. You need a plus. You certainly do. What? I mean, come on. HTML was, we just didn't have, must realize that we were never more than four people here, Tim and myself and a student each, okay?
+
+00:08:53.000 --> 00:09:12.000
+ So things like putting in serious effort into thinking about HTML was a low priority business. And then, of course, by the time there was time to do that, it had spread beyond repair, right?
+
+00:09:12.000 --> 00:09:31.000
+ That's sort of like Unix, right? Right, but of course we have, yeah, in a sense, we have XML coming now, fortunately, so that'll help. This machine here, it's, well, it's more than 10 years old now.
+
+00:09:31.000 --> 00:09:48.000
+ It's got, it runs Unix, but it has Unix with a nice visual interface. It had some other interesting things which was the, which permitted us to do the development of the web in such a small time, such a short time.
+
+00:09:48.000 --> 00:10:03.000
+ And that was, it had a completely, or it has a completely object-oriented development system in which there is already supplied as part of the library an editable text object, and that was what Tim used to make the first browser.
+
+00:10:03.000 --> 00:10:22.000
+ And this was all nice because it got us there very quickly and then we realized that, you know, somehow the real world uses these horrible machines and, you know, porting it from here to make it available on these horrible machines in the same elegant way is an enormous amount of work.
+
+00:10:22.000 --> 00:10:34.000
+ But halfway through '93, I think, we made the last effort in outputting browsers that were also geared to becoming editors, but then there was just no hope.
+

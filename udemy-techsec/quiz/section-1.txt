@@ -1,0 +1,135 @@
+::Q1 Store-and-Forward vs Packets::
+Why did packet switching replace store-and-forward networking?
+{
+=It allows multiple messages to share the same connection efficiently
+~It guarantees faster hardware
+~It eliminates the need for routing
+~It prevents all delays
+}
+
+::Q2 Packet Independence::
+If packets take different paths to the destination, what problem does this design solve?
+{
+=It avoids single points of failure in the network
+~It ensures packets arrive in order
+~It reduces packet size
+~It eliminates routing tables
+}
+
+::Q3 Reassembly Insight::
+Why must the destination reassemble packets rather than the network?
+{
+=The network is designed to stay simple and not track full messages
+~Routers do not have enough power
+~Packets cannot be numbered
+~The link layer prevents reassembly
+}
+
+::Q4 Layering Strategy::
+Why is the networking problem divided into layers instead of solved as one system?
+{
+=It allows independent improvement of different parts of the system
+~It reduces the number of computers needed
+~It eliminates the need for protocols
+~It guarantees perfect reliability
+}
+
+::Q5 Link Layer Scope::
+Why does the link layer only handle one hop instead of end-to-end communication?
+{
+=Limiting scope makes the problem manageable and efficient
+~It ensures global addressing
+~It avoids packet loss
+~It replaces higher layers
+}
+
+::Q6 Shared Medium Behavior::
+Why do Ethernet and Wi-Fi require rules like collision detection?
+{
+=Multiple devices share the same communication medium
+~They operate at different voltages
+~They use different IP addresses
+~They require encryption
+}
+
+::Q7 MAC Address Limitation::
+Why can MAC addresses not be used for global Internet routing?
+{
+=They only identify devices within a local network
+~They change too often
+~They are too large
+~They are encrypted
+}
+
+::Q8 IP Design Philosophy::
+Why does the Internet layer not guarantee delivery?
+{
+=Keeping it simple allows the network to scale globally
+~It reduces the need for routers
+~It improves security
+~It speeds up DNS
+}
+
+::Q9 Prefix Routing Insight::
+Why do routers focus on the prefix of an IP address instead of the full address?
+{
+=It simplifies routing decisions across large networks
+~It ensures faster packet delivery
+~It guarantees reliability
+~It avoids packet collisions
+}
+
+::Q10 Imperfect Decisions::
+Why is it acceptable for routers to sometimes make suboptimal routing decisions?
+{
+=The network can still function and self-correct over time
+~All routes are identical
+~Packets are always retransmitted
+~Routers share complete global knowledge
+}
+
+::Q11 DHCP Reasoning::
+Why must a laptop request a new IP address when connecting to a new network?
+{
+=IP addresses are tied to the network location
+~MAC addresses expire
+~Routers assign permanent identities
+~DNS requires it
+}
+
+::Q12 NAT Concept::
+Why can many devices in a home use the same public IP address?
+{
+=The router translates between local and global addresses
+~All devices share the same MAC address
+~The Internet ignores duplicate addresses
+~Packets are merged together
+}
+
+::Q13 TTL Purpose::
+Why does the Time-To-Live (TTL) field exist in packets?
+{
+=To prevent packets from looping forever in the network
+~To increase packet speed
+~To encrypt data
+~To reduce congestion directly
+}
+
+::Q14 Traceroute Insight::
+Why does traceroute intentionally send packets with low TTL values?
+{
+=To reveal each router along the path
+~To speed up delivery
+~To reduce packet size
+~To avoid packet loss
+}
+
+::Q15 DNS Abstraction::
+Why is DNS considered an “add-on” rather than a core routing component?
+{
+=Routers operate only on IP addresses, not names
+~DNS controls packet delivery speed
+~DNS replaces IP addressing
+~DNS is part of the link layer
+}
+

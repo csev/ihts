@@ -1,0 +1,473 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:03.620
+ Hello, and welcome to Conversations with Computing.
+
+00:00:03.620 --> 00:00:07.160
+ In this column, I take a look at some of the second-order effects of the technology that
+
+00:00:07.160 --> 00:00:11.920
+ Steve Jobs produced throughout his career and how those technologies from Apple and
+
+00:00:11.920 --> 00:00:17.000
+ Next often served as an inspiration to many of the early innovators in the Internet and
+
+00:00:17.000 --> 00:00:19.120
+ World Wide Web.
+
+00:00:19.120 --> 00:00:23.600
+ I found out that we'd lost Steve Jobs on the evening of October 5th, right in the middle
+
+00:00:23.600 --> 00:00:26.760
+ of a lecture on using regular expressions in Python.
+
+00:00:26.760 --> 00:00:30.600
+ I was recording the lecture for a later podcast.
+
+00:00:30.600 --> 00:00:33.400
+ Because you might want to go down the nerd rabbit hole later, and that's okay.
+
+00:00:33.400 --> 00:00:38.000
+ There's nothing wrong with avoiding the nerd rabbit hole, but this is a nerdy thing.
+
+00:00:38.000 --> 00:00:40.920
+ It's extremely nerdy.
+
+00:00:40.920 --> 00:00:44.760
+ I think it's awesome.
+
+00:00:44.760 --> 00:00:49.800
+ A nerdy announcement?
+
+00:00:49.800 --> 00:00:52.800
+ >> Well, yeah.
+
+00:00:52.800 --> 00:00:55.960
+ >> Really, I mean, and it's kind of verified it's not some...
+
+00:00:55.960 --> 00:01:05.660
+ >> The very next week, in the same classroom, I was giving my lecture on the inside story
+
+00:01:05.660 --> 00:01:10.080
+ of the history of the Internet and the World Wide Web, sharing some of my interviews with
+
+00:01:10.080 --> 00:01:11.940
+ early pioneers.
+
+00:01:11.940 --> 00:01:16.700
+ As I gave the lecture and watched my video interviews thinking about Steve Jobs, I began
+
+00:01:16.700 --> 00:01:22.520
+ to realize how important Apple and Next technology was to those early innovators.
+
+00:01:22.520 --> 00:01:27.160
+ In some ways, the very existence of those technologies helped propel the Internet and
+
+00:01:27.160 --> 00:01:29.560
+ Web revolution forward.
+
+00:01:29.560 --> 00:01:34.480
+ In my 1999 interview with Robert Caillou, the co-inventor of the World Wide Web, we
+
+00:01:34.480 --> 00:01:39.460
+ are sitting in his office by the NextCube that ran the very first web server.
+
+00:01:39.460 --> 00:01:43.420
+ As Robert describes how the NextStep development environment allowed them to quickly build
+
+00:01:43.420 --> 00:01:49.800
+ prototype versions of a web browser in 1990, you get the sense that their Next hardware
+
+00:01:49.800 --> 00:01:54.720
+ and software was very much an equal partner in their early visions of the Web.
+
+00:01:54.720 --> 00:01:59.120
+ >> Obviously, the whole of high-energy physics has been this sort of miniature information
+
+00:01:59.120 --> 00:02:05.080
+ society since way back when, as soon as there were networks, essentially.
+
+00:02:05.080 --> 00:02:11.880
+ And so because we have this need for spreading documentation around, we built these things
+
+00:02:11.880 --> 00:02:17.560
+ like centralized databases, there was CERN doc, you know, you could use it, but whatever.
+
+00:02:17.560 --> 00:02:26.520
+ We had a--well, we still have a large database of high-energy physics articles kept by Stanford,
+
+00:02:26.520 --> 00:02:30.700
+ and you could get at it before the Web by knowing exactly what computer to log into
+
+00:02:30.700 --> 00:02:33.840
+ over the network, blah, blah, blah, blah, but it was all very difficult.
+
+00:02:33.840 --> 00:02:39.640
+ And then so when Tim invented the Web, and I have a separate proposal, I dropped it because
+
+00:02:39.640 --> 00:02:45.560
+ Tim's proposal ran over the Internet, and that was clearly much more efficient.
+
+00:02:45.560 --> 00:02:51.840
+ When the Web came, all that necessity of knowing which computer to go to, what to say to that
+
+00:02:51.840 --> 00:02:54.960
+ computer, and so forth, just disappeared, you know.
+
+00:02:54.960 --> 00:02:58.320
+ People put up these pages with their links, and you could just follow links and get to
+
+00:02:58.320 --> 00:03:03.240
+ places where you wanted to be and find everything, and it was also all in the same format.
+
+00:03:03.240 --> 00:03:07.880
+ So that was very important, too, that, you know, we broke this proprietary commercial
+
+00:03:07.880 --> 00:03:13.280
+ system of vertical markets, which, you know, don't let you get at anything, except if you
+
+00:03:13.280 --> 00:03:16.520
+ stay with this particular company or with that particular company.
+
+00:03:16.520 --> 00:03:23.720
+ So that horizontal split, that cut that we made between the browsers on top and the databases
+
+00:03:23.720 --> 00:03:29.020
+ at the bottom was, I think, essential to make it useful for us, but also to make it useful
+
+00:03:29.020 --> 00:03:31.440
+ for everybody else, right?
+
+00:03:31.440 --> 00:03:39.500
+ And so that was what it was like in the beginning, and Tim and I did this all on this next machine
+
+00:03:39.500 --> 00:03:43.280
+ here in about 1990.
+
+00:03:43.280 --> 00:03:52.320
+ So the first server was about 1990, the first, end of 1990, the first server in the United
+
+00:03:52.320 --> 00:03:58.280
+ States came up about a year later at Stanford because of that database that I was talking
+
+00:03:58.280 --> 00:03:59.960
+ about before.
+
+00:03:59.960 --> 00:04:07.800
+ The real problem was that this development system is so much better than anything else
+
+00:04:07.800 --> 00:04:15.000
+ that porting what we had here to any other platform took an order of magnitude more time.
+
+00:04:15.000 --> 00:04:21.100
+ And for example, every time you clicked here, you had another window, right?
+
+00:04:21.100 --> 00:04:24.800
+ Every time you clicked on a diagram, you had a diagram in another window.
+
+00:04:24.800 --> 00:04:30.120
+ When you clicked on a map, you got the map in PostScript, scalable, perfectly printable,
+
+00:04:30.120 --> 00:04:31.120
+ and so on and so forth.
+
+00:04:31.120 --> 00:04:33.840
+ You tried to port that to another system, you got berserk.
+
+00:04:33.840 --> 00:04:38.400
+ You know, there's a big difference between making an editor and something that just puts
+
+00:04:38.400 --> 00:04:40.560
+ up a page and you can't do anything with that.
+
+00:04:40.560 --> 00:04:46.000
+ So our system from 1990 was also the editor.
+
+00:04:46.000 --> 00:04:53.000
+ I mean, I started, it's only after Next stopped making hardware and I had to go back from
+
+00:04:53.000 --> 00:04:57.720
+ a Next to a Macintosh that I had to learn HTML, right?
+
+00:04:57.720 --> 00:05:02.920
+ I mean, before we produced all the documentation and the stuff, but we never saw any, we never
+
+00:05:02.920 --> 00:05:07.080
+ saw any HTML, we never saw any URLs, right?
+
+00:05:07.080 --> 00:05:13.600
+ Because you linked by saying link this to that, not by typing in the URL.
+
+00:05:13.600 --> 00:05:18.160
+ There was a special window you could call up in which you could type a URL if you needed
+
+00:05:18.160 --> 00:05:20.200
+ to, but it wasn't the usual thing.
+
+00:05:20.200 --> 00:05:23.720
+ I mean, there's this navigation panel which says HTTP, dah, dah, dah, dah, and I learned
+
+00:05:23.720 --> 00:05:24.960
+ all that.
+
+00:05:24.960 --> 00:05:30.760
+ The hard way afterwards that you had to use that because you've lost that system, right?
+
+00:05:30.760 --> 00:05:36.080
+ Steve Jobs' Next Workstations were essential to the creation of the earliest web software.
+
+00:05:36.080 --> 00:05:40.400
+ Their advanced development environment and rich display capabilities led early innovators
+
+00:05:40.400 --> 00:05:47.480
+ to think of the internet less as a text only and more as an engaging multimedia experience.
+
+00:05:47.480 --> 00:05:51.800
+ In my 2007 interview with Paul Coons, who brought up the first web server in the United
+
+00:05:51.800 --> 00:05:58.040
+ States on an IBM mainframe at the Stanford Linear Accelerator in December 1991, we can
+
+00:05:58.040 --> 00:06:03.700
+ see that he still has a working color Next Workstation in his office.
+
+00:06:03.700 --> 00:06:07.520
+ When Paul was developing software for the IBM mainframe, there were around 20 web servers
+
+00:06:07.520 --> 00:06:09.840
+ in the entire world.
+
+00:06:09.840 --> 00:06:16.280
+ If you wanted a web browser to test your server, having a Next Workstation was essential.
+
+00:06:16.280 --> 00:06:22.540
+ So when I was at CERN in September 1991, and Tim DeMarenz Lee dragged me into his office
+
+00:06:22.540 --> 00:06:30.400
+ to give me a demo of the web, at first I wasn't very interested, but when he demonstrated
+
+00:06:30.400 --> 00:06:37.280
+ doing a query to a help system database on a mainframe, I immediately put two and two
+
+00:06:37.280 --> 00:06:41.320
+ together and said, "Well, if you can query a help system on a mainframe, you can query
+
+00:06:41.320 --> 00:06:42.720
+ a database on a mainframe."
+
+00:06:42.720 --> 00:06:47.720
+ The database itself had about 300,000 entries.
+
+00:06:47.720 --> 00:06:52.200
+ Was it heavily used before you put it on the web and then continued to be heavily used?
+
+00:06:52.200 --> 00:06:53.480
+ It was heavily used.
+
+00:06:53.480 --> 00:07:02.680
+ People had signed up for have computer accounts on the mainframe so they could do their queries
+
+00:07:02.680 --> 00:07:03.680
+ from all around the world.
+
+00:07:03.680 --> 00:07:06.640
+ I think there were some 4,000 registered users.
+
+00:07:06.640 --> 00:07:09.240
+ So did you have to write it all from scratch?
+
+00:07:09.240 --> 00:07:12.440
+ Did you write it from the protocol or was there software that you reused to make your
+
+00:07:12.440 --> 00:07:13.440
+ first web server?
+
+00:07:13.440 --> 00:07:19.480
+ Well, I used the CERN server software, which was written in C. Unfortunately, we had a
+
+00:07:19.480 --> 00:07:22.560
+ C compiler on the mainframe at the time.
+
+00:07:22.560 --> 00:07:27.120
+ It wasn't very long that we had a C compiler, but we had one.
+
+00:07:27.120 --> 00:07:35.600
+ So all I had to do was to write some extra C code to get the query that the user had
+
+00:07:35.600 --> 00:07:38.720
+ made and turn it into the database query.
+
+00:07:38.720 --> 00:07:46.440
+ Now, wasn't the original web server on a Next?
+
+00:07:46.440 --> 00:07:50.080
+ All the web software was originally developed on the Next computer at CERN.
+
+00:07:50.080 --> 00:07:54.200
+ While the web and web technologies were gaining traction in the academic and research communities
+
+00:07:54.200 --> 00:07:59.480
+ who often had access to powerful Unix workstations on their desks, the rest of the world was
+
+00:07:59.480 --> 00:08:03.960
+ browsing the Internet using the text-oriented gopher clients and servers.
+
+00:08:03.960 --> 00:08:09.120
+ In 1993, the National Center for Supercomputing Applications at the University of Illinois
+
+00:08:09.120 --> 00:08:13.080
+ at Urbana-Champaign released NCSA Mosaic.
+
+00:08:13.080 --> 00:08:19.000
+ Mosaic was the first graphically rich web browser that ran on Unix, Macintosh, and Windows.
+
+00:08:19.000 --> 00:08:24.400
+ In my 1997 interview with Larry Smarr, he points out that the success of the NCSA Mosaic
+
+00:08:24.400 --> 00:08:30.020
+ browser occurred in part because of earlier work developing the NCSA image library to
+
+00:08:30.020 --> 00:08:35.060
+ take advantage of the graphics capabilities of early Apple Macintosh computers.
+
+00:08:35.060 --> 00:08:43.520
+ What we basically did during that late age period was to make the world safe for images.
+
+00:08:43.520 --> 00:08:50.480
+ What NCSA image did was basically we said we want to build a world of infrastructure
+
+00:08:50.480 --> 00:08:58.640
+ in which it's as easy to move an image around as it is to move a word.
+
+00:08:58.640 --> 00:09:04.260
+ That was our design parameters, and that's the way we talked about it back then.
+
+00:09:04.260 --> 00:09:09.280
+ So that meant we had to scale the network, scale the disk drives, scale the compute power.
+
+00:09:09.280 --> 00:09:11.360
+ We had to go to full color.
+
+00:09:11.360 --> 00:09:16.960
+ When the Mac II first came out, 256 color levels, we got 50 of them.
+
+00:09:16.960 --> 00:09:21.120
+ Apple gave us 50 Mac IIs, which was stunning in those days.
+
+00:09:21.120 --> 00:09:27.200
+ We were, in fact, the largest funded academic group in the country for the Apple Advanced
+
+00:09:27.200 --> 00:09:28.920
+ Technology Group.
+
+00:09:28.920 --> 00:09:33.920
+ IBM at that time was telling their customers, "You don't need color.
+
+00:09:33.920 --> 00:09:36.200
+ We've already provided it, as I said.
+
+00:09:36.200 --> 00:09:39.560
+ You have four of them, black, white, cyan, and magenta.
+
+00:09:39.560 --> 00:09:42.480
+ Why would you need more?"
+
+00:09:42.480 --> 00:09:48.540
+ So what we did was we took things that were on $100,000 computer graphics workstations
+
+00:09:48.540 --> 00:09:53.800
+ of image processing that medical imaging people use, satellite reconnaissance people use,
+
+00:09:53.800 --> 00:09:59.280
+ and we took all that, put it in the software, and NCSA image on the Mac.
+
+00:09:59.280 --> 00:10:03.040
+ So you could just move the mouse and do what it would take you, what would have otherwise
+
+00:10:03.040 --> 00:10:06.960
+ cost you $100,000 to do, and you'd have to be an elite specialist.
+
+00:10:06.960 --> 00:10:11.560
+ But again, taking things that elite people knew how to do, could afford to do, and making
+
+00:10:11.560 --> 00:10:13.480
+ it available to the masses.
+
+00:10:13.480 --> 00:10:17.120
+ The day after I found out that Steve was no longer with us, I happened to have a morning
+
+00:10:17.120 --> 00:10:21.600
+ meeting in New York City, so I went to the Apple Store in Manhattan to get a sense of
+
+00:10:21.600 --> 00:10:26.360
+ our collective reaction to the loss of such a brilliant visionary who's affected us in
+
+00:10:26.360 --> 00:10:27.360
+ so many ways.
+
+00:10:27.360 --> 00:10:28.360
+ Hello, everybody.
+
+00:10:28.360 --> 00:10:29.360
+ This is Chuck.
+
+00:10:29.360 --> 00:10:32.360
+ I'm here at the Apple Store in Manhattan.
+
+00:10:32.360 --> 00:10:34.600
+ I'll show you what we're seeing.
+
+00:10:34.600 --> 00:10:42.540
+ We're seeing press, we're seeing an impromptu memorial for Steve Jobs that's got apples,
+
+00:10:42.540 --> 00:10:48.760
+ it's got flowers, it's got all kinds of really, really cool stuff.
+
+00:10:48.760 --> 00:10:50.840
+ But the crowd seems really quiet.
+
+00:10:50.840 --> 00:10:53.040
+ There's a media that's interviewing all the people.
+
+00:10:53.040 --> 00:10:57.560
+ You can see the media there grabbing people off the street and interviewing them.
+
+00:10:57.560 --> 00:10:59.700
+ I'm sure they're capturing their thoughts.
+
+00:10:59.700 --> 00:11:08.000
+ So here we are sort of one day after the passing of Steve Jobs.
+
+00:11:08.000 --> 00:11:12.760
+ Throughout his career at Apple and next, and then again at Apple, Steve Jobs was never
+
+00:11:12.760 --> 00:11:17.700
+ interested in the least expensive nor the most profitable technology.
+
+00:11:17.700 --> 00:11:20.900
+ He pursued the best and most advanced technology.
+
+00:11:20.900 --> 00:11:26.160
+ In many of his designs and decisions, he provided a roadmap for the entire consumer technology
+
+00:11:26.160 --> 00:11:27.520
+ marketplace.
+
+00:11:27.520 --> 00:11:32.320
+ It's no wonder that many of us would wait with breathless anticipation for each and
+
+00:11:32.320 --> 00:11:34.420
+ every Apple announcement.
+
+00:11:34.420 --> 00:11:38.560
+ They were always an exciting glimpse into the future of technology.
+
+00:11:38.560 --> 00:11:43.320
+ Over the past 30 years, the products that came from jobs companies were a joy to use.
+
+00:11:43.320 --> 00:11:48.240
+ And perhaps more importantly, they inspired many innovators to keep their focus on the
+
+00:11:48.240 --> 00:11:50.080
+ exciting and unexplored future.
+

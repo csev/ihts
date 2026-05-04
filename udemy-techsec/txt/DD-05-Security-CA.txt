@@ -1,0 +1,179 @@
+ So now we have a way to ensure the confidentiality using secure socket layer and public-private key
+ encryption. And the only question now remaining is who are we talking to? And are we talking to that
+ server that we think we're talking to? Are we really talking to Amazon? Are we really talking
+ to Coursera? How do we know? Now, you'll notice if you take a look at the top of your browser,
+ perhaps right now even, you can take a look at the top of your browser and usually when it's
+ indicating that you have a secure connection, you can click on this and see some information.
+ It's called the certificate information. Okay. And so HTTPS has the notion of a public key.
+ We retrieve the public key when we make the connection. But there are two kinds of keys.
+ There are public keys that are just made up that are sent to us. And then there are public keys
+ that are signed and validated by a third party certification authority. So this is a Coursera
+ and it is certified by GoDaddy certification authority. So it's not just that we're getting
+ the certificate from Coursera. We're actually getting the certificate signed by GoDaddy.
+ The GoDaddy has checked the ID of Coursera, said, okay, you must be the CEO of Coursera or I'm not
+ going to give you this signed private key. So it's a process to get private keys signed and it's a way
+ to make sure you're talking to who you think you're talking to. So this is called digital
+ certificates, also known as sort of signed private keys. Now, if we go back and we talk about the
+ integrity, right, we want to know who we're talking about. And so we had this notion of a signature.
+ A signature is a way that you know that you're talking to who you're talking to. So for example,
+ like if a guy comes to your office and says, hi, I'm Dr. Chuck, got like a beard and some
+ white hair, you can say, hey, if you're really Dr. Chuck, show me your tattoo. And now you will know
+ that very few people will also look like this and have this tattoo, right? So this is my private key
+ and this is my signature of my private key. This is like my message digest. So people won't have
+ this tattoo if they claim to be Dr. Chuck. So this is Dr. Chuck, this is my message digest.
+ So there's a difference between a private key and a private key that's been certified
+ by one of these designated third parties. These designated third parties are called certificate
+ authorities. Now you could say, I'm a certificate authority. Well, some certificate authorities are
+ more better certificate authorities than others, okay? So they're a trusted third party.
+ And so how did they start? Well, some are more trusted than others and the more we trust them,
+ they kind of all work out. So it's not everybody, you can't become a trusted authority. So one of
+ the many trusted authorities and one of the oldest ones and one of the more popular ones and one of
+ the more expensive ones, it's pretty expensive to get your certificate signed. It can be as
+ inexpensive as a couple hundred dollars. It can be thousands of dollars to get a certificate signed.
+ And VeriSign is one of the oldest and most well-respected of these certificate authorities.
+ So the idea is that I have this website called online.drchuck.com where I teach Python classes
+ and do various other things. And I wanted to secure a certificate because I would be handling
+ people's data and I wanted to be respectable and have a secure certificate. So I had a public in a
+ private key and then I sent it to a certificate authority. I paid them money and then they sent
+ me back a signed private key, okay? So this is a, now you might say, oh, this is kind of evil or
+ this is really expensive because all they really are doing is like changing a few bits in my private
+ key or adding a few bits to my private key. But they have a lot of responsibility and the good
+ ones have a lot of credibility so they don't want to lose information. They got to spend some time
+ validating identity saying, okay, are you really the owner of drchuck.com? They're not going to
+ hand a certificate, a signed certificate for drchuck.com to anybody except the true owner.
+ And so they spend some time checking to make sure that it's the true owner. And they do this by
+ looking at the registration data and drchuck.com, et cetera, et cetera, et cetera. And so there is
+ a cost of verifying all this identity, kind of like the signature track on Coursera. And that's
+ kind of what's going on in the signature track of the Coursera. There's a difference between a
+ certificate and a certificate that Coursera is going to assert that we have verified the identity
+ and the cost is in the verification of the identity. So certificate authorities are
+ charging Amazon, but then ensuring that they don't mistakenly give the amazon.com certificate
+ to a random bad guy. Because if they did, that bad guy could pretend to be amazon.com.
+ So then you might ask, who decides which of these certificate authorities to trust? We use the
+ certificate authorities to decide whether or not to trust amazon.com or corsera.org or drchuck.com
+ or whatever. How do we decide which of the certificate authorities we're going to trust?
+ Well, it turns out that apple, microsoft and linux and other operating system vendors
+ pre-install at the moment that you're either purchasing your computer or installing your
+ operating system. Part of that operating system is actually a list of the public keys of the
+ chosen certificate authority. So if you look deep enough inside your computer, this is my mac,
+ you can see the companies that have been included by apple as the manufacturer of the operating
+ system. And so you see that verisign is one of those companies that has been pre-included
+ in apple macintosh, which means that a certificate from verisign is going to be known, right? So
+ let's look a little bit more. So these come, your browsers and your operating systems come with
+ pre-built-in public key certificates for certain certificate authorities like verisign.
+ Now that's a lot of trust that apple, microsoft and linux have placed in verisign. And that's
+ because over the years verisign has earned that trust that says verisign doesn't just get out
+ certificates without checking, right? If verisign gave out an amazon.com certificate to somebody
+ without checking, they would lose a lot of credibility. And then microsoft would like
+ take them out, right? Say, well, verisign seems to be kind of sleazy. They seem not to be able to
+ to handle their security, but you know, they have. And so they remain in there. And so we,
+ it's kind of an interesting thing where they are motivated to keep their security high.
+ They're motivated to do a good job because the moment that they sort of fail, they lose a lot of
+ credibility and respect and their value of verisign brand and is all of the respect that we have for
+ verisign. So, so. So we mentioned public private key encryption. We have the public key that goes
+ across and I'm about to type my credit card in. And so the problem now that we're going to solve
+ is on, is this really amazon's key? Is it really amazon's public key? I mean, I got a public key
+ from across this connection I made to a server and it claims that it's amazon.com, but do I believe
+ that it says it's amazon.com? And so that's the integrity thing. That's the security. That's the,
+ do I believe it? Is it really got the verisign tattoo in addition to the amazon.com? It represents
+ that it's amazon.com's public key. So we can also use public keys to do signing and, and basically
+ verisign has a public and private key for verisign. The public key for verisign is sitting in your
+ browser right now and they use, they do an encryption much like the message digest. They
+ do an encryption of amazon's certificate and then sort of create a digest and then add that digest
+ to it. So a certificate says I'm amazon.com and later it says, oh yes, and verisign signed this
+ with verisign's private key. Okay. So verisign's private key is used to sign amazon. This is
+ probably easiest if I just show you sort of a video. Wait, I'm going the wrong way. Am I
+ going the wrong way? What's going on here? Come on, I'm going the wrong way. Yeah, I'm going the
+ wrong way. Okay. So here we go. Going backwards. So here's how it works. This is how amazon gets a
+ public key signed by verisign, right? So in the beginning, verisign makes a public and a private
+ key somewhere in a bunker and they store the private key and they'll, you can sometimes read
+ up on how many, how much effort they go to storing the private key and then they hand the public key
+ to apple, microsoft and linux and then they bundle that in with your laptop. So your laptop that you
+ buy, you walk out and you have a laptop and it's got public keys in it from the vendor. Now amazon
+ says, you know what? I'd like to do some commerce and I would like to be able to
+ use SSL and, and have a certified private key. So then what amazon does
+ is amazon inside of its servers generates a pair, a public private key pair.
+ So this private key is not leaving amazon servers. It's, it takes a while. It takes minutes sometimes
+ generate the right random, sufficiently random public and private key by looking at all the
+ large prime numbers and then picking one and then bang, making a public and private key.
+ Then what amazon does at that point is it transports its public key to verison. Now during
+ that transport, it might, eve might have seen it, but it's okay because it's just, it's just a public
+ key, right? So it's just the public key and so it actually can be sent across the internet and it's
+ most commonly sent across the internet. Like when I got the online.drchuck.com certificates,
+ we just typed it in and sent it because if you get a hold of the public key, all it means is
+ you can encrypt. It doesn't mean you can decrypt. So then what happens is inside of verizon's servers
+ verizon computes a message digest using its public, its private key, right? And then it
+ adds basically a signature that says, oh, here's amazon's public key that I received from amazon,
+ verified the identity of the person, and now I have signed it. Mr verison, I've signed it.
+ And that of course is just like message digest, like information that is appended to the bits of
+ the public key. Then that public key with signature is sent back
+ bundled together and sent back to amazon. And now amazon has not just any old public key.
+ It has a public key that says, I am amazon.com and verizon is now asserting that I am really who I am.
+ And again, so eve saw that one. Who cares? It's just a public key. There's nothing about the
+ verizon private key. It never left the verizon servers. The signature is public information.
+ You can use the verizon public key to verify that the signature is right, but you can't forge the
+ signature. So eve can look at that. Eve could look going this way. Eve can look that way. Eve gets
+ nothing. Eve gets nothing. So amazon now has a signed and certified private key. Then what happens
+ is sooner or later, many hours, many days, many months later, you decide on your laptop,
+ remember this is you, oops, this is you. You want to buy some shoes. So you connect amazon.com with
+ your browser, with an HTTPS connection. And then what happens is amazon sends you its public key.
+ And eve of course is eavesdropping all the time. Eve sees it goes by. It's worthless, right? It's
+ worthless because it's just the encryption key. It's not the decryption key. The fact that it's
+ signed, it sees that, but it can't do anything with that information. Now within your laptop,
+ within your laptop, you have from the vendor, the verizon public key from macintosh or apple or
+ whatever. So you can look with this public key at that signature. And just like we did with the
+ message digest before, you can go, yep, that's good. That really had to have been signed by
+ verizon. And if your computer is really conservative, it can actually go check with
+ verizon, can send it up and say, hey, did you verify this? And then verizon can verify it too.
+ But you actually don't need to connect because you have the public key. The only way that the,
+ the, you know, whatever that message digest could be right would be is if verizon,
+ it's private key was used to generate the message digest, just like we used to do santa
+ in the other one. Okay. The Santa is just really simple, but it's the same basic mechanism.
+ This is verifiable that it came from this private key. Now, if somebody broke in
+ and stole the private key, that's a different story. But if the private key is safe and secure,
+ hasn't been compromised, the only way to generate that message digest is to be in
+ possession of the private key. So now you are in a position where you are in a good mood, right?
+ You see an HTTPS, you can pop that little thing and say that was signed by verizon.
+ You can be assured that verizon is asserting that that key came really, that probably key came from
+ Amazon. And now is time to encrypt your visa card and send it over an encrypted connection to Amazon.
+ Okay. Because you won't send your encrypted thing. You're, you're, you're, you won't send it
+ unless you believe that the HTTPS is proper and your browser will pop up a little pop up and say,
+ wait a sec, this certificate looks a little funky claims to be from amazon.com, but it's not signed
+ by one of the signatures that I believe in. So you send your data, it is encrypted and Eve is
+ watching, right? Eve is always watching, but because it's encrypted with a public key,
+ unless Eve has supercomputers in a couple of months, there's nothing that Eve can do.
+ And then of course, Amazon decrypts it using the private key. So the private key comes in.
+ Right? So in it comes Eve watches, but is helpless
+ because they don't have enough computers. Eve doesn't have enough computers and your key is
+ large enough. So Amazon then takes its private key and uses that to decrypt it and ends up with your
+ plain text again. So if you think this whole thing through this, Eve was watching the whole time.
+ We sent a public key, we signed and returned a public key. Then we sent the public key to
+ your laptop. We verified the public key and the whole time Eve is sort of watching all this
+ information and she is powerless to break it. Pretty dang clever if you ask me. And we can thank
+ Diffie, Hellman and Merkel for that. Pretty darn clever because Eve sees it all. Just think what
+ would happen if like the Germans had this in World War II. Would have been pretty cool. Of course,
+ they didn't have computers. So it'd have been difficult. I don't know. Too much to think about
+ right now. Okay. Continuing on. So what we have is we have this thing called the certificate
+ authority, which is a trusted third party that signs these certificates. Right? And so it's the,
+ it's an entity that issues digital signatures on public keys so that we the public have a way
+ of validating that an amazon.com certificate really came from amazon.com. So if you then add
+ this all together, right? If you add this all together, we have basic public private key
+ encryption that makes sure that this data can move across the internet, out of your computer,
+ out back into the next one, all encrypted. That's just public private that does that.
+ And then we have this third party certificate authority that your application can use to
+ validate the certificate that comes out. And so the combination of SSL or the secure sockets layer
+ and the certificate authority gives us high confidence that when we're talking to something,
+ we know we're really talking to it. So it's pretty non intrusive security. If your browser pops up
+ with a little pop up message, that means it's got a certificate that it has no certificate of
+ authority to validate. And that's not a good time to be typing in sensitive information unless you
+ know exactly what's going on. So that sort of brings us to the conclusion of this. This,
+ these last couple of lectures have been about message confidentiality and that is protecting
+ the contents from being revealed. We use encrypting and decrypting for that. And then we have message
+ digest and to sign things. We've signed messages, we've signed certificates, we've signed many
+ things and those are important. And we talked about both sort of shared key and secret key where you
+ have to get together and agree on a key, which is a symmetric key that's used for encrypting and
+ decrypting. And then you have the public private key, which is the asymmetric, which is one key is
+ used for encrypting and the other key is used for decrypting. And you can freely show the encrypting
+ key because it gives very little information, although it is mathematically possible, but
+ difficult to decrypt a public private key message. So that kind of sums up, that kind of sums up our
+ lecture on public private keys and I hope you find it valuable. See you on the net.

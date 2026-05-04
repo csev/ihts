@@ -1,0 +1,122 @@
+ You know, I think computer security is the most exciting part of computing right now.
+ Because it has something that nothing else has.
+ It has an adversary relationship.
+ I mean, if you do graphics or operating systems or anything, there's no one trying to thwart
+ you at every turn.
+ And that's what you have in security.
+ That's what makes it exciting and interesting.
+ And that's what makes it something that's forever changing and involves psychology and
+ economics and computing and law and policy and so many things.
+ So I think it's a great area to be in, to work in.
+ I think it's not going away, right?
+ As long as we have adversaries, as long as we have human beings and ne'er-do-wells and
+ evildoers, we're going to need security.
+ So it's always going to be like that.
+ You know, preparing is interesting.
+ In a lot of ways, security is a mindset.
+ It's a way of thinking about the world.
+ And if you think about the traditional definition of a hacker, someone who sort of cobbles stuff
+ together, you hack this tool and it works and you put this piece together and this here
+ and that and it all works and it's a great hack.
+ But I'm a security guy.
+ I'm going to say, well, turn this like that and it doesn't work anymore.
+ And you'll say, well, don't do that.
+ And I'll say, well, no, no, no, I'm the attacker.
+ I get to do that.
+ I get to do that whenever I want.
+ I get to do it at the most inopportune time.
+ I get to do that in a way that makes your system fail as badly as possible.
+ And you have to think that way.
+ Not about how to build something, not how to make it work, but how to make it fail and
+ how to make it fail in precisely the right way to do precisely the right sort of damage.
+ And that's a way of thinking.
+ I mean, there are some people who go through their lives looking at systems and figuring
+ out, oh, I can break that.
+ Oh, here's how to break that.
+ And you walk into a store and you see the purchasing system.
+ Oh, I can steal something.
+ Here's how.
+ You walk into a voting booth.
+ Oh, I can sort of defeat this.
+ Here's how.
+ You might not do it because, of course, that'd be illegal, but you think that way.
+ And that mindset, I think, is essential for security.
+ Once you have that mindset, then it's a matter of just learning the domain, right?
+ Learning the systems and whether it's a self-driving car or a voting system or a medical device.
+ It's going to be embedded code, interacting with the real world in a way that involves
+ people and society.
+ And I can teach all that.
+ You can learn all that.
+ So I remember a class in security.
+ I forget who did this.
+ One of the assignments was, "Come in tomorrow and write down the first thousand digits of
+ pi."
+ Okay, so two things about this test.
+ One, you can't memorize a thousand digits of pi.
+ You have to cheat.
+ And actually, the students were expected to cheat.
+ But if they were court cheating, they would fail.
+ That's interesting, right?
+ That teaches that mindset.
+ It allows you to think outside the box.
+ How am I going to do this?
+ And there are lots of ways people cheated.
+ And I sort of urge people watching to go Google this and to look at some of the stuff written.
+ It's a great way of trying to stimulate the mindset.
+ Can you teach it formally?
+ I don't know.
+ It's kind of like it's a way of thinking.
+ And I think the more security classes you take, the more you exercise that mindset.
+ A lot of the hacker conferences will have capture the flag contests.
+ I remember an early one where they had to build their own private network to cut down
+ on both network latency and federal violations.
+ That's why you do it.
+ But you're going to learn a lot by breaking other people's systems.
+ And yeah, that's probably going to involve illegal activity.
+ And agreed, this isn't the best way, or maybe it is the best way, it's not the most socially
+ acceptable way.
+ But here we have this clash between the tech imperative and what society wants.
+ So many of our systems are black boxes.
+ You can go and try to hack this, your smartphone or your computer, and there's a lot of stuff
+ you can learn.
+ But really it's going to be more fun if you can hack somebody else's cell phone or somebody
+ else's computer.
+ I want it to be open-ended.
+ I want it to follow whatever it is you're interested in.
+ The neat thing about security is it can go wherever you want.
+ There are so many different sub-disciplines.
+ I'm often asked, "Should I study forensics or cryptography or network security or protocols
+ or embedded devices or scada systems?"
+ Study what you want.
+ Whatever interests you, follow that.
+ Because really what you're learning is how to think like a security expert.
+ And honestly, if you get a job and they make you do VPNs, you can pick up VPNs.
+ That's easy.
+ It's the way to think.
+ So do what you want.
+ And what we're learning right now is that demand is greatly outstripping supply.
+ That people with expertise in security have a guaranteed career because there is such
+ a demand for it and there is such a lack of supply.
+ Have you written any of your books aimed at those pre-computer science students or early
+ computer science students that would be a good read?
+ I tend to write my books for general audience.
+ So I think of my parents, my friends.
+ So computer experts, yes, but really for a more general audience.
+ So going back to something like Secrets and Lies I wrote in 2000, it's about how network
+ security works.
+ I had 15 years out of date, but it's still a good introduction on the basic concepts
+ of how to think about security.
+ Later cryptography engineering, how to engineer crypto systems.
+ My book, Liars and Outliers, how to think about security as a way to enable trust.
+ Very non-technical, but very much here's how security is embedded in society.
+ My latest book is about surveillance.
+ Data and Goliath talks about what's going on in the world of surveillance and how we
+ can regain security.
+ So to me all of these books are for someone who might be interested in this field because
+ what they're going to do is spark interest in different directions.
+ They're going to give people ideas, they're going to go and research further.
+ And that's how you get your passion.
+ That's how you get your calling.
+ It's not that someone gives it to you, that you notice it going by and saying, "Hey, that's
+ kind of neat.
+ I want to do more there."

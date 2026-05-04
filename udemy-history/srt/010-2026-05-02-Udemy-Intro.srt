@@ -1,0 +1,252 @@
+1
+00:00:00,000 --> 00:00:03,000
+ Welcome to Internet History, Technology, and Security.
+
+2
+00:00:03,000 --> 00:00:09,000
+ My name is Charles Severance, and I'm a faculty member at the University of Michigan's School of Information.
+
+3
+00:00:09,000 --> 00:00:14,000
+ I have been working on this course one way or another for nearly 20 years.
+
+4
+00:00:14,000 --> 00:00:18,000
+ For me, it actually goes back to when the Internet first started.
+
+5
+00:00:18,000 --> 00:00:20,000
+ That was in the mid-90s.
+
+6
+00:00:20,000 --> 00:00:27,000
+ And in the mid-90s, I had the good fortune to have some friends that decided to help me go on television.
+
+7
+00:00:27,000 --> 00:00:30,000
+ John Liskey, Amy Leahy, and Richard Wiggins.
+
+8
+00:00:30,000 --> 00:00:32,000
+ And we had a television show.
+
+9
+00:00:32,000 --> 00:00:39,000
+ First it was called Internet TCI, and then later it was called Nothing But Net, and then we called it North Coast Digital.
+
+10
+00:00:39,000 --> 00:00:50,000
+ But it gave me an excuse in the mid-90s to make a bunch of videos and film folks and just ultimately create an interesting oral history of the Internet.
+
+11
+00:00:50,000 --> 00:00:54,000
+ This is in the 90s, and we didn't even know how it was all going to turn out.
+
+12
+00:00:54,000 --> 00:01:01,000
+ So we were walking around, Richard Wiggins and I were walking around and filming all kinds of things.
+
+13
+00:01:01,000 --> 00:01:07,000
+ Another thing that I did in the late 90s was to build technology for teaching and learning on the Internet.
+
+14
+00:01:07,000 --> 00:01:14,000
+ I hold the distinction of being one of the first people to stream an entire semester online.
+
+15
+00:01:14,000 --> 00:01:18,000
+ I streamed it so early that I couldn't even stream video.
+
+16
+00:01:18,000 --> 00:01:24,000
+ I could stream audio using real audio, and I had a set of slides that would flip every few minutes.
+
+17
+00:01:24,000 --> 00:01:32,000
+ And you see a terrifying picture of me staring at you because there was no video in the upper left-hand corner of the screen.
+
+18
+00:01:32,000 --> 00:01:37,000
+ I went from the Michigan State University to University of Michigan in 1999,
+
+19
+00:01:37,000 --> 00:01:48,000
+ and I rebuilt a new lecture capture system that captured cameras and document cameras and screen capture and allowed for annotation. I called that Clipboard 2000.
+
+20
+00:01:48,000 --> 00:01:52,000
+ Everything back then was called Something 2000.
+
+21
+00:01:52,000 --> 00:02:02,000
+ In 2010, I was part of a group that was going to convert I Triply Computer Magazine from Paper Magazine to a digital magazine.
+
+22
+00:02:02,000 --> 00:02:05,000
+ And one of the ideas was we should have some videos.
+
+23
+00:02:05,000 --> 00:02:14,000
+ So what I would do for about five years is add a few days to a business trip and take my camera and go somewhere.
+
+24
+00:02:14,000 --> 00:02:24,000
+ I had two cameras and a little backpack and some lighting kit back in 2010, '11, '12, '13, and interview various people.
+
+25
+00:02:24,000 --> 00:02:30,000
+ And that let me complete my set of interesting people in the Internet.
+
+26
+00:02:30,000 --> 00:02:36,000
+ Some of the things that I did, I always sort of have a media bent to everything I do, is I would go around the country.
+
+27
+00:02:36,000 --> 00:02:41,000
+ You can go to find these at drchuck.com/office.
+
+28
+00:02:41,000 --> 00:02:51,000
+ And you can see 70 videos from all over the world of me meeting my students since 2013 when I first started teaching.
+
+29
+00:02:51,000 --> 00:02:57,000
+ As I said, the idea is that we can't look at technology without understanding history.
+
+30
+00:02:57,000 --> 00:03:05,000
+ And I want those with a liberal arts background to have a way into understanding technology because technology does not exist in a vacuum.
+
+31
+00:03:05,000 --> 00:03:09,000
+ Technology has continued to change and is going to continue to change.
+
+32
+00:03:09,000 --> 00:03:15,000
+ And if we don't take a look back, we will have no good idea about how to deal with the future.
+
+33
+00:03:15,000 --> 00:03:19,000
+ And so we need to understand the past as we look toward the future.
+
+34
+00:03:19,000 --> 00:03:24,000
+ So this material came from a course I taught from 2009 to 2017.
+
+35
+00:03:24,000 --> 00:03:29,000
+ Most of the course was a Python course, but about halfway through, right after the midterm exam,
+
+36
+00:03:29,000 --> 00:03:35,000
+ I gave everybody a break from Python and taught a couple of weeks of Internet history, technology, and security.
+
+37
+00:03:35,000 --> 00:03:39,000
+ And so that's what this course is. This course is the break from Python.
+
+38
+00:03:39,000 --> 00:03:45,000
+ Now in my programming for everybody curriculum, I kind of think of this as the first course, the place that you start.
+
+39
+00:03:45,000 --> 00:03:50,000
+ So the outline is starting with World War II going through 1999 as our history.
+
+40
+00:03:50,000 --> 00:03:55,000
+ Then we look at the technology from the ARPANET to the Internet, TCP/IP, and all those protocols.
+
+41
+00:03:55,000 --> 00:04:04,000
+ And then we take a look at the layer of security that makes all the kinds of commerce, et cetera, that we do on the Internet possible.
+
+42
+00:04:04,000 --> 00:04:11,000
+ So we start back in the beginning. I think of the beginning of computation, communication.
+
+43
+00:04:11,000 --> 00:04:15,000
+ That is the Internet and the technology we use on the Internet is going back to Bletchley Park.
+
+44
+00:04:15,000 --> 00:04:23,000
+ So I love Bletchley Park. I've often met my students at Bletchley Park and I look forward to the next time I get to go to Bletchley Park.
+
+45
+00:04:23,000 --> 00:04:30,000
+ So it's not practical for me to interact with the scalable class with hundreds, if not millions of students.
+
+46
+00:04:30,000 --> 00:04:38,000
+ And some of my classes do have millions of students. I mean, I watch things, but Twitter is probably the best way to get me.
+
+47
+00:04:38,000 --> 00:04:44,000
+ And I do want to know if something's broken. I don't. I don't. I want to fix things as fast as possible.
+
+48
+00:04:44,000 --> 00:04:51,000
+ So just a little bit about me if you're still listening. I do have two tattoos. These are real tattoos.
+
+49
+00:04:51,000 --> 00:04:59,000
+ On my left shoulder is my research and on my right shoulder is my education.
+
+50
+00:04:59,000 --> 00:05:02,000
+ And I've got three degrees from Michigan State University in engineering.
+
+51
+00:05:02,000 --> 00:05:11,000
+ And my faculty position is at the University of Michigan in the School of Library Science that's currently called the School of Information.
+
+52
+00:05:11,000 --> 00:05:21,000
+ On my right shoulder is my research. And my research since 1997 has been in building and using educational technology to teach.
+
+53
+00:05:21,000 --> 00:05:28,000
+ And all the logos are what I call the learning tools interoperability ring of compliance.
+
+54
+00:05:28,000 --> 00:05:36,000
+ And LTI is how we plug in all of my auto graders, et cetera, into these teaching systems.
+
+55
+00:05:36,000 --> 00:05:45,000
+ And so my research has been how to best teach with technology literally from 1995 until the present time.
+
+56
+00:05:45,000 --> 00:05:51,000
+ I have a race car, which is one of my hobbies, and my other hobby is hockey.
+
+57
+00:05:51,000 --> 00:05:56,000
+ And so that's a little bit about me. I have a number of folks to thank.
+
+58
+00:05:56,000 --> 00:06:03,000
+ A lot of the material here was the work I did for IEEE Computer Magazine while I was a while I was a writer for IEEE Computer Magazine.
+
+59
+00:06:03,000 --> 00:06:07,000
+ They've given me some permission to reuse some bits of it.
+
+60
+00:06:07,000 --> 00:06:15,000
+ Richard Wiggins, my lifelong friend who passed away sadly, he has allowed me to use all of his video material.
+
+61
+00:06:15,000 --> 00:06:20,000
+ And the copyright clearance is an important part of any free online course.
+
+62
+00:06:20,000 --> 00:06:23,000
+ And Open Michigan helped me with all of that.
+
+63
+00:06:23,000 --> 00:06:36,000
+ So with that, let's go ahead and get started.
+

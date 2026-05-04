@@ -1,0 +1,119 @@
+ So I was a student at MIT, and I was scheduled on the wonderful scholarship program supported
+ by MIT Lincoln Labs to get a master's degree. And it was a very rigid schedule. You're going
+ to be done in two years, get a job at Lincoln Lab, and do research. And so I was on the
+ program, and I was one of the few people who actually finished on time. And as I was finishing,
+ I scheduled to have my first child the summer of 1958, when we were going to be done. In
+ that summer, my professor at the server mechanisms lab at MIT said, "You have to get a PhD."
+ I said, "I don't want to get a PhD. I've done this program. I'm scheduled. My child
+ has just been born. So you've got to do it." So I kept twisting my arm, and finally I said,
+ "Okay, I'll do it. But I'm going to do it. I want to work on something that's really
+ significant and not pittle around for the next three or four years." So I decided I'm
+ going to work for the best professor I know at MIT, and that was Claude Shannon, the infamous,
+ wonderful, magnificent person, Claude Shannon. So I called him up, and he brought me to his
+ house, and we chatted a bit. Decided, yes, we're going to work together. The first thing
+ I started working on, actually, was a chess playing program. Just working with a man was
+ a delight. He was a great engineer, a great mathematician, smart as heck, could solve
+ a problem like that. I looked around at my classmates, most of whom were working for
+ him, and most of them were working on the kind of work he had developed, namely the
+ field of information theory and coding theory. I looked at them, and I had taken those courses,
+ and I said, "You know, the work that they're doing is the work that he left behind. Those
+ problems that are left over are hard and probably not of great significance, little bits and
+ pieces left." I said, "That's not what I signed up for. I wanted something to be fun,
+ exciting, challenging, and have impact." Meanwhile, being at MIT and Lincoln Laboratory,
+ I was surrounded by computers, and I recognized, you know, one day these computers are going
+ to have to talk to each other, because this is way early. Nobody was thinking about that
+ at the time, but I said, "If they're going to talk to each other, what technology would
+ support their communication and their interaction?" And the answer is, there was nothing available.
+ So I had an approach. I figured the way to provide the communications would be to provide
+ the ability for shared communication links, because I knew that computers, when they talk,
+ they don't talk the way I am now continuously. They go blast, and they're quiet for a while.
+ Little while later, they suddenly come up and blast again. And you can't afford to dedicate
+ a communications connection for something which is almost never talking. But when it
+ wants to talk, it wants immediate access. So we had to not use the telephone network,
+ which is designed for continuous talking, the circuit switch network, but something
+ else. And I had an approach using some mathematical thinking, namely queuing theory. There was
+ a model I could develop, and it just made sense to do that which we had done in time
+ sharing. In time sharing, you have a big computer, and a lot of people share it. When you're
+ using it, I'm not. When you're not, I am. So we sort of interlace each other. Why not
+ use communications the same way? We're going to set up communications capability, let everybody
+ jump in and share it, and they only get to use it when they have something to send. This
+ is a new technology. So there's an approach. I have a mathematical tool to do it. It's
+ clearly important. It will have impact. And nobody's looked at this yet, so there's a
+ lot of low-hanging fruit around. It's not that hard. It's not that hard. So it's perfect
+ for me. So I started working on that problem. Now, this was years before anybody needed
+ this technology. In time sharing, for example, which is the underlying technology that I
+ adapted to communications, in time sharing, you want to let the little jobs go before
+ the big jobs. Why should a little guy wait a long time for a big job? He's just going
+ to get in and get out. So when jobs come in, you ask them, "How long are you?" And they're
+ all going to say, "I'm tiny." So you say, "Okay, you're tiny. I'll give you a little
+ bit of time. And if you're tiny, you'll be out of there. No? I'll send you to the back
+ of the queue and you get another tiny shot." The notion of round robin. So you get a little
+ bit at a time. We're going to break you into little chunks. You get a chunk at a time.
+ I said, "That's a great idea for sharing communications. We'll give everybody a little
+ bit of communications time. The little ones will filter out. The short jobs will filter
+ out." When I say job, I mean message. A short message will filter out. And the long ones
+ will take a little longer. And they don't mind being interrupted by the little guys.
+ The important thing in this technology was not to make the very short messages wait behind
+ very long messages. This automatic round robin, which is now called packet switching, you
+ chop things into fixed lengths. You give them a little bit. If that's not enough, give them
+ another piece and they go flying through the network on their own. So the idea of packetizing
+ was important. The idea of distributed control, the idea of large shared systems in which
+ you get some terrific design benefits came along. And so this got published. McGraw-Hill
+ book. Nobody cared.
+ It got published early?
+ Yeah. My dissertation ended in December '62. I graduated in June '63. This book was published
+ in 1964.
+ And nobody cared?
+ Nobody cared. In fact, I went to AT&T, the biggest network at the time, and explained
+ to them, "You guys ought to give us good data communications." And their answer was, "What
+ are you talking about? The United States is a copper mine. It's full of telephone wires.
+ Use that." And I said, "No, no. You don't understand. It takes you 35 seconds to set
+ up a call. You charge me a minimum of three minutes, and I want to send 100 milliseconds
+ of data." And their answer was, "Little boy, go away." So little boy went away and with
+ others developed this technology which ate their lunch. But nobody cared. And they said
+ it wouldn't work. And even if it did work, they want nothing to do with it. So that was
+ the environment we faced. It wasn't until years later when the government decided they
+ needed a network that suddenly I saw a way in which I could implement the technology
+ I had.
+ But getting back to what I said earlier, I set up this mathematical model. It was analytically
+ intractable and still is, by the way. I had two choices. One is give up and find something
+ else. Or two, make an assumption which allows me to move forward. So I introduced a mathematical
+ assumption which cracked the problem wide open. From that point, I could just sail through
+ the solution, get the performance behavior, get the design principles, going forward.
+ But then the question is, was that assumption any good?
+ What was the assumption?
+ The assumption was what I call the independence assumption. And it's absolutely a false assumption.
+ It says when a message travels through the network, it changes its length independently
+ every time it hits a new node on its hop through the network.
+ Mathematically, that creates an independence which allows you to proceed with the analysis.
+ But it's clearly not true.
+ So what I had to do was to simulate a network with and without the assumption. I simulated
+ many networks on a machine at Lincoln Laboratory on the TX2 transistorized computer there.
+ And I spent four months writing the simulation program without debugging a single line of
+ it at a 2,500 line assembly language simulation. And I knew if I didn't get that simulation
+ right, I would get no dissertation. Ran it, tested with and without the assumption, and
+ the results were amazingly close. So I had my solution. I could prove it would work.
+ The package wouldn't fall on the floor. I could tell when things would work well and
+ when they wouldn't. Got published. Again, still nobody cared about it.
+ As I said, Lincoln Laboratory sent me for my master's dissertation. They also sent me
+ for my PhD. So they supported me for years. Wonderful economic, financial, research environment
+ support. And I felt an obligation to work for them. And I was prepared to take a job
+ at Lincoln Laboratory, which is a great institution. And so when I went to work there, the first
+ thing they said is, "Look, Glenn, why don't you look outside before you can commit to
+ work here? Make sure there's nothing out there that you really would like better."
+ This was a magnificent step on their part. So I took a trip to the West Coast. I went
+ to some of the aerospace companies. I was not interested in university position at all.
+ But it turns out when I was going up to San Francisco to look at some of the high-tech
+ companies up there, a friend of mine suggested I interview with Berkeley. So I did. I interviewed.
+ I came back. They lost my case. They changed the chairman. I never heard from them. But
+ on sabbatical, one of the professors that interviewed me came to MIT. Well, I was just
+ finishing my PhD then. And he sees me in the hall and says, "Cleanrock, how are you?"
+ And he thinks that I'm looking for an academic position. So he contacts one of his friends
+ here at UCLA, who then invites me out here, offers me a job. And now I've got a dilemma.
+ Do I want to teach? Do I want to cross the United States? It's almost like on a wagon
+ train 3,000 miles away from the East Coast, where the world is, family is, for a job paying
+ half that I could earn back at MIT Lincoln Labs and try something I've never tried before.
+ So I went to the books at Lincoln Lab and I said, "Look, I've got this offer. It looks
+ attractive. It's a new challenge. What should I do?" And there was a wonderful answer they
+ gave. They said, "Lenn, try it. If you don't like it, come back." Wow is right. Well, I
+ came here in August of '63, 50 years ago, and I'm still here.

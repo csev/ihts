@@ -1,0 +1,124 @@
+1
+00:00:00,000 --> 00:00:25,160
+ The Free Software Foundation's mission is to promote users' freedom to copy and redistribute
+
+2
+00:00:25,160 --> 00:00:27,180
+ and change software.
+
+3
+00:00:27,180 --> 00:00:30,040
+ Free software refers to freedom, not price.
+
+4
+00:00:30,040 --> 00:00:36,640
+ So the alternative to free software is proprietary software, proprietary software that subjugates
+
+5
+00:00:36,640 --> 00:00:38,440
+ and divides the users.
+
+6
+00:00:38,440 --> 00:00:39,560
+ That's what's wrong about it.
+
+7
+00:00:39,560 --> 00:00:41,420
+ It's because it divides and subjugates people.
+
+8
+00:00:41,420 --> 00:00:43,960
+ It doesn't respect users' freedom.
+
+9
+00:00:43,960 --> 00:00:48,040
+ It doesn't allow users to be part of a community, and that's why it's wrong.
+
+10
+00:00:48,040 --> 00:00:51,880
+ It's not wrong for programmers to make money, and as long as they can make money in a way
+
+11
+00:00:51,880 --> 00:00:55,160
+ that respects the freedom of other people, I think that's good.
+
+12
+00:00:55,160 --> 00:00:59,720
+ After all, I'm a programmer, and I'm not unhappy when I make some money, but I only do it in
+
+13
+00:00:59,720 --> 00:01:02,200
+ ways that respect the freedom of other people.
+
+14
+00:01:02,200 --> 00:01:08,560
+ Back in the 1980s, it was possible for people to speculate, speculatively assume that we
+
+15
+00:01:08,560 --> 00:01:13,320
+ couldn't possibly do such a big job because nobody would write the software if they weren't
+
+16
+00:01:13,320 --> 00:01:14,320
+ getting paid.
+
+17
+00:01:14,320 --> 00:01:18,880
+ Well, now we know from experience that lots of people will work on free software even
+
+18
+00:01:18,880 --> 00:01:23,440
+ if they don't get paid, and at the same time, a number of people have found ways to get
+
+19
+00:01:23,440 --> 00:01:30,380
+ paid to write free software, so we've now shown that we can do very large jobs.
+
+20
+00:01:30,380 --> 00:01:36,200
+ We can produce a broad spectrum of software that is very high quality and that users like
+
+21
+00:01:36,200 --> 00:01:37,200
+ to use.
+
+22
+00:01:37,200 --> 00:01:41,960
+ Well, I think that the World Wide Web should eventually become the free encyclopedia of
+
+23
+00:01:41,960 --> 00:01:46,280
+ all knowledge, that it should have articles covering every topic that you'd want to have
+
+24
+00:01:46,280 --> 00:01:52,880
+ in an encyclopedia, and every one of these articles should be available for access at
+
+25
+00:01:52,880 --> 00:02:00,560
+ no charge, and that people should be permitted to redistribute them also, and also to quote
+
+26
+00:02:00,560 --> 00:02:04,840
+ parts, any part of the article in a new article.
+
+27
+00:02:04,840 --> 00:02:10,280
+ I think that they'll be written mostly by teachers, college teachers, high school teachers.
+
+28
+00:02:10,280 --> 00:02:16,900
+ You know, if each one writes an article a year, if each, say, not every teacher, because
+
+29
+00:02:16,900 --> 00:02:21,540
+ obviously they won't all do this, but if a couple of thousand teachers get involved and
+
+30
+00:02:21,540 --> 00:02:26,400
+ each one writes an article per year, that's not a very large part of your time, and that'll
+
+31
+00:02:26,400 --> 00:02:28,300
+ get the job done in a decade or two.
+

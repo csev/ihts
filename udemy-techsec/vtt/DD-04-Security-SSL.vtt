@@ -1,0 +1,1292 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:03.000
+ - So welcome to our lecture on public key encryption,
+
+00:00:03.000 --> 00:00:06.640
+ where we're going to go back to confidentiality.
+
+00:00:06.640 --> 00:00:09.080
+ And so here we go.
+
+00:00:09.080 --> 00:00:12.000
+ If you recall, we've been having these two topics
+
+00:00:12.000 --> 00:00:14.640
+ that have been our theme throughout.
+
+00:00:14.640 --> 00:00:19.640
+ Just some grizzly, oh sorry, I'm starting to talk in ROT13.
+
+00:00:19.640 --> 00:00:24.040
+ Let's translate this back to non-ROT13.
+
+00:00:24.040 --> 00:00:26.640
+ The terminology, the two kind of themes we've been following
+
+00:00:26.640 --> 00:00:29.440
+ over the last couple of lectures in this lecture
+
+00:00:29.440 --> 00:00:31.320
+ are confidentiality and integrity.
+
+00:00:31.320 --> 00:00:34.800
+ And confidentiality is hiding, right?
+
+00:00:34.800 --> 00:00:37.560
+ Shielding information, not leaking information to people
+
+00:00:37.560 --> 00:00:39.280
+ that you don't want to show it to.
+
+00:00:39.280 --> 00:00:41.080
+ And integrity is making sure
+
+00:00:41.080 --> 00:00:42.240
+ that you know who you're dealing with.
+
+00:00:42.240 --> 00:00:45.200
+ And then the previous lecture, we really talked about
+
+00:00:45.200 --> 00:00:47.760
+ kind of real light, approachable ways
+
+00:00:47.760 --> 00:00:51.160
+ of ensuring confidentiality with things like Caesar Cipher,
+
+00:00:51.160 --> 00:00:54.200
+ and then integrity using a simple message digest
+
+00:00:54.200 --> 00:00:56.040
+ that based on a shared secret.
+
+00:00:56.040 --> 00:00:58.680
+ So the problem with all of those things
+
+00:00:58.680 --> 00:01:02.720
+ that we just saw is that they require a shared secret.
+
+00:01:02.720 --> 00:01:04.560
+ And the problem in the world of the internet
+
+00:01:04.560 --> 00:01:07.400
+ is it's just really difficult for every one of us
+
+00:01:07.400 --> 00:01:09.520
+ before we establish,
+
+00:01:09.520 --> 00:01:16.360
+ before we can make any purchases or whatever at Amazon
+
+00:01:16.360 --> 00:01:19.680
+ that we somehow have to drive to Amazon headquarters
+
+00:01:19.680 --> 00:01:22.480
+ and get a shared secret from Amazon.
+
+00:01:22.480 --> 00:01:26.040
+ They'll open up a book and say, okay, hi Chuck,
+
+00:01:26.040 --> 00:01:27.960
+ I see who you are and here's our shared secret.
+
+00:01:27.960 --> 00:01:29.760
+ And you walk away and as long as you carry
+
+00:01:29.760 --> 00:01:31.960
+ that shared secret, away you go.
+
+00:01:31.960 --> 00:01:33.800
+ And if the shared secret is lost,
+
+00:01:33.800 --> 00:01:36.040
+ it's difficult to review both.
+
+00:01:36.040 --> 00:01:38.840
+ So as the internet and frankly, in general,
+
+00:01:38.840 --> 00:01:43.800
+ as security needed to be able to work at arm's length,
+
+00:01:43.800 --> 00:01:46.480
+ meaning that you couldn't always bring everybody together
+
+00:01:46.480 --> 00:01:48.000
+ and hand out shared secrets
+
+00:01:48.000 --> 00:01:49.960
+ and then have them go to the far reaches of the world
+
+00:01:49.960 --> 00:01:54.840
+ and communicate, public key encryption was identified
+
+00:01:54.840 --> 00:01:58.480
+ as a extremely elegant solution to this problem.
+
+00:01:58.480 --> 00:02:02.880
+ And so it was proposed by Diffie and Hellman in 1976.
+
+00:02:02.880 --> 00:02:06.480
+ And it relies on two keys, it's asymmetric,
+
+00:02:06.480 --> 00:02:09.440
+ meaning we're not using the same key to encrypt as decrypt
+
+00:02:09.440 --> 00:02:11.280
+ the way we were in the previous lectures,
+
+00:02:11.280 --> 00:02:12.320
+ these are asymmetric.
+
+00:02:12.320 --> 00:02:14.000
+ There is a public key,
+
+00:02:14.000 --> 00:02:17.160
+ which is actually does not need any protection whatsoever
+
+00:02:17.160 --> 00:02:18.360
+ and a private key.
+
+00:02:18.360 --> 00:02:20.960
+ And the idea is they're generated inside of a computer,
+
+00:02:20.960 --> 00:02:23.160
+ you generate the public key and the private key,
+
+00:02:23.160 --> 00:02:24.520
+ you send out the public key,
+
+00:02:24.520 --> 00:02:26.960
+ the public key is used to do the encryption
+
+00:02:26.960 --> 00:02:29.240
+ and then private key is used to do the decryption.
+
+00:02:29.240 --> 00:02:31.160
+ And they're related mathematically
+
+00:02:31.160 --> 00:02:33.400
+ in a way that's well understood,
+
+00:02:33.400 --> 00:02:36.840
+ but difficult to compute for a key length that's large enough.
+
+00:02:36.840 --> 00:02:39.640
+ So there's a public key and a private key.
+
+00:02:39.640 --> 00:02:42.320
+ So I'd like you to take a look at this little video
+
+00:02:42.320 --> 00:02:45.840
+ up on YouTube of Diffie, Hellman and Merkel,
+
+00:02:45.840 --> 00:02:47.180
+ the inventors of this.
+
+00:02:47.180 --> 00:02:50.880
+ And I think it's a great video.
+
+00:02:50.880 --> 00:02:53.000
+ I would love it if this were my video,
+
+00:02:53.000 --> 00:02:54.360
+ but I didn't produce this video.
+
+00:02:54.360 --> 00:02:56.740
+ So take a quick look.
+
+00:02:56.740 --> 00:02:59.320
+ (gentle music)
+
+00:02:59.320 --> 00:03:04.960
+ So one of the things about this
+
+00:03:04.960 --> 00:03:07.600
+ public private key encryption is now that we know about it,
+
+00:03:07.600 --> 00:03:09.200
+ it's like, whoa, it's pretty obvious.
+
+00:03:09.200 --> 00:03:11.880
+ And frankly, Caesar and the Germans and everybody
+
+00:03:11.880 --> 00:03:12.960
+ could have used this idea.
+
+00:03:12.960 --> 00:03:14.740
+ They just hadn't thought of it yet.
+
+00:03:14.740 --> 00:03:16.360
+ And the other thing that's kind of interesting,
+
+00:03:16.360 --> 00:03:19.200
+ if you look into the story of this is that
+
+00:03:19.200 --> 00:03:21.480
+ the first reaction people got
+
+00:03:21.480 --> 00:03:22.680
+ when they start thinking about this
+
+00:03:22.680 --> 00:03:24.720
+ is like, it can't be this easy.
+
+00:03:24.720 --> 00:03:26.600
+ Now it's sort of both easy and hard,
+
+00:03:26.600 --> 00:03:30.120
+ but the concept is real elegant and really beautiful.
+
+00:03:30.120 --> 00:03:32.320
+ And that is that we have this public key.
+
+00:03:32.320 --> 00:03:34.840
+ So the public key is part of a public private pair
+
+00:03:34.840 --> 00:03:37.200
+ and it's used to do the encryption.
+
+00:03:37.200 --> 00:03:40.200
+ The beauty is it's computationally difficult
+
+00:03:40.200 --> 00:03:41.920
+ to recover that private key
+
+00:03:41.920 --> 00:03:44.980
+ from the public key and the encrypted text.
+
+00:03:44.980 --> 00:03:47.920
+ The key thing is it's not impossible.
+
+00:03:47.920 --> 00:03:51.240
+ And that's kind of one of the interesting philosophies
+
+00:03:51.240 --> 00:03:53.840
+ of security that we started at the very beginning
+
+00:03:53.840 --> 00:03:54.680
+ in talking about security.
+
+00:03:54.680 --> 00:03:57.760
+ The perfect security is kind of impossible to achieve
+
+00:03:57.760 --> 00:04:01.480
+ unless you simply don't send anything.
+
+00:04:01.480 --> 00:04:05.240
+ And so public private key, asymmetric keys
+
+00:04:05.240 --> 00:04:07.860
+ is well understood as to how you would break it.
+
+00:04:07.860 --> 00:04:09.720
+ Everyone knows how to break it.
+
+00:04:09.720 --> 00:04:11.520
+ The problem is, is that computers
+
+00:04:11.520 --> 00:04:13.400
+ aren't fast enough to break it.
+
+00:04:13.400 --> 00:04:14.760
+ And when computers get faster,
+
+00:04:14.760 --> 00:04:16.300
+ it will just make the keys bigger.
+
+00:04:16.300 --> 00:04:19.880
+ So the mathematics of this makes it impractical to break.
+
+00:04:19.880 --> 00:04:22.640
+ I mean, literally impractical to break.
+
+00:04:22.640 --> 00:04:24.280
+ Now I think we can safely assume
+
+00:04:24.280 --> 00:04:27.680
+ that governments probably have enough computation
+
+00:04:27.680 --> 00:04:29.920
+ to crack these once in a great while.
+
+00:04:29.920 --> 00:04:32.440
+ I mean, if they're not cracking every transaction
+
+00:04:32.440 --> 00:04:35.000
+ between you and target when you wanna buy something,
+
+00:04:35.000 --> 00:04:36.920
+ but if they really have to,
+
+00:04:36.920 --> 00:04:39.480
+ they can record the encrypted transmissions.
+
+00:04:39.480 --> 00:04:41.940
+ And if they really had to and took a long time,
+
+00:04:41.940 --> 00:04:45.000
+ I have no idea how long it would be, they can break it.
+
+00:04:45.000 --> 00:04:48.280
+ So that's actually kind of a neat way to think about this
+
+00:04:48.280 --> 00:04:50.420
+ by revealing it all.
+
+00:04:50.420 --> 00:04:52.340
+ Frankly, any computer scientist
+
+00:04:52.340 --> 00:04:55.260
+ could make a name for them their whole life
+
+00:04:55.260 --> 00:04:57.720
+ if they proved that there was something wrong with this.
+
+00:04:57.720 --> 00:05:01.360
+ By revealing the algorithm, revealing the cracking technique,
+
+00:05:01.360 --> 00:05:03.480
+ if someone can come up with a better cracking technique,
+
+00:05:03.480 --> 00:05:06.240
+ it is like fame and glory forever.
+
+00:05:06.240 --> 00:05:08.740
+ Which means that we're pretty sure
+
+00:05:08.740 --> 00:05:10.400
+ that there's no good way to crack this
+
+00:05:10.400 --> 00:05:12.240
+ other than the brute force mechanism
+
+00:05:12.240 --> 00:05:15.400
+ that requires a large amount of computation.
+
+00:05:15.400 --> 00:05:20.400
+ So if you're going to use a public-private key encryption,
+
+00:05:20.400 --> 00:05:23.280
+ you have to generate a pair.
+
+00:05:23.280 --> 00:05:28.280
+ And it starts by choosing two really large random numbers
+
+00:05:28.280 --> 00:05:34.040
+ with hundreds, if not thousands of digits that are prime.
+
+00:05:34.040 --> 00:05:37.200
+ So you kind of choose a random number, really big,
+
+00:05:37.200 --> 00:05:39.800
+ and then you kind of look around for a nearby prime number
+
+00:05:39.800 --> 00:05:43.160
+ and you choose two of those, and then you multiply them.
+
+00:05:43.160 --> 00:05:46.280
+ Okay, getting an even larger number.
+
+00:05:46.280 --> 00:05:49.080
+ And then through some steps, through some calculations,
+
+00:05:49.080 --> 00:05:51.440
+ you compute the public and the private keys
+
+00:05:51.440 --> 00:05:53.120
+ from that large number.
+
+00:05:53.120 --> 00:05:55.440
+ The essence of this are those two prime numbers.
+
+00:05:55.440 --> 00:05:56.840
+ Prime numbers, of course, are numbers
+
+00:05:56.840 --> 00:05:59.000
+ that you only divide by themselves in one,
+
+00:05:59.000 --> 00:06:00.800
+ which means they have no factors,
+
+00:06:00.800 --> 00:06:01.960
+ which means they're kind of like looking
+
+00:06:01.960 --> 00:06:03.920
+ for a needle in a haystack.
+
+00:06:03.920 --> 00:06:05.760
+ And so the public and private key
+
+00:06:05.760 --> 00:06:07.880
+ is really based on these two prime numbers.
+
+00:06:07.880 --> 00:06:11.480
+ If you could figure out what the prime numbers were,
+
+00:06:11.480 --> 00:06:13.920
+ you'd be okay, but the computational difficulty
+
+00:06:13.920 --> 00:06:16.520
+ is finding the prime numbers that are extremely large
+
+00:06:16.520 --> 00:06:17.920
+ and finding the right prime numbers
+
+00:06:17.920 --> 00:06:19.600
+ that are extremely large.
+
+00:06:19.600 --> 00:06:22.560
+ So it's easy to do some calculations in one direction,
+
+00:06:22.560 --> 00:06:23.840
+ but not in other.
+
+00:06:23.840 --> 00:06:26.840
+ So for example, what are the factors of 55,124,159?
+
+00:06:26.840 --> 00:06:33.120
+ Quick, but if I simply ask you,
+
+00:06:33.120 --> 00:06:38.120
+ what do you multiply 70,919 to get that 55 million number,
+
+00:06:39.840 --> 00:06:41.800
+ that's easy, you do a division.
+
+00:06:41.800 --> 00:06:46.800
+ And it turns out that you can find out 69,61 really easy.
+
+00:06:46.800 --> 00:06:52.520
+ So if I just say, what are these two numbers, that's hard.
+
+00:06:52.520 --> 00:06:55.760
+ If I say, given this number,
+
+00:06:55.760 --> 00:06:58.160
+ what's the other number, that's trivial.
+
+00:06:58.160 --> 00:07:01.160
+ So you can think of this as the decryption
+
+00:07:01.160 --> 00:07:03.600
+ is where the receiver of the message
+
+00:07:03.600 --> 00:07:06.160
+ knows kind of half of the calculation,
+
+00:07:06.160 --> 00:07:08.040
+ whereas the world doesn't know either half of it,
+
+00:07:08.040 --> 00:07:10.080
+ doesn't know the calculation.
+
+00:07:10.080 --> 00:07:11.480
+ So it has to figure out both halves,
+
+00:07:11.480 --> 00:07:14.240
+ whereas the receiver only has to figure out one half.
+
+00:07:14.240 --> 00:07:16.440
+ And so that's how asking the question
+
+00:07:16.440 --> 00:07:21.200
+ of what are the factors versus given one, what's the other?
+
+00:07:21.200 --> 00:07:23.000
+ So it takes a problem that's easy,
+
+00:07:23.000 --> 00:07:25.600
+ makes it computationally nearly impossible.
+
+00:07:25.600 --> 00:07:28.240
+ But again, not impossible, just nearly impossible.
+
+00:07:28.240 --> 00:07:32.040
+ Okay, so here's the notion.
+
+00:07:32.040 --> 00:07:33.880
+ So you're about to type your Visa card
+
+00:07:33.880 --> 00:07:38.880
+ into a credit card into like Amazon's webpage.
+
+00:07:38.880 --> 00:07:42.880
+ And so what happens is, is that Amazon has a public key
+
+00:07:42.880 --> 00:07:45.480
+ and a private key that they retain.
+
+00:07:45.480 --> 00:07:48.280
+ And they will send you the public key across a medium,
+
+00:07:48.280 --> 00:07:52.200
+ the internet, they're gonna send this to you somehow.
+
+00:07:52.200 --> 00:07:57.200
+ But the bad guys, Eve or Charlie or whoever they are,
+
+00:07:57.200 --> 00:08:03.320
+ the bad guys, this is Alice and Bob.
+
+00:08:03.320 --> 00:08:05.200
+ Eve and Charlie are always looking.
+
+00:08:05.200 --> 00:08:07.000
+ So Eve and Charlie could have intercepted
+
+00:08:07.000 --> 00:08:08.200
+ and you assume that they can.
+
+00:08:08.200 --> 00:08:09.320
+ This is the key.
+
+00:08:09.320 --> 00:08:11.160
+ Don't try to pretend they can't,
+
+00:08:11.160 --> 00:08:13.000
+ even though it's very difficult for them to do it,
+
+00:08:13.000 --> 00:08:14.520
+ but you assume they can.
+
+00:08:14.520 --> 00:08:16.560
+ So the public key comes across.
+
+00:08:16.560 --> 00:08:19.880
+ It is simply sent to you as part of the beginning
+
+00:08:19.880 --> 00:08:22.640
+ of establishing a secure connection.
+
+00:08:22.640 --> 00:08:27.240
+ And the bad guys see it too, or gals, they see it too.
+
+00:08:27.240 --> 00:08:29.320
+ So the public key comes to you.
+
+00:08:29.320 --> 00:08:34.320
+ And then what you do is you encrypt using that public key
+
+00:08:34.320 --> 00:08:38.040
+ and create some encrypted text, ciphertext,
+
+00:08:38.040 --> 00:08:40.880
+ which you then send back across the danger
+
+00:08:40.880 --> 00:08:43.800
+ where Eve and Charlie are watching.
+
+00:08:43.800 --> 00:08:46.600
+ And it comes across, they intercept the encrypted text.
+
+00:08:46.600 --> 00:08:48.560
+ They've intercepted the public key
+
+00:08:48.560 --> 00:08:53.560
+ and they can try as hard as they like with supercomputers
+
+00:08:53.560 --> 00:08:55.080
+ to derive this.
+
+00:08:55.080 --> 00:08:56.400
+ And frankly, like I said,
+
+00:08:56.400 --> 00:08:57.800
+ if they had months and months and months
+
+00:08:57.800 --> 00:09:01.240
+ and really fast computers, they could, okay?
+
+00:09:01.240 --> 00:09:04.800
+ But because Amazon is in sole possession of the private key
+
+00:09:04.800 --> 00:09:07.280
+ and it never left Amazon's servers,
+
+00:09:07.280 --> 00:09:10.320
+ it is a very simple matter for Amazon to decrypt
+
+00:09:10.320 --> 00:09:11.240
+ and get your plain text.
+
+00:09:11.240 --> 00:09:13.200
+ It happens very quickly.
+
+00:09:13.200 --> 00:09:15.120
+ Just like if you kind of know half
+
+00:09:15.120 --> 00:09:16.920
+ of the prime number calculation,
+
+00:09:16.920 --> 00:09:19.800
+ figuring out the other prime number is really, really easy.
+
+00:09:19.800 --> 00:09:24.560
+ Okay, so again, these people see all this information
+
+00:09:24.560 --> 00:09:27.680
+ and yet it is computationally virtually impossible
+
+00:09:27.680 --> 00:09:30.200
+ for all practical purposes to do it.
+
+00:09:30.200 --> 00:09:32.800
+ And so it's beautiful because there was no need
+
+00:09:32.800 --> 00:09:33.960
+ to protect the public key.
+
+00:09:33.960 --> 00:09:37.320
+ We never had to get in the same room and away it goes.
+
+00:09:37.320 --> 00:09:40.360
+ So you just, Amazon just blasts out its public key
+
+00:09:40.360 --> 00:09:42.600
+ and we encrypt using Amazon's public key.
+
+00:09:42.600 --> 00:09:46.100
+ We can't decrypt it, but we don't need to decrypt it.
+
+00:09:46.100 --> 00:09:50.440
+ All we need to do is send it to Amazon and voila, it works.
+
+00:09:50.440 --> 00:09:51.520
+ So the beautiful thing is,
+
+00:09:51.520 --> 00:09:53.800
+ is the public keys can be distributed,
+
+00:09:53.800 --> 00:09:57.800
+ they can be intercepted and it does not matter.
+
+00:09:57.800 --> 00:10:02.680
+ So with this notion of public private key encryption
+
+00:10:02.680 --> 00:10:07.680
+ in general, we made a change to HTTP.
+
+00:10:07.680 --> 00:10:12.000
+ A layer, a mini layer is in the data model.
+
+00:10:12.000 --> 00:10:13.400
+ If you remember way back,
+
+00:10:13.400 --> 00:10:15.840
+ perhaps you've forgotten about the layered model.
+
+00:10:15.840 --> 00:10:17.840
+ Remember that layered model?
+
+00:10:17.840 --> 00:10:20.800
+ Application, transport, internet.
+
+00:10:21.760 --> 00:10:23.920
+ Remember this is sort of one computer
+
+00:10:23.920 --> 00:10:25.860
+ and this is the other computer.
+
+00:10:25.860 --> 00:10:29.760
+ These are the routers, routers, these are the hops.
+
+00:10:29.760 --> 00:10:30.800
+ There's like 15 of these.
+
+00:10:30.800 --> 00:10:32.640
+ Remember, remember all this?
+
+00:10:32.640 --> 00:10:34.760
+ So it comes back not on us.
+
+00:10:34.760 --> 00:10:39.760
+ Okay, so if you recall, just sort of to briefly remember
+
+00:10:39.760 --> 00:10:42.400
+ that the transport layer is responsible
+
+00:10:42.400 --> 00:10:43.920
+ for the retransmission.
+
+00:10:43.920 --> 00:10:47.520
+ It gives us the appearance of a reliable ordered connection
+
+00:10:47.520 --> 00:10:52.060
+ between our application and the bar application.
+
+00:10:52.060 --> 00:10:55.200
+ HTTP is one of the application protocols.
+
+00:10:55.200 --> 00:10:58.160
+ And so there is a little mini layer
+
+00:10:58.160 --> 00:11:01.760
+ that is layered in sort of seamlessly
+
+00:11:01.760 --> 00:11:04.080
+ on top of the transport layer
+
+00:11:04.080 --> 00:11:07.680
+ that basically takes plaintext and encrypts it
+
+00:11:07.680 --> 00:11:09.520
+ and turns it into ciphertext.
+
+00:11:09.520 --> 00:11:11.880
+ And then ciphertext on the way out
+
+00:11:11.880 --> 00:11:13.920
+ and turns it back into plaintext.
+
+00:11:13.920 --> 00:11:15.840
+ Okay, and so what happens is,
+
+00:11:15.840 --> 00:11:18.780
+ is these applications just send plaintext
+
+00:11:18.780 --> 00:11:20.320
+ and out comes plaintext.
+
+00:11:20.320 --> 00:11:22.880
+ And there's a little bit of extra glue in the middle here
+
+00:11:22.880 --> 00:11:26.760
+ that's sort of a secure transport, secure sockets layer.
+
+00:11:26.760 --> 00:11:29.880
+ This is, this thing here is often called a socket.
+
+00:11:29.880 --> 00:11:33.700
+ SOCK, it'd be good if I could spell socket.
+
+00:11:33.700 --> 00:11:35.200
+ So this is a socket.
+
+00:11:35.200 --> 00:11:38.760
+ And then the red part is a secure socket.
+
+00:11:38.760 --> 00:11:41.800
+ So the applications kind of don't encrypt the data at all.
+
+00:11:41.800 --> 00:11:44.120
+ There is a library that encrypts it.
+
+00:11:44.120 --> 00:11:46.600
+ And the other thing is, is that all the rest of the internet,
+
+00:11:46.600 --> 00:11:50.040
+ the internet, the link layer, the routers, nothing,
+
+00:11:50.040 --> 00:11:52.560
+ the ethernet, the fiber,
+
+00:11:52.560 --> 00:11:54.040
+ they don't even know the difference
+
+00:11:54.040 --> 00:11:56.560
+ between encrypted text and non-crypted text
+
+00:11:56.560 --> 00:12:00.540
+ because the encrypted text wanders around fully encrypted.
+
+00:12:00.540 --> 00:12:02.280
+ Addresses are not encrypted.
+
+00:12:02.280 --> 00:12:03.880
+ And so it stays encrypted
+
+00:12:03.880 --> 00:12:06.720
+ all the way through the entire network.
+
+00:12:06.720 --> 00:12:09.800
+ It actually, if you then think about the fact
+
+00:12:09.800 --> 00:12:13.840
+ that this is the moment that it leaves your computer,
+
+00:12:13.840 --> 00:12:16.120
+ the only thing, so the plain text comes in here,
+
+00:12:16.120 --> 00:12:18.840
+ it gets encrypted here, encrypted comes down.
+
+00:12:18.840 --> 00:12:21.920
+ The only thing that leaves your computer is encrypted text.
+
+00:12:21.920 --> 00:12:23.200
+ And it makes it all the way across.
+
+00:12:23.200 --> 00:12:25.160
+ The encrypted text goes into Amazon.
+
+00:12:25.160 --> 00:12:26.620
+ So this is Amazon.
+
+00:12:26.620 --> 00:12:28.580
+ This is you.
+
+00:12:28.580 --> 00:12:33.560
+ The encrypted text finds its way through all these things
+
+00:12:33.560 --> 00:12:35.460
+ and it comes in encrypted.
+
+00:12:35.460 --> 00:12:37.940
+ And it actually doesn't get encrypted
+
+00:12:37.940 --> 00:12:39.980
+ until it's sort of right at the point
+
+00:12:39.980 --> 00:12:41.320
+ where Amazon's web server
+
+00:12:41.320 --> 00:12:43.500
+ that's going to actually charge a credit card.
+
+00:12:43.500 --> 00:12:45.600
+ So this is actually beautifully elegant
+
+00:12:45.600 --> 00:12:50.600
+ in that the rest of the network is blissfully unaware
+
+00:12:50.600 --> 00:12:55.360
+ that any encryption is happening.
+
+00:12:55.360 --> 00:12:56.660
+ It's just moving the data.
+
+00:12:56.660 --> 00:12:58.440
+ So this did not require any change.
+
+00:12:58.440 --> 00:13:00.220
+ Again, the beautiful layered architecture
+
+00:13:00.220 --> 00:13:03.320
+ did not require any change sort of below the transport layer.
+
+00:13:03.320 --> 00:13:04.160
+ And as a matter of fact,
+
+00:13:04.160 --> 00:13:06.440
+ all of the sequencing and retransmission
+
+00:13:06.440 --> 00:13:08.480
+ that happens in the TCP layer,
+
+00:13:08.480 --> 00:13:10.520
+ that happens with the encrypted stuff too,
+
+00:13:10.520 --> 00:13:12.440
+ because it's just encrypted.
+
+00:13:12.440 --> 00:13:13.400
+ It's just text.
+
+00:13:13.400 --> 00:13:14.400
+ It's gibberish text.
+
+00:13:14.400 --> 00:13:17.760
+ It's not the original Visa card number that you're sending.
+
+00:13:17.760 --> 00:13:19.040
+ You're sending one, two, three.
+
+00:13:19.040 --> 00:13:21.520
+ And out comes, you know, WXY.
+
+00:13:21.520 --> 00:13:23.940
+ The WXY just goes, it retransmitted.
+
+00:13:23.940 --> 00:13:24.960
+ All this crap just works.
+
+00:13:24.960 --> 00:13:27.880
+ It's like, beautiful.
+
+00:13:27.880 --> 00:13:28.880
+ It's a beautiful thing.
+
+00:13:28.880 --> 00:13:31.180
+ It's absolutely a beautiful thing.
+
+00:13:31.180 --> 00:13:33.920
+ And it's just like this mini layer kind of between the app.
+
+00:13:33.920 --> 00:13:36.820
+ It's like the top slice of the transport layer.
+
+00:13:36.820 --> 00:13:38.560
+ That's how I'm drawing it right here.
+
+00:13:38.560 --> 00:13:41.200
+ It's like this little kind of top extra little thing says,
+
+00:13:41.200 --> 00:13:42.880
+ you know what, we're going to transport,
+
+00:13:42.880 --> 00:13:44.800
+ but actually help me out and give me some encryption
+
+00:13:44.800 --> 00:13:46.060
+ while we're at it.
+
+00:13:46.060 --> 00:13:48.240
+ And there's all kinds of cool stuff that goes back and forth.
+
+00:13:48.240 --> 00:13:50.240
+ The public and private keys get exchanged.
+
+00:13:50.240 --> 00:13:52.600
+ That's all kinds of stuff we don't worry about.
+
+00:13:52.600 --> 00:13:55.480
+ We just send data and get data back.
+
+00:13:55.480 --> 00:13:56.400
+ Pretty cool, huh?
+
+00:13:56.400 --> 00:14:01.480
+ So this really solves the problem of the fact
+
+00:14:01.480 --> 00:14:04.760
+ that we basically should assume that everything
+
+00:14:04.760 --> 00:14:08.200
+ between our computer and the destination computer,
+
+00:14:08.200 --> 00:14:12.200
+ this is you, this is Amazon, right?
+
+00:14:13.280 --> 00:14:15.400
+ Everything here, this is all dangerous.
+
+00:14:15.400 --> 00:14:19.140
+ There's some terrifyingly scary individual
+
+00:14:19.140 --> 00:14:21.840
+ that's watching everything, doing packet sniffing.
+
+00:14:21.840 --> 00:14:25.080
+ This might be Eve, the eavesdropper.
+
+00:14:25.080 --> 00:14:26.600
+ This looks like a little he.
+
+00:14:26.600 --> 00:14:28.640
+ He looks pretty tough, right?
+
+00:14:28.640 --> 00:14:30.760
+ And so that even the wireless, right?
+
+00:14:30.760 --> 00:14:32.240
+ This is the Wi-Fi connection.
+
+00:14:32.240 --> 00:14:33.720
+ The Wi-Fi is dangerous.
+
+00:14:33.720 --> 00:14:36.680
+ Now, the reality is these things aren't all that dangerous.
+
+00:14:36.680 --> 00:14:39.600
+ The Wi-Fi is probably the weakest link of this whole thing.
+
+00:14:39.600 --> 00:14:41.920
+ But we have to assume that it's dangerous.
+
+00:14:41.920 --> 00:14:44.960
+ That's why we wanna assume that the only thing that's safe,
+
+00:14:44.960 --> 00:14:48.000
+ and unfortunately, if you put viruses in your computer,
+
+00:14:48.000 --> 00:14:49.840
+ then they can get at the plain text.
+
+00:14:49.840 --> 00:14:52.520
+ If Amazon loses its data somehow,
+
+00:14:52.520 --> 00:14:54.700
+ then they get the plain text, right?
+
+00:14:54.700 --> 00:14:59.700
+ But basically, we wanna distrust all of this, okay?
+
+00:14:59.700 --> 00:15:05.520
+ So this concept is called transport layer security,
+
+00:15:05.520 --> 00:15:10.520
+ also called SSL, also known as HTTPS, HTTPS.
+
+00:15:12.840 --> 00:15:14.440
+ For secure.
+
+00:15:14.440 --> 00:15:16.640
+ And it's kind of like between the TCP layer
+
+00:15:16.640 --> 00:15:17.480
+ and the application layer,
+
+00:15:17.480 --> 00:15:19.200
+ or the top half of the TCP layer
+
+00:15:19.200 --> 00:15:21.120
+ is the way I like to think about it.
+
+00:15:21.120 --> 00:15:24.480
+ It's because it's based on public-private key encryption.
+
+00:15:24.480 --> 00:15:27.480
+ It's difficult, but not impossible.
+
+00:15:27.480 --> 00:15:31.560
+ Normal people don't have the kind of equipment to break it.
+
+00:15:31.560 --> 00:15:34.080
+ And even governments, if they can break it,
+
+00:15:34.080 --> 00:15:35.840
+ I don't even know, I'm not an expert.
+
+00:15:35.840 --> 00:15:37.320
+ I don't hang out with the government.
+
+00:15:37.320 --> 00:15:38.640
+ So I don't really know.
+
+00:15:38.640 --> 00:15:41.960
+ But assume that if they really put their mind to it
+
+00:15:41.960 --> 00:15:44.400
+ in a very narrow situation,
+
+00:15:44.400 --> 00:15:46.160
+ if you become really interesting,
+
+00:15:46.160 --> 00:15:47.720
+ they will find your credit cards.
+
+00:15:47.720 --> 00:15:50.200
+ Probably there's easier ways to get your credit cards
+
+00:15:50.200 --> 00:15:52.080
+ than by decrypting your text.
+
+00:15:52.080 --> 00:15:54.880
+ So it's hard to decrypt.
+
+00:15:54.880 --> 00:15:59.160
+ And as I mentioned, because of the layered architecture,
+
+00:15:59.160 --> 00:16:03.300
+ the TCP layer, IP and link layers are completely unaware.
+
+00:16:05.560 --> 00:16:10.560
+ So you see this in the form of URLs that start with HTTPS.
+
+00:16:10.560 --> 00:16:14.560
+ They start with HTTPS,
+
+00:16:14.560 --> 00:16:19.280
+ www.facebook.com versus HTTP.
+
+00:16:19.280 --> 00:16:21.280
+ And there was a time a few years back
+
+00:16:21.280 --> 00:16:25.760
+ where it used to be a little more expensive
+
+00:16:25.760 --> 00:16:28.720
+ inside of the servers to do HTTPS.
+
+00:16:28.720 --> 00:16:30.000
+ It still is.
+
+00:16:30.000 --> 00:16:33.240
+ And so some sites would try to do some of their activity
+
+00:16:33.240 --> 00:16:35.520
+ without using secure protocols.
+
+00:16:35.520 --> 00:16:40.000
+ And others would use non-secure and secure
+
+00:16:40.000 --> 00:16:41.080
+ and then flip you back and forth
+
+00:16:41.080 --> 00:16:42.880
+ like if you're typing your password.
+
+00:16:42.880 --> 00:16:44.440
+ The problem was is that there was actually
+
+00:16:44.440 --> 00:16:47.820
+ still sensitive data being sent even across the insecure.
+
+00:16:47.820 --> 00:16:51.400
+ And there was quite a famous thing
+
+00:16:51.400 --> 00:16:53.520
+ where people could install a Firefox plugin
+
+00:16:53.520 --> 00:16:57.240
+ and watch Facebook, non-secure Facebook things
+
+00:16:57.240 --> 00:17:00.460
+ go back and forth across like a Starbucks.
+
+00:17:00.460 --> 00:17:03.440
+ And it would just show you all the people's Facebook accounts
+
+00:17:03.440 --> 00:17:05.560
+ and you could log in as them and post as them.
+
+00:17:05.560 --> 00:17:08.360
+ And so you've seen a situation where companies
+
+00:17:08.360 --> 00:17:11.400
+ are just starting to use HTTPS for everything.
+
+00:17:11.400 --> 00:17:14.520
+ You as a user have to be aware to see
+
+00:17:14.520 --> 00:17:16.240
+ if you're typing anything sensitive,
+
+00:17:16.240 --> 00:17:20.480
+ never type it into a URL that doesn't say HTTPS.
+
+00:17:20.480 --> 00:17:21.680
+ Never do that.
+
+00:17:21.680 --> 00:17:24.880
+ You're typing a password, a credit card number,
+
+00:17:24.880 --> 00:17:26.720
+ any kind of personal information,
+
+00:17:26.720 --> 00:17:29.600
+ make sure you're doing HTTPS and make sure
+
+00:17:29.600 --> 00:17:32.240
+ that you know what it is.
+
+00:17:32.240 --> 00:17:34.000
+ We'll talk about that in a bit.
+
+00:17:34.000 --> 00:17:35.560
+ We'll talk a little bit more about that in a bit.
+
+00:17:35.560 --> 00:17:38.600
+ So if we take a look and we think about
+
+00:17:38.600 --> 00:17:39.840
+ where the bad guys are at,
+
+00:17:39.840 --> 00:17:42.240
+ the bad guys are kind of everything
+
+00:17:42.240 --> 00:17:45.720
+ and this secure TCP runs,
+
+00:17:45.720 --> 00:17:48.720
+ is the one part of the layer of architecture
+
+00:17:48.720 --> 00:17:52.720
+ that runs from within your laptop to within the server.
+
+00:17:52.720 --> 00:17:55.560
+ And so then if we kind of assume the worst,
+
+00:17:55.560 --> 00:17:58.160
+ the backbone is pretty safe.
+
+00:17:58.160 --> 00:18:01.640
+ The WiFi is probably the most dangerous, right?
+
+00:18:01.640 --> 00:18:04.920
+ But when we do secure system TCP,
+
+00:18:04.920 --> 00:18:08.080
+ secure system to system TCP,
+
+00:18:08.080 --> 00:18:10.000
+ we are doing the encryption
+
+00:18:10.000 --> 00:18:12.600
+ right here inside your computer before it leaves.
+
+00:18:12.600 --> 00:18:14.320
+ And we're only doing the decryption
+
+00:18:14.320 --> 00:18:15.840
+ right when it comes back into computer.
+
+00:18:15.840 --> 00:18:17.920
+ So the decryption and encryption are happening
+
+00:18:17.920 --> 00:18:21.400
+ inside of Amazon's computer and inside of your computer
+
+00:18:21.400 --> 00:18:22.880
+ and nothing else.
+
+00:18:22.880 --> 00:18:25.440
+ So secure sockets is pretty good.
+
+00:18:25.440 --> 00:18:27.800
+ Now the place where you're still danger
+
+00:18:28.720 --> 00:18:31.760
+ is there might be a virus that's watching your keystrokes.
+
+00:18:31.760 --> 00:18:34.000
+ This is why virus checking is so important
+
+00:18:34.000 --> 00:18:36.760
+ because at some point you're typing it into your computer
+
+00:18:36.760 --> 00:18:39.440
+ and the greatest danger you have to losing your data
+
+00:18:39.440 --> 00:18:42.640
+ is really two things.
+
+00:18:42.640 --> 00:18:44.440
+ One, that you've got a virus
+
+00:18:44.440 --> 00:18:47.680
+ or B, somebody has redirected you
+
+00:18:47.680 --> 00:18:51.800
+ not to talk to evil Amazon instead of Amazon.
+
+00:18:51.800 --> 00:18:55.440
+ And that's what we'll talk about in the next lecture.
+
+00:18:55.440 --> 00:18:57.880
+ How does these browsers really know
+
+00:18:57.880 --> 00:18:59.640
+ that you're talking to the real Amazon?
+
+00:18:59.640 --> 00:19:02.080
+ And that is not confidentiality.
+
+00:19:02.080 --> 00:19:04.440
+ Confidentiality is stopping the bad guy
+
+00:19:04.440 --> 00:19:07.800
+ from seeing what you're sending as they're eavesdropping.
+
+00:19:07.800 --> 00:19:11.240
+ Eve is eavesdropping, okay?
+
+00:19:11.240 --> 00:19:13.840
+ Now the next thing is the question of,
+
+00:19:13.840 --> 00:19:17.600
+ is this the real Amazon or is this a fake Amazon?
+
+00:19:17.600 --> 00:19:19.200
+ So we'll talk about that next.
+

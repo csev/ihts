@@ -1,0 +1,644 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:02.420
+ (jazz music)
+
+00:00:30.000 --> 00:00:32.420
+ (jazz music)
+
+00:01:00.000 --> 00:01:02.420
+ (jazz music)
+
+00:01:30.000 --> 00:01:32.420
+ (jazz music)
+
+00:02:00.000 --> 00:02:02.420
+ (jazz music)
+
+00:02:02.420 --> 00:02:08.300
+ - We got our start in the early days of the web
+
+00:02:08.300 --> 00:02:10.300
+ as a group of disaffected webmasters
+
+00:02:10.300 --> 00:02:13.580
+ who were using a piece of freely available web software,
+
+00:02:13.580 --> 00:02:15.880
+ but had difficulty with it.
+
+00:02:15.880 --> 00:02:16.940
+ We were fixing bugs.
+
+00:02:16.940 --> 00:02:18.740
+ We were sharing these bug fixes with each other,
+
+00:02:18.740 --> 00:02:21.560
+ like baseball trading cards, if you will,
+
+00:02:21.560 --> 00:02:23.540
+ these patches, as it's called.
+
+00:02:23.540 --> 00:02:25.780
+ And one day we discovered the group
+
+00:02:25.780 --> 00:02:28.340
+ that put out the web server that we were using
+
+00:02:28.340 --> 00:02:30.300
+ basically folded when all their developers left
+
+00:02:30.300 --> 00:02:32.540
+ to go join a brand new company called Netscape.
+
+00:02:32.540 --> 00:02:34.540
+ So a bunch of us decided that,
+
+00:02:34.540 --> 00:02:36.360
+ hey, we're dependent upon this software.
+
+00:02:36.360 --> 00:02:39.140
+ We don't want to become full-time web server developers,
+
+00:02:39.140 --> 00:02:42.120
+ but we want to be able to use this thing
+
+00:02:42.120 --> 00:02:43.980
+ that we've had for free and be able to improve it
+
+00:02:43.980 --> 00:02:45.580
+ and all that kind of stuff.
+
+00:02:45.580 --> 00:02:47.040
+ We looked at the license of the code,
+
+00:02:47.040 --> 00:02:49.580
+ and the license said, here's the software.
+
+00:02:49.580 --> 00:02:51.020
+ Do whatever you want with it.
+
+00:02:51.020 --> 00:02:53.260
+ Don't blame us when it breaks, right?
+
+00:02:53.260 --> 00:02:55.220
+ And we said, hey, that's a pretty good bargain.
+
+00:02:55.220 --> 00:02:56.660
+ Why don't we pass the same bargain
+
+00:02:56.660 --> 00:02:58.940
+ onto the next group of people, right?
+
+00:02:58.940 --> 00:03:01.820
+ So we formed a mailing list, right?
+
+00:03:01.820 --> 00:03:04.140
+ And this was mostly, again, webmasters
+
+00:03:04.140 --> 00:03:07.700
+ and people working at some early internet service providers
+
+00:03:07.700 --> 00:03:11.700
+ or website design companies or places like Amazon
+
+00:03:11.700 --> 00:03:13.980
+ or the internet movie database.
+
+00:03:13.980 --> 00:03:16.620
+ And we combined our patches together
+
+00:03:16.620 --> 00:03:20.140
+ and decided to call it a patchy server for that reason
+
+00:03:20.140 --> 00:03:21.820
+ and went forward.
+
+00:03:21.820 --> 00:03:23.740
+ And really the model of how we worked
+
+00:03:23.740 --> 00:03:27.780
+ was based upon kind of us as a group, as peers,
+
+00:03:27.780 --> 00:03:32.100
+ proposing ideas, vetting each other's ideas and patches
+
+00:03:32.100 --> 00:03:35.420
+ and fixing bugs as a group, as a team.
+
+00:03:35.420 --> 00:03:37.700
+ None of us had met in person, well, some of us had met,
+
+00:03:37.700 --> 00:03:41.300
+ but as a group, we didn't meet in person until 1998,
+
+00:03:41.300 --> 00:03:43.500
+ really three years after we got our start.
+
+00:03:43.500 --> 00:03:44.860
+ And long after, by the way,
+
+00:03:44.860 --> 00:03:47.900
+ we'd become the most predominant web server product
+
+00:03:47.900 --> 00:03:49.260
+ on the planet.
+
+00:03:49.260 --> 00:03:51.620
+ And yet at this time, still, no money, no dime,
+
+00:03:51.620 --> 00:03:54.460
+ not direct to us from this piece of open source software,
+
+00:03:54.460 --> 00:03:57.300
+ but plenty of us made our living
+
+00:03:57.300 --> 00:03:59.900
+ off of building things on top of this piece.
+
+00:03:59.900 --> 00:04:01.300
+ And that's really the story, I think,
+
+00:04:01.300 --> 00:04:04.500
+ of kind of successful open source projects writ large,
+
+00:04:04.500 --> 00:04:08.060
+ which is people working together on common technologies
+
+00:04:08.060 --> 00:04:09.580
+ to solve common problems
+
+00:04:09.580 --> 00:04:11.620
+ so they can go off and make money on other places
+
+00:04:11.620 --> 00:04:13.980
+ or so they can have fun, they can try new ideas,
+
+00:04:13.980 --> 00:04:17.300
+ they can be experimental, right?
+
+00:04:17.300 --> 00:04:21.180
+ And that's really the same story of Apache and of Linux
+
+00:04:21.180 --> 00:04:23.180
+ and all these other open source projects.
+
+00:04:23.180 --> 00:04:26.740
+ - So one of the core things about Apache
+
+00:04:26.740 --> 00:04:28.740
+ is the concept of meritocracy.
+
+00:04:28.740 --> 00:04:32.660
+ Was that a difficult thing to make happen?
+
+00:04:32.660 --> 00:04:35.940
+ I mean, I look at your bylaws and I say,
+
+00:04:35.940 --> 00:04:38.740
+ somebody crafted those bylaws carefully,
+
+00:04:38.740 --> 00:04:40.820
+ or was this just kind of like dumb luck?
+
+00:04:40.820 --> 00:04:42.340
+ Is this just kind of how it worked out?
+
+00:04:42.340 --> 00:04:45.100
+ Were there any like fights over the bylaws,
+
+00:04:45.100 --> 00:04:47.540
+ or did the bylaws just kind of come naturally?
+
+00:04:47.540 --> 00:04:49.820
+ - So let's say you've got a group of your neighbors,
+
+00:04:49.820 --> 00:04:52.820
+ you know, say a four or five block radius, right?
+
+00:04:52.820 --> 00:04:55.500
+ Group of your neighbors, you're on a mailing list, right?
+
+00:04:55.500 --> 00:04:57.500
+ And you kind of wanna be social with each other
+
+00:04:57.500 --> 00:04:59.180
+ because you have to see each other every day.
+
+00:04:59.180 --> 00:05:02.220
+ You know, you don't wanna pick fights necessarily.
+
+00:05:02.220 --> 00:05:04.180
+ But you wanna get something done and you decide that,
+
+00:05:04.180 --> 00:05:06.780
+ hey, let's throw a picnic on some Sunday, right?
+
+00:05:06.780 --> 00:05:09.300
+ So as a group of neighbors, how are you going to decide
+
+00:05:09.300 --> 00:05:12.060
+ how to throw a big group picnic, right?
+
+00:05:12.060 --> 00:05:14.060
+ Well, somebody's gonna say, hey, I have a big grill.
+
+00:05:14.060 --> 00:05:15.260
+ You know, somebody else will say,
+
+00:05:15.260 --> 00:05:18.620
+ I have this great meat place that I go and buy my meat from.
+
+00:05:18.620 --> 00:05:19.500
+ I'll get it there.
+
+00:05:19.500 --> 00:05:21.980
+ Somebody else says, I make a wicked potato salad
+
+00:05:21.980 --> 00:05:23.100
+ or something like that.
+
+00:05:23.100 --> 00:05:26.020
+ And, you know, by people showing up and volunteering things
+
+00:05:26.020 --> 00:05:27.180
+ and saying what they can do
+
+00:05:27.180 --> 00:05:29.700
+ and building upon each other's ideas,
+
+00:05:29.700 --> 00:05:32.380
+ you generally find a way to do it.
+
+00:05:32.380 --> 00:05:36.740
+ That carries a tone of respect for other people's ideas
+
+00:05:36.740 --> 00:05:40.700
+ that, you know, recognizes that passion and motivation
+
+00:05:40.700 --> 00:05:43.420
+ are some of the most finite resources in the world, right?
+
+00:05:43.420 --> 00:05:45.420
+ And you have to cherish that.
+
+00:05:45.420 --> 00:05:46.460
+ You don't wanna, you know,
+
+00:05:46.460 --> 00:05:49.780
+ naysay somebody's idea just out of hand, right?
+
+00:05:49.780 --> 00:05:52.540
+ And so I think it just kind of fell out naturally
+
+00:05:52.540 --> 00:05:54.700
+ from, you know, kind of the golden rule
+
+00:05:54.700 --> 00:05:56.860
+ of do unto others and that kind of thing.
+
+00:05:56.860 --> 00:05:58.420
+ Didn't seem like magic to us, I guess,
+
+00:05:58.420 --> 00:05:59.900
+ when we were doing it.
+
+00:05:59.900 --> 00:06:02.660
+ But yeah, it turns out to be not that hard
+
+00:06:02.660 --> 00:06:03.980
+ to be able to work together
+
+00:06:03.980 --> 00:06:05.740
+ when people have the same common goal,
+
+00:06:05.740 --> 00:06:07.660
+ which is let's build a product
+
+00:06:07.660 --> 00:06:09.560
+ that does all this great stuff.
+
+00:06:09.560 --> 00:06:13.140
+ One thing that we did do that made it easy
+
+00:06:13.140 --> 00:06:14.260
+ to make some of these decisions
+
+00:06:14.260 --> 00:06:17.460
+ was to have a very modular API,
+
+00:06:17.460 --> 00:06:19.540
+ which made it easy for us to be able to say,
+
+00:06:19.540 --> 00:06:21.940
+ "Hey, if you want that special cool feature,
+
+00:06:21.940 --> 00:06:25.180
+ "do it as a separate thing and make it successful,
+
+00:06:25.180 --> 00:06:27.500
+ "and we'll decide whether to bring this into the product
+
+00:06:27.500 --> 00:06:30.260
+ "once it's become successful or not," right?
+
+00:06:30.260 --> 00:06:32.660
+ Another key thing that plays into this
+
+00:06:32.660 --> 00:06:34.860
+ that is true of all open source projects
+
+00:06:34.860 --> 00:06:38.500
+ is that an open source license, like we had on ours,
+
+00:06:38.500 --> 00:06:40.300
+ that Linux has, et cetera,
+
+00:06:40.300 --> 00:06:42.780
+ carries with it something called the right to fork,
+
+00:06:42.780 --> 00:06:45.980
+ which means that if I were to go all Colonel Kurtz
+
+00:06:45.980 --> 00:06:49.380
+ on the project and start saying we're gonna go here
+
+00:06:49.380 --> 00:06:50.700
+ and no one else wanted to follow,
+
+00:06:50.700 --> 00:06:52.340
+ well, all of those other people
+
+00:06:52.340 --> 00:06:54.420
+ could decide to pick up the code
+
+00:06:54.420 --> 00:06:56.420
+ and go start a different project somewhere else
+
+00:06:56.420 --> 00:06:57.540
+ if they couldn't kick me out,
+
+00:06:57.540 --> 00:07:00.620
+ which is probably what they would have tried to do first.
+
+00:07:00.620 --> 00:07:03.260
+ This right to fork means that
+
+00:07:03.260 --> 00:07:05.540
+ you don't have to have any tolerance for dictators.
+
+00:07:05.540 --> 00:07:07.260
+ You don't have to deal with people
+
+00:07:07.260 --> 00:07:09.080
+ who make bad technical decisions.
+
+00:07:09.080 --> 00:07:12.540
+ You can take that future into your hands,
+
+00:07:12.540 --> 00:07:15.140
+ and if you find a group of other people who agree with you,
+
+00:07:15.140 --> 00:07:17.820
+ you can go on and create a new project around it.
+
+00:07:17.820 --> 00:07:20.340
+ So I think that rule, that right to fork,
+
+00:07:20.340 --> 00:07:22.860
+ limits the kind of excesses that we see
+
+00:07:22.860 --> 00:07:24.260
+ whenever we start to talk about
+
+00:07:24.260 --> 00:07:27.720
+ how do groups make decisions and conflict arises,
+
+00:07:27.720 --> 00:07:29.220
+ how do you deal with that conflict?
+
+00:07:29.220 --> 00:07:32.260
+ And it means that your style of leadership
+
+00:07:32.260 --> 00:07:33.900
+ isn't so much one of control
+
+00:07:33.900 --> 00:07:36.060
+ and plotting moves ahead of time,
+
+00:07:36.060 --> 00:07:40.100
+ but instead one of being able to get people on your side,
+
+00:07:40.100 --> 00:07:43.120
+ convince them that you're gonna value their efforts,
+
+00:07:43.120 --> 00:07:45.740
+ value the contributions that they make.
+
+00:07:45.740 --> 00:07:47.500
+ - Tell me a little bit about what you're doing now
+
+00:07:47.500 --> 00:07:50.380
+ and how sort of the Apache work
+
+00:07:50.380 --> 00:07:52.440
+ has flowed into what your current work is.
+
+00:07:52.440 --> 00:07:54.220
+ - Well, I think what we realized
+
+00:07:54.220 --> 00:07:56.280
+ kind of early on with Apache is that
+
+00:07:56.280 --> 00:07:58.500
+ even though we were really carrying forward
+
+00:07:58.500 --> 00:08:01.040
+ the traditions from the Internet Engineering Task Force,
+
+00:08:01.040 --> 00:08:03.860
+ from the BSD community and the Linux communities
+
+00:08:03.860 --> 00:08:05.600
+ in terms of how to write software,
+
+00:08:05.600 --> 00:08:07.500
+ and even though we were using tools
+
+00:08:07.500 --> 00:08:09.740
+ available to the open source world like CVS
+
+00:08:09.740 --> 00:08:12.500
+ and web-based issue trackers and such,
+
+00:08:12.500 --> 00:08:16.380
+ I came to realize that there was a certain kind of,
+
+00:08:16.380 --> 00:08:18.260
+ that if you could define how it was
+
+00:08:18.260 --> 00:08:20.020
+ at Apache Build Software,
+
+00:08:20.020 --> 00:08:21.940
+ define it from the perspective of process
+
+00:08:21.940 --> 00:08:23.620
+ and the perspective of tools,
+
+00:08:23.620 --> 00:08:25.840
+ that was something that if you could
+
+00:08:25.840 --> 00:08:28.000
+ distill it down to a science and make it repeatable,
+
+00:08:28.000 --> 00:08:30.260
+ you could take it to the rest of the software industry.
+
+00:08:30.260 --> 00:08:32.620
+ And you could do that for more open source projects,
+
+00:08:32.620 --> 00:08:33.660
+ brand new ones,
+
+00:08:33.660 --> 00:08:36.180
+ or you could even do it inside of companies.
+
+00:08:37.020 --> 00:08:40.740
+ We, on the outside of big companies like an IBM or an HP,
+
+00:08:40.740 --> 00:08:42.500
+ we tend to think that all those companies
+
+00:08:42.500 --> 00:08:44.660
+ must have that innovation problem licked, right?
+
+00:08:44.660 --> 00:08:46.540
+ They must know how to write software,
+
+00:08:46.540 --> 00:08:50.560
+ great software that maximizes the intellectual capital
+
+00:08:50.560 --> 00:08:52.280
+ that they're paying for every day, right?
+
+00:08:52.280 --> 00:08:54.580
+ Turns out a lot of companies are actually
+
+00:08:54.580 --> 00:08:57.020
+ really bad at getting their engineers,
+
+00:08:57.020 --> 00:09:00.580
+ getting their employees to produce the smartest things,
+
+00:09:00.580 --> 00:09:03.740
+ to reuse each other's work as well as they could,
+
+00:09:03.740 --> 00:09:06.000
+ and as well as the open source community does.
+
+00:09:06.000 --> 00:09:08.620
+ And so I started a company in 1999
+
+00:09:08.620 --> 00:09:11.020
+ on the premise of let's figure this out,
+
+00:09:11.020 --> 00:09:13.540
+ let's put this in a bottle if we can or define it,
+
+00:09:13.540 --> 00:09:15.660
+ and let's take it to the rest of the industry
+
+00:09:15.660 --> 00:09:18.700
+ in the form of a collaboration platform
+
+00:09:18.700 --> 00:09:23.020
+ targeted at version control, issue tracking,
+
+00:09:23.020 --> 00:09:26.380
+ and also capturing the ad hoc, you know,
+
+00:09:26.380 --> 00:09:28.780
+ free form conversation that takes place
+
+00:09:28.780 --> 00:09:30.220
+ in open source projects.
+
+00:09:30.220 --> 00:09:31.860
+ And so part of it is that,
+
+00:09:31.860 --> 00:09:35.180
+ part of it as well is educating communities
+
+00:09:35.180 --> 00:09:38.060
+ on best practices around open source engineering.
+
+00:09:38.060 --> 00:09:40.380
+ How do you have a development process
+
+00:09:40.380 --> 00:09:42.500
+ that is transparent and accessible
+
+00:09:42.500 --> 00:09:44.620
+ to everyone in an organization
+
+00:09:44.620 --> 00:09:46.100
+ rather than something that is, you know,
+
+00:09:46.100 --> 00:09:48.060
+ three people in a cubicle making a decision
+
+00:09:48.060 --> 00:09:49.880
+ about, you know, the right kind of decision,
+
+00:09:49.880 --> 00:09:54.880
+ or a way to implement a particular technical solution, right?
+
+00:09:54.880 --> 00:09:57.780
+ - So finish this sentence, CollabNet is?
+
+00:09:57.780 --> 00:09:59.740
+ - CollabNet is a products and services company
+
+00:09:59.740 --> 00:10:03.260
+ focused on replicating open source collaboration
+
+00:10:03.260 --> 00:10:06.100
+ practices and tools to the rest of the software industry.
+
+00:10:06.100 --> 00:10:08.820
+ - Perfect.
+
+00:10:08.820 --> 00:10:10.380
+ Now we're on.
+
+00:10:10.380 --> 00:10:11.780
+ - Hi there.
+
+00:10:11.780 --> 00:10:14.420
+ I'm here at North Carolina State University
+
+00:10:14.420 --> 00:10:15.820
+ at a meeting hosted by IBM
+
+00:10:15.820 --> 00:10:19.800
+ talking about potential for open source in K-12.
+
+00:10:19.800 --> 00:10:22.240
+ I was very, very fortunate to be on a wonderful panel
+
+00:10:22.240 --> 00:10:24.660
+ with Brian Bellendorf from Apache Foundation.
+
+00:10:24.660 --> 00:10:28.020
+ Brian spoke with the Sakai community last June
+
+00:10:28.020 --> 00:10:29.500
+ in Baltimore as our keynote,
+
+00:10:29.500 --> 00:10:31.820
+ and I was able to talk to Brian
+
+00:10:31.820 --> 00:10:34.620
+ ask him a few things about the beginning of Apache and what he's up to now.
+

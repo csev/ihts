@@ -1,0 +1,311 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:09.500
+ In the post-war period in the 1950s, this is a bit of an aside, there was a realization
+
+00:00:09.500 --> 00:00:14.960
+ by the, certainly the federal government in the United States, that academics were kind
+
+00:00:14.960 --> 00:00:22.420
+ of useful, right? I mean, the people that really had won the war for them were academics.
+
+00:00:22.420 --> 00:00:27.280
+ Not just computer people, but also people that built designed airplanes and radar and
+
+00:00:27.280 --> 00:00:32.820
+ things like that. And so there's a sense that the safest country was the country that
+
+00:00:32.820 --> 00:00:38.220
+ had the smartest people. And in many ways, the entire US educational system was built
+
+00:00:38.220 --> 00:00:48.020
+ to find really bright scientists and educate them very effectively. And so there was a
+
+00:00:48.020 --> 00:00:54.980
+ real boom in building science departments, National Science Foundation was created right
+
+00:00:54.980 --> 00:01:03.020
+ after the war. And so the United States and other governments really greatly invested
+
+00:01:03.020 --> 00:01:07.700
+ in research. And there's this movie, Beautiful Mind, and I've got the URL there at the bottom.
+
+00:01:07.700 --> 00:01:11.460
+ It's not required, but I love the movie. And it gives you a sense, in particular the scene
+
+00:01:11.460 --> 00:01:18.540
+ that I'm pointing to, gives you a sense of how mathematicians were in many ways treated
+
+00:01:18.540 --> 00:01:22.140
+ like celebrities. So I'll pause just for a minute in case you want to pause this video
+
+00:01:22.140 --> 00:01:34.020
+ and then go take a look at the John Nash video.
+
+00:01:34.020 --> 00:01:40.180
+ So of course, John Nash was a real person. He received his PhD in mathematics at Princeton
+
+00:01:40.180 --> 00:01:46.380
+ at 22 years old. He was a prodigy. He was on the mathematics faculty at MIT in 1951
+
+00:01:46.380 --> 00:01:54.120
+ through 1958. And he had adult onset schizophrenia right before he was 30 years old. And it was
+
+00:01:54.120 --> 00:02:02.140
+ quite a severe case. And he spent a number of years in sort of mental institutions, homeless,
+
+00:02:02.140 --> 00:02:10.220
+ et cetera. But in his work in Princeton, in an area of economics called game theory, he
+
+00:02:10.220 --> 00:02:15.420
+ did something that was quite innovative. And it really revolutionized in many ways our
+
+00:02:15.420 --> 00:02:26.340
+ understanding of economics. And he got his schizophrenia under control in the mid '90s.
+
+00:02:26.340 --> 00:02:32.260
+ And he was awarded the Nobel Prize for economics in 1994. And so this is just kind of this
+
+00:02:32.260 --> 00:02:38.620
+ moment where all this stuff was blossoming in the '40s and the '50s.
+
+00:02:38.620 --> 00:02:48.060
+ Now in the 1960s, we started seeing a different way of computing. This was moving from the
+
+00:02:48.060 --> 00:02:53.660
+ research into the mathematics of building computers to the applications of the computers.
+
+00:02:53.660 --> 00:03:02.220
+ And we needed to have connectivity because you would build a computer and in 1955, there
+
+00:03:02.220 --> 00:03:07.660
+ might be one computer available to a university researcher in the entire state. And so you
+
+00:03:07.660 --> 00:03:14.300
+ had to connect them together. And so we would often end up with these things we called terminals
+
+00:03:14.300 --> 00:03:20.620
+ in our office. And they would use these dial up modems. And they would connect perhaps
+
+00:03:20.620 --> 00:03:28.620
+ for a local call to a local computer or even a long distance call, a very expensive long
+
+00:03:28.620 --> 00:03:34.060
+ distance call to a remote computer. But these computers were so central and so precious
+
+00:03:34.060 --> 00:03:39.140
+ that we didn't care about the cost of phones. And we couldn't share them. I mean, everybody
+
+00:03:39.140 --> 00:03:44.620
+ didn't have a computer the way they do today. And so there was a couple of different models.
+
+00:03:44.620 --> 00:03:51.180
+ One is that you had people doing their work connecting to computers over these modems.
+
+00:03:51.180 --> 00:03:55.380
+ And then more rarely, you had computer to computer connections using what are called
+
+00:03:55.380 --> 00:04:02.900
+ lease lines. These lease lines were very expensive. They were kind of like making a long distance
+
+00:04:02.900 --> 00:04:08.700
+ phone call 24 hours a day, seven days a week. They were rarely used in academic situations
+
+00:04:08.700 --> 00:04:14.780
+ because they were so expensive. It was more common for a bank to use them to say move
+
+00:04:14.780 --> 00:04:19.020
+ all their data from their branch locations to the central locations once a day. They
+
+00:04:19.020 --> 00:04:26.520
+ were generally slow and very expensive. And they were justifiable in certain situations.
+
+00:04:26.520 --> 00:04:31.940
+ And so that's kind of how our world was. We had something on our desk. And then we used
+
+00:04:31.940 --> 00:04:36.420
+ that to connect through the phone lines to a central computer that was shared with many
+
+00:04:36.420 --> 00:04:42.380
+ different people. We called it time sharing. And so-- oops. So this next video that I want
+
+00:04:42.380 --> 00:04:48.180
+ to show you, just the first part of it, you don't have to watch the whole thing, is kind
+
+00:04:48.180 --> 00:04:54.900
+ of in the '60s and '70s when I became involved in computing, this was kind of the way that
+
+00:04:54.900 --> 00:05:01.820
+ we perceived our computers. We would dial them up. And they made these clunking noises
+
+00:05:01.820 --> 00:05:09.000
+ that this teletype that you're going to see in this video is a World War II artifact basically.
+
+00:05:09.000 --> 00:05:13.580
+ And my first programming, personally, was on this kind of a computer, making this exact
+
+00:05:13.580 --> 00:05:18.740
+ noise that you're going to hear in this video. And I think that the key to emphasize here
+
+00:05:18.740 --> 00:05:27.380
+ is that it's kind of fun to look back at this old guy with his horny rim glasses. But we
+
+00:05:27.380 --> 00:05:31.240
+ really were enjoying ourselves. And you think, well, I got this fancy cell phone and it does
+
+00:05:31.240 --> 00:05:36.460
+ all these wonderful things. And I place Angry Birds on it. And weren't these people not
+
+00:05:36.460 --> 00:05:41.500
+ having fun? And the answer is we were having a great time. We were connecting, communicating,
+
+00:05:41.500 --> 00:05:46.220
+ calculating, computing, doing all these wonderful things. We just were doing it sort of more
+
+00:05:46.220 --> 00:05:52.140
+ slowly with simpler equipment. But even from the beginning in the '60s and the '70s, people
+
+00:05:52.140 --> 00:05:58.340
+ talking to people were an important part of the use of this technology. So take a quick
+
+00:05:58.340 --> 00:06:05.340
+ look at this video, and then come on back.
+
+00:06:28.340 --> 00:06:46.160
+ I'm going to show you the use of the Michigan Terminal System, a large computing system
+
+00:06:46.160 --> 00:06:53.920
+ at the University of Michigan Computing Center, using the IBM Model 36067. We will be using
+
+00:06:53.920 --> 00:07:00.680
+ a standard teletype, and we will be dialing in through the ordinary University Centrix
+
+00:07:00.680 --> 00:07:08.720
+ telephone system. This system can be used by a telephone system anywhere in the world,
+
+00:07:08.720 --> 00:07:14.300
+ as long as one can dial directly into the computer. These teletypes are not wired in,
+
+00:07:14.300 --> 00:07:20.520
+ but use the ordinary telephone system. We start by pushing the originate button, which
+
+00:07:20.520 --> 00:07:26.640
+ turns on the teletype. Then we will dial using the regular telephone dial here. Now, there
+
+00:07:26.640 --> 00:07:33.800
+ is a handset, which is available with every teletype system. You can dial this number,
+
+00:07:33.800 --> 00:07:38.560
+ if you like, with the handset. Either one works. But as soon as you are connected to
+
+00:07:38.560 --> 00:07:44.360
+ the computer, do not use the handset for any purpose at all. Now I'll push the originate
+
+00:07:44.360 --> 00:07:50.640
+ button. I can control the speaker volume with this little knob, and so you can hear it.
+
+00:07:50.640 --> 00:08:04.400
+ Now I will dial the number, 763-0300, or in the Centrix system, just 30300. And now the
+
+00:08:04.400 --> 00:08:11.840
+ computer is coming in. I will turn the volume down. The response from the computer is the
+
+00:08:11.840 --> 00:08:17.240
+ identification of the system. The "who are you?" is the standard teletype communication
+
+00:08:17.240 --> 00:08:22.640
+ identification. And the teletype itself answers with its own built-in code number. In this
+
+00:08:22.640 --> 00:08:30.160
+ case, the teletype at the TV center. Now I must sign on to the computer and identify
+
+00:08:30.160 --> 00:08:35.200
+ myself. The number sign at the beginning of the line is the indication that the Michigan
+
+00:08:35.200 --> 00:08:40.960
+ terminal system is waiting for me to communicate something to it. The first thing I must do
+
+00:08:40.960 --> 00:08:48.320
+ is issue the sign-on command. All commands in the system start with a dollar sign. Now
+
+00:08:48.320 --> 00:08:54.540
+ the keyboard on the teletype is very much like the keyboard of a typewriter, including
+
+00:08:54.540 --> 00:09:00.560
+ a shift key for the characters on the top of the key. We do not have upper and lower
+
+00:09:00.560 --> 00:09:06.720
+ case letters, however, so the shift key is only used to get an additional set of characters.
+
+00:09:06.720 --> 00:09:13.280
+ And in this case, the dollar sign is a character above the number 4. Now I will use the word
+
+00:09:13.280 --> 00:09:21.560
+ sign-on, which is the official command, S-I-G-N-O-N. There must be a space, at least one, after
+
+00:09:21.560 --> 00:09:26.400
+ every command. And now I will give my own personal computing center number, which happens
+
+00:09:26.400 --> 00:09:35.360
+ to be W010. Each user of this system is issued a computing center identification number through
+
+00:09:35.360 --> 00:09:40.800
+ his instructor if he's a student or through the department for faculty. Now this line
+
+00:09:40.800 --> 00:09:48.880
+ has been typed. It is being held by the computer, but I can, if I see any errors in it, do some
+
+00:09:48.880 --> 00:09:54.240
+ editing and correcting. We'll see that later. I am satisfied with this line, and now I will
+
+00:09:54.240 --> 00:10:00.880
+ give the end-of-line character, which must be given after every line, and I will remind
+
+00:10:00.880 --> 00:10:06.920
+ you each time that I'm doing it for a while. The character for ending a line uses the control
+
+00:10:06.920 --> 00:10:12.880
+ key on the keyboard, which is a special key which indicates that I want to use even additional
+
+00:10:12.880 --> 00:10:17.960
+ characters besides those that are added by the use of the shift key. I hold the control
+
+00:10:17.960 --> 00:10:24.440
+ key down, and while I hold it down, I can hit one of a number of other keys. And in
+
+00:10:24.440 --> 00:10:31.480
+ this case, I will use the control with the letter Q. It's possible to use the letter S also,
+
+00:10:31.480 --> 00:10:35.660
+ but that's right next to another key which disconnects the teletype, so I recommend using
+
+00:10:35.660 --> 00:10:48.560
+ Q. I will use control and Q to terminate the line. And now I'm asked to give my private
+
+00:10:48.560 --> 00:10:55.840
+ password. I'll give an incorrect password, just some nonsense characters, and of course,
+
+00:10:55.840 --> 00:11:06.040
+ end-of-line because I must indicate that I'm satisfied with that. I'm prompted that I better
+
+00:11:06.040 --> 00:11:11.060
+ give another password, and now since I intend to give the correct password, I will turn
+
+00:11:11.060 --> 00:11:16.760
+ off the printing so that no one can see what mine is. To turn off printing, we use this
+
+00:11:16.760 --> 00:11:27.000
+ switch which is labeled HDX and FDX for half-duplex and full-duplex. We normally operate the teletype
+
+00:11:27.000 --> 00:11:33.560
+ in half-duplex mode. If I push it to full-duplex, printing is suppressed. And now I will give
+
+00:11:33.560 --> 00:11:42.520
+ my correct password, push to half-duplex again, and end-of-line character, control Q, and
+
+00:11:42.520 --> 00:11:48.600
+ it is accepted by the system, and I am now signed on. The information that's coming out
+
+00:11:48.600 --> 00:11:51.840
+ here is time and date of the previous sign-on.
+

@@ -1,0 +1,120 @@
+1
+00:00:00,000 --> 00:00:08,400
+ So I hope you enjoyed that. Again, I tried to showcase the juxtaposition of the mechanical
+
+2
+00:00:08,400 --> 00:00:14,360
+ computers moving to the electronic computers and how it was a collective effort by many
+
+3
+00:00:14,360 --> 00:00:19,480
+ different people. And so one of the things that happened sort of after this is after
+
+4
+00:00:19,480 --> 00:00:24,440
+ the war, they didn't need Bletchley Park anymore. So they shut the Bletchley Park down.
+
+5
+00:00:24,440 --> 00:00:27,720
+ And all these people who had worked on all these things and built all these things went
+
+6
+00:00:27,720 --> 00:00:36,040
+ to various academic places like MIT, Manchester, Harvard. And what happened was is what they
+
+7
+00:00:36,040 --> 00:00:41,960
+ had done was a secret and they could say nothing about it. But they had realized and they couldn't
+
+8
+00:00:41,960 --> 00:00:49,720
+ forget that electronics could do computation. And electronics could do computation far more
+
+9
+00:00:49,720 --> 00:00:54,520
+ rapidly than anything we've ever imagined before. And so a series of computers came
+
+10
+00:00:54,520 --> 00:01:00,000
+ up really fast after the war. They kind of, you know, relaxed, the war is over, we feel
+
+11
+00:01:00,000 --> 00:01:05,140
+ good. But let's start thinking about what we would build if we were going to do computations
+
+12
+00:01:05,140 --> 00:01:11,640
+ like weather or other kinds of cool computations instead of just wartime computations. And
+
+13
+00:01:11,640 --> 00:01:16,520
+ so these next generation of computers that are often thought of as the first computers
+
+14
+00:01:16,520 --> 00:01:20,880
+ in the world, which are really kind of like the follow on computers to the computers built
+
+15
+00:01:20,880 --> 00:01:28,560
+ at Bletchley Park. And so the immediate post-war period in the 1940s took the US and UK code
+
+16
+00:01:28,560 --> 00:01:32,640
+ breaking. There were similar things in the United States as well. And I'm sure elsewhere
+
+17
+00:01:32,640 --> 00:01:39,580
+ where that pushed the envelope of computation. But the folks that had built all these things
+
+18
+00:01:39,580 --> 00:01:45,520
+ for wartime purposes switched and moved into academic and peacetime purposes. And so they
+
+19
+00:01:45,520 --> 00:01:49,480
+ built, I mean, if you think about it, they had less pressure, but they already know it's
+
+20
+00:01:49,480 --> 00:01:53,920
+ feasible and they could kind of sit back and relax and be like, OK, that would be a little
+
+21
+00:01:53,920 --> 00:01:58,560
+ better. We kind of compromised there. So they built some really elegant computers. And,
+
+22
+00:01:58,560 --> 00:02:04,120
+ you know, they can all sort of fight over who's the first. But ultimately they all pretty
+
+23
+00:02:04,120 --> 00:02:08,760
+ much came out very quickly one after another because the idea had escaped. And so this
+
+24
+00:02:08,760 --> 00:02:17,400
+ is the beginning of sort of electronic computation, right? The fact that electricity can be used
+
+25
+00:02:17,400 --> 00:02:22,320
+ to represent data and that can be used to change data very rapidly as compared to other
+
+26
+00:02:22,320 --> 00:02:28,520
+ things that used physical storage for computer information. So this was a great time. Electronic
+
+27
+00:02:28,520 --> 00:02:34,080
+ computation from the specialized to the general purpose. And these people really built some
+
+28
+00:02:34,080 --> 00:02:39,120
+ exciting computers, many of the architectures of which are kind of still sort of with us.
+
+29
+00:02:39,120 --> 00:02:42,760
+ A lot of the architectures were innovative. The innovative architectures that we still
+
+30
+00:02:42,760 --> 00:02:45,480
+ used today were conceived and imagined there.
+

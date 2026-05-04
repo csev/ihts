@@ -1,0 +1,19 @@
+ So here is an example problem to solve.
+ Now, none of the mailbox, run of the routers, none of the post office offices know exactly
+ where the thing is going and they don't transport it to the final destination.
+ All they do is they transport it to the future, to a further down destination.
+ But what if they get it wrong?
+ What if one, this is like Michigan, this is Chicago, this is Dallas, and what if Michigan
+ thinks sending to Chicago is a good idea, Chicago thinks sending to Dallas is a good
+ idea, and then Dallas thinks sending to Michigan is a good idea?
+ Well, then Michigan's going to get it again and send it back to Chicago.
+ And so then what you end up with is this situation where your packet, your data, is in a loop.
+ Right?
+ This wouldn't be good for the post office and it's not good for the internet.
+ So you have to say, how do we solve this problem when something's wrong?
+ Right?
+ It's, you wish it were perfect, but it's not.
+ And so this is the kind of research question as to how to solve this kind of problem.
+ And we'll talk more about this in a bit when we get into a little more technical detail.
+ But I just wanted to sort of say, that's the kind of research and engineering that took
+ literally 20 years and four different versions of the ARPANET to get right.
