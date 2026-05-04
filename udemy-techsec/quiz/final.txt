@@ -1,0 +1,271 @@
+
+::Q1 Big Picture Layers::
+Why is the Internet designed in layers instead of one unified system?
+{
+=To allow independent evolution and simplification of complex problems
+~To reduce the number of computers needed
+~To eliminate packet switching
+~To guarantee reliability
+}
+
+::Q2 Packet Switching Core Idea::
+Why are messages split into packets?
+{
+=To allow efficient sharing of network resources
+~To guarantee ordering
+~To prevent packet loss
+~To eliminate routing
+}
+
+::Q3 Packet Routing Reality::
+What happens if packets take different routes?
+{
+=They are reassembled at the destination
+~They are discarded
+~They are rerouted to the source
+~They must be identical paths
+}
+
+::Q4 Link Layer Scope::
+Why does the link layer only handle one hop?
+{
+=It simplifies the problem to local communication
+~It ensures global routing
+~It eliminates IP addresses
+~It guarantees delivery
+}
+
+::Q5 Shared Medium Insight::
+Why do Ethernet and Wi-Fi need collision handling?
+{
+=Multiple devices share the same communication channel
+~Packets are encrypted
+~IP addresses change frequently
+~Routers require it
+}
+
+::Q6 MAC vs IP::
+Why aren’t MAC addresses used for global routing?
+{
+=They only work within a local network
+~They are too large
+~They change too often
+~They are encrypted
+}
+
+::Q7 IP Design Philosophy::
+Why does IP not guarantee delivery?
+{
+=Keeping it simple makes the network scalable
+~Routers cannot store packets
+~Encryption handles delivery
+~TCP replaces IP
+}
+
+::Q8 Prefix Routing::
+Why do routers use IP prefixes instead of full addresses?
+{
+=To simplify routing decisions at scale
+~To reduce packet size
+~To guarantee reliability
+~To improve encryption
+}
+
+::Q9 Imperfect Routing::
+Why can routers make imperfect decisions?
+{
+=The network still functions due to redundancy
+~All routes are equal
+~Packets are always retransmitted
+~Routers know the full network
+}
+
+::Q10 DHCP Insight::
+Why does your IP address change between networks?
+{
+=It reflects your current network location
+~MAC addresses change
+~Routers assign permanent IDs
+~DNS requires it
+}
+
+::Q11 NAT Thinking::
+Why can many devices share one public IP?
+{
+=The router translates local addresses to a global one
+~All devices share MAC addresses
+~The Internet ignores duplicates
+~Packets are merged
+}
+
+::Q12 TTL Purpose::
+Why do packets have a Time-To-Live (TTL)?
+{
+=To prevent infinite routing loops
+~To speed up delivery
+~To encrypt data
+~To reduce packet size
+}
+
+::Q13 Traceroute Concept::
+How does traceroute reveal network paths?
+{
+=By sending packets that expire at each hop
+~By encrypting packets
+~By tracking IP addresses
+~By using DNS
+}
+
+::Q14 TCP Purpose::
+Why does TCP exist above IP?
+{
+=To provide reliable communication on an unreliable network
+~To replace IP routing
+~To assign IP addresses
+~To reduce packet size
+}
+
+::Q15 TCP Reliability::
+How does TCP detect lost packets?
+{
+=Through missing acknowledgements
+~Through routers
+~Through DNS
+~Through encryption
+}
+
+::Q16 TCP Storage Insight::
+Why does TCP store packets at the sender?
+{
+=To retransmit them if needed
+~To reduce packet size
+~To improve routing
+~To assign ports
+}
+
+::Q17 Ordering Problem::
+Why does TCP use sequence numbers?
+{
+=Packets may arrive out of order
+~Packets are encrypted
+~Routers reorder them
+~IP guarantees order
+}
+
+::Q18 Flow Control::
+Why does TCP adjust its sending rate?
+{
+=To match network capacity and avoid congestion
+~To reduce packet size
+~To simplify routing
+~To avoid acknowledgements
+}
+
+::Q19 Edge Complexity::
+Why is reliability handled at endpoints instead of routers?
+{
+=It keeps the network core simple and scalable
+~Routers cannot detect errors
+~Endpoints are faster
+~It reduces packet count
+}
+
+::Q20 Application Layer Role::
+What does the application layer add?
+{
+=Rules for how applications communicate
+~Routing decisions
+~Packet switching
+~Encryption by default
+}
+
+::Q21 Ports Concept::
+Why are ports needed?
+{
+=To allow multiple services on one machine
+~To identify routers
+~To replace IP addresses
+~To encrypt data
+}
+
+::Q22 HTTP Model::
+Why does HTTP use request-response?
+{
+=It simplifies client-server communication
+~It guarantees speed
+~It prevents packet loss
+~It replaces TCP
+}
+
+::Q23 Protocol Rules::
+Why must clients follow protocol rules?
+{
+=Servers only respond to correctly formatted requests
+~Routers enforce rules
+~DNS requires it
+~TCP handles errors
+}
+
+::Q24 Security Mindset::
+Why is defining a threat model important?
+{
+=Security depends on who the attacker is
+~Encryption solves all problems
+~All attackers behave the same
+~Security is automatic
+}
+
+::Q25 Encryption Purpose::
+What problem does encryption solve?
+{
+=Keeping data confidential from unauthorized parties
+~Ensuring delivery
+~Routing packets
+~Reducing packet size
+}
+
+::Q26 Hashing Purpose::
+What problem does hashing solve?
+{
+=Detecting changes to data
+~Hiding data content
+~Routing packets
+~Assigning IP addresses
+}
+
+::Q27 Password Storage::
+Why are passwords hashed?
+{
+=To protect them if storage is compromised
+~To speed up login
+~To encrypt networks
+~To reduce storage size
+}
+
+::Q28 Public Key Insight::
+Why is public key cryptography important?
+{
+=It enables secure communication without shared secrets
+~It replaces TCP
+~It reduces packet size
+~It eliminates routing
+}
+
+::Q29 Certificates Purpose::
+Why do we need certificates?
+{
+=To verify that a public key belongs to a specific entity
+~To encrypt all data
+~To route packets
+~To assign IP addresses
+}
+
+::Q30 Trust Problem::
+Why is trust the hardest problem in Internet security?
+{
+=You must verify identities of unknown systems
+~Encryption is too slow
+~Packets are unreliable
+~Routers cannot be trusted
+}
+
