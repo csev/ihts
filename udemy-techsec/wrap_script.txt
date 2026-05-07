@@ -1,0 +1,85 @@
+Well,
+we have reached the end
+of the course.
+
+I hope that along the way
+you learned not just
+how the Internet works,
+
+but also gained
+a deeper appreciation
+for the decades of research,
+engineering, collaboration,
+and creativity
+that made it all possible.
+
+The modern Internet
+can sometimes feel invisible.
+
+We use it every day.
+
+Packets move around the world.
+Protocols coordinate billions of devices.
+Routers, cables, servers,
+and software all work together
+so smoothly
+that we rarely stop
+to think about it.
+
+But underneath all of that
+is an extraordinary human story.
+
+A story of researchers,
+engineers, universities,
+governments, companies,
+and communities
+working together
+over many decades.
+
+And now,
+you understand a little more
+about how it all fits together.
+
+My hope
+is that this course
+gives you context.
+
+Whether you become
+a software developer,
+a system administrator,
+a cybersecurity expert,
+or simply someone
+who wants to better understand
+the technology around them,
+
+understanding networking
+gives you a stronger foundation.
+
+Especially in the age of AI,
+understanding systems
+and context
+matters more than ever.
+
+Technology changes quickly.
+
+But the core ideas —
+packets, protocols, layering,
+standards, interoperability,
+and human collaboration —
+have stood the test of time.
+
+So thank you
+for spending this time with me.
+
+I hope you enjoyed the course,
+the interviews,
+and the stories.
+
+And I hope this course
+is just one step
+on a much longer journey
+of learning and exploration.
+
+Cheers,
+and I hope to see you
+in another course soon.

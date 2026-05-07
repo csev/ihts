@@ -1,0 +1,150 @@
+Welcome to
+Internet Technology and Security
+on Udemy.
+
+My name is Charles Severance.
+
+I am a Professor
+at the University of Michigan
+School of Information,
+
+and I have been teaching
+online programming
+and technology courses
+to millions of students
+since 1997.
+
+Why take a course
+on Internet Technology
+and Security?
+
+Well, being a great programmer
+is not just about programming.
+
+You must also understand context.
+
+In the age of AI,
+the best programmers —
+the master programmers —
+understand the environment
+in which software operates.
+
+They know more
+than language syntax.
+
+They know more
+than libraries.
+
+They understand systems,
+networks, history,
+architecture,
+and the human problems
+that software is trying to solve.
+
+I have created a series of courses
+that provide a straightforward path
+toward becoming
+one of those master programmers.
+
+But for me,
+that path always starts
+with history and context,
+
+and always with an eye
+toward the human side
+of technology.
+
+My courses on
+Internet History,
+Technology, and Security
+provide a gentle introduction
+to the technical details
+of the Internet
+and networked applications.
+
+And don't worry —
+
+there is no math,
+and there is no programming.
+
+Instead,
+we focus on understanding ideas.
+
+We learn about packets,
+sockets, protocols,
+and layered network architectures.
+
+And we do it in a fun way.
+
+I present the material
+alongside my interviews
+with many of the people
+who actually helped build
+the early Internet.
+
+You get a sense
+of the forty-year research effort
+that led to the Internet
+we all use today.
+
+The course also includes
+a free book titled:
+
+“Introduction to Networking:
+How the Internet Works”
+
+which covers much of the same material
+in written form.
+
+Frankly,
+the course feels more like
+a learning Netflix series.
+
+Put it on your television.
+
+Grab some snacks.
+
+Sit back
+and binge-watch lectures
+and interviews
+about how the Internet works.
+
+There are no stressful deadlines.
+
+No essays.
+
+No pressure.
+
+Just relax,
+enjoy the material,
+and learn.
+
+My goal
+is to start you on the path
+toward becoming
+a master programmer —
+
+through enjoyable courses
+where you learn a great deal
+without making your head hurt.
+
+At the end of the course,
+we will talk again
+about the road ahead
+and the next steps
+on your journey.
+
+But for now,
+
+just sit back,
+relax,
+and enjoy the course.
+
+This course is about understanding
+the Internet,
+networking,
+and how it all works.
+
+Cheers,
+and see you soon.
+
