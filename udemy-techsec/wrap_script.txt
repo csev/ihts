@@ -1,3 +1,17 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Well,
 we have reached the end
 of the course.
@@ -19,7 +33,9 @@ can sometimes feel invisible.
 We use it every day.
 
 Packets move around the world.
-Protocols coordinate billions of devices.
+Protocols coordinate billions
+of devices.
+
 Routers, cables, servers,
 and software all work together
 so smoothly
@@ -83,3 +99,10 @@ of learning and exploration.
 Cheers,
 and I hope to see you
 in another course soon.
+
+
+
+
+
+
+

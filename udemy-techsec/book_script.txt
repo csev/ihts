@@ -1,4 +1,15 @@
-Book Script
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 I have written a book titled
@@ -36,21 +47,29 @@ throughout the course.
 I also created a simple
 speech-to-text audiobook
 that you can listen to with
-a podcast application.
+any podcast application or
+online.
 
-I hope you find
-“Introduction to Networking:
-How the Internet Works”
-useful, enjoyable,
-and a valuable addition to the class.
+I hope you find the book
+a valuable addition to the class.
 
 You will find a link
 to the book’s web site
-and podcast in the resources associated with
+and podcast in the resources
+associated with
 this lecture.
 
 Welcome to the course,
 and I hope to see you online.
 
 Cheers.
+
+
+
+
+
+
+
+
+
 

@@ -1,3 +1,14 @@
+
+
+
+
+
+
+
+
+
+
+
 Welcome to
 Internet Technology and Security
 on Udemy.
@@ -87,15 +98,6 @@ of the forty-year research effort
 that led to the Internet
 we all use today.
 
-The course also includes
-a free book titled:
-
-“Introduction to Networking:
-How the Internet Works”
-
-which covers much of the same material
-in written form.
-
 Frankly,
 the course feels more like
 a learning Netflix series.
@@ -147,4 +149,14 @@ and how it all works.
 
 Cheers,
 and see you soon.
+
+
+
+
+
+
+
+
+
+
 
