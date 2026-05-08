@@ -1,0 +1,23 @@
+ I have written a book titled Introduction to Networking,
+ How the Internet Works, that complements the material
+ in this Udemy course.
+ This book is available both in print and free online.
+ It has been translated into Spanish, Greek, and Russian.
+ One fun fact about the book is that all the figures
+ are drawn in a style called sketch note.
+ There are no words in the figures, only concepts.
+ This means that every translation of the book
+ can use the exact same artwork that was by design.
+ The book roughly covers the first two thirds of this course,
+ focusing on protocols, packets,
+ and layered network architecture.
+ It's designed to be an easy read and helpful companion
+ to the lectures and interviews throughout the course.
+ I've also created a simple speech-to-text audiobook
+ that you can listen to with any podcast application
+ or online, and I hope you find the book
+ a valuable addition to the class.
+ You'll find a link to the book's website and podcast
+ in the resources link associated with these lecture.
+ Welcome to the course, and I hope to see you online.
+ Cheers.

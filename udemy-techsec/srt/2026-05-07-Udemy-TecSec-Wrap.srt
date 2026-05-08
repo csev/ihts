@@ -1,0 +1,96 @@
+1
+00:00:00,000 --> 00:00:03,120
+ Well, we've reached the end of the course.
+
+2
+00:00:03,120 --> 00:00:08,780
+ I hope that along the way, you learned not just how the internet works, but also gained
+
+3
+00:00:08,780 --> 00:00:15,160
+ a deeper appreciation for the decades of research, engineering, collaboration, and creativity
+
+4
+00:00:15,160 --> 00:00:17,360
+ that made it all possible.
+
+5
+00:00:17,360 --> 00:00:21,080
+ The modern internet can sometimes feel invisible.
+
+6
+00:00:21,080 --> 00:00:23,160
+ We use it every day.
+
+7
+00:00:23,160 --> 00:00:29,900
+ Packets move around the world, protocols coordinate billions of devices, routers, cables, servers,
+
+8
+00:00:29,900 --> 00:00:36,960
+ and software all work together so smoothly that we rarely stop to think about it.
+
+9
+00:00:36,960 --> 00:00:41,320
+ But underneath all of that is an extraordinary human story.
+
+10
+00:00:41,320 --> 00:00:48,560
+ A story of researchers, engineers, universities, governments, companies, and communities coming
+
+11
+00:00:48,560 --> 00:00:52,240
+ together and working together over many decades.
+
+12
+00:00:52,240 --> 00:00:57,880
+ And now, you understand a little more about how it all fits together.
+
+13
+00:00:57,880 --> 00:01:02,000
+ My hope is that this course gives you context.
+
+14
+00:01:02,000 --> 00:01:06,720
+ Whether you become a software developer, a system administrator, a cybersecurity expert,
+
+15
+00:01:06,720 --> 00:01:12,200
+ or simply someone who wants to better understand the technology around them, understanding
+
+16
+00:01:12,200 --> 00:01:15,440
+ networking gives you a stronger foundation.
+
+17
+00:01:15,440 --> 00:01:22,860
+ And especially in the age of AI, understanding systems and context matters more than ever.
+
+18
+00:01:22,860 --> 00:01:29,960
+ Technology changes quickly, but the core ideas, packets, protocols, layering, standards, interoperability,
+
+19
+00:01:29,960 --> 00:01:33,160
+ human collaboration have stood the test of time.
+
+20
+00:01:33,160 --> 00:01:35,360
+ So thank you for spending this time with me.
+
+21
+00:01:35,360 --> 00:01:38,680
+ I hope you enjoyed the course, the interviews, and the stories.
+
+22
+00:01:38,680 --> 00:01:44,720
+ And I hope this course is just one step on a much longer journey of learning and exploration.
+
+23
+00:01:44,720 --> 00:01:48,120
+ Cheers, and I hope to see you in another course soon.
+
+24
+00:01:52,860 --> 00:01:58,760
+ [MUSIC PLAYING]
+

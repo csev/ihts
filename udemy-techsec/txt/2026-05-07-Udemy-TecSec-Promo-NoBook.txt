@@ -1,0 +1,52 @@
+ - Welcome to Internet Technology and Security on Udemy.
+ My name is Charles Severance.
+ I'm a professor
+ at the University of Michigan School of Information,
+ and I've been teaching online programming
+ and technology courses to millions of students since 1997.
+ So why take a course on Internet Technology and Security?
+ Well, being a great programmer is not just about programming.
+ You must also understand context,
+ especially in the age of AI.
+ The best programmers, the master programmers,
+ understand the environment in which software operates.
+ They know more than language syntax.
+ They know more than algorithms.
+ They know more than libraries.
+ They understand systems, networks, history, architecture,
+ and the human problems that software is trying to solve.
+ I've created a series of courses
+ that provide a straightforward path
+ to becoming one of those master programmers.
+ But for me, that path always starts with history and context
+ and always with an eye toward the human side of technology.
+ My courses on Internet History, Technology, and Security
+ provide a gentle introduction to the technical details
+ of the internet and networked applications.
+ And don't worry, there is no math and there is no programming.
+ Instead, we focus on understanding ideas.
+ We learn about packets, sockets, protocols,
+ and layered network architectures,
+ and we do it in a fun way.
+ I present all this material alongside some of my interviews
+ with many of the people who actually helped build
+ the early internet.
+ You get a sense of the 40-year research effort
+ that led to the internet that we all use today.
+ Frankly, as I designed it, I wanted this course
+ to feel more like a learning Netflix series.
+ Put it on your television, grab some snacks,
+ sit back, and binge watch lectures and interviews
+ about how the internet works.
+ There are no stressful deadlines, no essays, no pressure.
+ Just relax, enjoy the material, and learn.
+ My goal is to start you on the path
+ toward becoming a master programmer
+ through enjoyable courses where you'll learn a great deal
+ without making your head hurt.
+ And at the end of the course, I'll talk to you again
+ about the road ahead and the next steps
+ you might take on your journey.
+ But for now, just sit back, relax, and enjoy the course.
+ Cheers, see you soon.
+ (upbeat jazz music)
