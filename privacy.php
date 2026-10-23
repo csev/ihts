@@ -69,5 +69,4 @@ Much of the software used in this company is open source so you can examine/audi
 Holt, Michigan 48842
 United States</code></pre>
 <p>Last edited: 09-Dec-2021</p>
-<?php include("foot.php"); ?>
-
+<?php include("foot.php");
